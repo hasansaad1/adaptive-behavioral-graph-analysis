@@ -1,0 +1,483 @@
+{
+  "goals": [
+    "Tap next",
+    "Tap button1",
+    "Input text in United States",
+    "Input text in 1",
+    "Input text in phone number",
+    "Tap ImageView",
+    "Press Back to return to the main app list",
+    "Wait for UI to settle"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap next",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap button1",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Input text in United States",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Input text in 1",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Input text in phone number",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Tap ImageView",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Press Back to return to the main app list",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Wait for UI to settle",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec": "Next next Button · United States country EditText · 1 country_code EditText · phone number number EditText · More options ImageView",
+    "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12": "OK button1 Button"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:app.prav.client:id/next|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "visible_on": [
+          "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec"
+        ],
+        "attempts": 20,
+        "successes": 20,
+        "last_from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "last_to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12"
+      },
+      "nav:app.prav.client:id/next|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "visible_on": [
+          "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12"
+        ],
+        "attempts": 17,
+        "successes": 17,
+        "last_from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "last_to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec"
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+    "root_screen_signature": "d0a4fd2d02e10521b0b03a95bb99d1c449d4d4797ac0826aa365126cb960eae3",
+    "root_screen_hint": "Next next Button · United States country EditText · 1 country_code EditText · phone number number EditText · More options ImageView",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "app.prav.client",
+          "screen_hash": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+          "interactive_count": 5,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "d0a4fd2d02e10521b0b03a95bb99d1c449d4d4797ac0826aa365126cb960eae3",
+          "root_landmark_score": 1
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app by searching for a phone number or country code, then tap on the result to view more information. They then scroll through a list of available phone numbers, selecting one to dial. The user may also use the search bar to find specific phone numbers. Occasionally, users will navigate up to return to the main screen.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

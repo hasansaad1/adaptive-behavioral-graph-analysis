@@ -1,0 +1,83 @@
+{
+  "active_categories": [
+    "database",
+    "file_io",
+    "package_manager",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "cf.playhi.freezeyou",
+  "batch": "extend",
+  "end_timestamp": "2026-08-15T02:44:41.401000Z",
+  "end_timestamp_ms": 1786761881401,
+  "event_counts": {
+    "mapped": 268,
+    "mapped_rate": 0.45969125214408235,
+    "total": 583
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "86b80fef253c_llm_s8__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "PackageManager.getInstalledPackages",
+    "SQLiteDatabase.execSQL",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 4,
+  "n_edges": 6,
+  "reference_tier_pass": true,
+  "session_id": "86b80fef253c_llm_s8",
+  "session_index_within_app": 8,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/86b80fef253c_cf.playhi.freezeyou/dynamic/llm/session_8/cf.playhi.freezeyou_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/86b80fef253c_cf.playhi.freezeyou/dynamic/llm/session_8/cf.playhi.freezeyou_dynamic_metadata.json",
+  "start_timestamp": "2026-08-15T02:37:05.294000Z",
+  "start_timestamp_ms": 1786761425294,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 583,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 20,
+    "n_with_timestamp": 583,
+    "unparseable_line_numbers_sample": [
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      516,
+      517,
+      518,
+      519,
+      520,
+      521,
+      522,
+      523,
+      524,
+      525
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 456.191
+}

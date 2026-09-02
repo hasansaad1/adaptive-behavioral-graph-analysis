@@ -1,0 +1,19 @@
+12629 1783879685.801451 recvfrom(45, 0x7ffb999250, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+12629 1783879685.827523 recvfrom(45, "nysv\0\0\0\0\0\0\0\0\0\0\0\0rM\33\304\217\\\0\0L\344\\\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+12629 1783879685.827800 recvfrom(45, 0x7ffb999730, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+12638 1783879687.254209 exit(0)         = ?
+12638 1783879687.254331 +++ exited with 0 +++
+12637 1783879687.257001 exit(0 <unfinished ...>
+12639 1783879687.257134 exit(0 <unfinished ...>
+12637 1783879687.257206 <... exit resumed>) = ?
+12639 1783879687.257227 <... exit resumed>) = ?
+12639 1783879687.257517 +++ exited with 0 +++
+12637 1783879687.257527 +++ exited with 0 +++
+12636 1783879687.257763 exit(0)         = ?
+12636 1783879687.258092 +++ exited with 0 +++
+12650 1783879687.260903 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+12650 1783879687.261378 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+12650 1783879687.261735 newfstatat(AT_FDCWD, "/data/app/a2dp.Vol-Prsb6Q-9GmCnmjAUqMWBdA==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+12650 1783879687.262101 newfstatat(AT_FDCWD, "/data/app/a2dp.Vol-Prsb6Q-9GmCnmjAUqMWBdA==/base.apk", {st_mode=S_IFREG|0644, st_size=2748737, ...}, AT_SYMLINK_NOFOLLOW) = 0
+12650 1783879687.262491 getcwd("/", 4096) = 2
+12650 1783879687.262895 newfstatat(AT_FDCWD, "/base.apk", 0x73d3949690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)

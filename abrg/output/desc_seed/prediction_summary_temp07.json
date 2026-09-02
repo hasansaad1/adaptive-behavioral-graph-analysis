@@ -1,0 +1,106 @@
+{
+  "temperature": 0.7,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "parse_success_rate_per_seed": {
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0
+  },
+  "cross_seed_agreement": {
+    "mean_per_app_per_category_std": 0.16150497174439854,
+    "mean_pairwise_seed_correlation": 0.5026525182129615,
+    "pairwise_seed_correlations": [
+      0.6064586278463608,
+      0.6666910878347856,
+      0.45232807198858554,
+      0.36049458293750825,
+      0.7076111712074287,
+      0.5139668764240156,
+      0.3560309203019946,
+      0.47523388252814275,
+      0.41534769726644527,
+      0.47236226379434804
+    ]
+  },
+  "displacement_from_temp00": {
+    "mean_absolute_difference": 0.14755811320754716,
+    "correlation_temp07_mean_vs_temp00": 0.7860126136336429
+  },
+  "per_category_cross_seed_std": {
+    "accounts": 0.18249508829327377,
+    "audio": 0.1663168201919554,
+    "camera": 0.20468755211640965,
+    "clipboard": 0.11558500271045921,
+    "content_access": 0.17137310350555834,
+    "crypto": 0.1356116589767038,
+    "database": 0.17069219326283064,
+    "device_info": 0.17894671945623783,
+    "dynamic_code_loading": 0.14533603876654608,
+    "file_io": 0.1608344610682895,
+    "ipc_intents": 0.18070589862321362,
+    "location": 0.14950766226518075,
+    "media": 0.1786328353500239,
+    "native_code": 0.1161525512331231,
+    "network": 0.1747493959047195,
+    "notifications": 0.1403524954120206,
+    "package_manager": 0.1466205434878292,
+    "process": 0.16918583229738404,
+    "sms": 0.11056089579560856,
+    "storage": 0.1726538130845297,
+    "telephony": 0.16222316801124156,
+    "webview": 0.2198856485636291
+  },
+  "ipc_intents_cross_seed_std": 0.18070589862321362,
+  "highest_cross_seed_std_categories": [
+    {
+      "category": "webview",
+      "mean_per_app_std": 0.2198856485636291
+    },
+    {
+      "category": "camera",
+      "mean_per_app_std": 0.20468755211640965
+    },
+    {
+      "category": "accounts",
+      "mean_per_app_std": 0.18249508829327377
+    },
+    {
+      "category": "ipc_intents",
+      "mean_per_app_std": 0.18070589862321362
+    },
+    {
+      "category": "device_info",
+      "mean_per_app_std": 0.17894671945623783
+    }
+  ],
+  "lowest_cross_seed_std_categories": [
+    {
+      "category": "notifications",
+      "mean_per_app_std": 0.1403524954120206
+    },
+    {
+      "category": "crypto",
+      "mean_per_app_std": 0.1356116589767038
+    },
+    {
+      "category": "native_code",
+      "mean_per_app_std": 0.1161525512331231
+    },
+    {
+      "category": "clipboard",
+      "mean_per_app_std": 0.11558500271045921
+    },
+    {
+      "category": "sms",
+      "mean_per_app_std": 0.11056089579560856
+    }
+  ]
+}

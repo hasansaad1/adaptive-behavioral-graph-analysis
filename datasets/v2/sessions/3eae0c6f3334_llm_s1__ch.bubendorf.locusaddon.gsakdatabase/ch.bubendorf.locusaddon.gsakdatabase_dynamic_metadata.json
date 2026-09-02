@@ -1,0 +1,156 @@
+{
+  "package_name": "ch.bubendorf.locusaddon.gsakdatabase",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/ch.bubendorf.locusaddon.gsakdatabase_38.apk",
+  "apk_sha256": "3eae0c6f3334fe6dbb70d3254176108a56c3d3eee3693ef6b7b4e0c648689426",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1784186427841,
+  "elapsed_sec": 460.663,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 1899689020,
+  "session_mode": "identical",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "8811",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "ch.bubendorf.locusaddon.gsakdatabase_frida.jsonl",
+  "frida_lines": 641,
+  "strace_log_path": "ch.bubendorf.locusaddon.gsakdatabase_strace.log",
+  "strace_size_bytes": 28413,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 1899689020,
+  "arm": "llm",
+  "session_id": "3eae0c6f3334_llm_s1",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "weak:low_meaningful_categories",
+  "llm_actions_count": 62,
+  "llm_action_log_path": "ch.bubendorf.locusaddon.gsakdatabase_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [],
+  "llm_ux_plan_path": "ch.bubendorf.locusaddon.gsakdatabase_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "ch.bubendorf.locusaddon.gsakdatabase_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "",
+  "llm_primary_ux_fallback_reason": "",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "5b274d246fb2f8f2d91ae6581c379e16f9d8deb2533f02d9b730b55b579b6621",
+    "root_screen_signature": "4272d140de35ce5e2ea39e5e8dd99de9046825da0530907b1ea230733d130e26",
+    "root_screen_hint": "LinearLayout \u00b7 LinearLayout \u00b7 LinearLayout \u00b7 LinearLayout \u00b7 LinearLayout",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "5b274d246fb2f8f2d91ae6581c379e16f9d8deb2533f02d9b730b55b579b6621",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ch.bubendorf.locusaddon.gsakdatabase",
+          "screen_hash": "5b274d246fb2f8f2d91ae6581c379e16f9d8deb2533f02d9b730b55b579b6621",
+          "interactive_count": 5,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "4272d140de35ce5e2ea39e5e8dd99de9046825da0530907b1ea230733d130e26",
+          "root_landmark_score": 0
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/3eae0c6f3334_ch.bubendorf.locusaddon.gsakdatabase/dynamic/llm/session_1/ch.bubendorf.locusaddon.gsakdatabase_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "ch.bubendorf.locusaddon.gsakdatabase",
+    "app_name": "ch.bubendorf.locusaddon.gsakdatabase",
+    "category": "Unknown",
+    "purpose": "No description available",
+    "ux_type": "hybrid",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/ch.bubendorf.locusaddon.gsakdatabase"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 0,
+    "dialogs_tapped_after_warmup": 0,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 53,
+        "screen_hash": "451f30aee6978e8d"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 53,
+        "screen_hash": "451f30aee6978e8d"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/3eae0c6f3334_ch.bubendorf.locusaddon.gsakdatabase/dynamic/llm/session_1/ch.bubendorf.locusaddon.gsakdatabase_verified_start.xml",
+    "pre_setup_wall_sec": 4.171,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 5,
+  "frida_reattach_successes": 5,
+  "frida_valid_events": 195,
+  "frida_meaningful_events": 183,
+  "frida_meaningful_categories": 1
+}

@@ -1,0 +1,88 @@
+{
+  "active_categories": [
+    "crypto",
+    "database",
+    "file_io",
+    "ipc_intents",
+    "network",
+    "storage"
+  ],
+  "app_id": "InfinityLoop1309.NewPipeEnhanced",
+  "batch": "original",
+  "end_timestamp": "2026-07-12T17:41:38.872000Z",
+  "end_timestamp_ms": 1783878098872,
+  "event_counts": {
+    "mapped": 1329,
+    "mapped_rate": 0.6685110663983903,
+    "total": 1988
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "b77ab89fd70e_llm_s2__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "Context.sendBroadcast",
+    "File.delete",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "SQLiteDatabase.execSQL",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString",
+    "Socket.connect",
+    "URL.openConnection"
+  ],
+  "n_active_nodes": 6,
+  "n_edges": 25,
+  "reference_tier_pass": true,
+  "session_id": "b77ab89fd70e_llm_s2",
+  "session_index_within_app": 2,
+  "source_frida_path": "datasets/v2/sessions/b77ab89fd70e_llm_s2__InfinityLoop1309.NewPipeEnhanced/InfinityLoop1309.NewPipeEnhanced_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/b77ab89fd70e_llm_s2__InfinityLoop1309.NewPipeEnhanced/InfinityLoop1309.NewPipeEnhanced_dynamic_metadata.json",
+  "start_timestamp": "2026-07-12T17:34:01.291000Z",
+  "start_timestamp_ms": 1783877641291,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1988,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 30,
+    "n_with_timestamp": 1988,
+    "unparseable_line_numbers_sample": [
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441,
+      442,
+      443
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 457.581
+}

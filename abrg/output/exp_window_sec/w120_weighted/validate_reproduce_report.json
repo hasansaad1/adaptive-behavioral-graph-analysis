@@ -1,0 +1,26 @@
+{
+  "run_dir": "abrg/output/exp_window_sec/w120_weighted",
+  "reports": [
+    {
+      "ok": false,
+      "expected": {
+        "train_med": 0.6540731191635132,
+        "test_med": 0.7001256942749023,
+        "ratio": 1.070408909588404
+      },
+      "actual": {
+        "train_med": 0.563602089881897,
+        "test_med": 0.6725911498069763,
+        "ratio": 1.1933794460342013
+      },
+      "diffs": {
+        "\u0394train_med": -0.09047102928161621,
+        "\u0394test_med": -0.027534544467926025,
+        "\u0394ratio": 0.12297053644579736
+      },
+      "kind": "ratio",
+      "mode": "cli",
+      "repro_dir": "abrg/output/exp_window_sec/w120_weighted/nb_repro"
+    }
+  ]
+}

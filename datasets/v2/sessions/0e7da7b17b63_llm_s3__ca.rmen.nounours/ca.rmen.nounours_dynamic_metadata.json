@@ -1,0 +1,199 @@
+{
+  "package_name": "ca.rmen.nounours",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/ca.rmen.nounours_358.apk",
+  "apk_sha256": "0e7da7b17b63d727fb2a3a75e0576e1a42e286ebc8fb73b368da5518a728c682",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1784161679002,
+  "elapsed_sec": 466.047,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 1612043992,
+  "session_mode": "varied",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "9984",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "ca.rmen.nounours_frida.jsonl",
+  "frida_lines": 807,
+  "strace_log_path": "ca.rmen.nounours_strace.log",
+  "strace_size_bytes": 69648,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 669568240,
+  "arm": "llm",
+  "session_id": "0e7da7b17b63_llm_s3",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "good",
+  "llm_actions_count": 62,
+  "llm_action_log_path": "ca.rmen.nounours_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Tap More",
+    "Tap Navigate",
+    "Tap Actions",
+    "Tap Options",
+    "Press Back to return to the main app list",
+    "Wait for UI to settle"
+  ],
+  "llm_ux_plan_path": "ca.rmen.nounours_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "ca.rmen.nounours_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical users navigate through a list of items, often with a vertical swipe gesture to scroll between items. The user may also use horizontal swipes to switch between different sections or tabs within the app. Opening the 'More options' tab is often the first step before performing an action. The primary interaction involves tapping on individual items to view more information.",
+  "llm_primary_ux_fallback_reason": "post_nav_realism_blend:goal_index>=4",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+    "root_screen_signature": "4c06c37b995eb6442dac9421a3190255b6073f28c9bd6bfe2ddbe28172ea0754",
+    "root_screen_hint": "Actions menu_animation TextView \u00b7 Options menu_options TextView \u00b7 More options ImageButton",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ca.rmen.nounours",
+          "screen_hash": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+          "interactive_count": 3,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "4c06c37b995eb6442dac9421a3190255b6073f28c9bd6bfe2ddbe28172ea0754",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/0e7da7b17b63_ca.rmen.nounours/dynamic/llm/session_3/ca.rmen.nounours_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "ca.rmen.nounours",
+    "app_name": "ca.rmen.nounours",
+    "category": "Unknown",
+    "purpose": "No description available",
+    "ux_type": "hybrid",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/ca.rmen.nounours"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 1,
+    "dialogs_tapped_after_warmup": 1,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          297,
+          136
+        ],
+        "node_count": 21,
+        "screen_hash": "08cd5f1e16455e10"
+      },
+      {
+        "round": 2,
+        "action": "back",
+        "reason": "transition_guard_stuck_repeat",
+        "screen_hash": "08cd5f1e16455e10",
+        "repeat_hash_streak": 1
+      },
+      {
+        "round": 3,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 24,
+        "screen_hash": "256142fa4e6015c1"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          297,
+          136
+        ],
+        "node_count": 21,
+        "screen_hash": "08cd5f1e16455e10"
+      },
+      {
+        "round": 2,
+        "action": "back",
+        "reason": "transition_guard_stuck_repeat",
+        "screen_hash": "08cd5f1e16455e10",
+        "repeat_hash_streak": 1
+      },
+      {
+        "round": 3,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 24,
+        "screen_hash": "256142fa4e6015c1"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/0e7da7b17b63_ca.rmen.nounours/dynamic/llm/session_3/ca.rmen.nounours_verified_start.xml",
+    "pre_setup_wall_sec": 12.234,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 2,
+  "frida_reattach_successes": 2,
+  "frida_valid_events": 589,
+  "frida_meaningful_events": 498,
+  "frida_meaningful_categories": 2
+}

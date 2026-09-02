@@ -1,0 +1,82 @@
+{
+  "active_categories": [
+    "crypto",
+    "file_io",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "at.linuxtage.Eventfahrplan",
+  "batch": "extend",
+  "end_timestamp": "2026-08-15T00:35:42.312000Z",
+  "end_timestamp_ms": 1786754142312,
+  "event_counts": {
+    "mapped": 48,
+    "mapped_rate": 0.043795620437956206,
+    "total": 1096
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "84bca8b5903c_llm_s8__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 6,
+  "reference_tier_pass": true,
+  "session_id": "84bca8b5903c_llm_s8",
+  "session_index_within_app": 8,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/84bca8b5903c_at.linuxtage.Eventfahrplan/dynamic/llm/session_8/at.linuxtage.Eventfahrplan_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/84bca8b5903c_at.linuxtage.Eventfahrplan/dynamic/llm/session_8/at.linuxtage.Eventfahrplan_dynamic_metadata.json",
+  "start_timestamp": "2026-08-15T00:27:59.043000Z",
+  "start_timestamp_ms": 1786753679043,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1096,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 50,
+    "n_with_timestamp": 1096,
+    "unparseable_line_numbers_sample": [
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 463.356
+}

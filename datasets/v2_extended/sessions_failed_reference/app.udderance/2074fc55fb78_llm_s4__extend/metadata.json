@@ -1,0 +1,67 @@
+{
+  "active_categories": [
+    "file_io",
+    "webview"
+  ],
+  "analysis_status": "flag:webview_dominant",
+  "analyze_exit_status": 0,
+  "app_id": "app.udderance",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T01:09:58.266000Z",
+  "end_timestamp_ms": 1786669798266,
+  "event_counts": {
+    "mapped": 178,
+    "mapped_rate": 0.1301169590643275,
+    "total": 1368
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "2074fc55fb78_llm_s4__extend",
+  "failure_reason": "analyze_status:flag:webview_dominant",
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "WebView.loadUrl"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 1,
+  "reference_tier_pass": false,
+  "session_id": "2074fc55fb78_llm_s4",
+  "session_index_within_app": 4,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/2074fc55fb78_app.udderance/dynamic/llm/session_4/app.udderance_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/2074fc55fb78_app.udderance/dynamic/llm/session_4/app.udderance_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T01:02:18.912000Z",
+  "start_timestamp_ms": 1786669338912,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1368,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 10,
+    "n_with_timestamp": 1368,
+    "unparseable_line_numbers_sample": [
+      1283,
+      1284,
+      1285,
+      1286,
+      1287,
+      1288,
+      1289,
+      1290,
+      1291,
+      1292
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 459.465
+}

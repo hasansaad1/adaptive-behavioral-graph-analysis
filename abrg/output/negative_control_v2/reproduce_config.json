@@ -1,0 +1,19 @@
+{
+  "kind": "negative_control",
+  "run_id": "negative_control_v2",
+  "axis": "negative control negative_control_v2",
+  "cli_module": "abrg.negative_control",
+  "dataset": "v2",
+  "edge_weight": false,
+  "pins": {
+    "seed": 42,
+    "test_ratio": 0.2,
+    "window_sec": 60.0,
+    "edge_weight_in_encoder": false
+  },
+  "expected": {
+    "impossible_edge_auc": 0.9384640000000001,
+    "impossible_edge_median_delta": 0.22822606563568115
+  },
+  "atol_auc": 0.02
+}

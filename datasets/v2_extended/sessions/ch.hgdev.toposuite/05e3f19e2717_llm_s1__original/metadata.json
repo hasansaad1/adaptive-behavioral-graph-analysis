@@ -1,0 +1,76 @@
+{
+  "active_categories": [
+    "file_io",
+    "ipc_intents"
+  ],
+  "app_id": "ch.hgdev.toposuite",
+  "batch": "original",
+  "end_timestamp": "2026-07-19T00:28:30.455000Z",
+  "end_timestamp_ms": 1784420910455,
+  "event_counts": {
+    "mapped": 224,
+    "mapped_rate": 0.09364548494983277,
+    "total": 2392
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "05e3f19e2717_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "Context.startActivity",
+    "File.delete"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 1,
+  "reference_tier_pass": true,
+  "session_id": "05e3f19e2717_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/05e3f19e2717_llm_s1__ch.hgdev.toposuite/ch.hgdev.toposuite_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/05e3f19e2717_llm_s1__ch.hgdev.toposuite/ch.hgdev.toposuite_dynamic_metadata.json",
+  "start_timestamp": "2026-07-19T00:20:39.679000Z",
+  "start_timestamp_ms": 1784420439679,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 2392,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 40,
+    "n_with_timestamp": 2392,
+    "unparseable_line_numbers_sample": [
+      448,
+      449,
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457,
+      713,
+      714,
+      715,
+      716,
+      717,
+      718,
+      719,
+      720,
+      721,
+      722
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 470.776
+}

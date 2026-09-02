@@ -1,0 +1,773 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "ca.rmen.android.scrumchatter",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_hash": "1bca0dff8b431c6cced949dd2ca230ca16fb7c1fc921eb577cf3196816c85c2f",
+      "hint": "OK button1 Button · CANCEL button2 Button",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "2145b45550fbd0946e488b3c5721ac526db27f6bb70a3ff7e099acedd0ee343b",
+      "hint": "Start btn_start_stop_member ImageButton · Start btn_start_stop_member ImageButton · Stop meeting btn_stop_meeting ImageButton · Navigate up ImageButton · More options ImageView · LinearLayout · LinearLayout · LinearLayout",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 6
+    },
+    {
+      "screen_hash": "56fc191132399ed5274d552cdc18a36971ef4da904c8cc67c24b9b35d3fb528f",
+      "hint": "Search option_menu_search TextView · Grid view sub_menu_grid TextView · Show roots ImageButton · More options ImageView · Audio Chip · Documents Chip · Images Chip · Videos Chip",
+      "visit_count": 2
+    },
+    {
+      "screen_hash": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+      "hint": "OK button1 Button · CANCEL button2 Button",
+      "visit_count": 4
+    },
+    {
+      "screen_hash": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+      "hint": "Delete meeting btn_delete_meeting ImageButton · Import database action_import TextView · Share action_share TextView · fab_new_meeting ImageButton · Navigate up ImageButton · More options ImageView · ActionBar$Tab · ActionBar$Tab · LinearLayout",
+      "visit_count": 6
+    },
+    {
+      "screen_hash": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+      "hint": "Import database action_import TextView · fab_new_meeting ImageButton · Navigate up ImageButton · More options ImageView · ActionBar$Tab · ActionBar$Tab",
+      "visit_count": 9
+    },
+    {
+      "screen_hash": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+      "hint": "Start btn_start_stop_member ImageButton · Start btn_start_stop_member ImageButton · Navigate up ImageButton · More options ImageView · LinearLayout · LinearLayout · LinearLayout",
+      "visit_count": 8
+    },
+    {
+      "screen_hash": "f5d95b545bc2d57ab23d00fd3c13f0827cac8f115c33432b2bef243827cda968",
+      "hint": "Delete meeting btn_delete_meeting ImageButton · Delete meeting btn_delete_meeting ImageButton · Import database action_import TextView · Share action_share TextView · fab_new_meeting ImageButton · Navigate up ImageButton · More options ImageView · ActionBar$Tab · ActionBar$Tab · LinearLayout",
+      "visit_count": 1
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+      "to": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.rmen.android.scrumchatter:id/fab_new_meeting",
+        "target_content_desc": "",
+        "x": 115,
+        "y": 1678,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.rmen.android.scrumchatter:id/fab_new_meeting",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:ca.rmen.android.scrumchatter:id/fab_new_meeting|"
+    },
+    {
+      "step": 2,
+      "from": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 3,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 4,
+      "from": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 5,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 6,
+      "from": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+      "to": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 7,
+      "from": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+      "to": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.rmen.android.scrumchatter:id/fab_new_meeting",
+        "target_content_desc": "",
+        "x": 115,
+        "y": 1678,
+        "reason": "bfs_nav_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.rmen.android.scrumchatter:id/fab_new_meeting",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:ca.rmen.android.scrumchatter:id/fab_new_meeting|"
+    },
+    {
+      "step": 8,
+      "from": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+      "to": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.rmen.android.scrumchatter:id/btn_start_stop_member",
+        "target_content_desc": "Start",
+        "x": 943,
+        "y": 410,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.rmen.android.scrumchatter:id/btn_start_stop_member",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.rmen.android.scrumchatter:id/btn_start_stop_member|Start"
+    },
+    {
+      "step": 9,
+      "from": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|More options"
+    },
+    {
+      "step": 10,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 11,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "wait",
+        "reason": "bfs_avoid_back_loop"
+      },
+      "ok": true,
+      "outcome": "wait",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"wait\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 12,
+      "from": "f5d95b545bc2d57ab23d00fd3c13f0827cac8f115c33432b2bef243827cda968",
+      "to": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.rmen.android.scrumchatter:id/btn_delete_meeting",
+        "target_content_desc": "Delete meeting",
+        "x": 949,
+        "y": 538,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.rmen.android.scrumchatter:id/btn_delete_meeting",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:ca.rmen.android.scrumchatter:id/btn_delete_meeting|Delete meeting"
+    },
+    {
+      "step": 13,
+      "from": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+      "to": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 802,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 14,
+      "from": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+      "to": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.rmen.android.scrumchatter:id/btn_delete_meeting",
+        "target_content_desc": "Delete meeting",
+        "x": 949,
+        "y": 538,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.rmen.android.scrumchatter:id/btn_delete_meeting",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:ca.rmen.android.scrumchatter:id/btn_delete_meeting|Delete meeting"
+    },
+    {
+      "step": 15,
+      "from": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+      "to": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "x": 617,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button2|"
+    },
+    {
+      "step": 16,
+      "from": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+      "to": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.rmen.android.scrumchatter:id/btn_delete_meeting",
+        "target_content_desc": "Delete meeting",
+        "x": 949,
+        "y": 538,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.rmen.android.scrumchatter:id/btn_delete_meeting",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:ca.rmen.android.scrumchatter:id/btn_delete_meeting|Delete meeting"
+    },
+    {
+      "step": 17,
+      "from": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+      "to": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 802,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 18,
+      "from": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+      "to": "56fc191132399ed5274d552cdc18a36971ef4da904c8cc67c24b9b35d3fb528f",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.rmen.android.scrumchatter:id/action_import",
+        "target_content_desc": "Import database",
+        "x": 911,
+        "y": 157,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.rmen.android.scrumchatter:id/action_import",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:ca.rmen.android.scrumchatter:id/action_import|Import database"
+    },
+    {
+      "step": 19,
+      "from": "56fc191132399ed5274d552cdc18a36971ef4da904c8cc67c24b9b35d3fb528f",
+      "to": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+      "action": {
+        "action_type": "back",
+        "reason": "dialog_policy_recover_to_target"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "recovery:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 20,
+      "from": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+      "to": "56fc191132399ed5274d552cdc18a36971ef4da904c8cc67c24b9b35d3fb528f",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.rmen.android.scrumchatter:id/action_import",
+        "target_content_desc": "Import database",
+        "x": 911,
+        "y": 157,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.rmen.android.scrumchatter:id/action_import",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:ca.rmen.android.scrumchatter:id/action_import|Import database"
+    },
+    {
+      "step": 21,
+      "from": "56fc191132399ed5274d552cdc18a36971ef4da904c8cc67c24b9b35d3fb528f",
+      "to": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+      "action": {
+        "action_type": "back",
+        "reason": "dialog_policy_recover_to_target"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "recovery:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 22,
+      "from": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 157,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 23,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "nav:ca.rmen.android.scrumchatter:id/fab_new_meeting|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ca.rmen.android.scrumchatter:id/fab_new_meeting",
+        "target_content_desc": "",
+        "visible_on": [
+          "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+          "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+          "f5d95b545bc2d57ab23d00fd3c13f0827cac8f115c33432b2bef243827cda968"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+        "last_to": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b"
+      },
+      "expand:|More options": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 4,
+        "successes": 4,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1"
+      },
+      "expand:|Navigate up": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+        "last_to": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646"
+      },
+      "tab:ca.rmen.android.scrumchatter:id/btn_start_stop_member|Start": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.rmen.android.scrumchatter:id/btn_start_stop_member",
+        "target_content_desc": "Start",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+        "last_to": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b"
+      },
+      "tab:|More options": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:{\"action_type\": \"wait\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:ca.rmen.android.scrumchatter:id/btn_delete_meeting|Delete meeting": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "ca.rmen.android.scrumchatter:id/btn_delete_meeting",
+        "target_content_desc": "Delete meeting",
+        "visible_on": [],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+        "last_to": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa"
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+        "last_to": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1"
+      },
+      "tab:android:id/button2|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+        "last_to": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646"
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:android:id/button2|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:ca.rmen.android.scrumchatter:id/action_import|Import database": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "ca.rmen.android.scrumchatter:id/action_import",
+        "target_content_desc": "Import database",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+        "last_to": "56fc191132399ed5274d552cdc18a36971ef4da904c8cc67c24b9b35d3fb528f"
+      },
+      "recovery:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "recovery",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "56fc191132399ed5274d552cdc18a36971ef4da904c8cc67c24b9b35d3fb528f",
+        "last_to": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1"
+      }
+    },
+    "edges": [
+      {
+        "from": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+        "to": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+        "target_key": "nav:ca.rmen.android.scrumchatter:id/fab_new_meeting|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+        "to": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+        "to": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+        "target_key": "nav:ca.rmen.android.scrumchatter:id/fab_new_meeting|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+        "to": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+        "target_key": "tab:ca.rmen.android.scrumchatter:id/btn_start_stop_member|Start",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e2b4bc996ad1585fa7d17d6272a64df36b3f7d907ece214f02babd6e0d75c68b",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:{\"action_type\": \"wait\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "wait",
+        "reason": "bfs_avoid_back_loop"
+      },
+      {
+        "from": "f5d95b545bc2d57ab23d00fd3c13f0827cac8f115c33432b2bef243827cda968",
+        "to": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+        "target_key": "expand:ca.rmen.android.scrumchatter:id/btn_delete_meeting|Delete meeting",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+        "to": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+        "to": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+        "target_key": "expand:ca.rmen.android.scrumchatter:id/btn_delete_meeting|Delete meeting",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+        "to": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "84a8910db0228df551479b0d8b06ec6d1c8ed4576742ae4a1d5f60c818b66646",
+        "to": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+        "target_key": "expand:ca.rmen.android.scrumchatter:id/btn_delete_meeting|Delete meeting",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "809cc564e8bc4a5a9fdd93696022c43ed224a799c92746314fbe0dc2862789fa",
+        "to": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+        "to": "56fc191132399ed5274d552cdc18a36971ef4da904c8cc67c24b9b35d3fb528f",
+        "target_key": "expand:ca.rmen.android.scrumchatter:id/action_import|Import database",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "56fc191132399ed5274d552cdc18a36971ef4da904c8cc67c24b9b35d3fb528f",
+        "to": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+        "target_key": "recovery:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "dialog_policy_recover_to_target"
+      },
+      {
+        "from": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+        "to": "56fc191132399ed5274d552cdc18a36971ef4da904c8cc67c24b9b35d3fb528f",
+        "target_key": "expand:ca.rmen.android.scrumchatter:id/action_import|Import database",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "56fc191132399ed5274d552cdc18a36971ef4da904c8cc67c24b9b35d3fb528f",
+        "to": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+        "target_key": "recovery:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "dialog_policy_recover_to_target"
+      },
+      {
+        "from": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "d41e1f8a4827bbbdbed81217256dbfe9f24937c0915eb4f52be947278564b8e1",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      }
+    ]
+  }
+}

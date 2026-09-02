@@ -1,0 +1,1181 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "bus.chio.wishmaster",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_hash": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+      "hint": "ADDRESS newtab_open_address_bar Button · SAVED newtab_open_local Button · list ListView · More options ImageButton · Open drawer ImageButton",
+      "visit_count": 12
+    },
+    {
+      "screen_hash": "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f",
+      "hint": "CANCEL button2 Button",
+      "visit_count": 3
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 2
+    },
+    {
+      "screen_hash": "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d",
+      "hint": "Favorites sidebar_btn_favorites ImageView · History sidebar_btn_history ImageView · New Tab sidebar_btn_newtab ImageView · ADDRESS newtab_open_address_bar Button · SAVED newtab_open_local Button · list ListView · sidebar_tabs_list ListView · Close drawer ImageButton · More options ImageButton",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "b8e55ff9de81c4b65e8877cf86eeed351c18b50d1616e6476661449c81542672",
+      "hint": "Allow permission_allow_button Button · Deny permission_deny_button Button",
+      "visit_count": 0
+    },
+    {
+      "screen_hash": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "hint": "GO newtab_address_go Button · ADDRESS newtab_open_address_bar Button · SAVED newtab_open_local Button · http:// newtab_address_field EditText · list ListView · More options ImageButton · Open drawer ImageButton",
+      "visit_count": 45
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_open_address_bar",
+        "target_content_desc": "",
+        "x": 270,
+        "y": 273,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_open_address_bar",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_open_address_bar|"
+    },
+    {
+      "step": 2,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 3,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_open_address_bar",
+        "target_content_desc": "",
+        "x": 270,
+        "y": 273,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_open_address_bar",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_open_address_bar|"
+    },
+    {
+      "step": 4,
+      "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_open_address_bar",
+        "target_content_desc": "",
+        "x": 270,
+        "y": 273,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_open_address_bar",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_open_address_bar|"
+    },
+    {
+      "step": 5,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "b8e55ff9de81c4b65e8877cf86eeed351c18b50d1616e6476661449c81542672",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_open_local",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 273,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_open_local",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_open_local|"
+    },
+    {
+      "step": 6,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|More options"
+    },
+    {
+      "step": 7,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 8,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_field",
+        "target_content_desc": "",
+        "x": 424,
+        "y": 395,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_field",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_field|"
+    },
+    {
+      "step": 9,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 10,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 11,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 12,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 13,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 14,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 15,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 16,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 17,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 18,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 19,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 20,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 21,
+      "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+      "to": "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_open_local",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 273,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_open_local",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_open_local|"
+    },
+    {
+      "step": 22,
+      "from": "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f",
+      "to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "x": 877,
+        "y": 1124,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button2|"
+    },
+    {
+      "step": 23,
+      "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+      "to": "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Open drawer",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Open drawer",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:|Open drawer"
+    },
+    {
+      "step": 24,
+      "from": "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d",
+      "to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/sidebar_btn_newtab",
+        "target_content_desc": "New Tab",
+        "x": 140,
+        "y": 273,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/sidebar_btn_newtab",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/sidebar_btn_newtab|New Tab"
+    },
+    {
+      "step": 25,
+      "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|More options"
+    },
+    {
+      "step": 26,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 27,
+      "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_open_address_bar",
+        "target_content_desc": "",
+        "x": 270,
+        "y": 273,
+        "reason": "bfs_tab_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_open_address_bar",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_open_address_bar|"
+    },
+    {
+      "step": 28,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 29,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 30,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 31,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 32,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 33,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 34,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 35,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 36,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 37,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 38,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 39,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    },
+    {
+      "step": 40,
+      "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "x": 964,
+        "y": 395,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:bus.chio.wishmaster:id/newtab_address_go",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:bus.chio.wishmaster:id/newtab_open_address_bar|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_open_address_bar",
+        "target_content_desc": "",
+        "visible_on": [
+          "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+          "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+          "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d"
+        ],
+        "attempts": 4,
+        "successes": 4,
+        "last_from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "last_to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c"
+      },
+      "tab:bus.chio.wishmaster:id/newtab_open_local|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_open_local",
+        "target_content_desc": "",
+        "visible_on": [
+          "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+          "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+          "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "last_to": "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f"
+      },
+      "nav:|Open drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Open drawer",
+        "visible_on": [
+          "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+          "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "last_to": "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d"
+      },
+      "tab:bus.chio.wishmaster:id/newtab_address_field|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_field",
+        "target_content_desc": "",
+        "visible_on": [
+          "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "last_to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c"
+      },
+      "tab:bus.chio.wishmaster:id/newtab_address_go|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "visible_on": [
+          "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c"
+        ],
+        "attempts": 26,
+        "successes": 26,
+        "last_from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "last_to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c"
+      },
+      "tab:|More options": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd"
+      },
+      "tab:android:id/button2|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f",
+        "last_to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd"
+      },
+      "nav:android:id/button2|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:bus.chio.wishmaster:id/sidebar_btn_newtab|New Tab": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "bus.chio.wishmaster:id/sidebar_btn_newtab",
+        "target_content_desc": "New Tab",
+        "visible_on": [
+          "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d",
+        "last_to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd"
+      },
+      "nav:|Close drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Close drawer",
+        "visible_on": [
+          "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_open_address_bar|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_open_address_bar|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_open_address_bar|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "b8e55ff9de81c4b65e8877cf86eeed351c18b50d1616e6476661449c81542672",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_open_local|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_field|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "to": "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_open_local|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f",
+        "to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "to": "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d",
+        "target_key": "nav:|Open drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d",
+        "to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "target_key": "tab:bus.chio.wishmaster:id/sidebar_btn_newtab|New Tab",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_open_address_bar|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      }
+    ]
+  }
+}

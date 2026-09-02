@@ -1,0 +1,17 @@
+# Default environment for ABRG modelling / validate harness (Python 3.14).
+# Pinned versions match chapter_a/requirements.txt and the post-hoc snapshot in
+# reproducibility/environment-2026-08-26.txt (see that file's disclaimer).
+#
+# Collection / Frida tooling: android_malware_pipeline/requirements.txt
+# Notebook extras:            abrg/requirements-notebook.txt
+
+numpy==2.5.0
+scipy==1.18.0
+scikit-learn==1.9.0
+networkx==3.6.1
+torch==2.12.1
+torch-geometric>=2.4.0
+androguard>=3.4.0
+grakel==0.1.8
+pandas>=2.0.0
+matplotlib>=3.7.0

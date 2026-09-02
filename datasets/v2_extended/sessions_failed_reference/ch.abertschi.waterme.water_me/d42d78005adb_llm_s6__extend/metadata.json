@@ -1,0 +1,83 @@
+{
+  "active_categories": [
+    "camera",
+    "crypto",
+    "native_code",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "ch.abertschi.waterme.water_me",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T21:50:59.465000Z",
+  "end_timestamp_ms": 1786744259465,
+  "event_counts": {
+    "mapped": 44,
+    "mapped_rate": 0.07432432432432433,
+    "total": 592
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "d42d78005adb_llm_s6__extend",
+  "failure_reason": "flailing:dominant_screen: hash e8e86dc0a776\u2026 on 12/12 execute+primary steps (100%); named_functional_taps=0",
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "CameraManager.openCamera",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "SharedPreferences.apply",
+    "SharedPreferences.putString",
+    "System.loadLibrary"
+  ],
+  "n_active_nodes": 4,
+  "n_edges": 4,
+  "reference_tier_pass": false,
+  "session_id": "d42d78005adb_llm_s6",
+  "session_index_within_app": 6,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/d42d78005adb_ch.abertschi.waterme.water_me/dynamic/llm/session_6/ch.abertschi.waterme.water_me_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/d42d78005adb_ch.abertschi.waterme.water_me/dynamic/llm/session_6/ch.abertschi.waterme.water_me_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T21:42:58.109000Z",
+  "start_timestamp_ms": 1786743778109,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 592,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 119,
+    "n_with_timestamp": 592,
+    "unparseable_line_numbers_sample": [
+      78,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 481.445
+}

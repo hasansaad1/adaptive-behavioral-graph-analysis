@@ -1,0 +1,1109 @@
+{
+  "goals": [
+    "Tap Custom settings for Invidious",
+    "Tap Expand instance details",
+    "Tap button1",
+    "Tap Help"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap Custom settings for Invidious",
+      "nav_token": "settings",
+      "target_keys": [
+        "tab:settings"
+      ],
+      "observed_screen_hashes": [
+        "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+        "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+        "cfce9a10dec7f1018889281c7fe278a5c622e66eea2debd9783f359590d979d2",
+        "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+        "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2"
+      ],
+      "observed_screen_hints": [
+        "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_osm ImageButton · Expand instance details button_expand_instance_scriberip ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Expand instance details b",
+        "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_scriberip ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Expand instance details button_expand_instance_wikiless ImageButton · Save button_save_ins",
+        "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_scriberip ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Expand instance details button_expand_instance_wikiless ImageButton · Custom settings for "
+      ],
+      "route_hint": "Use visible settings navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 1,
+      "goal": "Tap Expand instance details",
+      "nav_token": "",
+      "target_keys": [
+        "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "tab:app.fedilab.nitterizeme:id/button_expand_instance_scriberip|Expand instance details",
+        "tab:app.fedilab.nitterizeme:id/button_expand_instance_wikiless|Expand instance details",
+        "nav:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "nav:app.fedilab.nitterizeme:id/button_expand_instance_wikiless|Expand instance details"
+      ],
+      "observed_screen_hashes": [
+        "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+        "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+        "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26"
+      ],
+      "observed_screen_hints": [
+        "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_osm ImageButton · Expand instance details button_expand_instance_scriberip ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Expand instance details b",
+        "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_osm ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Save button_save_instance_bibliogram ImageButton · Custom settings for Invidiou invidious_settin",
+        "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_osm ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Custom settings for Invidiou invidious_settings ImageButton · About action_about TextView · Sett"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap button1",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Help",
+      "nav_token": "",
+      "target_keys": [
+        "tab:app.fedilab.nitterizeme:id/action_help|Help",
+        "expand:app.fedilab.nitterizeme:id/action_help|Help"
+      ],
+      "observed_screen_hashes": [
+        "4bd7e72bc98705dead148e2ce3ed0863e4cd14514d4205e241a68a31cbc92fd0"
+      ],
+      "observed_screen_hints": [
+        "CLOSE button1 Button"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1": "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_osm ImageButton · Expand instance details button_expand_instance_scriberip ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Expand instance details b",
+    "067319708ff493a93fecff3c7a6e11d50f55db5e40b878ef8f920f25effc3dd3": "Help action_help TextView · Navigate up ImageButton · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout",
+    "4bd7e72bc98705dead148e2ce3ed0863e4cd14514d4205e241a68a31cbc92fd0": "CLOSE button1 Button",
+    "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26": "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_scriberip ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Expand instance details button_expand_instance_wikiless ImageButton · Save button_save_ins",
+    "cfce9a10dec7f1018889281c7fe278a5c622e66eea2debd9783f359590d979d2": "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_scriberip ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Expand instance details button_expand_instance_wikiless ImageButton · Custom settings for ",
+    "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8": "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_proxitok ImageButton · Expand instance details button_expand_instance_scriberip ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Expand instance deta",
+    "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2": "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_scriberip ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Expand instance details button_expand_instance_wikiless ImageButton · Save button_save_ins",
+    "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8": "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Expand instance details button_expand_instance_wikiless ImageButton · Save button_save_instance_bibliogram ImageButton · Custom settings for Invidiou invidious_s",
+    "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9": "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Expand instance details button_expand_instance_wikiless ImageButton · Save button_save_instance_bibliogram ImageButton · Custom settings for Invidiou invidious_s",
+    "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9": "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Save button_save_instance_bibliogram ImageButton · Custom settings for Invidiou invidious_settings ImageButton · About action_about TextView · Settings action_se",
+    "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91": "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Save button_save_instance_bibliogram ImageButton · Custom settings for Invidiou invidious_settings ImageButton · About action_about TextView · Settings action_se",
+    "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17": "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_osm ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Save button_save_instance_bibliogram ImageButton · Custom settings for Invidiou invidious_settin",
+    "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08": "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_osm ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Custom settings for Invidiou invidious_settings ImageButton · About action_about TextView · Sett",
+    "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81": "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_osm ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Custom settings for Invidiou invidious_settings ImageButton · About action_about TextView · Sett"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:app.fedilab.nitterizeme:id/enable_geo_uris|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/enable_geo_uris",
+        "target_content_desc": "",
+        "visible_on": [
+          "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+          "cfce9a10dec7f1018889281c7fe278a5c622e66eea2debd9783f359590d979d2",
+          "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91",
+          "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+          "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91",
+        "last_to": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17"
+      },
+      "tab:app.fedilab.nitterizeme:id/enable_osm|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/enable_osm",
+        "target_content_desc": "",
+        "visible_on": [
+          "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+          "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+          "cfce9a10dec7f1018889281c7fe278a5c622e66eea2debd9783f359590d979d2",
+          "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+          "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2",
+          "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+          "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9",
+          "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9",
+          "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91",
+          "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+          "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9",
+        "last_to": "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91"
+      },
+      "tab:app.fedilab.nitterizeme:id/enable_scriberip|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/enable_scriberip",
+        "target_content_desc": "",
+        "visible_on": [
+          "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+          "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+          "cfce9a10dec7f1018889281c7fe278a5c622e66eea2debd9783f359590d979d2",
+          "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+          "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2",
+          "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+          "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9",
+          "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9",
+          "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91",
+          "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+          "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2",
+        "last_to": "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8"
+      },
+      "tab:app.fedilab.nitterizeme:id/enable_wikiless|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/enable_wikiless",
+        "target_content_desc": "",
+        "visible_on": [
+          "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+          "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+          "cfce9a10dec7f1018889281c7fe278a5c622e66eea2debd9783f359590d979d2",
+          "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+          "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2",
+          "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+          "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9",
+          "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9",
+          "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91",
+          "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+          "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9",
+        "last_to": "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9"
+      },
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "app.fedilab.nitterizeme:id/invidious_settings",
+        "target_content_desc": "Custom settings for Invidious",
+        "visible_on": [
+          "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+          "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+          "cfce9a10dec7f1018889281c7fe278a5c622e66eea2debd9783f359590d979d2",
+          "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+          "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2",
+          "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+          "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9",
+          "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9",
+          "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91",
+          "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+          "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+        "last_to": "067319708ff493a93fecff3c7a6e11d50f55db5e40b878ef8f920f25effc3dd3"
+      },
+      "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_osm",
+        "target_content_desc": "Expand instance details",
+        "visible_on": [
+          "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+          "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+          "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81"
+        ],
+        "attempts": 22,
+        "successes": 22,
+        "last_from": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+        "last_to": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81"
+      },
+      "tab:app.fedilab.nitterizeme:id/button_expand_instance_scriberip|Expand instance details": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_scriberip",
+        "target_content_desc": "Expand instance details",
+        "visible_on": [
+          "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+          "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+          "cfce9a10dec7f1018889281c7fe278a5c622e66eea2debd9783f359590d979d2",
+          "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+          "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+        "last_to": "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26"
+      },
+      "tab:app.fedilab.nitterizeme:id/button_expand_instance_wikiless|Expand instance details": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_wikiless",
+        "target_content_desc": "Expand instance details",
+        "visible_on": [
+          "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+          "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+          "cfce9a10dec7f1018889281c7fe278a5c622e66eea2debd9783f359590d979d2",
+          "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+          "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2",
+          "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+          "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+        "last_to": "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1"
+      },
+      "nav:app.fedilab.nitterizeme:id/enable_geo_uris|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/enable_geo_uris",
+        "target_content_desc": "",
+        "visible_on": [
+          "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+          "cfce9a10dec7f1018889281c7fe278a5c622e66eea2debd9783f359590d979d2",
+          "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91",
+          "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+          "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.fedilab.nitterizeme:id/enable_osm|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/enable_osm",
+        "target_content_desc": "",
+        "visible_on": [
+          "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+          "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+          "cfce9a10dec7f1018889281c7fe278a5c622e66eea2debd9783f359590d979d2",
+          "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+          "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2",
+          "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+          "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9",
+          "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9",
+          "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91",
+          "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+          "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.fedilab.nitterizeme:id/enable_wikiless|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/enable_wikiless",
+        "target_content_desc": "",
+        "visible_on": [
+          "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+          "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+          "cfce9a10dec7f1018889281c7fe278a5c622e66eea2debd9783f359590d979d2",
+          "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+          "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2",
+          "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+          "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9",
+          "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9",
+          "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91",
+          "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+          "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_osm",
+        "target_content_desc": "Expand instance details",
+        "visible_on": [
+          "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+          "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+          "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.fedilab.nitterizeme:id/button_expand_instance_wikiless|Expand instance details": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_wikiless",
+        "target_content_desc": "Expand instance details",
+        "visible_on": [
+          "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+          "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+          "cfce9a10dec7f1018889281c7fe278a5c622e66eea2debd9783f359590d979d2",
+          "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+          "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2",
+          "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+          "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:app.fedilab.nitterizeme:id/action_help|Help": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/action_help",
+        "target_content_desc": "Help",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "067319708ff493a93fecff3c7a6e11d50f55db5e40b878ef8f920f25effc3dd3",
+        "last_to": "4bd7e72bc98705dead148e2ce3ed0863e4cd14514d4205e241a68a31cbc92fd0"
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "4bd7e72bc98705dead148e2ce3ed0863e4cd14514d4205e241a68a31cbc92fd0"
+        ],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "4bd7e72bc98705dead148e2ce3ed0863e4cd14514d4205e241a68a31cbc92fd0",
+        "last_to": "067319708ff493a93fecff3c7a6e11d50f55db5e40b878ef8f920f25effc3dd3"
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "4bd7e72bc98705dead148e2ce3ed0863e4cd14514d4205e241a68a31cbc92fd0"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:app.fedilab.nitterizeme:id/action_help|Help": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/action_help",
+        "target_content_desc": "Help",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "067319708ff493a93fecff3c7a6e11d50f55db5e40b878ef8f920f25effc3dd3",
+        "last_to": "4bd7e72bc98705dead148e2ce3ed0863e4cd14514d4205e241a68a31cbc92fd0"
+      },
+      "expand:|Navigate up": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "067319708ff493a93fecff3c7a6e11d50f55db5e40b878ef8f920f25effc3dd3",
+        "last_to": "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1"
+      },
+      "tab:app.fedilab.nitterizeme:id/button_expand_instance_teddit|Expand instance details": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_teddit",
+        "target_content_desc": "Expand instance details",
+        "visible_on": [
+          "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+          "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2",
+          "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+          "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9",
+          "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9",
+          "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91",
+          "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+        "last_to": "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26"
+      },
+      "nav:app.fedilab.nitterizeme:id/enable_scriberip|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/enable_scriberip",
+        "target_content_desc": "",
+        "visible_on": [
+          "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+          "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2",
+          "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+          "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9",
+          "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9",
+          "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91",
+          "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.fedilab.nitterizeme:id/button_expand_instance_scriberip|Expand instance details": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_scriberip",
+        "target_content_desc": "Expand instance details",
+        "visible_on": [
+          "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+          "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:app.fedilab.nitterizeme:id/enable_proxitok|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/enable_proxitok",
+        "target_content_desc": "",
+        "visible_on": [
+          "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+          "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+          "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9",
+          "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9",
+          "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+          "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+        "last_to": "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9"
+      },
+      "tab:app.fedilab.nitterizeme:id/button_expand_instance_proxitok|Expand instance details": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_proxitok",
+        "target_content_desc": "Expand instance details",
+        "visible_on": [
+          "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+        "last_to": "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2"
+      },
+      "nav:app.fedilab.nitterizeme:id/enable_proxitok|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/enable_proxitok",
+        "target_content_desc": "",
+        "visible_on": [
+          "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+          "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+          "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9",
+          "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9",
+          "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+          "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.fedilab.nitterizeme:id/button_expand_instance_proxitok|Expand instance details": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_proxitok",
+        "target_content_desc": "Expand instance details",
+        "visible_on": [
+          "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+        "to": "067319708ff493a93fecff3c7a6e11d50f55db5e40b878ef8f920f25effc3dd3",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "067319708ff493a93fecff3c7a6e11d50f55db5e40b878ef8f920f25effc3dd3",
+        "to": "4bd7e72bc98705dead148e2ce3ed0863e4cd14514d4205e241a68a31cbc92fd0",
+        "target_key": "tab:app.fedilab.nitterizeme:id/action_help|Help",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4bd7e72bc98705dead148e2ce3ed0863e4cd14514d4205e241a68a31cbc92fd0",
+        "to": "067319708ff493a93fecff3c7a6e11d50f55db5e40b878ef8f920f25effc3dd3",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "067319708ff493a93fecff3c7a6e11d50f55db5e40b878ef8f920f25effc3dd3",
+        "to": "4bd7e72bc98705dead148e2ce3ed0863e4cd14514d4205e241a68a31cbc92fd0",
+        "target_key": "expand:app.fedilab.nitterizeme:id/action_help|Help",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4bd7e72bc98705dead148e2ce3ed0863e4cd14514d4205e241a68a31cbc92fd0",
+        "to": "067319708ff493a93fecff3c7a6e11d50f55db5e40b878ef8f920f25effc3dd3",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "067319708ff493a93fecff3c7a6e11d50f55db5e40b878ef8f920f25effc3dd3",
+        "to": "4bd7e72bc98705dead148e2ce3ed0863e4cd14514d4205e241a68a31cbc92fd0",
+        "target_key": "expand:app.fedilab.nitterizeme:id/action_help|Help",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4bd7e72bc98705dead148e2ce3ed0863e4cd14514d4205e241a68a31cbc92fd0",
+        "to": "067319708ff493a93fecff3c7a6e11d50f55db5e40b878ef8f920f25effc3dd3",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "067319708ff493a93fecff3c7a6e11d50f55db5e40b878ef8f920f25effc3dd3",
+        "to": "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+        "to": "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+        "to": "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_scriberip|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+        "to": "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_wikiless|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+        "to": "4063e775c10702c7f88728b426a34db3bc5ba20f1610a6a59b904df4abd12e26",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_teddit|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+        "to": "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+        "target_key": "tab:app.fedilab.nitterizeme:id/enable_geo_uris|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "cfce9a10dec7f1018889281c7fe278a5c622e66eea2debd9783f359590d979d2",
+        "to": "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+        "target_key": "tab:app.fedilab.nitterizeme:id/enable_osm|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4dfdb6e3c7bd69d9eed68b38e78889806abdb89acd597851c8d97a17889b8da8",
+        "to": "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_proxitok|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "356a22f9b72dac9611c96fa488b02e033622f73adf3ce4b97fd276fad1df0ef2",
+        "to": "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+        "target_key": "tab:app.fedilab.nitterizeme:id/enable_scriberip|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "0be9d883508b7392f0446c016320b463be6cda6f6083ff2af2822ed37de02bf8",
+        "to": "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9",
+        "target_key": "tab:app.fedilab.nitterizeme:id/enable_proxitok|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "6e5d2c68132e6bbcd4ce77d473f6a922aca3c89765f88e164a0ebcb40a27fab9",
+        "to": "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9",
+        "target_key": "tab:app.fedilab.nitterizeme:id/enable_wikiless|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "994881501ef0650825218b0d74ebe83735f54fd5673b12c8c377ac798f3e8bf9",
+        "to": "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91",
+        "target_key": "tab:app.fedilab.nitterizeme:id/enable_osm|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "df31cd401fcceb7395416d1c8b272496b8d0b1baec4ada3c9e6ff2dec8f61e91",
+        "to": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "target_key": "tab:app.fedilab.nitterizeme:id/enable_geo_uris|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "to": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "to": "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "to": "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "to": "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "to": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "to": "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "to": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "to": "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "to": "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "to": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "to": "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "to": "6eb0a8d633d3325ed8fc286ff7f634fb45021594aea24e235650a9d8102ece08",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+        "to": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "to": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+        "to": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "to": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+        "to": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "to": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+        "to": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+        "to": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+        "to": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+        "target_key": "tab:app.fedilab.nitterizeme:id/button_expand_instance_osm|Expand instance details",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "c8da94a9dcd3b10fe8faec5eb3b204f5c1e1d484c4dd3df89168a7324a297ff1",
+    "root_screen_signature": "1955d49788efc0586de33c4c4fb5af0fadfdcef6db67e021ff1515c626a65307",
+    "root_screen_hint": "Expand instance details button_expand_instance_bibliogram ImageButton · Expand instance details button_expand_instance_invidious ImageButton · Expand instance details button_expand_instance_nitter ImageButton · Expand instance details button_expand_instance_osm ImageButton · Expand instance details button_expand_instance_scriberip ImageButton · Expand instance details button_expand_instance_teddit ImageButton · Expand instance details b",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [
+      {
+        "action_type": "tap",
+        "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_wikiless",
+        "target_content_desc": "Expand instance details",
+        "x": 71,
+        "y": 1492,
+        "reason": "root_handoff_recovery:bfs_graph_uncovered_tab"
+      }
+    ],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_explore_settled:11:2",
+      "screen_hash": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "app.fedilab.nitterizeme",
+          "screen_hash": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+          "interactive_count": 18,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "923f0e1d62d6547dd173ce1da3dc45250ef71eb49b4bc3b3e91cd8beaa91e431",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 1,
+          "strategy": "learned_root_recovery_action",
+          "parent_strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "app.fedilab.nitterizeme",
+          "recovery_action": {
+            "action_type": "tap",
+            "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_wikiless",
+            "target_content_desc": "Expand instance details",
+            "x": 71,
+            "y": 1492,
+            "reason": "root_handoff_recovery:bfs_graph_uncovered_tab"
+          },
+          "recovery_action_ok": true,
+          "recovery_action_outcome": "tap_desc:Expand instance details",
+          "screen_hash": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "interactive_count": 19,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "3afaab0a1283fe4061a4df8db0e983a89113aa61af51d8ed7e9edf1eefa20441",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 2,
+          "strategy": "start_root_activity_clear_task",
+          "clear_task": true,
+          "foreground_package": "app.fedilab.nitterizeme",
+          "screen_hash": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "interactive_count": 19,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "3afaab0a1283fe4061a4df8db0e983a89113aa61af51d8ed7e9edf1eefa20441",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 2,
+          "strategy": "learned_root_recovery_action",
+          "parent_strategy": "start_root_activity_clear_task",
+          "clear_task": true,
+          "foreground_package": "app.fedilab.nitterizeme",
+          "recovery_action": {
+            "action_type": "tap",
+            "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_wikiless",
+            "target_content_desc": "Expand instance details",
+            "x": 71,
+            "y": 1492,
+            "reason": "root_handoff_recovery:bfs_graph_uncovered_tab"
+          },
+          "recovery_action_ok": true,
+          "recovery_action_outcome": "tap_desc:Expand instance details",
+          "screen_hash": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+          "interactive_count": 18,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "923f0e1d62d6547dd173ce1da3dc45250ef71eb49b4bc3b3e91cd8beaa91e431",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 3,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.google.android.apps.nexuslauncher",
+          "screen_hash": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+          "interactive_count": 18,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "923f0e1d62d6547dd173ce1da3dc45250ef71eb49b4bc3b3e91cd8beaa91e431",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 3,
+          "strategy": "learned_root_recovery_action",
+          "parent_strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "app.fedilab.nitterizeme",
+          "recovery_action": {
+            "action_type": "tap",
+            "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_wikiless",
+            "target_content_desc": "Expand instance details",
+            "x": 71,
+            "y": 1492,
+            "reason": "root_handoff_recovery:bfs_graph_uncovered_tab"
+          },
+          "recovery_action_ok": true,
+          "recovery_action_outcome": "tap_desc:Expand instance details",
+          "screen_hash": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "interactive_count": 19,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "3afaab0a1283fe4061a4df8db0e983a89113aa61af51d8ed7e9edf1eefa20441",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 4,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.google.android.apps.nexuslauncher",
+          "screen_hash": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+          "interactive_count": 18,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "923f0e1d62d6547dd173ce1da3dc45250ef71eb49b4bc3b3e91cd8beaa91e431",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 4,
+          "strategy": "learned_root_recovery_action",
+          "parent_strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "app.fedilab.nitterizeme",
+          "recovery_action": {
+            "action_type": "tap",
+            "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_wikiless",
+            "target_content_desc": "Expand instance details",
+            "x": 71,
+            "y": 1492,
+            "reason": "root_handoff_recovery:bfs_graph_uncovered_tab"
+          },
+          "recovery_action_ok": true,
+          "recovery_action_outcome": "tap_desc:Expand instance details",
+          "screen_hash": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "interactive_count": 19,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "3afaab0a1283fe4061a4df8db0e983a89113aa61af51d8ed7e9edf1eefa20441",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 5,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.google.android.apps.nexuslauncher",
+          "screen_hash": "e901c76a186df97254d535c32687d8b6cd8bd132bd4be446c0939ead262d3a81",
+          "interactive_count": 18,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "923f0e1d62d6547dd173ce1da3dc45250ef71eb49b4bc3b3e91cd8beaa91e431",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 5,
+          "strategy": "learned_root_recovery_action",
+          "parent_strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "app.fedilab.nitterizeme",
+          "recovery_action": {
+            "action_type": "tap",
+            "target_resource_id": "app.fedilab.nitterizeme:id/button_expand_instance_wikiless",
+            "target_content_desc": "Expand instance details",
+            "x": 71,
+            "y": 1492,
+            "reason": "root_handoff_recovery:bfs_graph_uncovered_tab"
+          },
+          "recovery_action_ok": true,
+          "recovery_action_outcome": "tap_desc:Expand instance details",
+          "screen_hash": "e5a35da74ccd5483ff733155ab2aa792d45102105e9e22f0bb88f8da2d5eea17",
+          "interactive_count": 19,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "3afaab0a1283fe4061a4df8db0e983a89113aa61af51d8ed7e9edf1eefa20441",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "explore_settled"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app to view instance details, which involves expanding an instance and then saving it. They also navigate through tabs (e.g., bibliogram, invidious, nitter) using horizontal swipes. The primary action is vertical scrolling between y-coordinates to expand or collapse instances. Opening the right tab first is not necessary for most users.",
+    "reason": "ux_goals_complete"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "active_categories": [
+    "native_code",
+    "network",
+    "storage"
+  ],
+  "app_id": "au.com.wallaceit.reddinator",
+  "batch": "original",
+  "end_timestamp": "2026-07-14T20:51:27.166000Z",
+  "end_timestamp_ms": 1784062287166,
+  "event_counts": {
+    "mapped": 45,
+    "mapped_rate": 0.05710659898477157,
+    "total": 788
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "c3751de467a1_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "SharedPreferences.getString",
+    "System.loadLibrary",
+    "okhttp3.RealCall.execute"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 3,
+  "reference_tier_pass": true,
+  "session_id": "c3751de467a1_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/c3751de467a1_llm_s1__au.com.wallaceit.reddinator/au.com.wallaceit.reddinator_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/c3751de467a1_llm_s1__au.com.wallaceit.reddinator/au.com.wallaceit.reddinator_dynamic_metadata.json",
+  "start_timestamp": "2026-07-14T20:44:01.410000Z",
+  "start_timestamp_ms": 1784061841410,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 788,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 163,
+    "n_with_timestamp": 788,
+    "unparseable_line_numbers_sample": [
+      88,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 445.756
+}

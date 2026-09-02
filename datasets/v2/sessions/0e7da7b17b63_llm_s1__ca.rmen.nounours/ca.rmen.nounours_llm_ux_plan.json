@@ -1,0 +1,609 @@
+{
+  "goals": [
+    "Tap More",
+    "Tap Navigate",
+    "Tap Actions",
+    "Tap Options",
+    "Press Back to return to the main app list",
+    "Wait for UI to settle"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap More",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap Navigate",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Actions",
+      "nav_token": "",
+      "target_keys": [
+        "tab:ca.rmen.nounours:id/menu_animation|Actions"
+      ],
+      "observed_screen_hashes": [
+        "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "observed_screen_hints": [
+        "Actions menu_animation TextView · Options menu_options TextView · More options ImageButton",
+        ""
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Options",
+      "nav_token": "",
+      "target_keys": [
+        "tab:ca.rmen.nounours:id/menu_options|Options"
+      ],
+      "observed_screen_hashes": [
+        "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b"
+      ],
+      "observed_screen_hints": [
+        "Actions menu_animation TextView · Options menu_options TextView · More options ImageButton",
+        "Options menu_options TextView · More options ImageButton",
+        "Navigate up ImageButton"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Press Back to return to the main app list",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Wait for UI to settle",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44": "Actions menu_animation TextView · Options menu_options TextView · More options ImageButton",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": "",
+    "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b": "Navigate up ImageButton",
+    "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c": "Options menu_options TextView · More options ImageButton"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:ca.rmen.nounours:id/menu_animation|Actions": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.rmen.nounours:id/menu_animation",
+        "target_content_desc": "Actions",
+        "visible_on": [
+          "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44"
+        ],
+        "attempts": 9,
+        "successes": 9,
+        "last_from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:|More options": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [
+          "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+          "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c"
+        ],
+        "attempts": 11,
+        "successes": 11,
+        "last_from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:ca.rmen.nounours:id/menu_options|Options": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.rmen.nounours:id/menu_options",
+        "target_content_desc": "Options",
+        "visible_on": [
+          "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+          "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c"
+        ],
+        "attempts": 5,
+        "successes": 5,
+        "last_from": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "last_to": "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 20,
+        "successes": 20,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44"
+      },
+      "expand:|Navigate up": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 4,
+        "successes": 4,
+        "last_from": "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b",
+        "last_to": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c"
+      },
+      "tab:|Navigate up": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b",
+        "last_to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44"
+      }
+    },
+    "edges": [
+      {
+        "from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:ca.rmen.nounours:id/menu_animation|Actions",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "to": "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b",
+        "target_key": "tab:ca.rmen.nounours:id/menu_options|Options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b",
+        "to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "to": "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b",
+        "target_key": "tab:ca.rmen.nounours:id/menu_options|Options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b",
+        "to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:ca.rmen.nounours:id/menu_animation|Actions",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:ca.rmen.nounours:id/menu_animation|Actions",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:ca.rmen.nounours:id/menu_animation|Actions",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:ca.rmen.nounours:id/menu_animation|Actions",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "to": "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b",
+        "target_key": "tab:ca.rmen.nounours:id/menu_options|Options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b",
+        "to": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "to": "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b",
+        "target_key": "tab:ca.rmen.nounours:id/menu_options|Options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b",
+        "to": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "to": "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b",
+        "target_key": "tab:ca.rmen.nounours:id/menu_options|Options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "bd94b40fe304ccb5ef6033f8d1117c83505d5e7ae1215f064fc1448b6ce2200b",
+        "to": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2787a36b82bca1da3868c6698a1129ff1452fa149485706bc7a0d0a8f8249a2c",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:ca.rmen.nounours:id/menu_animation|Actions",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:ca.rmen.nounours:id/menu_animation|Actions",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:ca.rmen.nounours:id/menu_animation|Actions",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:ca.rmen.nounours:id/menu_animation|Actions",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+    "root_screen_signature": "4c06c37b995eb6442dac9421a3190255b6073f28c9bd6bfe2ddbe28172ea0754",
+    "root_screen_hint": "Actions menu_animation TextView · Options menu_options TextView · More options ImageButton",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ca.rmen.nounours",
+          "screen_hash": "e401a0c1af1beca255116bf0c482f4ff248dd7fab33a7fd7eb274f0618f5bc44",
+          "interactive_count": 3,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "4c06c37b995eb6442dac9421a3190255b6073f28c9bd6bfe2ddbe28172ea0754",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users navigate through a list of items, with horizontal swipes to browse between tabs or carousels. The main gesture is a vertical swipe down to open the options menu. Users often start by navigating up to access the top tab or carousel.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "active_categories": [
+    "storage"
+  ],
+  "app_id": "ca.momi.lift",
+  "batch": "original",
+  "end_timestamp": "2026-07-15T22:13:27.344000Z",
+  "end_timestamp_ms": 1784153607344,
+  "event_counts": {
+    "mapped": 6,
+    "mapped_rate": 0.009389671361502348,
+    "total": 639
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "59ee61acbb1b_llm_s2__original",
+  "failure_reason": null,
+  "gae_eligible": false,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 1,
+  "n_edges": 0,
+  "reference_tier_pass": true,
+  "session_id": "59ee61acbb1b_llm_s2",
+  "session_index_within_app": 2,
+  "source_frida_path": "datasets/v2/sessions/59ee61acbb1b_llm_s2__ca.momi.lift/ca.momi.lift_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/59ee61acbb1b_llm_s2__ca.momi.lift/ca.momi.lift_dynamic_metadata.json",
+  "start_timestamp": "2026-07-15T22:05:48.341000Z",
+  "start_timestamp_ms": 1784153148341,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 639,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 101,
+    "n_with_timestamp": 639,
+    "unparseable_line_numbers_sample": [
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 459.003
+}

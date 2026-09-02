@@ -1,0 +1,61 @@
+{
+  "active_categories": [
+    "crypto",
+    "file_io",
+    "storage"
+  ],
+  "app_id": "app.michaelwuensch.bitbanana",
+  "batch": "original",
+  "end_timestamp": "2026-07-13T06:50:44.779000Z",
+  "end_timestamp_ms": 1783925444779,
+  "event_counts": {
+    "mapped": 1941,
+    "mapped_rate": 0.663362952836637,
+    "total": 2926
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "36bdbc1733f0_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "Cipher.doFinal",
+    "File.delete",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "SecretKeySpec.<init>",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 5,
+  "reference_tier_pass": true,
+  "session_id": "36bdbc1733f0_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/36bdbc1733f0_llm_s1__app.michaelwuensch.bitbanana/app.michaelwuensch.bitbanana_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/36bdbc1733f0_llm_s1__app.michaelwuensch.bitbanana/app.michaelwuensch.bitbanana_dynamic_metadata.json",
+  "start_timestamp": "2026-07-13T06:42:58.334000Z",
+  "start_timestamp_ms": 1783924978334,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 2926,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 0,
+    "n_with_timestamp": 2926
+  },
+  "timestamps_ok": true,
+  "wall_duration_s": 466.445
+}

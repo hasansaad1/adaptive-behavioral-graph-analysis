@@ -1,0 +1,75 @@
+{
+  "active_categories": [
+    "ipc_intents",
+    "native_code"
+  ],
+  "app_id": "app.alextran.immich",
+  "batch": "original",
+  "end_timestamp": "2026-07-13T00:08:47.466000Z",
+  "end_timestamp_ms": 1783901327466,
+  "event_counts": {
+    "mapped": 13,
+    "mapped_rate": 0.026970954356846474,
+    "total": 482
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "efcaf058dff9_llm_s3__original",
+  "failure_reason": null,
+  "gae_eligible": false,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "Context.sendBroadcast",
+    "System.loadLibrary"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 0,
+  "reference_tier_pass": true,
+  "session_id": "efcaf058dff9_llm_s3",
+  "session_index_within_app": 3,
+  "source_frida_path": "datasets/v2/sessions/efcaf058dff9_llm_s3__app.alextran.immich/app.alextran.immich_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/efcaf058dff9_llm_s3__app.alextran.immich/app.alextran.immich_dynamic_metadata.json",
+  "start_timestamp": "2026-07-13T00:01:19.118000Z",
+  "start_timestamp_ms": 1783900879118,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 482,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 60,
+    "n_with_timestamp": 482,
+    "unparseable_line_numbers_sample": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 448.348
+}

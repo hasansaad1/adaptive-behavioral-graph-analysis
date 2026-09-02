@@ -1,0 +1,31 @@
+{
+  "kind": "androct_master_verify",
+  "experiment": "final_validate",
+  "n_rows": 2,
+  "cli_rerun": {
+    "cli_module": "abrg.final_validate",
+    "out_flag": "--out"
+  },
+  "rows": [
+    {
+      "detector": "centroid_euclidean",
+      "method": "benign_group_holdout_refit_reference",
+      "representation": "D1_trained_t22",
+      "split": "leave_one_benign_cluster_out",
+      "auc_floor": "0.7888852836508269",
+      "raw_auc": "0.7888852836508269",
+      "artifact_path": "abrg/output/androct_2017/final_validation/check4_benign_holdout/check4.json",
+      "is_headline": "True"
+    },
+    {
+      "detector": "mahalanobis",
+      "method": "benign_group_holdout_refit_reference",
+      "representation": "D1_trained_t22",
+      "split": "leave_one_benign_cluster_out",
+      "auc_floor": "0.7576288465564162",
+      "raw_auc": "0.24237115344358384",
+      "artifact_path": "abrg/output/androct_2017/final_validation/check4_benign_holdout/check4.json",
+      "is_headline": "False"
+    }
+  ]
+}

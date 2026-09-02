@@ -1,0 +1,73 @@
+{
+  "active_categories": [
+    "storage"
+  ],
+  "app_id": "app.crescentcash.src",
+  "batch": "original",
+  "end_timestamp": "2026-07-13T01:09:08.682000Z",
+  "end_timestamp_ms": 1783904948682,
+  "event_counts": {
+    "mapped": 6,
+    "mapped_rate": 0.0067039106145251395,
+    "total": 895
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "a02b64c18d0e_llm_s3__original",
+  "failure_reason": null,
+  "gae_eligible": false,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 1,
+  "n_edges": 0,
+  "reference_tier_pass": true,
+  "session_id": "a02b64c18d0e_llm_s3",
+  "session_index_within_app": 3,
+  "source_frida_path": "datasets/v2/sessions/a02b64c18d0e_llm_s3__app.crescentcash.src/app.crescentcash.src_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/a02b64c18d0e_llm_s3__app.crescentcash.src/app.crescentcash.src_dynamic_metadata.json",
+  "start_timestamp": "2026-07-13T01:01:34.606000Z",
+  "start_timestamp_ms": 1783904494606,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 895,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 40,
+    "n_with_timestamp": 895,
+    "unparseable_line_numbers_sample": [
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 454.076
+}

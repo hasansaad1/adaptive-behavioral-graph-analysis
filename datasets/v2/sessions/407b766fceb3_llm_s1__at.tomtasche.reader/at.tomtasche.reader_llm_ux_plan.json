@@ -1,0 +1,481 @@
+{
+  "goals": [
+    "Tap landing catch all",
+    "Tap landing open fab",
+    "Tap Open document",
+    "Tap landing_intro_open",
+    "Tap OFF landing_catch_all",
+    "Tap ON landing_catch_all",
+    "Press Back to return to the main app list",
+    "Wait for UI to settle"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap landing catch all",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap landing open fab",
+      "nav_token": "search",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Open the observed search affordance before typing into a query field."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Open document",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap landing_intro_open",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap OFF landing_catch_all",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Tap ON landing_catch_all",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Press Back to return to the main app list",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Wait for UI to settle",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e": "Open document menu_open Button · landing_open_fab ImageButton · landing_intro_open ImageView · ON landing_catch_all Switch",
+    "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde": "Open document menu_open Button · landing_open_fab ImageButton · landing_intro_open ImageView · OFF landing_catch_all Switch"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:at.tomtasche.reader:id/landing_catch_all|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "at.tomtasche.reader:id/landing_catch_all",
+        "target_content_desc": "",
+        "visible_on": [
+          "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+          "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde"
+        ],
+        "attempts": 38,
+        "successes": 38,
+        "last_from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "last_to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e"
+      },
+      "nav:at.tomtasche.reader:id/landing_catch_all|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "at.tomtasche.reader:id/landing_catch_all",
+        "target_content_desc": "",
+        "visible_on": [
+          "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+          "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:at.tomtasche.reader:id/landing_open_fab|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "at.tomtasche.reader:id/landing_open_fab",
+        "target_content_desc": "",
+        "visible_on": [
+          "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+          "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "to": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "669bd3c58bced5bc4e6db16338f473202665e5d6c9cac9fa27a7efa01122afde",
+        "to": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+        "target_key": "tab:at.tomtasche.reader:id/landing_catch_all|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+    "root_screen_signature": "929bf122ce5ec4bb8047b55b10fc9721db1e7aaf6ab99358d0bb72de5b5a7dd7",
+    "root_screen_hint": "Open document menu_open Button · landing_open_fab ImageButton · landing_intro_open ImageView · ON landing_catch_all Switch",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "at.tomtasche.reader",
+          "screen_hash": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+          "interactive_count": 4,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "929bf122ce5ec4bb8047b55b10fc9721db1e7aaf6ab99358d0bb72de5b5a7dd7",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app by tapping on a document menu_open Button, then swipe horizontally to select a tab (ON or OFF), and finally tap on an article to read. The user may also use vertical swipes between y coordinates to navigate through articles. Opening the right tab first is recommended for optimal UX.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

@@ -1,0 +1,16 @@
+ABRG normalization A/B — same corpus / split / seed
+============================================================
+Dataset: v2 | window=60.0s | seed=42
+edge_weight_in_encoder=False
+Train: 440 snaps / 32 apps
+Test:  125 snaps / 8 apps
+
+                 train_med   test_med   ratio   loss_final
+normalized_v021     0.5462    0.7023  1.286      0.7050
+raw_pre_v021        0.5848    0.6919  1.183      0.6900
+
+Δ test median (norm − raw):  +0.0104
+Δ train median (norm − raw): -0.0386
+
+Encoder ignores edge_weight (legacy A/B).
+Saved: abrg/output/norm_ab_v2/comparison.json

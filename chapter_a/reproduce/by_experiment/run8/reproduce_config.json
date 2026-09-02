@@ -1,0 +1,31 @@
+{
+  "kind": "androct_master_verify",
+  "experiment": "run8",
+  "n_rows": 2,
+  "cli_rerun": {
+    "cli_module": "abrg.androct.run_gae_run8",
+    "harness": "androct_auc"
+  },
+  "rows": [
+    {
+      "detector": "gae_embedding_centroid_mean",
+      "method": "trained",
+      "representation": "T22_gae_h8",
+      "split": "splitA_GAE",
+      "auc_floor": "0.6690613266583229",
+      "raw_auc": "0.6690613266583229",
+      "artifact_path": "abrg/output/androct_2017/run8/comparison.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "gae_embedding_centroid_mean",
+      "method": "untrained",
+      "representation": "T22_gae_h8",
+      "split": "splitA_GAE",
+      "auc_floor": "0.7591197329995828",
+      "raw_auc": "0.7591197329995828",
+      "artifact_path": "abrg/output/androct_2017/run8/comparison.json",
+      "is_headline": "False"
+    }
+  ]
+}

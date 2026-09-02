@@ -1,0 +1,154 @@
+{
+  "assembled_at_utc": "2026-08-17T16:13:58.117973+00:00",
+  "sources": [
+    "datasets/v2_extended/PROVENANCE.md",
+    "datasets/v2_extended/OVERRIDE.md",
+    "$CONTEXTDROID_ROOT/abrg/output/v2_extend/identity_check/REPORT.md",
+    "$CONTEXTDROID_ROOT/abrg/output/v2_extend/identity_check/CANARY.md"
+  ],
+  "fields": [
+    {
+      "field": "hook_script_path",
+      "value": "frida_scripts/hook_apis.js",
+      "status": "recoverable",
+      "note": "recorded on sessions; current path ContextDroid"
+    },
+    {
+      "field": "hook_script_sha256",
+      "value": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+      "status": "recoverable",
+      "current_file_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+      "current_matches_recorded": true
+    },
+    {
+      "field": "hook_api_set",
+      "value": "58 API names / 25 categories (22 GRAPH excl. lifecycle, reflection, navigation)",
+      "status": "recoverable"
+    },
+    {
+      "field": "frida_client_version",
+      "july": "UNRECOVERABLE",
+      "current": {
+        "import_ok": false,
+        "error": "No module named 'frida'"
+      },
+      "status": "UNRECOVERABLE"
+    },
+    {
+      "field": "frida_client_install_date",
+      "value": "2026-04-30",
+      "status": "override evidence (not a July session field)"
+    },
+    {
+      "field": "frida_server_version",
+      "july": "UNRECOVERABLE",
+      "current_strings": "17.9.3",
+      "current_mtime_utc": "2026-08-05T17:33:15.908159+00:00",
+      "status": "UNRECOVERABLE",
+      "override": "see OVERRIDE.md verbatim"
+    },
+    {
+      "field": "emulator_avd_name",
+      "july": "UNRECOVERABLE in session metadata",
+      "extend_canary": "abrg_benign",
+      "status": "UNRECOVERABLE (July); recoverable (extend/canary launch.sh AVD_NAME=abrg_benign)"
+    },
+    {
+      "field": "emulator_system_image",
+      "july": "UNRECOVERABLE",
+      "current": "android-29 google_apis arm64-v8a (identity_check current)",
+      "status": "UNRECOVERABLE"
+    },
+    {
+      "field": "emulator_api_sdk",
+      "value": 29,
+      "status": "recoverable (July run logs)"
+    },
+    {
+      "field": "session_duration_setting",
+      "value": "420 s",
+      "status": "recoverable"
+    },
+    {
+      "field": "llm_planner_model",
+      "value": "llama3.2",
+      "status": "recoverable"
+    },
+    {
+      "field": "llm_planner_digest",
+      "july": "UNRECOVERABLE",
+      "status": "UNRECOVERABLE"
+    },
+    {
+      "field": "prompt_template_path",
+      "value": "extraction_pipeline/llm_agent/prompts.py",
+      "current_sha256": "379632c225f4316855b100db9ed43396950987a8e6276f69c81f6f2a435058ae",
+      "last_commit": "2026-06-09 20:34:18 +0200 4d2cdb1",
+      "july_frozen_sha": "UNRECOVERABLE",
+      "status": "path recoverable; July frozen SHA UNRECOVERABLE"
+    },
+    {
+      "field": "reset_protocol",
+      "value": "snapshot_restored=true + pm clear (not -wipe-data); CONTEXTDROID_SKIP_SNAPSHOT_LOAD=1 when already booted",
+      "status": "recoverable"
+    },
+    {
+      "field": "action_space",
+      "value": "tap, input, back, wait, advance_goal, swipe",
+      "status": "recoverable (observed)"
+    },
+    {
+      "field": "max_steps",
+      "value": "duration-bounded (no fixed max_steps)",
+      "status": "recoverable as uncapped"
+    },
+    {
+      "field": "adb_platform_tools_version_july",
+      "status": "UNRECOVERABLE"
+    },
+    {
+      "field": "python_pip_pins_july",
+      "status": "UNRECOVERABLE"
+    },
+    {
+      "field": "host_os_july",
+      "status": "UNRECOVERABLE"
+    },
+    {
+      "field": "hook_git_commit_july",
+      "status": "UNRECOVERABLE"
+    }
+  ],
+  "unrecoverable": [
+    "Frida client version (July)",
+    "Frida server version / binary SHA (July) \u2014 operator override in OVERRIDE.md",
+    "Emulator system image identity (July)",
+    "Emulator AVD name (July session metadata)",
+    "LLM planner model digest (July)",
+    "Prompt template SHA256 as frozen July artefact",
+    "adb / platform-tools version (July)",
+    "Python / collection-path pip pins (July)",
+    "Host OS (July)",
+    "Hook git commit during July collection"
+  ],
+  "override_md_verbatim": "# Operator override (2026-08-14) \u2014 frida-server version only\n\nCopied verbatim from `abrg/output/v2_extend/identity_check/REPORT.md`\n(file `OVERRIDE.md` was not present in that directory at export time).\n\nExplicit override of the Stage 1 UNRECOVERABLE gate **for frida-server version**, recorded verbatim:\n\n- client 17.9.3, installed 2026-04-30, no upgrade trail through the July window\n- frida enforces client/server version compatibility at attach; July sessions\n  attached successfully, so the server was 17.9.3-compatible\n- no frida commands in shell history during July\n- current `tools/frida-server-android-arm64` strings report 17.9.3; the 2026-08-05\n  mtime reflects a file write, not a verified content change\n\n**Remaining HARD gaps (not overridden):** emulator system image identity, LLM planner\nmodel digest, prompt template SHA256 \u2014 still UNRECOVERABLE from July artifacts.\n",
+  "canary_md": "# Stage 1d canary evaluation\n\n**Criteria (all three apps must pass all three):**\n1. No novel category vs that app\u2019s existing sessions\n2. No silent reliable category (fired in all existing sessions)\n3. Mapped events in `[0.25\u00d7, 4\u00d7]` of that app\u2019s existing median\n\n## Per-app table\n\n| app | existing median mapped | band [0.25\u00d7, 4\u00d7] | canary mapped | C1 no novel | C2 no silent reliable | C3 volume in band | app verdict |\n|-----|-----------------------:|------------------:|--------------:|:-----------:|:---------------------:|:-----------------:|:-----------:|\n| app.comaps.fdroid | 157 | 39.25\u2013628 | 153 | PASS | PASS | PASS | PASS |\n| app.organicmaps | 142 | 35.5\u2013568 | 125 | PASS | PASS | PASS | PASS |\n| ai.susi | 408 | 102\u20131632 | 348 | PASS | PASS | PASS | PASS |\n\n| app | novel categories | silent reliable |\n|-----|------------------|-----------------|\n| app.comaps.fdroid | \u2014 | \u2014 |\n| app.organicmaps | \u2014 | \u2014 |\n| ai.susi | \u2014 | \u2014 |\n\nProtocol (all three): `snapshot_restored=true`, `pm_clear_rc=0`, fairness on, hook SHA `3192c7d6\u2026`, AVD `abrg_benign`, not `-wipe-data`.\n\nCANARY PASS\n",
+  "identity_report_present": true,
+  "date_ranges": {
+    "canary": {
+      "n": 3,
+      "start_utc": "2026-08-13T22:28:42.534000Z",
+      "end_utc": "2026-08-13T22:49:45.128000Z"
+    },
+    "extend": {
+      "n": 217,
+      "start_utc": "2026-08-13T23:17:33.502000Z",
+      "end_utc": "2026-08-15T06:07:05.633000Z"
+    },
+    "original": {
+      "n": 168,
+      "start_utc": "2026-07-12T17:26:14.626000Z",
+      "end_utc": "2026-07-19T07:21:53.932000Z"
+    }
+  }
+}

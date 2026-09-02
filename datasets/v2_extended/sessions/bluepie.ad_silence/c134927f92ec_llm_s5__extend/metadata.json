@@ -1,0 +1,78 @@
+{
+  "active_categories": [
+    "file_io",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "bluepie.ad_silence",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T07:09:01.964000Z",
+  "end_timestamp_ms": 1786691341964,
+  "event_counts": {
+    "mapped": 15,
+    "mapped_rate": 0.029644268774703556,
+    "total": 506
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "c134927f92ec_llm_s5__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 2,
+  "reference_tier_pass": true,
+  "session_id": "c134927f92ec_llm_s5",
+  "session_index_within_app": 5,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/c134927f92ec_bluepie.ad_silence/dynamic/llm/session_5/bluepie.ad_silence_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/c134927f92ec_bluepie.ad_silence/dynamic/llm/session_5/bluepie.ad_silence_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T07:01:17.461000Z",
+  "start_timestamp_ms": 1786690877461,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 506,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 40,
+    "n_with_timestamp": 506,
+    "unparseable_line_numbers_sample": [
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 464.589
+}

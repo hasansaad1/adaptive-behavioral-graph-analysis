@@ -1,0 +1,85 @@
+{
+  "active_categories": [
+    "audio",
+    "file_io",
+    "ipc_intents",
+    "native_code",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "cityfreqs.com.pilfershushjammer",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T13:44:24.923000Z",
+  "end_timestamp_ms": 1786715064923,
+  "event_counts": {
+    "mapped": 29,
+    "mapped_rate": 0.07160493827160494,
+    "total": 405
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "c7c04de887f3_llm_s6__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AudioRecord.<init>",
+    "Context.sendBroadcast",
+    "Context.startService",
+    "File.delete",
+    "MediaRecorder.setAudioSource",
+    "SharedPreferences.apply",
+    "System.loadLibrary"
+  ],
+  "n_active_nodes": 5,
+  "n_edges": 3,
+  "reference_tier_pass": true,
+  "session_id": "c7c04de887f3_llm_s6",
+  "session_index_within_app": 6,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/c7c04de887f3_cityfreqs.com.pilfershushjammer/dynamic/llm/session_6/cityfreqs.com.pilfershushjammer_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/c7c04de887f3_cityfreqs.com.pilfershushjammer/dynamic/llm/session_6/cityfreqs.com.pilfershushjammer_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T13:36:33.174000Z",
+  "start_timestamp_ms": 1786714593174,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 405,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 30,
+    "n_with_timestamp": 405,
+    "unparseable_line_numbers_sample": [
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 471.849
+}

@@ -1,0 +1,39 @@
+9519  1784090207.732295 exit(0)         = ?
+9519  1784090207.732653 +++ exited with 0 +++
+9517  1784090207.736317 exit(0)         = ?
+9517  1784090207.736880 +++ exited with 0 +++
+9549  1784090207.788856 faccessat(AT_FDCWD, "/proc/self/task/9517", F_OK) = -1 ENOENT (No such file or directory)
+9500  1784090209.681725 exit(0)         = ?
+9501  1784090209.682239 exit(0 <unfinished ...>
+9500  1784090209.682289 +++ exited with 0 +++
+9499  1784090209.682503 exit(0 <unfinished ...>
+9501  1784090209.682533 <... exit resumed>) = ?
+9501  1784090209.682697 +++ exited with 0 +++
+9499  1784090209.682843 <... exit resumed>) = ?
+9498  1784090209.683007 exit(0 <unfinished ...>
+9499  1784090209.683074 +++ exited with 0 +++
+9498  1784090209.683234 <... exit resumed>) = ?
+9498  1784090209.683923 +++ exited with 0 +++
+9511  1784090209.687126 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+9511  1784090209.687510 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+9511  1784090209.688121 newfstatat(AT_FDCWD, "/data/app/biz.binarysolutions.vatcalculator-fNV9Ake_zygMgvQUQ3CSPA==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+9511  1784090209.688748 newfstatat(AT_FDCWD, "/data/app/biz.binarysolutions.vatcalculator-fNV9Ake_zygMgvQUQ3CSPA==/base.apk", {st_mode=S_IFREG|0644, st_size=2541473, ...}, AT_SYMLINK_NOFOLLOW) = 0
+9511  1784090209.689272 getcwd("/", 4096) = 2
+9511  1784090209.689588 newfstatat(AT_FDCWD, "/base.apk", 0x7a74ec0690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+9491  1784090210.221962 clone(child_stack=0x7a721fbd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7a721fbd60, tls=0x7a721fc020, child_tidptr=0x7a721fbd60) = 9594
+9594  1784090210.229495 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.vatcalculator", F_OK) = 0
+9594  1784090210.229790 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.vatcalculator/files", F_OK) = 0
+9594  1784090210.230103 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.vatcalculator/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+9594  1784090210.230379 openat(AT_FDCWD, "/data/user/0/biz.binarysolutions.vatcalculator/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 47
+9594  1784090210.231205 getsockopt(47, SOL_SOCKET, SO_ERROR, 0x7a721fa0e4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+9594  1784090210.232499 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/biz.binarysolutions.vatcalculator/primary.prof", 0x7a721f9ab8, 0) = -1 ENOENT (No such file or directory)
+9594  1784090210.232995 faccessat(AT_FDCWD, "/data/misc/profiles/ref/biz.binarysolutions.vatcalculator/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+9594  1784090210.233379 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/biz.binarysolutions.vatcalculator/primary.prof", {st_mode=S_IFREG|0600, st_size=5942, ...}, 0) = 0
+9594  1784090210.233871 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/biz.binarysolutions.vatcalculator/primary.prof", F_OK) = 0
+9594  1784090210.234538 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.vatcalculator/files", F_OK) = 0
+9594  1784090210.234774 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.vatcalculator/files/profileInstalled", F_OK) = 0
+9594  1784090210.235028 openat(AT_FDCWD, "/data/user/0/biz.binarysolutions.vatcalculator/files/profileInstalled", O_RDONLY) = 47
+9594  1784090210.236378 getsockopt(47, SOL_SOCKET, SO_ERROR, 0x7a721f9434, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+9594  1784090210.241002 exit(0)         = ?
+9594  1784090210.241222 +++ exited with 0 +++
+9549  1784090210.289175 faccessat(AT_FDCWD, "/proc/self/task/9594", F_OK) = -1 ENOENT (No such file or directory)

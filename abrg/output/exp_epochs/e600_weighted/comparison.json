@@ -1,0 +1,164 @@
+{
+  "timestamp_utc": "2026-08-04T13:01:04.032607+00:00",
+  "dataset": "v2",
+  "sessions_dir": "datasets/v2/sessions",
+  "pinned": {
+    "window_sec": 60.0,
+    "epochs": 600,
+    "hidden": 16,
+    "lr": 0.01,
+    "seed": 42,
+    "test_ratio": 0.2,
+    "static": "zero_stub",
+    "gae_uses_edge_weight": true,
+    "recon_loss": "adjacency_bce"
+  },
+  "build": {
+    "total_sessions": 168,
+    "total_snapshots": 731,
+    "snapshots_mode": true,
+    "window_mode": "time_sec",
+    "window_sec": 60.0,
+    "build_errors": 0,
+    "trainable_snapshots": 634,
+    "sessions_with_trainable_snapshot": 133,
+    "excluded_sessions_no_trainable_snapshot": 35,
+    "gae_eligible_snapshots": 565,
+    "gae_eligible_apps": 40,
+    "snapshots_per_session_distribution": {
+      "min": 1,
+      "median": 5.0,
+      "max": 8,
+      "mean": 4.35
+    },
+    "active_nodes_distribution_trainable": {
+      "min": 2,
+      "median": 3.0,
+      "max": 7,
+      "mean": 3.11
+    },
+    "edge_count_distribution_trainable": {
+      "min": 0,
+      "median": 2.0,
+      "max": 25,
+      "mean": 4.56
+    },
+    "edge_count_distribution_gae_eligible": {
+      "min": 1,
+      "median": 3,
+      "max": 25,
+      "mean": 5.11
+    },
+    "build_wall_sec": 0.67
+  },
+  "split": {
+    "train_snapshots": 440,
+    "test_snapshots": 125,
+    "train_apps": [
+      "InfinityLoop1309.NewPipeEnhanced",
+      "ac.robinson.mediaphone",
+      "ai.susi",
+      "app.comaps.fdroid",
+      "app.fedilab.castlab",
+      "app.fedilab.mobilizon",
+      "app.fedilab.nitterizeme",
+      "app.fedilab.nitterizemelite",
+      "app.prav.client",
+      "app.tice.TICE.production",
+      "app.tujice.jergasColombia",
+      "app.udderance",
+      "at.linuxtage.Eventfahrplan",
+      "at.mikenet.serbianlatintocyrillic",
+      "au.com.wallaceit.reddinator",
+      "barilyuk.batterytemperature",
+      "be.digitalia.fosdem",
+      "be.mygod.vpnhotspot_foss",
+      "biz.binarysolutions.mindfulnessmeditation",
+      "biz.binarysolutions.vatcalculator",
+      "ca.chancehorizon.paseo",
+      "ca.farrelltonsolar.classic",
+      "ca.rmen.android.frenchcalendar",
+      "ca.rmen.android.scrumchatter",
+      "cat.jordihernandez.cinecat",
+      "cc.kafuu.bilidownload",
+      "cf.playhi.freezeyou",
+      "ch.abertschi.waterme.water_me",
+      "ch.hgdev.toposuite",
+      "ch.mydoli.focal",
+      "cityfreqs.com.pilfershushjammer",
+      "cl.coders.faketraveler"
+    ],
+    "test_apps": [
+      "anonvpn.anon_next.android",
+      "app.ladefuchs.android",
+      "app.michaelwuensch.bitbanana",
+      "app.organicmaps",
+      "bluepie.ad_silence",
+      "bus.chio.wishmaster",
+      "ca.rmen.nounours",
+      "ch.joshuah.bibleverseapp"
+    ]
+  },
+  "normalized_v021": {
+    "label": "normalized_v021",
+    "normalize": true,
+    "use_edge_weight": true,
+    "act_v": "fraction",
+    "edge_weight_tensor": "transition_prob",
+    "edge_weight_in_encoder": true,
+    "train_wall_sec": 84.94,
+    "loss_first": 0.9090713606639342,
+    "loss_final": 0.6790891958852409,
+    "final_epoch_mean_loss": 0.6790891958852409,
+    "converged_heuristic": true,
+    "train_error": {
+      "count": 440,
+      "min": -0.0,
+      "median": 0.5606092214584351,
+      "max": 11.98009967803955,
+      "mean": 0.7586692955601446
+    },
+    "test_error": {
+      "count": 125,
+      "min": -0.0,
+      "median": 0.7007614970207214,
+      "max": 9.160264015197754,
+      "mean": 0.6553070749044418
+    },
+    "train_vs_test_median_ratio": 1.2499999468394003,
+    "train_ln2_failures": 0,
+    "test_ln2_failures": 0
+  },
+  "raw_pre_v021": {
+    "label": "raw_pre_v021",
+    "normalize": false,
+    "use_edge_weight": true,
+    "act_v": "log1p",
+    "edge_weight_tensor": "raw_w_cum",
+    "edge_weight_in_encoder": true,
+    "train_wall_sec": 83.88,
+    "loss_first": 0.8543227495117621,
+    "loss_final": 0.7005541125852853,
+    "final_epoch_mean_loss": 0.7005541125852853,
+    "converged_heuristic": true,
+    "train_error": {
+      "count": 440,
+      "min": -0.0,
+      "median": 0.5619385838508606,
+      "max": 11.981207847595215,
+      "mean": 0.7625135089551245
+    },
+    "test_error": {
+      "count": 125,
+      "min": -0.0,
+      "median": 0.7024232149124146,
+      "max": 9.161511421203613,
+      "mean": 0.6599400753974916
+    },
+    "train_vs_test_median_ratio": 1.2499999734825804,
+    "train_ln2_failures": 0,
+    "test_ln2_failures": 0
+  },
+  "delta_test_median_normalized_minus_raw": -0.0016617178916931152,
+  "delta_train_median_normalized_minus_raw": -0.0013293623924255371
+}

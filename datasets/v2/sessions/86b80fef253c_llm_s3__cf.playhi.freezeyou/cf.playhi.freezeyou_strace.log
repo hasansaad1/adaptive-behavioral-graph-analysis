@@ -1,0 +1,19 @@
+31147 1784181147.876879 exit(0)         = ?
+31147 1784181147.877288 +++ exited with 0 +++
+31127 1784181149.825358 exit(0)         = ?
+31127 1784181149.825526 +++ exited with 0 +++
+31125 1784181149.825596 exit(0)         = ?
+31125 1784181149.825694 +++ exited with 0 +++
+31124 1784181149.825739 exit(0)         = ?
+31124 1784181149.825781 +++ exited with 0 +++
+31126 1784181149.827073 exit(0)         = ?
+31126 1784181149.827352 +++ exited with 0 +++
+31137 1784181149.828602 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+31137 1784181149.828944 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+31137 1784181149.829256 newfstatat(AT_FDCWD, "/data/app/cf.playhi.freezeyou-Qeae4N6PK5weTC_LacpTqw==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+31137 1784181149.829520 newfstatat(AT_FDCWD, "/data/app/cf.playhi.freezeyou-Qeae4N6PK5weTC_LacpTqw==/base.apk", {st_mode=S_IFREG|0644, st_size=3796080, ...}, AT_SYMLINK_NOFOLLOW) = 0
+31137 1784181149.829775 getcwd("/", 4096) = 2
+31137 1784181149.830021 newfstatat(AT_FDCWD, "/base.apk", 0x753d110690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+31159 1784181162.615629 exit(0)         = ?
+31159 1784181162.616107 +++ exited with 0 +++
+31157 1784181162.665497 faccessat(AT_FDCWD, "/proc/self/task/31159", F_OK) = -1 ENOENT (No such file or directory)

@@ -1,0 +1,318 @@
+{
+  "stability": {
+    "temperature": 0.7,
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "parse_success_rate_per_seed": {
+      "42": 1.0,
+      "43": 1.0,
+      "44": 1.0,
+      "45": 1.0,
+      "46": 1.0
+    },
+    "cross_seed_agreement": {
+      "mean_per_app_per_category_std": 0.16150497174439854,
+      "mean_pairwise_seed_correlation": 0.5026525182129615,
+      "pairwise_seed_correlations": [
+        0.6064586278463608,
+        0.6666910878347856,
+        0.45232807198858554,
+        0.36049458293750825,
+        0.7076111712074287,
+        0.5139668764240156,
+        0.3560309203019946,
+        0.47523388252814275,
+        0.41534769726644527,
+        0.47236226379434804
+      ]
+    },
+    "displacement_from_temp00": {
+      "mean_absolute_difference": 0.14755811320754716,
+      "correlation_temp07_mean_vs_temp00": 0.7860126136336429
+    },
+    "per_category_cross_seed_std": {
+      "accounts": 0.18249508829327377,
+      "audio": 0.1663168201919554,
+      "camera": 0.20468755211640965,
+      "clipboard": 0.11558500271045921,
+      "content_access": 0.17137310350555834,
+      "crypto": 0.1356116589767038,
+      "database": 0.17069219326283064,
+      "device_info": 0.17894671945623783,
+      "dynamic_code_loading": 0.14533603876654608,
+      "file_io": 0.1608344610682895,
+      "ipc_intents": 0.18070589862321362,
+      "location": 0.14950766226518075,
+      "media": 0.1786328353500239,
+      "native_code": 0.1161525512331231,
+      "network": 0.1747493959047195,
+      "notifications": 0.1403524954120206,
+      "package_manager": 0.1466205434878292,
+      "process": 0.16918583229738404,
+      "sms": 0.11056089579560856,
+      "storage": 0.1726538130845297,
+      "telephony": 0.16222316801124156,
+      "webview": 0.2198856485636291
+    },
+    "ipc_intents_cross_seed_std": 0.18070589862321362,
+    "highest_cross_seed_std_categories": [
+      {
+        "category": "webview",
+        "mean_per_app_std": 0.2198856485636291
+      },
+      {
+        "category": "camera",
+        "mean_per_app_std": 0.20468755211640965
+      },
+      {
+        "category": "accounts",
+        "mean_per_app_std": 0.18249508829327377
+      },
+      {
+        "category": "ipc_intents",
+        "mean_per_app_std": 0.18070589862321362
+      },
+      {
+        "category": "device_info",
+        "mean_per_app_std": 0.17894671945623783
+      }
+    ],
+    "lowest_cross_seed_std_categories": [
+      {
+        "category": "notifications",
+        "mean_per_app_std": 0.1403524954120206
+      },
+      {
+        "category": "crypto",
+        "mean_per_app_std": 0.1356116589767038
+      },
+      {
+        "category": "native_code",
+        "mean_per_app_std": 0.1161525512331231
+      },
+      {
+        "category": "clipboard",
+        "mean_per_app_std": 0.11558500271045921
+      },
+      {
+        "category": "sms",
+        "mean_per_app_std": 0.11056089579560856
+      }
+    ]
+  },
+  "stage3_auc": {
+    "temperature_0.0": 0.5005271517375469,
+    "temperature_0.7": 0.5151196702905496,
+    "population_baseline_0.0": 0.49999999999999994,
+    "population_baseline_0.7": 0.5000000000000001
+  },
+  "stage3_detail": {
+    "temp00": {
+      "temperature": 0.0,
+      "prediction_source": "mean_of_seeds_42_46",
+      "n_apps": 53,
+      "app_ids": [
+        "InfinityLoop1309.NewPipeEnhanced",
+        "a2dp.Vol",
+        "ac.robinson.mediaphone",
+        "ademar.bitac",
+        "agrigolo.opendrummer",
+        "anonvpn.anon_next.android",
+        "app.alextran.immich",
+        "app.comaps.fdroid",
+        "app.crescentcash.src",
+        "app.fedilab.castlab",
+        "app.fedilab.mobilizon",
+        "app.fedilab.nitterizemelite",
+        "app.hypostats",
+        "app.ladefuchs.android",
+        "app.michaelwuensch.bitbanana",
+        "app.notesr",
+        "app.organicmaps",
+        "app.pachli",
+        "app.prav.client",
+        "app.tice.TICE.production",
+        "app.tujice.jergasColombia",
+        "app.udderance",
+        "at.linuxtage.Eventfahrplan",
+        "at.manuelbichler.octalsuntime",
+        "at.tomtasche.reader",
+        "au.com.wallaceit.reddinator",
+        "barilyuk.batterytemperature",
+        "be.digitalia.fosdem",
+        "be.humanoids.webthingify",
+        "be.mygod.vpnhotspot_foss",
+        "biz.binarysolutions.mindfulnessmeditation",
+        "biz.binarysolutions.stress",
+        "biz.binarysolutions.vatcalculator",
+        "bluepie.ad_silence",
+        "btools.routingapp",
+        "bus.chio.wishmaster",
+        "ca.andries.portknocker",
+        "ca.chancehorizon.paseo",
+        "ca.farrelltonsolar.classic",
+        "ca.momi.lift",
+        "ca.ramzan.delist",
+        "ca.rmen.android.frenchcalendar",
+        "ca.rmen.android.scrumchatter",
+        "ca.rmen.nounours",
+        "cc.kafuu.bilidownload",
+        "cf.playhi.freezeyou",
+        "ch.abertschi.waterme.water_me",
+        "ch.bubendorf.locusaddon.gsakdatabase",
+        "ch.hgdev.toposuite",
+        "ch.joshuah.bibleverseapp",
+        "ch.mydoli.focal",
+        "cityfreqs.com.pilfershushjammer",
+        "cl.coders.faketraveler"
+      ],
+      "scorer": "cosine_similarity",
+      "self_cross": {
+        "auc": 0.5005271517375469,
+        "n_apps": 53,
+        "n_self_pairs": 53,
+        "n_cross_pairs": 2756,
+        "mean_self_cosine": 0.39526904871433366,
+        "mean_cross_cosine": 0.38601035944173,
+        "median_self_cosine": 0.3706090746255605,
+        "median_cross_cosine": 0.383977927406524,
+        "self_minus_cross_mean": 0.009258689272603648
+      },
+      "population_baseline": {
+        "auc": 0.49999999999999994,
+        "population_mean_profile": {
+          "accounts": 0.4354716981132074,
+          "audio": 0.3450943396226416,
+          "camera": 0.46754716981132083,
+          "clipboard": 0.15962264150943392,
+          "content_access": 0.6247169811320754,
+          "crypto": 0.29415094339622644,
+          "database": 0.4815094339622644,
+          "device_info": 0.36905660377358496,
+          "dynamic_code_loading": 0.19603773584905654,
+          "file_io": 0.48320754716981146,
+          "ipc_intents": 0.5283018867924528,
+          "location": 0.2858490566037735,
+          "media": 0.4543396226415094,
+          "native_code": 0.2045283018867925,
+          "network": 0.5643396226415096,
+          "notifications": 0.28773584905660377,
+          "package_manager": 0.39433962264150957,
+          "process": 0.3015094339622642,
+          "sms": 0.15490566037735848,
+          "storage": 0.5467924528301887,
+          "telephony": 0.3300000000000002,
+          "webview": 0.549433962264151
+        },
+        "mean_self_cosine": 0.41088454214115755,
+        "mean_cross_cosine": 0.41088454214115755
+      }
+    },
+    "temp07": {
+      "temperature": 0.7,
+      "prediction_source": "mean_of_seeds_42_46",
+      "n_apps": 53,
+      "app_ids": [
+        "InfinityLoop1309.NewPipeEnhanced",
+        "a2dp.Vol",
+        "ac.robinson.mediaphone",
+        "ademar.bitac",
+        "agrigolo.opendrummer",
+        "anonvpn.anon_next.android",
+        "app.alextran.immich",
+        "app.comaps.fdroid",
+        "app.crescentcash.src",
+        "app.fedilab.castlab",
+        "app.fedilab.mobilizon",
+        "app.fedilab.nitterizemelite",
+        "app.hypostats",
+        "app.ladefuchs.android",
+        "app.michaelwuensch.bitbanana",
+        "app.notesr",
+        "app.organicmaps",
+        "app.pachli",
+        "app.prav.client",
+        "app.tice.TICE.production",
+        "app.tujice.jergasColombia",
+        "app.udderance",
+        "at.linuxtage.Eventfahrplan",
+        "at.manuelbichler.octalsuntime",
+        "at.tomtasche.reader",
+        "au.com.wallaceit.reddinator",
+        "barilyuk.batterytemperature",
+        "be.digitalia.fosdem",
+        "be.humanoids.webthingify",
+        "be.mygod.vpnhotspot_foss",
+        "biz.binarysolutions.mindfulnessmeditation",
+        "biz.binarysolutions.stress",
+        "biz.binarysolutions.vatcalculator",
+        "bluepie.ad_silence",
+        "btools.routingapp",
+        "bus.chio.wishmaster",
+        "ca.andries.portknocker",
+        "ca.chancehorizon.paseo",
+        "ca.farrelltonsolar.classic",
+        "ca.momi.lift",
+        "ca.ramzan.delist",
+        "ca.rmen.android.frenchcalendar",
+        "ca.rmen.android.scrumchatter",
+        "ca.rmen.nounours",
+        "cc.kafuu.bilidownload",
+        "cf.playhi.freezeyou",
+        "ch.abertschi.waterme.water_me",
+        "ch.bubendorf.locusaddon.gsakdatabase",
+        "ch.hgdev.toposuite",
+        "ch.joshuah.bibleverseapp",
+        "ch.mydoli.focal",
+        "cityfreqs.com.pilfershushjammer",
+        "cl.coders.faketraveler"
+      ],
+      "scorer": "cosine_similarity",
+      "self_cross": {
+        "auc": 0.5151196702905496,
+        "n_apps": 53,
+        "n_self_pairs": 53,
+        "n_cross_pairs": 2756,
+        "mean_self_cosine": 0.40339805689778113,
+        "mean_cross_cosine": 0.39849590216400127,
+        "median_self_cosine": 0.3994156875678281,
+        "median_cross_cosine": 0.38671526460848915,
+        "self_minus_cross_mean": 0.004902154733779862
+      },
+      "population_baseline": {
+        "auc": 0.5000000000000001,
+        "population_mean_profile": {
+          "accounts": 0.4362343396226416,
+          "audio": 0.3660652830188679,
+          "camera": 0.4545015094339622,
+          "clipboard": 0.17466113207547174,
+          "content_access": 0.6768211320754718,
+          "crypto": 0.2796015094339622,
+          "database": 0.5358558490566037,
+          "device_info": 0.42538905660377363,
+          "dynamic_code_loading": 0.22115207547169813,
+          "file_io": 0.4822071698113206,
+          "ipc_intents": 0.5322471698113205,
+          "location": 0.32780641509433966,
+          "media": 0.45551886792452834,
+          "native_code": 0.20299849056603772,
+          "network": 0.5754758490566036,
+          "notifications": 0.3042633962264151,
+          "package_manager": 0.40213283018867924,
+          "process": 0.361637358490566,
+          "sms": 0.170748679245283,
+          "storage": 0.5811739622641511,
+          "telephony": 0.3535822641509433,
+          "webview": 0.5102101886792452
+        },
+        "mean_self_cosine": 0.4061426627016304,
+        "mean_cross_cosine": 0.4061426627016304
+      }
+    }
+  }
+}

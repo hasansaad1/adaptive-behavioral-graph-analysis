@@ -1,0 +1,972 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "ca.farrelltonsolar.classic",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 0
+    },
+    {
+      "screen_hash": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "hint": "APPLY Apply Button · CANCEL Cancel Button · SettingsHelp ImageButton · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout",
+      "visit_count": 27
+    },
+    {
+      "screen_hash": "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+      "hint": "Add action_add TextView · help action_help TextView · Close navigation drawer ImageButton · ENERGY TextView · LIVE CHART TextView · POWER TextView · STATE OF CHARGE TextView · TEMPERATURE TextView",
+      "visit_count": 12
+    },
+    {
+      "screen_hash": "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2",
+      "hint": "help action_help TextView · Settings action_settings TextView · Share action_share TextView · Open navigation drawer ImageButton · ENERGY TextView · LIVE CHART TextView · POWER TextView · STATE OF CHARGE TextView · TEMPERATURE TextView",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "e02e5c4c4c3904bd35aca961040c476bda028604f5dc82aac57845ac2b7119f2",
+      "hint": "APPLY button1 Button · CANCEL button2 Button · IP Address, URI ipAddress EditText · 502 port EditText",
+      "visit_count": 4
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+      "to": "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 1037,
+        "y": 273,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:1037,273",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1037, \"y\": 273}"
+    },
+    {
+      "step": 2,
+      "from": "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2",
+      "to": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/action_settings",
+        "target_content_desc": "Settings",
+        "x": 1017,
+        "y": 136,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/action_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 3,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 4,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 5,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 6,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 7,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 8,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 9,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 10,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 11,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 12,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 13,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 14,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 15,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 16,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 17,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 18,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 19,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 20,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 21,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 22,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 23,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 24,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 25,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 26,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 27,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 28,
+      "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/SettingsHelp",
+        "target_content_desc": "",
+        "x": 943,
+        "y": 200,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.farrelltonsolar.classic:id/SettingsHelp",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1037, \"y\": 273}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+        "last_to": "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 289, \"y\": 273}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 564, \"y\": 273}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 867, \"y\": 273}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 94, \"y\": 273}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1037, \"y\": 273}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 289, \"y\": 273}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 564, \"y\": 273}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 867, \"y\": 273}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 94, \"y\": 273}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Close navigation drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Close navigation drawer",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/action_settings",
+        "target_content_desc": "Settings",
+        "visible_on": [
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2",
+          "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76"
+        ],
+        "attempts": 27,
+        "successes": 27,
+        "last_from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:|Open navigation drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Open navigation drawer",
+        "visible_on": [
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:ca.farrelltonsolar.classic:id/Apply|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/Apply",
+        "target_content_desc": "",
+        "visible_on": [
+          "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:ca.farrelltonsolar.classic:id/Cancel|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/Cancel",
+        "target_content_desc": "",
+        "visible_on": [
+          "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:ca.farrelltonsolar.classic:id/Apply|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/Apply",
+        "target_content_desc": "",
+        "visible_on": [
+          "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:ca.farrelltonsolar.classic:id/Cancel|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/Cancel",
+        "target_content_desc": "",
+        "visible_on": [
+          "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+        "to": "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1037, \"y\": 273}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2",
+        "to": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      }
+    ]
+  }
+}

@@ -1,0 +1,686 @@
+{
+  "goals": [
+    "Tap register button",
+    "Tap text1",
+    "Tap name",
+    "Tap hCaptcha logo, opens new",
+    "Tap LET'S GO",
+    "Tap Refresh Challenge.",
+    "Input text in Public Name",
+    "Tap English language-list",
+    "Tap English text1",
+    "Tap Esperanto text1"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap register button",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap text1",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap name",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap hCaptcha logo, opens new",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap LET'S GO",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Tap Refresh Challenge.",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Input text in Public Name",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Tap English language-list",
+      "nav_token": "",
+      "target_keys": [
+        "tab:language-list|",
+        "nav:language-list|"
+      ],
+      "observed_screen_hashes": [
+        "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+        "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394"
+      ],
+      "observed_screen_hints": [
+        "English language-list View · About hCaptcha & Accessibili menu-info Button · View · View · View · View · Refresh Challenge. Button · Skip Challenge, page 1 of 2 Button · hCaptcha logo, opens new win Button · Image-based CAPTCHA challeng Image",
+        "English text1 CheckedTextView · Esperanto text1 CheckedTextView · Estonian text1 CheckedTextView · Finnish text1 CheckedTextView · French text1 CheckedTextView · Frisian text1 CheckedTextView · Gaelic text1 CheckedTextView · Galacian text1 CheckedTextView · Georgian text1 CheckedTextView · German text1 CheckedTextView"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 8,
+      "goal": "Tap English text1",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 9,
+      "goal": "Tap Esperanto text1",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc": "LET'S GO register_button Button · Public Name name EditText",
+    "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609": "LET'S GO register_button Button · Public Name name EditText",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": "",
+    "fe54f1bf86bfab948570bf149a9bc29a961bda366f9267e2a02f57961076de07": "webView WebView",
+    "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e": "View",
+    "e7d9ebb1195178b8fcc19ce9e7c76a31f35f2e2302ba9c27628d42b88aba2ae9": "English language-list View · About hCaptcha & Accessibili menu-info Button · View · View · View · View · Next Challenge, page 1 of 2 Button · Refresh Challenge. Button · hCaptcha logo, opens new win Button · Image-based CAPTCHA challeng Image",
+    "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b": "English language-list View · About hCaptcha & Accessibili menu-info Button · View · View · View · View · Refresh Challenge. Button · Skip Challenge, page 1 of 2 Button · hCaptcha logo, opens new win Button · Image-based CAPTCHA challeng Image",
+    "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394": "English text1 CheckedTextView · Esperanto text1 CheckedTextView · Estonian text1 CheckedTextView · Finnish text1 CheckedTextView · French text1 CheckedTextView · Frisian text1 CheckedTextView · Gaelic text1 CheckedTextView · Galacian text1 CheckedTextView · Georgian text1 CheckedTextView · German text1 CheckedTextView"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:app.tice.TICE.production:id/name|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.tice.TICE.production:id/name",
+        "target_content_desc": "",
+        "visible_on": [
+          "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+          "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "last_to": "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609"
+      },
+      "tab:app.tice.TICE.production:id/register_button|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "visible_on": [
+          "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+          "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609"
+        ],
+        "attempts": 16,
+        "successes": 16,
+        "last_from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "last_to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e"
+      },
+      "nav:app.tice.TICE.production:id/register_button|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "visible_on": [
+          "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+          "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 14,
+        "successes": 14,
+        "last_from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "last_to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc"
+      },
+      "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 928}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "last_to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 313, \"y\": 1377}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 546, \"y\": 1373}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 852, \"y\": 1385}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:language-list|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "language-list",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+        "last_to": "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394"
+      },
+      "tab:menu-info|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "menu-info",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 313, \"y\": 1377}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 546, \"y\": 1373}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 852, \"y\": 1385}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:language-list|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "language-list",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:menu-info|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "menu-info",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:android:id/text1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/text1",
+        "target_content_desc": "",
+        "visible_on": [
+          "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:android:id/text1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/text1",
+        "target_content_desc": "",
+        "visible_on": [
+          "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609",
+        "target_key": "tab:app.tice.TICE.production:id/name|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "fe54f1bf86bfab948570bf149a9bc29a961bda366f9267e2a02f57961076de07",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "e7d9ebb1195178b8fcc19ce9e7c76a31f35f2e2302ba9c27628d42b88aba2ae9",
+        "target_key": "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 928}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 928}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+        "to": "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394",
+        "target_key": "tab:language-list|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/text1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:menu-info|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 313, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+    "root_screen_signature": "cbb3ebe302c1981cd284d40ef31394163d9ceed10d320b33de8c7144de48b74b",
+    "root_screen_hint": "LET'S GO register_button Button · Public Name name EditText",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "app.tice.TICE.production",
+          "screen_hash": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+          "interactive_count": 2,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "cbb3ebe302c1981cd284d40ef31394163d9ceed10d320b33de8c7144de48b74b",
+          "root_landmark_score": 1
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app to view a list of languages, then select one by scrolling through the list. After selecting a language, they are presented with a CAPTCHA challenge. Users can either skip the challenge or attempt to solve it. Once the challenge is completed, they can proceed to register for an account. The primary gesture used is vertical swipe between items in the language list.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

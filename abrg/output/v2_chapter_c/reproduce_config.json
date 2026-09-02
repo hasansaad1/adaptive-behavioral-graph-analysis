@@ -1,0 +1,42 @@
+{
+  "chapter": "C",
+  "command": "python -m abrg.chapter_c",
+  "corpus": "datasets/v2_extended",
+  "library_versions": {
+    "matplotlib": "3.11.0",
+    "numpy": "2.5.0",
+    "platform": "macOS-26.3.1-arm64-arm-64bit-Mach-O",
+    "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+    "scipy": "1.18.0",
+    "torch": "2.12.1"
+  },
+  "output": "abrg/output/v2_chapter_c",
+  "pins": {
+    "delta_sec": 5.0,
+    "edge_weight_variants": [
+      "w_cum",
+      "w_rec",
+      "both"
+    ],
+    "k_burst": 5,
+    "lambda_rec": 0.01,
+    "lambda_rec_sweep": [
+      0.001,
+      0.01,
+      0.05,
+      0.1
+    ],
+    "primary_metric": "frobenius_combined",
+    "reference_combine": "equal_mean_normalised_session_tensors",
+    "shuffle_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stabilisation_frac": 0.1,
+    "window_sec": 60.0
+  },
+  "reference_combine_justification": "Each session graph is built independently with timed update_graph, then converted to a shares-not-counts dense tensor. R_k is the equal-weight arithmetic mean of session tensors 1..k. Sessions contribute equally (event-count does not overweight long traces); distances stay on the normalised scale used for GAE feeds; Stage-3 channel variants differ only in which adjacency channel(s) enter the tensor."
+}

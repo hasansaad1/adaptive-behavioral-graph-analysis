@@ -1,0 +1,79 @@
+{
+  "active_categories": [
+    "crypto",
+    "file_io",
+    "network"
+  ],
+  "app_id": "app.ladefuchs.android",
+  "batch": "original",
+  "end_timestamp": "2026-07-13T06:35:16.103000Z",
+  "end_timestamp_ms": 1783924516103,
+  "event_counts": {
+    "mapped": 101,
+    "mapped_rate": 0.016356275303643725,
+    "total": 6175
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "0f0dc4577a45_llm_s2__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "File.delete",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "Socket.connect"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 3,
+  "reference_tier_pass": true,
+  "session_id": "0f0dc4577a45_llm_s2",
+  "session_index_within_app": 2,
+  "source_frida_path": "datasets/v2/sessions/0f0dc4577a45_llm_s2__app.ladefuchs.android/app.ladefuchs.android_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/0f0dc4577a45_llm_s2__app.ladefuchs.android/app.ladefuchs.android_dynamic_metadata.json",
+  "start_timestamp": "2026-07-13T06:27:26.737000Z",
+  "start_timestamp_ms": 1783924046737,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 6175,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 50,
+    "n_with_timestamp": 6175,
+    "unparseable_line_numbers_sample": [
+      2458,
+      2459,
+      2460,
+      2461,
+      2462,
+      2463,
+      2464,
+      2465,
+      2466,
+      2467,
+      4965,
+      4966,
+      4967,
+      4968,
+      4969,
+      4970,
+      4971,
+      4972,
+      4973,
+      4974
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 469.366
+}

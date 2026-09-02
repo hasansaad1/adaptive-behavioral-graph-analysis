@@ -1,0 +1,79 @@
+{
+  "active_categories": [
+    "file_io",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "be.digitalia.fosdem",
+  "batch": "extend",
+  "end_timestamp": "2026-08-15T01:03:01.979000Z",
+  "end_timestamp_ms": 1786755781979,
+  "event_counts": {
+    "mapped": 52,
+    "mapped_rate": 0.0017199748619058644,
+    "total": 30233
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "37b1a8bb28b9_llm_s8__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 2,
+  "reference_tier_pass": true,
+  "session_id": "37b1a8bb28b9_llm_s8",
+  "session_index_within_app": 8,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/37b1a8bb28b9_be.digitalia.fosdem/dynamic/llm/session_8/be.digitalia.fosdem_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/37b1a8bb28b9_be.digitalia.fosdem/dynamic/llm/session_8/be.digitalia.fosdem_dynamic_metadata.json",
+  "start_timestamp": "2026-08-15T00:55:23.208000Z",
+  "start_timestamp_ms": 1786755323208,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 30233,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 21,
+    "n_with_timestamp": 30233,
+    "unparseable_line_numbers_sample": [
+      12833,
+      17000,
+      17001,
+      17002,
+      17003,
+      17004,
+      17005,
+      17006,
+      17007,
+      17008,
+      17009,
+      17078,
+      17079,
+      17080,
+      17081,
+      17082,
+      17083,
+      17084,
+      17085,
+      17086
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 458.871
+}

@@ -1,0 +1,40 @@
+8258  1784087711.804183 recvfrom(38, 0x7fe7aafe20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+8258  1784087711.818182 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0QQB$\265\2\0\0\t\262\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+8258  1784087711.818271 recvfrom(38, 0x7fe7ab0300, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+8268  1784087713.184395 exit(0 <unfinished ...>
+8269  1784087713.184643 exit(0 <unfinished ...>
+8268  1784087713.184676 <... exit resumed>) = ?
+8269  1784087713.184948 <... exit resumed>) = ?
+8268  1784087713.184987 +++ exited with 0 +++
+8270  1784087713.185211 exit(0 <unfinished ...>
+8269  1784087713.185235 +++ exited with 0 +++
+8270  1784087713.185344 <... exit resumed>) = ?
+8267  1784087713.185362 exit(0 <unfinished ...>
+8270  1784087713.185475 +++ exited with 0 +++
+8267  1784087713.185478 <... exit resumed>) = ?
+8267  1784087713.185706 +++ exited with 0 +++
+8281  1784087713.187981 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+8281  1784087713.188262 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+8281  1784087713.188525 newfstatat(AT_FDCWD, "/data/app/biz.binarysolutions.mindfulnessmeditation-Si5i4dbvx3sH0ViS5XzDmA==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+8281  1784087713.188747 newfstatat(AT_FDCWD, "/data/app/biz.binarysolutions.mindfulnessmeditation-Si5i4dbvx3sH0ViS5XzDmA==/base.apk", {st_mode=S_IFREG|0644, st_size=2720533, ...}, AT_SYMLINK_NOFOLLOW) = 0
+8281  1784087713.188982 getcwd("/", 4096) = 2
+8281  1784087713.189202 newfstatat(AT_FDCWD, "/base.apk", 0x71bbbf8690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+8258  1784087713.847088 clone(child_stack=0x71719e6d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x71719e6d60, tls=0x71719e7020, child_tidptr=0x71719e6d60) = 8346
+8346  1784087713.854117 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation", F_OK) = 0
+8346  1784087713.854371 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files", F_OK) = 0
+8346  1784087713.854561 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+8346  1784087713.854910 openat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 56
+8346  1784087713.856107 getsockopt(56, SOL_SOCKET, SO_ERROR, 0x71719e5d24, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+8346  1784087713.858885 openat(AT_FDCWD, "/data/app/biz.binarysolutions.mindfulnessmeditation-Si5i4dbvx3sH0ViS5XzDmA==/base.apk", O_RDONLY) = 56
+8346  1784087713.859603 getsockopt(56, SOL_SOCKET, SO_ERROR, 0x71719e55a4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+8346  1784087713.860701 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/biz.binarysolutions.mindfulnessmeditation/primary.prof", 0x71719e5548, 0) = -1 ENOENT (No such file or directory)
+8346  1784087713.861077 faccessat(AT_FDCWD, "/data/misc/profiles/ref/biz.binarysolutions.mindfulnessmeditation/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+8346  1784087713.861432 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/biz.binarysolutions.mindfulnessmeditation/primary.prof", {st_mode=S_IFREG|0600, st_size=5785, ...}, 0) = 0
+8346  1784087713.861749 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/biz.binarysolutions.mindfulnessmeditation/primary.prof", F_OK) = 0
+8346  1784087713.862471 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files", F_OK) = 0
+8346  1784087713.862784 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files/profileInstalled", F_OK) = 0
+8346  1784087713.863115 openat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files/profileInstalled", O_RDONLY) = 56
+8346  1784087713.864866 getsockopt(56, SOL_SOCKET, SO_ERROR, 0x71719e4ec4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+8346  1784087713.869250 exit(0)         = ?
+8346  1784087713.869515 +++ exited with 0 +++
+8301  1784087713.920896 faccessat(AT_FDCWD, "/proc/self/task/8346", F_OK) = -1 ENOENT (No such file or directory)

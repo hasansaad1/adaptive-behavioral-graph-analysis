@@ -1,0 +1,80 @@
+{
+  "active_categories": [
+    "file_io",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "app.fedilab.nitterizeme",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T23:28:11.568000Z",
+  "end_timestamp_ms": 1786750091568,
+  "event_counts": {
+    "mapped": 226,
+    "mapped_rate": 0.029161290322580646,
+    "total": 7750
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "bcf251559ee4_llm_s8__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 2,
+  "reference_tier_pass": true,
+  "session_id": "bcf251559ee4_llm_s8",
+  "session_index_within_app": 8,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/bcf251559ee4_app.fedilab.nitterizeme/dynamic/llm/session_8/app.fedilab.nitterizeme_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/bcf251559ee4_app.fedilab.nitterizeme/dynamic/llm/session_8/app.fedilab.nitterizeme_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T23:20:24.416000Z",
+  "start_timestamp_ms": 1786749624416,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 7750,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 40,
+    "n_with_timestamp": 7750,
+    "unparseable_line_numbers_sample": [
+      3796,
+      3797,
+      3798,
+      3799,
+      3800,
+      3801,
+      3802,
+      3803,
+      3804,
+      3805,
+      6792,
+      6793,
+      6794,
+      6795,
+      6796,
+      6797,
+      6798,
+      6799,
+      6800,
+      6801
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 467.237
+}

@@ -1,0 +1,281 @@
+{
+  "kind": "androct_master_verify",
+  "experiment": "supgnn",
+  "n_rows": 27,
+  "cli_rerun": {
+    "cli_module": "abrg.supgnn",
+    "out_flag": "--out"
+  },
+  "rows": [
+    {
+      "detector": "GIN_mean_seeds",
+      "method": "M1_full",
+      "representation": "T22_mean",
+      "split": "splitA_stratified",
+      "auc_floor": "0.8837505214851898",
+      "raw_auc": "0.8837505214851898",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitA/splitA_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_mean_seeds",
+      "method": "M2_no_edges",
+      "representation": "T22_mean",
+      "split": "splitA_stratified",
+      "auc_floor": "0.8999624530663329",
+      "raw_auc": "0.8999624530663329",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitA/splitA_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_mean_seeds",
+      "method": "M3_const_feats",
+      "representation": "T22_mean",
+      "split": "splitA_stratified",
+      "auc_floor": "0.5902565707133918",
+      "raw_auc": "0.5902565707133918",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitA/splitA_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_mean_seeds",
+      "method": "M1_full",
+      "representation": "T22_add",
+      "split": "splitA_stratified",
+      "auc_floor": "0.8690070921985816",
+      "raw_auc": "0.8690070921985816",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitA/splitA_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_mean_seeds",
+      "method": "M2_no_edges",
+      "representation": "T22_add",
+      "split": "splitA_stratified",
+      "auc_floor": "0.8975177304964539",
+      "raw_auc": "0.8975177304964539",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitA/splitA_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_mean_seeds",
+      "method": "M3_const_feats",
+      "representation": "T22_add",
+      "split": "splitA_stratified",
+      "auc_floor": "0.5788902795160618",
+      "raw_auc": "0.5788902795160618",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitA/splitA_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_mean_seeds",
+      "method": "M1_full",
+      "representation": "T22_max",
+      "split": "splitA_stratified",
+      "auc_floor": "0.8765123070504798",
+      "raw_auc": "0.8765123070504798",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitA/splitA_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_mean_seeds",
+      "method": "M2_no_edges",
+      "representation": "T22_max",
+      "split": "splitA_stratified",
+      "auc_floor": "0.8886441385064664",
+      "raw_auc": "0.8886441385064664",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitA/splitA_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_mean_seeds",
+      "method": "M3_const_feats",
+      "representation": "T22_max",
+      "split": "splitA_stratified",
+      "auc_floor": "0.678840216937839",
+      "raw_auc": "0.678840216937839",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitA/splitA_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_weighted_mean_auc_floor",
+      "method": "M1_full",
+      "representation": "T22_mean",
+      "split": "splitB_ward30",
+      "auc_floor": "0.7903532271361647",
+      "raw_auc": "0.7903532271361647",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_pooled_oof",
+      "method": "M1_full",
+      "representation": "T22_mean",
+      "split": "splitB_ward30",
+      "auc_floor": "0.7616633291614519",
+      "raw_auc": "0.7616633291614519",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_weighted_mean_auc_floor",
+      "method": "M2_no_edges",
+      "representation": "T22_mean",
+      "split": "splitB_ward30",
+      "auc_floor": "0.8053693504010251",
+      "raw_auc": "0.8053693504010251",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_pooled_oof",
+      "method": "M2_no_edges",
+      "representation": "T22_mean",
+      "split": "splitB_ward30",
+      "auc_floor": "0.7842760394938116",
+      "raw_auc": "0.7842760394938116",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_weighted_mean_auc_floor",
+      "method": "M3_const_feats",
+      "representation": "T22_mean",
+      "split": "splitB_ward30",
+      "auc_floor": "0.7433104939138332",
+      "raw_auc": "0.7433104939138332",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_pooled_oof",
+      "method": "M3_const_feats",
+      "representation": "T22_mean",
+      "split": "splitB_ward30",
+      "auc_floor": "0.6047909887359199",
+      "raw_auc": "0.6047909887359199",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_weighted_mean_auc_floor",
+      "method": "M1_full",
+      "representation": "T22_add",
+      "split": "splitB_ward30",
+      "auc_floor": "0.7774124956513043",
+      "raw_auc": "0.7774124956513043",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_pooled_oof",
+      "method": "M1_full",
+      "representation": "T22_add",
+      "split": "splitB_ward30",
+      "auc_floor": "0.6771649283827006",
+      "raw_auc": "0.6771649283827006",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_weighted_mean_auc_floor",
+      "method": "M2_no_edges",
+      "representation": "T22_add",
+      "split": "splitB_ward30",
+      "auc_floor": "0.7807531445203559",
+      "raw_auc": "0.7807531445203559",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_pooled_oof",
+      "method": "M2_no_edges",
+      "representation": "T22_add",
+      "split": "splitB_ward30",
+      "auc_floor": "0.8027869559171188",
+      "raw_auc": "0.8027869559171188",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_weighted_mean_auc_floor",
+      "method": "M3_const_feats",
+      "representation": "T22_add",
+      "split": "splitB_ward30",
+      "auc_floor": "0.771239893190875",
+      "raw_auc": "0.771239893190875",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_pooled_oof",
+      "method": "M3_const_feats",
+      "representation": "T22_add",
+      "split": "splitB_ward30",
+      "auc_floor": "0.5862873731052705",
+      "raw_auc": "0.5862873731052705",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_weighted_mean_auc_floor",
+      "method": "M1_full",
+      "representation": "T22_max",
+      "split": "splitB_ward30",
+      "auc_floor": "0.7717990626011424",
+      "raw_auc": "0.7717990626011424",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_pooled_oof",
+      "method": "M1_full",
+      "representation": "T22_max",
+      "split": "splitB_ward30",
+      "auc_floor": "0.7413030176609651",
+      "raw_auc": "0.7413030176609651",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_weighted_mean_auc_floor",
+      "method": "M2_no_edges",
+      "representation": "T22_max",
+      "split": "splitB_ward30",
+      "auc_floor": "0.7577753285168531",
+      "raw_auc": "0.7577753285168531",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_pooled_oof",
+      "method": "M2_no_edges",
+      "representation": "T22_max",
+      "split": "splitB_ward30",
+      "auc_floor": "0.7783510638297872",
+      "raw_auc": "0.7783510638297872",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_weighted_mean_auc_floor",
+      "method": "M3_const_feats",
+      "representation": "T22_max",
+      "split": "splitB_ward30",
+      "auc_floor": "0.6349243513145737",
+      "raw_auc": "0.6349243513145737",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "GIN_pooled_oof",
+      "method": "M3_const_feats",
+      "representation": "T22_max",
+      "split": "splitB_ward30",
+      "auc_floor": "0.5015237101932971",
+      "raw_auc": "0.5015237101932971",
+      "artifact_path": "abrg/output/androct_2017/supgnn/splitB/splitB_results.json",
+      "is_headline": "False"
+    }
+  ]
+}

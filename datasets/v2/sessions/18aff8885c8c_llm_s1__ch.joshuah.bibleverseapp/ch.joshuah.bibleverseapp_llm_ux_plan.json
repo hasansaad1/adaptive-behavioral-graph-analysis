@@ -1,0 +1,636 @@
+{
+  "goals": [
+    "Tap Verse",
+    "Tap Settings",
+    "Tap fragment verse buttonShare",
+    "Tap Credits"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap Verse",
+      "nav_token": "",
+      "target_keys": [
+        "tab:home",
+        "nav:home"
+      ],
+      "observed_screen_hashes": [
+        "e9ff1582905271232969c348c2e7871a0aa7166acdc002d00c74f8446c01244f",
+        "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79"
+      ],
+      "observed_screen_hints": [
+        "Verse home FrameLayout · Settings settings FrameLayout · App Development by Joshua Hü fragment_credit_textViewCreditText TextView · Powered by BibleGateway.com TextView · We extend our gratitude to B TextView",
+        "Credits credits FrameLayout · Verse home FrameLayout · LinearLayout · LinearLayout · LinearLayout",
+        "Credits credits FrameLayout · Settings settings FrameLayout · Share fragment_verse_buttonShare Button"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap Settings",
+      "nav_token": "settings",
+      "target_keys": [
+        "tab:settings",
+        "nav:settings"
+      ],
+      "observed_screen_hashes": [
+        "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "e9ff1582905271232969c348c2e7871a0aa7166acdc002d00c74f8446c01244f",
+        "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2"
+      ],
+      "observed_screen_hints": [
+        "Credits credits FrameLayout · Settings settings FrameLayout · Share fragment_verse_buttonShare Button",
+        "Verse home FrameLayout · Settings settings FrameLayout · App Development by Joshua Hü fragment_credit_textViewCreditText TextView · Powered by BibleGateway.com TextView · We extend our gratitude to B TextView",
+        "Credits credits FrameLayout · Verse home FrameLayout · LinearLayout · LinearLayout · LinearLayout"
+      ],
+      "route_hint": "Use visible settings navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 2,
+      "goal": "Tap fragment verse buttonShare",
+      "nav_token": "",
+      "target_keys": [
+        "tab:home",
+        "nav:home"
+      ],
+      "observed_screen_hashes": [
+        "e9ff1582905271232969c348c2e7871a0aa7166acdc002d00c74f8446c01244f",
+        "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79"
+      ],
+      "observed_screen_hints": [
+        "Verse home FrameLayout · Settings settings FrameLayout · App Development by Joshua Hü fragment_credit_textViewCreditText TextView · Powered by BibleGateway.com TextView · We extend our gratitude to B TextView",
+        "Credits credits FrameLayout · Verse home FrameLayout · LinearLayout · LinearLayout · LinearLayout",
+        "Credits credits FrameLayout · Settings settings FrameLayout · Share fragment_verse_buttonShare Button"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Credits",
+      "nav_token": "",
+      "target_keys": [
+        "tab:ch.joshuah.bibleverseapp:id/credits|Credits",
+        "nav:ch.joshuah.bibleverseapp:id/credits|Credits"
+      ],
+      "observed_screen_hashes": [
+        "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "e9ff1582905271232969c348c2e7871a0aa7166acdc002d00c74f8446c01244f"
+      ],
+      "observed_screen_hints": [
+        "Credits credits FrameLayout · Settings settings FrameLayout · Share fragment_verse_buttonShare Button",
+        "Credits credits FrameLayout · Verse home FrameLayout · LinearLayout · LinearLayout · LinearLayout",
+        "Verse home FrameLayout · Settings settings FrameLayout · App Development by Joshua Hü fragment_credit_textViewCreditText TextView · Powered by BibleGateway.com TextView · We extend our gratitude to B TextView"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79": "Credits credits FrameLayout · Settings settings FrameLayout · Share fragment_verse_buttonShare Button",
+    "e9ff1582905271232969c348c2e7871a0aa7166acdc002d00c74f8446c01244f": "Verse home FrameLayout · Settings settings FrameLayout · App Development by Joshua Hü fragment_credit_textViewCreditText TextView · Powered by BibleGateway.com TextView · We extend our gratitude to B TextView",
+    "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2": "Credits credits FrameLayout · Verse home FrameLayout · LinearLayout · LinearLayout · LinearLayout"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:ch.joshuah.bibleverseapp:id/credits|Credits": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ch.joshuah.bibleverseapp:id/credits",
+        "target_content_desc": "Credits",
+        "visible_on": [
+          "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+          "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "last_to": "e9ff1582905271232969c348c2e7871a0aa7166acdc002d00c74f8446c01244f"
+      },
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "ch.joshuah.bibleverseapp:id/settings",
+        "target_content_desc": "Settings",
+        "visible_on": [
+          "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+          "e9ff1582905271232969c348c2e7871a0aa7166acdc002d00c74f8446c01244f"
+        ],
+        "attempts": 9,
+        "successes": 9,
+        "last_from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "last_to": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2"
+      },
+      "nav:settings": {
+        "kind": "nav",
+        "semantic_token": "settings",
+        "target_resource_id": "ch.joshuah.bibleverseapp:id/settings",
+        "target_content_desc": "Settings",
+        "visible_on": [
+          "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+          "e9ff1582905271232969c348c2e7871a0aa7166acdc002d00c74f8446c01244f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:ch.joshuah.bibleverseapp:id/credits|Credits": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ch.joshuah.bibleverseapp:id/credits",
+        "target_content_desc": "Credits",
+        "visible_on": [
+          "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+          "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 28,
+        "successes": 28,
+        "last_from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "last_to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79"
+      },
+      "tab:home": {
+        "kind": "tab",
+        "semantic_token": "home",
+        "target_resource_id": "ch.joshuah.bibleverseapp:id/home",
+        "target_content_desc": "Verse",
+        "visible_on": [
+          "e9ff1582905271232969c348c2e7871a0aa7166acdc002d00c74f8446c01244f",
+          "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2"
+        ],
+        "attempts": 9,
+        "successes": 9,
+        "last_from": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "last_to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79"
+      },
+      "nav:home": {
+        "kind": "nav",
+        "semantic_token": "home",
+        "target_resource_id": "ch.joshuah.bibleverseapp:id/home",
+        "target_content_desc": "Verse",
+        "visible_on": [
+          "e9ff1582905271232969c348c2e7871a0aa7166acdc002d00c74f8446c01244f",
+          "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "e9ff1582905271232969c348c2e7871a0aa7166acdc002d00c74f8446c01244f",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/credits|Credits",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "e9ff1582905271232969c348c2e7871a0aa7166acdc002d00c74f8446c01244f",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ecbf7949752d996c4d81369decf8c9cb4213f30a6a4a871a33e9471fbe9dd9c2",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "to": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+        "target_key": "tab:ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+    "root_screen_signature": "84320ad11592bd906b490453b2ecc41051161e83f1dd3a325ceca97ceb228909",
+    "root_screen_hint": "Credits credits FrameLayout · Settings settings FrameLayout · Share fragment_verse_buttonShare Button",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [
+      {
+        "action_type": "tap",
+        "target_resource_id": "ch.joshuah.bibleverseapp:id/settings",
+        "target_content_desc": "Settings",
+        "x": 540,
+        "y": 1689,
+        "reason": "root_handoff_recovery:bfs_graph_uncovered_tab"
+      },
+      {
+        "action_type": "tap",
+        "target_resource_id": "ch.joshuah.bibleverseapp:id/fragment_verse_buttonShare",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 930,
+        "reason": "root_handoff_recovery:bfs_expand_after_tab_switch"
+      },
+      {
+        "action_type": "tap",
+        "target_resource_id": "ch.joshuah.bibleverseapp:id/home",
+        "target_content_desc": "Verse",
+        "x": 180,
+        "y": 1689,
+        "reason": "root_handoff_recovery:bfs_graph_uncovered_tab"
+      }
+    ],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ch.joshuah.bibleverseapp",
+          "screen_hash": "602e62bfe7f48a9f9a64459e245b39cead4b1978c9879236eda064c136b30f79",
+          "interactive_count": 3,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "84320ad11592bd906b490453b2ecc41051161e83f1dd3a325ceca97ceb228909",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app by tapping on the 'Verse' tab, then swipe vertically between Bible verses. They often tap on a verse to view its content, and then tap the 'Share' button to share the verse with others. Occasionally, they tap on the 'Credits' tab to view the app's credits and acknowledgments.",
+    "reason": "post_nav_realism_blend:post_nav_sec>=147"
+  }
+}

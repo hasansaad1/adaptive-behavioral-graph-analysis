@@ -1,0 +1,156 @@
+24521 1784056416.419650 exit(0)         = ?
+24521 1784056416.419797 +++ exited with 0 +++
+24522 1784056416.424053 exit(0)         = ?
+24519 1784056416.424204 exit(0 <unfinished ...>
+24522 1784056416.424407 +++ exited with 0 +++
+24519 1784056416.424411 <... exit resumed>) = ?
+24519 1784056416.424613 +++ exited with 0 +++
+24520 1784056416.424969 exit(0)         = ?
+24520 1784056416.425225 +++ exited with 0 +++
+24533 1784056416.425336 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24533 1784056416.425376 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24533 1784056416.425411 newfstatat(AT_FDCWD, "/data/app/at.linuxtage.Eventfahrplan-sl6rBQNyiFhlmVzh-cNb1w==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24533 1784056416.425430 newfstatat(AT_FDCWD, "/data/app/at.linuxtage.Eventfahrplan-sl6rBQNyiFhlmVzh-cNb1w==/base.apk", {st_mode=S_IFREG|0644, st_size=9031954, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24533 1784056416.425461 getcwd("/", 4096) = 2
+24533 1784056416.425473 newfstatat(AT_FDCWD, "/base.apk", 0x7d08783690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+24512 1784056417.207781 clone(child_stack=0x7d0495bd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7d0495bd60, tls=0x7d0495c020, child_tidptr=0x7d0495bd60) = 24603
+24603 1784056417.209683 faccessat(AT_FDCWD, "/data/user/0/at.linuxtage.Eventfahrplan/files", F_OK) = 0
+24603 1784056417.209748 faccessat(AT_FDCWD, "/data/user/0/at.linuxtage.Eventfahrplan/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+24603 1784056417.209784 openat(AT_FDCWD, "/data/user/0/at.linuxtage.Eventfahrplan/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 74
+24603 1784056417.209934 getsockopt(74, SOL_SOCKET, SO_ERROR, 0x7d0495a254, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+24603 1784056417.210530 openat(AT_FDCWD, "/data/app/at.linuxtage.Eventfahrplan-sl6rBQNyiFhlmVzh-cNb1w==/base.apk", O_RDONLY) = 74
+24603 1784056417.210628 getsockopt(74, SOL_SOCKET, SO_ERROR, 0x7d04959c74, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+24603 1784056417.210698 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/at.linuxtage.Eventfahrplan/primary.prof", 0x7d04959c18, 0) = -1 ENOENT (No such file or directory)
+24603 1784056417.210790 faccessat(AT_FDCWD, "/data/misc/profiles/ref/at.linuxtage.Eventfahrplan/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+24603 1784056417.210860 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/at.linuxtage.Eventfahrplan/primary.prof", {st_mode=S_IFREG|0600, st_size=21108, ...}, 0) = 0
+24603 1784056417.210903 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/at.linuxtage.Eventfahrplan/primary.prof", F_OK) = 0
+24603 1784056417.211278 faccessat(AT_FDCWD, "/data/user/0/at.linuxtage.Eventfahrplan/files", F_OK) = 0
+24603 1784056417.211317 faccessat(AT_FDCWD, "/data/user/0/at.linuxtage.Eventfahrplan/files/profileInstalled", F_OK) = 0
+24603 1784056417.211387 openat(AT_FDCWD, "/data/user/0/at.linuxtage.Eventfahrplan/files/profileInstalled", O_RDONLY) = 74
+24603 1784056417.211490 getsockopt(74, SOL_SOCKET, SO_ERROR, 0x7d04959594, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+24603 1784056417.211783 exit(0)         = ?
+24603 1784056417.211819 +++ exited with 0 +++
+24562 1784056417.266679 faccessat(AT_FDCWD, "/proc/self/task/24603", F_OK) = -1 ENOENT (No such file or directory)
+24564 1784056429.229239 exit(0)         = ?
+24564 1784056429.229583 +++ exited with 0 +++
+24562 1784056429.287061 faccessat(AT_FDCWD, "/proc/self/task/24564", F_OK) = -1 ENOENT (No such file or directory)
+24512 1784056432.982067 recvfrom(55, "\2\0\0\0\0\0\0\0v\25\0\0\0\0\0\0\200DsW|\3\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+24512 1784056432.982709 sendto(55, "\3\0\0\0\0\0\0\0v\25\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+24512 1784056432.983117 recvfrom(55, "\2\0\0\0\0\0\0\0x\25\0\0\0\0\0\0\200DsW|\3\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+24512 1784056432.983368 recvfrom(38, 0x7fe64a9330, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056432.983987 sendto(55, "\3\0\0\0\0\0\0\0x\25\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+24512 1784056432.984281 recvfrom(55, 0x7caaa35020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056432.989450 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\r\23\357W|\3\0\0\4{\3\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24512 1784056432.989602 recvfrom(38, 0x7fe64ac930, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056432.989941 recvfrom(55, 0x7caaa35020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056432.990117 recvfrom(38, 0x7fe64ac890, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056432.993018 socket(AF_UNIX, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 74
+24512 1784056432.993241 setsockopt(74, SOL_SOCKET, SO_SNDBUF, [1048576], 4) = 0
+24512 1784056432.993486 connect(74, {sa_family=AF_UNIX, sun_path="/dev/socket/statsdw"}, 110) = 0
+24535 1784056433.001417 recvfrom(44, 0x7d039faeb0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24535 1784056433.005901 recvfrom(44, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\326\267\355X|\3\0\0\5{\3\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24535 1784056433.006626 recvfrom(44, 0x7d039fac80, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.006991 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\326\267\355X|\3\0\0\5{\3\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24512 1784056433.007346 recvfrom(38, 0x7fe64ac930, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.012258 recvfrom(38, 0x7fe64ac890, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24535 1784056433.025742 recvfrom(44, "nysv\0\0\0\0\0\0\0\0\0\0\0\0UZ\354Y|\3\0\0\6{\3\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24535 1784056433.026571 recvfrom(44, 0x7d039faeb0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.030189 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0UZ\354Y|\3\0\0\6{\3\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24512 1784056433.030538 recvfrom(38, 0x7fe64ac930, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.032947 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+24512 1784056433.033156 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+24512 1784056433.033492 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+24512 1784056433.034024 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+24512 1784056433.034235 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+24512 1784056433.035055 newfstatat(AT_FDCWD, "/data/app/at.linuxtage.Eventfahrplan-sl6rBQNyiFhlmVzh-cNb1w==/base.apk", {st_mode=S_IFREG|0644, st_size=9031954, ...}, 0) = 0
+24512 1784056433.036657 clone(child_stack=0x7d0495bd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7d0495bd60, tls=0x7d0495c020, child_tidptr=0x7d0495bd60) = 24623
+24512 1784056433.038152 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+24512 1784056433.038538 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+24512 1784056433.038799 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+24512 1784056433.039336 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+24512 1784056433.039664 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+24512 1784056433.040161 newfstatat(AT_FDCWD, "/data/app/at.linuxtage.Eventfahrplan-sl6rBQNyiFhlmVzh-cNb1w==/base.apk", {st_mode=S_IFREG|0644, st_size=9031954, ...}, 0) = 0
+24623 1784056433.041998 exit(0)         = ?
+24512 1784056433.042603 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk",  <unfinished ...>
+24623 1784056433.042698 +++ exited with 0 +++
+24512 1784056433.042824 <... newfstatat resumed> {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+24512 1784056433.042946 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+24535 1784056433.043158 recvfrom(44, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\321\370\352Z|\3\0\0\7{\3\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24512 1784056433.043315 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk",  <unfinished ...>
+24535 1784056433.043536 recvfrom(44,  <unfinished ...>
+24512 1784056433.043554 <... newfstatat resumed> {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+24535 1784056433.043667 <... recvfrom resumed> 0x7d039fac80, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.043682 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+24512 1784056433.043926 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+24512 1784056433.044125 newfstatat(AT_FDCWD, "/data/app/at.linuxtage.Eventfahrplan-sl6rBQNyiFhlmVzh-cNb1w==/base.apk", {st_mode=S_IFREG|0644, st_size=9031954, ...}, 0) = 0
+24535 1784056433.044515 clone(child_stack=0x7d0495bd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7d0495bd60, tls=0x7d0495c020, child_tidptr=0x7d0495bd60) = 24624
+24512 1784056433.045769 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
+24624 1784056433.048076 exit(0)         = ?
+24624 1784056433.048302 +++ exited with 0 +++
+24512 1784056433.049569 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+24512 1784056433.049719 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+24512 1784056433.049902 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+24512 1784056433.050056 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+24512 1784056433.050228 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+24512 1784056433.050362 newfstatat(AT_FDCWD, "/data/app/at.linuxtage.Eventfahrplan-sl6rBQNyiFhlmVzh-cNb1w==/base.apk", {st_mode=S_IFREG|0644, st_size=9031954, ...}, 0) = 0
+24565 1784056433.070337 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\24\1\0\0L\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=452}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 452
+24548 1784056433.096242 newfstatat(AT_FDCWD, "/data/user/0/at.linuxtage.Eventfahrplan/databases/lectures-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24548 1784056433.096924 newfstatat(AT_FDCWD, "/data/user/0/at.linuxtage.Eventfahrplan/databases/lectures-wal", 0x7ca0bfc6e8, 0) = -1 ENOENT (No such file or directory)
+24548 1784056433.103577 newfstatat(AT_FDCWD, "/data/user/0/at.linuxtage.Eventfahrplan/databases/highlight-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24548 1784056433.104123 newfstatat(AT_FDCWD, "/data/user/0/at.linuxtage.Eventfahrplan/databases/highlight-wal", 0x7ca0bfc998, 0) = -1 ENOENT (No such file or directory)
+24512 1784056433.104924 recvfrom(55, 0x7caaa35020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.105374 recvfrom(78, 0x7caaa98820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.110307 recvfrom(38, 0x7fe64abae0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24548 1784056433.113949 newfstatat(AT_FDCWD, "/data/user/0/at.linuxtage.Eventfahrplan/databases/alarms-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24548 1784056433.114505 newfstatat(AT_FDCWD, "/data/user/0/at.linuxtage.Eventfahrplan/databases/alarms-wal", 0x7ca0bfc518, 0) = -1 ENOENT (No such file or directory)
+24565 1784056433.123056 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0M\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+24565 1784056433.132772 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0N\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.139554 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0O\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.147695 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0P\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.153849 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0Q\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.160113 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0R\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.169132 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0S\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.175259 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0T\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.181741 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0U\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.188607 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0V\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.197260 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0W\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.203613 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0X\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.209800 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0Y\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.216179 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0Z\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.223878 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0[\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.230080 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\\\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.235890 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0]\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.244361 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0^\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.251801 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0_\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.261083 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0`\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24565 1784056433.269030 sendmsg(75, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0a\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+24535 1784056433.303144 recvfrom(44, 0x7d039faeb0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.304311 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0t\375\343_|\3\0\0\f{\3\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24512 1784056433.304473 recvfrom(38, 0x7fe64ac930, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24535 1784056433.306259 recvfrom(44, "nysv\0\0\0\0\0\0\0\0\0\0\0\0#\325\324j|\3\0\0\27{\3\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24535 1784056433.307690 recvfrom(44, 0x7d039fac80, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24535 1784056433.320007 recvfrom(44, 0x7d039faeb0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.322058 recvfrom(78, 0x7caaa98820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24535 1784056433.323043 recvfrom(44, "nysv\0\0\0\0\0\0\0\0\0\0\0\0[b\323k|\3\0\0\30{\3\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24535 1784056433.324736 recvfrom(44, 0x7d039fac80, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24535 1784056433.335419 recvfrom(44, 0x7d039faeb0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24535 1784056433.336844 recvfrom(44, 0x7d039faeb0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.337384 recvfrom(38, 0x7fe64ac5b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24535 1784056433.338263 recvfrom(44, 0x7d039faeb0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.338912 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0@$\322l|\3\0\0\31{\3\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24512 1784056433.339363 recvfrom(38, 0x7fe64ac930, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24535 1784056433.339845 recvfrom(44, "nysv\0\0\0\0\0\0\0\0\0\0\0\0@$\322l|\3\0\0\31{\3\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24535 1784056433.340842 recvfrom(44, 0x7d039fac80, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.344855 recvfrom(78, 0x7caaa98820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24535 1784056433.376122 recvfrom(44, "nysv\0\0\0\0\0\0\0\0\0\0\0\0$\256\320m|\3\0\0\32{\3\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24535 1784056433.376318 recvfrom(44, 0x7d039fac80, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.712689 recvfrom(38, 0x7fe64ac980, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.724216 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\37\r\253\203|\3\0\0000{\3\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24512 1784056433.724465 recvfrom(38, 0x7fe64ac930, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.725012 recvfrom(55, 0x7caaa35020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.741346 recvfrom(38, 0x7fe64ac6b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.755751 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\241\37\250\205|\3\0\0002{\3\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24512 1784056433.756139 recvfrom(38, 0x7fe64ac930, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24512 1784056433.756735 recvfrom(55, 0x7caaa35020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24533 1784056456.431289 openat(AT_FDCWD, "/data/misc/profiles/cur/0/at.linuxtage.Eventfahrplan/primary.prof", O_RDWR|O_NOFOLLOW|O_CLOEXEC) = 61
+24533 1784056456.431446 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/at.linuxtage.Eventfahrplan/primary.prof", {st_mode=S_IFREG|0600, st_size=21108, ...}, 0) = 0

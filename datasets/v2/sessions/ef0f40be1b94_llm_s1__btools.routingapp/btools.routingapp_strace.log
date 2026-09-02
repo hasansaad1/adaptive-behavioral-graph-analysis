@@ -1,0 +1,260 @@
+24611 1784096406.239044 exit(0 <unfinished ...>
+24612 1784096406.239216 exit(0 <unfinished ...>
+24611 1784096406.239242 <... exit resumed>) = ?
+24612 1784096406.239397 <... exit resumed>) = ?
+24611 1784096406.239442 +++ exited with 0 +++
+24612 1784096406.239487 +++ exited with 0 +++
+24610 1784096406.239760 exit(0 <unfinished ...>
+24609 1784096406.239781 exit(0 <unfinished ...>
+24610 1784096406.239904 <... exit resumed>) = ?
+24609 1784096406.239923 <... exit resumed>) = ?
+24610 1784096406.240080 +++ exited with 0 +++
+24609 1784096406.240103 +++ exited with 0 +++
+24623 1784096406.242932 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24623 1784096406.243288 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24623 1784096406.243609 newfstatat(AT_FDCWD, "/data/app/btools.routingapp-p-rq1q0tBzmiGTHqxkDlBA==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24623 1784096406.243860 newfstatat(AT_FDCWD, "/data/app/btools.routingapp-p-rq1q0tBzmiGTHqxkDlBA==/base.apk", {st_mode=S_IFREG|0644, st_size=3293455, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24623 1784096406.244130 getcwd("/", 4096) = 2
+24623 1784096406.244385 newfstatat(AT_FDCWD, "/base.apk", 0x758f346690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+24602 1784096406.521711 clone(child_stack=0x758b5dbd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x758b5dbd60, tls=0x758b5dc020, child_tidptr=0x758b5dbd60) = 24677
+24677 1784096406.523748 faccessat(AT_FDCWD, "/data/user/0/btools.routingapp", F_OK) = 0
+24677 1784096406.523859 faccessat(AT_FDCWD, "/data/user/0/btools.routingapp/files", F_OK) = 0
+24677 1784096406.523916 faccessat(AT_FDCWD, "/data/user/0/btools.routingapp/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+24677 1784096406.527386 openat(AT_FDCWD, "/data/user/0/btools.routingapp/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 73
+24677 1784096406.527498 getsockopt(73, SOL_SOCKET, SO_ERROR, 0x758b5dad24, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+24677 1784096406.527876 openat(AT_FDCWD, "/data/app/btools.routingapp-p-rq1q0tBzmiGTHqxkDlBA==/base.apk", O_RDONLY) = 73
+24677 1784096406.527933 getsockopt(73, SOL_SOCKET, SO_ERROR, 0x758b5da5a4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+24677 1784096406.527970 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/btools.routingapp/primary.prof", 0x758b5da548, 0) = -1 ENOENT (No such file or directory)
+24677 1784096406.528044 faccessat(AT_FDCWD, "/data/misc/profiles/ref/btools.routingapp/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+24677 1784096406.528093 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/btools.routingapp/primary.prof", {st_mode=S_IFREG|0600, st_size=4876, ...}, 0) = 0
+24677 1784096406.528126 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/btools.routingapp/primary.prof", F_OK) = 0
+24677 1784096406.528546 faccessat(AT_FDCWD, "/data/user/0/btools.routingapp/files", F_OK) = 0
+24677 1784096406.528603 faccessat(AT_FDCWD, "/data/user/0/btools.routingapp/files/profileInstalled", F_OK) = 0
+24677 1784096406.528676 openat(AT_FDCWD, "/data/user/0/btools.routingapp/files/profileInstalled", O_RDONLY) = 73
+24677 1784096406.528765 getsockopt(73, SOL_SOCKET, SO_ERROR, 0x758b5d9ec4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+24677 1784096406.529015 exit(0)         = ?
+24677 1784096406.529041 +++ exited with 0 +++
+24637 1784096406.579159 faccessat(AT_FDCWD, "/proc/self/task/24677", F_OK) = -1 ENOENT (No such file or directory)
+24602 1784096417.634758 recvfrom(50, "\2\0\0\0\0\0\0\0\21\7\0\0\0\0\0\0\200\27\356,\246\1\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+24602 1784096417.636049 sendto(50, "\3\0\0\0\0\0\0\0\21\7\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+24602 1784096417.636278 recvfrom(50, "\2\0\0\0\0\0\0\0\23\7\0\0\0\0\0\0\200\27\356,\246\1\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+24602 1784096417.636636 recvfrom(38, 0x7feb33e1b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096417.637492 sendto(50, "\3\0\0\0\0\0\0\0\23\7\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+24602 1784096417.637685 recvfrom(50, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096417.638421 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0*\263\"-\246\1\0\0Y\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096417.638606 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096417.638895 recvfrom(50, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096417.639039 recvfrom(38, 0x7feb3403c0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24625 1784096417.646308 recvfrom(46, 0x7533360eb0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096417.646935 socket(AF_UNIX, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 73
+24602 1784096417.647093 setsockopt(73, SOL_SOCKET, SO_SNDBUF, [1048576], 4) = 0
+24602 1784096417.647243 connect(73, {sa_family=AF_UNIX, sun_path="/dev/socket/statsdw"}, 110) = 0
+24625 1784096417.653618 recvfrom(46, 0x7533360eb0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24625 1784096417.653989 recvfrom(46, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\325?!.\246\1\0\0Z\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24625 1784096417.654010 recvfrom(46, 0x7533360c80, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096417.662047 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\325?!.\246\1\0\0Z\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096417.662290 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.150470 recvfrom(38, 0x7feb3404b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.156290 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\317J\364K\246\1\0\0w\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096418.160171 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.162152 recvfrom(51, 0x761f7cc820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.171599 recvfrom(38, 0x7feb340610, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.183848 clone(child_stack=0x758b4a2d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x758b4a2d60, tls=0x758b4a3020, child_tidptr=0x758b4a2d60) = 24710
+24602 1784096418.200858 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\240\211\361M\246\1\0\0y\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096418.201203 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.777012 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+24602 1784096418.777075 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+24602 1784096418.777110 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+24602 1784096418.777125 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+24602 1784096418.777139 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+24602 1784096418.777152 newfstatat(AT_FDCWD, "/data/app/btools.routingapp-p-rq1q0tBzmiGTHqxkDlBA==/base.apk", {st_mode=S_IFREG|0644, st_size=3293455, ...}, 0) = 0
+24625 1784096418.777253 clone(child_stack=0x758b399d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x758b399d60, tls=0x758b39a020, child_tidptr=0x758b399d60) = 24738
+24602 1784096418.777915 clone(child_stack=0x758b29cd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x758b29cd60, tls=0x758b29d020, child_tidptr=0x758b29cd60) = 24739
+24602 1784096418.778276 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+24602 1784096418.778309 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+24602 1784096418.778327 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+24602 1784096418.778343 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+24602 1784096418.778358 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+24602 1784096418.778373 newfstatat(AT_FDCWD, "/data/app/btools.routingapp-p-rq1q0tBzmiGTHqxkDlBA==/base.apk", {st_mode=S_IFREG|0644, st_size=3293455, ...}, 0) = 0
+24602 1784096418.779278 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
+24602 1784096418.780814 faccessat(AT_FDCWD, "/data/user/0/btools.routingapp", F_OK) = 0
+24602 1784096418.780847 faccessat(AT_FDCWD, "/data/user/0/btools.routingapp/files", F_OK) = 0
+24602 1784096418.780884 openat(AT_FDCWD, "/data/user/0/btools.routingapp/files/config15.dat", O_RDONLY) = 51
+24602 1784096418.780995 getsockopt(51, SOL_SOCKET, SO_ERROR, 0x7feb3403b4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+24602 1784096418.781023 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+24602 1784096418.781076 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+24602 1784096418.781126 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter", F_OK) = 0
+24602 1784096418.781146 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter", F_OK) = 0
+24602 1784096418.781162 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+24602 1784096418.781182 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4", F_OK) = 0
+24602 1784096418.781200 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4", F_OK) = 0
+24602 1784096418.781217 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+24640 1784096418.781580 sendmsg(74, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\334\0\0\0L\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=396}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 396
+24602 1784096418.782502 newfstatat(AT_FDCWD, "/storage", {st_mode=S_IFDIR|0755, st_size=80, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782522 newfstatat(AT_FDCWD, "/storage/emulated", {st_mode=S_IFDIR|0711, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782535 newfstatat(AT_FDCWD, "/storage/emulated/0", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782560 newfstatat(AT_FDCWD, "/storage/emulated/0/Android", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782574 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782588 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782603 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782618 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782639 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4/serverconfig.txt.tmp", 0x7feb33ade0, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+24602 1784096418.782670 newfstatat(AT_FDCWD, "/storage", {st_mode=S_IFDIR|0755, st_size=80, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782681 newfstatat(AT_FDCWD, "/storage/emulated", {st_mode=S_IFDIR|0711, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782692 newfstatat(AT_FDCWD, "/storage/emulated/0", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782704 newfstatat(AT_FDCWD, "/storage/emulated/0/Android", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782717 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782730 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782744 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782758 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782777 newfstatat(AT_FDCWD, "/storage", {st_mode=S_IFDIR|0755, st_size=80, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782788 newfstatat(AT_FDCWD, "/storage/emulated", {st_mode=S_IFDIR|0711, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782799 newfstatat(AT_FDCWD, "/storage/emulated/0", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782811 newfstatat(AT_FDCWD, "/storage/emulated/0/Android", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782823 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782836 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782850 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782865 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24602 1784096418.782887 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4/serverconfig.txt.tmp", F_OK) = -1 ENOENT (No such file or directory)
+24602 1784096418.782969 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4", F_OK) = 0
+24602 1784096418.782991 openat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4/serverconfig.txt.tmp", O_WRONLY|O_CREAT|O_TRUNC, 0600) = 51
+24602 1784096418.783173 getsockopt(51, SOL_SOCKET, SO_ERROR, 0x7feb33ff44, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+24602 1784096418.783264 faccessat(AT_FDCWD, "/data/user/0/btools.routingapp/files", F_OK) = 0
+24602 1784096418.783284 openat(AT_FDCWD, "/data/user/0/btools.routingapp/files/config15.dat", O_RDONLY) = 51
+24602 1784096418.783397 getsockopt(51, SOL_SOCKET, SO_ERROR, 0x7feb33fea4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+24602 1784096418.783421 faccessat(AT_FDCWD, "/data/user/0/btools.routingapp/files", F_OK) = 0
+24602 1784096418.783436 openat(AT_FDCWD, "/data/user/0/btools.routingapp/files/config15.dat", O_RDONLY) = 51
+24602 1784096418.783481 getsockopt(51, SOL_SOCKET, SO_ERROR, 0x7feb33fea4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+24602 1784096418.783507 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4/serverconfig.txt", {st_mode=S_IFREG|0660, st_size=826, ...}, 0) = 0
+24602 1784096418.783534 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4/serverconfig.txt.tmp", {st_mode=S_IFREG|0660, st_size=826, ...}, 0) = 0
+24640 1784096418.785528 sendmsg(74, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1$\1\0\0M\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=468}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 468
+24602 1784096418.785772 unlinkat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4/serverconfig.txt.tmp", 0) = 0
+24738 1784096418.786041 exit(0)         = ?
+24738 1784096418.786062 +++ exited with 0 +++
+24602 1784096418.788638 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/profiles2", F_OK) = 0
+24602 1784096418.788683 openat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/profiles2/v1.7.9", O_RDWR|O_CREAT|O_EXCL, 0666) = -1 EEXIST (File exists)
+24602 1784096418.788795 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/profiles2", F_OK) = 0
+24602 1784096418.788982 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/profiles2", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+24602 1784096418.789023 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/modes", F_OK) = 0
+24602 1784096418.789045 openat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/modes/v1.7.9", O_RDWR|O_CREAT|O_EXCL, 0666) = -1 EEXIST (File exists)
+24602 1784096418.789069 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/modes", F_OK) = 0
+24602 1784096418.789087 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/modes", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+24602 1784096418.789107 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/readmes", F_OK) = 0
+24602 1784096418.789129 openat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/readmes/v1.7.9", O_RDWR|O_CREAT|O_EXCL, 0666) = -1 EEXIST (File exists)
+24602 1784096418.789147 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/readmes", F_OK) = 0
+24602 1784096418.789163 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/readmes", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+24602 1784096418.789181 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/import", F_OK) = 0
+24602 1784096418.789201 openat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/import/v1.7.9", O_RDWR|O_CREAT|O_EXCL, 0666) = -1 EEXIST (File exists)
+24602 1784096418.789281 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/import", F_OK) = 0
+24602 1784096418.789308 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/import", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+24640 1784096418.789748 sendmsg(74, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1(\1\0\0N\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=472}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 472
+24602 1784096418.790079 openat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/import/favourites.gpx", O_RDONLY) = -1 ENOENT (No such file or directory)
+24602 1784096418.791076 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/import/tracks", F_OK <unfinished ...>
+24739 1784096418.791097 exit(0 <unfinished ...>
+24602 1784096418.791512 <... faccessat resumed> ) = 0
+24602 1784096418.791558 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/import/tracks",  <unfinished ...>
+24739 1784096418.791591 <... exit resumed>) = ?
+24602 1784096418.791616 <... newfstatat resumed> {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+24602 1784096418.791633 openat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/import/tracks", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 51
+24602 1784096418.791739 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/import/tracks", F_OK) = 0
+24602 1784096418.791760 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/import/tracks", F_OK) = 0
+24602 1784096418.791778 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/import/tracks", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+24602 1784096418.791799 openat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/profiles2", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 51
+24602 1784096418.791898 newfstatat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/modes/timeoutdata.txt", 0x7feb340438, 0) = -1 ENOENT (No such file or directory)
+24739 1784096418.791972 +++ exited with 0 +++
+24602 1784096418.791977 openat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 51
+24602 1784096418.792595 openat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4/storageconfig.txt", O_RDONLY) = 51
+24602 1784096418.792760 faccessat(AT_FDCWD, "/storage/emulated/0/Android/media/btools.routingapp/brouter/segments4/../segments3", F_OK) = -1 ENOENT (No such file or directory)
+24602 1784096418.792834 getsockopt(51, SOL_SOCKET, SO_ERROR, 0x7feb33ff04, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+24602 1784096418.795719 recvfrom(38, 0x7feb33f180, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.796915 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+24602 1784096418.796946 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+24602 1784096418.797035 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+24602 1784096418.797058 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+24602 1784096418.797072 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+24602 1784096418.797109 newfstatat(AT_FDCWD, "/data/app/btools.routingapp-p-rq1q0tBzmiGTHqxkDlBA==/base.apk", {st_mode=S_IFREG|0644, st_size=3293455, ...}, 0) = 0
+24640 1784096418.800910 sendmsg(74, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\24\1\0\0O\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=452}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 452
+24602 1784096418.813880 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\232\224\264r\246\1\0\0\235\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096418.813941 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.814082 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.814094 recvfrom(63, 0x761f7cc820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.814212 recvfrom(38, 0x7feb33fec0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.894139 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\304\344\262s\246\1\0\0\236\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096418.894184 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.894661 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.922807 recvfrom(38, 0x7feb3404b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.976460 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\256\307\243|\246\1\0\0\243\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096418.976519 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.976572 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096418.976586 recvfrom(63, 0x761f7cc820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24639 1784096419.007965 exit(0)         = ?
+24639 1784096419.008010 +++ exited with 0 +++
+24637 1784096419.058540 faccessat(AT_FDCWD, "/proc/self/task/24639", F_OK) = -1 ENOENT (No such file or directory)
+24602 1784096420.409431 recvfrom(38, 0x7feb340270, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.421311 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0 \177\r\323\246\1\0\0\251\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.421385 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.421465 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.421668 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.437998 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0J\343\v\324\246\1\0\0\252\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.438045 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.438108 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.438200 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.453943 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\312o\n\325\246\1\0\0\253\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.454003 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.454065 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.454136 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.470910 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0&\347\10\326\246\1\0\0\254\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.471161 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.471478 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.471541 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.488568 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\355$\7\327\246\1\0\0\255\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.488756 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.488850 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.488898 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.504328 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0s\254\5\330\246\1\0\0\256\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.504348 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.504384 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.504435 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.520983 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0J\37\4\331\246\1\0\0\257\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.521021 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.521254 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.521308 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.538194 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\235r\2\332\246\1\0\0\260\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.538380 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.538509 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.538567 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.554284 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\273\r\1\333\246\1\0\0\261\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.554433 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.554467 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.554600 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.571260 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0.o\377\333\246\1\0\0\262\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.571280 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.571367 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.571547 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.588343 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0y\271\375\334\246\1\0\0\263\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.588485 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.588587 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.588639 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.605062 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\346\2\374\335\246\1\0\0\264\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.605165 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.605202 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.605326 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.621606 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0FT\372\336\246\1\0\0\265\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.621631 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.621830 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.621943 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.638002 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\6\262\370\337\246\1\0\0\266\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.638028 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.638148 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.638272 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.655049 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\375\366\366\340\246\1\0\0\267\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.655070 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.655213 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.655336 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.671639 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0JU\365\341\246\1\0\0\270\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.671752 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.671778 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.671820 recvfrom(38, 0x7feb33f5a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.688302 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\322\243\363\342\246\1\0\0\271\34\0\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24602 1784096420.688322 recvfrom(38, 0x7feb340460, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24602 1784096420.688348 recvfrom(60, 0x761f7cbc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)

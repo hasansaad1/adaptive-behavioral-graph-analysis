@@ -1,0 +1,81 @@
+{
+  "kind": "androct_master_verify",
+  "experiment": "run3",
+  "n_rows": 7,
+  "cli_rerun": {
+    "cli_module": "abrg.androct.run_gae_run3",
+    "harness": "androct_auc"
+  },
+  "rows": [
+    {
+      "detector": "mapped_event_count",
+      "method": "trivial_floor",
+      "representation": "n_mapped",
+      "split": "splitA_GAE",
+      "auc_floor": "0.7025135586149354",
+      "raw_auc": "0.7025135586149354",
+      "artifact_path": "abrg/output/androct_2017/run3/floors.json",
+      "is_headline": "True"
+    },
+    {
+      "detector": "mapped_event_count",
+      "method": "trivial_floor",
+      "representation": "T22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.7025135586149354",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/run3/floors.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "total_event_count",
+      "method": "trivial_floor",
+      "representation": "T22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.6911618690029202",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/run3/floors.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "distinct_active_categories",
+      "method": "trivial_floor",
+      "representation": "T22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.516543596161869",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/run3/floors.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "active_nodes",
+      "method": "trivial_floor",
+      "representation": "T22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.5164080100125157",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/run3/floors.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "edge_count",
+      "method": "trivial_floor",
+      "representation": "T22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.5266916979557781",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/run3/floors.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "graph_density",
+      "method": "trivial_floor",
+      "representation": "T22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.5266916979557781",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/run3/floors.json",
+      "is_headline": "False"
+    }
+  ]
+}

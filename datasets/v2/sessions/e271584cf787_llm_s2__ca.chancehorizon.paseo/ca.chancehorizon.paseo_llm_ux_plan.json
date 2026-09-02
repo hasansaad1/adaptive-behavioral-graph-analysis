@@ -1,0 +1,490 @@
+{
+  "goals": [
+    "Tap Open navigation",
+    "Tap dayCard",
+    "Tap help icon helpIcon",
+    "Tap legendLayout",
+    "Tap monthCard",
+    "Tap Projected steps",
+    "Tap weekCard",
+    "Tap yearCard",
+    "Press Back to return to the main app list",
+    "Wait for UI to settle"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap Open navigation",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap dayCard",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap help icon helpIcon",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap legendLayout",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap monthCard",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Tap Projected steps",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Tap weekCard",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Tap yearCard",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 8,
+      "goal": "Press Back to return to the main app list",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 9,
+      "goal": "Wait for UI to settle",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b": "help icon helpIcon ImageView · dayCard FrameLayout · monthCard FrameLayout · weekCard FrameLayout · yearCard FrameLayout · legendLayout LinearLayout · Projected steps legendProjectedSteps TextView · Open navigation drawer ImageButton",
+    "17cd28af5f434361505ae0749daf70cb5c716287f0df0ba3fb767254193312b1": "touch_outside View · legendLayout ViewGroup",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": ""
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "visible_on": [
+          "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b"
+        ],
+        "attempts": 26,
+        "successes": 26,
+        "last_from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "last_to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b"
+      },
+      "nav:ca.chancehorizon.paseo:id/legendLayout|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendLayout",
+        "target_content_desc": "",
+        "visible_on": [
+          "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+          "17cd28af5f434361505ae0749daf70cb5c716287f0df0ba3fb767254193312b1"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "17cd28af5f434361505ae0749daf70cb5c716287f0df0ba3fb767254193312b1",
+        "last_to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b"
+      },
+      "nav:ca.chancehorizon.paseo:id/legendProjectedSteps|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "visible_on": [
+          "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Open navigation drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Open navigation drawer",
+        "visible_on": [
+          "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:ca.chancehorizon.paseo:id/dayCard|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.chancehorizon.paseo:id/dayCard",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:ca.chancehorizon.paseo:id/monthCard|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.chancehorizon.paseo:id/monthCard",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    "edges": [
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "17cd28af5f434361505ae0749daf70cb5c716287f0df0ba3fb767254193312b1",
+        "target_key": "nav:ca.chancehorizon.paseo:id/legendLayout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "17cd28af5f434361505ae0749daf70cb5c716287f0df0ba3fb767254193312b1",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "nav:ca.chancehorizon.paseo:id/legendLayout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:ca.chancehorizon.paseo:id/dayCard|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:ca.chancehorizon.paseo:id/monthCard|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+    "root_screen_signature": "756683ec9dc092e89baab89b09fba3b7518b6db6468970d180faf08dbf628c81",
+    "root_screen_hint": "help icon helpIcon ImageView · dayCard FrameLayout · monthCard FrameLayout · weekCard FrameLayout · yearCard FrameLayout · legendLayout LinearLayout · Projected steps legendProjectedSteps TextView · Open navigation drawer ImageButton",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ca.chancehorizon.paseo",
+          "screen_hash": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+          "interactive_count": 8,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "756683ec9dc092e89baab89b09fba3b7518b6db6468970d180faf08dbf628c81",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app to view their upcoming events, then swipe through a calendar grid to find the desired date. They tap on the date to view the event details, which includes location information and other relevant data. The user may also use the 'Today' tab to see upcoming events for the current day or the 'Week' tab to view events for the entire week.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

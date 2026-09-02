@@ -1,0 +1,32 @@
+{
+  "kind": "androct_master_verify",
+  "experiment": "ocgin",
+  "n_rows": 2,
+  "cli_rerun": {
+    "cli_module": "abrg.ocgin",
+    "out_flag": null,
+    "note": "hardcoded output root"
+  },
+  "rows": [
+    {
+      "detector": "OCGIN_plus",
+      "method": "trained",
+      "representation": "T22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.5660421360033375",
+      "raw_auc": "0.5660421360033375",
+      "artifact_path": "abrg/output/androct_2017/ocdev/validation/check2_randominit/check2.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "OCGIN_plus",
+      "method": "untrained",
+      "representation": "T22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.6538039215686274",
+      "raw_auc": "0.6538039215686274",
+      "artifact_path": "abrg/output/androct_2017/ocdev/validation/check2_randominit/check2.json",
+      "is_headline": "False"
+    }
+  ]
+}

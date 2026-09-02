@@ -1,0 +1,1232 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "be.mygod.vpnhotspot_foss",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_hash": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "hint": "Clients navigation_clients FrameLayout · Tethering navigation_tethering FrameLayout · FrameLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout",
+      "visit_count": 22
+    },
+    {
+      "screen_hash": "4c1896587cd6b605a8843db787dc4ae79d08030fce35652d64c0563c581eb2a3",
+      "hint": "Wi‑Fi configuration configuration Button · Clients navigation_clients FrameLayout · Settings navigation_settings FrameLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · ON Switch",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 2
+    },
+    {
+      "screen_hash": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+      "hint": "Wi‑Fi configuration configuration Button · Clients navigation_clients FrameLayout · Settings navigation_settings FrameLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · OFF Switch",
+      "visit_count": 9
+    },
+    {
+      "screen_hash": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "hint": "Settings navigation_settings FrameLayout · Tethering navigation_tethering FrameLayout",
+      "visit_count": 25
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 2,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 3,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_tethering",
+        "target_content_desc": "Tethering",
+        "x": 180,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_tethering",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_tethering|Tethering"
+    },
+    {
+      "step": 4,
+      "from": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+      "to": "4c1896587cd6b605a8843db787dc4ae79d08030fce35652d64c0563c581eb2a3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 969,
+        "y": 583,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_xy:969,583",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 969, \"y\": 583}"
+    },
+    {
+      "step": 5,
+      "from": "4c1896587cd6b605a8843db787dc4ae79d08030fce35652d64c0563c581eb2a3",
+      "to": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 969,
+        "y": 583,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_xy:969,583",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 969, \"y\": 583}"
+    },
+    {
+      "step": 6,
+      "from": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/configuration",
+        "target_content_desc": "Wi‑Fi configuration",
+        "x": 1016,
+        "y": 146,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/configuration",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/configuration|Wi‑Fi configuration"
+    },
+    {
+      "step": 7,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 8,
+      "from": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 9,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 10,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 11,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 12,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 13,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 14,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 15,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 16,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 17,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 18,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 19,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 20,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 21,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 22,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 23,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 24,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 25,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 26,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 27,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 28,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 29,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 30,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 31,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 32,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 33,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 34,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 35,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 36,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 37,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 38,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 39,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 40,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 41,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    },
+    {
+      "step": 42,
+      "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 900,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 43,
+      "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+      "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "x": 540,
+        "y": 1689,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.mygod.vpnhotspot_foss:id/navigation_clients",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "visible_on": [
+          "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+          "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+          "4c1896587cd6b605a8843db787dc4ae79d08030fce35652d64c0563c581eb2a3"
+        ],
+        "attempts": 19,
+        "successes": 19,
+        "last_from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "last_to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af"
+      },
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "visible_on": [
+          "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+          "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+          "4c1896587cd6b605a8843db787dc4ae79d08030fce35652d64c0563c581eb2a3"
+        ],
+        "attempts": 19,
+        "successes": 19,
+        "last_from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "last_to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9"
+      },
+      "nav:settings": {
+        "kind": "nav",
+        "semantic_token": "settings",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "visible_on": [
+          "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+          "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+          "4c1896587cd6b605a8843db787dc4ae79d08030fce35652d64c0563c581eb2a3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_clients",
+        "target_content_desc": "Clients",
+        "visible_on": [
+          "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+          "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+          "4c1896587cd6b605a8843db787dc4ae79d08030fce35652d64c0563c581eb2a3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:be.mygod.vpnhotspot_foss:id/navigation_tethering|Tethering": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_tethering",
+        "target_content_desc": "Tethering",
+        "visible_on": [
+          "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+          "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "last_to": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227"
+      },
+      "nav:be.mygod.vpnhotspot_foss:id/navigation_tethering|Tethering": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/navigation_tethering",
+        "target_content_desc": "Tethering",
+        "visible_on": [
+          "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+          "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 969, \"y\": 583}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "4c1896587cd6b605a8843db787dc4ae79d08030fce35652d64c0563c581eb2a3",
+        "last_to": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227"
+      },
+      "tab:be.mygod.vpnhotspot_foss:id/configuration|Wi‑Fi configuration": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "be.mygod.vpnhotspot_foss:id/configuration",
+        "target_content_desc": "Wi‑Fi configuration",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227"
+      }
+    },
+    "edges": [
+      {
+        "from": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_tethering|Tethering",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+        "to": "4c1896587cd6b605a8843db787dc4ae79d08030fce35652d64c0563c581eb2a3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 969, \"y\": 583}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4c1896587cd6b605a8843db787dc4ae79d08030fce35652d64c0563c581eb2a3",
+        "to": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 969, \"y\": 583}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/configuration|Wi‑Fi configuration",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "to": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0a614d862295d3f922d84b8abf883f7fbaf9fad60566b15bb4d6ff161d466aa9",
+        "to": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+        "target_key": "tab:be.mygod.vpnhotspot_foss:id/navigation_clients|Clients",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  }
+}

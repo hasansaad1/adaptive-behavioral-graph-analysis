@@ -1,0 +1,48 @@
+{
+  "kind": "androct_master_verify",
+  "experiment": "ocdev_validate",
+  "n_rows": 4,
+  "cli_rerun": null,
+  "rows": [
+    {
+      "detector": "centroid_euclidean_nested_form",
+      "method": "benign_only",
+      "representation": "D1_trained_t22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.8004255319148936",
+      "raw_auc": "0.8004255319148936",
+      "artifact_path": "abrg/output/androct_2017/ocdev/validation/check1_bias/bias_stats.json",
+      "is_headline": "True"
+    },
+    {
+      "detector": "S1_norm_nested_bootstrap_mean",
+      "method": "benign_only",
+      "representation": "T1K_B_docfreq",
+      "split": "splitA_GAE",
+      "auc_floor": "0.786686472674176",
+      "raw_auc": "0.786686472674176",
+      "artifact_path": "abrg/output/androct_2017/ocdev/validation/check1_bias/bias_stats.json",
+      "is_headline": "True"
+    },
+    {
+      "detector": "mahalanobis_weighted_mean_auc_floor",
+      "method": "benign_only_group_holdout",
+      "representation": "D4_trained_t22",
+      "split": "splitB_ward30",
+      "auc_floor": "0.8083436644468281",
+      "raw_auc": "0.8083436644468281",
+      "artifact_path": "abrg/output/androct_2017/ocdev/validation/check3_splitB/check3.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "mahalanobis_pooled_oof",
+      "method": "benign_only_group_holdout",
+      "representation": "D4_trained_t22",
+      "split": "splitB_ward30",
+      "auc_floor": "0.5178431372549019",
+      "raw_auc": "0.5178431372549019",
+      "artifact_path": "abrg/output/androct_2017/ocdev/validation/check3_splitB/check3.json",
+      "is_headline": "False"
+    }
+  ]
+}

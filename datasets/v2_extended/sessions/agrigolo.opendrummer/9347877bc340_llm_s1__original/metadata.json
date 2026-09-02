@@ -1,0 +1,73 @@
+{
+  "active_categories": [
+    "file_io"
+  ],
+  "app_id": "agrigolo.opendrummer",
+  "batch": "original",
+  "end_timestamp": "2026-07-12T20:42:21.138000Z",
+  "end_timestamp_ms": 1783888941138,
+  "event_counts": {
+    "mapped": 2,
+    "mapped_rate": 0.0058997050147492625,
+    "total": 339
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "9347877bc340_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": false,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete"
+  ],
+  "n_active_nodes": 1,
+  "n_edges": 0,
+  "reference_tier_pass": true,
+  "session_id": "9347877bc340_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/9347877bc340_llm_s1__agrigolo.opendrummer/agrigolo.opendrummer_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/9347877bc340_llm_s1__agrigolo.opendrummer/agrigolo.opendrummer_dynamic_metadata.json",
+  "start_timestamp": "2026-07-12T20:34:42.977000Z",
+  "start_timestamp_ms": 1783888482977,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 339,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 30,
+    "n_with_timestamp": 339,
+    "unparseable_line_numbers_sample": [
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 458.161
+}

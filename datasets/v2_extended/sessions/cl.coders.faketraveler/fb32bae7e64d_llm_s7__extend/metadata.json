@@ -1,0 +1,76 @@
+{
+  "active_categories": [
+    "file_io",
+    "ipc_intents",
+    "storage",
+    "webview"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "cl.coders.faketraveler",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T22:29:35.667000Z",
+  "end_timestamp_ms": 1786746575667,
+  "event_counts": {
+    "mapped": 584,
+    "mapped_rate": 0.30400832899531494,
+    "total": 1921
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "fb32bae7e64d_llm_s7__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "Context.bindService",
+    "Context.startActivity",
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString",
+    "WebView.loadUrl"
+  ],
+  "n_active_nodes": 4,
+  "n_edges": 10,
+  "reference_tier_pass": true,
+  "session_id": "fb32bae7e64d_llm_s7",
+  "session_index_within_app": 7,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/fb32bae7e64d_cl.coders.faketraveler/dynamic/llm/session_7/cl.coders.faketraveler_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/fb32bae7e64d_cl.coders.faketraveler/dynamic/llm/session_7/cl.coders.faketraveler_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T22:22:08.719000Z",
+  "start_timestamp_ms": 1786746128719,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1921,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 10,
+    "n_with_timestamp": 1921,
+    "unparseable_line_numbers_sample": [
+      1698,
+      1699,
+      1700,
+      1701,
+      1702,
+      1703,
+      1704,
+      1705,
+      1706,
+      1707
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 447.037
+}

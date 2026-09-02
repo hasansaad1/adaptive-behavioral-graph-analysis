@@ -1,0 +1,78 @@
+{
+  "active_categories": [
+    "file_io",
+    "storage"
+  ],
+  "app_id": "ch.joshuah.bibleverseapp",
+  "batch": "original",
+  "end_timestamp": "2026-07-19T01:10:21.213000Z",
+  "end_timestamp_ms": 1784423421213,
+  "event_counts": {
+    "mapped": 80,
+    "mapped_rate": 0.24390243902439024,
+    "total": 328
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "18aff8885c8c_llm_s3__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 2,
+  "reference_tier_pass": true,
+  "session_id": "18aff8885c8c_llm_s3",
+  "session_index_within_app": 3,
+  "source_frida_path": "datasets/v2/sessions/18aff8885c8c_llm_s3__ch.joshuah.bibleverseapp/ch.joshuah.bibleverseapp_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/18aff8885c8c_llm_s3__ch.joshuah.bibleverseapp/ch.joshuah.bibleverseapp_dynamic_metadata.json",
+  "start_timestamp": "2026-07-19T01:02:54.017000Z",
+  "start_timestamp_ms": 1784422974017,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 328,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 20,
+    "n_with_timestamp": 328,
+    "unparseable_line_numbers_sample": [
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 447.196
+}

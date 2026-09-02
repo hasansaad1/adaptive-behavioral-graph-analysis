@@ -1,0 +1,568 @@
+{
+  "goals": [
+    "Tap About, Navigate home",
+    "Tap input",
+    "Tap About",
+    "Tap button1",
+    "Tap Add New",
+    "Tap Favourites",
+    "Tap button2"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap About, Navigate home",
+      "nav_token": "home",
+      "target_keys": [
+        "tab:home"
+      ],
+      "observed_screen_hashes": [
+        "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78"
+      ],
+      "observed_screen_hints": [
+        "About, Navigate home LinearLayout",
+        "Favourites, Navigate home LinearLayout",
+        "About about TextView · Add New add_new TextView · Favourites bookmarked_words TextView · Type the word here input EditText · Ridmik Dictionary, Navigate  LinearLayout"
+      ],
+      "route_hint": "Use visible home navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 1,
+      "goal": "Tap input",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap About",
+      "nav_token": "",
+      "target_keys": [
+        "tab:buet.rafi.dictionary:id/about|About",
+        "expand:buet.rafi.dictionary:id/about|About"
+      ],
+      "observed_screen_hashes": [
+        "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb"
+      ],
+      "observed_screen_hints": [
+        "About, Navigate home LinearLayout"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap button1",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap Add New",
+      "nav_token": "",
+      "target_keys": [
+        "tab:buet.rafi.dictionary:id/add_new|Add New"
+      ],
+      "observed_screen_hashes": [
+        "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3"
+      ],
+      "observed_screen_hints": [
+        "Save button1 Button · Cancel button2 Button · Bangla_input EditText · english_input EditText"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Tap Favourites",
+      "nav_token": "",
+      "target_keys": [
+        "tab:buet.rafi.dictionary:id/bookmarked_words|Favourites"
+      ],
+      "observed_screen_hashes": [
+        "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d"
+      ],
+      "observed_screen_hints": [
+        "Favourites, Navigate home LinearLayout"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Tap button2",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78": "About about TextView · Add New add_new TextView · Favourites bookmarked_words TextView · Type the word here input EditText · Ridmik Dictionary, Navigate  LinearLayout",
+    "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb": "About, Navigate home LinearLayout",
+    "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3": "Save button1 Button · Cancel button2 Button · Bangla_input EditText · english_input EditText",
+    "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d": "Favourites, Navigate home LinearLayout"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:buet.rafi.dictionary:id/input|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "buet.rafi.dictionary:id/input",
+        "target_content_desc": "",
+        "visible_on": [
+          "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "last_to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78"
+      },
+      "tab:buet.rafi.dictionary:id/about|About": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "buet.rafi.dictionary:id/about",
+        "target_content_desc": "About",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "last_to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb"
+      },
+      "tab:home": {
+        "kind": "tab",
+        "semantic_token": "home",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "visible_on": [
+          "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+          "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d"
+        ],
+        "attempts": 28,
+        "successes": 28,
+        "last_from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "last_to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78"
+      },
+      "tab:buet.rafi.dictionary:id/add_new|Add New": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "buet.rafi.dictionary:id/add_new",
+        "target_content_desc": "Add New",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "last_to": "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3"
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3",
+        "last_to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78"
+      },
+      "tab:android:id/button2|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:android:id/button2|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:buet.rafi.dictionary:id/about|About": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "buet.rafi.dictionary:id/about",
+        "target_content_desc": "About",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "last_to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb"
+      },
+      "tab:buet.rafi.dictionary:id/bookmarked_words|Favourites": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "buet.rafi.dictionary:id/bookmarked_words",
+        "target_content_desc": "Favourites",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "last_to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d"
+      }
+    },
+    "edges": [
+      {
+        "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "target_key": "tab:buet.rafi.dictionary:id/input|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "target_key": "tab:buet.rafi.dictionary:id/input|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:buet.rafi.dictionary:id/about|About",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "to": "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3",
+        "target_key": "tab:buet.rafi.dictionary:id/add_new|Add New",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3",
+        "to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "expand:buet.rafi.dictionary:id/about|About",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:buet.rafi.dictionary:id/bookmarked_words|Favourites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+    "root_screen_signature": "5f8bfa0ae1ce59d32c90a8f4f6ea7da831415694a32e3d139ff514929e311296",
+    "root_screen_hint": "About about TextView · Add New add_new TextView · Favourites bookmarked_words TextView · Type the word here input EditText · Ridmik Dictionary, Navigate  LinearLayout",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [
+      {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Ridmik Dictionary, Navigate home",
+        "x": 266,
+        "y": 126,
+        "reason": "root_handoff_recovery:bfs_expand_after_tab_switch"
+      }
+    ],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "buet.rafi.dictionary",
+          "screen_hash": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+          "interactive_count": 5,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "5f8bfa0ae1ce59d32c90a8f4f6ea7da831415694a32e3d139ff514929e311296",
+          "root_landmark_score": 1
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app to view and add new words, then navigate between different tabs (Favourites, About) using vertical swipe gestures. They type words in the input fields and bookmark them. The user may also access the 'Save' button to save the word or use the 'Cancel' button to dismiss the screen.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

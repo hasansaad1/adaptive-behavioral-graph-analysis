@@ -1,0 +1,85 @@
+{
+  "active_categories": [
+    "crypto",
+    "file_io",
+    "native_code",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "app.michaelwuensch.bitbanana",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T23:52:54.403000Z",
+  "end_timestamp_ms": 1786751574403,
+  "event_counts": {
+    "mapped": 243,
+    "mapped_rate": 0.22437673130193905,
+    "total": 1083
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "36bdbc1733f0_llm_s8__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "Cipher.doFinal",
+    "File.delete",
+    "SecretKeySpec.<init>",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString",
+    "System.loadLibrary"
+  ],
+  "n_active_nodes": 4,
+  "n_edges": 5,
+  "reference_tier_pass": true,
+  "session_id": "36bdbc1733f0_llm_s8",
+  "session_index_within_app": 8,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/36bdbc1733f0_app.michaelwuensch.bitbanana/dynamic/llm/session_8/app.michaelwuensch.bitbanana_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/36bdbc1733f0_app.michaelwuensch.bitbanana/dynamic/llm/session_8/app.michaelwuensch.bitbanana_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T23:44:28.716000Z",
+  "start_timestamp_ms": 1786751068716,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1083,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 69,
+    "n_with_timestamp": 1083,
+    "unparseable_line_numbers_sample": [
+      252,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 505.83
+}

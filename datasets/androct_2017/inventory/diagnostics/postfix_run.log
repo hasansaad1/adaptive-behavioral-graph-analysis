@@ -1,0 +1,244 @@
+[postfix] benign …
+  … benign 200
+  … benign 400
+  … benign 600
+  … benign 800
+  … benign 1000
+  … benign 1200
+  … benign 1400
+  … benign 1600
+  … benign 1800
+  … benign 2000
+  … benign 2200
+[postfix] malware …
+  … malware 200
+  … malware 400
+  … malware 600
+  … malware 800
+  … malware 1000
+  … malware 1200
+  … malware 1400
+  … malware 1600
+# AndroCT 2017 — post `<init>`/`<clinit>` allowlist fix
+
+- UTC: 2026-08-07T10:47:33.537403+00:00
+- Change: `_SOOT_SIG` accepts Jimple `<(?:cl)?init>` inside signatures.
+
+## Check 3 — dropped-line sample (500/class)
+
+### benign
+- sample_n=500 seen=5853
+- bucket_counts: `{"logcat_system_output": 384, "other": 113, "malformed_or_truncated_call_line": 3}`
+- well_formed_call_should_have_been_allowed: **0** (gate_nonempty=False)
+#### `logcat_system_output`
+- `--------- beginning of /dev/log/system`
+- `--------- beginning of /dev/log/main`
+- `--------- beginning of /dev/log/system`
+- `--------- beginning of /dev/log/system`
+- `--------- beginning of /dev/log/main`
+- `--------- beginning of /dev/log/main`
+- `--------- beginning of /dev/log/main`
+- `--------- beginning of /dev/log/system`
+- `--------- beginning of /dev/log/system`
+- `--------- beginning of /dev/log/system`
+#### `other`
+- `-------- Environment --------`
+- `	at android.os.Looper.loop(Looper.java:136)`
+- `<script>`
+- `var clicked = false;`
+- `var stp_contentLoaded_enabled = false; `
+- `var saClickUrl = 'http://click.startappservice.com/tracking/adClick?d=IAAAAAAgAAA6X1tPSEVHUVxeWlZBRkZWSldVTVNcWV5DSkRaWF1fRVNMXUVCQ0RcQUBRWVVGTUdCSl5fVldJRkNVQ0FWRVNUXF5DQEhBWldXW1BaRUVcQldQQ01WX1NHSUNGUVhNWlFER0VQR0JYQ0ZUTVJLRBMbBEEeBwQAAB0MAhgEXgIKAQ4GHB0EDB0PHxALFldTRUlRXkdQTVFKRDk6OjsvJylaQEVcID0iOC8xKzsmWkNGVCYgKjUpLDs3NyYtMSlGXVRPHwUYBR8PDAAmHhsXGxoGLxIJDwAZJhgVBwsxCAkQEB8%2BGxoAAAA6ARUXCxwVEExdUlgtMjYtNyBCREZYPi4%2FNSAbABwdBAsrFhMvFwMiAB1GWlRPKzUzJCAqLilaR0xcQlpRRUVWTVZCRDE6LT0hIiFaRkZcJR`
+- `<title>StartApp</title>`
+- `	Component=null`
+- `	at bwl.a(ProGuard)`
+- `	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)`
+#### `malformed_or_truncated_call_line`
+- `<!-- [templateName: fullpage_moving_black_hand_click] -->`
+- `<!-- [templateName: fullpage_moving_black_hand_click] -->`
+- `<!-- [templateName: fullpage_moving_black_hand_click] -->`
+
+### malware
+- sample_n=500 seen=4882
+- bucket_counts: `{"logcat_system_output": 498, "other": 2}`
+- well_formed_call_should_have_been_allowed: **0** (gate_nonempty=False)
+#### `logcat_system_output`
+- `--------- beginning of main`
+- `--------- beginning of main`
+- `--------- beginning of crash`
+- `--------- beginning of crash`
+- `--------- beginning of system`
+- `--------- beginning of system`
+- `--------- beginning of main`
+- `--------- beginning of system`
+- `--------- beginning of crash`
+- `--------- beginning of crash`
+#### `other`
+- `	Action=com.google.android.gms.ads.identifier.service.START`
+- `	PackageName=com.google.android.gms`
+
+## Inventory delta (pre → post)
+
+### benign
+
+| Metric | Old | New | Δ |
+|---|---:|---:|---:|
+| n_files | 2256 | 2256 | +0 |
+| n_header_only | 31 | 25 | -6 |
+| n_effective | 2225 | 2231 | +6 |
+| total_events | 136484156 | 155553398 | +19069242 |
+| total_mapped_events | 4033989 | 4514569 | +480580 |
+| mapped_event_rate | 0.029556 | 0.029023 | -0.000534 |
+| total_call_events | 136454450 | 155523692 | +19069242 |
+| total_icc_events | 29706 | 29706 | +0 |
+| total_dropped_lines | 19082912 | 5853 | -19077059 |
+| total_lines | 155910446 | 155910446 | +0 |
+| n_universe_cats_active | 20 | 21 | +1 |
+- Active cats added: ['dynamic_code_loading']; removed: []
+- Category totals Δ (nonzero only):
+  - `accounts`: 382 → 386 (+4)
+  - `audio`: 23681 → 23714 (+33)
+  - `camera`: 58 → 99 (+41)
+  - `content_access`: 4061 → 4069 (+8)
+  - `crypto`: 2398520 → 2493304 (+94784)
+  - `database`: 130345 → 136046 (+5701)
+  - `device_info`: 6968 → 7409 (+441)
+  - `dynamic_code_loading`: 0 → 27 (+27)
+  - `file_io`: 399813 → 556713 (+156900)
+  - `ipc_intents`: 113268 → 155009 (+41741)
+  - `location`: 18958 → 48043 (+29085)
+  - `media`: 7693 → 8061 (+368)
+  - `native_code`: 419001 → 436057 (+17056)
+  - `network`: 184914 → 290688 (+105774)
+  - `package_manager`: 104578 → 106007 (+1429)
+  - `process`: 20805 → 27647 (+6842)
+  - `storage`: 92032 → 94533 (+2501)
+  - `webview`: 108581 → 126426 (+17845)
+- Trace length (events):
+  - p25: 807.0 → 1064.0 (Δ +257.0)
+  - p50: 4328.0 → 6878.0 (Δ +2550.0)
+  - p75: 31909.0 → 41229.0 (Δ +9320.0)
+  - p90: 137915.00000000023 → 156938.0 (Δ +19022.999999999767)
+  - mean: 61341.19370786517 → 69723.6207978485 (Δ +8382.427089983335)
+  - max: 1664929.0 → 1753234.0 (Δ +88305.0)
+- Mapped events / app:
+  - p25: 22.0 → 33.0 (Δ +11.0)
+  - p50: 136.0 → 185.0 (Δ +49.0)
+  - p75: 682.0 → 853.0 (Δ +171.0)
+  - p90: 2297.4000000000005 → 3084.0 (Δ +786.5999999999995)
+  - mean: 1813.0287640449437 → 2023.5629762438368 (Δ +210.5342121988931)
+  - max: 270584.0 → 271888.0 (Δ +1304.0)
+- Active cats / app:
+  - p25: 3.0 → 3.0 (Δ +0.0)
+  - p50: 5.0 → 6.0 (Δ +1.0)
+  - p75: 7.0 → 8.0 (Δ +1.0)
+  - p90: 9.0 → 9.0 (Δ +0.0)
+  - mean: 5.020674157303371 → 5.376064545047064 (Δ +0.355390387743693)
+  - max: 13.0 → 13.0 (Δ +0.0)
+
+### malware
+
+| Metric | Old | New | Δ |
+|---|---:|---:|---:|
+| n_files | 1742 | 1742 | +0 |
+| n_header_only | 8 | 6 | -2 |
+| n_effective | 1734 | 1736 | +2 |
+| total_events | 70732976 | 98280021 | +27547045 |
+| total_mapped_events | 2492827 | 3277113 | +784286 |
+| mapped_event_rate | 0.035243 | 0.033345 | -0.001898 |
+| total_call_events | 70705721 | 98252766 | +27547045 |
+| total_icc_events | 27255 | 27255 | +0 |
+| total_dropped_lines | 27555108 | 4882 | -27550226 |
+| total_lines | 98670739 | 98670739 | +0 |
+| n_universe_cats_active | 17 | 18 | +1 |
+- Active cats added: ['dynamic_code_loading']; removed: []
+- Category totals Δ (nonzero only):
+  - `accounts`: 4 → 5 (+1)
+  - `audio`: 7 → 8 (+1)
+  - `content_access`: 423 → 483 (+60)
+  - `crypto`: 839652 → 1150506 (+310854)
+  - `database`: 11089 → 12705 (+1616)
+  - `device_info`: 9722 → 10802 (+1080)
+  - `dynamic_code_loading`: 0 → 57 (+57)
+  - `file_io`: 347619 → 566962 (+219343)
+  - `ipc_intents`: 119169 → 177068 (+57899)
+  - `location`: 710 → 814 (+104)
+  - `media`: 2664 → 3199 (+535)
+  - `native_code`: 581410 → 633557 (+52147)
+  - `network`: 108418 → 152574 (+44156)
+  - `package_manager`: 122683 → 123096 (+413)
+  - `process`: 9809 → 15989 (+6180)
+  - `storage`: 16484 → 17020 (+536)
+  - `webview`: 322697 → 412001 (+89304)
+- Trace length (events):
+  - p25: 9729.25 → 16504.75 (Δ +6775.5)
+  - p50: 17277.0 → 31437.5 (Δ +14160.5)
+  - p75: 55122.5 → 74130.5 (Δ +19008.0)
+  - p90: 92090.2 → 110402.5 (Δ +18312.300000000003)
+  - mean: 40791.797001153405 → 56612.915322580644 (Δ +15821.118321427239)
+  - max: 1606665.0 → 3300608.0 (Δ +1693943.0)
+- Mapped events / app:
+  - p25: 215.0 → 311.0 (Δ +96.0)
+  - p50: 592.5 → 818.0 (Δ +225.5)
+  - p75: 1455.0 → 1774.25 (Δ +319.25)
+  - p90: 2927.7000000000007 → 4220.0 (Δ +1292.2999999999993)
+  - mean: 1437.6164936562861 → 1887.7379032258063 (Δ +450.1214095695202)
+  - max: 454292.0 → 454481.0 (Δ +189.0)
+- Active cats / app:
+  - p25: 3.0 → 3.0 (Δ +0.0)
+  - p50: 6.0 → 6.0 (Δ +0.0)
+  - p75: 7.0 → 7.0 (Δ +0.0)
+  - p90: 8.0 → 9.0 (Δ +1.0)
+  - mean: 5.1211072664359865 → 5.425691244239632 (Δ +0.3045839778036452)
+  - max: 13.0 → 14.0 (Δ +1.0)
+
+## Check 4 — AUC floor (corrected)
+
+- AUC_floor = max(AUC_raw_benign_gt, 1 - AUC_raw_benign_gt); direction names the higher class.
+
+### total_event_count
+- AUC_floor=0.685308 (raw_benign_gt=0.314692), direction=**malware_higher**, U=1.22e+06, p=1.82e-89
+- higher@median=malware, higher@mean=benign
+- benign: `{"n": 2231, "min": 2.0, "p10": 529.0, "p25": 1064.0, "p50": 6878.0, "p75": 41229.0, "p90": 156938.0, "max": 1753234.0, "mean": 69723.6207978485, "mean_over_median": 10.137194067730228}`
+- malware: `{"n": 1736, "min": 24.0, "p10": 2621.5, "p25": 16504.75, "p50": 31437.5, "p75": 74130.5, "p90": 110402.5, "max": 3300608.0, "mean": 56612.915322580644, "mean_over_median": 1.8008084396844737}`
+
+### mapped_event_count
+- AUC_floor=0.703220 (raw_benign_gt=0.296780), direction=**malware_higher**, U=1.15e+06, p=3.28e-107
+- higher@median=malware, higher@mean=benign
+- benign: `{"n": 2231, "min": 0.0, "p10": 6.0, "p25": 33.0, "p50": 185.0, "p75": 853.0, "p90": 3084.0, "max": 271888.0, "mean": 2023.5629762438368, "mean_over_median": 10.938178249966686}`
+- malware: `{"n": 1736, "min": 0.0, "p10": 185.0, "p25": 311.0, "p50": 818.0, "p75": 1774.25, "p90": 4220.0, "max": 454481.0, "mean": 1887.7379032258063, "mean_over_median": 2.3077480479533086}`
+
+### distinct_active_categories
+- AUC_floor=0.501028 (raw_benign_gt=0.498972), direction=**malware_higher**, U=1.93e+06, p=0.911
+- higher@median=tie, higher@mean=malware
+- benign: `{"n": 2231, "min": 0.0, "p10": 1.0, "p25": 3.0, "p50": 6.0, "p75": 8.0, "p90": 9.0, "max": 13.0, "mean": 5.376064545047064, "mean_over_median": 0.896010757507844}`
+- malware: `{"n": 1736, "min": 0.0, "p10": 2.0, "p25": 3.0, "p50": 6.0, "p75": 7.0, "p90": 9.0, "max": 14.0, "mean": 5.425691244239632, "mean_over_median": 0.9042818740399386}`
+
+### allowlist_drop_rate
+- AUC_floor=0.649174 (raw_benign_gt=0.649174), direction=**benign_higher**, U=2.55e+06, p=5.09e-59
+- higher@median=benign, higher@mean=benign
+- benign: `{"n": 2256, "min": 1.1406761700200644e-06, "p10": 1.2997516170064869e-05, "p25": 5.0202462198794474e-05, "p50": 0.00031615561963240434, "p75": 0.0019175455417066154, "p90": 0.004158004158004158, "max": 1.0, "mean": 0.014358780053115909, "mean_over_median": 45.41681109388766}`
+- malware: `{"n": 1742, "min": 9.043521040656053e-07, "p10": 2.1931613098950884e-05, "p25": 3.229787706273789e-05, "p50": 9.483916916900261e-05, "p75": 0.00016834074705202815, "p90": 0.0011440775520455435, "max": 1.0, "mean": 0.00416961946563048, "mean_over_median": 43.965162307572015}`
+
+## Loader `<init>` → dynamic_code_loading
+
+### benign
+- DexClassLoader.`<init>` allowlisted=27, mapped_dcl=27
+- PathClassLoader.`<init>` allowlisted=0, mapped_dcl=0
+- dex eg: `<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>`
+- dex eg: `<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>`
+- dex eg: `<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>`
+- dex eg: `<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>`
+- dex eg: `<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>`
+
+### malware
+- DexClassLoader.`<init>` allowlisted=57, mapped_dcl=57
+- PathClassLoader.`<init>` allowlisted=0, mapped_dcl=0
+- dex eg: `<com.qq.e.comm.managers.plugin.PM: void a()> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>`
+- dex eg: `<ongmanibeimeihong.plugin.a: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>`
+- dex eg: `<com.qq.e.comm.managers.plugin.PM: void a()> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>`
+- dex eg: `<com.qq.e.comm.managers.plugin.PM: void a()> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>`
+- dex eg: `<com.qq.e.comm.managers.plugin.PM: void a()> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>`
+
+- Mapper gap for Dex/Path ClassLoader.`<init>`: **NO** (allowlisted count equals mapped_dcl count per class when allowlisted>0, or both zero).
+
+[postfix] wrote datasets/androct_2017/inventory/diagnostics/POST_INIT_FIX.md

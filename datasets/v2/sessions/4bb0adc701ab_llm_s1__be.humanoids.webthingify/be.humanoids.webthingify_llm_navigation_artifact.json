@@ -1,0 +1,790 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "be.humanoids.webthingify",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_hash": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "hint": "8088 editText2 EditText · Web Thing Service OFF switch1 Switch",
+      "visit_count": 54
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 0
+    },
+    {
+      "screen_hash": "791801fb39d15bc3a8f4fd91304c0cd918cac13a678293d1c2fc82d96cac9cb4",
+      "hint": "Allow permission_allow_button Button · Deny permission_deny_button Button",
+      "visit_count": 0
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 2,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_tab_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 3,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "791801fb39d15bc3a8f4fd91304c0cd918cac13a678293d1c2fc82d96cac9cb4",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/switch1",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 287,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/switch1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/switch1|"
+    },
+    {
+      "step": 4,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/switch1",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 287,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/switch1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/switch1|"
+    },
+    {
+      "step": 5,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/switch1",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 287,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/switch1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/switch1|"
+    },
+    {
+      "step": 6,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/switch1",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 287,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/switch1",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:be.humanoids.webthingify:id/switch1|"
+    },
+    {
+      "step": 7,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/switch1",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 287,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/switch1",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:be.humanoids.webthingify:id/switch1|"
+    },
+    {
+      "step": 8,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 9,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 10,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 11,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 12,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 13,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 14,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 15,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 16,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 17,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 18,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 19,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 20,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 21,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 22,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 23,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 24,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 25,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 26,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 27,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 28,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    },
+    {
+      "step": 29,
+      "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 403,
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      "ok": true,
+      "outcome": "tap_rid:be.humanoids.webthingify:id/editText2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:be.humanoids.webthingify:id/editText2|"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:be.humanoids.webthingify:id/editText2|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "visible_on": [
+          "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d"
+        ],
+        "attempts": 24,
+        "successes": 24,
+        "last_from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "last_to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d"
+      },
+      "tab:be.humanoids.webthingify:id/switch1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "be.humanoids.webthingify:id/switch1",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:be.humanoids.webthingify:id/switch1|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "be.humanoids.webthingify:id/switch1",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    "edges": [
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "791801fb39d15bc3a8f4fd91304c0cd918cac13a678293d1c2fc82d96cac9cb4",
+        "target_key": "tab:be.humanoids.webthingify:id/switch1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:be.humanoids.webthingify:id/switch1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:be.humanoids.webthingify:id/switch1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:be.humanoids.webthingify:id/switch1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:be.humanoids.webthingify:id/switch1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      }
+    ]
+  }
+}

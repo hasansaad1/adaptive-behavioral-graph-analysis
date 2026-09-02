@@ -1,0 +1,55 @@
+{
+  "concentration_note_numbers": {
+    "max_failures_on_one_app": 6,
+    "median_failures_among_apps_with_fail": 3
+  },
+  "fail_rate_distribution": {
+    "iqr": 0.3333333333333333,
+    "max": 1.0,
+    "mean": 0.20083333333333334,
+    "min": 0.0,
+    "n": 40,
+    "p10": 0.0,
+    "p25": 0.0,
+    "p50": 0.0,
+    "p75": 0.3333333333333333,
+    "p90": 0.8200000000000003
+  },
+  "fail_rate_value_counts": {
+    "0": 27,
+    "100": 4,
+    "33": 5,
+    "40": 1,
+    "50": 1,
+    "67": 1,
+    "80": 1
+  },
+  "n": 46,
+  "n_apps_all_new_slots_failed": 4,
+  "n_apps_in_canary_or_extend": 40,
+  "n_apps_with_ge1_failure": 13,
+  "per_app_counts": {
+    "InfinityLoop1309.NewPipeEnhanced": 2,
+    "anonvpn.anon_next.android": 2,
+    "app.comaps.fdroid": 2,
+    "app.fedilab.castlab": 2,
+    "app.fedilab.mobilizon": 6,
+    "app.ladefuchs.android": 6,
+    "app.organicmaps": 3,
+    "app.tice.TICE.production": 4,
+    "app.udderance": 6,
+    "at.mikenet.serbianlatintocyrillic": 2,
+    "biz.binarysolutions.mindfulnessmeditation": 2,
+    "cc.kafuu.bilidownload": 5,
+    "ch.abertschi.waterme.water_me": 4
+  },
+  "reason_family_counts": {
+    "failed_frida_reattach": 2,
+    "flailing:dominant_screen": 4,
+    "flailing:same_element_cycle": 1,
+    "partial:bad_handoff": 14,
+    "partial:no_goal_progress": 7,
+    "partial:ux_quality_gate": 12,
+    "webview_dominant": 6
+  }
+}

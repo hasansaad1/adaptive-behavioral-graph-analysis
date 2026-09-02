@@ -1,0 +1,573 @@
+{
+  "goals": [
+    "Tap Button01",
+    "Tap Locationbtn",
+    "Tap Bluetooth Devices",
+    "Tap button1",
+    "Tap button2",
+    "Tap button3"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap Button01",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap Locationbtn",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Bluetooth Devices",
+      "nav_token": "",
+      "target_keys": [
+        "tab:a2dp.Vol:id/ListView01|Bluetooth Devices"
+      ],
+      "observed_screen_hashes": [
+        "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8"
+      ],
+      "observed_screen_hints": [
+        "Bluetooth Devices ListView01 ListView · Load Devices Button01 Button · Stored Location Locationbtn Button · Stop Service ServButton Button · More options ImageButton",
+        "OK button1 Button · Delete button2 Button · Edit button3 Button"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap button1",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap button2",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Tap button3",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264": "Bluetooth Devices ListView01 ListView · Load Devices Button01 Button · Stored Location Locationbtn Button · Stop Service ServButton Button · More options ImageButton",
+    "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8": "OK button1 Button · Delete button2 Button · Edit button3 Button"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:a2dp.Vol:id/ListView01|Bluetooth Devices": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "a2dp.Vol:id/ListView01",
+        "target_content_desc": "Bluetooth Devices",
+        "visible_on": [
+          "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "last_to": "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8"
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8",
+        "last_to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264"
+      },
+      "tab:android:id/button2|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8",
+        "last_to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264"
+      },
+      "tab:android:id/button3|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button3",
+        "target_content_desc": "",
+        "visible_on": [
+          "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:android:id/button2|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:android:id/button3|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button3",
+        "target_content_desc": "",
+        "visible_on": [
+          "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:a2dp.Vol:id/Button01|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "a2dp.Vol:id/Button01",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 25,
+        "successes": 25,
+        "last_from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "last_to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264"
+      },
+      "expand:a2dp.Vol:id/Locationbtn|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "a2dp.Vol:id/Locationbtn",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 12,
+        "successes": 12,
+        "last_from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "last_to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264"
+      }
+    },
+    "edges": [
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8",
+        "target_key": "tab:a2dp.Vol:id/ListView01|Bluetooth Devices",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8",
+        "target_key": "tab:a2dp.Vol:id/ListView01|Bluetooth Devices",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "be11073b81415a119eddc4984d0734e2317073b44d7260553af6ce9518f954b8",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Locationbtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Locationbtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Locationbtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Locationbtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Locationbtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Locationbtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Locationbtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Locationbtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Locationbtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Locationbtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Locationbtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Locationbtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "to": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+        "target_key": "expand:a2dp.Vol:id/Button01|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+    "root_screen_signature": "f7276f289b5af38b2487d2f004e64370beba6fd7ae2b59e5548a3c6e7b21af9f",
+    "root_screen_hint": "Bluetooth Devices ListView01 ListView · Load Devices Button01 Button · Stored Location Locationbtn Button · Stop Service ServButton Button · More options ImageButton",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [
+      {
+        "action_type": "tap",
+        "target_resource_id": "a2dp.Vol:id/Button01",
+        "target_content_desc": "",
+        "x": 567,
+        "y": 299,
+        "reason": "root_handoff_recovery:bfs_expand_frontier"
+      }
+    ],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "a2dp.Vol",
+          "screen_hash": "354a85db322f49ce0aef94a870d1fa0b9da0bda37dbd2ca9ca7ef7bbc9376264",
+          "interactive_count": 5,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "f7276f289b5af38b2487d2f004e64370beba6fd7ae2b59e5548a3c6e7b21af9f",
+          "root_landmark_score": 1
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app by navigating to the Bluetooth Devices tab, then swipe vertically through a list of devices to find the desired device. Once found, they tap on it to view its details. The user may also use the 'Load Devices' button to refresh the list or the 'Stop Service' button to pause any ongoing connections. Occasionally, users will access the 'Stored Location' tab to view their saved locations.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

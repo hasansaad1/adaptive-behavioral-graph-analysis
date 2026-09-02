@@ -1,0 +1,77 @@
+{
+  "active_categories": [
+    "crypto",
+    "database",
+    "file_io",
+    "ipc_intents",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "InfinityLoop1309.NewPipeEnhanced",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T09:13:49.161000Z",
+  "end_timestamp_ms": 1786698829161,
+  "event_counts": {
+    "mapped": 656,
+    "mapped_rate": 0.5660051768766178,
+    "total": 1159
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "b77ab89fd70e_llm_s6__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "Context.startActivity",
+    "File.delete",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "SQLiteDatabase.execSQL",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString"
+  ],
+  "n_active_nodes": 5,
+  "n_edges": 9,
+  "reference_tier_pass": true,
+  "session_id": "b77ab89fd70e_llm_s6",
+  "session_index_within_app": 6,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/b77ab89fd70e_InfinityLoop1309.NewPipeEnhanced/dynamic/llm/session_6/InfinityLoop1309.NewPipeEnhanced_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/b77ab89fd70e_InfinityLoop1309.NewPipeEnhanced/dynamic/llm/session_6/InfinityLoop1309.NewPipeEnhanced_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T09:06:00.235000Z",
+  "start_timestamp_ms": 1786698360235,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1159,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 10,
+    "n_with_timestamp": 1159,
+    "unparseable_line_numbers_sample": [
+      893,
+      894,
+      895,
+      896,
+      897,
+      898,
+      899,
+      900,
+      901,
+      902
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 469.063
+}

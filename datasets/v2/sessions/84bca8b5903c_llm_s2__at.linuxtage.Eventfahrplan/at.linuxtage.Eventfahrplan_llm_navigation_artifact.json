@@ -1,0 +1,992 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "at.linuxtage.Eventfahrplan",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_hash": "0f80b3c9501505232ab029f0df0ed83dc88222c119fe0378a7fa75bc835dfcbc",
+      "hint": "Favorites menu_item_favorites Button · Search menu_item_search Button · ROTATE YOUR DEVICE! snackbar_action Button · More options ImageView · Spinner",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "193dc2efcedefee07de32156128b1d4f2f8e62d6a2eb204adc6be398128012eb",
+      "hint": "View · View · View · View · EditText",
+      "visit_count": 3
+    },
+    {
+      "screen_hash": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "hint": "Favorites menu_item_favorites Button · Search menu_item_search Button · More options ImageView · Spinner",
+      "visit_count": 23
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 2
+    },
+    {
+      "screen_hash": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "hint": "Navigate up ImageButton",
+      "visit_count": 19
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "0f80b3c9501505232ab029f0df0ed83dc88222c119fe0378a7fa75bc835dfcbc",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/snackbar_action",
+        "target_content_desc": "",
+        "x": 827,
+        "y": 1731,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/snackbar_action",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/snackbar_action|"
+    },
+    {
+      "step": 2,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 3,
+      "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 4,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|More options"
+    },
+    {
+      "step": 5,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 6,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_tab_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 7,
+      "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Navigate up"
+    },
+    {
+      "step": 8,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 9,
+      "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Navigate up"
+    },
+    {
+      "step": 10,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_tab_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|More options"
+    },
+    {
+      "step": 11,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 12,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 13,
+      "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 14,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 15,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 16,
+      "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 17,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 18,
+      "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 19,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 20,
+      "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 21,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 22,
+      "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 23,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 24,
+      "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 25,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 26,
+      "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 27,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 28,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 29,
+      "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 30,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 31,
+      "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 32,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 33,
+      "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 34,
+      "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "x": 786,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+    },
+    {
+      "step": 35,
+      "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+      "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:at.linuxtage.Eventfahrplan:id/snackbar_action|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/snackbar_action",
+        "target_content_desc": "",
+        "visible_on": [
+          "0f80b3c9501505232ab029f0df0ed83dc88222c119fe0378a7fa75bc835dfcbc"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "0f80b3c9501505232ab029f0df0ed83dc88222c119fe0378a7fa75bc835dfcbc",
+        "last_to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6"
+      },
+      "nav:at.linuxtage.Eventfahrplan:id/snackbar_action|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/snackbar_action",
+        "target_content_desc": "",
+        "visible_on": [
+          "0f80b3c9501505232ab029f0df0ed83dc88222c119fe0378a7fa75bc835dfcbc"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "visible_on": [
+          "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6"
+        ],
+        "attempts": 16,
+        "successes": 16,
+        "last_from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "last_to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269"
+      },
+      "tab:|More options": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [
+          "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:|Navigate up": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 12,
+        "successes": 12,
+        "last_from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "last_to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6"
+      },
+      "tab:|Navigate up": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "last_to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6"
+      }
+    },
+    "edges": [
+      {
+        "from": "0f80b3c9501505232ab029f0df0ed83dc88222c119fe0378a7fa75bc835dfcbc",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/snackbar_action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      }
+    ]
+  }
+}

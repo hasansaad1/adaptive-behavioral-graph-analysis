@@ -1,0 +1,10 @@
+stage,benign,malware,total,delta_benign,delta_malware,note,artifact_path
+archive_files,2256,1742,3998,,,Zenodo archives,datasets/androct_2017/inventory/inventory_summary.json
+parsed_nonempty,2231,1736,3967,-25,-6,drop header-only,datasets/androct_2017/inventory/inventory_summary.json
+fetch_pre_dedupe,764,1742,2506,,,hex_vt0+pkg=592+172=764 benign; malware all 1742,abrg/output/androct_2017/run2/FINAL_POPULATION_STATS.json
+fetch,763,1742,2505,-1,0,sha256 dedupe -1 benign → 763,abrg/output/androct_2017/run2/POSTMORTEM.json#eligibility
+nonempty_mapped_ge1,713,1703,2416,-50,-39,drop n_mapped==0,abrg/output/androct_2017/run2/POSTMORTEM.json#eligibility
+graph_eligible,703,1700,2403,-10,-3,drop empty categories after re-parse,abrg/output/androct_2017/run2/POSTMORTEM.json#eligibility
+split_train_benign,562,0,562,,,seed=42 test_ratio=0.2; malware all held in test,abrg/output/androct_2017/run2/corpus_cache/meta.json#split
+split_test_benign,141,0,141,,,562+141=703,abrg/output/androct_2017/run2/corpus_cache/meta.json#split
+split_test_malware,0,1700,1700,,,1700 graph-eligible malware,abrg/output/androct_2017/run2/corpus_cache/meta.json#split

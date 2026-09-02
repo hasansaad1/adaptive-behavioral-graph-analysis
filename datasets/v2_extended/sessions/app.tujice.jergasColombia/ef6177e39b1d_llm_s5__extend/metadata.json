@@ -1,0 +1,79 @@
+{
+  "active_categories": [
+    "file_io",
+    "native_code",
+    "webview"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "app.tujice.jergasColombia",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T05:54:44.281000Z",
+  "end_timestamp_ms": 1786686884281,
+  "event_counts": {
+    "mapped": 11,
+    "mapped_rate": 0.0010526315789473684,
+    "total": 10450
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "ef6177e39b1d_llm_s5__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "System.loadLibrary",
+    "WebView.loadUrl"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 1,
+  "reference_tier_pass": true,
+  "session_id": "ef6177e39b1d_llm_s5",
+  "session_index_within_app": 5,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/ef6177e39b1d_app.tujice.jergasColombia/dynamic/llm/session_5/app.tujice.jergasColombia_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/ef6177e39b1d_app.tujice.jergasColombia/dynamic/llm/session_5/app.tujice.jergasColombia_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T05:47:13.658000Z",
+  "start_timestamp_ms": 1786686433658,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 10450,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 316,
+    "n_with_timestamp": 10450,
+    "unparseable_line_numbers_sample": [
+      73,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 450.717
+}

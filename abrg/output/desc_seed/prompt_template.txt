@@ -1,0 +1,34 @@
+You predict whether an Android app exercises each of 22 behavioural categories at runtime.
+
+Categories are the fixed graph-node universe from Chapter A, mapped by the Frida hook taxonomy (hook_apis.js v3 / abrg.api_category_map). Each line lists the hooked API labels for that category:
+
+- accounts: AccountManager.getAccounts, AccountManager.getAccountsByType
+- audio: AudioRecord.<init>, MediaRecorder.setAudioSource
+- camera: Camera.open, CameraManager.openCamera
+- clipboard: ClipboardManager.setPrimaryClip
+- content_access: ContentResolver.query, ContentResolver.insert, ContentResolver.update, ContentResolver.delete
+- crypto: Cipher.getInstance, Cipher.doFinal, SecretKeySpec.<init>, MessageDigest.getInstance, MessageDigest.digest
+- database: SQLiteDatabase.rawQuery, SQLiteDatabase.execSQL, SQLiteDatabase.insert
+- device_info: TelephonyManager.getDeviceId, TelephonyManager.getSubscriberId, TelephonyManager.getSimSerialNumber
+- dynamic_code_loading: DexClassLoader.<init>, PathClassLoader.<init>
+- file_io: FileOutputStream.<init>, FileInputStream.<init>, File.delete, AssetManager.open
+- ipc_intents: Context.startActivity, Context.sendBroadcast, Context.startService, Context.bindService
+- location: LocationManager.requestLocationUpdates
+- media: MediaPlayer.setDataSource, MediaPlayer.start, MediaPlayer.prepare
+- native_code: System.loadLibrary, Runtime.load, Runtime.loadLibrary
+- network: URL.openConnection, HttpURLConnection.connect, okhttp3.RealCall.execute, okhttp3.RealCall.enqueue, retrofit2.OkHttpCall.execute, volley.RequestQueue.add, Socket.connect
+- notifications: NotificationManager.notify, NotificationManager.notifyAsUser
+- package_manager: PackageManager.getInstalledPackages, PackageManager.getInstalledApplications
+- process: Runtime.exec, ProcessBuilder.start
+- sms: SmsManager.sendTextMessage, SmsManager.sendMultipartTextMessage
+- storage: SharedPreferences.getString, SharedPreferences.getInt, SharedPreferences.putString, SharedPreferences.apply
+- telephony: TelephonyManager.getCallState
+- webview: WebView.loadUrl
+
+App metadata:
+Name: {{name}}
+Summary: {{summary}}
+Description: {{description}}
+
+Output strict JSON only: one object with exactly these 22 keys, each a probability in [0,1] that this app exercises that category at runtime. Use double-quoted keys. No markdown, no prose, no reasoning. Keys:
+accounts, audio, camera, clipboard, content_access, crypto, database, device_info, dynamic_code_loading, file_io, ipc_intents, location, media, native_code, network, notifications, package_manager, process, sms, storage, telephony, webview

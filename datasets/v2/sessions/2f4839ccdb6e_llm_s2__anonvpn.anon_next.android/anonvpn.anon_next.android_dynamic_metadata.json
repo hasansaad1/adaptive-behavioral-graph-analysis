@@ -1,0 +1,243 @@
+{
+  "package_name": "anonvpn.anon_next.android",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/anonvpn.anon_next.android_22.apk",
+  "apk_sha256": "2f4839ccdb6e2e637ae63eae3504cc39cf1d3719243cb3c295052734207f849e",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1784040163979,
+  "elapsed_sec": 463.005,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 1025389321,
+  "session_mode": "identical",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "6133",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "anonvpn.anon_next.android_frida.jsonl",
+  "frida_lines": 556,
+  "strace_log_path": "anonvpn.anon_next.android_strace.log",
+  "strace_size_bytes": 150001,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 1025389321,
+  "arm": "llm",
+  "session_id": "2f4839ccdb6e_llm_s2",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "good",
+  "llm_actions_count": 51,
+  "llm_action_log_path": "anonvpn.anon_next.android_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Tap Close navigation",
+    "Tap LET'S START!",
+    "Tap MAYBE LATER",
+    "Tap Navigate",
+    "Tap NEXT",
+    "Tap Open navigation",
+    "Tap tut b back",
+    "Tap TUTORIAL WIEDERHOLEN",
+    "Tap anon_iv_anonymometer_help"
+  ],
+  "llm_ux_plan_path": "anonvpn.anon_next.android_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "anonvpn.anon_next.android_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical users open the app by tapping the 'LET'S START!' welcome button, then navigate to the connection settings by opening the navigation drawer and selecting the 'SELECT connect_b_select' button. After that, they proceed with the tutorial by tapping the 'help_button_reset_tutorial' button. The user then navigates up to exit the tutorial. Users may also occasionally tap the 'anon_iv_anonymometer_help' image view to toggle anonymity mode.",
+  "llm_primary_ux_fallback_reason": "post_nav_realism_blend:goal_index>=4",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+    "root_screen_signature": "b7c99656bce1d3a5d12cb8688023fc917806ff2498c401729a7c86ffe0fd81e5",
+    "root_screen_hint": "anon_iv_anonymometer_help ImageView \u00b7 OFF anon_switch Switch \u00b7 Open navigation drawer ImageButton \u00b7 More options ImageView",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "anonvpn.anon_next.android",
+          "screen_hash": "f254a246ca62732fc7fcaa5a44f28ac2cbc55ba51a633f46ec82e80a9b35bfd0",
+          "interactive_count": 6,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "1abe9b19d872cda83c268ae044a3b767b85b1db254cc48fd07acbd94f10cec22",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 2,
+          "strategy": "start_root_activity_clear_task",
+          "clear_task": true,
+          "foreground_package": "anonvpn.anon_next.android",
+          "screen_hash": "f254a246ca62732fc7fcaa5a44f28ac2cbc55ba51a633f46ec82e80a9b35bfd0",
+          "interactive_count": 6,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "1abe9b19d872cda83c268ae044a3b767b85b1db254cc48fd07acbd94f10cec22",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 3,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "anonvpn.anon_next.android",
+          "screen_hash": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+          "interactive_count": 4,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "b7c99656bce1d3a5d12cb8688023fc917806ff2498c401729a7c86ffe0fd81e5",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/2f4839ccdb6e_anonvpn.anon_next.android/dynamic/llm/session_2/anonvpn.anon_next.android_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "anonvpn.anon_next.android",
+    "app_name": "anonvpn.anon_next.android",
+    "category": "Security",
+    "purpose": "No description available",
+    "ux_type": "hybrid",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/anonvpn.anon_next.android"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 2,
+    "dialogs_tapped_after_warmup": 1,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          263,
+          1555
+        ],
+        "node_count": 32,
+        "screen_hash": "0faa683a65d44c5d"
+      },
+      {
+        "round": 2,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          331,
+          136
+        ],
+        "node_count": 45,
+        "screen_hash": "2de2ba3442312b1b"
+      },
+      {
+        "round": 3,
+        "action": "back",
+        "reason": "transition_guard_stuck_repeat",
+        "screen_hash": "2de2ba3442312b1b",
+        "repeat_hash_streak": 1
+      },
+      {
+        "round": 4,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 23,
+        "screen_hash": "c4f998cea350a41a"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          331,
+          136
+        ],
+        "node_count": 45,
+        "screen_hash": "2de2ba3442312b1b"
+      },
+      {
+        "round": 2,
+        "action": "back",
+        "reason": "transition_guard_stuck_repeat",
+        "screen_hash": "2de2ba3442312b1b",
+        "repeat_hash_streak": 1
+      },
+      {
+        "round": 3,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 23,
+        "screen_hash": "c4f998cea350a41a"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/2f4839ccdb6e_anonvpn.anon_next.android/dynamic/llm/session_2/anonvpn.anon_next.android_verified_start.xml",
+    "pre_setup_wall_sec": 14.576,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 3,
+  "frida_reattach_successes": 3,
+  "frida_valid_events": 262,
+  "frida_meaningful_events": 21,
+  "frida_meaningful_categories": 4
+}

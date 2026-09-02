@@ -1,0 +1,1038 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "buet.rafi.dictionary",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_hash": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "hint": "Favourites, Navigate home LinearLayout",
+      "visit_count": 11
+    },
+    {
+      "screen_hash": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+      "hint": "About about TextView · Add New add_new TextView · Favourites bookmarked_words TextView · Type the word here input EditText · Ridmik Dictionary, Navigate  LinearLayout",
+      "visit_count": 15
+    },
+    {
+      "screen_hash": "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3",
+      "hint": "Save button1 Button · Cancel button2 Button · Bangla_input EditText · english_input EditText",
+      "visit_count": 2
+    },
+    {
+      "screen_hash": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "hint": "About, Navigate home LinearLayout",
+      "visit_count": 36
+    },
+    {
+      "screen_hash": "ebb30b0bea37473cde85700918bb705bd746a666dae4b9bab1825f009a5b4212",
+      "hint": "About about TextView · Add New add_new TextView · Favourites bookmarked_words TextView · demo input EditText · bookmark ImageButton · bookmark ImageButton · bookmark ImageButton · bookmark ImageButton · bookmark ImageButton · bookmark ImageButton",
+      "visit_count": 2
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+      "to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "buet.rafi.dictionary:id/input",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 253,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:buet.rafi.dictionary:id/input",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:buet.rafi.dictionary:id/input|"
+    },
+    {
+      "step": 2,
+      "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+      "to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "buet.rafi.dictionary:id/input",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 253,
+        "reason": "bfs_tab_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:buet.rafi.dictionary:id/input",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:buet.rafi.dictionary:id/input|"
+    },
+    {
+      "step": 3,
+      "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "buet.rafi.dictionary:id/about",
+        "target_content_desc": "About",
+        "x": 1006,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:buet.rafi.dictionary:id/about",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:buet.rafi.dictionary:id/about|About"
+    },
+    {
+      "step": 4,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 5,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 6,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 7,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 8,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 9,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 10,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 11,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 12,
+      "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+      "to": "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "buet.rafi.dictionary:id/add_new",
+        "target_content_desc": "Add New",
+        "x": 712,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:buet.rafi.dictionary:id/add_new",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:buet.rafi.dictionary:id/add_new|Add New"
+    },
+    {
+      "step": 13,
+      "from": "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3",
+      "to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 775,
+        "y": 1214,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 14,
+      "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "buet.rafi.dictionary:id/about",
+        "target_content_desc": "About",
+        "x": 1006,
+        "y": 126,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:buet.rafi.dictionary:id/about",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:buet.rafi.dictionary:id/about|About"
+    },
+    {
+      "step": 15,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_tab_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 16,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 17,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 18,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 19,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 20,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 21,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 22,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 23,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 24,
+      "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "x": 146,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:About, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 25,
+      "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+      "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "buet.rafi.dictionary:id/bookmarked_words",
+        "target_content_desc": "Favourites",
+        "x": 859,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:buet.rafi.dictionary:id/bookmarked_words",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:buet.rafi.dictionary:id/bookmarked_words|Favourites"
+    },
+    {
+      "step": 26,
+      "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Favourites, Navigate home",
+        "x": 193,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Favourites, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 27,
+      "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Favourites, Navigate home",
+        "x": 193,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Favourites, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 28,
+      "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Favourites, Navigate home",
+        "x": 193,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Favourites, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 29,
+      "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Favourites, Navigate home",
+        "x": 193,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Favourites, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 30,
+      "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Favourites, Navigate home",
+        "x": 193,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Favourites, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 31,
+      "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Favourites, Navigate home",
+        "x": 193,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Favourites, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 32,
+      "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Favourites, Navigate home",
+        "x": 193,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Favourites, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 33,
+      "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Favourites, Navigate home",
+        "x": 193,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Favourites, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 34,
+      "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Favourites, Navigate home",
+        "x": 193,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Favourites, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 35,
+      "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+      "to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Ridmik Dictionary, Navigate home",
+        "x": 266,
+        "y": 126,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Ridmik Dictionary, Navigate home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:buet.rafi.dictionary:id/input|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "buet.rafi.dictionary:id/input",
+        "target_content_desc": "",
+        "visible_on": [
+          "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "last_to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78"
+      },
+      "tab:buet.rafi.dictionary:id/about|About": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "buet.rafi.dictionary:id/about",
+        "target_content_desc": "About",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "last_to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb"
+      },
+      "tab:home": {
+        "kind": "tab",
+        "semantic_token": "home",
+        "target_resource_id": "",
+        "target_content_desc": "About, Navigate home",
+        "visible_on": [
+          "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+          "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d"
+        ],
+        "attempts": 28,
+        "successes": 28,
+        "last_from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "last_to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78"
+      },
+      "tab:buet.rafi.dictionary:id/add_new|Add New": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "buet.rafi.dictionary:id/add_new",
+        "target_content_desc": "Add New",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "last_to": "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3"
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3",
+        "last_to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78"
+      },
+      "tab:android:id/button2|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:android:id/button2|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:buet.rafi.dictionary:id/about|About": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "buet.rafi.dictionary:id/about",
+        "target_content_desc": "About",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "last_to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb"
+      },
+      "tab:buet.rafi.dictionary:id/bookmarked_words|Favourites": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "buet.rafi.dictionary:id/bookmarked_words",
+        "target_content_desc": "Favourites",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "last_to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d"
+      }
+    },
+    "edges": [
+      {
+        "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "target_key": "tab:buet.rafi.dictionary:id/input|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "target_key": "tab:buet.rafi.dictionary:id/input|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:buet.rafi.dictionary:id/about|About",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "to": "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3",
+        "target_key": "tab:buet.rafi.dictionary:id/add_new|Add New",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "9c7c616623152bb48feb2d63e0b0be05aa1ecc7a6e8d33ec535823a007880fc3",
+        "to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "expand:buet.rafi.dictionary:id/about|About",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "to": "e154bf0d90a13f537a8b496e423cc67cd88e8e5f4de01e6140fd2a4ee097dfeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:buet.rafi.dictionary:id/bookmarked_words|Favourites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "to": "237e032e07901465d38caedf88270b98e020b5a8a158492a42f036c469ad2c5d",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "to": "72a91c318a5a01374c834acbddd4925d623dc5e7be5ea59203787d6ed491bd78",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      }
+    ]
+  }
+}

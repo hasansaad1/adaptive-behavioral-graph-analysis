@@ -1,0 +1,929 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "app.ladefuchs.android",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_hash": "0773f80e9ee4030c9dad7dace77f0f7c38d833b1e557e9bb89a080d2f6e45fbb",
+      "hint": "ViewGroup · ViewGroup · ViewGroup · EditText",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "0aab47db788de77396db11af18739126489f59c877c6c81ec312f65e16e43d70",
+      "hint": "0.59 ViewGroup · 0.60 ViewGroup · 0.62 ViewGroup · 0.62 ViewGroup · 0.74 ViewGroup · 0.77 ViewGroup · 0.79 ViewGroup · 0.79 ViewGroup · Roaming, 0.61 ViewGroup · Travel Card, 0.76 ViewGroup",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "22e8ca351c0f42cf4bcdd739cc63abe1733b2298bebac6f848dcc40f100867d1",
+      "hint": "ViewGroup · EditText",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55",
+      "hint": "0.47 ViewGroup · 0.47 ViewGroup · 0.52 ViewGroup · 0.62 ViewGroup · 0.72 ViewGroup · Harz Energy Charging card, 0 ViewGroup · Harz Energy Charging card, 0 ViewGroup · Travel Card, 0.50 ViewGroup · ViewGroup · ViewGroup",
+      "visit_count": 5
+    },
+    {
+      "screen_hash": "3255f04bf1c295172796e38b77933b77ed76f8fa22790f9b37e6dbe8ea30b203",
+      "hint": "GRAB A CARD! ViewGroup · ViewGroup",
+      "visit_count": 3
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f",
+      "hint": "Prices/info wrong? ViewGroup · ViewGroup",
+      "visit_count": 6
+    },
+    {
+      "screen_hash": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "hint": "SEND ViewGroup · ViewGroup · ViewGroup · ViewGroup · ViewGroup · ViewGroup · How do you know that? Please EditText",
+      "visit_count": 20
+    },
+    {
+      "screen_hash": "b60c232132fabee4904ddba0ac8e3c04147a4d236cb907fe7c593ab657303ebf",
+      "hint": "ViewGroup · ViewGroup · ViewGroup · ViewGroup · ViewGroup · EditText",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "e3ba34628992bcd0e7d83c90cb01cc44a04f19abfe20598011a5698b351e4dba",
+      "hint": "0.52 ViewGroup · 0.59 ViewGroup · 0.62 ViewGroup · 0.72 ViewGroup · 0.72 ViewGroup · Harz Energy Charging card, 0 ViewGroup · Harz Energy Charging card, 0 ViewGroup · Travel Card, 0.50 ViewGroup · ViewGroup · ViewGroup",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "f5328948416954fd4727e92e1c547d492c6dcd48f2ce99b8d041fdcf6147673d",
+      "hint": "0.52 ViewGroup · 0.59 ViewGroup · 0.59 ViewGroup · 0.60 ViewGroup · 0.72 ViewGroup · 0.72 ViewGroup · 0.74 ViewGroup · 0.77 ViewGroup · Roaming, 0.61 ViewGroup · Travel Card, 0.76 ViewGroup",
+      "visit_count": 1
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 2,
+      "from": "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "0.52",
+        "x": 269,
+        "y": 1182,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:0.52",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|0.52"
+    },
+    {
+      "step": 3,
+      "from": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Prices/info wrong?",
+        "x": 540,
+        "y": 1754,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Prices/info wrong?",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Prices/info wrong?"
+    },
+    {
+      "step": 4,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "b60c232132fabee4904ddba0ac8e3c04147a4d236cb907fe7c593ab657303ebf",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1534,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:540,1534",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1534}"
+    },
+    {
+      "step": 5,
+      "from": "b60c232132fabee4904ddba0ac8e3c04147a4d236cb907fe7c593ab657303ebf",
+      "to": "b60c232132fabee4904ddba0ac8e3c04147a4d236cb907fe7c593ab657303ebf",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 122,
+        "y": 840,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_xy:122,840",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 122, \"y\": 840}"
+    },
+    {
+      "step": 6,
+      "from": "0773f80e9ee4030c9dad7dace77f0f7c38d833b1e557e9bb89a080d2f6e45fbb",
+      "to": "0773f80e9ee4030c9dad7dace77f0f7c38d833b1e557e9bb89a080d2f6e45fbb",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 631,
+        "y": 840,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_xy:631,840",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 631, \"y\": 840}"
+    },
+    {
+      "step": 7,
+      "from": "22e8ca351c0f42cf4bcdd739cc63abe1733b2298bebac6f848dcc40f100867d1",
+      "to": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 989,
+        "y": 147,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_xy:989,147",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 989, \"y\": 147}"
+    },
+    {
+      "step": 8,
+      "from": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f",
+      "to": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Prices/info wrong?",
+        "x": 540,
+        "y": 1754,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Prices/info wrong?",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Prices/info wrong?"
+    },
+    {
+      "step": 9,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 10,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 11,
+      "from": "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55",
+      "to": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "0.62",
+        "x": 810,
+        "y": 1006,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:0.62",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|0.62"
+    },
+    {
+      "step": 12,
+      "from": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Prices/info wrong?",
+        "x": 540,
+        "y": 1754,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Prices/info wrong?",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Prices/info wrong?"
+    },
+    {
+      "step": 13,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 14,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 15,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 16,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 17,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 18,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 19,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 20,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 21,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 22,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 23,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 24,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 25,
+      "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "x": 540,
+        "y": 1764,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SEND",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SEND"
+    },
+    {
+      "step": 26,
+      "from": "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55",
+      "to": "3255f04bf1c295172796e38b77933b77ed76f8fa22790f9b37e6dbe8ea30b203",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "0.72",
+        "x": 810,
+        "y": 1182,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:0.72",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|0.72"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55"
+      },
+      "tab:|0.52": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "0.52",
+        "visible_on": [
+          "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:|0.62": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "0.62",
+        "visible_on": [
+          "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55",
+        "last_to": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f"
+      },
+      "tab:|0.72": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "0.72",
+        "visible_on": [
+          "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55",
+        "last_to": "3255f04bf1c295172796e38b77933b77ed76f8fa22790f9b37e6dbe8ea30b203"
+      },
+      "tab:|Travel Card, 0.50": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Travel Card, 0.50",
+        "visible_on": [
+          "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|0.52": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "0.52",
+        "visible_on": [
+          "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|0.62": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "0.62",
+        "visible_on": [
+          "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|0.72": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "0.72",
+        "visible_on": [
+          "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Travel Card, 0.50": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Travel Card, 0.50",
+        "visible_on": [
+          "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|Prices/info wrong?": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Prices/info wrong?",
+        "visible_on": [
+          "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f"
+        ],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f",
+        "last_to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa"
+      },
+      "nav:|Prices/info wrong?": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Prices/info wrong?",
+        "visible_on": [
+          "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1534}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "last_to": "b60c232132fabee4904ddba0ac8e3c04147a4d236cb907fe7c593ab657303ebf"
+      },
+      "tab:|SEND": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "visible_on": [
+          "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa"
+        ],
+        "attempts": 15,
+        "successes": 15,
+        "last_from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "last_to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa"
+      },
+      "nav:|SEND": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "SEND",
+        "visible_on": [
+          "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 122, \"y\": 840}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "b60c232132fabee4904ddba0ac8e3c04147a4d236cb907fe7c593ab657303ebf",
+        "last_to": "b60c232132fabee4904ddba0ac8e3c04147a4d236cb907fe7c593ab657303ebf"
+      },
+      "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 631, \"y\": 840}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "0773f80e9ee4030c9dad7dace77f0f7c38d833b1e557e9bb89a080d2f6e45fbb",
+        "last_to": "0773f80e9ee4030c9dad7dace77f0f7c38d833b1e557e9bb89a080d2f6e45fbb"
+      },
+      "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 989, \"y\": 147}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "22e8ca351c0f42cf4bcdd739cc63abe1733b2298bebac6f848dcc40f100867d1",
+        "last_to": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f"
+      }
+    },
+    "edges": [
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|0.52",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|Prices/info wrong?",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "b60c232132fabee4904ddba0ac8e3c04147a4d236cb907fe7c593ab657303ebf",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1534}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "b60c232132fabee4904ddba0ac8e3c04147a4d236cb907fe7c593ab657303ebf",
+        "to": "b60c232132fabee4904ddba0ac8e3c04147a4d236cb907fe7c593ab657303ebf",
+        "target_key": "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 122, \"y\": 840}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "0773f80e9ee4030c9dad7dace77f0f7c38d833b1e557e9bb89a080d2f6e45fbb",
+        "to": "0773f80e9ee4030c9dad7dace77f0f7c38d833b1e557e9bb89a080d2f6e45fbb",
+        "target_key": "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 631, \"y\": 840}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "22e8ca351c0f42cf4bcdd739cc63abe1733b2298bebac6f848dcc40f100867d1",
+        "to": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f",
+        "target_key": "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 989, \"y\": 147}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f",
+        "to": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f",
+        "target_key": "tab:|Prices/info wrong?",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55",
+        "to": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f",
+        "target_key": "tab:|0.62",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "53aab571707724de59b879e05c25e36e5f279a5a21ab8910aa2631186814541f",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|Prices/info wrong?",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "to": "8eb9dbcfb0332e33ed953257659183dd815f6f0a90ebc3cf8285e8220d46dffa",
+        "target_key": "tab:|SEND",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "27730d772a8415c91eb2b340f1de3b4d14de629b859f5e7f0593f56daea90a55",
+        "to": "3255f04bf1c295172796e38b77933b77ed76f8fa22790f9b37e6dbe8ea30b203",
+        "target_key": "tab:|0.72",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      }
+    ]
+  }
+}

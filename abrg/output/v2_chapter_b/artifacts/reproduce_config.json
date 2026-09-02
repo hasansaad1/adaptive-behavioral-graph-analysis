@@ -1,0 +1,21 @@
+{
+  "module": "abrg.chapter_b",
+  "cli": "python -m abrg.chapter_b",
+  "corpus": "datasets/v2_extended",
+  "verify_export_exit": 0,
+  "descriptive_only": true,
+  "no_detector": true,
+  "no_auc": true,
+  "builder_run2": "abrg.androct.graph_build.update_graph_sequence",
+  "builder_run1_old_vs_new": "abrg.corpus.build_session_graph",
+  "pooled_method": "concat_then_build",
+  "androct_protocol_wall_sec": 600.0,
+  "material_rule": {
+    "p": 0.05,
+    "cliffs_delta_abs": 0.147
+  },
+  "n_v2_sessions_pass": 342,
+  "n_v2_apps_pass": 59,
+  "n_androct_benign": 2231,
+  "n_androct_malware": 1736
+}

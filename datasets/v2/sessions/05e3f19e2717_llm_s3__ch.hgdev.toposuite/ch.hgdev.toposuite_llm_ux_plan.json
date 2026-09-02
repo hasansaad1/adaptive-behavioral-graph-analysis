@@ -1,0 +1,597 @@
+{
+  "goals": [
+    "Tap Calculations",
+    "Tap Navigate",
+    "Tap WebView",
+    "Press Back to return to the main app list",
+    "Wait for UI to settle",
+    "Tap geo-education.ch",
+    "Tap www.cepm.ch",
+    "Tap www.cpne.ch",
+    "Tap www.epcasion.ch"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap Calculations",
+      "nav_token": "",
+      "target_keys": [
+        "expand:ch.hgdev.toposuite:id/toggle_right_menu_button|Calculations"
+      ],
+      "observed_screen_hashes": [
+        "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d"
+      ],
+      "observed_screen_hints": [
+        "Calculations toggle_right_menu_button Button · geo-education.ch View · github.com/hgdev-ch/toposuit View · www.cepm.ch View · www.cpne.ch View · www.epcasion.ch View · Navigate up ImageButton"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap Navigate",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap WebView",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Press Back to return to the main app list",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Wait for UI to settle",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Tap geo-education.ch",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|geo-education.ch",
+        "nav:|geo-education.ch"
+      ],
+      "observed_screen_hashes": [
+        "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d"
+      ],
+      "observed_screen_hints": [
+        "Calculations toggle_right_menu_button Button · geo-education.ch View · github.com/hgdev-ch/toposuit View · www.cepm.ch View · www.cpne.ch View · www.epcasion.ch View · Navigate up ImageButton"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Tap www.cepm.ch",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|www.cepm.ch",
+        "nav:|www.cepm.ch"
+      ],
+      "observed_screen_hashes": [
+        "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "32a6fe23c237455b34c2c1edfcb489bb263a9ff878f50cb5246c8bac8c91fa55",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "observed_screen_hints": [
+        "Calculations toggle_right_menu_button Button · geo-education.ch View · github.com/hgdev-ch/toposuit View · www.cepm.ch View · www.cpne.ch View · www.epcasion.ch View · Navigate up ImageButton",
+        "Calculations toggle_right_menu_button Button · github.com/hgdev-ch/toposuit View · www.cepm.ch View · www.cpne.ch View · www.epcasion.ch View · Navigate up ImageButton",
+        ""
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Tap www.cpne.ch",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|www.cpne.ch",
+        "nav:|www.cpne.ch"
+      ],
+      "observed_screen_hashes": [
+        "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "32a6fe23c237455b34c2c1edfcb489bb263a9ff878f50cb5246c8bac8c91fa55",
+        "b70e87782cf13c36c7de2a670f5ecb6a1dbc0654d281eff249bb7b942d0c0560",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "observed_screen_hints": [
+        "Calculations toggle_right_menu_button Button · geo-education.ch View · github.com/hgdev-ch/toposuit View · www.cepm.ch View · www.cpne.ch View · www.epcasion.ch View · Navigate up ImageButton",
+        "Calculations toggle_right_menu_button Button · github.com/hgdev-ch/toposuit View · www.cepm.ch View · www.cpne.ch View · www.epcasion.ch View · Navigate up ImageButton",
+        "Calculations toggle_right_menu_button Button · github.com/hgdev-ch/toposuit View · www.cpne.ch View · www.epcasion.ch View · Navigate up ImageButton"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 8,
+      "goal": "Tap www.epcasion.ch",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|www.epcasion.ch",
+        "nav:|www.epcasion.ch"
+      ],
+      "observed_screen_hashes": [
+        "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "32a6fe23c237455b34c2c1edfcb489bb263a9ff878f50cb5246c8bac8c91fa55",
+        "b70e87782cf13c36c7de2a670f5ecb6a1dbc0654d281eff249bb7b942d0c0560",
+        "c474c3884b10f1a5dceb0b84ec7e01899128180fae64bc1a342b1311ba67ad9f",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "observed_screen_hints": [
+        "Calculations toggle_right_menu_button Button · geo-education.ch View · github.com/hgdev-ch/toposuit View · www.cepm.ch View · www.cpne.ch View · www.epcasion.ch View · Navigate up ImageButton",
+        "Calculations toggle_right_menu_button Button · github.com/hgdev-ch/toposuit View · www.cepm.ch View · www.cpne.ch View · www.epcasion.ch View · Navigate up ImageButton",
+        "Calculations toggle_right_menu_button Button · github.com/hgdev-ch/toposuit View · www.cpne.ch View · www.epcasion.ch View · Navigate up ImageButton"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d": "Calculations toggle_right_menu_button Button · geo-education.ch View · github.com/hgdev-ch/toposuit View · www.cepm.ch View · www.cpne.ch View · www.epcasion.ch View · Navigate up ImageButton",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": "",
+    "32a6fe23c237455b34c2c1edfcb489bb263a9ff878f50cb5246c8bac8c91fa55": "Calculations toggle_right_menu_button Button · github.com/hgdev-ch/toposuit View · www.cepm.ch View · www.cpne.ch View · www.epcasion.ch View · Navigate up ImageButton",
+    "b70e87782cf13c36c7de2a670f5ecb6a1dbc0654d281eff249bb7b942d0c0560": "Calculations toggle_right_menu_button Button · github.com/hgdev-ch/toposuit View · www.cpne.ch View · www.epcasion.ch View · Navigate up ImageButton",
+    "c474c3884b10f1a5dceb0b84ec7e01899128180fae64bc1a342b1311ba67ad9f": "Calculations toggle_right_menu_button Button · github.com/hgdev-ch/toposuit View · www.epcasion.ch View · Navigate up ImageButton",
+    "24af2d06d00eafd5c5f5cd6aaec5f7f6c10b48cd22ba71c0c7866609117b8b67": "Calculations toggle_right_menu_button Button · github.com/hgdev-ch/toposuit View · Navigate up ImageButton",
+    "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a": "Calculations toggle_right_menu_button Button · Navigate up ImageButton",
+    "8b6aa3aea0d2cb7848961bbaecb50133367833113cd4a1627d51f7fe962b2956": "Calculations toggle_right_menu_button Button · Navigate up ImageButton · WebView"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:|geo-education.ch": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "geo-education.ch",
+        "visible_on": [
+          "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d"
+        ],
+        "attempts": 12,
+        "successes": 12,
+        "last_from": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "last_to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d"
+      },
+      "tab:|www.cepm.ch": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "www.cepm.ch",
+        "visible_on": [
+          "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+          "32a6fe23c237455b34c2c1edfcb489bb263a9ff878f50cb5246c8bac8c91fa55"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "32a6fe23c237455b34c2c1edfcb489bb263a9ff878f50cb5246c8bac8c91fa55",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:|www.cpne.ch": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "www.cpne.ch",
+        "visible_on": [
+          "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+          "32a6fe23c237455b34c2c1edfcb489bb263a9ff878f50cb5246c8bac8c91fa55",
+          "b70e87782cf13c36c7de2a670f5ecb6a1dbc0654d281eff249bb7b942d0c0560"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "b70e87782cf13c36c7de2a670f5ecb6a1dbc0654d281eff249bb7b942d0c0560",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:|www.epcasion.ch": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "www.epcasion.ch",
+        "visible_on": [
+          "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+          "32a6fe23c237455b34c2c1edfcb489bb263a9ff878f50cb5246c8bac8c91fa55",
+          "b70e87782cf13c36c7de2a670f5ecb6a1dbc0654d281eff249bb7b942d0c0560",
+          "c474c3884b10f1a5dceb0b84ec7e01899128180fae64bc1a342b1311ba67ad9f"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "c474c3884b10f1a5dceb0b84ec7e01899128180fae64bc1a342b1311ba67ad9f",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:|geo-education.ch": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "geo-education.ch",
+        "visible_on": [
+          "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|www.cepm.ch": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "www.cepm.ch",
+        "visible_on": [
+          "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+          "32a6fe23c237455b34c2c1edfcb489bb263a9ff878f50cb5246c8bac8c91fa55"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|www.cpne.ch": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "www.cpne.ch",
+        "visible_on": [
+          "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+          "32a6fe23c237455b34c2c1edfcb489bb263a9ff878f50cb5246c8bac8c91fa55",
+          "b70e87782cf13c36c7de2a670f5ecb6a1dbc0654d281eff249bb7b942d0c0560"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|www.epcasion.ch": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "www.epcasion.ch",
+        "visible_on": [
+          "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+          "32a6fe23c237455b34c2c1edfcb489bb263a9ff878f50cb5246c8bac8c91fa55",
+          "b70e87782cf13c36c7de2a670f5ecb6a1dbc0654d281eff249bb7b942d0c0560",
+          "c474c3884b10f1a5dceb0b84ec7e01899128180fae64bc1a342b1311ba67ad9f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|github.com/hgdev-ch/toposuite-android": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "github.com/hgdev-ch/toposuite-android",
+        "visible_on": [
+          "24af2d06d00eafd5c5f5cd6aaec5f7f6c10b48cd22ba71c0c7866609117b8b67"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "24af2d06d00eafd5c5f5cd6aaec5f7f6c10b48cd22ba71c0c7866609117b8b67",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:|github.com/hgdev-ch/toposuite-android": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "github.com/hgdev-ch/toposuite-android",
+        "visible_on": [
+          "24af2d06d00eafd5c5f5cd6aaec5f7f6c10b48cd22ba71c0c7866609117b8b67"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:ch.hgdev.toposuite:id/toggle_right_menu_button|Calculations": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "ch.hgdev.toposuite:id/toggle_right_menu_button",
+        "target_content_desc": "Calculations",
+        "visible_on": [],
+        "attempts": 9,
+        "successes": 9,
+        "last_from": "8b6aa3aea0d2cb7848961bbaecb50133367833113cd4a1627d51f7fe962b2956",
+        "last_to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d"
+      },
+      "expand:|Navigate up": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "last_to": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a"
+      }
+    },
+    "edges": [
+      {
+        "from": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|geo-education.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "32a6fe23c237455b34c2c1edfcb489bb263a9ff878f50cb5246c8bac8c91fa55",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|www.cepm.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "b70e87782cf13c36c7de2a670f5ecb6a1dbc0654d281eff249bb7b942d0c0560",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|www.cpne.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "c474c3884b10f1a5dceb0b84ec7e01899128180fae64bc1a342b1311ba67ad9f",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|www.epcasion.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "24af2d06d00eafd5c5f5cd6aaec5f7f6c10b48cd22ba71c0c7866609117b8b67",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|github.com/hgdev-ch/toposuite-android",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "to": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "target_key": "expand:ch.hgdev.toposuite:id/toggle_right_menu_button|Calculations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "to": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "target_key": "expand:ch.hgdev.toposuite:id/toggle_right_menu_button|Calculations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "to": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "to": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "target_key": "expand:ch.hgdev.toposuite:id/toggle_right_menu_button|Calculations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "to": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "target_key": "expand:ch.hgdev.toposuite:id/toggle_right_menu_button|Calculations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "to": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "to": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "target_key": "expand:ch.hgdev.toposuite:id/toggle_right_menu_button|Calculations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "to": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "target_key": "expand:ch.hgdev.toposuite:id/toggle_right_menu_button|Calculations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "to": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "to": "99dc735664cb4ed839e07d0f0aec7050990b9e892867f442a31f1d37dbc66e4a",
+        "target_key": "expand:ch.hgdev.toposuite:id/toggle_right_menu_button|Calculations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8b6aa3aea0d2cb7848961bbaecb50133367833113cd4a1627d51f7fe962b2956",
+        "to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "target_key": "expand:ch.hgdev.toposuite:id/toggle_right_menu_button|Calculations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "target_key": "tab:|geo-education.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "target_key": "tab:|geo-education.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "target_key": "tab:|geo-education.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "target_key": "tab:|geo-education.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "target_key": "tab:|geo-education.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "target_key": "tab:|geo-education.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "target_key": "tab:|geo-education.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "target_key": "tab:|geo-education.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "target_key": "tab:|geo-education.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "target_key": "tab:|geo-education.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "target_key": "tab:|geo-education.ch",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6aa3aea0d2cb7848961bbaecb50133367833113cd4a1627d51f7fe962b2956",
+        "to": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+        "target_key": "expand:ch.hgdev.toposuite:id/toggle_right_menu_button|Calculations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+    "root_screen_signature": "e13fcc8972a76dab5f9060df9b97bb1ac5d3c0bc77f05dff669123b36708d698",
+    "root_screen_hint": "Calculations toggle_right_menu_button Button · geo-education.ch View · github.com/hgdev-ch/toposuit View · www.cepm.ch View · www.cpne.ch View · www.epcasion.ch View · Navigate up ImageButton",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [
+      {
+        "action_type": "tap",
+        "target_resource_id": "ch.hgdev.toposuite:id/toggle_right_menu_button",
+        "target_content_desc": "Calculations",
+        "x": 1017,
+        "y": 136,
+        "reason": "root_handoff_recovery:bfs_expand_frontier"
+      }
+    ],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ch.hgdev.toposuite",
+          "screen_hash": "9424c23251f501d693b821f2659bae865785649ddeabe9b03634df504d1e666d",
+          "interactive_count": 7,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "e13fcc8972a76dab5f9060df9b97bb1ac5d3c0bc77f05dff669123b36708d698",
+          "root_landmark_score": 3
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users navigate through a list of calculations, with the most recent calculation at the top. They swipe down to view more calculations or scroll horizontally between tabs. The user opens the right menu by tapping the toggle_right_menu_button and then navigates up to return to the main list. The primary interaction is a vertical swipe gesture to access additional calculations.",
+    "reason": "post_nav_realism_blend:post_nav_sec>=147"
+  }
+}

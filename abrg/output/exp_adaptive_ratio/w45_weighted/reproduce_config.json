@@ -1,0 +1,26 @@
+{
+  "run_id": "exp_adaptive_ratio/w45_weighted",
+  "axis": "window_sec 60\u219245",
+  "cli_module": "abrg.compare_normalization_ab",
+  "scorer": "stochastic",
+  "dataset": "v2",
+  "sessions_dir": "datasets/v2/sessions",
+  "pins": {
+    "window_sec": 45.0,
+    "epochs": 300,
+    "hidden": 16,
+    "lr": 0.01,
+    "seed": 42,
+    "test_ratio": 0.2,
+    "edge_weight_in_encoder": true
+  },
+  "primary_arm": "normalized_v021",
+  "expected": {
+    "train_med": 0.5854461193084717,
+    "test_med": 0.7025353312492371,
+    "ratio": 1.1999999796378717
+  },
+  "atol_median": 0.02,
+  "atol_ratio": 0.05,
+  "kind": "ratio"
+}

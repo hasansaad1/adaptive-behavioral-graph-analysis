@@ -1,0 +1,19 @@
+20898 1784092979.168701 exit(0)         = ?
+20898 1784092979.169022 +++ exited with 0 +++
+20900 1784092979.171706 exit(0)         = ?
+20900 1784092979.172177 +++ exited with 0 +++
+20901 1784092979.172268 exit(0 <unfinished ...>
+20899 1784092979.172288 exit(0 <unfinished ...>
+20901 1784092979.172390 <... exit resumed>) = ?
+20899 1784092979.172407 <... exit resumed>) = ?
+20901 1784092979.172653 +++ exited with 0 +++
+20899 1784092979.172662 +++ exited with 0 +++
+20912 1784092979.174492 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+20912 1784092979.174891 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+20912 1784092979.175273 newfstatat(AT_FDCWD, "/data/app/bluepie.ad_silence-waS19GdAdUTETuXULO7Bog==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+20912 1784092979.175633 newfstatat(AT_FDCWD, "/data/app/bluepie.ad_silence-waS19GdAdUTETuXULO7Bog==/base.apk", {st_mode=S_IFREG|0644, st_size=175552, ...}, AT_SYMLINK_NOFOLLOW) = 0
+20912 1784092979.175997 getcwd("/", 4096) = 2
+20912 1784092979.176322 newfstatat(AT_FDCWD, "/base.apk", 0x7a74fc3690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+20925 1784092991.985831 exit(0)         = ?
+20925 1784092991.986227 +++ exited with 0 +++
+20923 1784092992.035228 faccessat(AT_FDCWD, "/proc/self/task/20925", F_OK) = -1 ENOENT (No such file or directory)

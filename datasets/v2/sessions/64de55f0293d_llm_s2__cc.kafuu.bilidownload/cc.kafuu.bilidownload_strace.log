@@ -1,0 +1,34 @@
+11155 1784175677.567153 exit(0)         = ?
+11155 1784175677.567321 +++ exited with 0 +++
+11153 1784175677.567349 exit(0)         = ?
+11153 1784175677.567376 +++ exited with 0 +++
+11156 1784175677.569520 exit(0)         = ?
+11154 1784175677.569857 exit(0 <unfinished ...>
+11156 1784175677.569923 +++ exited with 0 +++
+11154 1784175677.570097 <... exit resumed>) = ?
+11154 1784175677.570605 +++ exited with 0 +++
+11166 1784175677.572978 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+11166 1784175677.573361 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+11166 1784175677.573725 newfstatat(AT_FDCWD, "/data/app/cc.kafuu.bilidownload-T0AQ9tqkGrRzx43GIyMKYw==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+11166 1784175677.574074 newfstatat(AT_FDCWD, "/data/app/cc.kafuu.bilidownload-T0AQ9tqkGrRzx43GIyMKYw==/base.apk", {st_mode=S_IFREG|0644, st_size=105522441, ...}, AT_SYMLINK_NOFOLLOW) = 0
+11166 1784175677.574430 getcwd("/", 4096) = 2
+11166 1784175677.574786 newfstatat(AT_FDCWD, "/base.apk", 0x76a833f690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+11146 1784175678.586008 clone(child_stack=0x76a437bd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x76a437bd60, tls=0x76a437c020, child_tidptr=0x76a437bd60) = 11230
+11230 1784175678.594221 faccessat(AT_FDCWD, "/data/user/0/cc.kafuu.bilidownload/files", F_OK) = 0
+11230 1784175678.594572 faccessat(AT_FDCWD, "/data/user/0/cc.kafuu.bilidownload/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+11230 1784175678.594899 openat(AT_FDCWD, "/data/user/0/cc.kafuu.bilidownload/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 81
+11230 1784175678.595824 getsockopt(81, SOL_SOCKET, SO_ERROR, 0x76a437a254, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+11230 1784175678.597627 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/cc.kafuu.bilidownload/primary.prof", 0x76a4379c28, 0) = -1 ENOENT (No such file or directory)
+11230 1784175678.598003 faccessat(AT_FDCWD, "/data/misc/profiles/ref/cc.kafuu.bilidownload/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+11230 1784175678.598356 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/cc.kafuu.bilidownload/primary.prof", {st_mode=S_IFREG|0600, st_size=24116, ...}, 0) = 0
+11230 1784175678.598681 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/cc.kafuu.bilidownload/primary.prof", F_OK) = 0
+11230 1784175678.599515 faccessat(AT_FDCWD, "/data/user/0/cc.kafuu.bilidownload/files", F_OK) = 0
+11230 1784175678.599816 faccessat(AT_FDCWD, "/data/user/0/cc.kafuu.bilidownload/files/profileInstalled", F_OK) = 0
+11230 1784175678.600137 openat(AT_FDCWD, "/data/user/0/cc.kafuu.bilidownload/files/profileInstalled", O_RDONLY) = 81
+11230 1784175678.601780 getsockopt(81, SOL_SOCKET, SO_ERROR, 0x76a43795a4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+11230 1784175678.607179 exit(0)         = ?
+11230 1784175678.607429 +++ exited with 0 +++
+11189 1784175678.660907 faccessat(AT_FDCWD, "/proc/self/task/11230", F_OK) = -1 ENOENT (No such file or directory)
+11191 1784175690.370493 exit(0)         = ?
+11191 1784175690.370659 +++ exited with 0 +++
+11189 1784175690.425175 faccessat(AT_FDCWD, "/proc/self/task/11191", F_OK) = -1 ENOENT (No such file or directory)

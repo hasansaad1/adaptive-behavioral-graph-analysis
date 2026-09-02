@@ -1,0 +1,78 @@
+{
+  "active_categories": [
+    "file_io",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "biz.binarysolutions.vatcalculator",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T11:46:10.460000Z",
+  "end_timestamp_ms": 1786707970460,
+  "event_counts": {
+    "mapped": 10,
+    "mapped_rate": 0.02320185614849188,
+    "total": 431
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "bec3b8076c0f_llm_s6__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "File.delete",
+    "SharedPreferences.getInt"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 1,
+  "reference_tier_pass": true,
+  "session_id": "bec3b8076c0f_llm_s6",
+  "session_index_within_app": 6,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/bec3b8076c0f_biz.binarysolutions.vatcalculator/dynamic/llm/session_6/biz.binarysolutions.vatcalculator_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/bec3b8076c0f_biz.binarysolutions.vatcalculator/dynamic/llm/session_6/biz.binarysolutions.vatcalculator_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T11:38:42.907000Z",
+  "start_timestamp_ms": 1786707522907,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 431,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 50,
+    "n_with_timestamp": 431,
+    "unparseable_line_numbers_sample": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 447.656
+}

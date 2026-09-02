@@ -1,0 +1,345 @@
+6059  1783903901.792311 exit(0)         = ?
+6059  1783903901.792708 +++ exited with 0 +++
+6037  1783903903.704304 exit(0 <unfinished ...>
+6038  1783903903.704595 exit(0 <unfinished ...>
+6037  1783903903.704642 <... exit resumed>) = ?
+6038  1783903903.704985 <... exit resumed>) = ?
+6039  1783903903.705250 exit(0 <unfinished ...>
+6038  1783903903.705294 +++ exited with 0 +++
+6037  1783903903.705303 +++ exited with 0 +++
+6039  1783903903.705469 <... exit resumed>) = ?
+6036  1783903903.705498 exit(0 <unfinished ...>
+6039  1783903903.705654 +++ exited with 0 +++
+6036  1783903903.705660 <... exit resumed>) = ?
+6036  1783903903.705893 +++ exited with 0 +++
+6049  1783903903.709308 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+6049  1783903903.709675 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+6049  1783903903.709995 newfstatat(AT_FDCWD, "/data/app/app.crescentcash.src-MdNQTDJIC4k7v2YIOAldHw==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+6049  1783903903.710317 newfstatat(AT_FDCWD, "/data/app/app.crescentcash.src-MdNQTDJIC4k7v2YIOAldHw==/base.apk", {st_mode=S_IFREG|0644, st_size=9839433, ...}, AT_SYMLINK_NOFOLLOW) = 0
+6049  1783903903.710646 getcwd("/", 4096) = 2
+6049  1783903903.710955 newfstatat(AT_FDCWD, "/base.apk", 0x7626170690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+6072  1783903916.559023 exit(0)         = ?
+6072  1783903916.559148 +++ exited with 0 +++
+6070  1783903916.609560 faccessat(AT_FDCWD, "/proc/self/task/6072", F_OK) = -1 ENOENT (No such file or directory)
+6029  1783903934.738969 recvfrom(49, "\2\0\0\0\0\0\0\0\374\10\0\0\0\0\0\0@`\316\201]\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+6029  1783903934.739349 recvfrom(47, 0x7fff4b9df0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.742267 sendto(49, "\3\0\0\0\0\0\0\0\374\10\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+6029  1783903934.742290 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6073  1783903934.743019 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0L\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+6029  1783903934.743072 recvfrom(49, "\2\0\0\0\0\0\0\0\376\10\0\0\0\0\0\0@`\316\201]\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+6029  1783903934.743148 sendto(49, "\3\0\0\0\0\0\0\0\376\10\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+6029  1783903934.743163 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.743221 socket(AF_UNIX, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 66
+6029  1783903934.743285 setsockopt(66, SOL_SOCKET, SO_SNDBUF, [1048576], 4) = 0
+6029  1783903934.743307 connect(66, {sa_family=AF_UNIX, sun_path="/dev/socket/statsdw"}, 110 <unfinished ...>
+6073  1783903934.743487 <... sendmsg resumed> ) = 428
+6029  1783903934.743501 <... connect resumed> ) = 0
+6073  1783903934.744189 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0M\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+6073  1783903934.748961 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0N\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.749522 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0O\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.750424 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0P\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.752245 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0Q\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.752872 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0R\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.753489 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0S\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.754060 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0T\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.756863 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0U\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.757346 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0V\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.758620 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0W\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.759114 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0X\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.759972 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0Y\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.761118 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0Z\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.762018 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0[\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.762745 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\\\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.763323 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0]\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.764003 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0^\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.764460 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0_\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.766842 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0`\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.767292 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0a\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.767545 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0b\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.768489 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0c\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.769026 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0d\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.770280 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0e\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.771144 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0f\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.771756 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0g\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.775189 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0h\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.776109 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0i\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.776787 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0j\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.777568 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0k\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.778394 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0l\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.778777 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0m\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.779798 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0n\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.780537 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0o\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.781072 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0p\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.784271 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0q\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.785207 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0r\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.786038 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0s\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.786515 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0t\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.787274 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0u\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.788397 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0v\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.789034 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0w\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.790100 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0x\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.791569 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0y\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.792207 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0z\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.792755 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0{\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.793398 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0|\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6029  1783903934.794487 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0t\324b\202]\2\0\0\323\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6073  1783903934.794589 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0}\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+6029  1783903934.794643 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6073  1783903934.794781 <... sendmsg resumed> ) = 428
+6073  1783903934.795321 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0~\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.795836 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\177\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.796195 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\200\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.796673 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\201\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6029  1783903934.797022 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.797053 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6073  1783903934.797706 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\202\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.798315 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\203\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.798809 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\204\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.799604 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\205\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+6073  1783903934.800571 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\206\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.801541 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\207\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.802448 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\210\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.803285 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\211\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.803886 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\212\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.804409 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\213\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.805080 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\214\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.806324 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\215\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.807111 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\216\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.807766 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\217\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.808540 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\220\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.809354 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\221\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.810038 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\222\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.810777 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\223\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.812343 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\224\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.812988 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\225\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.813796 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\226\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.814352 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\227\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.814797 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\230\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.815140 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\231\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.816009 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\232\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.816738 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\233\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.817638 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\234\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.818195 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\235\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.821263 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\236\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.822349 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\237\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.822934 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\370\0\0\0\240\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=424}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 424
+6073  1783903934.823509 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\241\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+6029  1783903934.823555 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0gP]\206]\2\0\0\327\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903934.823569 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.823598 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6073  1783903934.823805 <... sendmsg resumed> ) = 428
+6073  1783903934.824229 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\242\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903934.824761 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\243\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6029  1783903934.870308 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\210\303[\207]\2\0\0\330\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903934.870337 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.870412 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.870451 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.887578 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\21[V\212]\2\0\0\333\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903934.887608 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.887658 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.887702 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.902889 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0v\255T\213]\2\0\0\334\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903934.902909 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.902937 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.902961 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.917243 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\376KS\214]\2\0\0\335\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903934.917291 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.917405 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.917432 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.934426 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0(\234Q\215]\2\0\0\336\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903934.934488 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.934590 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.934695 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.951947 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0R\354O\216]\2\0\0\337\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903934.952010 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.952178 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.952362 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.969484 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0M\5N\217]\2\0\0\340\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903934.969511 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.969541 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.969559 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.987217 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\337EL\220]\2\0\0\341\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903934.987237 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.987265 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903934.987289 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.000816 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\t\226J\221]\2\0\0\342\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903935.000873 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.000923 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.000936 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.020006 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\22\207H\222]\2\0\0\343\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903935.020108 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.020237 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.020322 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.034355 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\242\rG\223]\2\0\0\344\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903935.034385 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.034415 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.034430 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.052853 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\314]E\224]\2\0\0\345\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903935.052874 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.052905 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.052933 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.069905 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\246\212C\225]\2\0\0\346\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903935.069933 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.069975 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.070009 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.085169 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0x\325A\226]\2\0\0\347\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903935.085192 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.085231 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.085257 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.103287 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\356-@\227]\2\0\0\350\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903935.103308 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.103444 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.103474 recvfrom(47, 0x7fff4bbc30, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.118584 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\30~>\230]\2\0\0\351\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903935.118602 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.118653 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.118665 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.133036 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0:j<\231]\2\0\0\352\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903935.133049 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.133065 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.147472 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0004\342:\232]\2\0\0\353\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903935.147488 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.147506 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.164973 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\361%9\233]\2\0\0\354\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903935.164986 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.165032 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.186079 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\33v7\234]\2\0\0\355\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903935.186100 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.186161 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903935.200425 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\217\3704\235]\2\0\0\356\\\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903935.200484 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903951.746803 recvfrom(49, "\2\0\0\0\0\0\0\0\2\t\0\0\0\0\0\0\200\36\237wa\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+6029  1783903951.747026 recvfrom(47, 0x7fff4b9df0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903951.748578 sendto(49, "\3\0\0\0\0\0\0\0\2\t\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+6029  1783903951.748597 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6073  1783903951.748705 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\244\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+6029  1783903951.748976 recvfrom(49, "\2\0\0\0\0\0\0\0\4\t\0\0\0\0\0\0\200\36\237wa\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+6073  1783903951.749002 <... sendmsg resumed> ) = 428
+6029  1783903951.749030 sendto(49, "\3\0\0\0\0\0\0\0\4\t\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+6029  1783903951.749043 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6073  1783903951.749791 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\245\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+6073  1783903951.753540 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\246\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903951.754403 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\247\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+6029  1783903951.764751 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\246s\250xa\2\0\0\313`\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903951.764811 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903951.764872 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903951.781161 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0s\331\246ya\2\0\0\314`\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903951.781175 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903951.781232 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903951.798604 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0j\r\245za\2\0\0\315`\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903951.798619 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903951.798676 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903951.816754 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\366\344\242{a\2\0\0\316`\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903951.816770 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903951.816831 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903951.832475 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\30\4\241|a\2\0\0\317`\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903951.832489 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903951.832547 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903951.847702 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0uq\237}a\2\0\0\320`\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903951.847985 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903951.848078 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903951.864055 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0e\357\235~a\2\0\0\321`\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903951.864070 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6048  1783903952.637893 clone(child_stack=0x76214d1d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x76214d1d60, tls=0x76214d2020, child_tidptr=0x76214d1d60) = 6201
+6201  1783903952.640735 openat(AT_FDCWD, "/proc/6201/timerslack_ns", O_WRONLY|O_CREAT|O_TRUNC|O_NOFOLLOW|O_CLOEXEC, 0666) = 69
+6049  1783903953.728004 openat(AT_FDCWD, "/data/misc/profiles/cur/0/app.crescentcash.src/primary.prof", O_RDWR|O_NOFOLLOW|O_CLOEXEC) = 69
+6049  1783903953.729574 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/app.crescentcash.src/primary.prof", {st_mode=S_IFREG|0600, st_size=5090, ...}, 0) = 0
+6029  1783903970.876958 recvfrom(49, "\2\0\0\0\0\0\0\0\10\t\0\0\0\0\0\0\300~\314\353e\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+6029  1783903970.877154 recvfrom(47, 0x7fff4b9df0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6073  1783903970.878449 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\250\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+6029  1783903970.878486 sendto(49, "\3\0\0\0\0\0\0\0\10\t\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+6029  1783903970.878526 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6073  1783903970.878713 <... sendmsg resumed> ) = 428
+6029  1783903970.878783 recvfrom(49, "\2\0\0\0\0\0\0\0\n\t\0\0\0\0\0\0\300~\314\353e\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+6029  1783903970.878817 sendto(49, "\3\0\0\0\0\0\0\0\n\t\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+6029  1783903970.879306 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6073  1783903970.880579 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\251\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+6073  1783903970.881171 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\252\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6029  1783903970.881489 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\242\352\31\354e\2\0\0?e\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903970.881501 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903970.881524 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6073  1783903970.883067 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\253\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+6029  1783903970.897451 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\314:\30\355e\2\0\0@e\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903970.897470 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903970.897497 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903970.914791 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\366\212\26\356e\2\0\0Ae\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903970.914804 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903970.914825 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903970.931942 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\374\273\24\357e\2\0\0Be\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903970.931960 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903970.931988 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903970.946749 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\260\\\23\360e\2\0\0Ce\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903970.946765 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903970.946786 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903970.968504 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0v\306\20\361e\2\0\0De\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903970.968520 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903970.968543 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903970.985545 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\232\320\16\362e\2\0\0Ee\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903970.985561 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.119680 recvfrom(49, "\2\0\0\0\0\0\0\0\16\t\0\0\0\0\0\0\200\2070Uk\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+6029  1783903994.120900 recvfrom(47, 0x7fff4b9df0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.123373 sendto(49, "\3\0\0\0\0\0\0\0\16\t\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+6029  1783903994.123399 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.123684 recvfrom(49, "\2\0\0\0\0\0\0\0\20\t\0\0\0\0\0\0\200\2070Uk\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+6073  1783903994.123893 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\254\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+6029  1783903994.124051 sendto(49, "\3\0\0\0\0\0\0\0\20\t\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0 <unfinished ...>
+6073  1783903994.124101 <... sendmsg resumed> ) = 428
+6029  1783903994.124103 <... sendto resumed> ) = 16
+6029  1783903994.124108 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6073  1783903994.124853 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\255\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+6073  1783903994.126045 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\256\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783903994.128961 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\257\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+6029  1783903994.130167 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\247\217\350Uk\2\0\0\256j\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903994.130187 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.130317 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.147457 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\360\2\347Vk\2\0\0\257j\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903994.147512 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.147537 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.165955 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\327\6\345Wk\2\0\0\260j\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903994.165983 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.166012 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.180330 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\347\224\343Xk\2\0\0\261j\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903994.180344 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.180444 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.204760 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0$\5\341Yk\2\0\0\262j\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903994.204779 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.204810 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.217399 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0NU\337Zk\2\0\0\263j\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903994.217416 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.217444 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783903994.233426 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0x\245\335[k\2\0\0\264j\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783903994.233445 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783904017.456698 recvfrom(49, "\2\0\0\0\0\0\0\0\24\t\0\0\0\0\0\0\0&>\304p\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+6029  1783904017.456876 recvfrom(47, 0x7fff4b9df0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6073  1783904017.458782 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\260\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6029  1783904017.459636 sendto(49, "\3\0\0\0\0\0\0\0\24\t\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+6029  1783904017.459726 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783904017.460030 recvfrom(49, "\2\0\0\0\0\0\0\0\26\t\0\0\0\0\0\0\0&>\304p\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+6029  1783904017.460110 sendto(49, "\3\0\0\0\0\0\0\0\26\t\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+6029  1783904017.460140 recvfrom(49, 0x76b654f820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6073  1783904017.461908 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\261\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+6073  1783904017.462724 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\262\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+6073  1783904017.463481 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\263\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+6029  1783904017.463496 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\376\372\256\304p\2\0\0\30p\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783904017.463508 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6073  1783904017.463561 <... sendmsg resumed> ) = 432
+6029  1783904017.463616 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783904017.481777 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\3655\255\305p\2\0\0\31p\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783904017.481830 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783904017.481863 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783904017.502918 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\200\312\252\306p\2\0\0\32p\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783904017.502930 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783904017.502982 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783904017.518061 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\252\32\251\307p\2\0\0\33p\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783904017.518077 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783904017.518138 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783904017.530248 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0P\257\247\310p\2\0\0\34p\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783904017.530261 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783904017.530355 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783904017.549734 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\376\272\245\311p\2\0\0\35p\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783904017.549753 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783904017.549831 recvfrom(47, 0x7fff4bc600, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6029  1783904017.564580 recvfrom(47, "nysv\0\0\0\0\0\0\0\0\0\0\0\0+\30\244\312p\2\0\0\36p\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+6029  1783904017.564594 recvfrom(47, 0x7fff4bc6a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+6049  1783904019.425347 openat(AT_FDCWD, "/data/misc/profiles/cur/0/app.crescentcash.src/primary.prof", O_RDWR|O_NOFOLLOW|O_CLOEXEC) = 69
+6049  1783904019.426521 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/app.crescentcash.src/primary.prof", {st_mode=S_IFREG|0600, st_size=5090, ...}, 0) = 0

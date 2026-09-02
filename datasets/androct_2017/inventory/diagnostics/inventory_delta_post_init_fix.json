@@ -1,0 +1,688 @@
+{
+  "benign": {
+    "n_files": {
+      "old": 2256,
+      "new": 2256,
+      "delta": 0
+    },
+    "n_header_only": {
+      "old": 31,
+      "new": 25,
+      "delta": -6
+    },
+    "n_effective": {
+      "old": 2225,
+      "new": 2231,
+      "delta": 6
+    },
+    "total_events": {
+      "old": 136484156,
+      "new": 155553398,
+      "delta": 19069242
+    },
+    "total_mapped_events": {
+      "old": 4033989,
+      "new": 4514569,
+      "delta": 480580
+    },
+    "mapped_event_rate": {
+      "old": 0.02955646368212879,
+      "new": 0.029022631829617763,
+      "delta": -0.0005338318525110256
+    },
+    "total_call_events": {
+      "old": 136454450,
+      "new": 155523692,
+      "delta": 19069242
+    },
+    "total_icc_events": {
+      "old": 29706,
+      "new": 29706,
+      "delta": 0
+    },
+    "total_dropped_lines": {
+      "old": 19082912,
+      "new": 5853,
+      "delta": -19077059
+    },
+    "total_lines": {
+      "old": 155910446,
+      "new": 155910446,
+      "delta": 0
+    },
+    "n_universe_cats_active": {
+      "old": 20,
+      "new": 21,
+      "delta": 1
+    },
+    "universe_cats_active": {
+      "old": [
+        "accounts",
+        "audio",
+        "camera",
+        "clipboard",
+        "content_access",
+        "crypto",
+        "database",
+        "device_info",
+        "file_io",
+        "ipc_intents",
+        "location",
+        "media",
+        "native_code",
+        "network",
+        "notifications",
+        "package_manager",
+        "process",
+        "storage",
+        "telephony",
+        "webview"
+      ],
+      "new": [
+        "accounts",
+        "audio",
+        "camera",
+        "clipboard",
+        "content_access",
+        "crypto",
+        "database",
+        "device_info",
+        "dynamic_code_loading",
+        "file_io",
+        "ipc_intents",
+        "location",
+        "media",
+        "native_code",
+        "network",
+        "notifications",
+        "package_manager",
+        "process",
+        "storage",
+        "telephony",
+        "webview"
+      ],
+      "added": [
+        "dynamic_code_loading"
+      ],
+      "removed": []
+    },
+    "category_totals_delta": {
+      "accounts": {
+        "old": 382,
+        "new": 386,
+        "delta": 4
+      },
+      "audio": {
+        "old": 23681,
+        "new": 23714,
+        "delta": 33
+      },
+      "camera": {
+        "old": 58,
+        "new": 99,
+        "delta": 41
+      },
+      "clipboard": {
+        "old": 9,
+        "new": 9,
+        "delta": 0
+      },
+      "content_access": {
+        "old": 4061,
+        "new": 4069,
+        "delta": 8
+      },
+      "crypto": {
+        "old": 2398520,
+        "new": 2493304,
+        "delta": 94784
+      },
+      "database": {
+        "old": 130345,
+        "new": 136046,
+        "delta": 5701
+      },
+      "device_info": {
+        "old": 6968,
+        "new": 7409,
+        "delta": 441
+      },
+      "dynamic_code_loading": {
+        "old": 0,
+        "new": 27,
+        "delta": 27
+      },
+      "file_io": {
+        "old": 399813,
+        "new": 556713,
+        "delta": 156900
+      },
+      "ipc_intents": {
+        "old": 113268,
+        "new": 155009,
+        "delta": 41741
+      },
+      "location": {
+        "old": 18958,
+        "new": 48043,
+        "delta": 29085
+      },
+      "media": {
+        "old": 7693,
+        "new": 8061,
+        "delta": 368
+      },
+      "native_code": {
+        "old": 419001,
+        "new": 436057,
+        "delta": 17056
+      },
+      "network": {
+        "old": 184914,
+        "new": 290688,
+        "delta": 105774
+      },
+      "notifications": {
+        "old": 313,
+        "new": 313,
+        "delta": 0
+      },
+      "package_manager": {
+        "old": 104578,
+        "new": 106007,
+        "delta": 1429
+      },
+      "process": {
+        "old": 20805,
+        "new": 27647,
+        "delta": 6842
+      },
+      "sms": {
+        "old": 0,
+        "new": 0,
+        "delta": 0
+      },
+      "storage": {
+        "old": 92032,
+        "new": 94533,
+        "delta": 2501
+      },
+      "telephony": {
+        "old": 9,
+        "new": 9,
+        "delta": 0
+      },
+      "webview": {
+        "old": 108581,
+        "new": 126426,
+        "delta": 17845
+      }
+    },
+    "dist_n_events": {
+      "n": {
+        "old": 2225,
+        "new": 2231,
+        "delta": 6
+      },
+      "min": {
+        "old": 1.0,
+        "new": 2.0,
+        "delta": 1.0
+      },
+      "p25": {
+        "old": 807.0,
+        "new": 1064.0,
+        "delta": 257.0
+      },
+      "p50": {
+        "old": 4328.0,
+        "new": 6878.0,
+        "delta": 2550.0
+      },
+      "p75": {
+        "old": 31909.0,
+        "new": 41229.0,
+        "delta": 9320.0
+      },
+      "p90": {
+        "old": 137915.00000000023,
+        "new": 156938.0,
+        "delta": 19022.999999999767
+      },
+      "max": {
+        "old": 1664929.0,
+        "new": 1753234.0,
+        "delta": 88305.0
+      },
+      "mean": {
+        "old": 61341.19370786517,
+        "new": 69723.6207978485,
+        "delta": 8382.427089983335
+      }
+    },
+    "dist_n_mapped": {
+      "n": {
+        "old": 2225,
+        "new": 2231,
+        "delta": 6
+      },
+      "min": {
+        "old": 0.0,
+        "new": 0.0,
+        "delta": 0.0
+      },
+      "p25": {
+        "old": 22.0,
+        "new": 33.0,
+        "delta": 11.0
+      },
+      "p50": {
+        "old": 136.0,
+        "new": 185.0,
+        "delta": 49.0
+      },
+      "p75": {
+        "old": 682.0,
+        "new": 853.0,
+        "delta": 171.0
+      },
+      "p90": {
+        "old": 2297.4000000000005,
+        "new": 3084.0,
+        "delta": 786.5999999999995
+      },
+      "max": {
+        "old": 270584.0,
+        "new": 271888.0,
+        "delta": 1304.0
+      },
+      "mean": {
+        "old": 1813.0287640449437,
+        "new": 2023.5629762438368,
+        "delta": 210.5342121988931
+      }
+    },
+    "dist_n_active_cats": {
+      "n": {
+        "old": 2225,
+        "new": 2231,
+        "delta": 6
+      },
+      "min": {
+        "old": 0.0,
+        "new": 0.0,
+        "delta": 0.0
+      },
+      "p25": {
+        "old": 3.0,
+        "new": 3.0,
+        "delta": 0.0
+      },
+      "p50": {
+        "old": 5.0,
+        "new": 6.0,
+        "delta": 1.0
+      },
+      "p75": {
+        "old": 7.0,
+        "new": 8.0,
+        "delta": 1.0
+      },
+      "p90": {
+        "old": 9.0,
+        "new": 9.0,
+        "delta": 0.0
+      },
+      "max": {
+        "old": 13.0,
+        "new": 13.0,
+        "delta": 0.0
+      },
+      "mean": {
+        "old": 5.020674157303371,
+        "new": 5.376064545047064,
+        "delta": 0.355390387743693
+      }
+    }
+  },
+  "malware": {
+    "n_files": {
+      "old": 1742,
+      "new": 1742,
+      "delta": 0
+    },
+    "n_header_only": {
+      "old": 8,
+      "new": 6,
+      "delta": -2
+    },
+    "n_effective": {
+      "old": 1734,
+      "new": 1736,
+      "delta": 2
+    },
+    "total_events": {
+      "old": 70732976,
+      "new": 98280021,
+      "delta": 27547045
+    },
+    "total_mapped_events": {
+      "old": 2492827,
+      "new": 3277113,
+      "delta": 784286
+    },
+    "mapped_event_rate": {
+      "old": 0.03524278407287713,
+      "new": 0.033344650994732696,
+      "delta": -0.0018981330781444317
+    },
+    "total_call_events": {
+      "old": 70705721,
+      "new": 98252766,
+      "delta": 27547045
+    },
+    "total_icc_events": {
+      "old": 27255,
+      "new": 27255,
+      "delta": 0
+    },
+    "total_dropped_lines": {
+      "old": 27555108,
+      "new": 4882,
+      "delta": -27550226
+    },
+    "total_lines": {
+      "old": 98670739,
+      "new": 98670739,
+      "delta": 0
+    },
+    "n_universe_cats_active": {
+      "old": 17,
+      "new": 18,
+      "delta": 1
+    },
+    "universe_cats_active": {
+      "old": [
+        "accounts",
+        "audio",
+        "content_access",
+        "crypto",
+        "database",
+        "device_info",
+        "file_io",
+        "ipc_intents",
+        "location",
+        "media",
+        "native_code",
+        "network",
+        "notifications",
+        "package_manager",
+        "process",
+        "storage",
+        "webview"
+      ],
+      "new": [
+        "accounts",
+        "audio",
+        "content_access",
+        "crypto",
+        "database",
+        "device_info",
+        "dynamic_code_loading",
+        "file_io",
+        "ipc_intents",
+        "location",
+        "media",
+        "native_code",
+        "network",
+        "notifications",
+        "package_manager",
+        "process",
+        "storage",
+        "webview"
+      ],
+      "added": [
+        "dynamic_code_loading"
+      ],
+      "removed": []
+    },
+    "category_totals_delta": {
+      "accounts": {
+        "old": 4,
+        "new": 5,
+        "delta": 1
+      },
+      "audio": {
+        "old": 7,
+        "new": 8,
+        "delta": 1
+      },
+      "camera": {
+        "old": 0,
+        "new": 0,
+        "delta": 0
+      },
+      "clipboard": {
+        "old": 0,
+        "new": 0,
+        "delta": 0
+      },
+      "content_access": {
+        "old": 423,
+        "new": 483,
+        "delta": 60
+      },
+      "crypto": {
+        "old": 839652,
+        "new": 1150506,
+        "delta": 310854
+      },
+      "database": {
+        "old": 11089,
+        "new": 12705,
+        "delta": 1616
+      },
+      "device_info": {
+        "old": 9722,
+        "new": 10802,
+        "delta": 1080
+      },
+      "dynamic_code_loading": {
+        "old": 0,
+        "new": 57,
+        "delta": 57
+      },
+      "file_io": {
+        "old": 347619,
+        "new": 566962,
+        "delta": 219343
+      },
+      "ipc_intents": {
+        "old": 119169,
+        "new": 177068,
+        "delta": 57899
+      },
+      "location": {
+        "old": 710,
+        "new": 814,
+        "delta": 104
+      },
+      "media": {
+        "old": 2664,
+        "new": 3199,
+        "delta": 535
+      },
+      "native_code": {
+        "old": 581410,
+        "new": 633557,
+        "delta": 52147
+      },
+      "network": {
+        "old": 108418,
+        "new": 152574,
+        "delta": 44156
+      },
+      "notifications": {
+        "old": 267,
+        "new": 267,
+        "delta": 0
+      },
+      "package_manager": {
+        "old": 122683,
+        "new": 123096,
+        "delta": 413
+      },
+      "process": {
+        "old": 9809,
+        "new": 15989,
+        "delta": 6180
+      },
+      "sms": {
+        "old": 0,
+        "new": 0,
+        "delta": 0
+      },
+      "storage": {
+        "old": 16484,
+        "new": 17020,
+        "delta": 536
+      },
+      "telephony": {
+        "old": 0,
+        "new": 0,
+        "delta": 0
+      },
+      "webview": {
+        "old": 322697,
+        "new": 412001,
+        "delta": 89304
+      }
+    },
+    "dist_n_events": {
+      "n": {
+        "old": 1734,
+        "new": 1736,
+        "delta": 2
+      },
+      "min": {
+        "old": 24.0,
+        "new": 24.0,
+        "delta": 0.0
+      },
+      "p25": {
+        "old": 9729.25,
+        "new": 16504.75,
+        "delta": 6775.5
+      },
+      "p50": {
+        "old": 17277.0,
+        "new": 31437.5,
+        "delta": 14160.5
+      },
+      "p75": {
+        "old": 55122.5,
+        "new": 74130.5,
+        "delta": 19008.0
+      },
+      "p90": {
+        "old": 92090.2,
+        "new": 110402.5,
+        "delta": 18312.300000000003
+      },
+      "max": {
+        "old": 1606665.0,
+        "new": 3300608.0,
+        "delta": 1693943.0
+      },
+      "mean": {
+        "old": 40791.797001153405,
+        "new": 56612.915322580644,
+        "delta": 15821.118321427239
+      }
+    },
+    "dist_n_mapped": {
+      "n": {
+        "old": 1734,
+        "new": 1736,
+        "delta": 2
+      },
+      "min": {
+        "old": 0.0,
+        "new": 0.0,
+        "delta": 0.0
+      },
+      "p25": {
+        "old": 215.0,
+        "new": 311.0,
+        "delta": 96.0
+      },
+      "p50": {
+        "old": 592.5,
+        "new": 818.0,
+        "delta": 225.5
+      },
+      "p75": {
+        "old": 1455.0,
+        "new": 1774.25,
+        "delta": 319.25
+      },
+      "p90": {
+        "old": 2927.7000000000007,
+        "new": 4220.0,
+        "delta": 1292.2999999999993
+      },
+      "max": {
+        "old": 454292.0,
+        "new": 454481.0,
+        "delta": 189.0
+      },
+      "mean": {
+        "old": 1437.6164936562861,
+        "new": 1887.7379032258063,
+        "delta": 450.1214095695202
+      }
+    },
+    "dist_n_active_cats": {
+      "n": {
+        "old": 1734,
+        "new": 1736,
+        "delta": 2
+      },
+      "min": {
+        "old": 0.0,
+        "new": 0.0,
+        "delta": 0.0
+      },
+      "p25": {
+        "old": 3.0,
+        "new": 3.0,
+        "delta": 0.0
+      },
+      "p50": {
+        "old": 6.0,
+        "new": 6.0,
+        "delta": 0.0
+      },
+      "p75": {
+        "old": 7.0,
+        "new": 7.0,
+        "delta": 0.0
+      },
+      "p90": {
+        "old": 8.0,
+        "new": 9.0,
+        "delta": 1.0
+      },
+      "max": {
+        "old": 13.0,
+        "new": 14.0,
+        "delta": 1.0
+      },
+      "mean": {
+        "old": 5.1211072664359865,
+        "new": 5.425691244239632,
+        "delta": 0.3045839778036452
+      }
+    }
+  }
+}

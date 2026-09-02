@@ -1,0 +1,37 @@
+24983 1784104273.172124 exit(0 <unfinished ...>
+24984 1784104273.172175 exit(0 <unfinished ...>
+24983 1784104273.172241 <... exit resumed>) = ?
+24984 1784104273.172418 <... exit resumed>) = ?
+24983 1784104273.172463 +++ exited with 0 +++
+24984 1784104273.172562 +++ exited with 0 +++
+24982 1784104273.172952 exit(0 <unfinished ...>
+24981 1784104273.172972 exit(0 <unfinished ...>
+24982 1784104273.173075 <... exit resumed>) = ?
+24981 1784104273.173092 <... exit resumed>) = ?
+24982 1784104273.173219 +++ exited with 0 +++
+24981 1784104273.173231 +++ exited with 0 +++
+24994 1784104273.176938 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24994 1784104273.177322 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24994 1784104273.177700 newfstatat(AT_FDCWD, "/data/app/ca.chancehorizon.paseo-2FFKqIM7Q5gMBlhJpDsJCw==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24994 1784104273.178054 newfstatat(AT_FDCWD, "/data/app/ca.chancehorizon.paseo-2FFKqIM7Q5gMBlhJpDsJCw==/base.apk", {st_mode=S_IFREG|0644, st_size=6459255, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24994 1784104273.178381 getcwd("/", 4096) = 2
+24994 1784104273.178690 newfstatat(AT_FDCWD, "/base.apk", 0x711582e690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+24974 1784104273.673511 clone(child_stack=0x711199bd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x711199bd60, tls=0x711199c020, child_tidptr=0x711199bd60) = 25055
+25055 1784104273.678483 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo", F_OK) = 0
+25055 1784104273.678707 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files", F_OK) = 0
+25055 1784104273.678980 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+25055 1784104273.679206 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 50
+25055 1784104273.679850 getsockopt(50, SOL_SOCKET, SO_ERROR, 0x711199a254, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+25055 1784104273.681505 openat(AT_FDCWD, "/data/app/ca.chancehorizon.paseo-2FFKqIM7Q5gMBlhJpDsJCw==/base.apk", O_RDONLY) = 50
+25055 1784104273.681937 getsockopt(50, SOL_SOCKET, SO_ERROR, 0x7111999c74, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+25055 1784104273.682351 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/ca.chancehorizon.paseo/primary.prof", 0x7111999c18, 0) = -1 ENOENT (No such file or directory)
+25055 1784104273.682605 faccessat(AT_FDCWD, "/data/misc/profiles/ref/ca.chancehorizon.paseo/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+25055 1784104273.683004 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/ca.chancehorizon.paseo/primary.prof", {st_mode=S_IFREG|0600, st_size=8559, ...}, 0) = 0
+25055 1784104273.683229 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/ca.chancehorizon.paseo/primary.prof", F_OK) = 0
+25055 1784104273.683804 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files", F_OK) = 0
+25055 1784104273.684015 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files/profileInstalled", F_OK) = 0
+25055 1784104273.684260 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files/profileInstalled", O_RDONLY) = 50
+25055 1784104273.685397 getsockopt(50, SOL_SOCKET, SO_ERROR, 0x7111999594, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+25055 1784104273.687973 exit(0)         = ?
+25055 1784104273.688159 +++ exited with 0 +++
+25013 1784104273.737082 faccessat(AT_FDCWD, "/proc/self/task/25055", F_OK) = -1 ENOENT (No such file or directory)

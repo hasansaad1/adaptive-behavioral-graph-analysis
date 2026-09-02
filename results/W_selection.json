@@ -1,0 +1,1067 @@
+{
+  "digest": "6129eb13d6a46457cd60627372b7b5479df0aa1f4efc9bbb70adc17826c64000",
+  "split": {
+    "train": 562,
+    "test_benign": 141,
+    "test_malware": 1700
+  },
+  "a1": {
+    "benign": {
+      "n": 703,
+      "min": 1.0,
+      "p10": 12.0,
+      "p25": 36.5,
+      "median": 167.0,
+      "p75": 898.0,
+      "p90": 2863.9999999999945,
+      "max": 140951.0,
+      "iqr": 861.5
+    },
+    "malware": {
+      "n": 1700,
+      "min": 10.0,
+      "p10": 173.0,
+      "p25": 318.0,
+      "median": 819.5,
+      "p75": 1802.75,
+      "p90": 4273.699999999999,
+      "max": 454481.0,
+      "iqr": 1484.75
+    }
+  },
+  "below": {
+    "benign": {
+      "60": 230,
+      "100": 282,
+      "120": 301,
+      "150": 338,
+      "200": 368,
+      "250": 389,
+      "300": 407,
+      "400": 441
+    },
+    "malware": {
+      "60": 53,
+      "100": 73,
+      "120": 88,
+      "150": 122,
+      "200": 217,
+      "250": 309,
+      "300": 383,
+      "400": 556
+    }
+  },
+  "a2": {
+    "10": {
+      "benign": {
+        "n_windows": 146893,
+        "zero_edge_count": 116845,
+        "zero_edge_fraction": 0.7954429414607912,
+        "exactly_2_cats_count": 10373,
+        "exactly_2_cats_fraction": 0.07061602663162983
+      },
+      "malware": {
+        "n_windows": 324231,
+        "zero_edge_count": 174435,
+        "zero_edge_fraction": 0.5379960583657948,
+        "exactly_2_cats_count": 48150,
+        "exactly_2_cats_fraction": 0.14850523238061752
+      }
+    },
+    "15": {
+      "benign": {
+        "n_windows": 97804,
+        "zero_edge_count": 75594,
+        "zero_edge_fraction": 0.7729131732853463,
+        "exactly_2_cats_count": 5951,
+        "exactly_2_cats_fraction": 0.06084618216023884
+      },
+      "malware": {
+        "n_windows": 215860,
+        "zero_edge_count": 103954,
+        "zero_edge_fraction": 0.48158065412767537,
+        "exactly_2_cats_count": 22616,
+        "exactly_2_cats_fraction": 0.1047716112295006
+      }
+    },
+    "20": {
+      "benign": {
+        "n_windows": 73280,
+        "zero_edge_count": 55483,
+        "zero_edge_fraction": 0.7571370087336244,
+        "exactly_2_cats_count": 4015,
+        "exactly_2_cats_fraction": 0.05478984716157205
+      },
+      "malware": {
+        "n_windows": 161669,
+        "zero_edge_count": 73489,
+        "zero_edge_fraction": 0.4545645732948184,
+        "exactly_2_cats_count": 13253,
+        "exactly_2_cats_fraction": 0.08197613642689693
+      }
+    },
+    "25": {
+      "benign": {
+        "n_windows": 58546,
+        "zero_edge_count": 43685,
+        "zero_edge_fraction": 0.7461654083968162,
+        "exactly_2_cats_count": 2880,
+        "exactly_2_cats_fraction": 0.049192088272469514
+      },
+      "malware": {
+        "n_windows": 129176,
+        "zero_edge_count": 55708,
+        "zero_edge_fraction": 0.431256580169691,
+        "exactly_2_cats_count": 8662,
+        "exactly_2_cats_fraction": 0.06705579983897937
+      }
+    },
+    "30": {
+      "benign": {
+        "n_windows": 48732,
+        "zero_edge_count": 35935,
+        "zero_edge_fraction": 0.7374004760732168,
+        "exactly_2_cats_count": 2231,
+        "exactly_2_cats_fraction": 0.04578100632028236
+      },
+      "malware": {
+        "n_windows": 107508,
+        "zero_edge_count": 44069,
+        "zero_edge_fraction": 0.4099136808423559,
+        "exactly_2_cats_count": 6673,
+        "exactly_2_cats_fraction": 0.06206979945678461
+      }
+    },
+    "40": {
+      "benign": {
+        "n_windows": 36476,
+        "zero_edge_count": 26308,
+        "zero_edge_fraction": 0.7212413641846693,
+        "exactly_2_cats_count": 1575,
+        "exactly_2_cats_fraction": 0.043179076653141794
+      },
+      "malware": {
+        "n_windows": 80408,
+        "zero_edge_count": 30177,
+        "zero_edge_fraction": 0.37529847776340663,
+        "exactly_2_cats_count": 4230,
+        "exactly_2_cats_fraction": 0.05260670580041787
+      }
+    }
+  },
+  "a3": {
+    "10": {
+      "C": {
+        "benign": {
+          "n_total": 703,
+          "n_eligible": 421,
+          "n_dropped": 282,
+          "frac_dropped": 0.4011379800853485,
+          "threshold": 100
+        },
+        "malware": {
+          "n_total": 1700,
+          "n_eligible": 1627,
+          "n_dropped": 73,
+          "frac_dropped": 0.04294117647058823,
+          "threshold": 100
+        },
+        "surviving_test_benign": 82,
+        "test_benign_total": 141
+      },
+      "CAPPED": {
+        "benign": {
+          "n_total": 703,
+          "n_eligible": 473,
+          "n_dropped": 230,
+          "frac_dropped": 0.32716927453769556,
+          "threshold": 60
+        },
+        "malware": {
+          "n_total": 1700,
+          "n_eligible": 1647,
+          "n_dropped": 53,
+          "frac_dropped": 0.031176470588235295,
+          "threshold": 60
+        },
+        "surviving_test_benign": 99,
+        "test_benign_total": 141
+      }
+    },
+    "15": {
+      "C": {
+        "benign": {
+          "n_total": 703,
+          "n_eligible": 365,
+          "n_dropped": 338,
+          "frac_dropped": 0.48079658605974396,
+          "threshold": 150
+        },
+        "malware": {
+          "n_total": 1700,
+          "n_eligible": 1578,
+          "n_dropped": 122,
+          "frac_dropped": 0.07176470588235294,
+          "threshold": 150
+        },
+        "surviving_test_benign": 74,
+        "test_benign_total": 141
+      },
+      "CAPPED": {
+        "benign": {
+          "n_total": 703,
+          "n_eligible": 430,
+          "n_dropped": 273,
+          "frac_dropped": 0.3883357041251778,
+          "threshold": 90
+        },
+        "malware": {
+          "n_total": 1700,
+          "n_eligible": 1637,
+          "n_dropped": 63,
+          "frac_dropped": 0.03705882352941176,
+          "threshold": 90
+        },
+        "surviving_test_benign": 85,
+        "test_benign_total": 141
+      }
+    },
+    "20": {
+      "C": {
+        "benign": {
+          "n_total": 703,
+          "n_eligible": 335,
+          "n_dropped": 368,
+          "frac_dropped": 0.5234708392603129,
+          "threshold": 200
+        },
+        "malware": {
+          "n_total": 1700,
+          "n_eligible": 1483,
+          "n_dropped": 217,
+          "frac_dropped": 0.12764705882352942,
+          "threshold": 200
+        },
+        "surviving_test_benign": 66,
+        "test_benign_total": 141
+      },
+      "CAPPED": {
+        "benign": {
+          "n_total": 703,
+          "n_eligible": 402,
+          "n_dropped": 301,
+          "frac_dropped": 0.42816500711237554,
+          "threshold": 120
+        },
+        "malware": {
+          "n_total": 1700,
+          "n_eligible": 1612,
+          "n_dropped": 88,
+          "frac_dropped": 0.05176470588235294,
+          "threshold": 120
+        },
+        "surviving_test_benign": 79,
+        "test_benign_total": 141
+      }
+    },
+    "25": {
+      "C": {
+        "benign": {
+          "n_total": 703,
+          "n_eligible": 314,
+          "n_dropped": 389,
+          "frac_dropped": 0.5533428165007113,
+          "threshold": 250
+        },
+        "malware": {
+          "n_total": 1700,
+          "n_eligible": 1391,
+          "n_dropped": 309,
+          "frac_dropped": 0.18176470588235294,
+          "threshold": 250
+        },
+        "surviving_test_benign": 66,
+        "test_benign_total": 141
+      },
+      "CAPPED": {
+        "benign": {
+          "n_total": 703,
+          "n_eligible": 365,
+          "n_dropped": 338,
+          "frac_dropped": 0.48079658605974396,
+          "threshold": 150
+        },
+        "malware": {
+          "n_total": 1700,
+          "n_eligible": 1578,
+          "n_dropped": 122,
+          "frac_dropped": 0.07176470588235294,
+          "threshold": 150
+        },
+        "surviving_test_benign": 74,
+        "test_benign_total": 141
+      }
+    },
+    "30": {
+      "C": {
+        "benign": {
+          "n_total": 703,
+          "n_eligible": 296,
+          "n_dropped": 407,
+          "frac_dropped": 0.5789473684210527,
+          "threshold": 300
+        },
+        "malware": {
+          "n_total": 1700,
+          "n_eligible": 1317,
+          "n_dropped": 383,
+          "frac_dropped": 0.2252941176470588,
+          "threshold": 300
+        },
+        "surviving_test_benign": 61,
+        "test_benign_total": 141
+      },
+      "CAPPED": {
+        "benign": {
+          "n_total": 703,
+          "n_eligible": 344,
+          "n_dropped": 359,
+          "frac_dropped": 0.5106685633001422,
+          "threshold": 180
+        },
+        "malware": {
+          "n_total": 1700,
+          "n_eligible": 1521,
+          "n_dropped": 179,
+          "frac_dropped": 0.10529411764705883,
+          "threshold": 180
+        },
+        "surviving_test_benign": 66,
+        "test_benign_total": 141
+      }
+    },
+    "40": {
+      "C": {
+        "benign": {
+          "n_total": 703,
+          "n_eligible": 262,
+          "n_dropped": 441,
+          "frac_dropped": 0.6273115220483642,
+          "threshold": 400
+        },
+        "malware": {
+          "n_total": 1700,
+          "n_eligible": 1144,
+          "n_dropped": 556,
+          "frac_dropped": 0.3270588235294118,
+          "threshold": 400
+        },
+        "surviving_test_benign": 57,
+        "test_benign_total": 141
+      },
+      "CAPPED": {
+        "benign": {
+          "n_total": 703,
+          "n_eligible": 318,
+          "n_dropped": 385,
+          "frac_dropped": 0.5476529160739687,
+          "threshold": 240
+        },
+        "malware": {
+          "n_total": 1700,
+          "n_eligible": 1406,
+          "n_dropped": 294,
+          "frac_dropped": 0.17294117647058824,
+          "threshold": 240
+        },
+        "surviving_test_benign": 66,
+        "test_benign_total": 141
+      }
+    }
+  },
+  "a4": {
+    "10": {
+      "C": {
+        "benign": {
+          "median": 67.0,
+          "iqr": 158.0,
+          "n_apps": 421,
+          "hit_N_max": null
+        },
+        "malware": {
+          "median": 88.0,
+          "iqr": 151.5,
+          "n_apps": 1627,
+          "hit_N_max": null
+        },
+        "benign_malware_median_ratio": 0.7613636363636364
+      },
+      "CAPPED": {
+        "benign": {
+          "median": 10.0,
+          "iqr": 0.0,
+          "n_apps": 473,
+          "hit_N_max": 421
+        },
+        "malware": {
+          "median": 10.0,
+          "iqr": 0.0,
+          "n_apps": 1647,
+          "hit_N_max": 1627
+        },
+        "benign_malware_median_ratio": 1.0
+      }
+    },
+    "15": {
+      "C": {
+        "benign": {
+          "median": 55.0,
+          "iqr": 122.0,
+          "n_apps": 365,
+          "hit_N_max": null
+        },
+        "malware": {
+          "median": 62.0,
+          "iqr": 102.75,
+          "n_apps": 1578,
+          "hit_N_max": null
+        },
+        "benign_malware_median_ratio": 0.8870967741935484
+      },
+      "CAPPED": {
+        "benign": {
+          "median": 10.0,
+          "iqr": 0.0,
+          "n_apps": 430,
+          "hit_N_max": 365
+        },
+        "malware": {
+          "median": 10.0,
+          "iqr": 0.0,
+          "n_apps": 1637,
+          "hit_N_max": 1578
+        },
+        "benign_malware_median_ratio": 1.0
+      }
+    },
+    "20": {
+      "C": {
+        "benign": {
+          "median": 48.0,
+          "iqr": 105.0,
+          "n_apps": 335,
+          "hit_N_max": null
+        },
+        "malware": {
+          "median": 50.0,
+          "iqr": 78.0,
+          "n_apps": 1483,
+          "hit_N_max": null
+        },
+        "benign_malware_median_ratio": 0.96
+      },
+      "CAPPED": {
+        "benign": {
+          "median": 10.0,
+          "iqr": 0.0,
+          "n_apps": 402,
+          "hit_N_max": 335
+        },
+        "malware": {
+          "median": 10.0,
+          "iqr": 0.0,
+          "n_apps": 1612,
+          "hit_N_max": 1483
+        },
+        "benign_malware_median_ratio": 1.0
+      }
+    },
+    "25": {
+      "C": {
+        "benign": {
+          "median": 44.0,
+          "iqr": 85.0,
+          "n_apps": 314,
+          "hit_N_max": null
+        },
+        "malware": {
+          "median": 44.0,
+          "iqr": 62.0,
+          "n_apps": 1391,
+          "hit_N_max": null
+        },
+        "benign_malware_median_ratio": 1.0
+      },
+      "CAPPED": {
+        "benign": {
+          "median": 10.0,
+          "iqr": 0.0,
+          "n_apps": 365,
+          "hit_N_max": 314
+        },
+        "malware": {
+          "median": 10.0,
+          "iqr": 0.0,
+          "n_apps": 1578,
+          "hit_N_max": 1391
+        },
+        "benign_malware_median_ratio": 1.0
+      }
+    },
+    "30": {
+      "C": {
+        "benign": {
+          "median": 40.5,
+          "iqr": 71.0,
+          "n_apps": 296,
+          "hit_N_max": null
+        },
+        "malware": {
+          "median": 40.0,
+          "iqr": 52.0,
+          "n_apps": 1317,
+          "hit_N_max": null
+        },
+        "benign_malware_median_ratio": 1.0125
+      },
+      "CAPPED": {
+        "benign": {
+          "median": 10.0,
+          "iqr": 0.0,
+          "n_apps": 344,
+          "hit_N_max": 296
+        },
+        "malware": {
+          "median": 10.0,
+          "iqr": 0.0,
+          "n_apps": 1521,
+          "hit_N_max": 1317
+        },
+        "benign_malware_median_ratio": 1.0
+      }
+    },
+    "40": {
+      "C": {
+        "benign": {
+          "median": 35.0,
+          "iqr": 55.75,
+          "n_apps": 262,
+          "hit_N_max": null
+        },
+        "malware": {
+          "median": 34.0,
+          "iqr": 43.0,
+          "n_apps": 1144,
+          "hit_N_max": null
+        },
+        "benign_malware_median_ratio": 1.0294117647058822
+      },
+      "CAPPED": {
+        "benign": {
+          "median": 10.0,
+          "iqr": 0.0,
+          "n_apps": 318,
+          "hit_N_max": 262
+        },
+        "malware": {
+          "median": 10.0,
+          "iqr": 0.0,
+          "n_apps": 1406,
+          "hit_N_max": 1144
+        },
+        "benign_malware_median_ratio": 1.0
+      }
+    }
+  },
+  "a5": {
+    "10": {
+      "benign": {
+        "median": 1.0,
+        "iqr": 0.0,
+        "n_windows": 146893
+      },
+      "malware": {
+        "median": 1.0,
+        "iqr": 2.0,
+        "n_windows": 324231
+      }
+    },
+    "15": {
+      "benign": {
+        "median": 1.0,
+        "iqr": 0.0,
+        "n_windows": 97804
+      },
+      "malware": {
+        "median": 2.0,
+        "iqr": 2.0,
+        "n_windows": 215860
+      }
+    },
+    "20": {
+      "benign": {
+        "median": 1.0,
+        "iqr": 0.0,
+        "n_windows": 73280
+      },
+      "malware": {
+        "median": 2.0,
+        "iqr": 3.0,
+        "n_windows": 161669
+      }
+    },
+    "25": {
+      "benign": {
+        "median": 1.0,
+        "iqr": 1.0,
+        "n_windows": 58546
+      },
+      "malware": {
+        "median": 3.0,
+        "iqr": 4.0,
+        "n_windows": 129176
+      }
+    },
+    "30": {
+      "benign": {
+        "median": 1.0,
+        "iqr": 1.0,
+        "n_windows": 48732
+      },
+      "malware": {
+        "median": 3.0,
+        "iqr": 4.0,
+        "n_windows": 107508
+      }
+    },
+    "40": {
+      "benign": {
+        "median": 1.0,
+        "iqr": 1.0,
+        "n_windows": 36476
+      },
+      "malware": {
+        "median": 3.0,
+        "iqr": 4.0,
+        "n_windows": 80408
+      }
+    }
+  },
+  "b0": {
+    "total_apps_pass": 59,
+    "total_sessions_pass": 342,
+    "sessions_failed_ref": 46,
+    "sessions_per_app": {
+      "n": 59,
+      "min": 1.0,
+      "p10": 3.0,
+      "p25": 3.0,
+      "median": 7.0,
+      "p75": 8.0,
+      "p90": 9.0,
+      "max": 9.0,
+      "iqr": 5.0
+    },
+    "gae_eligible_apps": 40,
+    "usable_sessions": 342,
+    "non_univ": {
+      "lifecycle": 1652,
+      "reflection": 827700,
+      "navigation": 226
+    },
+    "n_mapped_mismatch_vs_index": 0
+  },
+  "b1_sess": {
+    "n": 342,
+    "min": 1.0,
+    "p10": 8.0,
+    "p25": 26.75,
+    "median": 84.0,
+    "p75": 254.0,
+    "p90": 697.8,
+    "max": 1941.0,
+    "iqr": 227.25
+  },
+  "b1_app": {
+    "n": 59,
+    "min": 5.0,
+    "p10": 11.399999999999999,
+    "p25": 37.5,
+    "median": 372.0,
+    "p75": 1335.0,
+    "p90": 4308.800000000001,
+    "max": 13497.0,
+    "iqr": 1297.5
+  },
+  "b2": {
+    "10": {
+      "n_windows": 8120,
+      "zero_edge_count": 3838,
+      "zero_edge_fraction": 0.4726600985221675,
+      "exactly_2_cats_count": 3031,
+      "exactly_2_cats_fraction": 0.3732758620689655,
+      "diversity": {
+        "n": 8120,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "median": 2.0,
+        "p75": 2.0,
+        "p90": 3.0,
+        "max": 7.0,
+        "iqr": 1.0
+      }
+    },
+    "15": {
+      "n_windows": 5355,
+      "zero_edge_count": 2166,
+      "zero_edge_fraction": 0.40448179271708684,
+      "exactly_2_cats_count": 2010,
+      "exactly_2_cats_fraction": 0.3753501400560224,
+      "diversity": {
+        "n": 5355,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "median": 2.0,
+        "p75": 2.0,
+        "p90": 3.0,
+        "max": 7.0,
+        "iqr": 1.0
+      }
+    },
+    "20": {
+      "n_windows": 3980,
+      "zero_edge_count": 1431,
+      "zero_edge_fraction": 0.35954773869346734,
+      "exactly_2_cats_count": 1467,
+      "exactly_2_cats_fraction": 0.36859296482412063,
+      "diversity": {
+        "n": 3980,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "median": 2.0,
+        "p75": 3.0,
+        "p90": 4.0,
+        "max": 7.0,
+        "iqr": 2.0
+      }
+    },
+    "25": {
+      "n_windows": 3149,
+      "zero_edge_count": 1012,
+      "zero_edge_fraction": 0.3213718640838361,
+      "exactly_2_cats_count": 1182,
+      "exactly_2_cats_fraction": 0.3753572562718323,
+      "diversity": {
+        "n": 3149,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "median": 2.0,
+        "p75": 3.0,
+        "p90": 4.0,
+        "max": 7.0,
+        "iqr": 2.0
+      }
+    },
+    "30": {
+      "n_windows": 2597,
+      "zero_edge_count": 744,
+      "zero_edge_fraction": 0.28648440508278783,
+      "exactly_2_cats_count": 938,
+      "exactly_2_cats_fraction": 0.3611859838274933,
+      "diversity": {
+        "n": 2597,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "median": 2.0,
+        "p75": 3.0,
+        "p90": 4.0,
+        "max": 7.0,
+        "iqr": 2.0
+      }
+    },
+    "40": {
+      "n_windows": 1920,
+      "zero_edge_count": 492,
+      "zero_edge_fraction": 0.25625,
+      "exactly_2_cats_count": 650,
+      "exactly_2_cats_fraction": 0.3385416666666667,
+      "diversity": {
+        "n": 1920,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "median": 2.0,
+        "p75": 3.0,
+        "p90": 4.0,
+        "max": 7.0,
+        "iqr": 2.0
+      }
+    }
+  },
+  "b3": {
+    "10": {
+      "sessions_ge_10W": 165,
+      "sessions_ge_6W": 189,
+      "sessions_total": 342,
+      "apps_ge1_sess_10W": 26,
+      "apps_ge1_sess_6W": 29,
+      "apps_ge3_sess_10W": 24,
+      "apps_ge3_sess_6W": 27,
+      "apps_total": 59,
+      "frac_sess_drop_10W": 0.5175438596491229,
+      "frac_sess_drop_6W": 0.4473684210526315
+    },
+    "15": {
+      "sessions_ge_10W": 139,
+      "sessions_ge_6W": 169,
+      "sessions_total": 342,
+      "apps_ge1_sess_10W": 21,
+      "apps_ge1_sess_6W": 27,
+      "apps_ge3_sess_10W": 19,
+      "apps_ge3_sess_6W": 24,
+      "apps_total": 59,
+      "frac_sess_drop_10W": 0.5935672514619883,
+      "frac_sess_drop_6W": 0.5058479532163742
+    },
+    "20": {
+      "sessions_ge_10W": 102,
+      "sessions_ge_6W": 151,
+      "sessions_total": 342,
+      "apps_ge1_sess_10W": 16,
+      "apps_ge1_sess_6W": 23,
+      "apps_ge3_sess_10W": 13,
+      "apps_ge3_sess_6W": 21,
+      "apps_total": 59,
+      "frac_sess_drop_10W": 0.7017543859649122,
+      "frac_sess_drop_6W": 0.5584795321637427
+    },
+    "25": {
+      "sessions_ge_10W": 88,
+      "sessions_ge_6W": 139,
+      "sessions_total": 342,
+      "apps_ge1_sess_10W": 13,
+      "apps_ge1_sess_6W": 21,
+      "apps_ge3_sess_10W": 12,
+      "apps_ge3_sess_6W": 19,
+      "apps_total": 59,
+      "frac_sess_drop_10W": 0.7426900584795322,
+      "frac_sess_drop_6W": 0.5935672514619883
+    },
+    "30": {
+      "sessions_ge_10W": 70,
+      "sessions_ge_6W": 120,
+      "sessions_total": 342,
+      "apps_ge1_sess_10W": 11,
+      "apps_ge1_sess_6W": 19,
+      "apps_ge3_sess_10W": 10,
+      "apps_ge3_sess_6W": 16,
+      "apps_total": 59,
+      "frac_sess_drop_10W": 0.7953216374269005,
+      "frac_sess_drop_6W": 0.6491228070175439
+    },
+    "40": {
+      "sessions_ge_10W": 62,
+      "sessions_ge_6W": 91,
+      "sessions_total": 342,
+      "apps_ge1_sess_10W": 9,
+      "apps_ge1_sess_6W": 14,
+      "apps_ge3_sess_10W": 9,
+      "apps_ge3_sess_6W": 12,
+      "apps_total": 59,
+      "frac_sess_drop_10W": 0.8187134502923976,
+      "frac_sess_drop_6W": 0.7339181286549707
+    }
+  },
+  "b4": {
+    "10": {
+      "windows_per_session_all": {
+        "n": 342,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 2.0,
+        "median": 8.0,
+        "p75": 25.0,
+        "p90": 69.0,
+        "max": 194.0,
+        "iqr": 23.0
+      },
+      "windows_per_session_nonzero": {
+        "n": 303,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 4.0,
+        "median": 11.0,
+        "p75": 26.0,
+        "p90": 70.80000000000001,
+        "max": 194.0,
+        "iqr": 22.0
+      },
+      "total_windows_corpus": 8120
+    },
+    "15": {
+      "windows_per_session_all": {
+        "n": 342,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 1.0,
+        "median": 5.0,
+        "p75": 16.0,
+        "p90": 46.0,
+        "max": 129.0,
+        "iqr": 15.0
+      },
+      "windows_per_session_nonzero": {
+        "n": 273,
+        "min": 1.0,
+        "p10": 2.0,
+        "p25": 3.0,
+        "median": 10.0,
+        "p75": 23.0,
+        "p90": 48.0,
+        "max": 129.0,
+        "iqr": 20.0
+      },
+      "total_windows_corpus": 5355
+    },
+    "20": {
+      "windows_per_session_all": {
+        "n": 342,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 1.0,
+        "median": 4.0,
+        "p75": 12.0,
+        "p90": 34.0,
+        "max": 97.0,
+        "iqr": 11.0
+      },
+      "windows_per_session_nonzero": {
+        "n": 263,
+        "min": 1.0,
+        "p10": 2.0,
+        "p25": 2.0,
+        "median": 8.0,
+        "p75": 18.5,
+        "p90": 36.80000000000001,
+        "max": 97.0,
+        "iqr": 16.5
+      },
+      "total_windows_corpus": 3980
+    },
+    "25": {
+      "windows_per_session_all": {
+        "n": 342,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 1.0,
+        "median": 3.0,
+        "p75": 10.0,
+        "p90": 27.0,
+        "max": 77.0,
+        "iqr": 9.0
+      },
+      "windows_per_session_nonzero": {
+        "n": 257,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 2.0,
+        "median": 6.0,
+        "p75": 15.0,
+        "p90": 30.0,
+        "max": 77.0,
+        "iqr": 13.0
+      },
+      "total_windows_corpus": 3149
+    },
+    "30": {
+      "windows_per_session_all": {
+        "n": 342,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 2.0,
+        "p75": 8.0,
+        "p90": 23.0,
+        "max": 64.0,
+        "iqr": 8.0
+      },
+      "windows_per_session_nonzero": {
+        "n": 249,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 2.0,
+        "median": 5.0,
+        "p75": 12.0,
+        "p90": 25.0,
+        "max": 64.0,
+        "iqr": 10.0
+      },
+      "total_windows_corpus": 2597
+    },
+    "40": {
+      "windows_per_session_all": {
+        "n": 342,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 2.0,
+        "p75": 6.0,
+        "p90": 17.0,
+        "max": 48.0,
+        "iqr": 6.0
+      },
+      "windows_per_session_nonzero": {
+        "n": 242,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "median": 4.0,
+        "p75": 10.0,
+        "p90": 19.0,
+        "max": 48.0,
+        "iqr": 9.0
+      },
+      "total_windows_corpus": 1920
+    }
+  },
+  "b5": {
+    "edges_per_session_graph": {
+      "n": 342,
+      "min": 0.0,
+      "p10": 0.0,
+      "p25": 1.0,
+      "median": 2.0,
+      "p75": 6.0,
+      "p90": 10.0,
+      "max": 25.0,
+      "iqr": 5.0
+    },
+    "sum_edges": 1384,
+    "frac_zero_edge_sessions": 0.15789473684210525,
+    "frac_le1_edge": 0.30116959064327486
+  },
+  "andro_dec": {
+    "W": 10,
+    "branch": "CAPPED_max_testbenign",
+    "benign_zero_edge_frac": 0.7954429414607912,
+    "surviving_test_benign": 99,
+    "limitation": "no W reaches test-benign>=100; chose max survivors under CAPPED; zero-edge stated limitation"
+  },
+  "v2_dec": {
+    "W": 10,
+    "branch": "CAPPED_sessions_only",
+    "zero_edge_frac": 0.4726600985221675,
+    "sessions_eligible": 189,
+    "apps_ge1": 29,
+    "limitation": "zero-edge floor not met on v2 at any grid W"
+  },
+  "c2_case": "COINCIDENT_FALLBACK",
+  "overlap_Ws": [],
+  "recommended_W": 10,
+  "c2_note": "Formal OVERLAP (zero-edge<0.15 AND ceiling) is empty on both corpora. Chosen W coincides at 10 under both fallbacks \u2014 not DISJOINT. Recommend shared W=10 with stated floor/ceiling limitations."
+}

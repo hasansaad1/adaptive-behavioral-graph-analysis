@@ -1,0 +1,639 @@
+{
+  "goals": [
+    "Tap Settings",
+    "Tap button2",
+    "Tap Switch alphabet",
+    "Tap alphabet c"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap Settings",
+      "nav_token": "settings",
+      "target_keys": [
+        "tab:settings"
+      ],
+      "observed_screen_hashes": [
+        "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "ae7af5b2ae7b79432864fac6fcef8cc144268e71275a69a1809abee97a993d5c",
+        "5489ff953dcf09d7cd62155537ca9d717432c9b4faf9fea7ab174863514aba4b"
+      ],
+      "observed_screen_hints": [
+        "Clear all clear_all Button · Settings menu_settings Button · Switch alphabet change_language ImageButton · Cyrillic -> Latin cyrillicToLatinButton ImageButton · Latin -> Cyrillic latinToCyrillicButton ImageButton · SERBIAN language Button · Cyrillic text cyrillic_text EditText · Latin text latin_text EditText · More options ImageView",
+        "Clear all clear_all Button · Settings menu_settings Button · Switch alphabet change_language ImageButton · Cyrillic -> Latin cyrillicToLatinButton ImageButton · Latin -> Cyrillic latinToCyrillicButton ImageButton · SERBIAN language Button · Cyrillic text cyrillic_text EditText · Latin text latin_text EditText · More options ImageView",
+        "Navigate up ImageButton · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout"
+      ],
+      "route_hint": "Use visible settings navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 1,
+      "goal": "Tap button2",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Switch alphabet",
+      "nav_token": "",
+      "target_keys": [
+        "tab:at.mikenet.serbianlatintocyrillic:id/change_language|Switch alphabet",
+        "nav:at.mikenet.serbianlatintocyrillic:id/change_language|Switch alphabet"
+      ],
+      "observed_screen_hashes": [
+        "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "ae7af5b2ae7b79432864fac6fcef8cc144268e71275a69a1809abee97a993d5c",
+        "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8"
+      ],
+      "observed_screen_hints": [
+        "Clear all clear_all Button · Settings menu_settings Button · Switch alphabet change_language ImageButton · Cyrillic -> Latin cyrillicToLatinButton ImageButton · Latin -> Cyrillic latinToCyrillicButton ImageButton · SERBIAN language Button · Cyrillic text cyrillic_text EditText · Latin text latin_text EditText · More options ImageView",
+        "Clear all clear_all Button · Settings menu_settings Button · Switch alphabet change_language ImageButton · Cyrillic -> Latin cyrillicToLatinButton ImageButton · Latin -> Cyrillic latinToCyrillicButton ImageButton · SERBIAN language Button · Cyrillic text cyrillic_text EditText · Latin text latin_text EditText · More options ImageView",
+        "CANCEL button2 Button"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap alphabet c",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1": "Clear all clear_all Button · Settings menu_settings Button · Switch alphabet change_language ImageButton · Cyrillic -> Latin cyrillicToLatinButton ImageButton · Latin -> Cyrillic latinToCyrillicButton ImageButton · SERBIAN language Button · Cyrillic text cyrillic_text EditText · Latin text latin_text EditText · More options ImageView",
+    "5489ff953dcf09d7cd62155537ca9d717432c9b4faf9fea7ab174863514aba4b": "Navigate up ImageButton · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout",
+    "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8": "CANCEL button2 Button",
+    "ae7af5b2ae7b79432864fac6fcef8cc144268e71275a69a1809abee97a993d5c": "Clear all clear_all Button · Settings menu_settings Button · Switch alphabet change_language ImageButton · Cyrillic -> Latin cyrillicToLatinButton ImageButton · Latin -> Cyrillic latinToCyrillicButton ImageButton · SERBIAN language Button · Cyrillic text cyrillic_text EditText · Latin text latin_text EditText · More options ImageView",
+    "723a90a9d06cfd1ab5b093c704aab3965cbb5b50a4437a13e59ade3552d32dc5": "Adapt this alphabet menu_adapt_alphabet Button · Switch alphabet menu_change_alphabet Button · А\nБ\nЦ\nД\nЏ\nЕ\nФ\nГ\nХ\nИ\nЈ\nК\nЛ\nЉ\n alphabet_c TextView · A\nB\nC\nD\nDž\nE\nF\nG\nH\nI\nJ\nK\nL\nL alphabet_l TextView · Navigate up ImageButton",
+    "19d4e8bad6dd4952c24160ee7567ebdf0162a173bcb28352f805dfbb8c21dba9": "Adapt this alphabet menu_adapt_alphabet Button · Switch alphabet menu_change_alphabet Button · А\nБ\nЦ\nД\nЏ\nЕ\nФ\nГ\nХ\nИ\nЈ\nК\nЛ\nЉ\n alphabet_c TextView · A\nB\nC\nD\nDž\nE\nF\nG\nH\nI\nJ\nK\nL\nL alphabet_l TextView · Navigate up ImageButton",
+    "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e": "Adapt this alphabet menu_adapt_alphabet Button · Switch alphabet menu_change_alphabet Button · А\nБ\nЦ\nД\nЏ\nЕ\nФ\nГ\nХ\nИ\nЈ\nК\nЛ\nЉ\n alphabet_c TextView · A\nB\nC\nD\nDž\nE\nF\nG\nH\nI\nJ\nK\nL\nL alphabet_l TextView · Navigate up ImageButton",
+    "d208b11a7905d3222928a97df910953acb32a45b6c1a9fec788dc47522cca512": "RATE IT NOW button1 Button · NO, THANKS button2 Button · REMIND ME LATER button3 Button",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": ""
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:at.mikenet.serbianlatintocyrillic:id/cyrillic_text|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "at.mikenet.serbianlatintocyrillic:id/cyrillic_text",
+        "target_content_desc": "",
+        "visible_on": [
+          "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+          "ae7af5b2ae7b79432864fac6fcef8cc144268e71275a69a1809abee97a993d5c"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "last_to": "ae7af5b2ae7b79432864fac6fcef8cc144268e71275a69a1809abee97a993d5c"
+      },
+      "tab:at.mikenet.serbianlatintocyrillic:id/language|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "at.mikenet.serbianlatintocyrillic:id/language",
+        "target_content_desc": "",
+        "visible_on": [
+          "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+          "ae7af5b2ae7b79432864fac6fcef8cc144268e71275a69a1809abee97a993d5c"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "ae7af5b2ae7b79432864fac6fcef8cc144268e71275a69a1809abee97a993d5c",
+        "last_to": "723a90a9d06cfd1ab5b093c704aab3965cbb5b50a4437a13e59ade3552d32dc5"
+      },
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "at.mikenet.serbianlatintocyrillic:id/menu_settings",
+        "target_content_desc": "Settings",
+        "visible_on": [
+          "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+          "ae7af5b2ae7b79432864fac6fcef8cc144268e71275a69a1809abee97a993d5c"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "last_to": "5489ff953dcf09d7cd62155537ca9d717432c9b4faf9fea7ab174863514aba4b"
+      },
+      "tab:at.mikenet.serbianlatintocyrillic:id/change_language|Switch alphabet": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "at.mikenet.serbianlatintocyrillic:id/change_language",
+        "target_content_desc": "Switch alphabet",
+        "visible_on": [
+          "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+          "ae7af5b2ae7b79432864fac6fcef8cc144268e71275a69a1809abee97a993d5c"
+        ],
+        "attempts": 10,
+        "successes": 10,
+        "last_from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "last_to": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8"
+      },
+      "nav:at.mikenet.serbianlatintocyrillic:id/language|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "at.mikenet.serbianlatintocyrillic:id/language",
+        "target_content_desc": "",
+        "visible_on": [
+          "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+          "ae7af5b2ae7b79432864fac6fcef8cc144268e71275a69a1809abee97a993d5c"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:at.mikenet.serbianlatintocyrillic:id/change_language|Switch alphabet": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "at.mikenet.serbianlatintocyrillic:id/change_language",
+        "target_content_desc": "Switch alphabet",
+        "visible_on": [
+          "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+          "ae7af5b2ae7b79432864fac6fcef8cc144268e71275a69a1809abee97a993d5c"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|Navigate up": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "5489ff953dcf09d7cd62155537ca9d717432c9b4faf9fea7ab174863514aba4b",
+        "last_to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1"
+      },
+      "tab:at.mikenet.serbianlatintocyrillic:id/clear_all|Clear all": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "at.mikenet.serbianlatintocyrillic:id/clear_all",
+        "target_content_desc": "Clear all",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "last_to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1"
+      },
+      "tab:at.mikenet.serbianlatintocyrillic:id/cyrillicToLatinButton|Cyrillic -> Latin": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "at.mikenet.serbianlatintocyrillic:id/cyrillicToLatinButton",
+        "target_content_desc": "Cyrillic -> Latin",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "last_to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1"
+      },
+      "tab:android:id/button2|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+          "d208b11a7905d3222928a97df910953acb32a45b6c1a9fec788dc47522cca512"
+        ],
+        "attempts": 10,
+        "successes": 10,
+        "last_from": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "last_to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1"
+      },
+      "nav:android:id/button2|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+          "d208b11a7905d3222928a97df910953acb32a45b6c1a9fec788dc47522cca512"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:at.mikenet.serbianlatintocyrillic:id/alphabet_c|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "at.mikenet.serbianlatintocyrillic:id/alphabet_c",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 7,
+        "successes": 7,
+        "last_from": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e",
+        "last_to": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e"
+      },
+      "expand:at.mikenet.serbianlatintocyrillic:id/alphabet_l|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "at.mikenet.serbianlatintocyrillic:id/alphabet_l",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e",
+        "last_to": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e"
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "d208b11a7905d3222928a97df910953acb32a45b6c1a9fec788dc47522cca512"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "d208b11a7905d3222928a97df910953acb32a45b6c1a9fec788dc47522cca512",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:android:id/button3|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button3",
+        "target_content_desc": "",
+        "visible_on": [
+          "d208b11a7905d3222928a97df910953acb32a45b6c1a9fec788dc47522cca512"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "d208b11a7905d3222928a97df910953acb32a45b6c1a9fec788dc47522cca512"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:android:id/button3|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button3",
+        "target_content_desc": "",
+        "visible_on": [
+          "d208b11a7905d3222928a97df910953acb32a45b6c1a9fec788dc47522cca512"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "to": "5489ff953dcf09d7cd62155537ca9d717432c9b4faf9fea7ab174863514aba4b",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "5489ff953dcf09d7cd62155537ca9d717432c9b4faf9fea7ab174863514aba4b",
+        "to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "target_key": "tab:at.mikenet.serbianlatintocyrillic:id/clear_all|Clear all",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "target_key": "tab:at.mikenet.serbianlatintocyrillic:id/cyrillicToLatinButton|Cyrillic -> Latin",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "to": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "target_key": "tab:at.mikenet.serbianlatintocyrillic:id/change_language|Switch alphabet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "to": "ae7af5b2ae7b79432864fac6fcef8cc144268e71275a69a1809abee97a993d5c",
+        "target_key": "tab:at.mikenet.serbianlatintocyrillic:id/cyrillic_text|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "ae7af5b2ae7b79432864fac6fcef8cc144268e71275a69a1809abee97a993d5c",
+        "to": "723a90a9d06cfd1ab5b093c704aab3965cbb5b50a4437a13e59ade3552d32dc5",
+        "target_key": "tab:at.mikenet.serbianlatintocyrillic:id/language|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "723a90a9d06cfd1ab5b093c704aab3965cbb5b50a4437a13e59ade3552d32dc5",
+        "to": "19d4e8bad6dd4952c24160ee7567ebdf0162a173bcb28352f805dfbb8c21dba9",
+        "target_key": "expand:at.mikenet.serbianlatintocyrillic:id/alphabet_c|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "19d4e8bad6dd4952c24160ee7567ebdf0162a173bcb28352f805dfbb8c21dba9",
+        "to": "19d4e8bad6dd4952c24160ee7567ebdf0162a173bcb28352f805dfbb8c21dba9",
+        "target_key": "expand:at.mikenet.serbianlatintocyrillic:id/alphabet_c|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "19d4e8bad6dd4952c24160ee7567ebdf0162a173bcb28352f805dfbb8c21dba9",
+        "to": "19d4e8bad6dd4952c24160ee7567ebdf0162a173bcb28352f805dfbb8c21dba9",
+        "target_key": "expand:at.mikenet.serbianlatintocyrillic:id/alphabet_c|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "19d4e8bad6dd4952c24160ee7567ebdf0162a173bcb28352f805dfbb8c21dba9",
+        "to": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e",
+        "target_key": "expand:at.mikenet.serbianlatintocyrillic:id/alphabet_l|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e",
+        "to": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e",
+        "target_key": "expand:at.mikenet.serbianlatintocyrillic:id/alphabet_c|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e",
+        "to": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e",
+        "target_key": "expand:at.mikenet.serbianlatintocyrillic:id/alphabet_c|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e",
+        "to": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e",
+        "target_key": "expand:at.mikenet.serbianlatintocyrillic:id/alphabet_l|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e",
+        "to": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e",
+        "target_key": "expand:at.mikenet.serbianlatintocyrillic:id/alphabet_c|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e",
+        "to": "67f16273a80dbaa605bc261ad532a5286ca655abb81c3b9e47446dfdb8397c2e",
+        "target_key": "expand:at.mikenet.serbianlatintocyrillic:id/alphabet_c|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "to": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "target_key": "tab:at.mikenet.serbianlatintocyrillic:id/change_language|Switch alphabet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "to": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "target_key": "tab:at.mikenet.serbianlatintocyrillic:id/change_language|Switch alphabet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "to": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "target_key": "tab:at.mikenet.serbianlatintocyrillic:id/change_language|Switch alphabet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "to": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "target_key": "tab:at.mikenet.serbianlatintocyrillic:id/change_language|Switch alphabet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "to": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "target_key": "tab:at.mikenet.serbianlatintocyrillic:id/change_language|Switch alphabet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "to": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "target_key": "tab:at.mikenet.serbianlatintocyrillic:id/change_language|Switch alphabet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "to": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "target_key": "tab:at.mikenet.serbianlatintocyrillic:id/change_language|Switch alphabet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "to": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "target_key": "tab:at.mikenet.serbianlatintocyrillic:id/change_language|Switch alphabet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d208b11a7905d3222928a97df910953acb32a45b6c1a9fec788dc47522cca512",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "to": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "target_key": "tab:at.mikenet.serbianlatintocyrillic:id/change_language|Switch alphabet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "7f34069e71323d7aad1945169552fb696122600cd17a569e4708a1999dd5f3c8",
+        "to": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+    "root_screen_signature": "534625bad5ec0bf03456bdb95f6c9f8cac0661a9e2993f4deefa8ceb60a9a6fc",
+    "root_screen_hint": "Clear all clear_all Button · Settings menu_settings Button · Switch alphabet change_language ImageButton · Cyrillic -> Latin cyrillicToLatinButton ImageButton · Latin -> Cyrillic latinToCyrillicButton ImageButton · SERBIAN language Button · Cyrillic text cyrillic_text EditText · Latin text latin_text EditText · More options ImageView",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [
+      {
+        "action_type": "tap",
+        "target_resource_id": "at.mikenet.serbianlatintocyrillic:id/cyrillicToLatinButton",
+        "target_content_desc": "Cyrillic -> Latin",
+        "x": 797,
+        "y": 939,
+        "reason": "root_handoff_recovery:bfs_expand_after_tab_switch"
+      }
+    ],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "at.mikenet.serbianlatintocyrillic",
+          "screen_hash": "e00d5005196ac65c5dd829f5874c8e0c348e2de56068c34d71adde72e98b75e1",
+          "interactive_count": 9,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "534625bad5ec0bf03456bdb95f6c9f8cac0661a9e2993f4deefa8ceb60a9a6fc",
+          "root_landmark_score": 3
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical user opens the app, navigates to the alphabet menu by tapping on the alphabet button, then switches between Cyrillic and Latin alphabets using the change_language button. They then select a language (Cyrillic or Latin) and view the corresponding text in the cyrillic_text or latin_text EditText fields. The user may also access settings by tapping the settings menu_settings Button, where they can clear all data, rate the app, or remind them to use it later. The primary gesture is vertical swipe between y coordinates, with horizontal swipe used for tabs/carousels.",
+    "reason": "ux_goals_complete"
+  }
+}

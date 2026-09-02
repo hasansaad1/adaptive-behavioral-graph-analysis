@@ -1,0 +1,88 @@
+{
+  "active_categories": [
+    "audio",
+    "crypto",
+    "ipc_intents",
+    "location",
+    "network",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "ai.susi",
+  "batch": "extend",
+  "end_timestamp": "2026-08-13T23:36:42.541000Z",
+  "end_timestamp_ms": 1786664202541,
+  "event_counts": {
+    "mapped": 420,
+    "mapped_rate": 0.0778642936596218,
+    "total": 5394
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "6f8510108099_llm_s5__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "Context.bindService",
+    "LocationManager.requestLocationUpdates",
+    "MediaRecorder.setAudioSource",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "SharedPreferences.apply",
+    "SharedPreferences.getString",
+    "Socket.connect",
+    "okhttp3.RealCall.enqueue"
+  ],
+  "n_active_nodes": 6,
+  "n_edges": 14,
+  "reference_tier_pass": true,
+  "session_id": "6f8510108099_llm_s5",
+  "session_index_within_app": 5,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/6f8510108099_ai.susi/dynamic/llm/session_5/ai.susi_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/6f8510108099_ai.susi/dynamic/llm/session_5/ai.susi_dynamic_metadata.json",
+  "start_timestamp": "2026-08-13T23:28:51.166000Z",
+  "start_timestamp_ms": 1786663731166,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 5394,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 30,
+    "n_with_timestamp": 5394,
+    "unparseable_line_numbers_sample": [
+      5010,
+      5011,
+      5012,
+      5013,
+      5014,
+      5015,
+      5016,
+      5017,
+      5018,
+      5019,
+      5148,
+      5149,
+      5150,
+      5151,
+      5152,
+      5153,
+      5154,
+      5155,
+      5156,
+      5157
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 471.47
+}

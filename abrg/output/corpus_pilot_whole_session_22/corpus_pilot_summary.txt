@@ -1,0 +1,24 @@
+ABRG v0.2 corpus pilot — MULTI-WINDOW SNAPSHOTS
+============================================================
+Mode: whole_session, final graph only
+Sessions: 129 | Snapshots built: 129
+GAE-eligible snapshots: 56 from 56 apps
+Train: 45 snapshots / 45 apps
+Test:  11 snapshots / 11 apps
+
+Build time: 0.5s | Train time: 4.4s
+GAE loss 0.6937 → 0.5139 (300 epochs, converged=True)
+Train recon error: median=0.556828 (ln2-fail=0)
+Test  recon error: median=0.580029 (ln2-fail=0)
+Benign baseline (all eligible): median=0.580029
+
+GAE reconstructs most multi-window benign snapshots and generalizes to held-out apps at comparable median error.
+
+PILOT HONEST SUMMARY
+--------------------
+Multi-window cumulative snapshots (60.0s) from 129 sessions
+produced 56 GAE-eligible snapshots from 56 apps. NOT malware detection.
+ln(2) failure rate: 0% of snapshots at random-guess reconstruction error.
+
+Saved: abrg/output/corpus_pilot_whole_session_22/corpus_pilot_results.json
+Model:  abrg/output/corpus_pilot_whole_session_22/gae_corpus_model.pt

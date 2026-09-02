@@ -1,0 +1,172 @@
+{
+  "timestamp_utc": "2026-08-04T16:44:39.771023+00:00",
+  "dataset": "v2",
+  "sessions_dir": "datasets/v2/sessions",
+  "pinned": {
+    "window_sec": 35.0,
+    "epochs": 300,
+    "hidden": 64,
+    "lr": 0.01,
+    "weight_decay": 0.0,
+    "k_burst": 7,
+    "delta_sec": 5.0,
+    "lambda_rec": 0.01,
+    "edge_weight_channel": "w_cum",
+    "snapshots": true,
+    "seed": 42,
+    "test_ratio": 0.2,
+    "static": "zero_stub",
+    "gae_uses_edge_weight": true,
+    "recon_loss": "adjacency_bce"
+  },
+  "build": {
+    "total_sessions": 168,
+    "total_snapshots": 947,
+    "snapshots_mode": true,
+    "window_mode": "time_sec",
+    "window_sec": 35.0,
+    "build_errors": 0,
+    "trainable_snapshots": 813,
+    "sessions_with_trainable_snapshot": 133,
+    "excluded_sessions_no_trainable_snapshot": 35,
+    "gae_eligible_snapshots": 728,
+    "gae_eligible_apps": 40,
+    "snapshots_per_session_distribution": {
+      "min": 1,
+      "median": 6.0,
+      "max": 13,
+      "mean": 5.64
+    },
+    "active_nodes_distribution_trainable": {
+      "min": 2,
+      "median": 3,
+      "max": 7,
+      "mean": 3.11
+    },
+    "edge_count_distribution_trainable": {
+      "min": 0,
+      "median": 2,
+      "max": 26,
+      "mean": 4.73
+    },
+    "edge_count_distribution_gae_eligible": {
+      "min": 1,
+      "median": 3.0,
+      "max": 26,
+      "mean": 5.29
+    },
+    "build_wall_sec": 0.71
+  },
+  "split": {
+    "train_snapshots": 567,
+    "test_snapshots": 161,
+    "train_apps": [
+      "InfinityLoop1309.NewPipeEnhanced",
+      "ac.robinson.mediaphone",
+      "ai.susi",
+      "app.comaps.fdroid",
+      "app.fedilab.castlab",
+      "app.fedilab.mobilizon",
+      "app.fedilab.nitterizeme",
+      "app.fedilab.nitterizemelite",
+      "app.prav.client",
+      "app.tice.TICE.production",
+      "app.tujice.jergasColombia",
+      "app.udderance",
+      "at.linuxtage.Eventfahrplan",
+      "at.mikenet.serbianlatintocyrillic",
+      "au.com.wallaceit.reddinator",
+      "barilyuk.batterytemperature",
+      "be.digitalia.fosdem",
+      "be.mygod.vpnhotspot_foss",
+      "biz.binarysolutions.mindfulnessmeditation",
+      "biz.binarysolutions.vatcalculator",
+      "ca.chancehorizon.paseo",
+      "ca.farrelltonsolar.classic",
+      "ca.rmen.android.frenchcalendar",
+      "ca.rmen.android.scrumchatter",
+      "cat.jordihernandez.cinecat",
+      "cc.kafuu.bilidownload",
+      "cf.playhi.freezeyou",
+      "ch.abertschi.waterme.water_me",
+      "ch.hgdev.toposuite",
+      "ch.mydoli.focal",
+      "cityfreqs.com.pilfershushjammer",
+      "cl.coders.faketraveler"
+    ],
+    "test_apps": [
+      "anonvpn.anon_next.android",
+      "app.ladefuchs.android",
+      "app.michaelwuensch.bitbanana",
+      "app.organicmaps",
+      "bluepie.ad_silence",
+      "bus.chio.wishmaster",
+      "ca.rmen.nounours",
+      "ch.joshuah.bibleverseapp"
+    ]
+  },
+  "normalized_v021": {
+    "label": "normalized_v021",
+    "normalize": true,
+    "use_edge_weight": true,
+    "act_v": "fraction",
+    "edge_weight_tensor": "transition_prob_w_cum",
+    "edge_weight_channel": "w_cum",
+    "edge_weight_in_encoder": true,
+    "train_wall_sec": 62.92,
+    "loss_first": 0.9009370058512141,
+    "loss_final": 0.7435770354960951,
+    "final_epoch_mean_loss": 0.7435770354960951,
+    "converged_heuristic": true,
+    "train_error": {
+      "count": 567,
+      "min": -0.0,
+      "median": 0.559212863445282,
+      "max": 11.978936195373535,
+      "mean": 0.6756818825552401
+    },
+    "test_error": {
+      "count": 161,
+      "min": -0.0,
+      "median": 0.6990160942077637,
+      "max": 9.158956527709961,
+      "mean": 0.6656358459500179
+    },
+    "train_vs_test_median_ratio": 1.250000026646671,
+    "train_ln2_failures": 0,
+    "test_ln2_failures": 0
+  },
+  "raw_pre_v021": {
+    "label": "raw_pre_v021",
+    "normalize": false,
+    "use_edge_weight": true,
+    "act_v": "log1p",
+    "edge_weight_tensor": "raw_w_cum",
+    "edge_weight_channel": "w_cum",
+    "edge_weight_in_encoder": true,
+    "train_wall_sec": 62.9,
+    "loss_first": 0.8711610920004533,
+    "loss_final": 0.7774076176648176,
+    "final_epoch_mean_loss": 0.7774076176648176,
+    "converged_heuristic": false,
+    "train_error": {
+      "count": 567,
+      "min": -0.0,
+      "median": 0.5605528950691223,
+      "max": 11.980052947998047,
+      "mean": 0.6920099532561622
+    },
+    "test_error": {
+      "count": 161,
+      "min": -0.0,
+      "median": 0.7006911039352417,
+      "max": 9.160212516784668,
+      "mean": 0.6670337121793422
+    },
+    "train_vs_test_median_ratio": 1.2499999734170293,
+    "train_ln2_failures": 0,
+    "test_ln2_failures": 0
+  },
+  "delta_test_median_normalized_minus_raw": -0.0016750097274780273,
+  "delta_train_median_normalized_minus_raw": -0.001340031623840332
+}

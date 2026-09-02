@@ -1,0 +1,177 @@
+{
+  "package_name": "cat.jordihernandez.cinecat",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/cat.jordihernandez.cinecat_1.apk",
+  "apk_sha256": "24e9101cdb343b1dfc0c052555ec845633a92a8db539f10a763e39456be36f17",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1784166931785,
+  "elapsed_sec": 479.877,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 1004411722,
+  "session_mode": "identical",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "14395",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "cat.jordihernandez.cinecat_frida.jsonl",
+  "frida_lines": 449,
+  "strace_log_path": "cat.jordihernandez.cinecat_strace.log",
+  "strace_size_bytes": 4698,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 1004411722,
+  "arm": "llm",
+  "session_id": "24e9101cdb34_llm_s2",
+  "metadata_source": "apk_only",
+  "context_confidence": "low",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "good",
+  "llm_actions_count": 65,
+  "llm_action_log_path": "cat.jordihernandez.cinecat_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Tap CICLES",
+    "Tap CineCat",
+    "Tap CINEMES",
+    "Tap D'acord",
+    "Tap More",
+    "Tap PEL\u00b7L\u00cdCULES",
+    "Press Back to return to the main app list",
+    "Wait for UI to settle"
+  ],
+  "llm_ux_plan_path": "cat.jordihernandez.cinecat_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "cat.jordihernandez.cinecat_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical user opens the app, navigates to the 'CineCat' tab, and then uses a vertical swipe between y-coordinates to browse through a list of movies. Occasionally, they tap on a movie title to view more information. The 'More options' button is rarely tapped, but when opened, it provides additional details about the selected movie. Opening the 'About' or 'Pelicules' tabs is not common, as the primary focus remains on browsing the main list of movies.",
+  "llm_primary_ux_fallback_reason": "post_nav_realism_blend:goal_index>=4",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+    "root_screen_signature": "06070c6ddfcb76560ae531f62cf306584f9e48376bc4b1273eca9bb163dc88d6",
+    "root_screen_hint": "CineCat btnAbout Button \u00b7 CICLES btnCicles Button \u00b7 CINEMES btnCinemes Button \u00b7 PEL\u00b7L\u00cdCULES btnPelicules Button \u00b7 More options ImageButton",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "cat.jordihernandez.cinecat",
+          "screen_hash": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+          "interactive_count": 5,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "06070c6ddfcb76560ae531f62cf306584f9e48376bc4b1273eca9bb163dc88d6",
+          "root_landmark_score": 1
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/24e9101cdb34_cat.jordihernandez.cinecat/dynamic/llm/session_2/cat.jordihernandez.cinecat_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "cat.jordihernandez.cinecat",
+    "app_name": "cat.jordihernandez.cinecat",
+    "category": "Unknown",
+    "purpose": "Inferred unknown application behavior from APK metadata.",
+    "ux_type": "hybrid",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "APK-only inference from declared permissions/components",
+    "metadata_source": "apk_only",
+    "context_confidence": "low"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid",
+      "apk_only"
+    ],
+    "selected_source": "apk_only",
+    "context_confidence": "low",
+    "provenance": {
+      "source": "apk_only",
+      "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/cat.jordihernandez.cinecat_1.apk"
+    },
+    "raw_excerpt": {
+      "purpose": "Inferred unknown application behavior from APK metadata.",
+      "behavioral_notes": "APK-only inference from declared permissions/components",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 1,
+    "dialogs_tapped_after_warmup": 0,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "allowish",
+        "target": [
+          894,
+          1100
+        ],
+        "node_count": 15,
+        "screen_hash": "3975808ba709b91d"
+      },
+      {
+        "round": 2,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 18,
+        "screen_hash": "554980bcebfd86cf"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 5,
+        "screen_hash": "cb87ea5d53cff855"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/24e9101cdb34_cat.jordihernandez.cinecat/dynamic/llm/session_2/cat.jordihernandez.cinecat_verified_start.xml",
+    "pre_setup_wall_sec": 6.522,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 4,
+  "frida_reattach_successes": 4,
+  "frida_valid_events": 79,
+  "frida_meaningful_events": 42,
+  "frida_meaningful_categories": 2
+}

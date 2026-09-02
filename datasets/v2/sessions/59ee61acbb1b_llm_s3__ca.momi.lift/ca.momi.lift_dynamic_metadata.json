@@ -1,0 +1,167 @@
+{
+  "package_name": "ca.momi.lift",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/ca.momi.lift_2.apk",
+  "apk_sha256": "59ee61acbb1ba259b3e6b24d9791cf9dcc4cce699dc067a69c0c6e74aea67d2d",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1784153607912,
+  "elapsed_sec": 464.06,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 559108574,
+  "session_mode": "varied",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "24819",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "ca.momi.lift_frida.jsonl",
+  "frida_lines": 733,
+  "strace_log_path": "ca.momi.lift_strace.log",
+  "strace_size_bytes": 1436,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 824870156,
+  "arm": "llm",
+  "session_id": "59ee61acbb1b_llm_s3",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "weak:low_meaningful_categories",
+  "llm_actions_count": 52,
+  "llm_action_log_path": "ca.momi.lift_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Tap Deny on system permission dialog if shown",
+    "Tap Next month",
+    "Tap Allow",
+    "Tap Deny",
+    "Tap DONE",
+    "Tap Navigate",
+    "Tap Previous month",
+    "Tap edDate",
+    "Input text in 45.0",
+    "Input text in 65.0"
+  ],
+  "llm_ux_plan_path": "ca.momi.lift_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "ca.momi.lift_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical users open the app to record a workout, navigating up to view the date and selecting the 'Record Workout' tab first. They then tap the 'Record Workout' button to start tracking their exercise. After completing the workout, they tap the 'Done Set' button to save the data. The user then navigates back up to view the main screen, where they can view their recorded workouts and select another one to record.",
+  "llm_primary_ux_fallback_reason": "post_nav_realism_blend:goal_index>=4",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "0b3b61c6b4bad4d109e9abbc7a92895403026f3545e8a2390dabfc8c58a48eb1",
+    "root_screen_signature": "5ec41fc2e516ab75adacfe4b6db4e2bb3b5d3ef1872b21f494fd5f924e5aad8e",
+    "root_screen_hint": "Next month next ImageButton \u00b7 Previous month prev ImageButton \u00b7 RECORD WORKOUT FOR SELETECTE edDate Button \u00b7 More options ImageView",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "0b3b61c6b4bad4d109e9abbc7a92895403026f3545e8a2390dabfc8c58a48eb1",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ca.momi.lift",
+          "screen_hash": "0b3b61c6b4bad4d109e9abbc7a92895403026f3545e8a2390dabfc8c58a48eb1",
+          "interactive_count": 4,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "5ec41fc2e516ab75adacfe4b6db4e2bb3b5d3ef1872b21f494fd5f924e5aad8e",
+          "root_landmark_score": 1
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/59ee61acbb1b_ca.momi.lift/dynamic/llm/session_3/ca.momi.lift_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "ca.momi.lift",
+    "app_name": "ca.momi.lift",
+    "category": "Unknown",
+    "purpose": "No description available",
+    "ux_type": "hybrid",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/ca.momi.lift"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 0,
+    "dialogs_tapped_after_warmup": 0,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 55,
+        "screen_hash": "8f176f29a1830a31"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 55,
+        "screen_hash": "8f176f29a1830a31"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/59ee61acbb1b_ca.momi.lift/dynamic/llm/session_3/ca.momi.lift_verified_start.xml",
+    "pre_setup_wall_sec": 4.132,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 5,
+  "frida_reattach_successes": 5,
+  "frida_valid_events": 233,
+  "frida_meaningful_events": 6,
+  "frida_meaningful_categories": 1
+}

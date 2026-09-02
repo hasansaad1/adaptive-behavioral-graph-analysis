@@ -1,0 +1,205 @@
+{
+  "package_name": "InfinityLoop1309.NewPipeEnhanced",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/InfinityLoop1309.NewPipeEnhanced_109704.apk",
+  "apk_sha256": "b77ab89fd70ec350207b5ea626b90325db4cb7f13608cc359c2c975a1016e0fc",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1783878099683,
+  "elapsed_sec": 463.485,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 78469742,
+  "session_mode": "varied",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "29399",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "InfinityLoop1309.NewPipeEnhanced_frida.jsonl",
+  "frida_lines": 974,
+  "strace_log_path": "InfinityLoop1309.NewPipeEnhanced_strace.log",
+  "strace_size_bytes": 89130,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 927612991,
+  "arm": "llm",
+  "session_id": "b77ab89fd70e_llm_s3",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "good",
+  "llm_actions_count": 45,
+  "llm_action_log_path": "InfinityLoop1309.NewPipeEnhanced_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Tap error retry button",
+    "Tap errorView",
+    "Tap itemRoot",
+    "Tap Navigate up"
+  ],
+  "llm_ux_plan_path": "InfinityLoop1309.NewPipeEnhanced_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "InfinityLoop1309.NewPipeEnhanced_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical user opens the app by swiping down from the top of the screen to open the drawer, then navigates to the 'Bookmarked Playlists' tab. They then scroll through a list of bookmarked playlists, with each playlist displayed as a card. The user can tap on a playlist to view its details, which includes a video thumbnail and title. The user may also see a 'Share' menu at the top of the screen, allowing them to share their favorite playlists or videos. Occasionally, the user will encounter an error message, prompting them to try again or report the issue.",
+  "llm_primary_ux_fallback_reason": "ux_goals_complete",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+    "root_screen_signature": "554cacbb74e12530f6421f119d88f41014b75d017e9f799b89bc96419a406b27",
+    "root_screen_hint": "Search action_search TextView \u00b7 itemRoot ViewGroup \u00b7 itemRoot ViewGroup \u00b7 itemRoot ViewGroup \u00b7 itemRoot ViewGroup \u00b7 itemRoot ViewGroup \u00b7 itemRoot ViewGroup \u00b7 Open Drawer ImageButton \u00b7 Bookmarked Playlists LinearLayout \u00b7 Subscriptions LinearLayout",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "InfinityLoop1309.NewPipeEnhanced",
+          "screen_hash": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+          "interactive_count": 10,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "554cacbb74e12530f6421f119d88f41014b75d017e9f799b89bc96419a406b27",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/b77ab89fd70e_InfinityLoop1309.NewPipeEnhanced/dynamic/llm/session_3/InfinityLoop1309.NewPipeEnhanced_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "InfinityLoop1309.NewPipeEnhanced",
+    "app_name": "InfinityLoop1309.NewPipeEnhanced",
+    "category": "Unknown",
+    "purpose": "No description available",
+    "ux_type": "hybrid",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/InfinityLoop1309.NewPipeEnhanced"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 4,
+    "dialogs_tapped_after_warmup": 0,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          540,
+          642
+        ],
+        "node_count": 15,
+        "screen_hash": "5953f22675523111"
+      },
+      {
+        "round": 2,
+        "action": "back",
+        "reason": "transition_guard_stuck_repeat",
+        "screen_hash": "5953f22675523111",
+        "repeat_hash_streak": 1
+      },
+      {
+        "round": 3,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          726,
+          1061
+        ],
+        "node_count": 16,
+        "screen_hash": "3704a7cf7b904b8c"
+      },
+      {
+        "round": 4,
+        "action": "tap",
+        "reason": "allowish",
+        "target": [
+          894,
+          1296
+        ],
+        "node_count": 15,
+        "screen_hash": "a2fe2a6f6327c344"
+      },
+      {
+        "round": 5,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          434,
+          1124
+        ],
+        "node_count": 16,
+        "screen_hash": "5942eca9321eacbb"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 24,
+        "screen_hash": "5560eea989224642"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/b77ab89fd70e_InfinityLoop1309.NewPipeEnhanced/dynamic/llm/session_3/InfinityLoop1309.NewPipeEnhanced_verified_start.xml",
+    "pre_setup_wall_sec": 13.618,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 5,
+  "frida_reattach_successes": 5,
+  "frida_valid_events": 528,
+  "frida_meaningful_events": 360,
+  "frida_meaningful_categories": 5
+}

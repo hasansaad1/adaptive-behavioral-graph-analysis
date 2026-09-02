@@ -1,0 +1,1202 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "cf.playhi.freezeyou",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 25
+    },
+    {
+      "screen_hash": "75fe1985991688792cced91b28ab7163d18883167b1836c09f23b2750b45ad6b",
+      "hint": "Add stma_addButton ImageButton · stma_tasksListview ListView · Navigate up ImageButton",
+      "visit_count": 2
+    },
+    {
+      "screen_hash": "b143198ad703504325c8577d42a183ea2d358dfbbc6d62bd5b9901ba54129223",
+      "hint": "Add stma_addButton ImageButton · Time stma_addTimeButton ImageButton · Add stma_addTriggerButton ImageButton · stma_tasksListview ListView · Navigate up ImageButton",
+      "visit_count": 2
+    },
+    {
+      "screen_hash": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "hint": "Add main_moreSettings_button ImageButton · Scheduled tasks menu_timedTasks TextView · View Mode menu_viewMode TextView · Search search_editText EditText · main_appList_listView ListView · More options ImageView",
+      "visit_count": 28
+    },
+    {
+      "screen_hash": "f9f40d9127c03fcef72151dc7e6d5af2299d131432d7cd818d6c3e6be21f2d3a",
+      "hint": "OK button1 Button · DON'T REMIND button2 Button · HOW TO USE button3 Button",
+      "visit_count": 6
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 2,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 3,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 4,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 5,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 6,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 7,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 8,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 9,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 10,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 11,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 12,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 13,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 14,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 15,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 16,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 17,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 18,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 19,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 20,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 21,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 22,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 23,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 24,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 25,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 26,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 27,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 28,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 29,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 30,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 31,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 32,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 33,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 34,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 35,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 36,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 37,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 38,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 39,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 40,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 41,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 42,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 43,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 44,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 45,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 46,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 47,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 48,
+      "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "x": 942,
+        "y": 1656,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cf.playhi.freezeyou:id/main_moreSettings_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 49,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 25,
+        "successes": 25,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43"
+      },
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "visible_on": [
+          "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43"
+        ],
+        "attempts": 24,
+        "successes": 24,
+        "last_from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:settings": {
+        "kind": "nav",
+        "semantic_token": "settings",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "visible_on": [
+          "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "active_categories": [
+    "file_io",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "be.digitalia.fosdem",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T01:49:26.223000Z",
+  "end_timestamp_ms": 1786672166223,
+  "event_counts": {
+    "mapped": 16,
+    "mapped_rate": 0.00025574221185045476,
+    "total": 62563
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "37b1a8bb28b9_llm_s4__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 2,
+  "reference_tier_pass": true,
+  "session_id": "37b1a8bb28b9_llm_s4",
+  "session_index_within_app": 4,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/37b1a8bb28b9_be.digitalia.fosdem/dynamic/llm/session_4/be.digitalia.fosdem_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/37b1a8bb28b9_be.digitalia.fosdem/dynamic/llm/session_4/be.digitalia.fosdem_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T01:41:41.653000Z",
+  "start_timestamp_ms": 1786671701653,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 62563,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 4,
+    "n_with_timestamp": 62563,
+    "unparseable_line_numbers_sample": [
+      6440,
+      24102,
+      36822,
+      58512
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 464.678
+}

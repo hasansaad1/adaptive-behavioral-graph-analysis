@@ -1,0 +1,79 @@
+{
+  "active_categories": [
+    "crypto",
+    "file_io"
+  ],
+  "analysis_status": "partial:bad_handoff",
+  "analyze_exit_status": 0,
+  "app_id": "app.ladefuchs.android",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T05:15:55.419000Z",
+  "end_timestamp_ms": 1786684555419,
+  "event_counts": {
+    "mapped": 69,
+    "mapped_rate": 0.011991657977059436,
+    "total": 5754
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "0f0dc4577a45_llm_s5__extend",
+  "failure_reason": "analyze_status:partial:bad_handoff,sim_not_success",
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "File.delete",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 2,
+  "reference_tier_pass": false,
+  "session_id": "0f0dc4577a45_llm_s5",
+  "session_index_within_app": 5,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/0f0dc4577a45_app.ladefuchs.android/dynamic/llm/session_5/app.ladefuchs.android_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/0f0dc4577a45_app.ladefuchs.android/dynamic/llm/session_5/app.ladefuchs.android_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T05:12:10.015000Z",
+  "start_timestamp_ms": 1786684330015,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 5754,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 20,
+    "n_with_timestamp": 5754,
+    "unparseable_line_numbers_sample": [
+      1824,
+      1825,
+      1826,
+      1827,
+      1828,
+      1829,
+      1830,
+      1831,
+      1832,
+      1833,
+      5303,
+      5304,
+      5305,
+      5306,
+      5307,
+      5308,
+      5309,
+      5310,
+      5311,
+      5312
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 225.546
+}

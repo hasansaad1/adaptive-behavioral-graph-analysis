@@ -1,0 +1,1254 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "app.organicmaps",
+  "screen_count": 14,
+  "screens": [
+    {
+      "screen_hash": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "hint": "checkbox CheckBox · more ImageView · HIDE ALL button TextView · Navigate up ImageButton · LinearLayout · LinearLayout · LinearLayout · RelativeLayout",
+      "visit_count": 10
+    },
+    {
+      "screen_hash": "1e095290fa9f49d13f77c4053b6e1a0056f553db9e46915dedc84ff47cdf608e",
+      "hint": "DOWNLOAD btn_download_resources Button · Download Chico? chb_download_country CheckBox",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "2301ad7f4fc8261ed4a3bde1c6a7c979249a3dfc1a768fcc8d584dfc317ae776",
+      "hint": "GO TO MAP btn_download_resources Button",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "25eb72f9fef74b136c5d71a3de001d3c66901efbf1c9ec63719e55edf58b9f4d",
+      "hint": "Done Done done TextView · ImageButton",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "3c7b324f6844397bca066e5d05388653cb7fd688c7c4ffcb86a2c73171bfd92c",
+      "hint": "touch_outside View · bottom_sheet_menu_item LinearLayout · bottom_sheet_menu_item LinearLayout · bottom_sheet_menu_item LinearLayout · bottom_sheet_menu_item LinearLayout · bottom_sheet_menu_item LinearLayout · bottom_sheet_menu_item LinearLayout",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1",
+      "hint": "Support Organic Maps donation_actionButton Button · Frequently Asked Questions faq TextView · Report a bug report TextView · 2026.04.07-8-FDroid version TextView · Navigate up ImageButton",
+      "visit_count": 4
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 0
+    },
+    {
+      "screen_hash": "6e6e2c841b4e066c606de22c4cbd9d99a81247337849f86e670205c0c7581545",
+      "hint": "OK button1 Button",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "hint": "checkbox CheckBox · more ImageView · SHOW ALL button TextView · Navigate up ImageButton · LinearLayout · LinearLayout · LinearLayout · RelativeLayout",
+      "visit_count": 9
+    },
+    {
+      "screen_hash": "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff",
+      "hint": "PAUSE btn_download_resources Button · Download Chico? chb_download_country CheckBox",
+      "visit_count": 2
+    },
+    {
+      "screen_hash": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+      "hint": "Bookmarks btn_bookmarks FloatingActionButton · Search btn_search FloatingActionButton · Help help_button FloatingActionButton · Map Styles and Layers layers_button FloatingActionButton · Menu menu_button FloatingActionButton · My Position my_position FloatingActionButton · Zoom in nav_zoom_in FloatingActionButton · Zoom out nav_zoom_out FloatingActionButton",
+      "visit_count": 10
+    },
+    {
+      "screen_hash": "c7118e94927b4eb95453a707a681fabd108a2e5d7ccfc21527377462cc95ba79",
+      "hint": "Close close_button Button · touch_outside View · btn ImageButton · btn ImageButton · btn ImageButton · btn ImageButton · btn ImageButton",
+      "visit_count": 3
+    },
+    {
+      "screen_hash": "d6bc030398e45b57b459ab3f7ae63bf2a2a1622f4d093126c169ca57bcfd29bc",
+      "hint": "CONTINUE btn_download_resources Button · Download Chico? chb_download_country CheckBox",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "e2ba677f0aa080670a7cf6ee646f744ae221603aabe3fb047d3bd80d3d003688",
+      "hint": "Back back ImageView · Search query EditText · voice_input ImageView · Categories LinearLayout",
+      "visit_count": 3
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "1e095290fa9f49d13f77c4053b6e1a0056f553db9e46915dedc84ff47cdf608e",
+      "to": "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/btn_download_resources",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1683,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/btn_download_resources",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.organicmaps:id/btn_download_resources|"
+    },
+    {
+      "step": 2,
+      "from": "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff",
+      "to": "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/chb_download_country",
+        "target_content_desc": "",
+        "x": 233,
+        "y": 1499,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/chb_download_country",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.organicmaps:id/chb_download_country|"
+    },
+    {
+      "step": 3,
+      "from": "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff",
+      "to": "d6bc030398e45b57b459ab3f7ae63bf2a2a1622f4d093126c169ca57bcfd29bc",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/btn_download_resources",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1683,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/btn_download_resources",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.organicmaps:id/btn_download_resources|"
+    },
+    {
+      "step": 4,
+      "from": "d6bc030398e45b57b459ab3f7ae63bf2a2a1622f4d093126c169ca57bcfd29bc",
+      "to": "2301ad7f4fc8261ed4a3bde1c6a7c979249a3dfc1a768fcc8d584dfc317ae776",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/btn_download_resources",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1683,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/btn_download_resources",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.organicmaps:id/btn_download_resources|"
+    },
+    {
+      "step": 5,
+      "from": "2301ad7f4fc8261ed4a3bde1c6a7c979249a3dfc1a768fcc8d584dfc317ae776",
+      "to": "2301ad7f4fc8261ed4a3bde1c6a7c979249a3dfc1a768fcc8d584dfc317ae776",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/btn_download_resources",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1683,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/btn_download_resources",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.organicmaps:id/btn_download_resources|"
+    },
+    {
+      "step": 6,
+      "from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+      "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/btn_bookmarks",
+        "target_content_desc": "Bookmarks",
+        "x": 636,
+        "y": 1710,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/btn_bookmarks",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.organicmaps:id/btn_bookmarks|Bookmarks"
+    },
+    {
+      "step": 7,
+      "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 960,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 8,
+      "from": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 947,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 9,
+      "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 960,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 10,
+      "from": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 947,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 11,
+      "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 960,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 12,
+      "from": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 947,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 13,
+      "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 960,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 14,
+      "from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+      "to": "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/help_button",
+        "target_content_desc": "Help",
+        "x": 251,
+        "y": 1710,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/help_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.organicmaps:id/help_button|Help"
+    },
+    {
+      "step": 15,
+      "from": "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/donation_actionButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1308,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/donation_actionButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.organicmaps:id/donation_actionButton|"
+    },
+    {
+      "step": 16,
+      "from": "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1",
+      "to": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/faq",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1686,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/faq",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.organicmaps:id/faq|"
+    },
+    {
+      "step": 17,
+      "from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+      "to": "3c7b324f6844397bca066e5d05388653cb7fd688c7c4ffcb86a2c73171bfd92c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/menu_button",
+        "target_content_desc": "Menu",
+        "x": 828,
+        "y": 1710,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/menu_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.organicmaps:id/menu_button|Menu"
+    },
+    {
+      "step": 18,
+      "from": "3c7b324f6844397bca066e5d05388653cb7fd688c7c4ffcb86a2c73171bfd92c",
+      "to": "25eb72f9fef74b136c5d71a3de001d3c66901efbf1c9ec63719e55edf58b9f4d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/bottom_sheet_menu_item",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1353,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/bottom_sheet_menu_item",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:app.organicmaps:id/bottom_sheet_menu_item|"
+    },
+    {
+      "step": 19,
+      "from": "25eb72f9fef74b136c5d71a3de001d3c66901efbf1c9ec63719e55edf58b9f4d",
+      "to": "6e6e2c841b4e066c606de22c4cbd9d99a81247337849f86e670205c0c7581545",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/done",
+        "target_content_desc": "Done",
+        "x": 989,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/done",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/done|Done"
+    },
+    {
+      "step": 20,
+      "from": "6e6e2c841b4e066c606de22c4cbd9d99a81247337849f86e670205c0c7581545",
+      "to": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 873,
+        "y": 983,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 21,
+      "from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+      "to": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/my_position",
+        "target_content_desc": "My Position",
+        "x": 996,
+        "y": 1353,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/my_position",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.organicmaps:id/my_position|My Position"
+    },
+    {
+      "step": 22,
+      "from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+      "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/btn_bookmarks",
+        "target_content_desc": "Bookmarks",
+        "x": 636,
+        "y": 1710,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/btn_bookmarks",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.organicmaps:id/btn_bookmarks|Bookmarks"
+    },
+    {
+      "step": 23,
+      "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 960,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 24,
+      "from": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 947,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 25,
+      "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 960,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 26,
+      "from": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 947,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 27,
+      "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 960,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 28,
+      "from": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 947,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 29,
+      "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 960,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 30,
+      "from": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 947,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 31,
+      "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 960,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    },
+    {
+      "step": 32,
+      "from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+      "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/btn_bookmarks",
+        "target_content_desc": "Bookmarks",
+        "x": 636,
+        "y": 1710,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/btn_bookmarks",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.organicmaps:id/btn_bookmarks|Bookmarks"
+    },
+    {
+      "step": 33,
+      "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+      "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "x": 960,
+        "y": 293,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.organicmaps:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.organicmaps:id/button|"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:app.organicmaps:id/btn_download_resources|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/btn_download_resources",
+        "target_content_desc": "",
+        "visible_on": [
+          "1e095290fa9f49d13f77c4053b6e1a0056f553db9e46915dedc84ff47cdf608e",
+          "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff",
+          "d6bc030398e45b57b459ab3f7ae63bf2a2a1622f4d093126c169ca57bcfd29bc",
+          "2301ad7f4fc8261ed4a3bde1c6a7c979249a3dfc1a768fcc8d584dfc317ae776"
+        ],
+        "attempts": 4,
+        "successes": 4,
+        "last_from": "2301ad7f4fc8261ed4a3bde1c6a7c979249a3dfc1a768fcc8d584dfc317ae776",
+        "last_to": "2301ad7f4fc8261ed4a3bde1c6a7c979249a3dfc1a768fcc8d584dfc317ae776"
+      },
+      "tab:app.organicmaps:id/chb_download_country|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/chb_download_country",
+        "target_content_desc": "",
+        "visible_on": [
+          "1e095290fa9f49d13f77c4053b6e1a0056f553db9e46915dedc84ff47cdf608e",
+          "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff",
+          "d6bc030398e45b57b459ab3f7ae63bf2a2a1622f4d093126c169ca57bcfd29bc"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff",
+        "last_to": "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff"
+      },
+      "nav:app.organicmaps:id/btn_download_resources|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/btn_download_resources",
+        "target_content_desc": "",
+        "visible_on": [
+          "1e095290fa9f49d13f77c4053b6e1a0056f553db9e46915dedc84ff47cdf608e",
+          "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff",
+          "d6bc030398e45b57b459ab3f7ae63bf2a2a1622f4d093126c169ca57bcfd29bc",
+          "2301ad7f4fc8261ed4a3bde1c6a7c979249a3dfc1a768fcc8d584dfc317ae776"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.organicmaps:id/chb_download_country|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/chb_download_country",
+        "target_content_desc": "",
+        "visible_on": [
+          "1e095290fa9f49d13f77c4053b6e1a0056f553db9e46915dedc84ff47cdf608e",
+          "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff",
+          "d6bc030398e45b57b459ab3f7ae63bf2a2a1622f4d093126c169ca57bcfd29bc"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:app.organicmaps:id/btn_bookmarks|Bookmarks": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/btn_bookmarks",
+        "target_content_desc": "Bookmarks",
+        "visible_on": [
+          "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f"
+        ],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+        "last_to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c"
+      },
+      "tab:app.organicmaps:id/help_button|Help": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/help_button",
+        "target_content_desc": "Help",
+        "visible_on": [
+          "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+        "last_to": "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1"
+      },
+      "tab:app.organicmaps:id/menu_button|Menu": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/menu_button",
+        "target_content_desc": "Menu",
+        "visible_on": [
+          "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+        "last_to": "3c7b324f6844397bca066e5d05388653cb7fd688c7c4ffcb86a2c73171bfd92c"
+      },
+      "tab:app.organicmaps:id/my_position|My Position": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/my_position",
+        "target_content_desc": "My Position",
+        "visible_on": [
+          "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+        "last_to": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f"
+      },
+      "nav:app.organicmaps:id/btn_bookmarks|Bookmarks": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/btn_bookmarks",
+        "target_content_desc": "Bookmarks",
+        "visible_on": [
+          "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.organicmaps:id/help_button|Help": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/help_button",
+        "target_content_desc": "Help",
+        "visible_on": [
+          "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.organicmaps:id/menu_button|Menu": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/menu_button",
+        "target_content_desc": "Menu",
+        "visible_on": [
+          "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.organicmaps:id/my_position|My Position": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/my_position",
+        "target_content_desc": "My Position",
+        "visible_on": [
+          "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.organicmaps:id/nav_zoom_in|Zoom in": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/nav_zoom_in",
+        "target_content_desc": "Zoom in",
+        "visible_on": [
+          "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.organicmaps:id/nav_zoom_out|Zoom out": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/nav_zoom_out",
+        "target_content_desc": "Zoom out",
+        "visible_on": [
+          "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.organicmaps:id/btn_search|Search": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/btn_search",
+        "target_content_desc": "Search",
+        "visible_on": [
+          "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:app.organicmaps:id/button|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/button",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 17,
+        "successes": 17,
+        "last_from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "last_to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16"
+      },
+      "tab:app.organicmaps:id/donation_actionButton|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/donation_actionButton",
+        "target_content_desc": "",
+        "visible_on": [
+          "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:app.organicmaps:id/faq|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/faq",
+        "target_content_desc": "",
+        "visible_on": [
+          "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1",
+        "last_to": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f"
+      },
+      "tab:app.organicmaps:id/report|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/report",
+        "target_content_desc": "",
+        "visible_on": [
+          "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.organicmaps:id/donation_actionButton|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/donation_actionButton",
+        "target_content_desc": "",
+        "visible_on": [
+          "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.organicmaps:id/faq|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/faq",
+        "target_content_desc": "",
+        "visible_on": [
+          "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.organicmaps:id/report|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/report",
+        "target_content_desc": "",
+        "visible_on": [
+          "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.organicmaps:id/bottom_sheet_menu_item|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/bottom_sheet_menu_item",
+        "target_content_desc": "",
+        "visible_on": [
+          "3c7b324f6844397bca066e5d05388653cb7fd688c7c4ffcb86a2c73171bfd92c"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "3c7b324f6844397bca066e5d05388653cb7fd688c7c4ffcb86a2c73171bfd92c",
+        "last_to": "25eb72f9fef74b136c5d71a3de001d3c66901efbf1c9ec63719e55edf58b9f4d"
+      },
+      "expand:app.organicmaps:id/done|Done": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "app.organicmaps:id/done",
+        "target_content_desc": "Done",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "25eb72f9fef74b136c5d71a3de001d3c66901efbf1c9ec63719e55edf58b9f4d",
+        "last_to": "6e6e2c841b4e066c606de22c4cbd9d99a81247337849f86e670205c0c7581545"
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "6e6e2c841b4e066c606de22c4cbd9d99a81247337849f86e670205c0c7581545"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "6e6e2c841b4e066c606de22c4cbd9d99a81247337849f86e670205c0c7581545",
+        "last_to": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f"
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "6e6e2c841b4e066c606de22c4cbd9d99a81247337849f86e670205c0c7581545"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "1e095290fa9f49d13f77c4053b6e1a0056f553db9e46915dedc84ff47cdf608e",
+        "to": "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff",
+        "target_key": "tab:app.organicmaps:id/btn_download_resources|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff",
+        "to": "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff",
+        "target_key": "tab:app.organicmaps:id/chb_download_country|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "ab1d61ef92d88b6aa8dd0974803f6e0b6047f832d58ce9dd75fca978af07b1ff",
+        "to": "d6bc030398e45b57b459ab3f7ae63bf2a2a1622f4d093126c169ca57bcfd29bc",
+        "target_key": "tab:app.organicmaps:id/btn_download_resources|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d6bc030398e45b57b459ab3f7ae63bf2a2a1622f4d093126c169ca57bcfd29bc",
+        "to": "2301ad7f4fc8261ed4a3bde1c6a7c979249a3dfc1a768fcc8d584dfc317ae776",
+        "target_key": "tab:app.organicmaps:id/btn_download_resources|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "2301ad7f4fc8261ed4a3bde1c6a7c979249a3dfc1a768fcc8d584dfc317ae776",
+        "to": "2301ad7f4fc8261ed4a3bde1c6a7c979249a3dfc1a768fcc8d584dfc317ae776",
+        "target_key": "tab:app.organicmaps:id/btn_download_resources|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+        "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "target_key": "tab:app.organicmaps:id/btn_bookmarks|Bookmarks",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+        "to": "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1",
+        "target_key": "tab:app.organicmaps:id/help_button|Help",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:app.organicmaps:id/donation_actionButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "3ca9a22e7c26565101a8887d4aaf95ae5ad3c99a6c8feba65776bdcc384474d1",
+        "to": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+        "target_key": "tab:app.organicmaps:id/faq|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+        "to": "3c7b324f6844397bca066e5d05388653cb7fd688c7c4ffcb86a2c73171bfd92c",
+        "target_key": "tab:app.organicmaps:id/menu_button|Menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "3c7b324f6844397bca066e5d05388653cb7fd688c7c4ffcb86a2c73171bfd92c",
+        "to": "25eb72f9fef74b136c5d71a3de001d3c66901efbf1c9ec63719e55edf58b9f4d",
+        "target_key": "nav:app.organicmaps:id/bottom_sheet_menu_item|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25eb72f9fef74b136c5d71a3de001d3c66901efbf1c9ec63719e55edf58b9f4d",
+        "to": "6e6e2c841b4e066c606de22c4cbd9d99a81247337849f86e670205c0c7581545",
+        "target_key": "expand:app.organicmaps:id/done|Done",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "6e6e2c841b4e066c606de22c4cbd9d99a81247337849f86e670205c0c7581545",
+        "to": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+        "to": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+        "target_key": "tab:app.organicmaps:id/my_position|My Position",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+        "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "target_key": "tab:app.organicmaps:id/btn_bookmarks|Bookmarks",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ad4839c389dc76aa295aa3388e14e84d2207323340982093fc69ee46eb6fd17f",
+        "to": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "target_key": "tab:app.organicmaps:id/btn_bookmarks|Bookmarks",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "069641acbe26b37458ffdbd89bc41500819abb68db2c10797a0793559610f39c",
+        "to": "8ef9f55e245179ce9d6bcc66a0938b2f3fb36da7cc9ae43dab1ef0c15bcfbd16",
+        "target_key": "expand:app.organicmaps:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      }
+    ]
+  }
+}

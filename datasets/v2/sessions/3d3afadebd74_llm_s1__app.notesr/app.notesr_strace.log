@@ -1,0 +1,37 @@
+25603 1783929703.720893 exit(0)         = ?
+25603 1783929703.721089 +++ exited with 0 +++
+25605 1783929703.723480 exit(0)         = ?
+25605 1783929703.723881 +++ exited with 0 +++
+25604 1783929703.723892 exit(0 <unfinished ...>
+25602 1783929703.723911 exit(0 <unfinished ...>
+25604 1783929703.724017 <... exit resumed>) = ?
+25602 1783929703.724034 <... exit resumed>) = ?
+25604 1783929703.724168 +++ exited with 0 +++
+25602 1783929703.724176 +++ exited with 0 +++
+25615 1783929703.726346 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+25615 1783929703.726615 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+25615 1783929703.726876 newfstatat(AT_FDCWD, "/data/app/app.notesr-oAj6eWiCEyWMGTvpKLLFxw==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+25615 1783929703.727130 newfstatat(AT_FDCWD, "/data/app/app.notesr-oAj6eWiCEyWMGTvpKLLFxw==/base.apk", {st_mode=S_IFREG|0644, st_size=37094421, ...}, AT_SYMLINK_NOFOLLOW) = 0
+25615 1783929703.727424 getcwd("/", 4096) = 2
+25615 1783929703.727698 newfstatat(AT_FDCWD, "/base.apk", 0x70758ba690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+25595 1783929704.504437 clone(child_stack=0x70719dbd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x70719dbd60, tls=0x70719dc020, child_tidptr=0x70719dbd60) = 25671
+25671 1783929704.509035 faccessat(AT_FDCWD, "/data/user/0/app.notesr/files", F_OK) = 0
+25671 1783929704.509085 faccessat(AT_FDCWD, "/data/user/0/app.notesr/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+25671 1783929704.509115 openat(AT_FDCWD, "/data/user/0/app.notesr/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 66
+25671 1783929704.509223 getsockopt(66, SOL_SOCKET, SO_ERROR, 0x70719da254, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+25671 1783929704.509706 openat(AT_FDCWD, "/data/app/app.notesr-oAj6eWiCEyWMGTvpKLLFxw==/base.apk", O_RDONLY) = 66
+25671 1783929704.509769 getsockopt(66, SOL_SOCKET, SO_ERROR, 0x70719d9c74, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+25671 1783929704.509815 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/app.notesr/primary.prof", 0x70719d9c18, 0) = -1 ENOENT (No such file or directory)
+25671 1783929704.509893 faccessat(AT_FDCWD, "/data/misc/profiles/ref/app.notesr/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+25671 1783929704.509947 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/app.notesr/primary.prof", {st_mode=S_IFREG|0600, st_size=7001, ...}, 0) = 0
+25671 1783929704.509983 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/app.notesr/primary.prof", F_OK) = 0
+25671 1783929704.510236 faccessat(AT_FDCWD, "/data/user/0/app.notesr/files", F_OK) = 0
+25671 1783929704.510258 faccessat(AT_FDCWD, "/data/user/0/app.notesr/files/profileInstalled", F_OK) = 0
+25671 1783929704.510299 openat(AT_FDCWD, "/data/user/0/app.notesr/files/profileInstalled", O_RDONLY) = 66
+25671 1783929704.510370 getsockopt(66, SOL_SOCKET, SO_ERROR, 0x70719d9594, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+25671 1783929704.510651 exit(0)         = ?
+25671 1783929704.510688 +++ exited with 0 +++
+25630 1783929704.563472 faccessat(AT_FDCWD, "/proc/self/task/25671", F_OK) = -1 ENOENT (No such file or directory)
+25632 1783929716.573911 exit(0)         = ?
+25632 1783929716.574331 +++ exited with 0 +++
+25630 1783929716.626805 faccessat(AT_FDCWD, "/proc/self/task/25632", F_OK) = -1 ENOENT (No such file or directory)

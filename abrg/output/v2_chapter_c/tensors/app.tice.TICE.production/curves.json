@@ -1,0 +1,89 @@
+{
+  "drift": [
+    {
+      "cosine_adj": 0.09574533564679788,
+      "cosine_combined": 0.0067066243460679464,
+      "cosine_node": 0.0006428250221934828,
+      "frobenius_adj": 0.8660263362414495,
+      "frobenius_combined": 0.9100694300089175,
+      "frobenius_node": 0.279686882733116
+    },
+    {
+      "cosine_adj": 0.009260249806532062,
+      "cosine_combined": 0.0011351723861333651,
+      "cosine_node": 0.0005161236866761953,
+      "frobenius_adj": 0.2886753172077887,
+      "frobenius_combined": 0.3829076997626399,
+      "frobenius_node": 0.25156483810838615
+    },
+    {
+      "cosine_adj": 0.025087413185103102,
+      "cosine_combined": 0.031535990857721186,
+      "cosine_node": 0.031913475357808196,
+      "frobenius_adj": 0.4668476306427686,
+      "frobenius_combined": 2.2060605821873502,
+      "frobenius_node": 2.1560975353735787
+    },
+    {
+      "cosine_adj": 0.008555167998426372,
+      "cosine_combined": 0.002496191721655494,
+      "cosine_node": 0.0019074918221525516,
+      "frobenius_adj": 0.29299534689953505,
+      "frobenius_combined": 0.6382432184827092,
+      "frobenius_node": 0.5670168715606163
+    }
+  ],
+  "drift_primary": [
+    0.9100694300089175,
+    0.3829076997626399,
+    2.2060605821873502,
+    0.6382432184827092
+  ],
+  "heldout": [
+    {
+      "cosine_adj": 0.27291910997199464,
+      "cosine_combined": 0.02645720810132668,
+      "cosine_node": 0.0026085076437333266,
+      "frobenius_adj": 1.732052672482899,
+      "frobenius_combined": 1.820138860017835,
+      "frobenius_node": 0.559373765466232
+    },
+    {
+      "cosine_adj": 0.09574525089144548,
+      "cosine_combined": 0.010610322706830821,
+      "cosine_node": 0.004792948778019501,
+      "frobenius_adj": 0.8660259516233662,
+      "frobenius_combined": 1.1487230992879196,
+      "frobenius_node": 0.7546945143251585
+    },
+    {
+      "cosine_adj": 0.22247587105682898,
+      "cosine_combined": 0.24160139413789938,
+      "cosine_node": 0.24244600612534717,
+      "frobenius_adj": 1.8673905225710743,
+      "frobenius_combined": 8.824242328749401,
+      "frobenius_node": 8.624390141494317
+    },
+    {
+      "cosine_adj": 0.1322302697558102,
+      "cosine_combined": 0.07176653470893646,
+      "cosine_node": 0.05829229490457166,
+      "frobenius_adj": 1.4649767344976754,
+      "frobenius_combined": 3.1912160924135464,
+      "frobenius_node": 2.8350843578030815
+    }
+  ],
+  "heldout_primary": [
+    1.820138860017835,
+    1.1487230992879196,
+    8.824242328749401,
+    3.1912160924135464
+  ],
+  "n_sessions": 5,
+  "primary_metric": "frobenius_combined",
+  "spearman_heldout_vs_k": {
+    "p": 0.4,
+    "rho": 0.6000000000000001
+  },
+  "stabilisation_k": null
+}

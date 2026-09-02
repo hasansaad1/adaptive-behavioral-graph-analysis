@@ -1,0 +1,732 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "biz.binarysolutions.vatcalculator",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_hash": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "hint": "Continue button1 Button",
+      "visit_count": 17
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 0
+    },
+    {
+      "screen_hash": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "hint": "Show dropdown menu text_input_end_icon ImageButton · Show support buttonShowSupport Button · Base editTextBase EditText · Tax editTextTax EditText · Total editTextTotal EditText · Albania spinnerCountry EditText · 6% spinnerRate Spinner",
+      "visit_count": 22
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1687,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|"
+    },
+    {
+      "step": 2,
+      "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 1096,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 3,
+      "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1687,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|"
+    },
+    {
+      "step": 4,
+      "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 1096,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 5,
+      "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1687,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|"
+    },
+    {
+      "step": 6,
+      "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 1096,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 7,
+      "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1687,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|"
+    },
+    {
+      "step": 8,
+      "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 1096,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 9,
+      "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1687,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|"
+    },
+    {
+      "step": 10,
+      "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 1096,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 11,
+      "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1687,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|"
+    },
+    {
+      "step": 12,
+      "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 1096,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 13,
+      "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1687,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|"
+    },
+    {
+      "step": 14,
+      "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 1096,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 15,
+      "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1687,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|"
+    },
+    {
+      "step": 16,
+      "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 1096,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 17,
+      "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1687,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|"
+    },
+    {
+      "step": 18,
+      "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 1096,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 19,
+      "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1687,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|"
+    },
+    {
+      "step": 20,
+      "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1687,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|"
+    },
+    {
+      "step": 21,
+      "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 1096,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 22,
+      "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1687,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|"
+    },
+    {
+      "step": 23,
+      "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 1096,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 24,
+      "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1687,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|"
+    },
+    {
+      "step": 25,
+      "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 1096,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 26,
+      "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1687,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "visible_on": [
+          "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f"
+        ],
+        "attempts": 14,
+        "successes": 14,
+        "last_from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "last_to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7"
+      },
+      "nav:biz.binarysolutions.vatcalculator:id/buttonShowSupport|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "visible_on": [
+          "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7"
+        ],
+        "attempts": 12,
+        "successes": 12,
+        "last_from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  }
+}

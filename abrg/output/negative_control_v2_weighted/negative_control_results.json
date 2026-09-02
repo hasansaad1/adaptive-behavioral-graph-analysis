@@ -1,0 +1,132 @@
+{
+  "timestamp_utc": "2026-07-29T09:53:41.145754+00:00",
+  "dataset": "v2",
+  "seed": 42,
+  "use_edge_weight": true,
+  "test_apps": [
+    "anonvpn.anon_next.android",
+    "app.ladefuchs.android",
+    "app.michaelwuensch.bitbanana",
+    "app.organicmaps",
+    "bluepie.ad_silence",
+    "bus.chio.wishmaster",
+    "ca.rmen.nounours",
+    "ch.joshuah.bibleverseapp"
+  ],
+  "test_snapshots": 125,
+  "observed_directed_pairs": 82,
+  "impossible_directed_pairs": 380,
+  "note": "Eval uses deterministic recon_loss (all directed non-edges as negatives). edge_weight_in_encoder=True. Per-cell AUC uses n_eligible benign vs n_eligible corrupted (same support). Corruptions are never pooled.",
+  "models": {
+    "normalized_v021": {
+      "label": "normalized_v021",
+      "normalize": true,
+      "gae_uses_edge_weight": true,
+      "benign_baseline_median": 0.6527882218360901,
+      "benign_baseline_iqr": 0.08762010931968689,
+      "benign_n": 125,
+      "cells": {
+        "edge_shuffle": {
+          "n_eligible": 48,
+          "n_test_pool": 125,
+          "skipped_unchanged": 77,
+          "n": 48,
+          "benign_median": 0.671502023935318,
+          "corrupted_median": 0.7480946183204651,
+          "median_delta": 0.0,
+          "iqr_delta": 0.4038562774658203,
+          "auc": 0.6399739583333334,
+          "auc_note": "AUC uses same n_eligible for benign and corrupted (not full test pool)",
+          "win_rate": 0.4583333333333333,
+          "wins": 22,
+          "wilcoxon_p_greater": 1.4543399556109113e-05
+        },
+        "impossible_edge": {
+          "n_eligible": 125,
+          "n_test_pool": 125,
+          "skipped_unchanged": 0,
+          "n": 125,
+          "benign_median": 0.6527882218360901,
+          "corrupted_median": 0.8401501774787903,
+          "median_delta": 0.22831696271896362,
+          "iqr_delta": 0.1309005320072174,
+          "auc": 0.9445119999999999,
+          "auc_note": "AUC uses same n_eligible for benign and corrupted (not full test pool)",
+          "win_rate": 1.0,
+          "wins": 125,
+          "wilcoxon_p_greater": 1.4113386252633165e-22
+        },
+        "weight_randomization": {
+          "n_eligible": 51,
+          "n_test_pool": 125,
+          "skipped_unchanged": 74,
+          "n": 51,
+          "benign_median": 0.6742478013038635,
+          "corrupted_median": 0.6718011498451233,
+          "median_delta": 0.0,
+          "iqr_delta": 0.0007861852645874023,
+          "auc": 0.487120338331411,
+          "auc_note": "AUC uses same n_eligible for benign and corrupted (not full test pool)",
+          "win_rate": 0.09803921568627451,
+          "wins": 5,
+          "wilcoxon_p_greater": 0.9979222174050257
+        }
+      }
+    },
+    "raw_pre_v021": {
+      "label": "raw_pre_v021",
+      "normalize": false,
+      "gae_uses_edge_weight": true,
+      "benign_baseline_median": 0.6471787095069885,
+      "benign_baseline_iqr": 0.08182567358016968,
+      "benign_n": 125,
+      "cells": {
+        "edge_shuffle": {
+          "n_eligible": 48,
+          "n_test_pool": 125,
+          "skipped_unchanged": 77,
+          "n": 48,
+          "benign_median": 0.6707043051719666,
+          "corrupted_median": 0.7489119172096252,
+          "median_delta": 0.0,
+          "iqr_delta": 0.4035768359899521,
+          "auc": 0.6338975694444444,
+          "auc_note": "AUC uses same n_eligible for benign and corrupted (not full test pool)",
+          "win_rate": 0.4375,
+          "wins": 21,
+          "wilcoxon_p_greater": 2.7145130666285075e-05
+        },
+        "impossible_edge": {
+          "n_eligible": 125,
+          "n_test_pool": 125,
+          "skipped_unchanged": 0,
+          "n": 125,
+          "benign_median": 0.6471787095069885,
+          "corrupted_median": 1.1180346012115479,
+          "median_delta": 0.32810866832733154,
+          "iqr_delta": 0.4241611361503601,
+          "auc": 0.966464,
+          "auc_note": "AUC uses same n_eligible for benign and corrupted (not full test pool)",
+          "win_rate": 1.0,
+          "wins": 125,
+          "wilcoxon_p_greater": 1.4798383983098572e-22
+        },
+        "weight_randomization": {
+          "n_eligible": 108,
+          "n_test_pool": 125,
+          "skipped_unchanged": 17,
+          "n": 108,
+          "benign_median": 0.6071600317955017,
+          "corrupted_median": 0.6069234609603882,
+          "median_delta": 0.0,
+          "iqr_delta": 9.864568710327148e-06,
+          "auc": 0.5079732510288065,
+          "auc_note": "AUC uses same n_eligible for benign and corrupted (not full test pool)",
+          "win_rate": 0.35185185185185186,
+          "wins": 38,
+          "wilcoxon_p_greater": 0.07485450173845022
+        }
+      }
+    }
+  }
+}

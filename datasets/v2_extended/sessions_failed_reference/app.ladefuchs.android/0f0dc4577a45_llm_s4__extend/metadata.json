@@ -1,0 +1,79 @@
+{
+  "active_categories": [
+    "crypto",
+    "file_io"
+  ],
+  "analysis_status": "partial:bad_handoff",
+  "analyze_exit_status": 0,
+  "app_id": "app.ladefuchs.android",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T00:23:12.608000Z",
+  "end_timestamp_ms": 1786666992608,
+  "event_counts": {
+    "mapped": 69,
+    "mapped_rate": 0.014889943892965041,
+    "total": 4634
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "0f0dc4577a45_llm_s4__extend",
+  "failure_reason": "analyze_status:partial:bad_handoff,sim_not_success",
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "File.delete",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 2,
+  "reference_tier_pass": false,
+  "session_id": "0f0dc4577a45_llm_s4",
+  "session_index_within_app": 4,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/0f0dc4577a45_app.ladefuchs.android/dynamic/llm/session_4/app.ladefuchs.android_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/0f0dc4577a45_app.ladefuchs.android/dynamic/llm/session_4/app.ladefuchs.android_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T00:19:40.473000Z",
+  "start_timestamp_ms": 1786666780473,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 4634,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 20,
+    "n_with_timestamp": 4634,
+    "unparseable_line_numbers_sample": [
+      1503,
+      1504,
+      1505,
+      1506,
+      1507,
+      1508,
+      1509,
+      1510,
+      1511,
+      1512,
+      4212,
+      4213,
+      4214,
+      4215,
+      4216,
+      4217,
+      4218,
+      4219,
+      4220,
+      4221
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 212.266
+}

@@ -1,0 +1,321 @@
+{
+  "kind": "desc_seed",
+  "run_id": "desc_seed",
+  "axis": "description-seeded reference at k=0 (Chapter C)",
+  "cli_module": "abrg.desc_seed",
+  "chapter": "C",
+  "frozen_inputs_policy": {
+    "llama3_2_predictions": "frozen_not_regenerated",
+    "reason": "Ollama output is not guaranteed reproducible across versions even at temperature 0."
+  },
+  "frozen_inputs": {
+    "fdroid_index": {
+      "source_url": "https://f-droid.org/repo/index-v2.json",
+      "index_timestamp": "2026-08-31T08:25:43.128000+00:00",
+      "license": "AGPL-3.0",
+      "fetch_date": "2026-08-31"
+    },
+    "n_apps_analysed": 53,
+    "n_apps_census": 59,
+    "excluded_apps": [
+      "ai.susi",
+      "app.fedilab.nitterizeme",
+      "at.mikenet.serbianlatintocyrillic",
+      "br.odb.knights",
+      "buet.rafi.dictionary",
+      "cat.jordihernandez.cinecat"
+    ],
+    "app_ids": [
+      "InfinityLoop1309.NewPipeEnhanced",
+      "a2dp.Vol",
+      "ac.robinson.mediaphone",
+      "ademar.bitac",
+      "agrigolo.opendrummer",
+      "anonvpn.anon_next.android",
+      "app.alextran.immich",
+      "app.comaps.fdroid",
+      "app.crescentcash.src",
+      "app.fedilab.castlab",
+      "app.fedilab.mobilizon",
+      "app.fedilab.nitterizemelite",
+      "app.hypostats",
+      "app.ladefuchs.android",
+      "app.michaelwuensch.bitbanana",
+      "app.notesr",
+      "app.organicmaps",
+      "app.pachli",
+      "app.prav.client",
+      "app.tice.TICE.production",
+      "app.tujice.jergasColombia",
+      "app.udderance",
+      "at.linuxtage.Eventfahrplan",
+      "at.manuelbichler.octalsuntime",
+      "at.tomtasche.reader",
+      "au.com.wallaceit.reddinator",
+      "barilyuk.batterytemperature",
+      "be.digitalia.fosdem",
+      "be.humanoids.webthingify",
+      "be.mygod.vpnhotspot_foss",
+      "biz.binarysolutions.mindfulnessmeditation",
+      "biz.binarysolutions.stress",
+      "biz.binarysolutions.vatcalculator",
+      "bluepie.ad_silence",
+      "btools.routingapp",
+      "bus.chio.wishmaster",
+      "ca.andries.portknocker",
+      "ca.chancehorizon.paseo",
+      "ca.farrelltonsolar.classic",
+      "ca.momi.lift",
+      "ca.ramzan.delist",
+      "ca.rmen.android.frenchcalendar",
+      "ca.rmen.android.scrumchatter",
+      "ca.rmen.nounours",
+      "cc.kafuu.bilidownload",
+      "cf.playhi.freezeyou",
+      "ch.abertschi.waterme.water_me",
+      "ch.bubendorf.locusaddon.gsakdatabase",
+      "ch.hgdev.toposuite",
+      "ch.joshuah.bibleverseapp",
+      "ch.mydoli.focal",
+      "cityfreqs.com.pilfershushjammer",
+      "cl.coders.faketraveler"
+    ],
+    "prompt_template_sha256": "ee169903727c5a52b37d5643912ed92ffc7f0f050ff60dda7f11476c72e201c5",
+    "prompt_template_path": "prompt_template.txt",
+    "observed_matrix": "observed/observed_59x22.csv",
+    "predictions_temp00": "predictions/seed_{seed}.json",
+    "predictions_temp07": "predictions/temp07_seed_{seed}.json",
+    "model": "llama3.2",
+    "backend": "ollama",
+    "output_format": "json_schema_constrained",
+    "category_definitions": "abrg/api_category_map.py",
+    "similarity_metric_primary": "cosine_similarity",
+    "decoding": {
+      "primary": {
+        "temperature": 0.0,
+        "seeds": [
+          42,
+          43,
+          44,
+          45,
+          46
+        ]
+      },
+      "stability_arm": {
+        "temperature": 0.7,
+        "seeds": [
+          42,
+          43,
+          44,
+          45,
+          46
+        ]
+      }
+    },
+    "description_chars": {
+      "n_with_nonempty_description": 53,
+      "median": 738,
+      "q1": 451.0,
+      "q3": 1040.5,
+      "iqr": 589.5,
+      "min": 42,
+      "max": 4000,
+      "median_including_empty": 714.0
+    }
+  },
+  "expected": {
+    "self_cross": {
+      "cosine_temp00_auc": 0.5005271517375469,
+      "cosine_temp07_auc": 0.5151196702905496,
+      "mean_self_cosine_temp00": 0.39526904871433366,
+      "mean_cross_cosine_temp00": 0.38601035944173,
+      "population_mean_profile_temp00_auc": 0.49999999999999994,
+      "mass_active_over_all": 0.516280088725799,
+      "jaccard_threshold_0_5": 0.5068118958293397,
+      "active_minus_inactive_mean": 0.5378830407755292
+    },
+    "ceiling": {
+      "distinct_profiles": 34,
+      "n_duplicate_groups": 6,
+      "duplicate_group_sizes": [
+        8,
+        7,
+        4,
+        2,
+        2,
+        2
+      ],
+      "apps_in_duplicate_groups": 25,
+      "max_attainable_auc": 0.978955007256894,
+      "observed_fraction_of_ceiling": 0.5112871868749739
+    },
+    "within_app": {
+      "model_median": 0.725,
+      "model_mean": 0.7062692918941824,
+      "model_iqr": 0.2220238095238095,
+      "model_min": 0.3859649122807018,
+      "model_max": 0.9583333333333333,
+      "model_above_0_5": 48,
+      "prior_median": 0.9523809523809523,
+      "prior_mean": 0.9429101680394104,
+      "prior_iqr": 0.09411764705882353,
+      "prior_min": 0.725,
+      "prior_max": 1.0,
+      "prior_above_0_5": 53,
+      "median_delta_model_minus_prior": -0.23809523809523803,
+      "prior_wins": 50,
+      "model_beats_prior": 3,
+      "spearman_rho_delta_vs_prior_baseline": -0.1673158622855381,
+      "spearman_p_value": 0.231113289861786
+    },
+    "per_category": {
+      "accounts": {
+        "fire_count": 0,
+        "mean_predicted": 0.4354716981132075,
+        "auc": null,
+        "status": "undefined"
+      },
+      "audio": {
+        "fire_count": 1,
+        "mean_predicted": 0.34509433962264147,
+        "auc": 1.0,
+        "status": "unstable"
+      },
+      "camera": {
+        "fire_count": 1,
+        "mean_predicted": 0.4675471698113207,
+        "auc": 0.6346153846153846,
+        "status": "unstable"
+      },
+      "clipboard": {
+        "fire_count": 0,
+        "mean_predicted": 0.15962264150943398,
+        "auc": null,
+        "status": "undefined"
+      },
+      "content_access": {
+        "fire_count": 3,
+        "mean_predicted": 0.6247169811320754,
+        "auc": 0.48666666666666664,
+        "status": "unstable"
+      },
+      "crypto": {
+        "fire_count": 12,
+        "mean_predicted": 0.29415094339622644,
+        "auc": 0.45630081300813014,
+        "status": "stable"
+      },
+      "database": {
+        "fire_count": 8,
+        "mean_predicted": 0.48150943396226425,
+        "auc": 0.5166666666666667,
+        "status": "stable"
+      },
+      "device_info": {
+        "fire_count": 0,
+        "mean_predicted": 0.36905660377358496,
+        "auc": null,
+        "status": "undefined"
+      },
+      "dynamic_code_loading": {
+        "fire_count": 0,
+        "mean_predicted": 0.19603773584905662,
+        "auc": null,
+        "status": "undefined"
+      },
+      "file_io": {
+        "fire_count": 39,
+        "mean_predicted": 0.4832075471698114,
+        "auc": 0.4203296703296704,
+        "status": "stable"
+      },
+      "ipc_intents": {
+        "fire_count": 17,
+        "mean_predicted": 0.5283018867924528,
+        "auc": 0.5375816993464052,
+        "status": "stable"
+      },
+      "location": {
+        "fire_count": 0,
+        "mean_predicted": 0.28584905660377363,
+        "auc": null,
+        "status": "undefined"
+      },
+      "media": {
+        "fire_count": 0,
+        "mean_predicted": 0.4543396226415094,
+        "auc": null,
+        "status": "undefined"
+      },
+      "native_code": {
+        "fire_count": 8,
+        "mean_predicted": 0.2045283018867924,
+        "auc": 0.46944444444444444,
+        "status": "stable"
+      },
+      "network": {
+        "fire_count": 10,
+        "mean_predicted": 0.5643396226415095,
+        "auc": 0.5,
+        "status": "stable"
+      },
+      "notifications": {
+        "fire_count": 2,
+        "mean_predicted": 0.28773584905660377,
+        "auc": 0.23039215686274508,
+        "status": "unstable"
+      },
+      "package_manager": {
+        "fire_count": 1,
+        "mean_predicted": 0.39433962264150946,
+        "auc": 0.7596153846153846,
+        "status": "unstable"
+      },
+      "process": {
+        "fire_count": 2,
+        "mean_predicted": 0.30150943396226415,
+        "auc": 0.5098039215686274,
+        "status": "unstable"
+      },
+      "sms": {
+        "fire_count": 0,
+        "mean_predicted": 0.15490566037735848,
+        "auc": null,
+        "status": "undefined"
+      },
+      "storage": {
+        "fire_count": 40,
+        "mean_predicted": 0.5467924528301888,
+        "auc": 0.5076923076923077,
+        "status": "stable"
+      },
+      "telephony": {
+        "fire_count": 0,
+        "mean_predicted": 0.33,
+        "auc": null,
+        "status": "undefined"
+      },
+      "webview": {
+        "fire_count": 6,
+        "mean_predicted": 0.549433962264151,
+        "auc": 0.5443262411347518,
+        "status": "stable"
+      }
+    },
+    "stability_temp00": {
+      "mean_per_app_per_category_std": 0.0,
+      "mean_pairwise_seed_correlation": 1.0
+    },
+    "stability_temp07": {
+      "mean_per_app_per_category_std": 0.16150497174439854,
+      "mean_pairwise_seed_correlation": 0.5026525182129615,
+      "mean_absolute_displacement_from_temp00": 0.14755811320754716,
+      "correlation_temp07_mean_vs_temp00": 0.7860126136336429
+    }
+  },
+  "atol": 0.001,
+  "library_versions": {
+    "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+    "platform": "macOS-26.3.1-arm64-arm-64bit-Mach-O"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "active_categories": [
+    "audio",
+    "crypto",
+    "ipc_intents",
+    "location",
+    "network",
+    "storage"
+  ],
+  "app_id": "ai.susi",
+  "batch": "original",
+  "end_timestamp": "2026-07-12T21:21:10.953000Z",
+  "end_timestamp_ms": 1783891270953,
+  "event_counts": {
+    "mapped": 421,
+    "mapped_rate": 0.057310100735093926,
+    "total": 7346
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "6f8510108099_llm_s3__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "Context.bindService",
+    "LocationManager.requestLocationUpdates",
+    "MediaRecorder.setAudioSource",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "SharedPreferences.apply",
+    "SharedPreferences.getString",
+    "Socket.connect",
+    "okhttp3.RealCall.enqueue"
+  ],
+  "n_active_nodes": 6,
+  "n_edges": 23,
+  "reference_tier_pass": true,
+  "session_id": "6f8510108099_llm_s3",
+  "session_index_within_app": 3,
+  "source_frida_path": "datasets/v2/sessions/6f8510108099_llm_s3__ai.susi/ai.susi_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/6f8510108099_llm_s3__ai.susi/ai.susi_dynamic_metadata.json",
+  "start_timestamp": "2026-07-12T21:13:17.074000Z",
+  "start_timestamp_ms": 1783890797074,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 7346,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 30,
+    "n_with_timestamp": 7346,
+    "unparseable_line_numbers_sample": [
+      7023,
+      7024,
+      7025,
+      7026,
+      7027,
+      7028,
+      7029,
+      7030,
+      7031,
+      7032,
+      7162,
+      7163,
+      7164,
+      7165,
+      7166,
+      7167,
+      7168,
+      7169,
+      7170,
+      7171
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 473.879
+}

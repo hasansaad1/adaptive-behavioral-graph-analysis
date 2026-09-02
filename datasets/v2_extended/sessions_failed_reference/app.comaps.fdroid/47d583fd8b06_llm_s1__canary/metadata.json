@@ -1,0 +1,86 @@
+{
+  "active_categories": [
+    "crypto",
+    "file_io",
+    "native_code",
+    "network",
+    "storage"
+  ],
+  "analysis_status": "partial:bad_handoff",
+  "analyze_exit_status": "canary",
+  "app_id": "app.comaps.fdroid",
+  "batch": "canary",
+  "end_timestamp": "2026-08-13T22:32:29.176000Z",
+  "end_timestamp_ms": 1786660349176,
+  "event_counts": {
+    "mapped": 153,
+    "mapped_rate": 0.19029850746268656,
+    "total": 804
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "47d583fd8b06_llm_s1__canary",
+  "failure_reason": "analyze_status:partial:bad_handoff,sim_not_success",
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "SharedPreferences.apply",
+    "SharedPreferences.getString",
+    "Socket.connect",
+    "System.loadLibrary",
+    "URL.openConnection"
+  ],
+  "n_active_nodes": 5,
+  "n_edges": 6,
+  "reference_tier_pass": false,
+  "session_id": "47d583fd8b06_llm_s1",
+  "session_index_within_app": 4,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_canary/app.comaps.fdroid/47d583fd8b06_app.comaps.fdroid/dynamic/llm/session_1/app.comaps.fdroid_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_canary/app.comaps.fdroid/47d583fd8b06_app.comaps.fdroid/dynamic/llm/session_1/app.comaps.fdroid_dynamic_metadata.json",
+  "start_timestamp": "2026-08-13T22:28:42.534000Z",
+  "start_timestamp_ms": 1786660122534,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 804,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 71,
+    "n_with_timestamp": 804,
+    "unparseable_line_numbers_sample": [
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      443,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      452,
+      453
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 226.642
+}

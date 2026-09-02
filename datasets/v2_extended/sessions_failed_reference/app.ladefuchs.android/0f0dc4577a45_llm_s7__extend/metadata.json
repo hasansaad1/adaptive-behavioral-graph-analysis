@@ -1,0 +1,83 @@
+{
+  "active_categories": [
+    "crypto",
+    "file_io",
+    "native_code",
+    "network"
+  ],
+  "analysis_status": "partial:ux_quality_gate",
+  "analyze_exit_status": 0,
+  "app_id": "app.ladefuchs.android",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T18:38:14.623000Z",
+  "end_timestamp_ms": 1786732694623,
+  "event_counts": {
+    "mapped": 123,
+    "mapped_rate": 0.05973773676542011,
+    "total": 2059
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "0f0dc4577a45_llm_s7__extend",
+  "failure_reason": "analyze_status:partial:ux_quality_gate,sim_not_success",
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "File.delete",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "System.loadLibrary",
+    "URL.openConnection"
+  ],
+  "n_active_nodes": 4,
+  "n_edges": 6,
+  "reference_tier_pass": false,
+  "session_id": "0f0dc4577a45_llm_s7",
+  "session_index_within_app": 7,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/0f0dc4577a45_app.ladefuchs.android/dynamic/llm/session_7/app.ladefuchs.android_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/0f0dc4577a45_app.ladefuchs.android/dynamic/llm/session_7/app.ladefuchs.android_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T18:30:21.951000Z",
+  "start_timestamp_ms": 1786732221951,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 2059,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 40,
+    "n_with_timestamp": 2059,
+    "unparseable_line_numbers_sample": [
+      1779,
+      1780,
+      1781,
+      1782,
+      1783,
+      1784,
+      1785,
+      1786,
+      1787,
+      1788,
+      1860,
+      1861,
+      1862,
+      1863,
+      1864,
+      1865,
+      1866,
+      1867,
+      1868,
+      1869
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 472.8
+}

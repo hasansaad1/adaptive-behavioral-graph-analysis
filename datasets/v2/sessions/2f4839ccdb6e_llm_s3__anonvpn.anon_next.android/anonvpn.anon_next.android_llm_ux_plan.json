@@ -1,0 +1,669 @@
+{
+  "goals": [
+    "Tap connect b select",
+    "Tap anon iv anonymometer help",
+    "Tap Open navigation drawer",
+    "Tap Close navigation drawer"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap connect b select",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap anon iv anonymometer help",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Open navigation drawer",
+      "nav_token": "",
+      "target_keys": [
+        "nav:|Open navigation drawer"
+      ],
+      "observed_screen_hashes": [
+        "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+        "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "f254a246ca62732fc7fcaa5a44f28ac2cbc55ba51a633f46ec82e80a9b35bfd0"
+      ],
+      "observed_screen_hints": [
+        "anon_iv_anonymometer_help ImageView · OFF anon_switch Switch · Open navigation drawer ImageButton · More options ImageView",
+        "SELECT connect_b_select Button · Open navigation drawer ImageButton · More options ImageView",
+        "anon_iv_anonymometer_help ImageView · OFF anon_switch Switch · anonymity LinearLayoutCompat · connection LinearLayoutCompat · Close navigation drawer ImageButton · More options ImageView"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Close navigation drawer",
+      "nav_token": "",
+      "target_keys": [
+        "nav:|Close navigation drawer"
+      ],
+      "observed_screen_hashes": [
+        "f254a246ca62732fc7fcaa5a44f28ac2cbc55ba51a633f46ec82e80a9b35bfd0",
+        "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f"
+      ],
+      "observed_screen_hints": [
+        "anon_iv_anonymometer_help ImageView · OFF anon_switch Switch · anonymity LinearLayoutCompat · connection LinearLayoutCompat · Close navigation drawer ImageButton · More options ImageView",
+        "anon_iv_anonymometer_help ImageView · OFF anon_switch Switch · Open navigation drawer ImageButton · More options ImageView"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f": "anon_iv_anonymometer_help ImageView · OFF anon_switch Switch · Open navigation drawer ImageButton · More options ImageView",
+    "f7c2640718508b0757a0ef8186701cc0e459714166facbf6af1d51d310aa474b": "TUTORIAL WIEDERHOLEN help_button_reset_tutorial Button · Navigate up ImageButton",
+    "986c4a2363648f1f42f4a76c3970da814c0bd4dfd64e388acc7499e6c771f0f8": "LET'S START! welcome_b_continue Button · MAYBE LATER welcome_b_skip Button",
+    "687f5c4b662c4d182963cf8aab5032314457408ce920caa7d5feef625a06c984": "NEXT tut_b_continue Button",
+    "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b": "SELECT connect_b_select Button · NEXT tut_b_continue Button · tut_b_back ImageButton",
+    "f254a246ca62732fc7fcaa5a44f28ac2cbc55ba51a633f46ec82e80a9b35bfd0": "anon_iv_anonymometer_help ImageView · OFF anon_switch Switch · anonymity LinearLayoutCompat · connection LinearLayoutCompat · Close navigation drawer ImageButton · More options ImageView",
+    "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae": "SELECT connect_b_select Button · Open navigation drawer ImageButton · More options ImageView",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": ""
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "nav:anonvpn.anon_next.android:id/anon_iv_anonymometer_help|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "anonvpn.anon_next.android:id/anon_iv_anonymometer_help",
+        "target_content_desc": "",
+        "visible_on": [
+          "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+          "f254a246ca62732fc7fcaa5a44f28ac2cbc55ba51a633f46ec82e80a9b35bfd0"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+        "last_to": "f7c2640718508b0757a0ef8186701cc0e459714166facbf6af1d51d310aa474b"
+      },
+      "nav:|Open navigation drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Open navigation drawer",
+        "visible_on": [
+          "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+          "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+        "last_to": "f254a246ca62732fc7fcaa5a44f28ac2cbc55ba51a633f46ec82e80a9b35bfd0"
+      },
+      "tab:anonvpn.anon_next.android:id/help_button_reset_tutorial|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "anonvpn.anon_next.android:id/help_button_reset_tutorial",
+        "target_content_desc": "",
+        "visible_on": [
+          "f7c2640718508b0757a0ef8186701cc0e459714166facbf6af1d51d310aa474b"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f7c2640718508b0757a0ef8186701cc0e459714166facbf6af1d51d310aa474b",
+        "last_to": "986c4a2363648f1f42f4a76c3970da814c0bd4dfd64e388acc7499e6c771f0f8"
+      },
+      "nav:anonvpn.anon_next.android:id/help_button_reset_tutorial|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "anonvpn.anon_next.android:id/help_button_reset_tutorial",
+        "target_content_desc": "",
+        "visible_on": [
+          "f7c2640718508b0757a0ef8186701cc0e459714166facbf6af1d51d310aa474b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:anonvpn.anon_next.android:id/welcome_b_continue|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "anonvpn.anon_next.android:id/welcome_b_continue",
+        "target_content_desc": "",
+        "visible_on": [
+          "986c4a2363648f1f42f4a76c3970da814c0bd4dfd64e388acc7499e6c771f0f8"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "986c4a2363648f1f42f4a76c3970da814c0bd4dfd64e388acc7499e6c771f0f8",
+        "last_to": "687f5c4b662c4d182963cf8aab5032314457408ce920caa7d5feef625a06c984"
+      },
+      "tab:anonvpn.anon_next.android:id/welcome_b_skip|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "anonvpn.anon_next.android:id/welcome_b_skip",
+        "target_content_desc": "",
+        "visible_on": [
+          "986c4a2363648f1f42f4a76c3970da814c0bd4dfd64e388acc7499e6c771f0f8"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:anonvpn.anon_next.android:id/welcome_b_continue|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "anonvpn.anon_next.android:id/welcome_b_continue",
+        "target_content_desc": "",
+        "visible_on": [
+          "986c4a2363648f1f42f4a76c3970da814c0bd4dfd64e388acc7499e6c771f0f8"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:anonvpn.anon_next.android:id/welcome_b_skip|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "anonvpn.anon_next.android:id/welcome_b_skip",
+        "target_content_desc": "",
+        "visible_on": [
+          "986c4a2363648f1f42f4a76c3970da814c0bd4dfd64e388acc7499e6c771f0f8"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:anonvpn.anon_next.android:id/tut_b_continue|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "anonvpn.anon_next.android:id/tut_b_continue",
+        "target_content_desc": "",
+        "visible_on": [
+          "687f5c4b662c4d182963cf8aab5032314457408ce920caa7d5feef625a06c984",
+          "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "687f5c4b662c4d182963cf8aab5032314457408ce920caa7d5feef625a06c984",
+        "last_to": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b"
+      },
+      "nav:anonvpn.anon_next.android:id/tut_b_continue|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "anonvpn.anon_next.android:id/tut_b_continue",
+        "target_content_desc": "",
+        "visible_on": [
+          "687f5c4b662c4d182963cf8aab5032314457408ce920caa7d5feef625a06c984",
+          "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:anonvpn.anon_next.android:id/connect_b_select|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "anonvpn.anon_next.android:id/connect_b_select",
+        "target_content_desc": "",
+        "visible_on": [
+          "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+          "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae"
+        ],
+        "attempts": 24,
+        "successes": 24,
+        "last_from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "last_to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae"
+      },
+      "nav:anonvpn.anon_next.android:id/connect_b_select|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "anonvpn.anon_next.android:id/connect_b_select",
+        "target_content_desc": "",
+        "visible_on": [
+          "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+          "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:anonvpn.anon_next.android:id/tut_b_back|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "anonvpn.anon_next.android:id/tut_b_back",
+        "target_content_desc": "",
+        "visible_on": [
+          "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Close navigation drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Close navigation drawer",
+        "visible_on": [
+          "f254a246ca62732fc7fcaa5a44f28ac2cbc55ba51a633f46ec82e80a9b35bfd0"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f254a246ca62732fc7fcaa5a44f28ac2cbc55ba51a633f46ec82e80a9b35bfd0",
+        "last_to": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f"
+      },
+      "tab:|Navigate up": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f7c2640718508b0757a0ef8186701cc0e459714166facbf6af1d51d310aa474b",
+        "last_to": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f"
+      },
+      "tab:anonvpn.anon_next.android:id/anon_switch|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "anonvpn.anon_next.android:id/anon_switch",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+        "last_to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae"
+      },
+      "tab:|More options": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae"
+      }
+    },
+    "edges": [
+      {
+        "from": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+        "to": "f7c2640718508b0757a0ef8186701cc0e459714166facbf6af1d51d310aa474b",
+        "target_key": "nav:anonvpn.anon_next.android:id/anon_iv_anonymometer_help|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "f7c2640718508b0757a0ef8186701cc0e459714166facbf6af1d51d310aa474b",
+        "to": "986c4a2363648f1f42f4a76c3970da814c0bd4dfd64e388acc7499e6c771f0f8",
+        "target_key": "tab:anonvpn.anon_next.android:id/help_button_reset_tutorial|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "986c4a2363648f1f42f4a76c3970da814c0bd4dfd64e388acc7499e6c771f0f8",
+        "to": "687f5c4b662c4d182963cf8aab5032314457408ce920caa7d5feef625a06c984",
+        "target_key": "tab:anonvpn.anon_next.android:id/welcome_b_continue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "687f5c4b662c4d182963cf8aab5032314457408ce920caa7d5feef625a06c984",
+        "to": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "target_key": "tab:anonvpn.anon_next.android:id/tut_b_continue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "to": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "to": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "to": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "to": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "to": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "to": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "to": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "to": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "to": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "to": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "to": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "to": "869010ef68d14831ffe4cf233799064595429a6fd367f8d1f3a08375d7a5ac1b",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+        "to": "f254a246ca62732fc7fcaa5a44f28ac2cbc55ba51a633f46ec82e80a9b35bfd0",
+        "target_key": "nav:|Open navigation drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "f254a246ca62732fc7fcaa5a44f28ac2cbc55ba51a633f46ec82e80a9b35bfd0",
+        "to": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+        "target_key": "nav:|Close navigation drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+        "to": "f7c2640718508b0757a0ef8186701cc0e459714166facbf6af1d51d310aa474b",
+        "target_key": "nav:anonvpn.anon_next.android:id/anon_iv_anonymometer_help|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "f7c2640718508b0757a0ef8186701cc0e459714166facbf6af1d51d310aa474b",
+        "to": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+        "to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "target_key": "tab:anonvpn.anon_next.android:id/anon_switch|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "to": "909b31c84a4de972a3da09c33bd23b7bc14809dc54c8a792abb7cea861969bae",
+        "target_key": "tab:anonvpn.anon_next.android:id/connect_b_select|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+        "to": "f254a246ca62732fc7fcaa5a44f28ac2cbc55ba51a633f46ec82e80a9b35bfd0",
+        "target_key": "nav:|Open navigation drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+    "root_screen_signature": "b7c99656bce1d3a5d12cb8688023fc917806ff2498c401729a7c86ffe0fd81e5",
+    "root_screen_hint": "anon_iv_anonymometer_help ImageView · OFF anon_switch Switch · Open navigation drawer ImageButton · More options ImageView",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "anonvpn.anon_next.android",
+          "screen_hash": "f254a246ca62732fc7fcaa5a44f28ac2cbc55ba51a633f46ec82e80a9b35bfd0",
+          "interactive_count": 6,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "1abe9b19d872cda83c268ae044a3b767b85b1db254cc48fd07acbd94f10cec22",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 2,
+          "strategy": "start_root_activity_clear_task",
+          "clear_task": true,
+          "foreground_package": "anonvpn.anon_next.android",
+          "screen_hash": "f254a246ca62732fc7fcaa5a44f28ac2cbc55ba51a633f46ec82e80a9b35bfd0",
+          "interactive_count": 6,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "1abe9b19d872cda83c268ae044a3b767b85b1db254cc48fd07acbd94f10cec22",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 3,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "anonvpn.anon_next.android",
+          "screen_hash": "427f79315dde27c41ad9a942b1a1fd37bdf8ff683f0d4df2d056ecbb8d09db2f",
+          "interactive_count": 4,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "b7c99656bce1d3a5d12cb8688023fc917806ff2498c401729a7c86ffe0fd81e5",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app by tapping the 'LET'S START!' welcome button, then navigate to the connection settings by opening the navigation drawer and selecting the 'SELECT connect_b_select' button. After that, they proceed with the tutorial by tapping the 'help_button_reset_tutorial' button. The user then navigates up to exit the tutorial. Users may also occasionally tap the 'anon_iv_anonymometer_help' image view to toggle anonymity mode.",
+    "reason": "ux_goals_complete"
+  }
+}

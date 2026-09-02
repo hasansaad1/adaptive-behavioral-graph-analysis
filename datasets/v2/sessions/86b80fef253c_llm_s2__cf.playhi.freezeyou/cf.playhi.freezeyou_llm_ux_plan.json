@@ -1,0 +1,602 @@
+{
+  "goals": [
+    "Tap Add",
+    "Input search query",
+    "Tap Settings",
+    "Input text in Search",
+    "Tap main_appList_listView",
+    "Tap Scheduled tasks",
+    "Tap View Mode",
+    "Tap ImageView",
+    "Press Back to return to the main app list",
+    "Wait for UI to settle"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap Add",
+      "nav_token": "",
+      "target_keys": [
+        "tab:settings",
+        "nav:settings"
+      ],
+      "observed_screen_hashes": [
+        "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "observed_screen_hints": [
+        "Add main_moreSettings_button ImageButton · Scheduled tasks menu_timedTasks TextView · View Mode menu_viewMode TextView · Search search_editText EditText · main_appList_listView ListView · More options ImageView",
+        ""
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Input search query",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Open the observed search affordance before typing into a query field."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Settings",
+      "nav_token": "settings",
+      "target_keys": [
+        "tab:settings",
+        "nav:settings"
+      ],
+      "observed_screen_hashes": [
+        "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "observed_screen_hints": [
+        "Add main_moreSettings_button ImageButton · Scheduled tasks menu_timedTasks TextView · View Mode menu_viewMode TextView · Search search_editText EditText · main_appList_listView ListView · More options ImageView",
+        ""
+      ],
+      "route_hint": "Use visible settings navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 3,
+      "goal": "Input text in Search",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Open the observed search affordance before typing into a query field."
+    },
+    {
+      "index": 4,
+      "goal": "Tap main_appList_listView",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Tap Scheduled tasks",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Tap View Mode",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Tap ImageView",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 8,
+      "goal": "Press Back to return to the main app list",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 9,
+      "goal": "Wait for UI to settle",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": "",
+    "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43": "Add main_moreSettings_button ImageButton · Scheduled tasks menu_timedTasks TextView · View Mode menu_viewMode TextView · Search search_editText EditText · main_appList_listView ListView · More options ImageView"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 25,
+        "successes": 25,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43"
+      },
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "visible_on": [
+          "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43"
+        ],
+        "attempts": 24,
+        "successes": 24,
+        "last_from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:settings": {
+        "kind": "nav",
+        "semantic_token": "settings",
+        "target_resource_id": "cf.playhi.freezeyou:id/main_moreSettings_button",
+        "target_content_desc": "Add",
+        "visible_on": [
+          "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "",
+    "root_screen_signature": "",
+    "root_screen_hint": "",
+    "root_screen_source": "",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_landmarks:5",
+      "screen_hash": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "cf.playhi.freezeyou",
+          "screen_hash": "f15cba91d37dd8b90fca2f6025e9fca1ae6b44ccdd2e8e8d3511aa00ebc06c43",
+          "interactive_count": 6,
+          "valid": true,
+          "reason": "root_handoff_ok_landmarks:5",
+          "match_kind": "landmarks",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "d7d5c2e67a03017983923695ed29b09792ec31b1656fc74e8cad3faef4b1f4b5",
+          "root_landmark_score": 5
+        }
+      ],
+      "match_kind": "landmarks"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app by tapping on the main_appList_listView ListView, then swipe vertically between items to find what they're looking for. Once found, they tap on it to view more details. The user may also use the search_editText EditText to quickly find specific items. Occasionally, users will access the More options ImageView to view additional settings or features.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

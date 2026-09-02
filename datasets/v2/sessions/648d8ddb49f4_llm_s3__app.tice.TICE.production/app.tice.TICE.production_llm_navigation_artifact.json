@@ -1,0 +1,1164 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "app.tice.TICE.production",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_hash": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "hint": "LET'S GO register_button Button · Public Name name EditText",
+      "visit_count": 24
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 8
+    },
+    {
+      "screen_hash": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+      "hint": "English language-list View · About hCaptcha & Accessibili menu-info Button · View · View · View · View · Refresh Challenge. Button · Skip Challenge, page 1 of 2 Button · hCaptcha logo, opens new win Button · Image-based CAPTCHA challeng Image",
+      "visit_count": 4
+    },
+    {
+      "screen_hash": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "hint": "View",
+      "visit_count": 13
+    },
+    {
+      "screen_hash": "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394",
+      "hint": "English text1 CheckedTextView · Esperanto text1 CheckedTextView · Estonian text1 CheckedTextView · Finnish text1 CheckedTextView · French text1 CheckedTextView · Frisian text1 CheckedTextView · Gaelic text1 CheckedTextView · Galacian text1 CheckedTextView · Georgian text1 CheckedTextView · German text1 CheckedTextView",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609",
+      "hint": "LET'S GO register_button Button · Public Name name EditText",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "fe54f1bf86bfab948570bf149a9bc29a961bda366f9267e2a02f57961076de07",
+      "hint": "webView WebView",
+      "visit_count": 0
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/name",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 890,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/name",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/name|"
+    },
+    {
+      "step": 2,
+      "from": "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 826,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 3,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 4,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 5,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "fe54f1bf86bfab948570bf149a9bc29a961bda366f9267e2a02f57961076de07",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 6,
+      "from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+      "to": "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "language-list",
+        "target_content_desc": "",
+        "x": 183,
+        "y": 1293,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:language-list",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:language-list|"
+    },
+    {
+      "step": 7,
+      "from": "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/text1",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1197,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/text1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/text1|"
+    },
+    {
+      "step": 8,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 9,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 10,
+      "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 928,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_xy:540,928",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 928}"
+    },
+    {
+      "step": 11,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 12,
+      "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 928,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_xy:540,928",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 928}"
+    },
+    {
+      "step": 13,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 14,
+      "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 15,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 16,
+      "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 17,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 18,
+      "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 19,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 20,
+      "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 21,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 22,
+      "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 23,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 24,
+      "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 25,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 26,
+      "from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "menu-info",
+        "target_content_desc": "",
+        "x": 195,
+        "y": 1377,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:menu-info",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:menu-info|"
+    },
+    {
+      "step": 27,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 28,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 29,
+      "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 30,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 31,
+      "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 32,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 33,
+      "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 34,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 35,
+      "from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 313,
+        "y": 1377,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:313,1377",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 313, \"y\": 1377}"
+    },
+    {
+      "step": 36,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 37,
+      "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1085,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.tice.TICE.production:id/register_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.tice.TICE.production:id/register_button|"
+    },
+    {
+      "step": 38,
+      "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+      "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:app.tice.TICE.production:id/name|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.tice.TICE.production:id/name",
+        "target_content_desc": "",
+        "visible_on": [
+          "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+          "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "last_to": "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609"
+      },
+      "tab:app.tice.TICE.production:id/register_button|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "visible_on": [
+          "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+          "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609"
+        ],
+        "attempts": 17,
+        "successes": 17,
+        "last_from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "last_to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e"
+      },
+      "nav:app.tice.TICE.production:id/register_button|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.tice.TICE.production:id/register_button",
+        "target_content_desc": "",
+        "visible_on": [
+          "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+          "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 14,
+        "successes": 14,
+        "last_from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "last_to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 313, \"y\": 1377}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 546, \"y\": 1373}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 852, \"y\": 1385}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:language-list|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "language-list",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+        "last_to": "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394"
+      },
+      "tab:menu-info|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "menu-info",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 313, \"y\": 1377}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 546, \"y\": 1373}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 852, \"y\": 1385}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:language-list|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "language-list",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:menu-info|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "menu-info",
+        "target_content_desc": "",
+        "visible_on": [
+          "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:android:id/text1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/text1",
+        "target_content_desc": "",
+        "visible_on": [
+          "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:android:id/text1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/text1",
+        "target_content_desc": "",
+        "visible_on": [
+          "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 928}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "last_to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc"
+      }
+    },
+    "edges": [
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609",
+        "target_key": "tab:app.tice.TICE.production:id/name|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "fc016b9b1e47e592eb9d4fbca52f72844edce2a231d676787647800977c89609",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "fe54f1bf86bfab948570bf149a9bc29a961bda366f9267e2a02f57961076de07",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+        "to": "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394",
+        "target_key": "tab:language-list|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "b3a97c91f97d391399a1637b7336c75e3d0427ff18dcb9c328e557da3ade2394",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/text1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 928}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 928}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:menu-info|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "70c280730d8536e5b3e0d5857ccc5feabe91735e8178c17d36eb38fcad35489b",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 313, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "to": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "target_key": "tab:app.tice.TICE.production:id/register_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "988cc779aeae5f9a94471a09b9f53a90f423652b5afa5970cbbbcaa3513c434e",
+        "to": "430b30e893efd0b443244197b97435462bb020a7e7a125a52cfdb91424da2ebc",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      }
+    ]
+  }
+}

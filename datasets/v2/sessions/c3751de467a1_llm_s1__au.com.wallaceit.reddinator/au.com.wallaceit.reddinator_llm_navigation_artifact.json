@@ -1,0 +1,803 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "au.com.wallaceit.reddinator",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "5ffbc3d1397282684bbe2bbd6095fb89c6ed4b751cc968d64fc8eed719e0b537",
+      "hint": "Inbox menu_inbox TextView · Submit menu_submit TextView ·  Filter Subreddits subreddit_filter_btn TextView ·  Random subreddit subreddit_random_btn TextView · Login refreshloginbutton Button · Sort:hot sortselect Button · More options ImageButton · Reddinator, Navigate up LinearLayout · LinearLayout · LinearLayout",
+      "visit_count": 7
+    },
+    {
+      "screen_hash": "6fe9e4f547b1a36b028343165395e12d7a8c6b48833bbf2d822a58daf8096538",
+      "hint": "Submit submit_button Button · Link link EditText · Subreddit subreddit EditText · Title title EditText · submission_text TextView · Submit, Navigate up LinearLayout · LinearLayout · LinearLayout",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "81834f74bd016e5502de1b0e1d63f760b5b938c0919289c89b03d5b3ed75d7a9",
+      "hint": "sub_container LinearLayout · applistview ListView ·  appcaret TextView ·  apprefreshbutton TextView · More options ImageButton",
+      "visit_count": 6
+    },
+    {
+      "screen_hash": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "hint": "Github github ImageView · Stay up to date with the lat textView8 TextView · LinearLayout · LinearLayout · LinearLayout",
+      "visit_count": 27
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "81834f74bd016e5502de1b0e1d63f760b5b938c0919289c89b03d5b3ed75d7a9",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/appcaret",
+        "target_content_desc": "",
+        "x": 412,
+        "y": 126,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/appcaret",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:au.com.wallaceit.reddinator:id/appcaret|"
+    },
+    {
+      "step": 2,
+      "from": "81834f74bd016e5502de1b0e1d63f760b5b938c0919289c89b03d5b3ed75d7a9",
+      "to": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/appcaret",
+        "target_content_desc": "",
+        "x": 412,
+        "y": 126,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/appcaret",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:au.com.wallaceit.reddinator:id/appcaret|"
+    },
+    {
+      "step": 3,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 4,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/textView8",
+        "target_content_desc": "",
+        "x": 542,
+        "y": 1251,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/textView8",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/textView8|"
+    },
+    {
+      "step": 5,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 6,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 7,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 8,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 9,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 10,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 11,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 12,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 13,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 14,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 15,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 16,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 17,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 18,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 19,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 20,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 21,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 22,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 23,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 24,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 25,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 26,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 27,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    },
+    {
+      "step": 28,
+      "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "x": 730,
+        "y": 1025,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:au.com.wallaceit.reddinator:id/github",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:au.com.wallaceit.reddinator:id/github|Github"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "expand:au.com.wallaceit.reddinator:id/appcaret|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/appcaret",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "81834f74bd016e5502de1b0e1d63f760b5b938c0919289c89b03d5b3ed75d7a9",
+        "last_to": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a"
+      },
+      "tab:au.com.wallaceit.reddinator:id/textView8|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/textView8",
+        "target_content_desc": "",
+        "visible_on": [
+          "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "last_to": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a"
+      },
+      "tab:au.com.wallaceit.reddinator:id/github|Github": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "visible_on": [
+          "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a"
+        ],
+        "attempts": 25,
+        "successes": 25,
+        "last_from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:au.com.wallaceit.reddinator:id/textView8|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/textView8",
+        "target_content_desc": "",
+        "visible_on": [
+          "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:au.com.wallaceit.reddinator:id/github|Github": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "au.com.wallaceit.reddinator:id/github",
+        "target_content_desc": "Github",
+        "visible_on": [
+          "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "81834f74bd016e5502de1b0e1d63f760b5b938c0919289c89b03d5b3ed75d7a9",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:au.com.wallaceit.reddinator:id/appcaret|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "81834f74bd016e5502de1b0e1d63f760b5b938c0919289c89b03d5b3ed75d7a9",
+        "to": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "target_key": "expand:au.com.wallaceit.reddinator:id/appcaret|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/textView8|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e814fd05fe63534db8ae3e31d46f0a4041e1e136d4d997531a0c4d398588e01a",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:au.com.wallaceit.reddinator:id/github|Github",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  }
+}

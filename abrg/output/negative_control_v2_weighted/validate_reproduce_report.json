@@ -1,0 +1,23 @@
+{
+  "run_dir": "abrg/output/negative_control_v2_weighted",
+  "reports": [
+    {
+      "ok": true,
+      "expected": {
+        "impossible_edge_auc": 0.9445119999999999,
+        "impossible_edge_median_delta": 0.22831696271896362
+      },
+      "actual": {
+        "impossible_edge_auc": 0.945152,
+        "impossible_edge_median_delta": 0.228318989276886
+      },
+      "diffs": {
+        "\u0394impossible_edge_auc": 0.0006400000000000849,
+        "\u0394impossible_edge_median_delta": 2.0265579223632812e-06
+      },
+      "kind": "negative_control",
+      "mode": "cli",
+      "repro_dir": "abrg/output/negative_control_v2_weighted/nb_repro"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "run_dir": "abrg/output/norm_ab_v2",
+  "reports": [
+    {
+      "ok": true,
+      "expected": {
+        "train_med": 0.5462192893028259,
+        "test_med": 0.7022819519042969,
+        "ratio": 1.28571430130317
+      },
+      "actual": {
+        "train_med": 0.5613172650337219,
+        "test_med": 0.681620180606842,
+        "ratio": 1.2143224929414789
+      },
+      "diffs": {
+        "\u0394train_med": 0.015097975730895996,
+        "\u0394test_med": -0.020661771297454834,
+        "\u0394ratio": -0.07139180836169112
+      },
+      "kind": "ratio",
+      "mode": "cli",
+      "repro_dir": "abrg/output/norm_ab_v2/nb_repro"
+    }
+  ]
+}

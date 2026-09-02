@@ -1,0 +1,71 @@
+{
+  "kind": "androct_master_verify",
+  "experiment": "invgraph",
+  "n_rows": 6,
+  "cli_rerun": {
+    "cli_module": "abrg.invgraph",
+    "out_flag": "--output-dir"
+  },
+  "rows": [
+    {
+      "detector": "gae_recon",
+      "method": "trained",
+      "representation": "V2_invocation",
+      "split": "splitA_GAE",
+      "auc_floor": "0.6386524822695037",
+      "raw_auc": "0.6386524822695037",
+      "artifact_path": "abrg/output/androct_2017/ocdev/validation/check2_randominit/check2.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "gae_recon",
+      "method": "untrained",
+      "representation": "V2_invocation",
+      "split": "splitA_GAE",
+      "auc_floor": "0.6288277012932832",
+      "raw_auc": "0.6288277012932832",
+      "artifact_path": "abrg/output/androct_2017/ocdev/validation/check2_randominit/check2.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "edge_count",
+      "method": "trivial_floor",
+      "representation": "invocation_V2",
+      "split": "splitA_GAE",
+      "auc_floor": "0.7337922403003755",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/invgraph/floors/V2_invocation_floors.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "graph_density",
+      "method": "trivial_floor",
+      "representation": "invocation_V2",
+      "split": "splitA_GAE",
+      "auc_floor": "0.7337922403003755",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/invgraph/floors/V2_invocation_floors.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "active_nodes",
+      "method": "trivial_floor",
+      "representation": "invocation_V2",
+      "split": "splitA_GAE",
+      "auc_floor": "0.5658740091781393",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/invgraph/floors/V2_invocation_floors.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "in_vocab_events",
+      "method": "trivial_floor",
+      "representation": "invocation_V2",
+      "split": "splitA_GAE",
+      "auc_floor": "0.6589173967459323",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/invgraph/floors/V2_invocation_floors.json",
+      "is_headline": "False"
+    }
+  ]
+}

@@ -1,0 +1,1033 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "at.manuelbichler.octalsuntime",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_hash": "2222ca03f998f1e101e5acd252efa7681e31174978b29725b34a11cc69b1c2fd",
+      "hint": "CANCEL button2 Button · Name of place auto_complete_location_picker EditText",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 6
+    },
+    {
+      "screen_hash": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "hint": "CANCEL button2 Button · Name of place auto_complete_location_picker EditText",
+      "visit_count": 14
+    },
+    {
+      "screen_hash": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "hint": "Add location add_location Button · More options ImageView",
+      "visit_count": 21
+    },
+    {
+      "screen_hash": "eb0fb8973ce59a78993f9272e88e57c04918a7bd59b133443cd9e18c344c40c3",
+      "hint": "Manage locations manage_locations Button",
+      "visit_count": 9
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "eb0fb8973ce59a78993f9272e88e57c04918a7bd59b133443cd9e18c344c40c3",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/manage_locations",
+        "target_content_desc": "Manage locations",
+        "x": 1006,
+        "y": 136,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/manage_locations",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/manage_locations|Manage locations"
+    },
+    {
+      "step": 2,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/add_location",
+        "target_content_desc": "Add location",
+        "x": 901,
+        "y": 136,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/add_location",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location"
+    },
+    {
+      "step": 3,
+      "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "x": 878,
+        "y": 1054,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button2|"
+    },
+    {
+      "step": 4,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|More options"
+    },
+    {
+      "step": 5,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 6,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/add_location",
+        "target_content_desc": "Add location",
+        "x": 901,
+        "y": 136,
+        "reason": "bfs_tab_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/add_location",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location"
+    },
+    {
+      "step": 7,
+      "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "to": "2222ca03f998f1e101e5acd252efa7681e31174978b29725b34a11cc69b1c2fd",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/auto_complete_location_picker",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 913,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/auto_complete_location_picker",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/auto_complete_location_picker|"
+    },
+    {
+      "step": 8,
+      "from": "2222ca03f998f1e101e5acd252efa7681e31174978b29725b34a11cc69b1c2fd",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "x": 878,
+        "y": 684,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button2|"
+    },
+    {
+      "step": 9,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_tab_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|More options"
+    },
+    {
+      "step": 10,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 11,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/add_location",
+        "target_content_desc": "Add location",
+        "x": 901,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/add_location",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location"
+    },
+    {
+      "step": 12,
+      "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "x": 878,
+        "y": 1054,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button2|"
+    },
+    {
+      "step": 13,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/add_location",
+        "target_content_desc": "Add location",
+        "x": 901,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/add_location",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location"
+    },
+    {
+      "step": 14,
+      "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "x": 878,
+        "y": 1054,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button2|"
+    },
+    {
+      "step": 15,
+      "from": "eb0fb8973ce59a78993f9272e88e57c04918a7bd59b133443cd9e18c344c40c3",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/manage_locations",
+        "target_content_desc": "Manage locations",
+        "x": 1006,
+        "y": 136,
+        "reason": "bfs_tab_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/manage_locations",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/manage_locations|Manage locations"
+    },
+    {
+      "step": 16,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|More options"
+    },
+    {
+      "step": 17,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 18,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|More options"
+    },
+    {
+      "step": 19,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 20,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/add_location",
+        "target_content_desc": "Add location",
+        "x": 901,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/add_location",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location"
+    },
+    {
+      "step": 21,
+      "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "x": 878,
+        "y": 1054,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button2|"
+    },
+    {
+      "step": 22,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/add_location",
+        "target_content_desc": "Add location",
+        "x": 901,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/add_location",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location"
+    },
+    {
+      "step": 23,
+      "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "x": 878,
+        "y": 1054,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button2|"
+    },
+    {
+      "step": 24,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|More options"
+    },
+    {
+      "step": 25,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 26,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/add_location",
+        "target_content_desc": "Add location",
+        "x": 901,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/add_location",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location"
+    },
+    {
+      "step": 27,
+      "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "x": 878,
+        "y": 1054,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button2|"
+    },
+    {
+      "step": 28,
+      "from": "eb0fb8973ce59a78993f9272e88e57c04918a7bd59b133443cd9e18c344c40c3",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/manage_locations",
+        "target_content_desc": "Manage locations",
+        "x": 1006,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/manage_locations",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/manage_locations|Manage locations"
+    },
+    {
+      "step": 29,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/add_location",
+        "target_content_desc": "Add location",
+        "x": 901,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/add_location",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location"
+    },
+    {
+      "step": 30,
+      "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "x": 878,
+        "y": 1054,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button2|"
+    },
+    {
+      "step": 31,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/add_location",
+        "target_content_desc": "Add location",
+        "x": 901,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/add_location",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location"
+    },
+    {
+      "step": 32,
+      "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "x": 878,
+        "y": 1054,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button2|"
+    },
+    {
+      "step": 33,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|More options"
+    },
+    {
+      "step": 34,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 35,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/add_location",
+        "target_content_desc": "Add location",
+        "x": 901,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/add_location",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location"
+    },
+    {
+      "step": 36,
+      "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "x": 878,
+        "y": 1054,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button2|"
+    },
+    {
+      "step": 37,
+      "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+      "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/add_location",
+        "target_content_desc": "Add location",
+        "x": 901,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:at.manuelbichler.octalsuntime:id/add_location",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:at.manuelbichler.octalsuntime:id/manage_locations|Manage locations": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/manage_locations",
+        "target_content_desc": "Manage locations",
+        "visible_on": [
+          "eb0fb8973ce59a78993f9272e88e57c04918a7bd59b133443cd9e18c344c40c3"
+        ],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "eb0fb8973ce59a78993f9272e88e57c04918a7bd59b133443cd9e18c344c40c3",
+        "last_to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817"
+      },
+      "tab:at.manuelbichler.octalsuntime:id/add_location|Add location": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/add_location",
+        "target_content_desc": "Add location",
+        "visible_on": [
+          "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817"
+        ],
+        "attempts": 11,
+        "successes": 11,
+        "last_from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "last_to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973"
+      },
+      "tab:|More options": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [
+          "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817"
+        ],
+        "attempts": 6,
+        "successes": 6,
+        "last_from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:android:id/button2|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+          "2222ca03f998f1e101e5acd252efa7681e31174978b29725b34a11cc69b1c2fd"
+        ],
+        "attempts": 10,
+        "successes": 10,
+        "last_from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "last_to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817"
+      },
+      "tab:at.manuelbichler.octalsuntime:id/auto_complete_location_picker|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "at.manuelbichler.octalsuntime:id/auto_complete_location_picker",
+        "target_content_desc": "",
+        "visible_on": [
+          "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+          "2222ca03f998f1e101e5acd252efa7681e31174978b29725b34a11cc69b1c2fd"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "last_to": "2222ca03f998f1e101e5acd252efa7681e31174978b29725b34a11cc69b1c2fd"
+      },
+      "nav:android:id/button2|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+          "2222ca03f998f1e101e5acd252efa7681e31174978b29725b34a11cc69b1c2fd"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 6,
+        "successes": 6,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817"
+      }
+    },
+    "edges": [
+      {
+        "from": "eb0fb8973ce59a78993f9272e88e57c04918a7bd59b133443cd9e18c344c40c3",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/manage_locations|Manage locations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "to": "2222ca03f998f1e101e5acd252efa7681e31174978b29725b34a11cc69b1c2fd",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/auto_complete_location_picker|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "2222ca03f998f1e101e5acd252efa7681e31174978b29725b34a11cc69b1c2fd",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "eb0fb8973ce59a78993f9272e88e57c04918a7bd59b133443cd9e18c344c40c3",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/manage_locations|Manage locations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "eb0fb8973ce59a78993f9272e88e57c04918a7bd59b133443cd9e18c344c40c3",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/manage_locations|Manage locations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "to": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "dd9b8391671036c8638a8f12f92f3535df401ee34f5d7db216ee85ee59d3c817",
+        "to": "690a8a3236c60f0831f31459a0d7c2ce007281350161916fae9daff170cef973",
+        "target_key": "tab:at.manuelbichler.octalsuntime:id/add_location|Add location",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      }
+    ]
+  }
+}

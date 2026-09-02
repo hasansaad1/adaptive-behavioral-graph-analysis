@@ -1,0 +1,79 @@
+{
+  "active_categories": [
+    "native_code",
+    "network",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "au.com.wallaceit.reddinator",
+  "batch": "extend",
+  "end_timestamp": "2026-08-15T05:59:17.520000Z",
+  "end_timestamp_ms": 1786773557520,
+  "event_counts": {
+    "mapped": 45,
+    "mapped_rate": 0.04726890756302521,
+    "total": 952
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "c3751de467a1_llm_s9__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "SharedPreferences.getString",
+    "System.loadLibrary",
+    "okhttp3.RealCall.execute"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 4,
+  "reference_tier_pass": true,
+  "session_id": "c3751de467a1_llm_s9",
+  "session_index_within_app": 9,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/c3751de467a1_au.com.wallaceit.reddinator/dynamic/llm/session_9/au.com.wallaceit.reddinator_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/c3751de467a1_au.com.wallaceit.reddinator/dynamic/llm/session_9/au.com.wallaceit.reddinator_dynamic_metadata.json",
+  "start_timestamp": "2026-08-15T05:51:40.186000Z",
+  "start_timestamp_ms": 1786773100186,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 952,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 163,
+    "n_with_timestamp": 952,
+    "unparseable_line_numbers_sample": [
+      88,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 457.42
+}

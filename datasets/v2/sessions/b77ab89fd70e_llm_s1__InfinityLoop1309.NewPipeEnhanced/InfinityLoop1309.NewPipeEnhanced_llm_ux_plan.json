@@ -1,0 +1,586 @@
+{
+  "goals": [
+    "Tap on error_retry_button 539",
+    "Input search query",
+    "Tap Search",
+    "Tap Close",
+    "Tap Navigate",
+    "Tap REPORT",
+    "Tap RETRY",
+    "Tap drawer header action button"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap on error_retry_button 539",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Input search query",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Open the observed search affordance before typing into a query field."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Search",
+      "nav_token": "search",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Open the observed search affordance before typing into a query field."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Close",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap Navigate",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Tap REPORT",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Tap RETRY",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Tap drawer header action button",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245": "Search action_search TextView · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · Open Drawer ImageButton · Bookmarked Playlists LinearLayout · Subscriptions LinearLayout",
+    "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df": "Search action_search TextView · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · REPORT error_action_button Button · RETRY error_retry_button Button · detail_thumbnail_root_layout FrameLayout",
+    "f28a587e4bf9e1531d25f5338e5eb07445539baceac8189ff63b4aff68fd25cd": "Share menu_item_share_error TextView · ---------------------------- errorView TextView · Navigate up ImageButton",
+    "61d6d35ec28552d41ad37b4f1e53f659c4d28d3e51c58abd345bf5487cac28d0": "Share menu_item_share_error TextView · ---------------------------- errorView TextView · Navigate up ImageButton",
+    "ec701245a2f74583a758e3f9b6d4942dcec2fee5ec63e5351bdbc02075472abc": "OK button1 Button",
+    "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736": "Toggle service, currently se drawer_header_action_button Button · Search action_search TextView · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · Close Drawer ImageButton · Bookmarked Playlists LinearLayout",
+    "3c701389d899ff0eeee218e4bb655e5ef373a4345e482984d43df7020fd1c5a3": "Toggle service, currently se drawer_header_action_button Button · Search action_search TextView · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · spinner Spinner · Close Drawer ImageButton"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "nav:InfinityLoop1309.NewPipeEnhanced:id/itemRoot|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "InfinityLoop1309.NewPipeEnhanced:id/itemRoot",
+        "target_content_desc": "",
+        "visible_on": [
+          "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+          "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+          "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736",
+          "3c701389d899ff0eeee218e4bb655e5ef373a4345e482984d43df7020fd1c5a3"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736",
+        "last_to": "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736"
+      },
+      "nav:|Open Drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Open Drawer",
+        "visible_on": [
+          "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+          "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+        "last_to": "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736"
+      },
+      "tab:InfinityLoop1309.NewPipeEnhanced:id/error_action_button|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "InfinityLoop1309.NewPipeEnhanced:id/error_action_button",
+        "target_content_desc": "",
+        "visible_on": [
+          "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "last_to": "f28a587e4bf9e1531d25f5338e5eb07445539baceac8189ff63b4aff68fd25cd"
+      },
+      "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "InfinityLoop1309.NewPipeEnhanced:id/error_retry_button",
+        "target_content_desc": "",
+        "visible_on": [
+          "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df"
+        ],
+        "attempts": 19,
+        "successes": 19,
+        "last_from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "last_to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df"
+      },
+      "nav:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "InfinityLoop1309.NewPipeEnhanced:id/error_retry_button",
+        "target_content_desc": "",
+        "visible_on": [
+          "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:InfinityLoop1309.NewPipeEnhanced:id/errorView|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "InfinityLoop1309.NewPipeEnhanced:id/errorView",
+        "target_content_desc": "",
+        "visible_on": [
+          "f28a587e4bf9e1531d25f5338e5eb07445539baceac8189ff63b4aff68fd25cd"
+        ],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "61d6d35ec28552d41ad37b4f1e53f659c4d28d3e51c58abd345bf5487cac28d0",
+        "last_to": "61d6d35ec28552d41ad37b4f1e53f659c4d28d3e51c58abd345bf5487cac28d0"
+      },
+      "nav:InfinityLoop1309.NewPipeEnhanced:id/errorView|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "InfinityLoop1309.NewPipeEnhanced:id/errorView",
+        "target_content_desc": "",
+        "visible_on": [
+          "f28a587e4bf9e1531d25f5338e5eb07445539baceac8189ff63b4aff68fd25cd"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:|Navigate up": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "61d6d35ec28552d41ad37b4f1e53f659c4d28d3e51c58abd345bf5487cac28d0",
+        "last_to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df"
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "ec701245a2f74583a758e3f9b6d4942dcec2fee5ec63e5351bdbc02075472abc"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "ec701245a2f74583a758e3f9b6d4942dcec2fee5ec63e5351bdbc02075472abc",
+        "last_to": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245"
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "ec701245a2f74583a758e3f9b6d4942dcec2fee5ec63e5351bdbc02075472abc"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Close Drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Close Drawer",
+        "visible_on": [
+          "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736",
+          "3c701389d899ff0eeee218e4bb655e5ef373a4345e482984d43df7020fd1c5a3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "3c701389d899ff0eeee218e4bb655e5ef373a4345e482984d43df7020fd1c5a3",
+        "last_to": "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736"
+      },
+      "nav:InfinityLoop1309.NewPipeEnhanced:id/drawer_header_action_button|Toggle service, currently selected:YouTube": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "InfinityLoop1309.NewPipeEnhanced:id/drawer_header_action_button",
+        "target_content_desc": "Toggle service, currently selected:YouTube",
+        "visible_on": [
+          "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736",
+          "3c701389d899ff0eeee218e4bb655e5ef373a4345e482984d43df7020fd1c5a3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736",
+        "last_to": "3c701389d899ff0eeee218e4bb655e5ef373a4345e482984d43df7020fd1c5a3"
+      },
+      "tab:InfinityLoop1309.NewPipeEnhanced:id/itemRoot|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "InfinityLoop1309.NewPipeEnhanced:id/itemRoot",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+        "last_to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df"
+      },
+      "tab:|Bookmarked Playlists": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Bookmarked Playlists",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736",
+        "last_to": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245"
+      }
+    },
+    "edges": [
+      {
+        "from": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "nav:InfinityLoop1309.NewPipeEnhanced:id/itemRoot|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "f28a587e4bf9e1531d25f5338e5eb07445539baceac8189ff63b4aff68fd25cd",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_action_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f28a587e4bf9e1531d25f5338e5eb07445539baceac8189ff63b4aff68fd25cd",
+        "to": "61d6d35ec28552d41ad37b4f1e53f659c4d28d3e51c58abd345bf5487cac28d0",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/errorView|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "61d6d35ec28552d41ad37b4f1e53f659c4d28d3e51c58abd345bf5487cac28d0",
+        "to": "61d6d35ec28552d41ad37b4f1e53f659c4d28d3e51c58abd345bf5487cac28d0",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/errorView|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "61d6d35ec28552d41ad37b4f1e53f659c4d28d3e51c58abd345bf5487cac28d0",
+        "to": "61d6d35ec28552d41ad37b4f1e53f659c4d28d3e51c58abd345bf5487cac28d0",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/errorView|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "61d6d35ec28552d41ad37b4f1e53f659c4d28d3e51c58abd345bf5487cac28d0",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ec701245a2f74583a758e3f9b6d4942dcec2fee5ec63e5351bdbc02075472abc",
+        "to": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+        "to": "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736",
+        "target_key": "nav:|Open Drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736",
+        "to": "3c701389d899ff0eeee218e4bb655e5ef373a4345e482984d43df7020fd1c5a3",
+        "target_key": "nav:InfinityLoop1309.NewPipeEnhanced:id/drawer_header_action_button|Toggle service, currently selected:YouTube",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3c701389d899ff0eeee218e4bb655e5ef373a4345e482984d43df7020fd1c5a3",
+        "to": "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736",
+        "target_key": "nav:|Close Drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736",
+        "to": "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736",
+        "target_key": "nav:InfinityLoop1309.NewPipeEnhanced:id/itemRoot|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736",
+        "to": "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/itemRoot|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "0ff1c348542c28a30c8d6697ca005e1762ce3d2ebecc8a16f0fbcd6223e39736",
+        "to": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+        "target_key": "tab:|Bookmarked Playlists",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/itemRoot|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "to": "d2ed522897255ba4a6cfdc197ae91347938d2fe0791c2e12f29667c92cdbd8df",
+        "target_key": "tab:InfinityLoop1309.NewPipeEnhanced:id/error_retry_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+    "root_screen_signature": "554cacbb74e12530f6421f119d88f41014b75d017e9f799b89bc96419a406b27",
+    "root_screen_hint": "Search action_search TextView · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · itemRoot ViewGroup · Open Drawer ImageButton · Bookmarked Playlists LinearLayout · Subscriptions LinearLayout",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "InfinityLoop1309.NewPipeEnhanced",
+          "screen_hash": "337b821255ec479b1e019141299956e9783b78395dba64fb517f9d295ca59245",
+          "interactive_count": 10,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "554cacbb74e12530f6421f119d88f41014b75d017e9f799b89bc96419a406b27",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app by navigating to a specific playlist, then they scroll through the list of songs in a vertical direction using their thumb to select a song. Once a song is selected, they tap on it to play. The user may also use the search function to find a specific song or artist. Occasionally, users will navigate to the 'Bookmarked Playlists' section and swipe between playlists.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

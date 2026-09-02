@@ -1,0 +1,23 @@
+ABRG v0.2 corpus pilot (benign reconstruction baseline)
+============================================================
+Apps in GAE-eligible set: 57 graphs (57 sessions)
+Total corpus sessions: 129 | trainable (≥2 active nodes): 72 | excluded: 57
+GAE trained on 46 graphs; held out 11 for test.
+
+Training: GAE loss 0.9077 → 0.7311 over 300 epochs (converged=True)
+Train recon error: median=0.520171
+Test  recon error: median=0.693561
+Benign baseline (all eligible): median=0.577968, min=-0.000000, max=4.924213
+
+GAE does NOT clearly generalize — held-out test error exceeds training range; see distributions before using as detection baseline.
+
+PILOT HONEST SUMMARY
+--------------------
+This pilot shows the GAE learns to reconstruct benign behavioral graphs end-to-end on
+57 graphs from 57 apps (46 train / 11 test split).
+It is NOT a malware-detection result — the corpus contains no malware traces. The per-graph
+reconstruction errors above are the benign baseline (future false-positive floor). Detection
+evaluation requires malware traces and multi-session references per app.
+
+Saved: abrg/output/corpus_pilot/corpus_pilot_results.json
+Model:  abrg/output/corpus_pilot/gae_corpus_model.pt

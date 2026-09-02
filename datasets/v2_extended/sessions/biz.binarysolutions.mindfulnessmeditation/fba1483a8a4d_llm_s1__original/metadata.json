@@ -1,0 +1,77 @@
+{
+  "active_categories": [
+    "file_io",
+    "network",
+    "storage"
+  ],
+  "app_id": "biz.binarysolutions.mindfulnessmeditation",
+  "batch": "original",
+  "end_timestamp": "2026-07-15T03:39:24.133000Z",
+  "end_timestamp_ms": 1784086764133,
+  "event_counts": {
+    "mapped": 10,
+    "mapped_rate": 0.017921146953405017,
+    "total": 558
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "fba1483a8a4d_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "SharedPreferences.getInt",
+    "URL.openConnection"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 3,
+  "reference_tier_pass": true,
+  "session_id": "fba1483a8a4d_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/fba1483a8a4d_llm_s1__biz.binarysolutions.mindfulnessmeditation/biz.binarysolutions.mindfulnessmeditation_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/fba1483a8a4d_llm_s1__biz.binarysolutions.mindfulnessmeditation/biz.binarysolutions.mindfulnessmeditation_dynamic_metadata.json",
+  "start_timestamp": "2026-07-15T03:31:23.131000Z",
+  "start_timestamp_ms": 1784086283131,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 558,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 70,
+    "n_with_timestamp": 558,
+    "unparseable_line_numbers_sample": [
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 481.002
+}

@@ -1,0 +1,683 @@
+{
+  "goals": [
+    "Tap Search",
+    "Tap menu settings",
+    "Tap Navigate up",
+    "Tap Next",
+    "Tap Now",
+    "Input search query"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap Search",
+      "nav_token": "search",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Open the observed search affordance before typing into a query field."
+    },
+    {
+      "index": 1,
+      "goal": "Tap menu settings",
+      "nav_token": "settings",
+      "target_keys": [
+        "tab:settings",
+        "nav:settings"
+      ],
+      "observed_screen_hashes": [
+        "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "3839bc344caf7ed485464885125c7fc4fd71f0ed5c72907a481a206f98335418"
+      ],
+      "observed_screen_hints": [
+        "Update sessions database refresh Button · Search sessions search Button · menu_bookmarks LinearLayoutCompat · menu_live LinearLayoutCompat · menu_map LinearLayoutCompat · menu_settings LinearLayoutCompat · menu_speakers LinearLayoutCompat · menu_stands LinearLayoutCompat · menu_tracks LinearLayoutCompat · menu_volunteer LinearLayoutCompat",
+        "Navigate up ImageButton · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout"
+      ],
+      "route_hint": "Use visible settings navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Navigate up",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|Navigate up",
+        "expand:|Navigate up"
+      ],
+      "observed_screen_hashes": [
+        "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3"
+      ],
+      "observed_screen_hints": [
+        "Update sessions database refresh Button · Search sessions search Button · Main menu ImageButton"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Next",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|Next",
+        "nav:|Next"
+      ],
+      "observed_screen_hashes": [
+        "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be",
+        "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a"
+      ],
+      "observed_screen_hints": [
+        "Update sessions database refresh Button · Search sessions search Button · Main menu ImageButton · Next LinearLayout",
+        "Update sessions database refresh Button · Search sessions search Button · Main menu ImageButton · Now LinearLayout"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap Now",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|Now",
+        "nav:|Now"
+      ],
+      "observed_screen_hashes": [
+        "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a",
+        "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be"
+      ],
+      "observed_screen_hints": [
+        "Update sessions database refresh Button · Search sessions search Button · Main menu ImageButton · Now LinearLayout",
+        "Update sessions database refresh Button · Search sessions search Button · Main menu ImageButton · Next LinearLayout"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Input search query",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Open the observed search affordance before typing into a query field."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3": "Update sessions database refresh Button · Search sessions search Button · Main menu ImageButton",
+    "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a": "Update sessions database refresh Button · Search sessions search Button · menu_bookmarks LinearLayoutCompat · menu_live LinearLayoutCompat · menu_map LinearLayoutCompat · menu_settings LinearLayoutCompat · menu_speakers LinearLayoutCompat · menu_stands LinearLayoutCompat · menu_tracks LinearLayoutCompat · menu_volunteer LinearLayoutCompat",
+    "3839bc344caf7ed485464885125c7fc4fd71f0ed5c72907a481a206f98335418": "Navigate up ImageButton · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout",
+    "5d3243b3b10c6b6c712db58b2d9e708859eb9a4df6e9297972a98d34a1f1fd84": "Session, track, person search_edittext EditText · Navigate up ImageButton",
+    "459109d4fde747dfdbaeca20ce6c9a1162f607c1c6b6b55f043060ecffb3bea5": "Update sessions database refresh Button · Search sessions search Button · RETRY snackbar_action Button · Main menu ImageButton",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": "",
+    "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a": "Update sessions database refresh Button · Search sessions search Button · Main menu ImageButton · Now LinearLayout",
+    "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be": "Update sessions database refresh Button · Search sessions search Button · Main menu ImageButton · Next LinearLayout"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "expand:|Main menu": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Main menu",
+        "visible_on": [],
+        "attempts": 4,
+        "successes": 4,
+        "last_from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "last_to": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a"
+      },
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "be.digitalia.fosdem:id/menu_settings",
+        "target_content_desc": "",
+        "visible_on": [
+          "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a"
+        ],
+        "attempts": 5,
+        "successes": 5,
+        "last_from": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "last_to": "3839bc344caf7ed485464885125c7fc4fd71f0ed5c72907a481a206f98335418"
+      },
+      "nav:settings": {
+        "kind": "nav",
+        "semantic_token": "settings",
+        "target_resource_id": "be.digitalia.fosdem:id/menu_settings",
+        "target_content_desc": "",
+        "visible_on": [
+          "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:be.digitalia.fosdem:id/menu_stands|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "be.digitalia.fosdem:id/menu_stands",
+        "target_content_desc": "",
+        "visible_on": [
+          "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:be.digitalia.fosdem:id/menu_volunteer|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "be.digitalia.fosdem:id/menu_volunteer",
+        "target_content_desc": "",
+        "visible_on": [
+          "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|Navigate up": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 6,
+        "successes": 6,
+        "last_from": "3839bc344caf7ed485464885125c7fc4fd71f0ed5c72907a481a206f98335418",
+        "last_to": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3"
+      },
+      "tab:be.digitalia.fosdem:id/search|Search sessions": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "be.digitalia.fosdem:id/search",
+        "target_content_desc": "Search sessions",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "last_to": "5d3243b3b10c6b6c712db58b2d9e708859eb9a4df6e9297972a98d34a1f1fd84"
+      },
+      "tab:be.digitalia.fosdem:id/refresh|Update sessions database": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "be.digitalia.fosdem:id/refresh",
+        "target_content_desc": "Update sessions database",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "last_to": "459109d4fde747dfdbaeca20ce6c9a1162f607c1c6b6b55f043060ecffb3bea5"
+      },
+      "tab:be.digitalia.fosdem:id/snackbar_action|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "be.digitalia.fosdem:id/snackbar_action",
+        "target_content_desc": "",
+        "visible_on": [
+          "459109d4fde747dfdbaeca20ce6c9a1162f607c1c6b6b55f043060ecffb3bea5"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:be.digitalia.fosdem:id/snackbar_action|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "be.digitalia.fosdem:id/snackbar_action",
+        "target_content_desc": "",
+        "visible_on": [
+          "459109d4fde747dfdbaeca20ce6c9a1162f607c1c6b6b55f043060ecffb3bea5"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|Main menu": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Main menu",
+        "visible_on": [],
+        "attempts": 4,
+        "successes": 4,
+        "last_from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "last_to": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a"
+      },
+      "tab:be.digitalia.fosdem:id/menu_bookmarks|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "be.digitalia.fosdem:id/menu_bookmarks",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "last_to": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:be.digitalia.fosdem:id/search|Search sessions": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "be.digitalia.fosdem:id/search",
+        "target_content_desc": "Search sessions",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "last_to": "5d3243b3b10c6b6c712db58b2d9e708859eb9a4df6e9297972a98d34a1f1fd84"
+      },
+      "expand:|Navigate up": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "5d3243b3b10c6b6c712db58b2d9e708859eb9a4df6e9297972a98d34a1f1fd84",
+        "last_to": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3"
+      },
+      "tab:be.digitalia.fosdem:id/menu_live|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "be.digitalia.fosdem:id/menu_live",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "last_to": "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a"
+      },
+      "tab:|Now": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Now",
+        "visible_on": [
+          "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a"
+        ],
+        "attempts": 5,
+        "successes": 5,
+        "last_from": "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a",
+        "last_to": "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be"
+      },
+      "nav:|Now": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Now",
+        "visible_on": [
+          "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|Next": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Next",
+        "visible_on": [
+          "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be"
+        ],
+        "attempts": 5,
+        "successes": 5,
+        "last_from": "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be",
+        "last_to": "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a"
+      },
+      "nav:|Next": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Next",
+        "visible_on": [
+          "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "to": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "target_key": "expand:|Main menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "to": "3839bc344caf7ed485464885125c7fc4fd71f0ed5c72907a481a206f98335418",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "3839bc344caf7ed485464885125c7fc4fd71f0ed5c72907a481a206f98335418",
+        "to": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "to": "5d3243b3b10c6b6c712db58b2d9e708859eb9a4df6e9297972a98d34a1f1fd84",
+        "target_key": "tab:be.digitalia.fosdem:id/search|Search sessions",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "5d3243b3b10c6b6c712db58b2d9e708859eb9a4df6e9297972a98d34a1f1fd84",
+        "to": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "to": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "target_key": "expand:|Main menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "to": "3839bc344caf7ed485464885125c7fc4fd71f0ed5c72907a481a206f98335418",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3839bc344caf7ed485464885125c7fc4fd71f0ed5c72907a481a206f98335418",
+        "to": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "to": "459109d4fde747dfdbaeca20ce6c9a1162f607c1c6b6b55f043060ecffb3bea5",
+        "target_key": "tab:be.digitalia.fosdem:id/refresh|Update sessions database",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "459109d4fde747dfdbaeca20ce6c9a1162f607c1c6b6b55f043060ecffb3bea5",
+        "to": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "target_key": "tab:|Main menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "to": "3839bc344caf7ed485464885125c7fc4fd71f0ed5c72907a481a206f98335418",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3839bc344caf7ed485464885125c7fc4fd71f0ed5c72907a481a206f98335418",
+        "to": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "to": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "target_key": "tab:|Main menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "to": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "target_key": "tab:be.digitalia.fosdem:id/menu_bookmarks|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "to": "5d3243b3b10c6b6c712db58b2d9e708859eb9a4df6e9297972a98d34a1f1fd84",
+        "target_key": "expand:be.digitalia.fosdem:id/search|Search sessions",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "5d3243b3b10c6b6c712db58b2d9e708859eb9a4df6e9297972a98d34a1f1fd84",
+        "to": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "to": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "target_key": "expand:|Main menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "to": "3839bc344caf7ed485464885125c7fc4fd71f0ed5c72907a481a206f98335418",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3839bc344caf7ed485464885125c7fc4fd71f0ed5c72907a481a206f98335418",
+        "to": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "to": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "target_key": "tab:|Main menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "to": "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a",
+        "target_key": "tab:be.digitalia.fosdem:id/menu_live|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a",
+        "to": "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be",
+        "target_key": "tab:|Now",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be",
+        "to": "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a",
+        "target_key": "tab:|Next",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a",
+        "to": "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be",
+        "target_key": "tab:|Now",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be",
+        "to": "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a",
+        "target_key": "tab:|Next",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a",
+        "to": "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be",
+        "target_key": "tab:|Now",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be",
+        "to": "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a",
+        "target_key": "tab:|Next",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a",
+        "to": "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be",
+        "target_key": "tab:|Now",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be",
+        "to": "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a",
+        "target_key": "tab:|Next",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a",
+        "to": "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be",
+        "target_key": "tab:|Now",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "16044db54960bb3644e5f2a40bd0977d7f730be53c24a6753e4e180ef96565be",
+        "to": "d171941e2e2417b5ba8f4ecfc9882962e00119815573edf26e4b6bb428540a8a",
+        "target_key": "tab:|Next",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "to": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "target_key": "expand:|Main menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "to": "3839bc344caf7ed485464885125c7fc4fd71f0ed5c72907a481a206f98335418",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3839bc344caf7ed485464885125c7fc4fd71f0ed5c72907a481a206f98335418",
+        "to": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+        "to": "4670714533be0e08f8abb1a21415cef3c8644b4527aa6281f5cb0468e6d6de8a",
+        "target_key": "tab:|Main menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+    "root_screen_signature": "98edffb6ddad6f4221e7378ba238a376f97eeb27c0f27b1488cba88d1a8df351",
+    "root_screen_hint": "Update sessions database refresh Button · Search sessions search Button · Main menu ImageButton",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "be.digitalia.fosdem",
+          "screen_hash": "feb6873b8ac7b7ca7bebf4c044a27dbe0a530b79620daac74ceeea408a1912c3",
+          "interactive_count": 3,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "98edffb6ddad6f4221e7378ba238a376f97eeb27c0f27b1488cba88d1a8df351",
+          "root_landmark_score": 5
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users navigate through a list of sessions by swiping vertically, with the ability to open individual session details by tapping on a session card. The main navigation is accessed via a top tab bar with options for searching, bookmarks, live events, settings, and speakers. Users can also access the main menu by tapping the hamburger icon.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

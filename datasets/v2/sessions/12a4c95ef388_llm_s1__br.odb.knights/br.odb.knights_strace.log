@@ -1,0 +1,17 @@
+8716  1784095056.118410 exit(0)         = ?
+8716  1784095056.118858 +++ exited with 0 +++
+8714  1784095056.118864 exit(0 <unfinished ...>
+8717  1784095056.118910 exit(0 <unfinished ...>
+8714  1784095056.119066 <... exit resumed>) = ?
+8717  1784095056.119120 <... exit resumed>) = ?
+8717  1784095056.119882 +++ exited with 0 +++
+8715  1784095056.119900 exit(0 <unfinished ...>
+8714  1784095056.119959 +++ exited with 0 +++
+8715  1784095056.120220 <... exit resumed>) = ?
+8715  1784095056.120496 +++ exited with 0 +++
+8727  1784095056.123099 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+8727  1784095056.123640 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+8727  1784095056.123942 newfstatat(AT_FDCWD, "/data/app/br.odb.knights-nKdNSnu6ZU-Id30UgTTW_w==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+8727  1784095056.124238 newfstatat(AT_FDCWD, "/data/app/br.odb.knights-nKdNSnu6ZU-Id30UgTTW_w==/base.apk", {st_mode=S_IFREG|0644, st_size=2120804, ...}, AT_SYMLINK_NOFOLLOW) = 0
+8727  1784095056.124550 getcwd("/", 4096) = 2
+8727  1784095056.124834 newfstatat(AT_FDCWD, "/base.apk", 0x758f297690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)

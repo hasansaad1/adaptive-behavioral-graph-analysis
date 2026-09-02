@@ -1,0 +1,143 @@
+{
+  "total_event_count": {
+    "n_benign": 2231,
+    "n_malware": 1736,
+    "U": 1218807.5,
+    "p_value": 1.8246917117877706e-89,
+    "AUC_raw_benign_gt": 0.3146920900920626,
+    "AUC_floor": 0.6853079099079373,
+    "direction": "malware_higher",
+    "benign_dist": {
+      "n": 2231,
+      "min": 2.0,
+      "p10": 529.0,
+      "p25": 1064.0,
+      "p50": 6878.0,
+      "p75": 41229.0,
+      "p90": 156938.0,
+      "max": 1753234.0,
+      "mean": 69723.6207978485,
+      "mean_over_median": 10.137194067730228
+    },
+    "malware_dist": {
+      "n": 1736,
+      "min": 24.0,
+      "p10": 2621.5,
+      "p25": 16504.75,
+      "p50": 31437.5,
+      "p75": 74130.5,
+      "p90": 110402.5,
+      "max": 3300608.0,
+      "mean": 56612.915322580644,
+      "mean_over_median": 1.8008084396844737
+    },
+    "higher_at_median": "malware",
+    "higher_at_mean": "benign"
+  },
+  "mapped_event_count": {
+    "n_benign": 2231,
+    "n_malware": 1736,
+    "U": 1149435.5,
+    "p_value": 3.283136392490366e-107,
+    "AUC_raw_benign_gt": 0.29678046772850925,
+    "AUC_floor": 0.7032195322714907,
+    "direction": "malware_higher",
+    "benign_dist": {
+      "n": 2231,
+      "min": 0.0,
+      "p10": 6.0,
+      "p25": 33.0,
+      "p50": 185.0,
+      "p75": 853.0,
+      "p90": 3084.0,
+      "max": 271888.0,
+      "mean": 2023.5629762438368,
+      "mean_over_median": 10.938178249966686
+    },
+    "malware_dist": {
+      "n": 1736,
+      "min": 0.0,
+      "p10": 185.0,
+      "p25": 311.0,
+      "p50": 818.0,
+      "p75": 1774.25,
+      "p90": 4220.0,
+      "max": 454481.0,
+      "mean": 1887.7379032258063,
+      "mean_over_median": 2.3077480479533086
+    },
+    "higher_at_median": "malware",
+    "higher_at_mean": "benign"
+  },
+  "distinct_active_categories": {
+    "n_benign": 2231,
+    "n_malware": 1736,
+    "U": 1932527.0,
+    "p_value": 0.9109258902513773,
+    "AUC_raw_benign_gt": 0.49897211888616005,
+    "AUC_floor": 0.50102788111384,
+    "direction": "malware_higher",
+    "benign_dist": {
+      "n": 2231,
+      "min": 0.0,
+      "p10": 1.0,
+      "p25": 3.0,
+      "p50": 6.0,
+      "p75": 8.0,
+      "p90": 9.0,
+      "max": 13.0,
+      "mean": 5.376064545047064,
+      "mean_over_median": 0.896010757507844
+    },
+    "malware_dist": {
+      "n": 1736,
+      "min": 0.0,
+      "p10": 2.0,
+      "p25": 3.0,
+      "p50": 6.0,
+      "p75": 7.0,
+      "p90": 9.0,
+      "max": 14.0,
+      "mean": 5.425691244239632,
+      "mean_over_median": 0.9042818740399386
+    },
+    "higher_at_median": "tie",
+    "higher_at_mean": "malware"
+  },
+  "allowlist_drop_rate": {
+    "n_benign": 2256,
+    "n_malware": 1742,
+    "U": 2551221.0,
+    "p_value": 5.08823704679986e-59,
+    "AUC_raw_benign_gt": 0.649173577692552,
+    "AUC_floor": 0.649173577692552,
+    "direction": "benign_higher",
+    "benign_dist": {
+      "n": 2256,
+      "min": 1.1406761700200644e-06,
+      "p10": 1.2997516170064869e-05,
+      "p25": 5.0202462198794474e-05,
+      "p50": 0.00031615561963240434,
+      "p75": 0.0019175455417066154,
+      "p90": 0.004158004158004158,
+      "max": 1.0,
+      "mean": 0.014358780053115909,
+      "mean_over_median": 45.41681109388766
+    },
+    "malware_dist": {
+      "n": 1742,
+      "min": 9.043521040656053e-07,
+      "p10": 2.1931613098950884e-05,
+      "p25": 3.229787706273789e-05,
+      "p50": 9.483916916900261e-05,
+      "p75": 0.00016834074705202815,
+      "p90": 0.0011440775520455435,
+      "max": 1.0,
+      "mean": 0.00416961946563048,
+      "mean_over_median": 43.965162307572015
+    },
+    "higher_at_median": "benign",
+    "higher_at_mean": "benign"
+  },
+  "note": "AUC_floor = max(AUC_raw_benign_gt, 1 - AUC_raw_benign_gt); direction names the higher class."
+}

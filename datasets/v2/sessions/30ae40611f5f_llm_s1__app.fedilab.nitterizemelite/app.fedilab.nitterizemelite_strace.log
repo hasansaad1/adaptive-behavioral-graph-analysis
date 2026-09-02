@@ -1,0 +1,16 @@
+19325 1783916062.590301 exit(0)         = ?
+19325 1783916062.590424 +++ exited with 0 +++
+19327 1783916062.593463 exit(0)         = ?
+19327 1783916062.593794 +++ exited with 0 +++
+19326 1783916062.593801 exit(0 <unfinished ...>
+19328 1783916062.593939 exit(0 <unfinished ...>
+19326 1783916062.593967 <... exit resumed>) = ?
+19328 1783916062.594125 <... exit resumed>) = ?
+19326 1783916062.594147 +++ exited with 0 +++
+19328 1783916062.594322 +++ exited with 0 +++
+19339 1783916062.595936 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+19339 1783916062.596269 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+19339 1783916062.596556 newfstatat(AT_FDCWD, "/data/app/app.fedilab.nitterizemelite-cSQp2GOW-jFc0qhjvO5k2w==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+19339 1783916062.596865 newfstatat(AT_FDCWD, "/data/app/app.fedilab.nitterizemelite-cSQp2GOW-jFc0qhjvO5k2w==/base.apk", {st_mode=S_IFREG|0644, st_size=3714928, ...}, AT_SYMLINK_NOFOLLOW) = 0
+19339 1783916062.597288 getcwd("/", 4096) = 2
+19339 1783916062.597668 newfstatat(AT_FDCWD, "/base.apk", 0x7d86e50690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)

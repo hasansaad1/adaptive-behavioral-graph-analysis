@@ -1,0 +1,991 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "ch.abertschi.waterme.water_me",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "791801fb39d15bc3a8f4fd91304c0cd918cac13a678293d1c2fc82d96cac9cb4",
+      "hint": "Allow permission_allow_button Button · Deny permission_deny_button Button",
+      "visit_count": 0
+    },
+    {
+      "screen_hash": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "hint": "SAVE Button · TAKE PICTURE Button · View · 0, FREQUENCY\ndays EditText · ENTER NAME EditText",
+      "visit_count": 29
+    },
+    {
+      "screen_hash": "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+      "hint": "SAVE Button · TAKE PICTURE Button · View · 0, FREQUENCY\ndays EditText · ENTER NAME EditText",
+      "visit_count": 4
+    },
+    {
+      "screen_hash": "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407",
+      "hint": "New Plant Button",
+      "visit_count": 5
+    },
+    {
+      "screen_hash": "e8e86dc0a776cb90ece7e89bd2734e5d795300b9e3986136f987545bc0c55c77",
+      "hint": "Show menu Button · Show menu Button",
+      "visit_count": 12
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407",
+      "to": "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "New Plant",
+        "x": 807,
+        "y": 168,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:New Plant",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|New Plant"
+    },
+    {
+      "step": 2,
+      "from": "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1584,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 3,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "791801fb39d15bc3a8f4fd91304c0cd918cac13a678293d1c2fc82d96cac9cb4",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "TAKE PICTURE",
+        "x": 540,
+        "y": 1424,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:TAKE PICTURE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|TAKE PICTURE"
+    },
+    {
+      "step": 4,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 5,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 6,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 7,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 8,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 9,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 10,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 11,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 12,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 13,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 14,
+      "from": "e8e86dc0a776cb90ece7e89bd2734e5d795300b9e3986136f987545bc0c55c77",
+      "to": "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Show menu",
+        "x": 1017,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Show menu",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Show menu"
+    },
+    {
+      "step": 15,
+      "from": "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407",
+      "to": "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "New Plant",
+        "x": 807,
+        "y": 168,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:New Plant",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|New Plant"
+    },
+    {
+      "step": 16,
+      "from": "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1584,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 17,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 18,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 19,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 20,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 21,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 22,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 23,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 24,
+      "from": "e8e86dc0a776cb90ece7e89bd2734e5d795300b9e3986136f987545bc0c55c77",
+      "to": "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Show menu",
+        "x": 1017,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Show menu",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Show menu"
+    },
+    {
+      "step": 25,
+      "from": "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407",
+      "to": "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "New Plant",
+        "x": 807,
+        "y": 168,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:New Plant",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|New Plant"
+    },
+    {
+      "step": 26,
+      "from": "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1584,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 27,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 28,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 29,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 30,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 31,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 32,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 33,
+      "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "x": 540,
+        "y": 1691,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:SAVE",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|SAVE"
+    },
+    {
+      "step": 34,
+      "from": "e8e86dc0a776cb90ece7e89bd2734e5d795300b9e3986136f987545bc0c55c77",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:|New Plant": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "New Plant",
+        "visible_on": [
+          "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407"
+        ],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407",
+        "last_to": "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe"
+      },
+      "nav:|New Plant": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "New Plant",
+        "visible_on": [
+          "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|SAVE": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "visible_on": [
+          "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+          "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03"
+        ],
+        "attempts": 26,
+        "successes": 26,
+        "last_from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "last_to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03"
+      },
+      "tab:|TAKE PICTURE": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "TAKE PICTURE",
+        "visible_on": [
+          "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+          "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "last_to": "791801fb39d15bc3a8f4fd91304c0cd918cac13a678293d1c2fc82d96cac9cb4"
+      },
+      "nav:|SAVE": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "SAVE",
+        "visible_on": [
+          "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+          "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|TAKE PICTURE": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "TAKE PICTURE",
+        "visible_on": [
+          "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+          "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "e8e86dc0a776cb90ece7e89bd2734e5d795300b9e3986136f987545bc0c55c77",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:|Show menu": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Show menu",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "e8e86dc0a776cb90ece7e89bd2734e5d795300b9e3986136f987545bc0c55c77",
+        "last_to": "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407"
+      }
+    },
+    "edges": [
+      {
+        "from": "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407",
+        "to": "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+        "target_key": "tab:|New Plant",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "791801fb39d15bc3a8f4fd91304c0cd918cac13a678293d1c2fc82d96cac9cb4",
+        "target_key": "tab:|TAKE PICTURE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e8e86dc0a776cb90ece7e89bd2734e5d795300b9e3986136f987545bc0c55c77",
+        "to": "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407",
+        "target_key": "expand:|Show menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407",
+        "to": "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+        "target_key": "tab:|New Plant",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e8e86dc0a776cb90ece7e89bd2734e5d795300b9e3986136f987545bc0c55c77",
+        "to": "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407",
+        "target_key": "expand:|Show menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "a785c02bbbe62deced7381e68980fcd6d4b2e2782f1b14db71c32707edb2d407",
+        "to": "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+        "target_key": "tab:|New Plant",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9883a7cf36c751837e5bd4f0324614d1df493119a0b7c4d1dbd18fcafcda95fe",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "to": "89b343a8316cdced2faeef690386bac2ba882d8e43006fa4d23e727c5329fa03",
+        "target_key": "tab:|SAVE",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e8e86dc0a776cb90ece7e89bd2734e5d795300b9e3986136f987545bc0c55c77",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      }
+    ]
+  }
+}

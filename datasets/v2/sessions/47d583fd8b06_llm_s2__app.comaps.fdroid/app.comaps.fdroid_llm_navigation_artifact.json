@@ -1,0 +1,1284 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "app.comaps.fdroid",
+  "screen_count": 15,
+  "screens": [
+    {
+      "screen_hash": "091ae1b1a9c81fcbcc88875644bfda71842c47b2aa4f521609f34b376a8eb838",
+      "hint": "touch_outside View · bottom_sheet_menu_item LinearLayout · bottom_sheet_menu_item LinearLayout · bottom_sheet_menu_item LinearLayout · bottom_sheet_menu_item LinearLayout",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "20fbca42a4abf29ee9220177a7e4ddb4f2fe6adf1b358b763dfc0ce72a40cf38",
+      "hint": "Places btn_bookmarks ImageButton · Search btn_search ImageButton · Map Styles and Layers layers_button ImageButton · About & Help left_button ImageButton · Menu menu_button ImageButton · My Position my_position ImageButton · Zoom in nav_zoom_in ImageButton · Zoom out nav_zoom_out ImageButton · Retry downloader_button Button · ViewGroup",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "252ce61874f3781f57fe0176794765dd33de4c789d3a8870681c94fbd41330a6",
+      "hint": "Go to Map btn_download_resources Button",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "hint": "Show all button Button · checkbox CheckBox · more ImageView · Navigate up ImageButton · LinearLayout · LinearLayout · LinearLayout · RelativeLayout",
+      "visit_count": 9
+    },
+    {
+      "screen_hash": "3eab1df2782c8a08dc4f530bce1ea479ccf646417437879ed6e89d0ffe2b57ab",
+      "hint": "OK button1 Button",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+      "hint": "Places btn_bookmarks ImageButton · Search btn_search ImageButton · Map Styles and Layers layers_button ImageButton · About & Help left_button ImageButton · Menu menu_button ImageButton · My Position my_position ImageButton · Zoom in nav_zoom_in ImageButton · Zoom out nav_zoom_out ImageButton · ViewGroup",
+      "visit_count": 10
+    },
+    {
+      "screen_hash": "4016a738fbe1f252fa7c0ca75c59c49b8f04f1e2d489adea6bece31ff0da48d3",
+      "hint": "Pause btn_download_resources Button · Download Chico? (58 MB) chb_download_country CheckBox",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "444d9fddf811d47bf2b2b78eb5c2cb4fb1f3300ba0b04206b31691861129638d",
+      "hint": "touch_outside View · bottom_sheet_menu_item LinearLayout · bottom_sheet_menu_item LinearLayout · bottom_sheet_menu_item LinearLayout · bottom_sheet_menu_item LinearLayout · bottom_sheet_menu_item LinearLayout · bottom_sheet_menu_item LinearLayout",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 0
+    },
+    {
+      "screen_hash": "68be9d2737224010a59b86c09197f9e12e412f338d702e737f9086287bbed6d8",
+      "hint": "Custom Map Server btn_advanced Button · Download btn_download_resources Button · Download Chico? (58 MB) chb_download_country CheckBox",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "hint": "Hide all button Button · checkbox CheckBox · more ImageView · Navigate up ImageButton · LinearLayout · LinearLayout · LinearLayout · RelativeLayout",
+      "visit_count": 12
+    },
+    {
+      "screen_hash": "a78fbb58c180123d19d3d19a3d4627a92553caa3ddf38bcb210e95f84062046c",
+      "hint": "Save done ImageButton · ImageButton",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "b80d43b1f7b43b5b1e8e8b2a90ee73698b99e3bf18549a5a7fde4793dab86cf0",
+      "hint": "Back back ImageView · Search query EditText · voice_input ImageView · Categories LinearLayout",
+      "visit_count": 3
+    },
+    {
+      "screen_hash": "faca9e6c9b675690d3c3caa7738e2ba63f184d1a8a2a0160b09e457068593fe5",
+      "hint": "Close close_button Button · Contour Lines btn ImageButton · Outdoors btn ImageButton · Subway btn ImageButton · touch_outside View",
+      "visit_count": 2
+    },
+    {
+      "screen_hash": "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644",
+      "hint": "Donate donate Button · Report a bug report Button · Frequently Asked Questions faq TextView · Community-created OpenStreet osm_presentation TextView · Volunteer and improve CoMaps support_us TextView · 2026.04.23-19-FDroid version TextView · Navigate up ImageButton",
+      "visit_count": 2
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "68be9d2737224010a59b86c09197f9e12e412f338d702e737f9086287bbed6d8",
+      "to": "4016a738fbe1f252fa7c0ca75c59c49b8f04f1e2d489adea6bece31ff0da48d3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/btn_download_resources",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1668,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/btn_download_resources",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.comaps.fdroid:id/btn_download_resources|"
+    },
+    {
+      "step": 2,
+      "from": "4016a738fbe1f252fa7c0ca75c59c49b8f04f1e2d489adea6bece31ff0da48d3",
+      "to": "252ce61874f3781f57fe0176794765dd33de4c789d3a8870681c94fbd41330a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/chb_download_country",
+        "target_content_desc": "",
+        "x": 326,
+        "y": 1447,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/chb_download_country",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.comaps.fdroid:id/chb_download_country|"
+    },
+    {
+      "step": 3,
+      "from": "252ce61874f3781f57fe0176794765dd33de4c789d3a8870681c94fbd41330a6",
+      "to": "252ce61874f3781f57fe0176794765dd33de4c789d3a8870681c94fbd41330a6",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/btn_download_resources",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1668,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/btn_download_resources",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.comaps.fdroid:id/btn_download_resources|"
+    },
+    {
+      "step": 4,
+      "from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+      "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/btn_bookmarks",
+        "target_content_desc": "Places",
+        "x": 635,
+        "y": 1710,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/btn_bookmarks",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.comaps.fdroid:id/btn_bookmarks|Places"
+    },
+    {
+      "step": 5,
+      "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 6,
+      "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 7,
+      "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 8,
+      "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 9,
+      "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 10,
+      "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 11,
+      "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 12,
+      "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 13,
+      "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 14,
+      "from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+      "to": "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/left_button",
+        "target_content_desc": "About & Help",
+        "x": 255,
+        "y": 1710,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/left_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.comaps.fdroid:id/left_button|About & Help"
+    },
+    {
+      "step": 15,
+      "from": "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/donate",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1393,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/donate",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.comaps.fdroid:id/donate|"
+    },
+    {
+      "step": 16,
+      "from": "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644",
+      "to": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/faq",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1676,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/faq",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.comaps.fdroid:id/faq|"
+    },
+    {
+      "step": 17,
+      "from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+      "to": "444d9fddf811d47bf2b2b78eb5c2cb4fb1f3300ba0b04206b31691861129638d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/menu_button",
+        "target_content_desc": "Menu",
+        "x": 825,
+        "y": 1710,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/menu_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.comaps.fdroid:id/menu_button|Menu"
+    },
+    {
+      "step": 18,
+      "from": "444d9fddf811d47bf2b2b78eb5c2cb4fb1f3300ba0b04206b31691861129638d",
+      "to": "a78fbb58c180123d19d3d19a3d4627a92553caa3ddf38bcb210e95f84062046c",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/bottom_sheet_menu_item",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1353,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/bottom_sheet_menu_item",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:app.comaps.fdroid:id/bottom_sheet_menu_item|"
+    },
+    {
+      "step": 19,
+      "from": "a78fbb58c180123d19d3d19a3d4627a92553caa3ddf38bcb210e95f84062046c",
+      "to": "3eab1df2782c8a08dc4f530bce1ea479ccf646417437879ed6e89d0ffe2b57ab",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/done",
+        "target_content_desc": "Save",
+        "x": 964,
+        "y": 1678,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/done",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.comaps.fdroid:id/done|Save"
+    },
+    {
+      "step": 20,
+      "from": "3eab1df2782c8a08dc4f530bce1ea479ccf646417437879ed6e89d0ffe2b57ab",
+      "to": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 842,
+        "y": 980,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 21,
+      "from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+      "to": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/my_position",
+        "target_content_desc": "My Position",
+        "x": 996,
+        "y": 1353,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/my_position",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.comaps.fdroid:id/my_position|My Position"
+    },
+    {
+      "step": 22,
+      "from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+      "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/btn_bookmarks",
+        "target_content_desc": "Places",
+        "x": 635,
+        "y": 1710,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/btn_bookmarks",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.comaps.fdroid:id/btn_bookmarks|Places"
+    },
+    {
+      "step": 23,
+      "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 24,
+      "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 25,
+      "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 26,
+      "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 27,
+      "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 28,
+      "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 29,
+      "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 30,
+      "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 31,
+      "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 305,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/button",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:app.comaps.fdroid:id/button|"
+    },
+    {
+      "step": 32,
+      "from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+      "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.comaps.fdroid:id/btn_bookmarks",
+        "target_content_desc": "Places",
+        "x": 635,
+        "y": 1710,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.comaps.fdroid:id/btn_bookmarks",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.comaps.fdroid:id/btn_bookmarks|Places"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:app.comaps.fdroid:id/btn_download_resources|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/btn_download_resources",
+        "target_content_desc": "",
+        "visible_on": [
+          "68be9d2737224010a59b86c09197f9e12e412f338d702e737f9086287bbed6d8",
+          "4016a738fbe1f252fa7c0ca75c59c49b8f04f1e2d489adea6bece31ff0da48d3",
+          "252ce61874f3781f57fe0176794765dd33de4c789d3a8870681c94fbd41330a6"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "252ce61874f3781f57fe0176794765dd33de4c789d3a8870681c94fbd41330a6",
+        "last_to": "252ce61874f3781f57fe0176794765dd33de4c789d3a8870681c94fbd41330a6"
+      },
+      "tab:app.comaps.fdroid:id/chb_download_country|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/chb_download_country",
+        "target_content_desc": "",
+        "visible_on": [
+          "68be9d2737224010a59b86c09197f9e12e412f338d702e737f9086287bbed6d8",
+          "4016a738fbe1f252fa7c0ca75c59c49b8f04f1e2d489adea6bece31ff0da48d3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4016a738fbe1f252fa7c0ca75c59c49b8f04f1e2d489adea6bece31ff0da48d3",
+        "last_to": "252ce61874f3781f57fe0176794765dd33de4c789d3a8870681c94fbd41330a6"
+      },
+      "nav:app.comaps.fdroid:id/btn_download_resources|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/btn_download_resources",
+        "target_content_desc": "",
+        "visible_on": [
+          "68be9d2737224010a59b86c09197f9e12e412f338d702e737f9086287bbed6d8",
+          "4016a738fbe1f252fa7c0ca75c59c49b8f04f1e2d489adea6bece31ff0da48d3",
+          "252ce61874f3781f57fe0176794765dd33de4c789d3a8870681c94fbd41330a6"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.comaps.fdroid:id/chb_download_country|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/chb_download_country",
+        "target_content_desc": "",
+        "visible_on": [
+          "68be9d2737224010a59b86c09197f9e12e412f338d702e737f9086287bbed6d8",
+          "4016a738fbe1f252fa7c0ca75c59c49b8f04f1e2d489adea6bece31ff0da48d3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:app.comaps.fdroid:id/left_button|About & Help": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/left_button",
+        "target_content_desc": "About & Help",
+        "visible_on": [
+          "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+        "last_to": "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644"
+      },
+      "tab:app.comaps.fdroid:id/menu_button|Menu": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/menu_button",
+        "target_content_desc": "Menu",
+        "visible_on": [
+          "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+        "last_to": "444d9fddf811d47bf2b2b78eb5c2cb4fb1f3300ba0b04206b31691861129638d"
+      },
+      "tab:app.comaps.fdroid:id/my_position|My Position": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/my_position",
+        "target_content_desc": "My Position",
+        "visible_on": [
+          "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+        "last_to": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91"
+      },
+      "tab:app.comaps.fdroid:id/btn_bookmarks|Places": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/btn_bookmarks",
+        "target_content_desc": "Places",
+        "visible_on": [
+          "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91"
+        ],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+        "last_to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a"
+      },
+      "nav:app.comaps.fdroid:id/left_button|About & Help": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/left_button",
+        "target_content_desc": "About & Help",
+        "visible_on": [
+          "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.comaps.fdroid:id/menu_button|Menu": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/menu_button",
+        "target_content_desc": "Menu",
+        "visible_on": [
+          "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.comaps.fdroid:id/my_position|My Position": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/my_position",
+        "target_content_desc": "My Position",
+        "visible_on": [
+          "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.comaps.fdroid:id/btn_bookmarks|Places": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/btn_bookmarks",
+        "target_content_desc": "Places",
+        "visible_on": [
+          "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.comaps.fdroid:id/nav_zoom_in|Zoom in": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/nav_zoom_in",
+        "target_content_desc": "Zoom in",
+        "visible_on": [
+          "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.comaps.fdroid:id/nav_zoom_out|Zoom out": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/nav_zoom_out",
+        "target_content_desc": "Zoom out",
+        "visible_on": [
+          "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.comaps.fdroid:id/btn_search|Search": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/btn_search",
+        "target_content_desc": "Search",
+        "visible_on": [
+          "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:app.comaps.fdroid:id/button|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/button",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 18,
+        "successes": 18,
+        "last_from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "last_to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd"
+      },
+      "tab:app.comaps.fdroid:id/donate|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/donate",
+        "target_content_desc": "",
+        "visible_on": [
+          "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:app.comaps.fdroid:id/faq|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/faq",
+        "target_content_desc": "",
+        "visible_on": [
+          "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644",
+        "last_to": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91"
+      },
+      "tab:app.comaps.fdroid:id/osm_presentation|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/osm_presentation",
+        "target_content_desc": "",
+        "visible_on": [
+          "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:app.comaps.fdroid:id/report|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/report",
+        "target_content_desc": "",
+        "visible_on": [
+          "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:app.comaps.fdroid:id/support_us|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/support_us",
+        "target_content_desc": "",
+        "visible_on": [
+          "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.comaps.fdroid:id/donate|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/donate",
+        "target_content_desc": "",
+        "visible_on": [
+          "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.comaps.fdroid:id/faq|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/faq",
+        "target_content_desc": "",
+        "visible_on": [
+          "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.comaps.fdroid:id/report|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/report",
+        "target_content_desc": "",
+        "visible_on": [
+          "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.comaps.fdroid:id/support_us|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/support_us",
+        "target_content_desc": "",
+        "visible_on": [
+          "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.comaps.fdroid:id/bottom_sheet_menu_item|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/bottom_sheet_menu_item",
+        "target_content_desc": "",
+        "visible_on": [
+          "444d9fddf811d47bf2b2b78eb5c2cb4fb1f3300ba0b04206b31691861129638d"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "444d9fddf811d47bf2b2b78eb5c2cb4fb1f3300ba0b04206b31691861129638d",
+        "last_to": "a78fbb58c180123d19d3d19a3d4627a92553caa3ddf38bcb210e95f84062046c"
+      },
+      "tab:app.comaps.fdroid:id/done|Save": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/done",
+        "target_content_desc": "Save",
+        "visible_on": [
+          "a78fbb58c180123d19d3d19a3d4627a92553caa3ddf38bcb210e95f84062046c"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "a78fbb58c180123d19d3d19a3d4627a92553caa3ddf38bcb210e95f84062046c",
+        "last_to": "3eab1df2782c8a08dc4f530bce1ea479ccf646417437879ed6e89d0ffe2b57ab"
+      },
+      "nav:app.comaps.fdroid:id/done|Save": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.comaps.fdroid:id/done",
+        "target_content_desc": "Save",
+        "visible_on": [
+          "a78fbb58c180123d19d3d19a3d4627a92553caa3ddf38bcb210e95f84062046c"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "3eab1df2782c8a08dc4f530bce1ea479ccf646417437879ed6e89d0ffe2b57ab"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "3eab1df2782c8a08dc4f530bce1ea479ccf646417437879ed6e89d0ffe2b57ab",
+        "last_to": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91"
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "3eab1df2782c8a08dc4f530bce1ea479ccf646417437879ed6e89d0ffe2b57ab"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "68be9d2737224010a59b86c09197f9e12e412f338d702e737f9086287bbed6d8",
+        "to": "4016a738fbe1f252fa7c0ca75c59c49b8f04f1e2d489adea6bece31ff0da48d3",
+        "target_key": "tab:app.comaps.fdroid:id/btn_download_resources|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4016a738fbe1f252fa7c0ca75c59c49b8f04f1e2d489adea6bece31ff0da48d3",
+        "to": "252ce61874f3781f57fe0176794765dd33de4c789d3a8870681c94fbd41330a6",
+        "target_key": "tab:app.comaps.fdroid:id/chb_download_country|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "252ce61874f3781f57fe0176794765dd33de4c789d3a8870681c94fbd41330a6",
+        "to": "252ce61874f3781f57fe0176794765dd33de4c789d3a8870681c94fbd41330a6",
+        "target_key": "tab:app.comaps.fdroid:id/btn_download_resources|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+        "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "target_key": "tab:app.comaps.fdroid:id/btn_bookmarks|Places",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+        "to": "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644",
+        "target_key": "tab:app.comaps.fdroid:id/left_button|About & Help",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:app.comaps.fdroid:id/donate|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "fba19c064f162d1d7754f633c3f3cde27142bc058896534c38eaf34f319dd644",
+        "to": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+        "target_key": "tab:app.comaps.fdroid:id/faq|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+        "to": "444d9fddf811d47bf2b2b78eb5c2cb4fb1f3300ba0b04206b31691861129638d",
+        "target_key": "tab:app.comaps.fdroid:id/menu_button|Menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "444d9fddf811d47bf2b2b78eb5c2cb4fb1f3300ba0b04206b31691861129638d",
+        "to": "a78fbb58c180123d19d3d19a3d4627a92553caa3ddf38bcb210e95f84062046c",
+        "target_key": "nav:app.comaps.fdroid:id/bottom_sheet_menu_item|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a78fbb58c180123d19d3d19a3d4627a92553caa3ddf38bcb210e95f84062046c",
+        "to": "3eab1df2782c8a08dc4f530bce1ea479ccf646417437879ed6e89d0ffe2b57ab",
+        "target_key": "tab:app.comaps.fdroid:id/done|Save",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "3eab1df2782c8a08dc4f530bce1ea479ccf646417437879ed6e89d0ffe2b57ab",
+        "to": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+        "to": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+        "target_key": "tab:app.comaps.fdroid:id/my_position|My Position",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+        "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "target_key": "tab:app.comaps.fdroid:id/btn_bookmarks|Places",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "to": "2a793300b94c4917e1d723757e2c17363e7ac15bb065317be77065b3863b82fd",
+        "target_key": "expand:app.comaps.fdroid:id/button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4003c43c7f35d3649f3a3fd778b1335c5f46364fcfee62f1c2f160090e630a91",
+        "to": "8d2706d84d81cde8ebb29bc676f3395934a49c91cee99918ae9c5b152e77dd9a",
+        "target_key": "tab:app.comaps.fdroid:id/btn_bookmarks|Places",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  }
+}

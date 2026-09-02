@@ -1,0 +1,1111 @@
+{
+  "census": {
+    "identical_seed_sharing": {
+      "n_apps_all_identical_share_one_seed": 54,
+      "n_apps_identical_multiple_seeds": 0,
+      "n_apps_with_ge2_identical": 54,
+      "n_identical_pairs_different_seed": 0,
+      "n_identical_pairs_same_seed": 54
+    },
+    "mode_counts": {
+      "MISSING": 2,
+      "identical": 112,
+      "varied": 228
+    },
+    "mode_counts_by_batch": {
+      "canary": {
+        "MISSING": 2
+      },
+      "extend": {
+        "varied": 172
+      },
+      "original": {
+        "identical": 112,
+        "varied": 56
+      }
+    },
+    "n_missing_agent_seed": 2,
+    "n_missing_session_mode": 2,
+    "n_usable": 342
+  },
+  "extend_metadata_pins": {
+    "arm": {
+      "llm": 172
+    },
+    "duration_sec": {
+      "420": 172
+    },
+    "hook_script_sha256": {
+      "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc": 172
+    },
+    "hook_version": {
+      "3": 172
+    },
+    "n": 172,
+    "pm_clear_rc": {
+      "0": 172
+    },
+    "snapshot_restored": {
+      "True": 172
+    }
+  },
+  "original_metadata_pins": {
+    "arm": {
+      "llm": 168
+    },
+    "duration_sec": {
+      "420": 168
+    },
+    "hook_script_sha256": {
+      "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc": 168
+    },
+    "hook_version": {
+      "3": 168
+    },
+    "n": 168,
+    "pm_clear_rc": {
+      "0": 168
+    },
+    "snapshot_restored": {
+      "True": 168
+    }
+  },
+  "pairwise_graph_distance": {
+    "build_fail": 0,
+    "builder": "abrg.chapter_b.graphs_seq.graph_from_events (update_graph_sequence, k=5, zero static)",
+    "by_pair_type": {
+      "identical-identical": {
+        "all_pairs": {
+          "cosine_adj": {
+            "iqr": 6.93538523384718e-05,
+            "max": 0.34981488762271074,
+            "mean": 0.010682390546474985,
+            "min": 0.0,
+            "n": 54,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p50": 2.220446049250313e-16,
+            "p75": 6.93538523384718e-05,
+            "p90": 0.0065668201245951095
+          },
+          "cosine_combined": {
+            "iqr": 8.281855237918245e-05,
+            "max": 0.18221383121152168,
+            "mean": 0.006468333096653511,
+            "min": 0.0,
+            "n": 54,
+            "p10": 0.0,
+            "p25": 2.7755575615628914e-17,
+            "p50": 2.220446049250313e-16,
+            "p75": 8.281855237921021e-05,
+            "p90": 0.002450699857370288
+          },
+          "frobenius_adj": {
+            "iqr": 0.023065009014792484,
+            "max": 1.5344846748002259,
+            "mean": 0.08285877637805861,
+            "min": 0.0,
+            "n": 54,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p50": 0.0,
+            "p75": 0.023065009014792484,
+            "p90": 0.17047345388644417
+          },
+          "frobenius_combined": {
+            "iqr": 0.031999812850800405,
+            "max": 1.9819786623076097,
+            "mean": 0.10841375901817571,
+            "min": 0.0,
+            "n": 54,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p50": 0.0,
+            "p75": 0.031999812850800405,
+            "p90": 0.1737314820550133
+          }
+        },
+        "gae_pairs": {
+          "cosine_adj": {
+            "iqr": 0.0007363632137040721,
+            "max": 0.34981488762271074,
+            "mean": 0.013415095104875563,
+            "min": 0.0,
+            "n": 43,
+            "p10": 0.0,
+            "p25": 2.220446049250313e-16,
+            "p50": 2.220446049250313e-16,
+            "p75": 0.0007363632137042941,
+            "p90": 0.012457433916981429
+          },
+          "cosine_combined": {
+            "iqr": 0.0008521223703337744,
+            "max": 0.18221383121152168,
+            "mean": 0.008123022958588074,
+            "min": 0.0,
+            "n": 43,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p50": 4.197543725048547e-06,
+            "p75": 0.0008521223703337744,
+            "p90": 0.003875712254726367
+          },
+          "frobenius_adj": {
+            "iqr": 0.0655879096828729,
+            "max": 1.5344846748002259,
+            "mean": 0.10405520754453872,
+            "min": 0.0,
+            "n": 43,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p50": 0.0,
+            "p75": 0.0655879096828729,
+            "p90": 0.24058042090993054
+          },
+          "frobenius_combined": {
+            "iqr": 0.10326032759823014,
+            "max": 1.9819786623076097,
+            "mean": 0.1361475113251509,
+            "min": 0.0,
+            "n": 43,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p50": 0.007242916921440915,
+            "p75": 0.10326032759823014,
+            "p90": 0.24123512294548363
+          }
+        },
+        "n_both_zero_edges": 11,
+        "n_gae_pairs": 43,
+        "n_pairs": 54
+      },
+      "identical-varied": {
+        "all_pairs": {
+          "cosine_adj": {
+            "iqr": 0.0018885578273256654,
+            "max": 0.8452079819041349,
+            "mean": 0.04766477853482454,
+            "min": 0.0,
+            "n": 438,
+            "p10": 0.0,
+            "p25": 2.220446049250313e-16,
+            "p50": 2.220446049250313e-16,
+            "p75": 0.0018885578273258874,
+            "p90": 0.15894127901459582
+          },
+          "cosine_combined": {
+            "iqr": 0.0016079802568827184,
+            "max": 0.4855740434575647,
+            "mean": 0.029957864426547014,
+            "min": 0.0,
+            "n": 438,
+            "p10": 0.0,
+            "p25": 2.220446049250313e-16,
+            "p50": 3.2141028414589545e-05,
+            "p75": 0.0016079802568829404,
+            "p90": 0.1430726371557245
+          },
+          "frobenius_adj": {
+            "iqr": 0.09863875390809479,
+            "max": 2.2134454270160826,
+            "mean": 0.20790482520503617,
+            "min": 0.0,
+            "n": 438,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p50": 0.0,
+            "p75": 0.09863875390809479,
+            "p90": 0.986036352114873
+          },
+          "frobenius_combined": {
+            "iqr": 0.14611731683929643,
+            "max": 2.7213206153378486,
+            "mean": 0.2814589793446558,
+            "min": 0.0,
+            "n": 438,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p50": 0.020716416074689336,
+            "p75": 0.14611731683929643,
+            "p90": 1.480383051150854
+          }
+        },
+        "gae_pairs": {
+          "cosine_adj": {
+            "iqr": 0.002693584404065058,
+            "max": 0.8452079819041349,
+            "mean": 0.0501855120150316,
+            "min": 0.0,
+            "n": 416,
+            "p10": 0.0,
+            "p25": 2.220446049250313e-16,
+            "p50": 2.220446049250313e-16,
+            "p75": 0.00269358440406528,
+            "p90": 0.1631034150339693
+          },
+          "cosine_combined": {
+            "iqr": 0.0023396375458236973,
+            "max": 0.4855740434575647,
+            "mean": 0.03154217456448939,
+            "min": 0.0,
+            "n": 416,
+            "p10": 0.0,
+            "p25": 2.220446049250313e-16,
+            "p50": 6.764787237417691e-05,
+            "p75": 0.0023396375458239194,
+            "p90": 0.14813556625777363
+          },
+          "frobenius_adj": {
+            "iqr": 0.13188480190528382,
+            "max": 2.2134454270160826,
+            "mean": 0.21889979192261022,
+            "min": 0.0,
+            "n": 416,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p50": 0.0,
+            "p75": 0.13188480190528382,
+            "p90": 1.0423776040785566
+          },
+          "frobenius_combined": {
+            "iqr": 0.1776193121681669,
+            "max": 2.7213206153378486,
+            "mean": 0.29634382921384433,
+            "min": 0.0,
+            "n": 416,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p50": 0.03153784379118764,
+            "p75": 0.1776193121681669,
+            "p90": 1.4830252909823676
+          }
+        },
+        "n_both_zero_edges": 22,
+        "n_gae_pairs": 416,
+        "n_pairs": 438
+      },
+      "varied-varied": {
+        "all_pairs": {
+          "cosine_adj": {
+            "iqr": 0.0022851298160899702,
+            "max": 0.8408222561042417,
+            "mean": 0.0639976429379504,
+            "min": 0.0,
+            "n": 522,
+            "p10": 0.0,
+            "p25": 2.220446049250313e-16,
+            "p50": 2.220446049250313e-16,
+            "p75": 0.0022851298160901923,
+            "p90": 0.18292161979212507
+          },
+          "cosine_combined": {
+            "iqr": 0.0021036770261817217,
+            "max": 0.4962066106574655,
+            "mean": 0.040443635879977194,
+            "min": 0.0,
+            "n": 522,
+            "p10": 0.0,
+            "p25": 6.60993708101465e-08,
+            "p50": 7.177395565982625e-05,
+            "p75": 0.002103743125552532,
+            "p90": 0.15097208465172224
+          },
+          "frobenius_adj": {
+            "iqr": 0.11866870013395527,
+            "max": 2.407341406167154,
+            "mean": 0.24333111716917077,
+            "min": 0.0,
+            "n": 522,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p50": 0.0,
+            "p75": 0.11866870013395527,
+            "p90": 1.0527490358036042
+          },
+          "frobenius_combined": {
+            "iqr": 0.1679381904933872,
+            "max": 2.9701556221357457,
+            "mean": 0.3330630152413502,
+            "min": 0.0,
+            "n": 522,
+            "p10": 0.0,
+            "p25": 0.0008586670841196103,
+            "p50": 0.03054943653608952,
+            "p75": 0.16879685757750681,
+            "p90": 1.4817392182691407
+          }
+        },
+        "gae_pairs": {
+          "cosine_adj": {
+            "iqr": 0.0022851298160899702,
+            "max": 0.8408222561042417,
+            "mean": 0.0639976429379504,
+            "min": 0.0,
+            "n": 522,
+            "p10": 0.0,
+            "p25": 2.220446049250313e-16,
+            "p50": 2.220446049250313e-16,
+            "p75": 0.0022851298160901923,
+            "p90": 0.18292161979212507
+          },
+          "cosine_combined": {
+            "iqr": 0.0021036770261817217,
+            "max": 0.4962066106574655,
+            "mean": 0.040443635879977194,
+            "min": 0.0,
+            "n": 522,
+            "p10": 0.0,
+            "p25": 6.60993708101465e-08,
+            "p50": 7.177395565982625e-05,
+            "p75": 0.002103743125552532,
+            "p90": 0.15097208465172224
+          },
+          "frobenius_adj": {
+            "iqr": 0.11866870013395527,
+            "max": 2.407341406167154,
+            "mean": 0.24333111716917077,
+            "min": 0.0,
+            "n": 522,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p50": 0.0,
+            "p75": 0.11866870013395527,
+            "p90": 1.0527490358036042
+          },
+          "frobenius_combined": {
+            "iqr": 0.1679381904933872,
+            "max": 2.9701556221357457,
+            "mean": 0.3330630152413502,
+            "min": 0.0,
+            "n": 522,
+            "p10": 0.0,
+            "p25": 0.0008586670841196103,
+            "p50": 0.03054943653608952,
+            "p75": 0.16879685757750681,
+            "p90": 1.4817392182691407
+          }
+        },
+        "n_both_zero_edges": 0,
+        "n_gae_pairs": 522,
+        "n_pairs": 522
+      }
+    },
+    "cosine_is_distance": "1 - cosine_similarity (tensorize._cosine)",
+    "flattening": "abrg.chapter_c.tensorize.session_vector channel=w_cum (node block + outgoing-share adj)",
+    "n_apps": 59,
+    "n_sessions_tensorized": 342,
+    "tests": {
+      "cosine_combined_ii_vs_iv": {
+        "U": 8952.0,
+        "alternative": "two-sided",
+        "benign_median": 2.220446049250313e-16,
+        "cliffs_delta": -0.24302384576357183,
+        "cliffs_delta_formula": "2*U/(n_x*n_y) - 1",
+        "cliffs_magnitude_romano2006": "small",
+        "effect_size_name": "cliffs_delta",
+        "label_x": "identical-identical",
+        "label_y": "identical-varied",
+        "malware_median": 3.825711079441518e-05,
+        "material_by_declared_rule": true,
+        "material_rule": "p < 0.05 and |cliffs_delta| >= 0.147",
+        "material_statement": "differs materially (identical-identical vs identical-varied: p=0.00343, Cliff \u03b4=-0.243, small)",
+        "median_x": 2.220446049250313e-16,
+        "median_y": 3.825711079441518e-05,
+        "n_benign": 54,
+        "n_malware": 438,
+        "n_x": 54,
+        "n_y": 438,
+        "p_value": 0.0034305175578384734,
+        "test": "mannwhitneyu"
+      },
+      "cosine_combined_ii_vs_iv_gae": {
+        "U": 7115.0,
+        "alternative": "two-sided",
+        "benign_median": 4.197543725048547e-06,
+        "cliffs_delta": -0.20449463327370299,
+        "cliffs_delta_formula": "2*U/(n_x*n_y) - 1",
+        "cliffs_magnitude_romano2006": "small",
+        "effect_size_name": "cliffs_delta",
+        "label_x": "identical-identical_gae",
+        "label_y": "identical-varied_gae",
+        "malware_median": 6.769043326082524e-05,
+        "material_by_declared_rule": true,
+        "material_rule": "p < 0.05 and |cliffs_delta| >= 0.147",
+        "material_statement": "differs materially (identical-identical_gae vs identical-varied_gae: p=0.0266, Cliff \u03b4=-0.204, small)",
+        "median_x": 4.197543725048547e-06,
+        "median_y": 6.769043326082524e-05,
+        "n_benign": 43,
+        "n_malware": 416,
+        "n_x": 43,
+        "n_y": 416,
+        "p_value": 0.026582533803586134,
+        "test": "mannwhitneyu"
+      },
+      "cosine_combined_ii_vs_vv": {
+        "U": 9820.5,
+        "alternative": "two-sided",
+        "benign_median": 2.220446049250313e-16,
+        "cliffs_delta": -0.3032141336739038,
+        "cliffs_delta_formula": "2*U/(n_x*n_y) - 1",
+        "cliffs_magnitude_romano2006": "small",
+        "effect_size_name": "cliffs_delta",
+        "label_x": "identical-identical",
+        "label_y": "varied-varied",
+        "malware_median": 7.578287332532518e-05,
+        "material_by_declared_rule": true,
+        "material_rule": "p < 0.05 and |cliffs_delta| >= 0.147",
+        "material_statement": "differs materially (identical-identical vs varied-varied: p=0.000235, Cliff \u03b4=-0.303, small)",
+        "median_x": 2.220446049250313e-16,
+        "median_y": 7.578287332532518e-05,
+        "n_benign": 54,
+        "n_malware": 522,
+        "n_x": 54,
+        "n_y": 522,
+        "p_value": 0.00023473807272367047,
+        "test": "mannwhitneyu"
+      },
+      "frobenius_combined_ii_vs_iv": {
+        "U": 8680.0,
+        "alternative": "two-sided",
+        "benign_median": 0.0,
+        "cliffs_delta": -0.2660240148824624,
+        "cliffs_delta_formula": "2*U/(n_x*n_y) - 1",
+        "cliffs_magnitude_romano2006": "small",
+        "effect_size_name": "cliffs_delta",
+        "label_x": "identical-identical",
+        "label_y": "identical-varied",
+        "malware_median": 0.021284153229646073,
+        "material_by_declared_rule": true,
+        "material_rule": "p < 0.05 and |cliffs_delta| >= 0.147",
+        "material_statement": "differs materially (identical-identical vs identical-varied: p=0.00115, Cliff \u03b4=-0.266, small)",
+        "median_x": 0.0,
+        "median_y": 0.021284153229646073,
+        "n_benign": 54,
+        "n_malware": 438,
+        "n_x": 54,
+        "n_y": 438,
+        "p_value": 0.0011514529347602287,
+        "test": "mannwhitneyu"
+      }
+    }
+  },
+  "per_app_mode": [
+    {
+      "app_id": "InfinityLoop1309.NewPipeEnhanced",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        278355027
+      ],
+      "n_identical": 2,
+      "n_usable": 7,
+      "n_varied": 5
+    },
+    {
+      "app_id": "a2dp.Vol",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        306996795
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "ac.robinson.mediaphone",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1195995048
+      ],
+      "n_identical": 2,
+      "n_usable": 9,
+      "n_varied": 7
+    },
+    {
+      "app_id": "ademar.bitac",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        632054123
+      ],
+      "n_identical": 2,
+      "n_usable": 2,
+      "n_varied": 0
+    },
+    {
+      "app_id": "agrigolo.opendrummer",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        845932052
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "ai.susi",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        763025864
+      ],
+      "n_identical": 2,
+      "n_usable": 9,
+      "n_varied": 6
+    },
+    {
+      "app_id": "anonvpn.anon_next.android",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1025389321
+      ],
+      "n_identical": 2,
+      "n_usable": 7,
+      "n_varied": 5
+    },
+    {
+      "app_id": "app.alextran.immich",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        2043269338
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "app.comaps.fdroid",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1678856200
+      ],
+      "n_identical": 2,
+      "n_usable": 7,
+      "n_varied": 5
+    },
+    {
+      "app_id": "app.crescentcash.src",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        395795633
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "app.fedilab.castlab",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1688322852
+      ],
+      "n_identical": 2,
+      "n_usable": 7,
+      "n_varied": 5
+    },
+    {
+      "app_id": "app.fedilab.mobilizon",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1596072169
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "app.fedilab.nitterizeme",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        576008058
+      ],
+      "n_identical": 2,
+      "n_usable": 9,
+      "n_varied": 7
+    },
+    {
+      "app_id": "app.fedilab.nitterizemelite",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1864679405
+      ],
+      "n_identical": 2,
+      "n_usable": 9,
+      "n_varied": 7
+    },
+    {
+      "app_id": "app.hypostats",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        2145280630
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "app.ladefuchs.android",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        857155576
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "app.michaelwuensch.bitbanana",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        622838413
+      ],
+      "n_identical": 2,
+      "n_usable": 9,
+      "n_varied": 7
+    },
+    {
+      "app_id": "app.notesr",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        205300510
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "app.organicmaps",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1507857086
+      ],
+      "n_identical": 2,
+      "n_usable": 6,
+      "n_varied": 3
+    },
+    {
+      "app_id": "app.pachli",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        392588332
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "app.prav.client",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1568848882
+      ],
+      "n_identical": 2,
+      "n_usable": 9,
+      "n_varied": 7
+    },
+    {
+      "app_id": "app.tice.TICE.production",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        779574992
+      ],
+      "n_identical": 2,
+      "n_usable": 5,
+      "n_varied": 3
+    },
+    {
+      "app_id": "app.tujice.jergasColombia",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1908315913
+      ],
+      "n_identical": 2,
+      "n_usable": 9,
+      "n_varied": 7
+    },
+    {
+      "app_id": "app.udderance",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        44276009
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "at.linuxtage.Eventfahrplan",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        2015141908
+      ],
+      "n_identical": 2,
+      "n_usable": 9,
+      "n_varied": 7
+    },
+    {
+      "app_id": "at.manuelbichler.octalsuntime",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        846342809
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "at.mikenet.serbianlatintocyrillic",
+      "distinct_identical_seeds": 0,
+      "identical_seeds": [],
+      "n_identical": 0,
+      "n_usable": 5,
+      "n_varied": 5
+    },
+    {
+      "app_id": "at.tomtasche.reader",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1840477443
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "au.com.wallaceit.reddinator",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        335598178
+      ],
+      "n_identical": 2,
+      "n_usable": 9,
+      "n_varied": 7
+    },
+    {
+      "app_id": "barilyuk.batterytemperature",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        691558382
+      ],
+      "n_identical": 2,
+      "n_usable": 9,
+      "n_varied": 7
+    },
+    {
+      "app_id": "be.digitalia.fosdem",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        92908507
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "be.humanoids.webthingify",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        857149894
+      ],
+      "n_identical": 1,
+      "n_usable": 1,
+      "n_varied": 0
+    },
+    {
+      "app_id": "be.mygod.vpnhotspot_foss",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1695139213
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "biz.binarysolutions.mindfulnessmeditation",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        820268257
+      ],
+      "n_identical": 2,
+      "n_usable": 6,
+      "n_varied": 4
+    },
+    {
+      "app_id": "biz.binarysolutions.stress",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1003628054
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "biz.binarysolutions.vatcalculator",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1796358890
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "bluepie.ad_silence",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        478510146
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "br.odb.knights",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1751419512
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "btools.routingapp",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1647089975
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "buet.rafi.dictionary",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1079072772
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "bus.chio.wishmaster",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1627535712
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "ca.andries.portknocker",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        562155552
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "ca.chancehorizon.paseo",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        602250045
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "ca.farrelltonsolar.classic",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        465858245
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "ca.momi.lift",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        2055045603
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "ca.ramzan.delist",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        594324677
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "ca.rmen.android.frenchcalendar",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        262672050
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "ca.rmen.android.scrumchatter",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1729854594
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "ca.rmen.nounours",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1081256270
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "cat.jordihernandez.cinecat",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1004411722
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "cc.kafuu.bilidownload",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        714446455
+      ],
+      "n_identical": 2,
+      "n_usable": 3,
+      "n_varied": 1
+    },
+    {
+      "app_id": "cf.playhi.freezeyou",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1488465797
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "ch.abertschi.waterme.water_me",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1604036252
+      ],
+      "n_identical": 1,
+      "n_usable": 3,
+      "n_varied": 2
+    },
+    {
+      "app_id": "ch.bubendorf.locusaddon.gsakdatabase",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1899689020
+      ],
+      "n_identical": 1,
+      "n_usable": 1,
+      "n_varied": 0
+    },
+    {
+      "app_id": "ch.hgdev.toposuite",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        863187836
+      ],
+      "n_identical": 1,
+      "n_usable": 7,
+      "n_varied": 6
+    },
+    {
+      "app_id": "ch.joshuah.bibleverseapp",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        1559285594
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "ch.mydoli.focal",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        476450742
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "cityfreqs.com.pilfershushjammer",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        993034582
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    },
+    {
+      "app_id": "cl.coders.faketraveler",
+      "distinct_identical_seeds": 1,
+      "identical_seeds": [
+        614780452
+      ],
+      "n_identical": 2,
+      "n_usable": 8,
+      "n_varied": 6
+    }
+  ],
+  "population_note": "Usable = reference_tier_pass in v2_extended (n=342). session_mode and agent_seed are read from collection dynamic_metadata.json via source_meta_path; they are absent from the export metadata.json schema.",
+  "screen_hash_overlap_identical": {
+    "jaccard_all_identical_pairs": {
+      "iqr": 0.11111111111111116,
+      "max": 1.0,
+      "mean": 0.9113669524617237,
+      "min": 0.4117647058823529,
+      "n": 54,
+      "p10": 0.5618181818181818,
+      "p25": 0.8888888888888888,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p90": 1.0
+    },
+    "jaccard_identical_different_seed": null,
+    "jaccard_identical_same_seed": {
+      "iqr": 0.11111111111111116,
+      "max": 1.0,
+      "mean": 0.9113669524617237,
+      "min": 0.4117647058823529,
+      "n": 54,
+      "p10": 0.5618181818181818,
+      "p25": 0.8888888888888888,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p90": 1.0
+    },
+    "n_identical_pairs_with_screens": 54
+  }
+}

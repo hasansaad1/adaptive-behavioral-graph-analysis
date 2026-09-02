@@ -1,0 +1,71 @@
+{
+  "active_categories": [
+    "file_io",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "ca.rmen.nounours",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T12:41:31.312000Z",
+  "end_timestamp_ms": 1786711291312,
+  "event_counts": {
+    "mapped": 586,
+    "mapped_rate": 0.7172582619339045,
+    "total": 817
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "0e7da7b17b63_llm_s6__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 2,
+  "reference_tier_pass": true,
+  "session_id": "0e7da7b17b63_llm_s6",
+  "session_index_within_app": 6,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/0e7da7b17b63_ca.rmen.nounours/dynamic/llm/session_6/ca.rmen.nounours_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/0e7da7b17b63_ca.rmen.nounours/dynamic/llm/session_6/ca.rmen.nounours_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T12:33:56.379000Z",
+  "start_timestamp_ms": 1786710836379,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 817,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 10,
+    "n_with_timestamp": 817,
+    "unparseable_line_numbers_sample": [
+      713,
+      714,
+      715,
+      716,
+      717,
+      718,
+      719,
+      720,
+      721,
+      722
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 455.033
+}

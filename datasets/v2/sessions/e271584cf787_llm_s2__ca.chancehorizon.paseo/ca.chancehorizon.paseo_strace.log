@@ -1,0 +1,403 @@
+30325 1784104726.497751 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+30325 1784104726.497790 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+30325 1784104726.497805 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+30325 1784104726.497812 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+30325 1784104726.497819 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+30325 1784104726.497827 newfstatat(AT_FDCWD, "/data/app/ca.chancehorizon.paseo-N6b6bbSYsERNyqvhc6USJg==/base.apk", {st_mode=S_IFREG|0644, st_size=6459255, ...}, 0) = 0
+30325 1784104726.499282 clone(child_stack=0x70b02a6d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x70b02a6d60, tls=0x70b02a7020, child_tidptr=0x70b02a6d60) = 30403
+30325 1784104726.499830 clone(child_stack=0x70af1a9d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x70af1a9d60, tls=0x70af1aa020, child_tidptr=0x70af1a9d60) = 30404
+30403 1784104726.499923 openat(AT_FDCWD, "/proc/30403/timerslack_ns", O_WRONLY|O_CREAT|O_TRUNC|O_NOFOLLOW|O_CLOEXEC, 0666) = 54
+30325 1784104726.502536 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+30325 1784104726.502571 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+30325 1784104726.502582 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+30325 1784104726.502589 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+30325 1784104726.502596 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+30325 1784104726.502603 newfstatat(AT_FDCWD, "/data/app/ca.chancehorizon.paseo-N6b6bbSYsERNyqvhc6USJg==/base.apk", {st_mode=S_IFREG|0644, st_size=6459255, ...}, 0) = 0
+30325 1784104726.503319 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
+30404 1784104726.505397 exit(0)         = ?
+30404 1784104726.505849 +++ exited with 0 +++
+30325 1784104726.508894 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo", F_OK) = 0
+30325 1784104726.508917 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/shared_prefs", F_OK) = 0
+30363 1784104726.519735 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\344\0\0\0L\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=404}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 404
+30363 1784104726.520611 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\350\0\0\0M\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=408}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 408
+30325 1784104726.521346 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+30325 1784104726.521367 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+30325 1784104726.521420 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+30325 1784104726.521429 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+30325 1784104726.521437 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+30325 1784104726.521461 newfstatat(AT_FDCWD, "/data/app/ca.chancehorizon.paseo-N6b6bbSYsERNyqvhc6USJg==/base.apk", {st_mode=S_IFREG|0644, st_size=6459255, ...}, 0) = 0
+30325 1784104726.530646 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo", F_OK) = 0
+30325 1784104726.530668 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases", F_OK) = 0
+30325 1784104726.530692 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30325 1784104726.530704 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 54
+30325 1784104726.530721 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30325 1784104726.530844 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.530853 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87f78, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.530941 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.530951 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc88d58, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.531003 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.531013 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc88d48, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.531036 fchmodat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", 0660) = 0
+30325 1784104726.531080 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.531089 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc88ed8, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.531678 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.531689 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc88e48, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.531733 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30325 1784104726.531775 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases", F_OK) = 0
+30325 1784104726.531786 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30325 1784104726.531804 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 54
+30325 1784104726.531816 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30325 1784104726.531855 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.531861 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87f78, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.532249 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.532349 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc88d58, 0) = -1 ENOENT (No such file or directory)
+30363 1784104726.532440 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\24\1\0\0N\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=452}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+30325 1784104726.532574 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30363 1784104726.532598 <... sendmsg resumed> ) = 452
+30325 1784104726.532622 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc88d48, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.532690 fchmodat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", 0660) = 0
+30325 1784104726.532753 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.532772 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc88ed8, 0) = -1 ENOENT (No such file or directory)
+30363 1784104726.533095 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\34\1\0\0O\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=460}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+30325 1784104726.533511 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal",  <unfinished ...>
+30363 1784104726.533524 <... sendmsg resumed> ) = 460
+30325 1784104726.533571 <... newfstatat resumed> {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.533582 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc88e48, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.533666 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30363 1784104726.534012 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1 \1\0\0P\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=464}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+30325 1784104726.534037 openat(AT_FDCWD, "/system/etc/event-log-tags", O_RDONLY|O_CLOEXEC) = 54
+30325 1784104726.534057 openat(AT_FDCWD, "/dev/event-log-tags", O_RDONLY|O_CLOEXEC <unfinished ...>
+30363 1784104726.534068 <... sendmsg resumed> ) = 464
+30325 1784104726.534081 <... openat resumed> ) = -1 EACCES (Permission denied)
+30325 1784104726.535009 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases", F_OK) = 0
+30325 1784104726.535031 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30325 1784104726.535041 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 54
+30325 1784104726.535055 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30325 1784104726.535130 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.535137 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc86e48, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.535203 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.535213 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87c28, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.535242 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.535250 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87c18, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.535270 fchmodat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", 0660) = 0
+30325 1784104726.535293 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.535301 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87da8, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.535667 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.535678 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87d18, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.535742 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30325 1784104726.535762 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases", F_OK) = 0
+30325 1784104726.535772 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30325 1784104726.535779 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 54
+30325 1784104726.535790 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30325 1784104726.535853 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.535859 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc86e48, 0) = -1 ENOENT (No such file or directory)
+30363 1784104726.535881 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\34\1\0\0Q\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=460}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+30325 1784104726.535929 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30363 1784104726.535936 <... sendmsg resumed> ) = 460
+30325 1784104726.535954 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87c28, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.535979 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.535988 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87c18, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.536005 fchmodat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", 0660) = 0
+30325 1784104726.536044 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.536052 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87da8, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.536568 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.536587 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87d18, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.536665 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30363 1784104726.536764 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1 \1\0\0R\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=464}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 464
+30325 1784104726.544186 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases", F_OK) = 0
+30325 1784104726.544282 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30325 1784104726.544299 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 54
+30325 1784104726.544380 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30325 1784104726.544495 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.544505 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc86e58, 0) = -1 ENOENT (No such file or directory)
+30403 1784104726.544516 clone(child_stack=0x70af149d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x70af149d60, tls=0x70af14a020, child_tidptr=0x70af149d60) = 30405
+30325 1784104726.544640 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.544650 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87c38, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.544681 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.544690 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87c28, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.544712 fchmodat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", 0660) = 0
+30325 1784104726.544737 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.544746 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87db8, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.545015 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.545025 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87d28, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.545060 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30325 1784104726.545209 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases", F_OK) = 0
+30325 1784104726.545223 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30325 1784104726.545230 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 54
+30325 1784104726.545242 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30325 1784104726.545281 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.545288 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc86e08, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.545340 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.545349 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87be8, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.545375 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.545384 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87bd8, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.545402 fchmodat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", 0660) = 0
+30325 1784104726.545423 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.545432 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87d68, 0) = -1 ENOENT (No such file or directory)
+30363 1784104726.549693 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\354\0\0\0S\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=412}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 412
+30325 1784104726.549936 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.549948 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87c98, 0) = -1 ENOENT (No such file or directory)
+30363 1784104726.550364 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\350\0\0\0T\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=408}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+30325 1784104726.550377 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30363 1784104726.550522 <... sendmsg resumed> ) = 408
+30325 1784104726.551105 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases", F_OK) = 0
+30325 1784104726.551145 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30325 1784104726.551180 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 54
+30325 1784104726.551194 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30325 1784104726.551298 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30363 1784104726.551379 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\354\0\0\0U\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=412}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+30325 1784104726.551426 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc86c68, 0) = -1 ENOENT (No such file or directory)
+30363 1784104726.551464 <... sendmsg resumed> ) = 412
+30325 1784104726.551531 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.551542 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87a48, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.551613 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.551625 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87a38, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.551649 fchmodat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", 0660) = 0
+30325 1784104726.551676 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.551686 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87bc8, 0) = -1 ENOENT (No such file or directory)
+30363 1784104726.551915 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\0014\1\0\0V\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=484}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 484
+30325 1784104726.552131 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.552143 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87af8, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.552196 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30325 1784104726.552400 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases", F_OK) = 0
+30325 1784104726.552426 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db",  <unfinished ...>
+30363 1784104726.552480 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\244\1\0\0W\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=596}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+30325 1784104726.552500 <... newfstatat resumed> {st_mode=S_IFREG|0660, st_size=24576, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30325 1784104726.552506 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 54
+30325 1784104726.552521 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30363 1784104726.552560 <... sendmsg resumed> ) = 596
+30325 1784104726.552605 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.552614 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc86c68, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.552700 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.552713 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87a48, 0) = -1 ENOENT (No such file or directory)
+30405 1784104726.552739 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0 <unfinished ...>
+30325 1784104726.552761 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.552771 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87a38, 0) = -1 ENOENT (No such file or directory)
+30363 1784104726.552780 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\220\1\0\0X\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=576}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+30325 1784104726.552872 fchmodat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db", 0660) = 0
+30325 1784104726.552899 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30363 1784104726.552919 <... sendmsg resumed> ) = 576
+30325 1784104726.552929 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87bc8, 0) = -1 ENOENT (No such file or directory)
+30405 1784104726.553046 <... socket resumed> ) = 55
+30405 1784104726.553179 connect(55, {sa_family=AF_UNIX, sun_path="/dev/socket/property_service"}, 31) = -1 EACCES (Permission denied)
+30405 1784104726.553680 socket(AF_UNIX, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0 <unfinished ...>
+30325 1784104726.553720 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+30325 1784104726.553731 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db-wal", 0x7fefc87af8, 0) = -1 ENOENT (No such file or directory)
+30325 1784104726.553784 newfstatat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/databases/paseoDB.db",  <unfinished ...>
+30405 1784104726.553798 <... socket resumed> ) = 55
+30325 1784104726.553800 <... newfstatat resumed> {st_mode=S_IFREG|0660, st_size=24576, ...}, 0) = 0
+30405 1784104726.554101 connect(55, {sa_family=AF_UNIX, sun_path="/dev/socket/logdw"}, 110) = 0
+30363 1784104726.554391 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1l\1\0\0Y\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=540}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 540
+30405 1784104726.555138 faccessat(AT_FDCWD, "/vendor/lib64/egl/libGLES_emulation.so", R_OK <unfinished ...>
+30325 1784104726.555158 getsockopt(55, SOL_SOCKET, SO_ERROR, 0x7fefc89e04, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+30405 1784104726.555226 <... faccessat resumed> ) = -1 ENOENT (No such file or directory)
+30405 1784104726.555327 faccessat(AT_FDCWD, "/system/lib64/egl/libGLES_emulation.so", R_OK <unfinished ...>
+30325 1784104726.555373 recvfrom(38, 0x7fefc89260, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30405 1784104726.555840 <... faccessat resumed> ) = -1 ENOENT (No such file or directory)
+30405 1784104726.555901 faccessat(AT_FDCWD, "/vendor/lib64/egl/libEGL_emulation.so", R_OK) = 0
+30405 1784104726.557179 openat(AT_FDCWD, "/vendor/lib64/egl/libEGL_emulation.so", O_RDONLY|O_CLOEXEC) = 54
+30405 1784104726.558039 readlinkat(AT_FDCWD, "/proc/self/fd/54", "/vendor/lib64/egl/libEGL_emulati"..., 4096) = 37
+30325 1784104726.558468 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\10\24\324\354\30\4\0\0\224\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104726.558504 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104726.558523 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104726.559185 recvfrom(38, 0x7fefc886d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30405 1784104726.567496 openat(AT_FDCWD, "/vendor/lib64/libOpenglSystemCommon.so", O_RDONLY|O_CLOEXEC) = 57
+30363 1784104726.568572 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0Z\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+30405 1784104726.569434 readlinkat(AT_FDCWD, "/proc/self/fd/57",  <unfinished ...>
+30363 1784104726.569460 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0[\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+30405 1784104726.569971 <... readlinkat resumed> "/vendor/lib64/libOpenglSystemCom"..., 4096) = 38
+30363 1784104726.571238 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\\\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+30363 1784104726.571856 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0]\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+30363 1784104726.572493 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0^\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+30363 1784104726.573269 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0_\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+30363 1784104726.573812 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0`\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+30405 1784104726.574298 openat(AT_FDCWD, "/vendor/lib64/libvulkan_enc.so", O_RDONLY|O_CLOEXEC) = 58
+30363 1784104726.574443 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0a\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+30363 1784104726.576301 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0b\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+30405 1784104726.580843 readlinkat(AT_FDCWD, "/proc/self/fd/58",  <unfinished ...>
+30363 1784104726.580856 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0c\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL <unfinished ...>
+30405 1784104726.582198 <... readlinkat resumed> "/vendor/lib64/libvulkan_enc.so", 4096) = 30
+30363 1784104726.582241 <... sendmsg resumed> ) = 432
+30363 1784104726.585278 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0d\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+30363 1784104726.585791 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0e\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+30363 1784104726.587262 sendmsg(52, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0f\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+30405 1784104726.589430 openat(AT_FDCWD, "/vendor/lib64/libandroidemu.so", O_RDONLY|O_CLOEXEC) = 59
+30405 1784104726.591215 readlinkat(AT_FDCWD, "/proc/self/fd/59", "/vendor/lib64/libandroidemu.so", 4096) = 30
+30405 1784104726.603184 openat(AT_FDCWD, "/vendor/lib64/lib_renderControl_enc.so", O_RDONLY|O_CLOEXEC) = 60
+30405 1784104726.605030 readlinkat(AT_FDCWD, "/proc/self/fd/60", "/vendor/lib64/lib_renderControl_"..., 4096) = 38
+30405 1784104726.607909 openat(AT_FDCWD, "/vendor/lib64/libGLESv2_enc.so", O_RDONLY|O_CLOEXEC) = 61
+30405 1784104726.611547 readlinkat(AT_FDCWD, "/proc/self/fd/61", "/vendor/lib64/libGLESv2_enc.so", 4096) = 30
+30405 1784104726.613349 openat(AT_FDCWD, "/vendor/lib64/libGLESv1_enc.so", O_RDONLY|O_CLOEXEC) = 62
+30405 1784104726.615667 readlinkat(AT_FDCWD, "/proc/self/fd/62", "/vendor/lib64/libGLESv1_enc.so", 4096) = 30
+30405 1784104726.619487 openat(AT_FDCWD, "/vendor/lib64/libOpenglCodecCommon.so", O_RDONLY|O_CLOEXEC) = 63
+30405 1784104726.620540 readlinkat(AT_FDCWD, "/proc/self/fd/63", "/vendor/lib64/libOpenglCodecComm"..., 4096) = 37
+30405 1784104726.622609 openat(AT_FDCWD, "/vendor/lib64/libdrm.so", O_RDONLY|O_CLOEXEC) = 64
+30405 1784104726.645532 readlinkat(AT_FDCWD, "/proc/self/fd/64", "/vendor/lib64/libdrm.so", 4096) = 23
+30405 1784104726.728217 faccessat(AT_FDCWD, "/vendor/lib64/egl/libGLESv1_CM_emulation.so", R_OK) = 0
+30405 1784104726.731485 openat(AT_FDCWD, "/vendor/lib64/egl/libGLESv1_CM_emulation.so", O_RDONLY|O_CLOEXEC) = 54
+30405 1784104726.732134 readlinkat(AT_FDCWD, "/proc/self/fd/54", "/vendor/lib64/egl/libGLESv1_CM_e"..., 4096) = 43
+30405 1784104726.801805 faccessat(AT_FDCWD, "/vendor/lib64/egl/libGLESv2_emulation.so", R_OK) = 0
+30405 1784104726.803046 openat(AT_FDCWD, "/vendor/lib64/egl/libGLESv2_emulation.so", O_RDONLY|O_CLOEXEC) = 54
+30405 1784104726.803767 readlinkat(AT_FDCWD, "/proc/self/fd/54", "/vendor/lib64/egl/libGLESv2_emul"..., 4096) = 40
+30405 1784104727.022143 openat(AT_FDCWD, "/system/lib64/libEGL.so", O_RDONLY|O_CLOEXEC) = 54
+30405 1784104727.022848 readlinkat(AT_FDCWD, "/proc/self/fd/54", "/system/lib64/libEGL.so", 4096) = 23
+30405 1784104727.025068 openat(AT_FDCWD, "/system/lib64/libGLESv1_CM.so", O_RDONLY|O_CLOEXEC) = 54
+30405 1784104727.025713 readlinkat(AT_FDCWD, "/proc/self/fd/54", "/system/lib64/libGLESv1_CM.so", 4096) = 29
+30405 1784104727.028164 openat(AT_FDCWD, "/system/lib64/libGLESv2.so", O_RDONLY|O_CLOEXEC) = 54
+30405 1784104727.028813 readlinkat(AT_FDCWD, "/proc/self/fd/54", "/system/lib64/libGLESv2.so", 4096) = 26
+30403 1784104727.031327 openat(AT_FDCWD, "/vendor/lib64/egl/libGLESv1_CM_emulation.so", O_RDONLY|O_CLOEXEC) = 54
+30403 1784104727.031380 readlinkat(AT_FDCWD, "/proc/self/fd/54", "/vendor/lib64/egl/libGLESv1_CM_e"..., 4096) = 43
+30403 1784104727.031504 openat(AT_FDCWD, "/vendor/lib64/egl/libGLESv2_emulation.so", O_RDONLY|O_CLOEXEC) = 54
+30403 1784104727.031525 readlinkat(AT_FDCWD, "/proc/self/fd/54", "/vendor/lib64/egl/libGLESv2_emul"..., 4096) = 40
+30403 1784104727.031609 openat(AT_FDCWD, "/dev/qemu_pipe", O_RDWR|O_NONBLOCK) = 54
+30403 1784104727.032892 openat(AT_FDCWD, "/dev/qemu_pipe", O_RDWR|O_NONBLOCK) = 57
+30403 1784104727.033452 faccessat(AT_FDCWD, "/dev/hwbinder", R_OK|W_OK) = 0
+30403 1784104727.033467 openat(AT_FDCWD, "/dev/__properties__/u:object_r:hwservicemanager_prop:s0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC <unfinished ...>
+30405 1784104727.033484 exit(0 <unfinished ...>
+30403 1784104727.033492 <... openat resumed> ) = 58
+30403 1784104727.033510 openat(AT_FDCWD, "/dev/hwbinder", O_RDWR|O_CLOEXEC <unfinished ...>
+30405 1784104727.033523 <... exit resumed>) = ?
+30403 1784104727.033531 <... openat resumed> ) = 58
+30405 1784104727.033566 +++ exited with 0 +++
+30403 1784104727.034732 openat(AT_FDCWD, "/dev/qemu_pipe", O_RDWR|O_NONBLOCK) = 59
+30403 1784104727.038696 openat(AT_FDCWD, "/odm/lib64/hw/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+30403 1784104727.038713 openat(AT_FDCWD, "/vendor/lib64/hw/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 62
+30403 1784104727.038811 openat(AT_FDCWD, "/vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so", O_RDONLY|O_CLOEXEC) = 62
+30403 1784104727.038942 readlinkat(AT_FDCWD, "/proc/self/fd/62", "/vendor/lib64/hw/android.hardwar"..., 4096) = 61
+30403 1784104727.039002 newfstatat(AT_FDCWD, "/odm", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30403 1784104727.039010 newfstatat(AT_FDCWD, "/odm/lib64", {st_mode=S_IFLNK|0644, st_size=17, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30403 1784104727.039015 readlinkat(AT_FDCWD, "/odm/lib64", "/vendor/odm/lib64", 4095) = 17
+30403 1784104727.039020 newfstatat(AT_FDCWD, "/vendor", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30403 1784104727.039025 newfstatat(AT_FDCWD, "/vendor/odm", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30403 1784104727.039030 newfstatat(AT_FDCWD, "/vendor/odm/lib64", 0x70b029cef0, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+30403 1784104727.039036 newfstatat(AT_FDCWD, "/vendor", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30403 1784104727.039040 newfstatat(AT_FDCWD, "/vendor/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30403 1784104727.039045 newfstatat(AT_FDCWD, "/vendor/lib64/hw", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30403 1784104727.039050 newfstatat(AT_FDCWD, "/vendor/lib64/hw/gralloc.ranchu.so", {st_mode=S_IFREG|0644, st_size=36616, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30403 1784104727.039056 newfstatat(AT_FDCWD, "/vendor", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30403 1784104727.039060 newfstatat(AT_FDCWD, "/vendor/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30403 1784104727.039064 newfstatat(AT_FDCWD, "/vendor/lib64/hw", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30403 1784104727.039069 faccessat(AT_FDCWD, "/vendor/lib64/hw/gralloc.ranchu.so", R_OK) = 0
+30403 1784104727.039095 openat(AT_FDCWD, "/vendor/lib64/hw/gralloc.ranchu.so", O_RDONLY|O_CLOEXEC) = 62
+30403 1784104727.039112 readlinkat(AT_FDCWD, "/proc/self/fd/62", "/vendor/lib64/hw/gralloc.ranchu."..., 4096) = 34
+30403 1784104727.039571 openat(AT_FDCWD, "/dev/qemu_pipe", O_RDWR|O_NONBLOCK) = 66
+30403 1784104727.039854 openat(AT_FDCWD, "/dev/goldfish_address_space", O_RDWR) = 67
+30403 1784104727.043059 clone(child_stack=0x70ac3d3d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x70ac3d3d60, tls=0x70ac3d4020, child_tidptr=0x70ac3d3d60) = 30407
+30403 1784104727.043106 clone(child_stack=0x70ac2d6d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x70ac2d6d60, tls=0x70ac2d7020, child_tidptr=0x70ac2d6d60) = 30408
+30325 1784104727.073490 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\307\256\322\355\30\4\0\0\225\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104727.073527 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104727.074332 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30360 1784104727.088291 faccessat(AT_FDCWD, "/proc/self/task/30405", F_OK) = -1 ENOENT (No such file or directory)
+30325 1784104727.089314 recvfrom(38, 0x7fefc895e0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104727.089831 clone(child_stack=0x70a9205d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x70a9205d60, tls=0x70a9206020, child_tidptr=0x70a9205d60) = 30409
+30325 1784104727.092147 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0005\242\237\f\31\4\0\0\264\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104727.092174 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104727.092188 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30409 1784104727.101201 exit(0)         = ?
+30409 1784104727.101550 +++ exited with 0 +++
+30360 1784104727.155377 faccessat(AT_FDCWD, "/proc/self/task/30409", F_OK) = -1 ENOENT (No such file or directory)
+30325 1784104728.168440 recvfrom(38, 0x7fefc892a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.181488 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0$\202-M\31\4\0\0\363\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.181528 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.181569 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.181740 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.191811 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0v\23,N\31\4\0\0\364\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.191835 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.191868 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.191964 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.208491 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0I\235*O\31\4\0\0\365\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.208514 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.208540 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.208633 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.224729 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\202>)P\31\4\0\0\366\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.224758 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.224797 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.224914 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.241844 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\331\305'Q\31\4\0\0\367\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.242320 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.242348 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.242457 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.258688 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0`7&R\31\4\0\0\370\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.258711 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.258955 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.259286 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.276147 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\271\177$S\31\4\0\0\371\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.276169 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.276199 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.276610 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.293668 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\214\261\"T\31\4\0\0\372\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.293713 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.293762 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.293880 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.308799 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\230 !U\31\4\0\0\373\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.308821 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.308926 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.309330 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.325115 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0v\254\37V\31\4\0\0\374\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.325134 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.325267 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.325607 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.341417 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\357C\36W\31\4\0\0\375\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.341607 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.341626 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.341945 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.358837 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0w\270\34X\31\4\0\0\376\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.358855 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.358878 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.359247 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.375997 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0t\10\33Y\31\4\0\0\377\25\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.376016 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.376035 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.376397 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.392730 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\236X\31Z\31\4\0\0\0\26\4\0\200\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.392749 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.392770 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.393093 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.409087 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\310\250\27[\31\4\0\0\1\26\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.409108 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.409457 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.409531 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.425123 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0h1\26\\\31\4\0\0\2\26\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.425153 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.425249 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.425564 recvfrom(38, 0x7fefc87e60, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.441433 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\317\312\24]\31\4\0\0\3\26\4\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+30325 1784104728.441461 recvfrom(38, 0x7fefc89590, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30325 1784104728.441490 recvfrom(55, 0x71107acc20, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+30332 1784104730.284822 exit(0)         = ?
+30332 1784104730.284908 +++ exited with 0 +++
+30334 1784104730.287961 exit(0 <unfinished ...>
+30335 1784104730.288039 exit(0)         = ?
+30334 1784104730.288241 <... exit resumed>) = ?
+30335 1784104730.288440 +++ exited with 0 +++
+30334 1784104730.288449 +++ exited with 0 +++
+30333 1784104730.288575 exit(0)         = ?
+30333 1784104730.288866 +++ exited with 0 +++
+30344 1784104730.291937 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30344 1784104730.292351 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30344 1784104730.292724 newfstatat(AT_FDCWD, "/data/app/ca.chancehorizon.paseo-N6b6bbSYsERNyqvhc6USJg==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30344 1784104730.293078 newfstatat(AT_FDCWD, "/data/app/ca.chancehorizon.paseo-N6b6bbSYsERNyqvhc6USJg==/base.apk", {st_mode=S_IFREG|0644, st_size=6459255, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30344 1784104730.293472 getcwd("/", 4096) = 2
+30344 1784104730.293782 newfstatat(AT_FDCWD, "/base.apk", 0x711592b690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+30325 1784104731.100935 clone(child_stack=0x71129fbd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x71129fbd60, tls=0x71129fc020, child_tidptr=0x71129fbd60) = 30433
+30433 1784104731.108086 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo", F_OK) = 0
+30433 1784104731.108621 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files", F_OK) = 0
+30433 1784104731.109012 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+30433 1784104731.109405 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 40
+30433 1784104731.110542 getsockopt(40, SOL_SOCKET, SO_ERROR, 0x71129fa254, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+30433 1784104731.113154 openat(AT_FDCWD, "/data/app/ca.chancehorizon.paseo-N6b6bbSYsERNyqvhc6USJg==/base.apk", O_RDONLY) = 40
+30433 1784104731.113781 getsockopt(40, SOL_SOCKET, SO_ERROR, 0x71129f9c74, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+30433 1784104731.114393 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/ca.chancehorizon.paseo/primary.prof", 0x71129f9c18, 0) = -1 ENOENT (No such file or directory)
+30433 1784104731.114761 faccessat(AT_FDCWD, "/data/misc/profiles/ref/ca.chancehorizon.paseo/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+30433 1784104731.115147 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/ca.chancehorizon.paseo/primary.prof", {st_mode=S_IFREG|0600, st_size=8503, ...}, 0) = 0
+30433 1784104731.115466 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/ca.chancehorizon.paseo/primary.prof", F_OK) = 0
+30433 1784104731.116362 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files", F_OK) = 0
+30433 1784104731.116667 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files/profileInstalled", F_OK) = 0
+30433 1784104731.117000 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files/profileInstalled", O_RDONLY) = 40
+30433 1784104731.118679 getsockopt(40, SOL_SOCKET, SO_ERROR, 0x71129f9594, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+30433 1784104731.123133 exit(0)         = ?
+30433 1784104731.123412 +++ exited with 0 +++
+30360 1784104731.175271 faccessat(AT_FDCWD, "/proc/self/task/30433", F_OK) = -1 ENOENT (No such file or directory)
+30362 1784104741.553605 exit(0)         = ?
+30362 1784104741.553967 +++ exited with 0 +++
+30360 1784104741.605325 faccessat(AT_FDCWD, "/proc/self/task/30362", F_OK) = -1 ENOENT (No such file or directory)

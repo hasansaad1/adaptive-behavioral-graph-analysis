@@ -1,0 +1,81 @@
+{
+  "active_categories": [
+    "file_io",
+    "ipc_intents",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "ca.farrelltonsolar.classic",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T02:40:09.243000Z",
+  "end_timestamp_ms": 1786675209243,
+  "event_counts": {
+    "mapped": 154,
+    "mapped_rate": 0.3556581986143187,
+    "total": 433
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "2d767cdb301f_llm_s4__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "Context.bindService",
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 5,
+  "reference_tier_pass": true,
+  "session_id": "2d767cdb301f_llm_s4",
+  "session_index_within_app": 4,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/2d767cdb301f_ca.farrelltonsolar.classic/dynamic/llm/session_4/ca.farrelltonsolar.classic_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/2d767cdb301f_ca.farrelltonsolar.classic/dynamic/llm/session_4/ca.farrelltonsolar.classic_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T02:32:40.247000Z",
+  "start_timestamp_ms": 1786674760247,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 433,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 30,
+    "n_with_timestamp": 433,
+    "unparseable_line_numbers_sample": [
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 449.098
+}

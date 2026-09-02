@@ -1,0 +1,77 @@
+[androct] inventory trace-benign-2017.tar.gz …
+  … benign 100 files (effective=98, header_only=1)
+  … benign 200 files (effective=197, header_only=2)
+  … benign 300 files (effective=294, header_only=5)
+  … benign 400 files (effective=391, header_only=8)
+  … benign 500 files (effective=490, header_only=9)
+  … benign 600 files (effective=589, header_only=10)
+  … benign 700 files (effective=687, header_only=12)
+  … benign 800 files (effective=785, header_only=14)
+  … benign 900 files (effective=885, header_only=14)
+  … benign 1000 files (effective=985, header_only=14)
+  … benign 1100 files (effective=1082, header_only=17)
+  … benign 1200 files (effective=1181, header_only=18)
+  … benign 1300 files (effective=1278, header_only=21)
+  … benign 1400 files (effective=1375, header_only=24)
+  … benign 1500 files (effective=1474, header_only=25)
+  … benign 1600 files (effective=1574, header_only=25)
+  … benign 1700 files (effective=1674, header_only=25)
+  … benign 1800 files (effective=1774, header_only=25)
+  … benign 1900 files (effective=1873, header_only=26)
+  … benign 2000 files (effective=1971, header_only=28)
+  … benign 2100 files (effective=2069, header_only=30)
+  … benign 2200 files (effective=2168, header_only=31)
+[androct] inventory trace-malware-2017.tar.gz …
+  … malware 100 files (effective=97, header_only=2)
+  … malware 200 files (effective=197, header_only=2)
+  … malware 300 files (effective=297, header_only=2)
+  … malware 400 files (effective=397, header_only=2)
+  … malware 500 files (effective=496, header_only=3)
+  … malware 600 files (effective=594, header_only=5)
+  … malware 700 files (effective=694, header_only=5)
+  … malware 800 files (effective=794, header_only=5)
+  … malware 900 files (effective=894, header_only=5)
+  … malware 1000 files (effective=994, header_only=5)
+  … malware 1100 files (effective=1094, header_only=5)
+  … malware 1200 files (effective=1194, header_only=5)
+  … malware 1300 files (effective=1293, header_only=6)
+  … malware 1400 files (effective=1393, header_only=6)
+  … malware 1500 files (effective=1492, header_only=7)
+  … malware 1600 files (effective=1592, header_only=7)
+  … malware 1700 files (effective=1691, header_only=8)
+# AndroCT 2017 — parse inventory (pre-graph)
+
+- Source: Zenodo 4470320 (AndroCT; Li, Fu, Cai; MSR 2021)
+- Isolation: Separate from datasets/v1|v2; CURRENT pin untouched; dedicated output under abrg/output/androct_2017/
+- Scored (UTC): 2026-08-07T08:16:26.440907+00:00
+
+## Per class
+
+| Class | Files | Header-only | Effective n | Events | Mapped | Mapped rate | Active cats / 22 | Dropped lines |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| benign | 2256 | 31 | 2225 | 136484156 | 4033989 | 0.0296 | 20 | 19082912 |
+| malware | 1742 | 8 | 1734 | 70732976 | 2492827 | 0.0352 | 17 | 27555108 |
+
+## Distinct active categories (per-app distribution)
+
+- **benign**: n=2225, min=0.0, p25=3.0, p50=5.0, p75=7.0, max=13.0, mean=5.02
+- **malware**: n=1734, min=0.0, p25=3.0, p50=6.0, p75=7.0, max=13.0, mean=5.12
+
+## Trace-length distribution (total events, effective apps)
+
+- **benign**: min=1.0, p25=807, p50=4328, p75=31909, p90=137915, max=1664929.0, mean=61341.2
+- **malware**: min=24.0, p25=9729, p50=17277, p75=55122, p90=92090, max=1606665.0, mean=40791.8
+
+## Trace-length significance (Mann–Whitney U, two-sided)
+
+- **Total events**: U=1.28e+06, p=3.56e-74, median_benign=4328, median_malware=17282
+- **Mapped events**: U=1.18e+06, p=4.24e-97, median_benign=136, median_malware=593
+
+## Corpus-wide category coverage
+
+- **benign**: 20/22 — accounts, audio, camera, clipboard, content_access, crypto, database, device_info, file_io, ipc_intents, location, media, native_code, network, notifications, package_manager, process, storage, telephony, webview
+- **malware**: 17/22 — accounts, audio, content_access, crypto, database, device_info, file_io, ipc_intents, location, media, native_code, network, notifications, package_manager, process, storage, webview
+
+> Any comparison to Frida datasets/v2 (or other AbrG runs) is across corpora and must be labeled as such.
+
+

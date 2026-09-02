@@ -1,0 +1,23 @@
+22253 1783950640.694260 exit(0)         = ?
+22253 1783950640.694567 +++ exited with 0 +++
+22189 1783950642.236069 exit(0 <unfinished ...>
+22190 1783950642.236451 exit(0 <unfinished ...>
+22189 1783950642.236513 <... exit resumed>) = ?
+22190 1783950642.236767 <... exit resumed>) = ?
+22189 1783950642.236821 +++ exited with 0 +++
+22190 1783950642.237103 +++ exited with 0 +++
+22191 1783950642.237216 exit(0)         = ?
+22191 1783950642.237493 +++ exited with 0 +++
+22188 1783950642.237498 exit(0)         = ?
+22188 1783950642.237866 +++ exited with 0 +++
+22201 1783950642.240081 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+22201 1783950642.240458 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+22201 1783950642.240750 newfstatat(AT_FDCWD, "/data/app/app.tice.TICE.production-jcDnT3lUKu8YOoRftRmWdg==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+22201 1783950642.241011 newfstatat(AT_FDCWD, "/data/app/app.tice.TICE.production-jcDnT3lUKu8YOoRftRmWdg==/base.apk", {st_mode=S_IFREG|0644, st_size=25029330, ...}, AT_SYMLINK_NOFOLLOW) = 0
+22201 1783950642.241270 getcwd("/", 4096) = 2
+22201 1783950642.241513 newfstatat(AT_FDCWD, "/base.apk", 0x7d44fff690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+22250 1783950647.699689 exit(0)         = ?
+22250 1783950647.700013 +++ exited with 0 +++
+22261 1783950654.648143 exit(0)         = ?
+22261 1783950654.648475 +++ exited with 0 +++
+22259 1783950654.700578 faccessat(AT_FDCWD, "/proc/self/task/22261", F_OK) = -1 ENOENT (No such file or directory)

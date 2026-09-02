@@ -1,0 +1,614 @@
+{
+  "goals": [
+    "Tap newtab address go",
+    "Tap newtab open address bar",
+    "Tap newtab open local",
+    "Tap More options"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap newtab address go",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap newtab open address bar",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap newtab open local",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap More options",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|More options"
+      ],
+      "observed_screen_hashes": [
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "observed_screen_hints": [
+        ""
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd": "ADDRESS newtab_open_address_bar Button · SAVED newtab_open_local Button · list ListView · More options ImageButton · Open drawer ImageButton",
+    "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c": "GO newtab_address_go Button · ADDRESS newtab_open_address_bar Button · SAVED newtab_open_local Button · http:// newtab_address_field EditText · list ListView · More options ImageButton · Open drawer ImageButton",
+    "b8e55ff9de81c4b65e8877cf86eeed351c18b50d1616e6476661449c81542672": "Allow permission_allow_button Button · Deny permission_deny_button Button",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": "",
+    "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f": "CANCEL button2 Button",
+    "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d": "Favorites sidebar_btn_favorites ImageView · History sidebar_btn_history ImageView · New Tab sidebar_btn_newtab ImageView · ADDRESS newtab_open_address_bar Button · SAVED newtab_open_local Button · list ListView · sidebar_tabs_list ListView · Close drawer ImageButton · More options ImageButton"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:bus.chio.wishmaster:id/newtab_open_address_bar|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_open_address_bar",
+        "target_content_desc": "",
+        "visible_on": [
+          "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+          "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+          "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d"
+        ],
+        "attempts": 4,
+        "successes": 4,
+        "last_from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "last_to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c"
+      },
+      "tab:bus.chio.wishmaster:id/newtab_open_local|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_open_local",
+        "target_content_desc": "",
+        "visible_on": [
+          "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+          "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+          "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "last_to": "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f"
+      },
+      "nav:|Open drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Open drawer",
+        "visible_on": [
+          "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+          "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "last_to": "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d"
+      },
+      "tab:bus.chio.wishmaster:id/newtab_address_field|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_field",
+        "target_content_desc": "",
+        "visible_on": [
+          "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "last_to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c"
+      },
+      "tab:bus.chio.wishmaster:id/newtab_address_go|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "bus.chio.wishmaster:id/newtab_address_go",
+        "target_content_desc": "",
+        "visible_on": [
+          "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c"
+        ],
+        "attempts": 26,
+        "successes": 26,
+        "last_from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "last_to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c"
+      },
+      "tab:|More options": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd"
+      },
+      "tab:android:id/button2|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f",
+        "last_to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd"
+      },
+      "nav:android:id/button2|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:bus.chio.wishmaster:id/sidebar_btn_newtab|New Tab": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "bus.chio.wishmaster:id/sidebar_btn_newtab",
+        "target_content_desc": "New Tab",
+        "visible_on": [
+          "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d",
+        "last_to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd"
+      },
+      "nav:|Close drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Close drawer",
+        "visible_on": [
+          "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_open_address_bar|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_open_address_bar|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_open_address_bar|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "b8e55ff9de81c4b65e8877cf86eeed351c18b50d1616e6476661449c81542672",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_open_local|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_field|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "to": "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_open_local|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "401c808ed5df0c3aac4e05c63fb1ddc472fd76a3ebfead81792814c865f2150f",
+        "to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "to": "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d",
+        "target_key": "nav:|Open drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a6c714600290f61844863d74cf3c328a39ddbc13b95b9aab870be9e20965cc6d",
+        "to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "target_key": "tab:bus.chio.wishmaster:id/sidebar_btn_newtab|New Tab",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_open_address_bar|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "to": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+        "target_key": "tab:bus.chio.wishmaster:id/newtab_address_go|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+    "root_screen_signature": "0787ad2d1c945b770235289ee215ad43b514e50c618ce2e39fe3f73b4501ade0",
+    "root_screen_hint": "ADDRESS newtab_open_address_bar Button · SAVED newtab_open_local Button · list ListView · More options ImageButton · Open drawer ImageButton",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "bus.chio.wishmaster",
+          "screen_hash": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+          "interactive_count": 7,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "56cef97191d00330e27bdeed30bf5fea778cc60fad1459bd0e0a84802e0aa3f1",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 2,
+          "strategy": "start_root_activity_clear_task",
+          "clear_task": true,
+          "foreground_package": "bus.chio.wishmaster",
+          "screen_hash": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+          "interactive_count": 7,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "56cef97191d00330e27bdeed30bf5fea778cc60fad1459bd0e0a84802e0aa3f1",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 3,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "bus.chio.wishmaster",
+          "screen_hash": "c73c50e4233abbed8aca142d1c16afd3b49537294de253d9b050e3db6698462c",
+          "interactive_count": 7,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "56cef97191d00330e27bdeed30bf5fea778cc60fad1459bd0e0a84802e0aa3f1",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 4,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.google.android.apps.nexuslauncher",
+          "screen_hash": "2e6884a0688b2818f1bfaba41c9c8f65f83b9753d950cc57fb8f8cb9200823bd",
+          "interactive_count": 5,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "0787ad2d1c945b770235289ee215ad43b514e50c618ce2e39fe3f73b4501ade0",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app by typing their address in the address bar (vertical swipe down) and then navigate to their saved addresses (horizontal swipe between tabs). They then scroll through a list of saved addresses to select one. The selected address is then used to display directions or other location-based information.",
+    "reason": "ux_goals_complete"
+  }
+}

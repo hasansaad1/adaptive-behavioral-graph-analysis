@@ -1,0 +1,178 @@
+{
+  "package_name": "ca.farrelltonsolar.classic",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/ca.farrelltonsolar.classic_314.apk",
+  "apk_sha256": "2d767cdb301fc3cba2d1743492c6e3a33f69934b2316f12951976cf3690f7b02",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1784115025548,
+  "elapsed_sec": 455.016,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 465858245,
+  "session_mode": "identical",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "13509",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "ca.farrelltonsolar.classic_frida.jsonl",
+  "frida_lines": 521,
+  "strace_log_path": "ca.farrelltonsolar.classic_strace.log",
+  "strace_size_bytes": 245831,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 465858245,
+  "arm": "llm",
+  "session_id": "2d767cdb301f_llm_s1",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "good",
+  "llm_actions_count": 43,
+  "llm_action_log_path": "ca.farrelltonsolar.classic_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Tap Settings",
+    "Tap SettingsHelp",
+    "Tap APPLY",
+    "Tap CANCEL",
+    "Tap Close navigation",
+    "Tap Open navigation",
+    "Tap Add",
+    "Tap ENERGY",
+    "Tap help",
+    "Tap LIVE"
+  ],
+  "llm_ux_plan_path": "ca.farrelltonsolar.classic_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "ca.farrelltonsolar.classic_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical users open the app to view their current energy usage and temperature, then swipe left to view detailed information about their vehicle's state of charge, power consumption, and other metrics. They may also tap on the 'Energy' tab first to quickly access this data. The user will likely use a combination of vertical and horizontal swipes to navigate between different sections, such as viewing live chart data or accessing settings.",
+  "llm_primary_ux_fallback_reason": "post_nav_realism_blend:goal_index>=4",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+    "root_screen_signature": "f090b1228d050710f4611d6b5f4506db30d455eb7a84d3fcfda3417d289d82e7",
+    "root_screen_hint": "Add action_add TextView \u00b7 help action_help TextView \u00b7 Close navigation drawer ImageButton \u00b7 ENERGY TextView \u00b7 LIVE CHART TextView \u00b7 POWER TextView \u00b7 STATE OF CHARGE TextView \u00b7 TEMPERATURE TextView",
+    "root_screen_source": "initial_observation",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ca.farrelltonsolar.classic",
+          "screen_hash": "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "interactive_count": 8,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "f090b1228d050710f4611d6b5f4506db30d455eb7a84d3fcfda3417d289d82e7",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/2d767cdb301f_ca.farrelltonsolar.classic/dynamic/llm/session_1/ca.farrelltonsolar.classic_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "ca.farrelltonsolar.classic",
+    "app_name": "ca.farrelltonsolar.classic",
+    "category": "Unknown",
+    "purpose": "No description available",
+    "ux_type": "hybrid",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/ca.farrelltonsolar.classic"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 0,
+    "dialogs_tapped_after_warmup": 1,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 34,
+        "screen_hash": "9cffec30c302e8c8"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          540,
+          928
+        ],
+        "node_count": 6,
+        "screen_hash": "4b8764ab7cb37eb5"
+      },
+      {
+        "round": 2,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 34,
+        "screen_hash": "9cffec30c302e8c8"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/2d767cdb301f_ca.farrelltonsolar.classic/dynamic/llm/session_1/ca.farrelltonsolar.classic_verified_start.xml",
+    "pre_setup_wall_sec": 6.503,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 4,
+  "frida_reattach_successes": 4,
+  "frida_valid_events": 151,
+  "frida_meaningful_events": 134,
+  "frida_meaningful_categories": 3
+}

@@ -1,0 +1,170 @@
+{
+  "package_name": "cc.kafuu.bilidownload",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/cc.kafuu.bilidownload_20301.apk",
+  "apk_sha256": "64de55f0293da180fb9062ed83c2aa4cf6b3c8ae8d036b0d89081e720235ee9e",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1784174766410,
+  "elapsed_sec": 446.855,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 714446455,
+  "session_mode": "identical",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "5481",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "cc.kafuu.bilidownload_frida.jsonl",
+  "frida_lines": 439,
+  "strace_log_path": "cc.kafuu.bilidownload_strace.log",
+  "strace_size_bytes": 9577,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 714446455,
+  "arm": "llm",
+  "session_id": "64de55f0293d_llm_s1",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "good",
+  "llm_actions_count": 67,
+  "llm_action_log_path": "cc.kafuu.bilidownload_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Input search query",
+    "Input text in BV/AV/Search",
+    "Tap sp search type",
+    "Tap Search",
+    "Tap Home",
+    "Tap Back iv_back",
+    "Tap BV/AV/Search",
+    "Tap Clear",
+    "Tap Completed"
+  ],
+  "llm_ux_plan_path": "cc.kafuu.bilidownload_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "cc.kafuu.bilidownload_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical users open the app by tapping on the Home tab, then swipe down to search for files, and use the search bar to find specific files. Once found, they tap on a file to view its details, which includes downloading options. Users may also navigate between different tabs (e.g., Me, Completed, Failed) to manage their downloads or access settings.",
+  "llm_primary_ux_fallback_reason": "post_nav_realism_blend:goal_index>=4",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+    "root_screen_signature": "2f8ec06d29cf6aa208b4d6b0c61dd52b095aba9ad16da702f7e03ab4e4508250",
+    "root_screen_hint": "ll_top_bar LinearLayout \u00b7 Home rb_home RadioButton \u00b7 Me rb_me RadioButton \u00b7 Completed LinearLayout \u00b7 Failed LinearLayout \u00b7 In Progress LinearLayout \u00b7 BV/AV/Search TextView",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "cc.kafuu.bilidownload",
+          "screen_hash": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+          "interactive_count": 7,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "2f8ec06d29cf6aa208b4d6b0c61dd52b095aba9ad16da702f7e03ab4e4508250",
+          "root_landmark_score": 3
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/64de55f0293d_cc.kafuu.bilidownload/dynamic/llm/session_1/cc.kafuu.bilidownload_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "cc.kafuu.bilidownload",
+    "app_name": "cc.kafuu.bilidownload",
+    "category": "Unknown",
+    "purpose": "No description available",
+    "ux_type": "hybrid",
+    "key_user_flows": [
+      "synchronize remote data"
+    ],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/cc.kafuu.bilidownload"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": [
+        "synchronize remote data"
+      ]
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 0,
+    "dialogs_tapped_after_warmup": 0,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 34,
+        "screen_hash": "4bd871174ac00440"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 18,
+        "screen_hash": "d4e3c6af2ee3f720"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/64de55f0293d_cc.kafuu.bilidownload/dynamic/llm/session_1/cc.kafuu.bilidownload_verified_start.xml",
+    "pre_setup_wall_sec": 4.293,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 3,
+  "frida_reattach_successes": 3,
+  "frida_valid_events": 145,
+  "frida_meaningful_events": 8,
+  "frida_meaningful_categories": 3
+}

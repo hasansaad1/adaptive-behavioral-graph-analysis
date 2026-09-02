@@ -1,0 +1,19 @@
+31087 1784093926.482669 exit(0)         = ?
+31087 1784093926.482783 +++ exited with 0 +++
+31084 1784093926.483031 exit(0)         = ?
+31084 1784093926.483102 +++ exited with 0 +++
+31089 1784093926.488721 exit(0 <unfinished ...>
+31085 1784093926.488768 exit(0 <unfinished ...>
+31089 1784093926.489006 <... exit resumed>) = ?
+31085 1784093926.489019 <... exit resumed>) = ?
+31089 1784093926.489076 +++ exited with 0 +++
+31085 1784093926.489144 +++ exited with 0 +++
+31099 1784093926.490917 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+31099 1784093926.491368 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+31099 1784093926.491746 newfstatat(AT_FDCWD, "/data/app/bluepie.ad_silence-U2Kxa1GopWLJub_ufLtSCw==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+31099 1784093926.492079 newfstatat(AT_FDCWD, "/data/app/bluepie.ad_silence-U2Kxa1GopWLJub_ufLtSCw==/base.apk", {st_mode=S_IFREG|0644, st_size=175552, ...}, AT_SYMLINK_NOFOLLOW) = 0
+31099 1784093926.492400 getcwd("/", 4096) = 2
+31099 1784093926.492738 newfstatat(AT_FDCWD, "/base.apk", 0x7a750cb690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+31112 1784093939.284173 exit(0)         = ?
+31112 1784093939.284374 +++ exited with 0 +++
+31110 1784093939.333659 faccessat(AT_FDCWD, "/proc/self/task/31112", F_OK) = -1 ENOENT (No such file or directory)

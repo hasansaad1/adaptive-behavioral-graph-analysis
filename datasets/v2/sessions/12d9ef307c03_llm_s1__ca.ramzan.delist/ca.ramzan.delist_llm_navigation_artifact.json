@@ -1,0 +1,991 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "ca.ramzan.delist",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "hint": "Choose collection color color_button ImageButton · Name name_input EditText · Oldest task first choice_queue RadioButton · Random choice_randomizer RadioButton · Newest task first choice_stack RadioButton · ImageButton · SAVE TextView",
+      "visit_count": 46
+    },
+    {
+      "screen_hash": "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5",
+      "hint": "New collection button fab ImageButton · Sort & filter TextView · ImageButton",
+      "visit_count": 12
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/fab",
+        "target_content_desc": "New collection button",
+        "x": 540,
+        "y": 1647,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/fab",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/fab|New collection button"
+    },
+    {
+      "step": 2,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 3,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_randomizer",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 812,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_randomizer",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_randomizer|"
+    },
+    {
+      "step": 4,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 5,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 6,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 7,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 8,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 9,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 10,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 11,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 12,
+      "from": "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Sort & filter",
+        "x": 1016,
+        "y": 1720,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Sort & filter",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Sort & filter"
+    },
+    {
+      "step": 13,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 14,
+      "from": "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/fab",
+        "target_content_desc": "New collection button",
+        "x": 540,
+        "y": 1647,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/fab",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/fab|New collection button"
+    },
+    {
+      "step": 15,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 16,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 17,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 18,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 19,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 20,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 21,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 22,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 23,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 24,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 25,
+      "from": "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/fab",
+        "target_content_desc": "New collection button",
+        "x": 540,
+        "y": 1647,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/fab",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/fab|New collection button"
+    },
+    {
+      "step": 26,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 27,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 28,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 29,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 30,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 31,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 32,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 33,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    },
+    {
+      "step": 34,
+      "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.ramzan.delist:id/choice_queue",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.ramzan.delist:id/choice_queue|"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:ca.ramzan.delist:id/fab|New collection button": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.ramzan.delist:id/fab",
+        "target_content_desc": "New collection button",
+        "visible_on": [
+          "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5"
+        ],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5",
+        "last_to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7"
+      },
+      "tab:|Sort & filter": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Sort & filter",
+        "visible_on": [
+          "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:ca.ramzan.delist:id/fab|New collection button": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ca.ramzan.delist:id/fab",
+        "target_content_desc": "New collection button",
+        "visible_on": [
+          "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Sort & filter": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Sort & filter",
+        "visible_on": [
+          "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:ca.ramzan.delist:id/choice_queue|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "visible_on": [
+          "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7"
+        ],
+        "attempts": 28,
+        "successes": 28,
+        "last_from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "last_to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7"
+      },
+      "tab:ca.ramzan.delist:id/choice_randomizer|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.ramzan.delist:id/choice_randomizer",
+        "target_content_desc": "",
+        "visible_on": [
+          "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "last_to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7"
+      },
+      "nav:ca.ramzan.delist:id/choice_queue|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ca.ramzan.delist:id/choice_queue",
+        "target_content_desc": "",
+        "visible_on": [
+          "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:ca.ramzan.delist:id/choice_randomizer|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ca.ramzan.delist:id/choice_randomizer",
+        "target_content_desc": "",
+        "visible_on": [
+          "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5"
+      }
+    },
+    "edges": [
+      {
+        "from": "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/fab|New collection button",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_randomizer|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Sort & filter",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/fab|New collection button",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e0a0418dcda46b7ab070d439348d0cb47aa80af2fc0452e5522193262b052bb5",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/fab|New collection button",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "to": "90e17723b809797e1b0cc7c04fbb6c9d6728dafdca248c6d9a182f3892f59ba7",
+        "target_key": "tab:ca.ramzan.delist:id/choice_queue|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  }
+}

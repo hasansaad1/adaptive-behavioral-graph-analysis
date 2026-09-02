@@ -1,0 +1,522 @@
+{"type":"event","timestamp":1786679501076,"api":"hook_loaded","category":"lifecycle","args":{"stage":"java_perform","version":"3"}}
+{"type":"status","timestamp":1786679501152,"status":"hook_ok","name":"SmsManager.sendTextMessage","message":null}
+{"type":"status","timestamp":1786679501153,"status":"hook_ok","name":"SmsManager.sendMultipartTextMessage","message":null}
+{"type":"status","timestamp":1786679501154,"status":"hook_ok","name":"URL.openConnection","message":null}
+{"type":"status","timestamp":1786679501154,"status":"hook_ok","name":"HttpURLConnection.connect","message":null}
+{"type":"status","timestamp":1786679501155,"status":"hook_fail","name":"OkHttp3","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679501155,"status":"hook_ok","name":"FileOutputStream.<init>","message":null}
+{"type":"status","timestamp":1786679501156,"status":"hook_ok","name":"FileInputStream.<init>","message":null}
+{"type":"status","timestamp":1786679501156,"status":"hook_ok","name":"File.delete","message":null}
+{"type":"status","timestamp":1786679501157,"status":"hook_ok","name":"Cipher.getInstance","message":null}
+{"type":"status","timestamp":1786679501157,"status":"hook_ok","name":"SecretKeySpec.<init>","message":null}
+{"type":"status","timestamp":1786679501158,"status":"hook_ok","name":"Method.invoke","message":null}
+{"type":"status","timestamp":1786679501158,"status":"hook_ok","name":"Runtime.exec","message":null}
+{"type":"status","timestamp":1786679501159,"status":"hook_ok","name":"ProcessBuilder.start","message":null}
+{"type":"status","timestamp":1786679501160,"status":"hook_ok","name":"ContentResolver.query","message":null}
+{"type":"status","timestamp":1786679501160,"status":"hook_ok","name":"ContentResolver.query_legacy","message":null}
+{"type":"status","timestamp":1786679501160,"status":"hook_ok","name":"ContentResolver.insert","message":null}
+{"type":"status","timestamp":1786679501161,"status":"hook_ok","name":"ContentResolver.update","message":null}
+{"type":"status","timestamp":1786679501161,"status":"hook_ok","name":"ContentResolver.delete","message":null}
+{"type":"status","timestamp":1786679501162,"status":"hook_ok","name":"ClipboardManager.setPrimaryClip","message":null}
+{"type":"status","timestamp":1786679501163,"status":"hook_ok","name":"Camera.open","message":null}
+{"type":"status","timestamp":1786679501163,"status":"hook_ok","name":"CameraManager.openCamera","message":null}
+{"type":"status","timestamp":1786679501164,"status":"hook_ok","name":"PackageManager.getInstalledPackages","message":null}
+{"type":"status","timestamp":1786679501164,"status":"hook_ok","name":"PackageManager.getInstalledApplications","message":null}
+{"type":"status","timestamp":1786679501166,"status":"hook_ok","name":"LocationManager.requestLocationUpdates","message":null}
+{"type":"status","timestamp":1786679501167,"status":"hook_ok","name":"TelephonyManager.getDeviceId","message":null}
+{"type":"status","timestamp":1786679501167,"status":"hook_ok","name":"TelephonyManager.getSubscriberId","message":null}
+{"type":"status","timestamp":1786679501167,"status":"hook_ok","name":"TelephonyManager.getSimSerialNumber","message":null}
+{"type":"status","timestamp":1786679501168,"status":"hook_ok","name":"TelephonyManager.getCallState","message":null}
+{"type":"status","timestamp":1786679501168,"status":"hook_ok","name":"TelephonyManager.getCallState_subId","message":null}
+{"type":"status","timestamp":1786679501168,"status":"hook_ok","name":"DexClassLoader.<init>","message":null}
+{"type":"status","timestamp":1786679501169,"status":"hook_ok","name":"PathClassLoader.<init>","message":null}
+{"type":"status","timestamp":1786679501169,"status":"hook_ok","name":"System.loadLibrary","message":null}
+{"type":"status","timestamp":1786679501170,"status":"hook_ok","name":"Runtime.loadLibrary","message":null}
+{"type":"status","timestamp":1786679501170,"status":"hook_ok","name":"Runtime.load","message":null}
+{"type":"status","timestamp":1786679501171,"status":"hook_ok","name":"Cipher.doFinal","message":null}
+{"type":"status","timestamp":1786679501171,"status":"hook_ok","name":"MessageDigest.getInstance","message":null}
+{"type":"status","timestamp":1786679501172,"status":"hook_ok","name":"MessageDigest.digest","message":null}
+{"type":"status","timestamp":1786679501172,"status":"hook_fail","name":"okhttp3.RealCall.enqueue","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679501173,"status":"hook_ok","name":"AccountManager.getAccounts","message":null}
+{"type":"status","timestamp":1786679501173,"status":"hook_ok","name":"AccountManager.getAccountsByType","message":null}
+{"type":"status","timestamp":1786679501174,"status":"hook_ok","name":"AudioRecord.<init>","message":null}
+{"type":"status","timestamp":1786679501174,"status":"hook_ok","name":"MediaRecorder.setAudioSource","message":null}
+{"type":"status","timestamp":1786679501175,"status":"hook_ok","name":"SharedPreferencesImpl.getString","message":null}
+{"type":"status","timestamp":1786679501175,"status":"hook_ok","name":"SharedPreferencesImpl.getInt","message":null}
+{"type":"status","timestamp":1786679501176,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.putString","message":null}
+{"type":"status","timestamp":1786679501176,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.apply","message":null}
+{"type":"status","timestamp":1786679501177,"status":"hook_ok","name":"SQLiteDatabase.rawQuery","message":null}
+{"type":"status","timestamp":1786679501177,"status":"hook_ok","name":"SQLiteDatabase.execSQL","message":null}
+{"type":"status","timestamp":1786679501177,"status":"hook_ok","name":"SQLiteDatabase.insert","message":null}
+{"type":"status","timestamp":1786679501179,"status":"hook_ok","name":"MediaPlayer.setDataSource","message":null}
+{"type":"status","timestamp":1786679501179,"status":"hook_ok","name":"MediaPlayer.setDataSource_uri","message":null}
+{"type":"status","timestamp":1786679501180,"status":"hook_ok","name":"MediaPlayer.start","message":null}
+{"type":"status","timestamp":1786679501180,"status":"hook_ok","name":"MediaPlayer.prepare","message":null}
+{"type":"status","timestamp":1786679501180,"status":"hook_ok","name":"ContextWrapper.startActivity","message":null}
+{"type":"status","timestamp":1786679501181,"status":"hook_ok","name":"ContextWrapper.sendBroadcast","message":null}
+{"type":"status","timestamp":1786679501181,"status":"hook_ok","name":"ContextWrapper.sendBroadcast_permission","message":null}
+{"type":"status","timestamp":1786679501181,"status":"hook_ok","name":"ContextWrapper.startService","message":null}
+{"type":"status","timestamp":1786679501182,"status":"hook_ok","name":"ContextWrapper.bindService","message":null}
+{"type":"status","timestamp":1786679501183,"status":"hook_ok","name":"WebView.loadUrl","message":null}
+{"type":"status","timestamp":1786679501183,"status":"hook_ok","name":"NotificationManager.notify","message":null}
+{"type":"status","timestamp":1786679501184,"status":"hook_ok","name":"NotificationManager.notify_tag","message":null}
+{"type":"status","timestamp":1786679501184,"status":"hook_ok","name":"NotificationManager.notifyAsUser","message":null}
+{"type":"status","timestamp":1786679501185,"status":"hook_ok","name":"Socket.connect","message":null}
+{"type":"status","timestamp":1786679501185,"status":"hook_ok","name":"AssetManager.open","message":null}
+{"type":"status","timestamp":1786679501186,"status":"hook_fail","name":"retrofit2.OkHttpCall.execute","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"retrofit2.OkHttpCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679501186,"status":"hook_fail","name":"volley.RequestQueue.add","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"com.android.volley.RequestQueue\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"event","timestamp":1786679501443,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679501443,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679501444,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679501445,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679501446,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679501447,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679501448,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679501452,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679501536,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.ViewGroup","method":"makeOptionalFitsSystemWindows"}}
+{"type":"event","timestamp":1786679501537,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_theme"}}
+{"type":"event","timestamp":1786679501553,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getElevation"}}
+{"type":"event","timestamp":1786679501553,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getTranslationZ"}}
+{"type":"event","timestamp":1786679501554,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getElevation"}}
+{"type":"event","timestamp":1786679501554,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getTranslationZ"}}
+{"type":"event","timestamp":1786679505154,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_theme"}}
+{"type":"event","timestamp":1786679505165,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_theme"}}
+{"type":"event","timestamp":1786679505169,"api":"SharedPreferences.putString","category":"storage","args":{"key":"key_theme"}}
+{"type":"event","timestamp":1786679505199,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679505213,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679505217,"api":"SharedPreferences.putString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679505232,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_date_format"}}
+{"type":"event","timestamp":1786679505235,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_date_format"}}
+{"type":"event","timestamp":1786679505247,"api":"SharedPreferences.putString","category":"storage","args":{"key":"key_date_format"}}
+{"type":"event","timestamp":1786679505251,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_quality"}}
+{"type":"event","timestamp":1786679505262,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_quality"}}
+{"type":"event","timestamp":1786679505265,"api":"SharedPreferences.putString","category":"storage","args":{"key":"key_quality"}}
+{"type":"event","timestamp":1786679505269,"api":"SharedPreferences.apply","category":"storage","args":{}}
+{"type":"event","timestamp":1786679505388,"api":"File.delete","category":"file_io","args":{"path":"/data/user/0/ch.mydoli.focal/shared_prefs/ch.mydoli.focal_preferences.xml.bak"}}
+{"type":"event","timestamp":1786679508394,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679508412,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679508429,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679508444,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679508452,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679508467,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679508483,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679508503,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679509507,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getElevation"}}
+{"type":"event","timestamp":1786679509513,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getTranslationZ"}}
+{"type":"event","timestamp":1786679509519,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getElevation"}}
+{"type":"event","timestamp":1786679509526,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getTranslationZ"}}
+{"type":"event","timestamp":1786679527079,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_date_format"}}
+{"type":"event","timestamp":1786679530076,"api":"Method.invoke","category":"reflection","args":{"class":"com.canhub.cropper.CropImageView$CropShape","method":"values"}}
+{"type":"event","timestamp":1786679530083,"api":"Method.invoke","category":"reflection","args":{"class":"com.canhub.cropper.CropImageView$CropCornerShape","method":"values"}}
+{"type":"event","timestamp":1786679530093,"api":"Method.invoke","category":"reflection","args":{"class":"com.canhub.cropper.CropImageView$Guidelines","method":"values"}}
+{"type":"event","timestamp":1786679530099,"api":"Method.invoke","category":"reflection","args":{"class":"com.canhub.cropper.CropImageView$ScaleType","method":"values"}}
+{"type":"event","timestamp":1786679530106,"api":"Method.invoke","category":"reflection","args":{"class":"android.graphics.Bitmap$CompressFormat","method":"values"}}
+{"type":"event","timestamp":1786679530112,"api":"Method.invoke","category":"reflection","args":{"class":"com.canhub.cropper.CropImageView$RequestSizeOptions","method":"values"}}
+{"type":"event","timestamp":1786679530132,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.ViewGroup","method":"makeOptionalFitsSystemWindows"}}
+{"type":"event","timestamp":1786679543965,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.ViewGroup","method":"makeOptionalFitsSystemWindows"}}
+{"type":"event","timestamp":1786679554867,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.ViewGroup","method":"makeOptionalFitsSystemWindows"}}
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to spawn: unable to pick a payload base
+Failed to spawn: unable to pick a payload base
+{"type":"event","timestamp":1786679585130,"api":"hook_loaded","category":"lifecycle","args":{"stage":"java_perform","version":"3"}}
+{"type":"status","timestamp":1786679585176,"status":"hook_ok","name":"SmsManager.sendTextMessage","message":null}
+{"type":"status","timestamp":1786679585177,"status":"hook_ok","name":"SmsManager.sendMultipartTextMessage","message":null}
+{"type":"status","timestamp":1786679585177,"status":"hook_ok","name":"URL.openConnection","message":null}
+{"type":"status","timestamp":1786679585178,"status":"hook_ok","name":"HttpURLConnection.connect","message":null}
+{"type":"status","timestamp":1786679585178,"status":"hook_fail","name":"OkHttp3","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679585179,"status":"hook_ok","name":"FileOutputStream.<init>","message":null}
+{"type":"status","timestamp":1786679585179,"status":"hook_ok","name":"FileInputStream.<init>","message":null}
+{"type":"status","timestamp":1786679585180,"status":"hook_ok","name":"File.delete","message":null}
+{"type":"status","timestamp":1786679585180,"status":"hook_ok","name":"Cipher.getInstance","message":null}
+{"type":"status","timestamp":1786679585181,"status":"hook_ok","name":"SecretKeySpec.<init>","message":null}
+{"type":"status","timestamp":1786679585181,"status":"hook_ok","name":"Method.invoke","message":null}
+{"type":"status","timestamp":1786679585182,"status":"hook_ok","name":"Runtime.exec","message":null}
+{"type":"status","timestamp":1786679585182,"status":"hook_ok","name":"ProcessBuilder.start","message":null}
+{"type":"status","timestamp":1786679585183,"status":"hook_ok","name":"ContentResolver.query","message":null}
+{"type":"status","timestamp":1786679585183,"status":"hook_ok","name":"ContentResolver.query_legacy","message":null}
+{"type":"status","timestamp":1786679585184,"status":"hook_ok","name":"ContentResolver.insert","message":null}
+{"type":"status","timestamp":1786679585184,"status":"hook_ok","name":"ContentResolver.update","message":null}
+{"type":"status","timestamp":1786679585185,"status":"hook_ok","name":"ContentResolver.delete","message":null}
+{"type":"status","timestamp":1786679585185,"status":"hook_ok","name":"ClipboardManager.setPrimaryClip","message":null}
+{"type":"status","timestamp":1786679585186,"status":"hook_ok","name":"Camera.open","message":null}
+{"type":"status","timestamp":1786679585186,"status":"hook_ok","name":"CameraManager.openCamera","message":null}
+{"type":"status","timestamp":1786679585187,"status":"hook_ok","name":"PackageManager.getInstalledPackages","message":null}
+{"type":"status","timestamp":1786679585187,"status":"hook_ok","name":"PackageManager.getInstalledApplications","message":null}
+{"type":"status","timestamp":1786679585188,"status":"hook_ok","name":"LocationManager.requestLocationUpdates","message":null}
+{"type":"status","timestamp":1786679585189,"status":"hook_ok","name":"TelephonyManager.getDeviceId","message":null}
+{"type":"status","timestamp":1786679585189,"status":"hook_ok","name":"TelephonyManager.getSubscriberId","message":null}
+{"type":"status","timestamp":1786679585190,"status":"hook_ok","name":"TelephonyManager.getSimSerialNumber","message":null}
+{"type":"status","timestamp":1786679585190,"status":"hook_ok","name":"TelephonyManager.getCallState","message":null}
+{"type":"status","timestamp":1786679585190,"status":"hook_ok","name":"TelephonyManager.getCallState_subId","message":null}
+{"type":"status","timestamp":1786679585190,"status":"hook_ok","name":"DexClassLoader.<init>","message":null}
+{"type":"status","timestamp":1786679585191,"status":"hook_ok","name":"PathClassLoader.<init>","message":null}
+{"type":"status","timestamp":1786679585191,"status":"hook_ok","name":"System.loadLibrary","message":null}
+{"type":"status","timestamp":1786679585191,"status":"hook_ok","name":"Runtime.loadLibrary","message":null}
+{"type":"status","timestamp":1786679585192,"status":"hook_ok","name":"Runtime.load","message":null}
+{"type":"status","timestamp":1786679585193,"status":"hook_ok","name":"Cipher.doFinal","message":null}
+{"type":"status","timestamp":1786679585193,"status":"hook_ok","name":"MessageDigest.getInstance","message":null}
+{"type":"status","timestamp":1786679585193,"status":"hook_ok","name":"MessageDigest.digest","message":null}
+{"type":"status","timestamp":1786679585194,"status":"hook_fail","name":"okhttp3.RealCall.enqueue","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679585194,"status":"hook_ok","name":"AccountManager.getAccounts","message":null}
+{"type":"status","timestamp":1786679585194,"status":"hook_ok","name":"AccountManager.getAccountsByType","message":null}
+{"type":"status","timestamp":1786679585195,"status":"hook_ok","name":"AudioRecord.<init>","message":null}
+{"type":"status","timestamp":1786679585195,"status":"hook_ok","name":"MediaRecorder.setAudioSource","message":null}
+{"type":"status","timestamp":1786679585196,"status":"hook_ok","name":"SharedPreferencesImpl.getString","message":null}
+{"type":"status","timestamp":1786679585196,"status":"hook_ok","name":"SharedPreferencesImpl.getInt","message":null}
+{"type":"status","timestamp":1786679585197,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.putString","message":null}
+{"type":"status","timestamp":1786679585197,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.apply","message":null}
+{"type":"status","timestamp":1786679585198,"status":"hook_ok","name":"SQLiteDatabase.rawQuery","message":null}
+{"type":"status","timestamp":1786679585198,"status":"hook_ok","name":"SQLiteDatabase.execSQL","message":null}
+{"type":"status","timestamp":1786679585198,"status":"hook_ok","name":"SQLiteDatabase.insert","message":null}
+{"type":"status","timestamp":1786679585200,"status":"hook_ok","name":"MediaPlayer.setDataSource","message":null}
+{"type":"status","timestamp":1786679585200,"status":"hook_ok","name":"MediaPlayer.setDataSource_uri","message":null}
+{"type":"status","timestamp":1786679585200,"status":"hook_ok","name":"MediaPlayer.start","message":null}
+{"type":"status","timestamp":1786679585200,"status":"hook_ok","name":"MediaPlayer.prepare","message":null}
+{"type":"status","timestamp":1786679585201,"status":"hook_ok","name":"ContextWrapper.startActivity","message":null}
+{"type":"status","timestamp":1786679585201,"status":"hook_ok","name":"ContextWrapper.sendBroadcast","message":null}
+{"type":"status","timestamp":1786679585202,"status":"hook_ok","name":"ContextWrapper.sendBroadcast_permission","message":null}
+{"type":"status","timestamp":1786679585202,"status":"hook_ok","name":"ContextWrapper.startService","message":null}
+{"type":"status","timestamp":1786679585203,"status":"hook_ok","name":"ContextWrapper.bindService","message":null}
+{"type":"status","timestamp":1786679585203,"status":"hook_ok","name":"WebView.loadUrl","message":null}
+{"type":"status","timestamp":1786679585204,"status":"hook_ok","name":"NotificationManager.notify","message":null}
+{"type":"status","timestamp":1786679585204,"status":"hook_ok","name":"NotificationManager.notify_tag","message":null}
+{"type":"status","timestamp":1786679585204,"status":"hook_ok","name":"NotificationManager.notifyAsUser","message":null}
+{"type":"status","timestamp":1786679585205,"status":"hook_ok","name":"Socket.connect","message":null}
+{"type":"status","timestamp":1786679585205,"status":"hook_ok","name":"AssetManager.open","message":null}
+{"type":"status","timestamp":1786679585205,"status":"hook_fail","name":"retrofit2.OkHttpCall.execute","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"retrofit2.OkHttpCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679585206,"status":"hook_fail","name":"volley.RequestQueue.add","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"com.android.volley.RequestQueue\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"event","timestamp":1786679588531,"api":"File.delete","category":"file_io","args":{"path":"/data/user/0/ch.mydoli.focal/files/profileInstalled"}}
+{"type":"event","timestamp":1786679616515,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_theme"}}
+{"type":"event","timestamp":1786679616529,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_theme"}}
+{"type":"event","timestamp":1786679616534,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679616548,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679616551,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_date_format"}}
+{"type":"event","timestamp":1786679616564,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_date_format"}}
+{"type":"event","timestamp":1786679616567,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_quality"}}
+{"type":"event","timestamp":1786679616580,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_quality"}}
+{"type":"event","timestamp":1786679619677,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679619694,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679619710,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679619719,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679619732,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679619746,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679619761,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679619780,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679620800,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getElevation"}}
+{"type":"event","timestamp":1786679620807,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getTranslationZ"}}
+{"type":"event","timestamp":1786679620817,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getElevation"}}
+{"type":"event","timestamp":1786679620823,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getTranslationZ"}}
+{"type":"event","timestamp":1786679632324,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_theme"}}
+{"type":"event","timestamp":1786679632328,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_theme"}}
+{"type":"event","timestamp":1786679632332,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679632335,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679632341,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_date_format"}}
+{"type":"event","timestamp":1786679632347,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_date_format"}}
+{"type":"event","timestamp":1786679632352,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_quality"}}
+{"type":"event","timestamp":1786679632359,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_quality"}}
+{"type":"event","timestamp":1786679635394,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679635394,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679635397,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679635399,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679635400,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679635402,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679635404,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679635408,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679635816,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getElevation"}}
+{"type":"event","timestamp":1786679635824,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getTranslationZ"}}
+{"type":"event","timestamp":1786679635831,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getElevation"}}
+{"type":"event","timestamp":1786679635839,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getTranslationZ"}}
+{"type":"event","timestamp":1786679648956,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_theme"}}
+{"type":"event","timestamp":1786679648960,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_theme"}}
+{"type":"event","timestamp":1786679648964,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679648969,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679648977,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_date_format"}}
+{"type":"event","timestamp":1786679648981,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_date_format"}}
+{"type":"event","timestamp":1786679648986,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_quality"}}
+{"type":"event","timestamp":1786679648992,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_quality"}}
+{"type":"event","timestamp":1786679652035,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679652050,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679652066,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679652082,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679652098,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679652115,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679652126,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679652146,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679653148,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getElevation"}}
+{"type":"event","timestamp":1786679653159,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getTranslationZ"}}
+{"type":"event","timestamp":1786679653171,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getElevation"}}
+{"type":"event","timestamp":1786679653177,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getTranslationZ"}}
+{"type":"event","timestamp":1786679678296,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679678305,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679678313,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679678324,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679678332,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679678344,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679678352,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679678366,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679679489,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.ViewGroup","method":"makeOptionalFitsSystemWindows"}}
+{"type":"event","timestamp":1786679679492,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_theme"}}
+{"type":"event","timestamp":1786679679516,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getElevation"}}
+{"type":"event","timestamp":1786679679525,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getTranslationZ"}}
+{"type":"event","timestamp":1786679679531,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getElevation"}}
+{"type":"event","timestamp":1786679679538,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getTranslationZ"}}
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to spawn: unable to pick a payload base
+Failed to spawn: unable to pick a payload base
+{"type":"event","timestamp":1786679733269,"api":"hook_loaded","category":"lifecycle","args":{"stage":"java_perform","version":"3"}}
+{"type":"status","timestamp":1786679733316,"status":"hook_ok","name":"SmsManager.sendTextMessage","message":null}
+{"type":"status","timestamp":1786679733317,"status":"hook_ok","name":"SmsManager.sendMultipartTextMessage","message":null}
+{"type":"status","timestamp":1786679733317,"status":"hook_ok","name":"URL.openConnection","message":null}
+{"type":"status","timestamp":1786679733318,"status":"hook_ok","name":"HttpURLConnection.connect","message":null}
+{"type":"status","timestamp":1786679733318,"status":"hook_fail","name":"OkHttp3","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679733319,"status":"hook_ok","name":"FileOutputStream.<init>","message":null}
+{"type":"status","timestamp":1786679733320,"status":"hook_ok","name":"FileInputStream.<init>","message":null}
+{"type":"status","timestamp":1786679733320,"status":"hook_ok","name":"File.delete","message":null}
+{"type":"status","timestamp":1786679733321,"status":"hook_ok","name":"Cipher.getInstance","message":null}
+{"type":"status","timestamp":1786679733322,"status":"hook_ok","name":"SecretKeySpec.<init>","message":null}
+{"type":"status","timestamp":1786679733322,"status":"hook_ok","name":"Method.invoke","message":null}
+{"type":"status","timestamp":1786679733323,"status":"hook_ok","name":"Runtime.exec","message":null}
+{"type":"status","timestamp":1786679733323,"status":"hook_ok","name":"ProcessBuilder.start","message":null}
+{"type":"status","timestamp":1786679733324,"status":"hook_ok","name":"ContentResolver.query","message":null}
+{"type":"status","timestamp":1786679733325,"status":"hook_ok","name":"ContentResolver.query_legacy","message":null}
+{"type":"status","timestamp":1786679733325,"status":"hook_ok","name":"ContentResolver.insert","message":null}
+{"type":"status","timestamp":1786679733326,"status":"hook_ok","name":"ContentResolver.update","message":null}
+{"type":"status","timestamp":1786679733326,"status":"hook_ok","name":"ContentResolver.delete","message":null}
+{"type":"status","timestamp":1786679733327,"status":"hook_ok","name":"ClipboardManager.setPrimaryClip","message":null}
+{"type":"status","timestamp":1786679733327,"status":"hook_ok","name":"Camera.open","message":null}
+{"type":"status","timestamp":1786679733328,"status":"hook_ok","name":"CameraManager.openCamera","message":null}
+{"type":"status","timestamp":1786679733328,"status":"hook_ok","name":"PackageManager.getInstalledPackages","message":null}
+{"type":"status","timestamp":1786679733329,"status":"hook_ok","name":"PackageManager.getInstalledApplications","message":null}
+{"type":"status","timestamp":1786679733330,"status":"hook_ok","name":"LocationManager.requestLocationUpdates","message":null}
+{"type":"status","timestamp":1786679733331,"status":"hook_ok","name":"TelephonyManager.getDeviceId","message":null}
+{"type":"status","timestamp":1786679733332,"status":"hook_ok","name":"TelephonyManager.getSubscriberId","message":null}
+{"type":"status","timestamp":1786679733332,"status":"hook_ok","name":"TelephonyManager.getSimSerialNumber","message":null}
+{"type":"status","timestamp":1786679733333,"status":"hook_ok","name":"TelephonyManager.getCallState","message":null}
+{"type":"status","timestamp":1786679733333,"status":"hook_ok","name":"TelephonyManager.getCallState_subId","message":null}
+{"type":"status","timestamp":1786679733334,"status":"hook_ok","name":"DexClassLoader.<init>","message":null}
+{"type":"status","timestamp":1786679733334,"status":"hook_ok","name":"PathClassLoader.<init>","message":null}
+{"type":"status","timestamp":1786679733335,"status":"hook_ok","name":"System.loadLibrary","message":null}
+{"type":"status","timestamp":1786679733335,"status":"hook_ok","name":"Runtime.loadLibrary","message":null}
+{"type":"status","timestamp":1786679733336,"status":"hook_ok","name":"Runtime.load","message":null}
+{"type":"status","timestamp":1786679733337,"status":"hook_ok","name":"Cipher.doFinal","message":null}
+{"type":"status","timestamp":1786679733337,"status":"hook_ok","name":"MessageDigest.getInstance","message":null}
+{"type":"status","timestamp":1786679733338,"status":"hook_ok","name":"MessageDigest.digest","message":null}
+{"type":"status","timestamp":1786679733338,"status":"hook_fail","name":"okhttp3.RealCall.enqueue","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679733339,"status":"hook_ok","name":"AccountManager.getAccounts","message":null}
+{"type":"status","timestamp":1786679733339,"status":"hook_ok","name":"AccountManager.getAccountsByType","message":null}
+{"type":"status","timestamp":1786679733340,"status":"hook_ok","name":"AudioRecord.<init>","message":null}
+{"type":"status","timestamp":1786679733340,"status":"hook_ok","name":"MediaRecorder.setAudioSource","message":null}
+{"type":"status","timestamp":1786679733341,"status":"hook_ok","name":"SharedPreferencesImpl.getString","message":null}
+{"type":"status","timestamp":1786679733341,"status":"hook_ok","name":"SharedPreferencesImpl.getInt","message":null}
+{"type":"status","timestamp":1786679733342,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.putString","message":null}
+{"type":"status","timestamp":1786679733342,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.apply","message":null}
+{"type":"status","timestamp":1786679733343,"status":"hook_ok","name":"SQLiteDatabase.rawQuery","message":null}
+{"type":"status","timestamp":1786679733343,"status":"hook_ok","name":"SQLiteDatabase.execSQL","message":null}
+{"type":"status","timestamp":1786679733344,"status":"hook_ok","name":"SQLiteDatabase.insert","message":null}
+{"type":"status","timestamp":1786679733345,"status":"hook_ok","name":"MediaPlayer.setDataSource","message":null}
+{"type":"status","timestamp":1786679733345,"status":"hook_ok","name":"MediaPlayer.setDataSource_uri","message":null}
+{"type":"status","timestamp":1786679733346,"status":"hook_ok","name":"MediaPlayer.start","message":null}
+{"type":"status","timestamp":1786679733346,"status":"hook_ok","name":"MediaPlayer.prepare","message":null}
+{"type":"status","timestamp":1786679733347,"status":"hook_ok","name":"ContextWrapper.startActivity","message":null}
+{"type":"status","timestamp":1786679733348,"status":"hook_ok","name":"ContextWrapper.sendBroadcast","message":null}
+{"type":"status","timestamp":1786679733348,"status":"hook_ok","name":"ContextWrapper.sendBroadcast_permission","message":null}
+{"type":"status","timestamp":1786679733348,"status":"hook_ok","name":"ContextWrapper.startService","message":null}
+{"type":"status","timestamp":1786679733349,"status":"hook_ok","name":"ContextWrapper.bindService","message":null}
+{"type":"status","timestamp":1786679733349,"status":"hook_ok","name":"WebView.loadUrl","message":null}
+{"type":"status","timestamp":1786679733350,"status":"hook_ok","name":"NotificationManager.notify","message":null}
+{"type":"status","timestamp":1786679733350,"status":"hook_ok","name":"NotificationManager.notify_tag","message":null}
+{"type":"status","timestamp":1786679733351,"status":"hook_ok","name":"NotificationManager.notifyAsUser","message":null}
+{"type":"status","timestamp":1786679733351,"status":"hook_ok","name":"Socket.connect","message":null}
+{"type":"status","timestamp":1786679733352,"status":"hook_ok","name":"AssetManager.open","message":null}
+{"type":"status","timestamp":1786679733352,"status":"hook_fail","name":"retrofit2.OkHttpCall.execute","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"retrofit2.OkHttpCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679733353,"status":"hook_fail","name":"volley.RequestQueue.add","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"com.android.volley.RequestQueue\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"event","timestamp":1786679736710,"api":"File.delete","category":"file_io","args":{"path":"/data/user/0/ch.mydoli.focal/files/profileInstalled"}}
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to spawn: unable to pick a payload base
+Failed to spawn: unable to pick a payload base
+{"type":"event","timestamp":1786679799229,"api":"hook_loaded","category":"lifecycle","args":{"stage":"java_perform","version":"3"}}
+{"type":"status","timestamp":1786679799277,"status":"hook_ok","name":"SmsManager.sendTextMessage","message":null}
+{"type":"status","timestamp":1786679799278,"status":"hook_ok","name":"SmsManager.sendMultipartTextMessage","message":null}
+{"type":"status","timestamp":1786679799278,"status":"hook_ok","name":"URL.openConnection","message":null}
+{"type":"status","timestamp":1786679799279,"status":"hook_ok","name":"HttpURLConnection.connect","message":null}
+{"type":"status","timestamp":1786679799279,"status":"hook_fail","name":"OkHttp3","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679799280,"status":"hook_ok","name":"FileOutputStream.<init>","message":null}
+{"type":"status","timestamp":1786679799281,"status":"hook_ok","name":"FileInputStream.<init>","message":null}
+{"type":"status","timestamp":1786679799281,"status":"hook_ok","name":"File.delete","message":null}
+{"type":"status","timestamp":1786679799282,"status":"hook_ok","name":"Cipher.getInstance","message":null}
+{"type":"status","timestamp":1786679799282,"status":"hook_ok","name":"SecretKeySpec.<init>","message":null}
+{"type":"status","timestamp":1786679799283,"status":"hook_ok","name":"Method.invoke","message":null}
+{"type":"status","timestamp":1786679799284,"status":"hook_ok","name":"Runtime.exec","message":null}
+{"type":"status","timestamp":1786679799284,"status":"hook_ok","name":"ProcessBuilder.start","message":null}
+{"type":"status","timestamp":1786679799286,"status":"hook_ok","name":"ContentResolver.query","message":null}
+{"type":"status","timestamp":1786679799286,"status":"hook_ok","name":"ContentResolver.query_legacy","message":null}
+{"type":"status","timestamp":1786679799286,"status":"hook_ok","name":"ContentResolver.insert","message":null}
+{"type":"status","timestamp":1786679799287,"status":"hook_ok","name":"ContentResolver.update","message":null}
+{"type":"status","timestamp":1786679799287,"status":"hook_ok","name":"ContentResolver.delete","message":null}
+{"type":"status","timestamp":1786679799288,"status":"hook_ok","name":"ClipboardManager.setPrimaryClip","message":null}
+{"type":"status","timestamp":1786679799288,"status":"hook_ok","name":"Camera.open","message":null}
+{"type":"status","timestamp":1786679799289,"status":"hook_ok","name":"CameraManager.openCamera","message":null}
+{"type":"status","timestamp":1786679799290,"status":"hook_ok","name":"PackageManager.getInstalledPackages","message":null}
+{"type":"status","timestamp":1786679799290,"status":"hook_ok","name":"PackageManager.getInstalledApplications","message":null}
+{"type":"status","timestamp":1786679799291,"status":"hook_ok","name":"LocationManager.requestLocationUpdates","message":null}
+{"type":"status","timestamp":1786679799292,"status":"hook_ok","name":"TelephonyManager.getDeviceId","message":null}
+{"type":"status","timestamp":1786679799293,"status":"hook_ok","name":"TelephonyManager.getSubscriberId","message":null}
+{"type":"status","timestamp":1786679799293,"status":"hook_ok","name":"TelephonyManager.getSimSerialNumber","message":null}
+{"type":"status","timestamp":1786679799294,"status":"hook_ok","name":"TelephonyManager.getCallState","message":null}
+{"type":"status","timestamp":1786679799294,"status":"hook_ok","name":"TelephonyManager.getCallState_subId","message":null}
+{"type":"status","timestamp":1786679799294,"status":"hook_ok","name":"DexClassLoader.<init>","message":null}
+{"type":"status","timestamp":1786679799295,"status":"hook_ok","name":"PathClassLoader.<init>","message":null}
+{"type":"status","timestamp":1786679799295,"status":"hook_ok","name":"System.loadLibrary","message":null}
+{"type":"status","timestamp":1786679799296,"status":"hook_ok","name":"Runtime.loadLibrary","message":null}
+{"type":"status","timestamp":1786679799296,"status":"hook_ok","name":"Runtime.load","message":null}
+{"type":"status","timestamp":1786679799297,"status":"hook_ok","name":"Cipher.doFinal","message":null}
+{"type":"status","timestamp":1786679799297,"status":"hook_ok","name":"MessageDigest.getInstance","message":null}
+{"type":"status","timestamp":1786679799298,"status":"hook_ok","name":"MessageDigest.digest","message":null}
+{"type":"status","timestamp":1786679799298,"status":"hook_fail","name":"okhttp3.RealCall.enqueue","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679799299,"status":"hook_ok","name":"AccountManager.getAccounts","message":null}
+{"type":"status","timestamp":1786679799299,"status":"hook_ok","name":"AccountManager.getAccountsByType","message":null}
+{"type":"status","timestamp":1786679799300,"status":"hook_ok","name":"AudioRecord.<init>","message":null}
+{"type":"status","timestamp":1786679799300,"status":"hook_ok","name":"MediaRecorder.setAudioSource","message":null}
+{"type":"status","timestamp":1786679799301,"status":"hook_ok","name":"SharedPreferencesImpl.getString","message":null}
+{"type":"status","timestamp":1786679799301,"status":"hook_ok","name":"SharedPreferencesImpl.getInt","message":null}
+{"type":"status","timestamp":1786679799302,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.putString","message":null}
+{"type":"status","timestamp":1786679799302,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.apply","message":null}
+{"type":"status","timestamp":1786679799303,"status":"hook_ok","name":"SQLiteDatabase.rawQuery","message":null}
+{"type":"status","timestamp":1786679799304,"status":"hook_ok","name":"SQLiteDatabase.execSQL","message":null}
+{"type":"status","timestamp":1786679799304,"status":"hook_ok","name":"SQLiteDatabase.insert","message":null}
+{"type":"status","timestamp":1786679799306,"status":"hook_ok","name":"MediaPlayer.setDataSource","message":null}
+{"type":"status","timestamp":1786679799306,"status":"hook_ok","name":"MediaPlayer.setDataSource_uri","message":null}
+{"type":"status","timestamp":1786679799306,"status":"hook_ok","name":"MediaPlayer.start","message":null}
+{"type":"status","timestamp":1786679799307,"status":"hook_ok","name":"MediaPlayer.prepare","message":null}
+{"type":"status","timestamp":1786679799307,"status":"hook_ok","name":"ContextWrapper.startActivity","message":null}
+{"type":"status","timestamp":1786679799308,"status":"hook_ok","name":"ContextWrapper.sendBroadcast","message":null}
+{"type":"status","timestamp":1786679799308,"status":"hook_ok","name":"ContextWrapper.sendBroadcast_permission","message":null}
+{"type":"status","timestamp":1786679799308,"status":"hook_ok","name":"ContextWrapper.startService","message":null}
+{"type":"status","timestamp":1786679799309,"status":"hook_ok","name":"ContextWrapper.bindService","message":null}
+{"type":"status","timestamp":1786679799310,"status":"hook_ok","name":"WebView.loadUrl","message":null}
+{"type":"status","timestamp":1786679799310,"status":"hook_ok","name":"NotificationManager.notify","message":null}
+{"type":"status","timestamp":1786679799311,"status":"hook_ok","name":"NotificationManager.notify_tag","message":null}
+{"type":"status","timestamp":1786679799311,"status":"hook_ok","name":"NotificationManager.notifyAsUser","message":null}
+{"type":"status","timestamp":1786679799312,"status":"hook_ok","name":"Socket.connect","message":null}
+{"type":"status","timestamp":1786679799312,"status":"hook_ok","name":"AssetManager.open","message":null}
+{"type":"status","timestamp":1786679799313,"status":"hook_fail","name":"retrofit2.OkHttpCall.execute","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"retrofit2.OkHttpCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679799313,"status":"hook_fail","name":"volley.RequestQueue.add","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"com.android.volley.RequestQueue\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"event","timestamp":1786679842843,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679842850,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679842862,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679842870,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679842883,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679842900,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679842912,"api":"Method.invoke","category":"reflection","args":{"class":"java.util.Locale","method":"getDefault"}}
+{"type":"event","timestamp":1786679842927,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679843996,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getElevation"}}
+{"type":"event","timestamp":1786679844003,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getTranslationZ"}}
+{"type":"event","timestamp":1786679844010,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getElevation"}}
+{"type":"event","timestamp":1786679844020,"api":"Method.invoke","category":"reflection","args":{"class":"android.view.View","method":"getTranslationZ"}}
+{"type":"event","timestamp":1786679856257,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_theme"}}
+{"type":"event","timestamp":1786679856261,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_theme"}}
+{"type":"event","timestamp":1786679856268,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679856275,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_first_day"}}
+{"type":"event","timestamp":1786679856280,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_date_format"}}
+{"type":"event","timestamp":1786679856286,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_date_format"}}
+{"type":"event","timestamp":1786679856292,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_quality"}}
+{"type":"event","timestamp":1786679856296,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_quality"}}
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to spawn: unable to pick a payload base
+Failed to spawn: unable to pick a payload base
+{"type":"event","timestamp":1786679904927,"api":"hook_loaded","category":"lifecycle","args":{"stage":"java_perform","version":"3"}}
+{"type":"status","timestamp":1786679904978,"status":"hook_ok","name":"SmsManager.sendTextMessage","message":null}
+{"type":"status","timestamp":1786679904979,"status":"hook_ok","name":"SmsManager.sendMultipartTextMessage","message":null}
+{"type":"status","timestamp":1786679904979,"status":"hook_ok","name":"URL.openConnection","message":null}
+{"type":"status","timestamp":1786679904980,"status":"hook_ok","name":"HttpURLConnection.connect","message":null}
+{"type":"status","timestamp":1786679904980,"status":"hook_fail","name":"OkHttp3","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679904981,"status":"hook_ok","name":"FileOutputStream.<init>","message":null}
+{"type":"status","timestamp":1786679904982,"status":"hook_ok","name":"FileInputStream.<init>","message":null}
+{"type":"status","timestamp":1786679904982,"status":"hook_ok","name":"File.delete","message":null}
+{"type":"status","timestamp":1786679904983,"status":"hook_ok","name":"Cipher.getInstance","message":null}
+{"type":"status","timestamp":1786679904983,"status":"hook_ok","name":"SecretKeySpec.<init>","message":null}
+{"type":"status","timestamp":1786679904983,"status":"hook_ok","name":"Method.invoke","message":null}
+{"type":"status","timestamp":1786679904984,"status":"hook_ok","name":"Runtime.exec","message":null}
+{"type":"status","timestamp":1786679904985,"status":"hook_ok","name":"ProcessBuilder.start","message":null}
+{"type":"status","timestamp":1786679904986,"status":"hook_ok","name":"ContentResolver.query","message":null}
+{"type":"status","timestamp":1786679904986,"status":"hook_ok","name":"ContentResolver.query_legacy","message":null}
+{"type":"status","timestamp":1786679904986,"status":"hook_ok","name":"ContentResolver.insert","message":null}
+{"type":"status","timestamp":1786679904987,"status":"hook_ok","name":"ContentResolver.update","message":null}
+{"type":"status","timestamp":1786679904987,"status":"hook_ok","name":"ContentResolver.delete","message":null}
+{"type":"status","timestamp":1786679904987,"status":"hook_ok","name":"ClipboardManager.setPrimaryClip","message":null}
+{"type":"status","timestamp":1786679904988,"status":"hook_ok","name":"Camera.open","message":null}
+{"type":"status","timestamp":1786679904988,"status":"hook_ok","name":"CameraManager.openCamera","message":null}
+{"type":"status","timestamp":1786679904989,"status":"hook_ok","name":"PackageManager.getInstalledPackages","message":null}
+{"type":"status","timestamp":1786679904989,"status":"hook_ok","name":"PackageManager.getInstalledApplications","message":null}
+{"type":"status","timestamp":1786679904991,"status":"hook_ok","name":"LocationManager.requestLocationUpdates","message":null}
+{"type":"status","timestamp":1786679904991,"status":"hook_ok","name":"TelephonyManager.getDeviceId","message":null}
+{"type":"status","timestamp":1786679904992,"status":"hook_ok","name":"TelephonyManager.getSubscriberId","message":null}
+{"type":"status","timestamp":1786679904992,"status":"hook_ok","name":"TelephonyManager.getSimSerialNumber","message":null}
+{"type":"status","timestamp":1786679904992,"status":"hook_ok","name":"TelephonyManager.getCallState","message":null}
+{"type":"status","timestamp":1786679904992,"status":"hook_ok","name":"TelephonyManager.getCallState_subId","message":null}
+{"type":"status","timestamp":1786679904993,"status":"hook_ok","name":"DexClassLoader.<init>","message":null}
+{"type":"status","timestamp":1786679904993,"status":"hook_ok","name":"PathClassLoader.<init>","message":null}
+{"type":"status","timestamp":1786679904994,"status":"hook_ok","name":"System.loadLibrary","message":null}
+{"type":"status","timestamp":1786679904994,"status":"hook_ok","name":"Runtime.loadLibrary","message":null}
+{"type":"status","timestamp":1786679904994,"status":"hook_ok","name":"Runtime.load","message":null}
+{"type":"status","timestamp":1786679904995,"status":"hook_ok","name":"Cipher.doFinal","message":null}
+{"type":"status","timestamp":1786679904996,"status":"hook_ok","name":"MessageDigest.getInstance","message":null}
+{"type":"status","timestamp":1786679904996,"status":"hook_ok","name":"MessageDigest.digest","message":null}
+{"type":"status","timestamp":1786679904996,"status":"hook_fail","name":"okhttp3.RealCall.enqueue","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679904997,"status":"hook_ok","name":"AccountManager.getAccounts","message":null}
+{"type":"status","timestamp":1786679904997,"status":"hook_ok","name":"AccountManager.getAccountsByType","message":null}
+{"type":"status","timestamp":1786679904998,"status":"hook_ok","name":"AudioRecord.<init>","message":null}
+{"type":"status","timestamp":1786679904998,"status":"hook_ok","name":"MediaRecorder.setAudioSource","message":null}
+{"type":"status","timestamp":1786679904998,"status":"hook_ok","name":"SharedPreferencesImpl.getString","message":null}
+{"type":"status","timestamp":1786679904999,"status":"hook_ok","name":"SharedPreferencesImpl.getInt","message":null}
+{"type":"status","timestamp":1786679904999,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.putString","message":null}
+{"type":"status","timestamp":1786679905000,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.apply","message":null}
+{"type":"status","timestamp":1786679905000,"status":"hook_ok","name":"SQLiteDatabase.rawQuery","message":null}
+{"type":"status","timestamp":1786679905001,"status":"hook_ok","name":"SQLiteDatabase.execSQL","message":null}
+{"type":"status","timestamp":1786679905001,"status":"hook_ok","name":"SQLiteDatabase.insert","message":null}
+{"type":"status","timestamp":1786679905002,"status":"hook_ok","name":"MediaPlayer.setDataSource","message":null}
+{"type":"status","timestamp":1786679905003,"status":"hook_ok","name":"MediaPlayer.setDataSource_uri","message":null}
+{"type":"status","timestamp":1786679905003,"status":"hook_ok","name":"MediaPlayer.start","message":null}
+{"type":"status","timestamp":1786679905003,"status":"hook_ok","name":"MediaPlayer.prepare","message":null}
+{"type":"status","timestamp":1786679905004,"status":"hook_ok","name":"ContextWrapper.startActivity","message":null}
+{"type":"status","timestamp":1786679905004,"status":"hook_ok","name":"ContextWrapper.sendBroadcast","message":null}
+{"type":"status","timestamp":1786679905004,"status":"hook_ok","name":"ContextWrapper.sendBroadcast_permission","message":null}
+{"type":"status","timestamp":1786679905005,"status":"hook_ok","name":"ContextWrapper.startService","message":null}
+{"type":"status","timestamp":1786679905005,"status":"hook_ok","name":"ContextWrapper.bindService","message":null}
+{"type":"status","timestamp":1786679905006,"status":"hook_ok","name":"WebView.loadUrl","message":null}
+{"type":"status","timestamp":1786679905006,"status":"hook_ok","name":"NotificationManager.notify","message":null}
+{"type":"status","timestamp":1786679905007,"status":"hook_ok","name":"NotificationManager.notify_tag","message":null}
+{"type":"status","timestamp":1786679905007,"status":"hook_ok","name":"NotificationManager.notifyAsUser","message":null}
+{"type":"status","timestamp":1786679905008,"status":"hook_ok","name":"Socket.connect","message":null}
+{"type":"status","timestamp":1786679905008,"status":"hook_ok","name":"AssetManager.open","message":null}
+{"type":"status","timestamp":1786679905008,"status":"hook_fail","name":"retrofit2.OkHttpCall.execute","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"retrofit2.OkHttpCall\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1786679905009,"status":"hook_fail","name":"volley.RequestQueue.add","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"com.android.volley.RequestQueue\" on path: DexPathList[[zip file \"/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/base.apk\"],nativeLibraryDirectories=[/data/app/ch.mydoli.focal-tH45qAIxrjJyeZ0eZ5YDuA==/lib/arm64, /system/lib64, /system/product/lib64]]"}
+{"type":"event","timestamp":1786679919867,"api":"SharedPreferences.getString","category":"storage","args":{"key":"key_date_format"}}

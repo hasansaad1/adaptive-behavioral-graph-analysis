@@ -1,0 +1,76 @@
+{
+  "active_categories": [
+    "crypto",
+    "file_io",
+    "network",
+    "storage",
+    "webview"
+  ],
+  "analysis_status": "partial:no_goal_progress",
+  "analyze_exit_status": 0,
+  "app_id": "app.fedilab.mobilizon",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T04:56:36.265000Z",
+  "end_timestamp_ms": 1786683396265,
+  "event_counts": {
+    "mapped": 127,
+    "mapped_rate": 0.012257504101920664,
+    "total": 10361
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "9b7a3d5efee6_llm_s5__extend",
+  "failure_reason": "analyze_status:partial:no_goal_progress,sim_not_success",
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "SharedPreferences.getString",
+    "Socket.connect",
+    "WebView.loadUrl",
+    "okhttp3.RealCall.execute",
+    "retrofit2.OkHttpCall.execute"
+  ],
+  "n_active_nodes": 5,
+  "n_edges": 15,
+  "reference_tier_pass": false,
+  "session_id": "9b7a3d5efee6_llm_s5",
+  "session_index_within_app": 5,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/9b7a3d5efee6_app.fedilab.mobilizon/dynamic/llm/session_5/app.fedilab.mobilizon_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/9b7a3d5efee6_app.fedilab.mobilizon/dynamic/llm/session_5/app.fedilab.mobilizon_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T04:49:01.817000Z",
+  "start_timestamp_ms": 1786682941817,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 10361,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 10,
+    "n_with_timestamp": 10361,
+    "unparseable_line_numbers_sample": [
+      9184,
+      9185,
+      9186,
+      9187,
+      9188,
+      9189,
+      9190,
+      9191,
+      9192,
+      9193
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 454.571
+}

@@ -1,0 +1,1226 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "ai.susi",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_hash": "0608dd1fd861d2dc1fcae71e8aecfac7f606ff5dfc527b9d4945c63872d23d80",
+      "hint": "Ask SUSI something… askSusiMessage EditText · fabsetting ImageButton",
+      "visit_count": 3
+    },
+    {
+      "screen_hash": "0cbdfc152ab7c33bec9695cb7fd6cbffbc19c491c7ea9c25d959e1fa2946af9b",
+      "hint": "Ask SUSI something… askSusiMessage EditText · fabsetting ImageButton",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 13
+    },
+    {
+      "screen_hash": "6138b92cc770506b620dca7bc63336c3039d24604ad088cfce90bacfcafccbc9",
+      "hint": "Ask SUSI something… askSusiMessage EditText · fabsetting ImageButton · searchChat ImageButton · btnSpeak ImageView",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+      "hint": "Ask SUSI something… askSusiMessage EditText · fabsetting ImageButton · searchChat ImageButton · btnSpeak ImageView",
+      "visit_count": 9
+    },
+    {
+      "screen_hash": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "hint": "Search action_search TextView · Navigate up ImageButton · More options ImageView",
+      "visit_count": 25
+    },
+    {
+      "screen_hash": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+      "hint": "Ask SUSI something… askSusiMessage EditText · What is the time now? voiceCommand TextView · Which is the largest country voiceCommand TextView · LinearLayout · LinearLayout",
+      "visit_count": 4
+    },
+    {
+      "screen_hash": "c754a22dec227ee7cdd6ccd14d1669b8db9df34cfe2c033e334a0e51827e0f02",
+      "hint": "demo askSusiMessage EditText · fabsetting ImageButton · searchChat ImageButton · btnSpeak ImageView",
+      "visit_count": 5
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+      "to": "6138b92cc770506b620dca7bc63336c3039d24604ad088cfce90bacfcafccbc9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ai.susi:id/askSusiMessage",
+        "target_content_desc": "",
+        "x": 489,
+        "y": 1717,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ai.susi:id/askSusiMessage",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ai.susi:id/askSusiMessage|"
+    },
+    {
+      "step": 2,
+      "from": "6138b92cc770506b620dca7bc63336c3039d24604ad088cfce90bacfcafccbc9",
+      "to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ai.susi:id/btnSpeak",
+        "target_content_desc": "",
+        "x": 1008,
+        "y": 973,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ai.susi:id/btnSpeak",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:ai.susi:id/btnSpeak|"
+    },
+    {
+      "step": 3,
+      "from": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+      "to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ai.susi:id/voiceCommand",
+        "target_content_desc": "",
+        "x": 244,
+        "y": 1332,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ai.susi:id/voiceCommand",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ai.susi:id/voiceCommand|"
+    },
+    {
+      "step": 4,
+      "from": "0608dd1fd861d2dc1fcae71e8aecfac7f606ff5dfc527b9d4945c63872d23d80",
+      "to": "0cbdfc152ab7c33bec9695cb7fd6cbffbc19c491c7ea9c25d959e1fa2946af9b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ai.susi:id/askSusiMessage",
+        "target_content_desc": "",
+        "x": 489,
+        "y": 1717,
+        "reason": "bfs_tab_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ai.susi:id/askSusiMessage",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ai.susi:id/askSusiMessage|"
+    },
+    {
+      "step": 5,
+      "from": "0cbdfc152ab7c33bec9695cb7fd6cbffbc19c491c7ea9c25d959e1fa2946af9b",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ai.susi:id/fabsetting",
+        "target_content_desc": "",
+        "x": 1001,
+        "y": 141,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ai.susi:id/fabsetting",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ai.susi:id/fabsetting|"
+    },
+    {
+      "step": 6,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|More options"
+    },
+    {
+      "step": 7,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 8,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 9,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 10,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 11,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 12,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 13,
+      "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+      "to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ai.susi:id/btnSpeak",
+        "target_content_desc": "",
+        "x": 1008,
+        "y": 1714,
+        "reason": "bfs_nav_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ai.susi:id/btnSpeak",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:ai.susi:id/btnSpeak|"
+    },
+    {
+      "step": 14,
+      "from": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+      "to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ai.susi:id/voiceCommand",
+        "target_content_desc": "",
+        "x": 244,
+        "y": 1332,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ai.susi:id/voiceCommand",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ai.susi:id/voiceCommand|"
+    },
+    {
+      "step": 15,
+      "from": "0608dd1fd861d2dc1fcae71e8aecfac7f606ff5dfc527b9d4945c63872d23d80",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ai.susi:id/fabsetting",
+        "target_content_desc": "",
+        "x": 1001,
+        "y": 141,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ai.susi:id/fabsetting",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:ai.susi:id/fabsetting|"
+    },
+    {
+      "step": 16,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 17,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 18,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 19,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 20,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 21,
+      "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ai.susi:id/fabsetting",
+        "target_content_desc": "",
+        "x": 1001,
+        "y": 298,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ai.susi:id/fabsetting",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:ai.susi:id/fabsetting|"
+    },
+    {
+      "step": 22,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 23,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 24,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 25,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 26,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 27,
+      "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ai.susi:id/fabsetting",
+        "target_content_desc": "",
+        "x": 1001,
+        "y": 298,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ai.susi:id/fabsetting",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:ai.susi:id/fabsetting|"
+    },
+    {
+      "step": 28,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 29,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 30,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 31,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 32,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 33,
+      "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ai.susi:id/fabsetting",
+        "target_content_desc": "",
+        "x": 1001,
+        "y": 298,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ai.susi:id/fabsetting",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:ai.susi:id/fabsetting|"
+    },
+    {
+      "step": 34,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 35,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 36,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 37,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 38,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    },
+    {
+      "step": 39,
+      "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ai.susi:id/fabsetting",
+        "target_content_desc": "",
+        "x": 1001,
+        "y": 298,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ai.susi:id/fabsetting",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:ai.susi:id/fabsetting|"
+    },
+    {
+      "step": 40,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 41,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 42,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "x": 1027,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:More options",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|More options"
+    },
+    {
+      "step": 43,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 44,
+      "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+      "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 136,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:|Navigate up"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:ai.susi:id/askSusiMessage|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ai.susi:id/askSusiMessage",
+        "target_content_desc": "",
+        "visible_on": [
+          "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+          "6138b92cc770506b620dca7bc63336c3039d24604ad088cfce90bacfcafccbc9",
+          "0608dd1fd861d2dc1fcae71e8aecfac7f606ff5dfc527b9d4945c63872d23d80",
+          "0cbdfc152ab7c33bec9695cb7fd6cbffbc19c491c7ea9c25d959e1fa2946af9b",
+          "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "0608dd1fd861d2dc1fcae71e8aecfac7f606ff5dfc527b9d4945c63872d23d80",
+        "last_to": "0cbdfc152ab7c33bec9695cb7fd6cbffbc19c491c7ea9c25d959e1fa2946af9b"
+      },
+      "tab:ai.susi:id/voiceCommand|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ai.susi:id/voiceCommand",
+        "target_content_desc": "",
+        "visible_on": [
+          "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "last_to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66"
+      },
+      "nav:ai.susi:id/voiceCommand|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ai.susi:id/voiceCommand",
+        "target_content_desc": "",
+        "visible_on": [
+          "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:ai.susi:id/btnSpeak|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ai.susi:id/btnSpeak",
+        "target_content_desc": "",
+        "visible_on": [
+          "6138b92cc770506b620dca7bc63336c3039d24604ad088cfce90bacfcafccbc9",
+          "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "last_to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66"
+      },
+      "tab:ai.susi:id/fabsetting|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ai.susi:id/fabsetting",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "0cbdfc152ab7c33bec9695cb7fd6cbffbc19c491c7ea9c25d959e1fa2946af9b",
+        "last_to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2"
+      },
+      "tab:|More options": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 13,
+        "successes": 13,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2"
+      },
+      "expand:|More options": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [],
+        "attempts": 12,
+        "successes": 12,
+        "last_from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:|Navigate up": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 6,
+        "successes": 6,
+        "last_from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "last_to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac"
+      },
+      "expand:ai.susi:id/fabsetting|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "ai.susi:id/fabsetting",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 5,
+        "successes": 5,
+        "last_from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "last_to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2"
+      }
+    },
+    "edges": [
+      {
+        "from": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "to": "6138b92cc770506b620dca7bc63336c3039d24604ad088cfce90bacfcafccbc9",
+        "target_key": "tab:ai.susi:id/askSusiMessage|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "6138b92cc770506b620dca7bc63336c3039d24604ad088cfce90bacfcafccbc9",
+        "to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "target_key": "nav:ai.susi:id/btnSpeak|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "target_key": "tab:ai.susi:id/voiceCommand|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "0608dd1fd861d2dc1fcae71e8aecfac7f606ff5dfc527b9d4945c63872d23d80",
+        "to": "0cbdfc152ab7c33bec9695cb7fd6cbffbc19c491c7ea9c25d959e1fa2946af9b",
+        "target_key": "tab:ai.susi:id/askSusiMessage|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "0cbdfc152ab7c33bec9695cb7fd6cbffbc19c491c7ea9c25d959e1fa2946af9b",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "tab:ai.susi:id/fabsetting|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "target_key": "nav:ai.susi:id/btnSpeak|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "target_key": "tab:ai.susi:id/voiceCommand|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0608dd1fd861d2dc1fcae71e8aecfac7f606ff5dfc527b9d4945c63872d23d80",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:ai.susi:id/fabsetting|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:ai.susi:id/fabsetting|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:ai.susi:id/fabsetting|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:ai.susi:id/fabsetting|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:ai.susi:id/fabsetting|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      }
+    ]
+  }
+}

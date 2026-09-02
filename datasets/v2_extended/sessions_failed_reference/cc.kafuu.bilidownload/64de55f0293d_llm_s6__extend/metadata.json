@@ -1,0 +1,75 @@
+{
+  "active_categories": [
+    "file_io"
+  ],
+  "analysis_status": "partial:no_goal_progress",
+  "analyze_exit_status": 0,
+  "app_id": "cc.kafuu.bilidownload",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T12:56:50.137000Z",
+  "end_timestamp_ms": 1786712210137,
+  "event_counts": {
+    "mapped": 2,
+    "mapped_rate": 0.0045351473922902496,
+    "total": 441
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "64de55f0293d_llm_s6__extend",
+  "failure_reason": "analyze_status:partial:no_goal_progress,sim_not_success",
+  "gae_eligible": false,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete"
+  ],
+  "n_active_nodes": 1,
+  "n_edges": 0,
+  "reference_tier_pass": false,
+  "session_id": "64de55f0293d_llm_s6",
+  "session_index_within_app": 6,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/64de55f0293d_cc.kafuu.bilidownload/dynamic/llm/session_6/cc.kafuu.bilidownload_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/64de55f0293d_cc.kafuu.bilidownload/dynamic/llm/session_6/cc.kafuu.bilidownload_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T12:49:22.968000Z",
+  "start_timestamp_ms": 1786711762968,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 441,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 40,
+    "n_with_timestamp": 441,
+    "unparseable_line_numbers_sample": [
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 447.308
+}

@@ -1,0 +1,61 @@
+/android_malware_pipeline/samples/
+
+# Local virtualenvs
+/.venv/
+/android_malware_pipeline/.venv/
+/android_malware_pipeline/.venv-frida/
+/android_malware_pipeline/.venv_old/
+
+# ABRG reproduce validation scratch
+**/nb_repro/
+**/reproduce.executed.ipynb
+
+# Generated analysis artifacts
+/android_malware_pipeline/logs/
+/android_malware_pipeline/pipeline.log
+/pipeline.log
+
+# AndroCT corpus (Zenodo) — large archives / extracts; do not commit
+/datasets/androct_2017/raw/
+/datasets/androct_2017/traces/
+/datasets/androct_2017/apks/
+/datasets/androct_*/raw/
+/datasets/androct_*/traces/
+/datasets/androct_*/apks/
+/abrg/output/androct_2017/
+
+# AndroZoo credentials (never commit)
+.androzoo_api_key
+**/androzoo_api_key
+**/.androzoo_api_key
+
+# Python cache/bytecode
+**/__pycache__/
+**/*.pyc
+
+# OS / matplotlib cache
+.DS_Store
+**/.DS_Store
+.mplcache/
+**/.mplcache/
+
+# Cleanup scratch
+/_cleanup/
+/_archive/
+
+# Thesis LaTeX sources and build artefacts (submitted PDF is thesis.pdf at repo root)
+/thesis/
+
+# Cleanup Stage 2
+/abrg_design_v0.3.md
+/datasets/v1/
+/abrg/output/v2_extend/
+**/.ipynb_checkpoints/
+
+# Local process docs (keep on disk; not part of public thesis deposit)
+/AGENTS.md
+/DECISION_LOG.md
+
+# Uncited campaign prose cards (local-only; configs/metrics stay tracked)
+abrg/output/exp_*/**/RUN.md
+abrg/output/exp_*/**/RESEARCH_NOTE.md

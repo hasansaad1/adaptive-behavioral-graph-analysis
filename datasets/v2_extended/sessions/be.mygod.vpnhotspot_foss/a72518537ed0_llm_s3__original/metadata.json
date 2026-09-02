@@ -1,0 +1,60 @@
+{
+  "active_categories": [
+    "file_io",
+    "ipc_intents",
+    "process",
+    "storage"
+  ],
+  "app_id": "be.mygod.vpnhotspot_foss",
+  "batch": "original",
+  "end_timestamp": "2026-07-15T02:07:39.046000Z",
+  "end_timestamp_ms": 1784081259046,
+  "event_counts": {
+    "mapped": 1657,
+    "mapped_rate": 0.749434644957033,
+    "total": 2211
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "a72518537ed0_llm_s3__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "Context.bindService",
+    "Context.sendBroadcast",
+    "File.delete",
+    "ProcessBuilder.start",
+    "SharedPreferences.apply",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString"
+  ],
+  "n_active_nodes": 4,
+  "n_edges": 11,
+  "reference_tier_pass": true,
+  "session_id": "a72518537ed0_llm_s3",
+  "session_index_within_app": 3,
+  "source_frida_path": "datasets/v2/sessions/a72518537ed0_llm_s3__be.mygod.vpnhotspot_foss/be.mygod.vpnhotspot_foss_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/a72518537ed0_llm_s3__be.mygod.vpnhotspot_foss/be.mygod.vpnhotspot_foss_dynamic_metadata.json",
+  "start_timestamp": "2026-07-15T02:00:05.445000Z",
+  "start_timestamp_ms": 1784080805445,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 2211,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 0,
+    "n_with_timestamp": 2211
+  },
+  "timestamps_ok": true,
+  "wall_duration_s": 453.601
+}

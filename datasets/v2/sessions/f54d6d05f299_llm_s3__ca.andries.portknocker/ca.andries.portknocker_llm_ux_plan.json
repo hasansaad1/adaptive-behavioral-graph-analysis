@@ -1,0 +1,593 @@
+{
+  "goals": [
+    "Tap knockBtn",
+    "Tap portsTxt",
+    "Tap History",
+    "Tap Profiles",
+    "Tap Quick Knock"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap knockBtn",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap portsTxt",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap History",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|History",
+        "nav:|History"
+      ],
+      "observed_screen_hashes": [
+        "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+        "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "2bd0094e43aae9e063c3ade494bdbdf669eb66344b4570af05e2a906a77d170d",
+        "9ead82116e07b8fddd1881a96d76feca89f9cabea3091ff88815501690a40986",
+        "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28"
+      ],
+      "observed_screen_hints": [
+        "KNOCK KNOCK! knockBtn Button · Host (IP or name) hostTxt EditText · Ports (comma-separated) portsTxt EditText · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab",
+        "KNOCK KNOCK! knockBtn Button · Host (IP or name) hostTxt EditText · Ports (comma-separated) portsTxt EditText · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab",
+        "deleteBtn TextView · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Profiles",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|Profiles",
+        "nav:|Profiles"
+      ],
+      "observed_screen_hashes": [
+        "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+        "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "2bd0094e43aae9e063c3ade494bdbdf669eb66344b4570af05e2a906a77d170d",
+        "9ead82116e07b8fddd1881a96d76feca89f9cabea3091ff88815501690a40986",
+        "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28"
+      ],
+      "observed_screen_hints": [
+        "KNOCK KNOCK! knockBtn Button · Host (IP or name) hostTxt EditText · Ports (comma-separated) portsTxt EditText · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab",
+        "KNOCK KNOCK! knockBtn Button · Host (IP or name) hostTxt EditText · Ports (comma-separated) portsTxt EditText · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab",
+        "deleteBtn TextView · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap Quick Knock",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|Quick Knock",
+        "nav:|Quick Knock"
+      ],
+      "observed_screen_hashes": [
+        "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+        "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "2bd0094e43aae9e063c3ade494bdbdf669eb66344b4570af05e2a906a77d170d",
+        "9ead82116e07b8fddd1881a96d76feca89f9cabea3091ff88815501690a40986",
+        "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28"
+      ],
+      "observed_screen_hints": [
+        "KNOCK KNOCK! knockBtn Button · Host (IP or name) hostTxt EditText · Ports (comma-separated) portsTxt EditText · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab",
+        "KNOCK KNOCK! knockBtn Button · Host (IP or name) hostTxt EditText · Ports (comma-separated) portsTxt EditText · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab",
+        "deleteBtn TextView · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d": "KNOCK KNOCK! knockBtn Button · Host (IP or name) hostTxt EditText · Ports (comma-separated) portsTxt EditText · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab",
+    "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b": "KNOCK KNOCK! knockBtn Button · Host (IP or name) hostTxt EditText · Ports (comma-separated) portsTxt EditText · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab",
+    "2bd0094e43aae9e063c3ade494bdbdf669eb66344b4570af05e2a906a77d170d": "deleteBtn TextView · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab",
+    "9ead82116e07b8fddd1881a96d76feca89f9cabea3091ff88815501690a40986": "Add addBtn TextView · frameLayout FrameLayout · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab",
+    "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28": "KNOCK KNOCK! knockBtn Button · Host (IP or name) hostTxt EditText · Ports (comma-separated) portsTxt EditText · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:ca.andries.portknocker:id/knockBtn|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.andries.portknocker:id/knockBtn",
+        "target_content_desc": "",
+        "visible_on": [
+          "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+          "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+          "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28"
+        ],
+        "attempts": 35,
+        "successes": 35,
+        "last_from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "last_to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28"
+      },
+      "tab:ca.andries.portknocker:id/portsTxt|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.andries.portknocker:id/portsTxt",
+        "target_content_desc": "",
+        "visible_on": [
+          "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+          "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+        "last_to": "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d"
+      },
+      "tab:|History": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "History",
+        "visible_on": [
+          "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+          "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+          "2bd0094e43aae9e063c3ade494bdbdf669eb66344b4570af05e2a906a77d170d",
+          "9ead82116e07b8fddd1881a96d76feca89f9cabea3091ff88815501690a40986",
+          "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "last_to": "2bd0094e43aae9e063c3ade494bdbdf669eb66344b4570af05e2a906a77d170d"
+      },
+      "tab:|Profiles": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Profiles",
+        "visible_on": [
+          "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+          "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+          "2bd0094e43aae9e063c3ade494bdbdf669eb66344b4570af05e2a906a77d170d",
+          "9ead82116e07b8fddd1881a96d76feca89f9cabea3091ff88815501690a40986",
+          "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "2bd0094e43aae9e063c3ade494bdbdf669eb66344b4570af05e2a906a77d170d",
+        "last_to": "9ead82116e07b8fddd1881a96d76feca89f9cabea3091ff88815501690a40986"
+      },
+      "tab:|Quick Knock": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Quick Knock",
+        "visible_on": [
+          "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+          "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+          "2bd0094e43aae9e063c3ade494bdbdf669eb66344b4570af05e2a906a77d170d",
+          "9ead82116e07b8fddd1881a96d76feca89f9cabea3091ff88815501690a40986",
+          "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "9ead82116e07b8fddd1881a96d76feca89f9cabea3091ff88815501690a40986",
+        "last_to": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b"
+      },
+      "nav:ca.andries.portknocker:id/knockBtn|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ca.andries.portknocker:id/knockBtn",
+        "target_content_desc": "",
+        "visible_on": [
+          "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+          "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+          "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|History": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "History",
+        "visible_on": [
+          "2bd0094e43aae9e063c3ade494bdbdf669eb66344b4570af05e2a906a77d170d"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Profiles": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Profiles",
+        "visible_on": [
+          "2bd0094e43aae9e063c3ade494bdbdf669eb66344b4570af05e2a906a77d170d"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Quick Knock": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Quick Knock",
+        "visible_on": [
+          "2bd0094e43aae9e063c3ade494bdbdf669eb66344b4570af05e2a906a77d170d"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+        "to": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "to": "2bd0094e43aae9e063c3ade494bdbdf669eb66344b4570af05e2a906a77d170d",
+        "target_key": "tab:|History",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "2bd0094e43aae9e063c3ade494bdbdf669eb66344b4570af05e2a906a77d170d",
+        "to": "9ead82116e07b8fddd1881a96d76feca89f9cabea3091ff88815501690a40986",
+        "target_key": "tab:|Profiles",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "9ead82116e07b8fddd1881a96d76feca89f9cabea3091ff88815501690a40986",
+        "to": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "target_key": "tab:|Quick Knock",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "to": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "to": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "to": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "to": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "to": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "to": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "to": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "to": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "to": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "to": "0396d4ded8158681030c3968c7f2da3a86fdc3cdf1b352ada0630c60a023580b",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+        "to": "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+        "target_key": "tab:ca.andries.portknocker:id/portsTxt|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "to": "fdc50889f386729dd693603e2e3e69209ce9b1a792fba26d3567bc5f721aad28",
+        "target_key": "tab:ca.andries.portknocker:id/knockBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+    "root_screen_signature": "1c4d36e42c2f50f8fdf819cd1fde66c771a368443924a4c3919e5415182fe208",
+    "root_screen_hint": "KNOCK KNOCK! knockBtn Button · Host (IP or name) hostTxt EditText · Ports (comma-separated) portsTxt EditText · History ActionBar$Tab · Profiles ActionBar$Tab · Quick Knock ActionBar$Tab",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ca.andries.portknocker",
+          "screen_hash": "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+          "interactive_count": 6,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "1c4d36e42c2f50f8fdf819cd1fde66c771a368443924a4c3919e5415182fe208",
+          "root_landmark_score": 3
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app by tapping on the 'KNOCK KNOCK!' button, then swipe down to reveal the host's information (IP or name) and ports. They then tap on the 'History' tab to view previous connections, followed by the 'Profiles' tab to manage their own profiles. Users may also occasionally tap on the 'Add' button to create a new connection.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

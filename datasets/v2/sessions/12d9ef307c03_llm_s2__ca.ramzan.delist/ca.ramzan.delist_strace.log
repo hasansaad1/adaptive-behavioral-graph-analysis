@@ -1,0 +1,16 @@
+10498 1784155346.102166 exit(0)         = ?
+10498 1784155346.102341 +++ exited with 0 +++
+10497 1784155346.102373 exit(0)         = ?
+10497 1784155346.102400 +++ exited with 0 +++
+10499 1784155346.104332 exit(0 <unfinished ...>
+10500 1784155346.104602 exit(0 <unfinished ...>
+10499 1784155346.104644 <... exit resumed>) = ?
+10500 1784155346.105018 <... exit resumed>) = ?
+10499 1784155346.105110 +++ exited with 0 +++
+10500 1784155346.105520 +++ exited with 0 +++
+10510 1784155346.105593 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+10510 1784155346.105650 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+10510 1784155346.105667 newfstatat(AT_FDCWD, "/data/app/ca.ramzan.delist-e7QCeyJn4pa7aWClA_Vztw==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+10510 1784155346.105730 newfstatat(AT_FDCWD, "/data/app/ca.ramzan.delist-e7QCeyJn4pa7aWClA_Vztw==/base.apk", {st_mode=S_IFREG|0644, st_size=2202238, ...}, AT_SYMLINK_NOFOLLOW) = 0
+10510 1784155346.105760 getcwd("/", 4096) = 2
+10510 1784155346.105775 newfstatat(AT_FDCWD, "/base.apk", 0x7597106690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)

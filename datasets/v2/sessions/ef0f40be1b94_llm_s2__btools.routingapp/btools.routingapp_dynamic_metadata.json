@@ -1,0 +1,197 @@
+{
+  "package_name": "btools.routingapp",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/btools.routingapp_56.apk",
+  "apk_sha256": "ef0f40be1b947752e8441fe106ecb15e3705ab5aa52a9726c5e9a04a3a499038",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1784096439836,
+  "elapsed_sec": 459.919,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 1647089975,
+  "session_mode": "identical",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "29426",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "btools.routingapp_frida.jsonl",
+  "frida_lines": 434,
+  "strace_log_path": "btools.routingapp_strace.log",
+  "strace_size_bytes": 40267,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 1647089975,
+  "arm": "llm",
+  "session_id": "ef0f40be1b94_llm_s2",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "weak:low_meaningful_categories",
+  "llm_actions_count": 55,
+  "llm_action_log_path": "btools.routingapp_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Tap button1",
+    "Tap button2",
+    "Tap CANCEL",
+    "Tap CLOSE",
+    "Tap I KNOW",
+    "Press Back to return to the main app list",
+    "Wait for UI to settle"
+  ],
+  "llm_ux_plan_path": "btools.routingapp_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "btools.routingapp_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical users primarily use the app to view and navigate through a map, with most sessions involving horizontal swiping between tabs or carousels to switch between different views of the map. The user may also tap on specific locations on the map to access additional information. Opening the 'I KNOW' button first is often necessary to proceed with the main flow of the app. The user typically closes the app by tapping the 'CLOSE' button.",
+  "llm_primary_ux_fallback_reason": "post_nav_realism_blend:goal_index>=4",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "c6d70c1122a6728bc878cab2add2c4312f687f4441b9258758c730b1921ad636",
+    "root_screen_signature": "9757bc0ae5990cdd5ef14445fa7fb77329b2a65eb19e931c25f1f99a5fd40120",
+    "root_screen_hint": "I KNOW button1 Button \u00b7 CANCEL button2 Button",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "c6d70c1122a6728bc878cab2add2c4312f687f4441b9258758c730b1921ad636",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "btools.routingapp",
+          "screen_hash": "c6d70c1122a6728bc878cab2add2c4312f687f4441b9258758c730b1921ad636",
+          "interactive_count": 2,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "9757bc0ae5990cdd5ef14445fa7fb77329b2a65eb19e931c25f1f99a5fd40120",
+          "root_landmark_score": 1
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/ef0f40be1b94_btools.routingapp/dynamic/llm/session_2/btools.routingapp_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "btools.routingapp",
+    "app_name": "btools.routingapp",
+    "category": "Unknown",
+    "purpose": "No description available",
+    "ux_type": "hybrid",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/btools.routingapp"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 2,
+    "dialogs_tapped_after_warmup": 1,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "allowish",
+        "target": [
+          894,
+          1080
+        ],
+        "node_count": 14,
+        "screen_hash": "e666a26c4029413d"
+      },
+      {
+        "round": 2,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          688,
+          1194
+        ],
+        "node_count": 16,
+        "screen_hash": "124064d938713726"
+      },
+      {
+        "round": 3,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 24,
+        "screen_hash": "9697bb3458cecb41"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          688,
+          1194
+        ],
+        "node_count": 16,
+        "screen_hash": "124064d938713726"
+      },
+      {
+        "round": 2,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 24,
+        "screen_hash": "9697bb3458cecb41"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/ef0f40be1b94_btools.routingapp/dynamic/llm/session_2/btools.routingapp_verified_start.xml",
+    "pre_setup_wall_sec": 10.625,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 3,
+  "frida_reattach_successes": 3,
+  "frida_valid_events": 150,
+  "frida_meaningful_events": 72,
+  "frida_meaningful_categories": 1
+}

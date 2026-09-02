@@ -1,0 +1,85 @@
+{
+  "active_categories": [
+    "database",
+    "file_io",
+    "ipc_intents",
+    "notifications",
+    "storage"
+  ],
+  "app_id": "ca.chancehorizon.paseo",
+  "batch": "original",
+  "end_timestamp": "2026-07-15T08:31:22.691000Z",
+  "end_timestamp_ms": 1784104282691,
+  "event_counts": {
+    "mapped": 115,
+    "mapped_rate": 0.038092083471348126,
+    "total": 3019
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "e271584cf787_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "Context.bindService",
+    "Context.sendBroadcast",
+    "Context.startService",
+    "File.delete",
+    "NotificationManager.notify",
+    "NotificationManager.notifyAsUser",
+    "SQLiteDatabase.rawQuery",
+    "SharedPreferences.apply",
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 5,
+  "n_edges": 12,
+  "reference_tier_pass": true,
+  "session_id": "e271584cf787_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/e271584cf787_llm_s1__ca.chancehorizon.paseo/ca.chancehorizon.paseo_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/e271584cf787_llm_s1__ca.chancehorizon.paseo/ca.chancehorizon.paseo_dynamic_metadata.json",
+  "start_timestamp": "2026-07-15T08:23:43.610000Z",
+  "start_timestamp_ms": 1784103823610,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 3019,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 162,
+    "n_with_timestamp": 3019,
+    "unparseable_line_numbers_sample": [
+      1396,
+      1468,
+      1470,
+      1471,
+      1472,
+      1473,
+      1474,
+      1475,
+      1476,
+      1477,
+      1478,
+      1479,
+      1480,
+      1481,
+      1482,
+      1483,
+      1484,
+      1485,
+      1486,
+      1487
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 459.081
+}

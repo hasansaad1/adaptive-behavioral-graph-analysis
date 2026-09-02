@@ -1,0 +1,81 @@
+{
+  "active_categories": [
+    "file_io",
+    "ipc_intents",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "app.prav.client",
+  "batch": "extend",
+  "end_timestamp": "2026-08-15T05:12:40.581000Z",
+  "end_timestamp_ms": 1786770760581,
+  "event_counts": {
+    "mapped": 254,
+    "mapped_rate": 0.3451086956521739,
+    "total": 736
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "e4a6cdb972a2_llm_s9__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "Context.bindService",
+    "Context.startService",
+    "File.delete",
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 2,
+  "reference_tier_pass": true,
+  "session_id": "e4a6cdb972a2_llm_s9",
+  "session_index_within_app": 9,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/e4a6cdb972a2_app.prav.client/dynamic/llm/session_9/app.prav.client_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/e4a6cdb972a2_app.prav.client/dynamic/llm/session_9/app.prav.client_dynamic_metadata.json",
+  "start_timestamp": "2026-08-15T05:05:00.195000Z",
+  "start_timestamp_ms": 1786770300195,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 736,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 60,
+    "n_with_timestamp": 736,
+    "unparseable_line_numbers_sample": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 460.482
+}

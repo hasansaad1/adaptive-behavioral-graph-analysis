@@ -1,0 +1,1633 @@
+{
+  "pilot": "abrg_v0.2_corpus_multiwindow",
+  "timestamp_utc": "2026-07-01T08:57:16.620854+00:00",
+  "pinned": {
+    "window": "whole_session",
+    "window_sec": 60.0,
+    "static": "zero_stub",
+    "autoencoder": "GAE",
+    "weights": "raw_w_cum"
+  },
+  "build": {
+    "total_sessions": 129,
+    "total_snapshots": 129,
+    "snapshots_mode": false,
+    "window_mode": "whole_session",
+    "window_sec": 60.0,
+    "build_errors": 0,
+    "trainable_snapshots": 71,
+    "sessions_with_trainable_snapshot": 71,
+    "excluded_sessions_no_trainable_snapshot": 58,
+    "gae_eligible_snapshots": 56,
+    "gae_eligible_apps": 56,
+    "snapshots_per_session_distribution": {
+      "min": 0,
+      "median": 0,
+      "max": 0,
+      "mean": 0.0
+    },
+    "active_nodes_distribution_trainable": {
+      "min": 2,
+      "median": 2,
+      "max": 5,
+      "mean": 2.8
+    },
+    "edge_count_distribution_trainable": {
+      "min": 0,
+      "median": 2,
+      "max": 17,
+      "mean": 3.8
+    },
+    "edge_count_distribution_gae_eligible": {
+      "min": 1,
+      "median": 4.0,
+      "max": 17,
+      "mean": 4.82
+    },
+    "build_wall_sec": 0.52
+  },
+  "split": {
+    "method": "random_80_20_app_level",
+    "seed": 42,
+    "test_ratio": 0.2,
+    "train_snapshots": 45,
+    "test_snapshots": 11,
+    "train_apps": [
+      "ac.mdiq.podcini.X",
+      "ac.robinson.mediaphone",
+      "agrigolo.chubbyclick",
+      "ai.susi",
+      "amirz.rootless.nexuslauncher",
+      "app.fedilab.castlab",
+      "app.fedilab.mobilizon",
+      "app.fedilab.nitterizemelite",
+      "app.michaelwuensch.bitbanana",
+      "app.tujice.jergasColombia",
+      "app.wispar.wispar",
+      "aq.metallists.loudbang",
+      "askanimus.arbeitszeiterfassung2",
+      "at.bitfire.davdroid",
+      "at.linuxtage.Eventfahrplan",
+      "au.com.wallaceit.reddinator",
+      "be.mygod.vpnhotspot_foss",
+      "biz.binarysolutions.mindfulnessmeditation",
+      "bus.chio.wishmaster",
+      "ca.chancehorizon.paseo",
+      "ca.cmetcalfe.locationshare",
+      "ca.farrelltonsolar.classic",
+      "ca.littlesvr.everyonestimetable",
+      "ca.ramzan.virtuosity",
+      "ca.rmen.nounours",
+      "ca.voiditswarranty.roadtripradar",
+      "cash.p.terminal",
+      "cat.jordihernandez.cinecat",
+      "cc.echonet.coolmicapp",
+      "cc.kafuu.bilidownload",
+      "cf.playhi.freezeyou",
+      "ch.bailu.aat",
+      "ch.joshuah.bibleverseapp",
+      "ch.logixisland.anuto",
+      "ch.mydoli.focal",
+      "ch.protonvpn.android",
+      "ch.rmy.android.statusbar_tacho",
+      "cityfreqs.com.pilfershushjammer",
+      "co.ec.cnsyn.codecatcher",
+      "co.electriccoin.zcash.foss",
+      "code.name.monkey.retromusic",
+      "com.GTP.eveminer",
+      "com.absinthe.libchecker",
+      "com.activitymanager",
+      "com.aefyr.sai.fdroid"
+    ],
+    "test_apps": [
+      "app.tice.TICE.production",
+      "app.varlorg.unote",
+      "at.jclehner.rxdroid",
+      "au.id.micolous.farebot",
+      "be.digitalia.fosdem",
+      "bluepie.ad_silence",
+      "ca.rmen.android.scrumchatter",
+      "cat.mvmike.minimalcalendarwidget",
+      "com.aaronjwood.portauthority",
+      "com.abhijitvalluri.android.fitnotifications",
+      "com.addismaptransit.app"
+    ]
+  },
+  "training": {
+    "epochs": 20,
+    "hidden_dim": 16,
+    "lr": 0.01,
+    "wall_sec": 0.3,
+    "loss_curve": [
+      0.8436566207143995,
+      0.7592142800490062,
+      0.6514911552270254,
+      0.5845331039693621,
+      0.6426285452312893,
+      0.526292751232783,
+      0.5150175843380567,
+      0.624662195686263,
+      0.7430264916684892,
+      0.5143406686269575,
+      0.5280357364151212,
+      0.6087194240807245,
+      0.6410727679729462,
+      0.5107529501120249,
+      0.7546528275952571,
+      0.5607717865043216,
+      0.6244392159084479,
+      0.551302282926109,
+      0.542385571781132,
+      0.9847931967841255
+    ],
+    "final_epoch_mean_loss": 0.9847931967841255,
+    "converged_heuristic": false,
+    "train_error_distribution": {
+      "count": 45,
+      "min": 0.04396276921033859,
+      "median": 0.5612276196479797,
+      "max": 2.4030933380126953,
+      "mean": 0.5811760218607055
+    },
+    "train_ln2_failure_count": 0
+  },
+  "test": {
+    "error_distribution": {
+      "count": 11,
+      "min": 0.10930127650499344,
+      "median": 0.4061011075973511,
+      "max": 0.7015345096588135,
+      "mean": 0.4236709482290528
+    },
+    "train_vs_test_median_ratio": 0.7235943018129987,
+    "test_ln2_failure_count": 0,
+    "generalization_verdict": "GAE reconstructs most multi-window benign snapshots and generalizes to held-out apps at comparable median error."
+  },
+  "baseline": {
+    "count": 56,
+    "min": 0.1404447704553604,
+    "median": 0.5579125285148621,
+    "max": 7.328675746917725,
+    "mean": 0.6624754840242011
+  },
+  "per_snapshot": [
+    {
+      "snapshot_id": "0bdafb823df0_llm_s1::w0",
+      "session_id": "0bdafb823df0_llm_s1",
+      "package": "askanimus.arbeitszeiterfassung2",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 1510,
+      "distinct_categories": [
+        "database",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 6,
+      "active_nodes": [
+        "database",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.4676896631717682
+    },
+    {
+      "snapshot_id": "0d50d7d9c132_llm_s1::w0",
+      "session_id": "0d50d7d9c132_llm_s1",
+      "package": "ch.protonvpn.android",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 7206,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 11,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.510206937789917
+    },
+    {
+      "snapshot_id": "0e7da7b17b63_llm_s1::w0",
+      "session_id": "0e7da7b17b63_llm_s1",
+      "package": "ca.rmen.nounours",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 874,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "1266fdc2dbbf_llm_s1::w0",
+      "session_id": "1266fdc2dbbf_llm_s1",
+      "package": "cc.echonet.coolmicapp",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 2868,
+      "distinct_categories": [
+        "clipboard",
+        "crypto",
+        "file_io",
+        "notifications",
+        "storage"
+      ],
+      "n_active_nodes": 5,
+      "n_edges": 7,
+      "active_nodes": [
+        "clipboard",
+        "crypto",
+        "file_io",
+        "notifications",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.40087684988975525
+    },
+    {
+      "snapshot_id": "13a5b49070c9_llm_s1::w0",
+      "session_id": "13a5b49070c9_llm_s1",
+      "package": "agrigolo.chubbyclick",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 1501,
+      "distinct_categories": [
+        "file_io",
+        "notifications",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 5,
+      "active_nodes": [
+        "file_io",
+        "notifications",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "166d4cb9b0f7_llm_s1::w0",
+      "session_id": "166d4cb9b0f7_llm_s1",
+      "package": "co.ec.cnsyn.codecatcher",
+      "faithfulness": "PARTIAL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 694,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "18aff8885c8c_llm_s1::w0",
+      "session_id": "18aff8885c8c_llm_s1",
+      "package": "ch.joshuah.bibleverseapp",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 97,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "22f89723dffa_llm_s1::w0",
+      "session_id": "22f89723dffa_llm_s1",
+      "package": "ca.littlesvr.everyonestimetable",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 135,
+      "distinct_categories": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.14205153286457062
+    },
+    {
+      "snapshot_id": "24e9101cdb34_llm_s1::w0",
+      "session_id": "24e9101cdb34_llm_s1",
+      "package": "cat.jordihernandez.cinecat",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 149,
+      "distinct_categories": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 4,
+      "active_nodes": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.5261508822441101
+    },
+    {
+      "snapshot_id": "2d767cdb301f_llm_s1::w0",
+      "session_id": "2d767cdb301f_llm_s1",
+      "package": "ca.farrelltonsolar.classic",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 67,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "30ae40611f5f_llm_s1::w0",
+      "session_id": "30ae40611f5f_llm_s1",
+      "package": "app.fedilab.nitterizemelite",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 500,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "321daeb8a717_llm_s1::w0",
+      "session_id": "321daeb8a717_llm_s1",
+      "package": "com.activitymanager",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 68,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 2,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "36bdbc1733f0_llm_s1::w0",
+      "session_id": "36bdbc1733f0_llm_s1",
+      "package": "app.michaelwuensch.bitbanana",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 2137,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 9,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.3897413909435272
+    },
+    {
+      "snapshot_id": "37b1a8bb28b9_llm_s1::w0",
+      "session_id": "37b1a8bb28b9_llm_s1",
+      "package": "be.digitalia.fosdem",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 98,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 8,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.6140614748001099
+    },
+    {
+      "snapshot_id": "39f811f07c23_llm_s1::w0",
+      "session_id": "39f811f07c23_llm_s1",
+      "package": "bus.chio.wishmaster",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 52,
+      "distinct_categories": [
+        "database",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 1,
+      "active_nodes": [
+        "database",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "3b57a70201d6_llm_s1::w0",
+      "session_id": "3b57a70201d6_llm_s1",
+      "package": "ch.logixisland.anuto",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 9,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 1,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "3b7d66351a6d_llm_s1::w0",
+      "session_id": "3b7d66351a6d_llm_s1",
+      "package": "cat.mvmike.minimalcalendarwidget",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 817,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "416791a88e5a_llm_s1::w0",
+      "session_id": "416791a88e5a_llm_s1",
+      "package": "com.aaronjwood.portauthority",
+      "faithfulness": "PARTIAL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 10,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 1,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "497e019dc8a1_llm_s1::w0",
+      "session_id": "497e019dc8a1_llm_s1",
+      "package": "ac.robinson.mediaphone",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 3065,
+      "distinct_categories": [
+        "content_access",
+        "database",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 9,
+      "active_nodes": [
+        "content_access",
+        "database",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.5456379652023315
+    },
+    {
+      "snapshot_id": "4d62aecc9873_llm_s1::w0",
+      "session_id": "4d62aecc9873_llm_s1",
+      "package": "com.addismaptransit.app",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 207,
+      "distinct_categories": [
+        "crypto",
+        "database"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "crypto",
+        "database"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "5139dd6b3c57_llm_s1::w0",
+      "session_id": "5139dd6b3c57_llm_s1",
+      "package": "au.id.micolous.farebot",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 263,
+      "distinct_categories": [
+        "content_access",
+        "database",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 5,
+      "active_nodes": [
+        "content_access",
+        "database",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "5719f3b34f71_llm_s1::w0",
+      "session_id": "5719f3b34f71_llm_s1",
+      "package": "app.fedilab.castlab",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 174,
+      "distinct_categories": [
+        "content_access",
+        "crypto",
+        "file_io"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 5,
+      "active_nodes": [
+        "content_access",
+        "crypto",
+        "file_io"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.4209206998348236
+    },
+    {
+      "snapshot_id": "635f2031ec56_llm_s1::w0",
+      "session_id": "635f2031ec56_llm_s1",
+      "package": "at.bitfire.davdroid",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 269,
+      "distinct_categories": [
+        "accounts",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 2,
+      "active_nodes": [
+        "accounts",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.35076725482940674
+    },
+    {
+      "snapshot_id": "648d8ddb49f4_llm_s1::w0",
+      "session_id": "648d8ddb49f4_llm_s1",
+      "package": "app.tice.TICE.production",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 1864,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage",
+        "webview"
+      ],
+      "n_active_nodes": 5,
+      "n_edges": 13,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage",
+        "webview"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.37774938344955444
+    },
+    {
+      "snapshot_id": "64de55f0293d_llm_s1::w0",
+      "session_id": "64de55f0293d_llm_s1",
+      "package": "cc.kafuu.bilidownload",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 9,
+      "distinct_categories": [
+        "crypto",
+        "database",
+        "file_io"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 1,
+      "active_nodes": [
+        "crypto",
+        "database",
+        "file_io"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.5545835494995117
+    },
+    {
+      "snapshot_id": "653f472925cc_llm_s1::w0",
+      "session_id": "653f472925cc_llm_s1",
+      "package": "ca.ramzan.virtuosity",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 491,
+      "distinct_categories": [
+        "database",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "database",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.35224252939224243
+    },
+    {
+      "snapshot_id": "66398ab95c74_llm_s1::w0",
+      "session_id": "66398ab95c74_llm_s1",
+      "package": "app.varlorg.unote",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 1803,
+      "distinct_categories": [
+        "database",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "database",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.35076725482940674
+    },
+    {
+      "snapshot_id": "68c61bf76203_llm_s1::w0",
+      "session_id": "68c61bf76203_llm_s1",
+      "package": "com.GTP.eveminer",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 10867,
+      "distinct_categories": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 5,
+      "active_nodes": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.28061380982398987
+    },
+    {
+      "snapshot_id": "6c59c1411181_llm_s1::w0",
+      "session_id": "6c59c1411181_llm_s1",
+      "package": "com.abhijitvalluri.android.fitnotifications",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 100,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "package_manager",
+        "process",
+        "storage"
+      ],
+      "n_active_nodes": 5,
+      "n_edges": 6,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "package_manager",
+        "process",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.5846121907234192
+    },
+    {
+      "snapshot_id": "6f8510108099_llm_s1::w0",
+      "session_id": "6f8510108099_llm_s1",
+      "package": "ai.susi",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 706,
+      "distinct_categories": [
+        "audio",
+        "crypto",
+        "location",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 5,
+      "n_edges": 17,
+      "active_nodes": [
+        "audio",
+        "crypto",
+        "location",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.45393410325050354
+    },
+    {
+      "snapshot_id": "714e56ae2182_llm_s1::w0",
+      "session_id": "714e56ae2182_llm_s1",
+      "package": "aq.metallists.loudbang",
+      "faithfulness": "PARTIAL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 22,
+      "distinct_categories": [
+        "database",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 4,
+      "active_nodes": [
+        "database",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.5266443490982056
+    },
+    {
+      "snapshot_id": "7603ad0544fe_llm_s1::w0",
+      "session_id": "7603ad0544fe_llm_s1",
+      "package": "ca.rmen.android.scrumchatter",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 154,
+      "distinct_categories": [
+        "content_access",
+        "database",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 6,
+      "active_nodes": [
+        "content_access",
+        "database",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.5846120715141296
+    },
+    {
+      "snapshot_id": "7624058ce668_llm_s1::w0",
+      "session_id": "7624058ce668_llm_s1",
+      "package": "app.wispar.wispar",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 28,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 2,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "7fa44d560dc4_llm_s1::w0",
+      "session_id": "7fa44d560dc4_llm_s1",
+      "package": "amirz.rootless.nexuslauncher",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 430,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "84bca8b5903c_llm_s1::w0",
+      "session_id": "84bca8b5903c_llm_s1",
+      "package": "at.linuxtage.Eventfahrplan",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 50,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 6,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.4676896631717682
+    },
+    {
+      "snapshot_id": "86b80fef253c_llm_s1::w0",
+      "session_id": "86b80fef253c_llm_s1",
+      "package": "cf.playhi.freezeyou",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 300,
+      "distinct_categories": [
+        "content_access",
+        "database",
+        "package_manager",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 5,
+      "active_nodes": [
+        "content_access",
+        "database",
+        "package_manager",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.1404447704553604
+    },
+    {
+      "snapshot_id": "885b48bee226_llm_s1::w0",
+      "session_id": "885b48bee226_llm_s1",
+      "package": "ca.voiditswarranty.roadtripradar",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 594,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 8,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.5261508822441101
+    },
+    {
+      "snapshot_id": "9b7a3d5efee6_llm_s1::w0",
+      "session_id": "9b7a3d5efee6_llm_s1",
+      "package": "app.fedilab.mobilizon",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 139,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage",
+        "webview"
+      ],
+      "n_active_nodes": 5,
+      "n_edges": 14,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage",
+        "webview"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6013153195381165
+    },
+    {
+      "snapshot_id": "a72518537ed0_llm_s1::w0",
+      "session_id": "a72518537ed0_llm_s1",
+      "package": "be.mygod.vpnhotspot_foss",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 1925,
+      "distinct_categories": [
+        "file_io",
+        "process",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 6,
+      "active_nodes": [
+        "file_io",
+        "process",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.35076725482940674
+    },
+    {
+      "snapshot_id": "ac1ff15c10bf_llm_s1::w0",
+      "session_id": "ac1ff15c10bf_llm_s1",
+      "package": "com.absinthe.libchecker",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 305,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "b170c24c85b2_llm_s1::w0",
+      "session_id": "b170c24c85b2_llm_s1",
+      "package": "ac.mdiq.podcini.X",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 178,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "network"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 5,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "network"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.5612415075302124
+    },
+    {
+      "snapshot_id": "bbf18ac3b134_llm_s1::w0",
+      "session_id": "bbf18ac3b134_llm_s1",
+      "package": "ch.mydoli.focal",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 45,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "c134927f92ec_llm_s1::w0",
+      "session_id": "c134927f92ec_llm_s1",
+      "package": "bluepie.ad_silence",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 11,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "c1898e1fcef7_llm_s1::w0",
+      "session_id": "c1898e1fcef7_llm_s1",
+      "package": "code.name.monkey.retromusic",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 732,
+      "distinct_categories": [
+        "content_access",
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 9,
+      "active_nodes": [
+        "content_access",
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.3897413909435272
+    },
+    {
+      "snapshot_id": "c3751de467a1_llm_s1::w0",
+      "session_id": "c3751de467a1_llm_s1",
+      "package": "au.com.wallaceit.reddinator",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 256,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "storage",
+        "webview"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 9,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "storage",
+        "webview"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.15589655935764313
+    },
+    {
+      "snapshot_id": "c7c04de887f3_llm_s1::w0",
+      "session_id": "c7c04de887f3_llm_s1",
+      "package": "cityfreqs.com.pilfershushjammer",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 12,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 1,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "cb96838c9a64_llm_s1::w0",
+      "session_id": "cb96838c9a64_llm_s1",
+      "package": "com.aefyr.sai.fdroid",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 120,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "dcb9f7d62d6a_llm_s1::w0",
+      "session_id": "dcb9f7d62d6a_llm_s1",
+      "package": "cash.p.terminal",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 140,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.35076725482940674
+    },
+    {
+      "snapshot_id": "e271584cf787_llm_s1::w0",
+      "session_id": "e271584cf787_llm_s1",
+      "package": "ca.chancehorizon.paseo",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 287,
+      "distinct_categories": [
+        "database",
+        "file_io",
+        "notifications",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 12,
+      "active_nodes": [
+        "database",
+        "file_io",
+        "notifications",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.5261508822441101
+    },
+    {
+      "snapshot_id": "e8b32f0b1998_llm_s1::w0",
+      "session_id": "e8b32f0b1998_llm_s1",
+      "package": "at.jclehner.rxdroid",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 607,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 4,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.3508684039115906
+    },
+    {
+      "snapshot_id": "e9bb6243834c_llm_s1::w0",
+      "session_id": "e9bb6243834c_llm_s1",
+      "package": "ca.cmetcalfe.locationshare",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 82,
+      "distinct_categories": [
+        "location",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 1,
+      "active_nodes": [
+        "location",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "ec04a971d6b5_llm_s1::w0",
+      "session_id": "ec04a971d6b5_llm_s1",
+      "package": "co.electriccoin.zcash.foss",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 359,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.7015345096588135
+    },
+    {
+      "snapshot_id": "ee1abcd9f921_llm_s1::w0",
+      "session_id": "ee1abcd9f921_llm_s1",
+      "package": "ch.rmy.android.statusbar_tacho",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 179,
+      "distinct_categories": [
+        "file_io",
+        "location",
+        "notifications",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 9,
+      "active_nodes": [
+        "file_io",
+        "location",
+        "notifications",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.4676896631717682
+    },
+    {
+      "snapshot_id": "ef6177e39b1d_llm_s1::w0",
+      "session_id": "ef6177e39b1d_llm_s1",
+      "package": "app.tujice.jergasColombia",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 29,
+      "distinct_categories": [
+        "file_io",
+        "storage",
+        "webview"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 4,
+      "active_nodes": [
+        "file_io",
+        "storage",
+        "webview"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.5283730626106262
+    },
+    {
+      "snapshot_id": "f10bae02e75b_llm_s1::w0",
+      "session_id": "f10bae02e75b_llm_s1",
+      "package": "ch.bailu.aat",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 800,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "network",
+        "process",
+        "storage"
+      ],
+      "n_active_nodes": 5,
+      "n_edges": 10,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "network",
+        "process",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 7.328675746917725
+    },
+    {
+      "snapshot_id": "fba1483a8a4d_llm_s1::w0",
+      "session_id": "fba1483a8a4d_llm_s1",
+      "package": "biz.binarysolutions.mindfulnessmeditation",
+      "faithfulness": "FAITHFUL",
+      "window_index": null,
+      "processing_windows_count": null,
+      "events_kept": 10,
+      "distinct_categories": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 3,
+      "active_nodes": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.4852316379547119
+    }
+  ]
+}

@@ -1,0 +1,1380 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "cc.kafuu.bilidownload",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_hash": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+      "hint": "ll_top_bar LinearLayout · Home rb_home RadioButton · Me rb_me RadioButton · Completed LinearLayout · Failed LinearLayout · In Progress LinearLayout · BV/AV/Search TextView",
+      "visit_count": 9
+    },
+    {
+      "screen_hash": "2653ed2c090ce8a77e146220fc4f4c94461aaaab4a834f7c5350f14e608fb335",
+      "hint": "Back iv_back ImageView · it et_search_content EditText · sp_search_type Spinner · Search tv_search TextView",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "44d3b60ed77cb7af1c598582d97fa0add660652de2f228bc3cc99d40a075cfab",
+      "hint": "Home rb_home RadioButton · Me rb_me RadioButton · ViewGroup · LinearLayout · Clear data TextView · Feedback TextView · Open Source Components Licen TextView · Rate Us TextView · Source Repository TextView",
+      "visit_count": 8
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 23
+    },
+    {
+      "screen_hash": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "hint": "Back iv_back ImageView · BV/AV/Search et_search_content EditText · sp_search_type Spinner · Search tv_search TextView",
+      "visit_count": 26
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+      "to": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/rb_home",
+        "target_content_desc": "",
+        "x": 270,
+        "y": 1723,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/rb_home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 2,
+      "from": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 616,
+        "y": 139,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_xy:616,139",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 616, \"y\": 139}"
+    },
+    {
+      "step": 3,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/iv_back",
+        "target_content_desc": "Back",
+        "x": 57,
+        "y": 128,
+        "reason": "bfs_nav_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/iv_back",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/iv_back|Back"
+    },
+    {
+      "step": 4,
+      "from": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+      "to": "44d3b60ed77cb7af1c598582d97fa0add660652de2f228bc3cc99d40a075cfab",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/rb_me",
+        "target_content_desc": "",
+        "x": 810,
+        "y": 1723,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/rb_me",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:cc.kafuu.bilidownload:id/rb_me|"
+    },
+    {
+      "step": 5,
+      "from": "44d3b60ed77cb7af1c598582d97fa0add660652de2f228bc3cc99d40a075cfab",
+      "to": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/rb_home",
+        "target_content_desc": "",
+        "x": 270,
+        "y": 1723,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/rb_home",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:home"
+    },
+    {
+      "step": 6,
+      "from": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/ll_top_bar",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 139,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/ll_top_bar",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:cc.kafuu.bilidownload:id/ll_top_bar|"
+    },
+    {
+      "step": 7,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_nav_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 8,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 9,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/tv_search",
+        "target_content_desc": "",
+        "x": 984,
+        "y": 128,
+        "reason": "bfs_nav_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/tv_search",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/tv_search|"
+    },
+    {
+      "step": 10,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 11,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 12,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 13,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 14,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 15,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 16,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 17,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 18,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 19,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 20,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 21,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 22,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 23,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 24,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 25,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 26,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 27,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 28,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 29,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 30,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 31,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 32,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 33,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 34,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 35,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 36,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 37,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 38,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 39,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 40,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 41,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 42,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 43,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 44,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 45,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 46,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 47,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 48,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 49,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 50,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    },
+    {
+      "step": 51,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 52,
+      "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "x": 816,
+        "y": 128,
+        "reason": "bfs_search_after_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cc.kafuu.bilidownload:id/sp_search_type",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:home": {
+        "kind": "tab",
+        "semantic_token": "home",
+        "target_resource_id": "cc.kafuu.bilidownload:id/rb_home",
+        "target_content_desc": "",
+        "visible_on": [
+          "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+          "44d3b60ed77cb7af1c598582d97fa0add660652de2f228bc3cc99d40a075cfab"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "44d3b60ed77cb7af1c598582d97fa0add660652de2f228bc3cc99d40a075cfab",
+        "last_to": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60"
+      },
+      "tab:cc.kafuu.bilidownload:id/rb_me|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cc.kafuu.bilidownload:id/rb_me",
+        "target_content_desc": "",
+        "visible_on": [
+          "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+          "44d3b60ed77cb7af1c598582d97fa0add660652de2f228bc3cc99d40a075cfab"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+        "last_to": "44d3b60ed77cb7af1c598582d97fa0add660652de2f228bc3cc99d40a075cfab"
+      },
+      "nav:home": {
+        "kind": "nav",
+        "semantic_token": "home",
+        "target_resource_id": "cc.kafuu.bilidownload:id/rb_home",
+        "target_content_desc": "",
+        "visible_on": [
+          "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+          "44d3b60ed77cb7af1c598582d97fa0add660652de2f228bc3cc99d40a075cfab"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:cc.kafuu.bilidownload:id/rb_me|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "cc.kafuu.bilidownload:id/rb_me",
+        "target_content_desc": "",
+        "visible_on": [
+          "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+          "44d3b60ed77cb7af1c598582d97fa0add660652de2f228bc3cc99d40a075cfab"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 616, \"y\": 139}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+        "last_to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696"
+      },
+      "nav:cc.kafuu.bilidownload:id/iv_back|Back": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "cc.kafuu.bilidownload:id/iv_back",
+        "target_content_desc": "Back",
+        "visible_on": [
+          "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "last_to": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60"
+      },
+      "nav:cc.kafuu.bilidownload:id/sp_search_type|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "cc.kafuu.bilidownload:id/sp_search_type",
+        "target_content_desc": "",
+        "visible_on": [
+          "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696"
+        ],
+        "attempts": 23,
+        "successes": 23,
+        "last_from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:cc.kafuu.bilidownload:id/tv_search|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "cc.kafuu.bilidownload:id/tv_search",
+        "target_content_desc": "",
+        "visible_on": [
+          "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "last_to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696"
+      },
+      "tab:cc.kafuu.bilidownload:id/ll_top_bar|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cc.kafuu.bilidownload:id/ll_top_bar",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+        "last_to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 22,
+        "successes": 22,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696"
+      }
+    },
+    "edges": [
+      {
+        "from": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+        "to": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 616, \"y\": 139}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+        "target_key": "nav:cc.kafuu.bilidownload:id/iv_back|Back",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+        "to": "44d3b60ed77cb7af1c598582d97fa0add660652de2f228bc3cc99d40a075cfab",
+        "target_key": "tab:cc.kafuu.bilidownload:id/rb_me|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "44d3b60ed77cb7af1c598582d97fa0add660652de2f228bc3cc99d40a075cfab",
+        "to": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25a124e7ad6c7c14d950ea0c643f28a953a5233ed7485b0715f492972dc4fc60",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "tab:cc.kafuu.bilidownload:id/ll_top_bar|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "nav:cc.kafuu.bilidownload:id/tv_search|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "c7931b6c208fa50eb7d640c7511c53fee89a121f5d5d50e74b004e7f836d3696",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:cc.kafuu.bilidownload:id/sp_search_type|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_search_after_frontier"
+      }
+    ]
+  }
+}

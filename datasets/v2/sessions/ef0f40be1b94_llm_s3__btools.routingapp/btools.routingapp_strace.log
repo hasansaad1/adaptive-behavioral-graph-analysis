@@ -1,0 +1,37 @@
+3209  1784097346.679743 exit(0)         = ?
+3209  1784097346.680275 +++ exited with 0 +++
+3207  1784097346.680303 exit(0)         = ?
+3208  1784097346.680843 exit(0 <unfinished ...>
+3207  1784097346.680881 +++ exited with 0 +++
+3208  1784097346.681061 <... exit resumed>) = ?
+3208  1784097346.681347 +++ exited with 0 +++
+3205  1784097346.681354 exit(0)         = ?
+3205  1784097346.681913 +++ exited with 0 +++
+3220  1784097346.684973 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+3220  1784097346.685355 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+3220  1784097346.685719 newfstatat(AT_FDCWD, "/data/app/btools.routingapp-g64xLqwIE2_Lf1o2A8s29g==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+3220  1784097346.686065 newfstatat(AT_FDCWD, "/data/app/btools.routingapp-g64xLqwIE2_Lf1o2A8s29g==/base.apk", {st_mode=S_IFREG|0644, st_size=3293455, ...}, AT_SYMLINK_NOFOLLOW) = 0
+3220  1784097346.686428 getcwd("/", 4096) = 2
+3220  1784097346.686776 newfstatat(AT_FDCWD, "/base.apk", 0x758a5f8690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+3194  1784097347.151820 clone(child_stack=0x758b5fbd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x758b5fbd60, tls=0x758b5fc020, child_tidptr=0x758b5fbd60) = 3275
+3275  1784097347.157284 faccessat(AT_FDCWD, "/data/user/0/btools.routingapp", F_OK) = 0
+3275  1784097347.157573 faccessat(AT_FDCWD, "/data/user/0/btools.routingapp/files", F_OK) = 0
+3275  1784097347.157846 faccessat(AT_FDCWD, "/data/user/0/btools.routingapp/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+3275  1784097347.158124 openat(AT_FDCWD, "/data/user/0/btools.routingapp/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 73
+3275  1784097347.158967 getsockopt(73, SOL_SOCKET, SO_ERROR, 0x758b5fad24, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+3275  1784097347.160852 openat(AT_FDCWD, "/data/app/btools.routingapp-g64xLqwIE2_Lf1o2A8s29g==/base.apk", O_RDONLY) = 73
+3275  1784097347.161331 getsockopt(73, SOL_SOCKET, SO_ERROR, 0x758b5fa5a4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+3275  1784097347.161796 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/btools.routingapp/primary.prof", 0x758b5fa548, 0) = -1 ENOENT (No such file or directory)
+3275  1784097347.162069 faccessat(AT_FDCWD, "/data/misc/profiles/ref/btools.routingapp/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+3275  1784097347.162337 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/btools.routingapp/primary.prof", {st_mode=S_IFREG|0600, st_size=4878, ...}, 0) = 0
+3275  1784097347.162580 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/btools.routingapp/primary.prof", F_OK) = 0
+3275  1784097347.163219 faccessat(AT_FDCWD, "/data/user/0/btools.routingapp/files", F_OK) = 0
+3275  1784097347.163573 faccessat(AT_FDCWD, "/data/user/0/btools.routingapp/files/profileInstalled", F_OK) = 0
+3275  1784097347.163830 openat(AT_FDCWD, "/data/user/0/btools.routingapp/files/profileInstalled", O_RDONLY) = 73
+3275  1784097347.165296 getsockopt(73, SOL_SOCKET, SO_ERROR, 0x758b5f9ec4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+3275  1784097347.168453 exit(0)         = ?
+3275  1784097347.168673 +++ exited with 0 +++
+3234  1784097347.223798 faccessat(AT_FDCWD, "/proc/self/task/3275", F_OK) = -1 ENOENT (No such file or directory)
+3236  1784097359.437485 exit(0)         = ?
+3236  1784097359.437637 +++ exited with 0 +++
+3234  1784097359.490389 faccessat(AT_FDCWD, "/proc/self/task/3236", F_OK) = -1 ENOENT (No such file or directory)

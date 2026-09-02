@@ -1,0 +1,700 @@
+{
+  "goals": [
+    "Tap btStart",
+    "Tap btnToggleCamera",
+    "Tap Navigate up",
+    "Tap btnDown"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap btStart",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap btnToggleCamera",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Navigate up",
+      "nav_token": "",
+      "target_keys": [
+        "expand:|Navigate up",
+        "tab:|Navigate up"
+      ],
+      "observed_screen_hashes": [
+        "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1"
+      ],
+      "observed_screen_hints": [
+        "Start btStart Button · Credits btnCredits Button · How to Play btnHowToPlay Button"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap btnDown",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1": "Start btStart Button · Credits btnCredits Button · How to Play btnHowToPlay Button",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": "",
+    "73152f975c25bc5b29e95da709e9f62e03daa2642e1133d3e3cca72480ac8c43": "Navigate up ImageButton",
+    "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276": "btnDown ImageButton · btnLeft ImageButton · btnRight ImageButton · btnToggleCamera ImageButton · btnUp ImageButton · spinner1 Spinner · Navigate up ImageButton",
+    "4d3b1d9ffef8b06c1a7c2c7798e165da1e1d798642134ca35f31e665a25dce2e": "btnLeft ImageButton · btnRight ImageButton · btnToggleCamera ImageButton · btnUp ImageButton · spinner1 Spinner · Navigate up ImageButton",
+    "4ee2b3c986afad850615da78b4ecdc4dc47efeb29b412e2a026eeeb01586c84c": "btnRight ImageButton · btnToggleCamera ImageButton · btnUp ImageButton · spinner1 Spinner · Navigate up ImageButton",
+    "cff86ab0f71e01ff8c38a1034670b64e2066cad88812cf59aa3f0d0fa21e3890": "btnDown ImageButton · btnRight ImageButton · btnToggleCamera ImageButton · btnUp ImageButton · spinner1 Spinner · Navigate up ImageButton"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:br.odb.knights:id/btStart|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "br.odb.knights:id/btStart",
+        "target_content_desc": "",
+        "visible_on": [
+          "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1"
+        ],
+        "attempts": 10,
+        "successes": 10,
+        "last_from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "last_to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276"
+      },
+      "tab:br.odb.knights:id/btnCredits|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "br.odb.knights:id/btnCredits",
+        "target_content_desc": "",
+        "visible_on": [
+          "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "last_to": "73152f975c25bc5b29e95da709e9f62e03daa2642e1133d3e3cca72480ac8c43"
+      },
+      "tab:br.odb.knights:id/btnHowToPlay|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "br.odb.knights:id/btnHowToPlay",
+        "target_content_desc": "",
+        "visible_on": [
+          "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "last_to": "73152f975c25bc5b29e95da709e9f62e03daa2642e1133d3e3cca72480ac8c43"
+      },
+      "nav:br.odb.knights:id/btStart|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "br.odb.knights:id/btStart",
+        "target_content_desc": "",
+        "visible_on": [
+          "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:br.odb.knights:id/btnCredits|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "br.odb.knights:id/btnCredits",
+        "target_content_desc": "",
+        "visible_on": [
+          "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:br.odb.knights:id/btnHowToPlay|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "br.odb.knights:id/btnHowToPlay",
+        "target_content_desc": "",
+        "visible_on": [
+          "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:|Navigate up": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 6,
+        "successes": 6,
+        "last_from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "last_to": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276"
+      },
+      "nav:br.odb.knights:id/btnDown|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "br.odb.knights:id/btnDown",
+        "target_content_desc": "",
+        "visible_on": [
+          "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+          "cff86ab0f71e01ff8c38a1034670b64e2066cad88812cf59aa3f0d0fa21e3890"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "last_to": "4d3b1d9ffef8b06c1a7c2c7798e165da1e1d798642134ca35f31e665a25dce2e"
+      },
+      "nav:br.odb.knights:id/btnLeft|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "br.odb.knights:id/btnLeft",
+        "target_content_desc": "",
+        "visible_on": [
+          "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+          "4d3b1d9ffef8b06c1a7c2c7798e165da1e1d798642134ca35f31e665a25dce2e"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "last_to": "cff86ab0f71e01ff8c38a1034670b64e2066cad88812cf59aa3f0d0fa21e3890"
+      },
+      "nav:br.odb.knights:id/btnRight|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "br.odb.knights:id/btnRight",
+        "target_content_desc": "",
+        "visible_on": [
+          "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+          "4d3b1d9ffef8b06c1a7c2c7798e165da1e1d798642134ca35f31e665a25dce2e",
+          "4ee2b3c986afad850615da78b4ecdc4dc47efeb29b412e2a026eeeb01586c84c",
+          "cff86ab0f71e01ff8c38a1034670b64e2066cad88812cf59aa3f0d0fa21e3890"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "last_to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276"
+      },
+      "nav:br.odb.knights:id/btnUp|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "br.odb.knights:id/btnUp",
+        "target_content_desc": "",
+        "visible_on": [
+          "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+          "4d3b1d9ffef8b06c1a7c2c7798e165da1e1d798642134ca35f31e665a25dce2e",
+          "4ee2b3c986afad850615da78b4ecdc4dc47efeb29b412e2a026eeeb01586c84c",
+          "cff86ab0f71e01ff8c38a1034670b64e2066cad88812cf59aa3f0d0fa21e3890"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "last_to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276"
+      },
+      "nav:br.odb.knights:id/spinner1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "br.odb.knights:id/spinner1",
+        "target_content_desc": "",
+        "visible_on": [
+          "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+          "4d3b1d9ffef8b06c1a7c2c7798e165da1e1d798642134ca35f31e665a25dce2e",
+          "4ee2b3c986afad850615da78b4ecdc4dc47efeb29b412e2a026eeeb01586c84c",
+          "cff86ab0f71e01ff8c38a1034670b64e2066cad88812cf59aa3f0d0fa21e3890"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:br.odb.knights:id/btnToggleCamera|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "br.odb.knights:id/btnToggleCamera",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 6,
+        "successes": 6,
+        "last_from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "last_to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276"
+      },
+      "tab:|Navigate up": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "last_to": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1"
+      },
+      "expand:br.odb.knights:id/btnToggleCamera|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "br.odb.knights:id/btnToggleCamera",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 8,
+        "successes": 8,
+        "last_from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "last_to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276"
+      }
+    },
+    "edges": [
+      {
+        "from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:br.odb.knights:id/btStart|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "to": "73152f975c25bc5b29e95da709e9f62e03daa2642e1133d3e3cca72480ac8c43",
+        "target_key": "tab:br.odb.knights:id/btnCredits|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "73152f975c25bc5b29e95da709e9f62e03daa2642e1133d3e3cca72480ac8c43",
+        "to": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "to": "73152f975c25bc5b29e95da709e9f62e03daa2642e1133d3e3cca72480ac8c43",
+        "target_key": "tab:br.odb.knights:id/btnHowToPlay|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "73152f975c25bc5b29e95da709e9f62e03daa2642e1133d3e3cca72480ac8c43",
+        "to": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:br.odb.knights:id/btStart|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "tab:br.odb.knights:id/btStart|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "4d3b1d9ffef8b06c1a7c2c7798e165da1e1d798642134ca35f31e665a25dce2e",
+        "target_key": "nav:br.odb.knights:id/btnDown|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4d3b1d9ffef8b06c1a7c2c7798e165da1e1d798642134ca35f31e665a25dce2e",
+        "to": "4ee2b3c986afad850615da78b4ecdc4dc47efeb29b412e2a026eeeb01586c84c",
+        "target_key": "nav:br.odb.knights:id/btnLeft|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4ee2b3c986afad850615da78b4ecdc4dc47efeb29b412e2a026eeeb01586c84c",
+        "to": "4d3b1d9ffef8b06c1a7c2c7798e165da1e1d798642134ca35f31e665a25dce2e",
+        "target_key": "nav:br.odb.knights:id/btnRight|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4d3b1d9ffef8b06c1a7c2c7798e165da1e1d798642134ca35f31e665a25dce2e",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "nav:br.odb.knights:id/btnUp|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:br.odb.knights:id/spinner1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "4d3b1d9ffef8b06c1a7c2c7798e165da1e1d798642134ca35f31e665a25dce2e",
+        "target_key": "nav:br.odb.knights:id/btnDown|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "4d3b1d9ffef8b06c1a7c2c7798e165da1e1d798642134ca35f31e665a25dce2e",
+        "to": "4d3b1d9ffef8b06c1a7c2c7798e165da1e1d798642134ca35f31e665a25dce2e",
+        "target_key": "tab:br.odb.knights:id/btnToggleCamera|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4d3b1d9ffef8b06c1a7c2c7798e165da1e1d798642134ca35f31e665a25dce2e",
+        "to": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "tab:br.odb.knights:id/btStart|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "cff86ab0f71e01ff8c38a1034670b64e2066cad88812cf59aa3f0d0fa21e3890",
+        "target_key": "nav:br.odb.knights:id/btnLeft|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "cff86ab0f71e01ff8c38a1034670b64e2066cad88812cf59aa3f0d0fa21e3890",
+        "to": "cff86ab0f71e01ff8c38a1034670b64e2066cad88812cf59aa3f0d0fa21e3890",
+        "target_key": "tab:br.odb.knights:id/btnToggleCamera|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "cff86ab0f71e01ff8c38a1034670b64e2066cad88812cf59aa3f0d0fa21e3890",
+        "to": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "tab:br.odb.knights:id/btStart|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "nav:br.odb.knights:id/btnRight|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "tab:br.odb.knights:id/btnToggleCamera|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "tab:br.odb.knights:id/btStart|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "nav:br.odb.knights:id/btnUp|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "tab:br.odb.knights:id/btnToggleCamera|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "tab:br.odb.knights:id/btnToggleCamera|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "tab:br.odb.knights:id/btnToggleCamera|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "nav:br.odb.knights:id/spinner1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "expand:br.odb.knights:id/btnToggleCamera|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "expand:br.odb.knights:id/btnToggleCamera|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "tab:br.odb.knights:id/btStart|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "expand:br.odb.knights:id/btnToggleCamera|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "expand:br.odb.knights:id/btnToggleCamera|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "tab:br.odb.knights:id/btStart|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "expand:br.odb.knights:id/btnToggleCamera|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "expand:br.odb.knights:id/btnToggleCamera|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "tab:br.odb.knights:id/btStart|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "expand:br.odb.knights:id/btnToggleCamera|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "expand:br.odb.knights:id/btnToggleCamera|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "to": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+        "to": "9ec45ac3fdb56c9013102a10f4d428185d97c77fc8e409ee85708462b70b2276",
+        "target_key": "tab:br.odb.knights:id/btStart|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+    "root_screen_signature": "099d51c1a4e623590df78e0c90b5e4e5ad13bd14851337d2f22ffdbe418624fb",
+    "root_screen_hint": "Start btStart Button · Credits btnCredits Button · How to Play btnHowToPlay Button",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "br.odb.knights",
+          "screen_hash": "801b6f312ae0db74e760de2662f99d851d9299dde5b83878185e14489517f3b1",
+          "interactive_count": 3,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "099d51c1a4e623590df78e0c90b5e4e5ad13bd14851337d2f22ffdbe418624fb",
+          "root_landmark_score": 1
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical user opens the app by tapping on a map view, then uses vertical swipe gestures to navigate between different locations. They often use horizontal swipe gestures to switch between different types of information (e.g., markers, labels). The user may also tap on a marker or label to view more details. Opening the right tab first is not necessary in this case.",
+    "reason": "ux_goals_complete"
+  }
+}

@@ -1,0 +1,80 @@
+5488  1784175158.860931 exit(0)         = ?
+5488  1784175158.861032 +++ exited with 0 +++
+5490  1784175158.865167 exit(0)         = ?
+5491  1784175158.865823 exit(0 <unfinished ...>
+5490  1784175158.865858 +++ exited with 0 +++
+5491  1784175158.865906 <... exit resumed>) = ?
+5491  1784175158.866095 +++ exited with 0 +++
+5489  1784175158.866099 exit(0)         = ?
+5489  1784175158.866429 +++ exited with 0 +++
+5501  1784175158.868175 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+5501  1784175158.868616 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+5501  1784175158.868994 newfstatat(AT_FDCWD, "/data/app/cc.kafuu.bilidownload-imyOWltxj5HkEUKif1O63w==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+5501  1784175158.869444 newfstatat(AT_FDCWD, "/data/app/cc.kafuu.bilidownload-imyOWltxj5HkEUKif1O63w==/base.apk", {st_mode=S_IFREG|0644, st_size=105522441, ...}, AT_SYMLINK_NOFOLLOW) = 0
+5501  1784175158.870077 getcwd("/", 4096) = 2
+5501  1784175158.870668 newfstatat(AT_FDCWD, "/base.apk", 0x76a833f690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+5481  1784175159.292526 clone(child_stack=0x76a439bd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x76a439bd60, tls=0x76a439c020, child_tidptr=0x76a439bd60) = 5565
+5565  1784175159.295923 faccessat(AT_FDCWD, "/data/user/0/cc.kafuu.bilidownload/files", F_OK) = 0
+5565  1784175159.296110 faccessat(AT_FDCWD, "/data/user/0/cc.kafuu.bilidownload/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+5565  1784175159.296293 openat(AT_FDCWD, "/data/user/0/cc.kafuu.bilidownload/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 81
+5565  1784175159.296810 getsockopt(81, SOL_SOCKET, SO_ERROR, 0x76a439a254, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+5565  1784175159.297697 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/cc.kafuu.bilidownload/primary.prof", 0x76a4399c28, 0) = -1 ENOENT (No such file or directory)
+5565  1784175159.297905 faccessat(AT_FDCWD, "/data/misc/profiles/ref/cc.kafuu.bilidownload/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+5565  1784175159.298099 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/cc.kafuu.bilidownload/primary.prof", {st_mode=S_IFREG|0600, st_size=24257, ...}, 0) = 0
+5565  1784175159.298277 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/cc.kafuu.bilidownload/primary.prof", F_OK) = 0
+5565  1784175159.298729 faccessat(AT_FDCWD, "/data/user/0/cc.kafuu.bilidownload/files", F_OK) = 0
+5565  1784175159.298894 faccessat(AT_FDCWD, "/data/user/0/cc.kafuu.bilidownload/files/profileInstalled", F_OK) = 0
+5565  1784175159.299075 openat(AT_FDCWD, "/data/user/0/cc.kafuu.bilidownload/files/profileInstalled", O_RDONLY) = 81
+5565  1784175159.300070 getsockopt(81, SOL_SOCKET, SO_ERROR, 0x76a43995a4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+5565  1784175159.302712 exit(0)         = ?
+5565  1784175159.302867 +++ exited with 0 +++
+5524  1784175159.357252 faccessat(AT_FDCWD, "/proc/self/task/5565", F_OK) = -1 ENOENT (No such file or directory)
+5526  1784175171.652334 exit(0)         = ?
+5526  1784175171.652465 +++ exited with 0 +++
+5524  1784175171.708046 faccessat(AT_FDCWD, "/proc/self/task/5526", F_OK) = -1 ENOENT (No such file or directory)
+5481  1784175174.148871 recvfrom(62, "\2\0\0\0\0\0\0\0\215\n\0\0\0\0\0\0\200%\271\307|\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+5481  1784175174.149069 sendto(62, "\3\0\0\0\0\0\0\0\215\n\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+5481  1784175174.149101 recvfrom(62, 0x76a3349020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175174.149390 recvfrom(62, "\2\0\0\0\0\0\0\0\217\n\0\0\0\0\0\0\200%\271\307|\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+5481  1784175174.149450 sendto(62, "\3\0\0\0\0\0\0\0\217\n\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+5481  1784175174.149482 recvfrom(62, 0x76a3349020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175174.149506 socket(AF_UNIX, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 81
+5481  1784175174.149520 setsockopt(81, SOL_SOCKET, SO_SNDBUF, [1048576], 4) = 0
+5481  1784175174.149530 connect(81, {sa_family=AF_UNIX, sun_path="/dev/socket/statsdw"}, 110) = 0
+5481  1784175174.149589 recvfrom(38, 0x7fe949e070, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175174.152899 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0^%\26\310|\2\0\0\316y\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+5481  1784175174.152928 recvfrom(38, 0x7fe949f4e0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175174.152950 recvfrom(62, 0x76a3349020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175174.158047 recvfrom(38, 0x7fe9499530, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175174.163240 clone(child_stack=0x76a439bd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x76a439bd60, tls=0x76a439c020, child_tidptr=0x76a439bd60) = 5585
+5527  1784175174.167962 sendmsg(82, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\34\1\0\0L\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=460}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 460
+5527  1784175174.169111 sendmsg(82, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\34\1\0\0M\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=460}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 460
+5481  1784175174.170591 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0|\300\24\311|\2\0\0\317y\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+5481  1784175174.170614 recvfrom(38, 0x7fe949f4e0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175174.170853 recvfrom(62, 0x76a3349020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5527  1784175174.172457 sendmsg(82, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0N\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+5527  1784175174.173902 sendmsg(82, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0O\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+5481  1784175174.226239 recvfrom(38, 0x7fe949c360, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175174.238025 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\24\25\16\315|\2\0\0\323y\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+5481  1784175174.238057 recvfrom(38, 0x7fe949f4e0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175174.238405 recvfrom(62, 0x76a3349020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175193.832955 recvfrom(62, "\2\0\0\0\0\0\0\0\223\n\0\0\0\0\0\0\200&\373\\\201\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+5481  1784175193.833797 sendto(62, "\3\0\0\0\0\0\0\0\223\n\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+5481  1784175193.833841 recvfrom(62, 0x76a3349020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175193.834116 recvfrom(62, "\2\0\0\0\0\0\0\0\225\n\0\0\0\0\0\0\200&\373\\\201\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+5481  1784175193.834159 sendto(62, "\3\0\0\0\0\0\0\0\225\n\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+5481  1784175193.834172 recvfrom(62, 0x76a3349020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175193.834288 recvfrom(38, 0x7fe949e070, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175193.837946 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\231^M]\201\2\0\0^~\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+5481  1784175193.838106 recvfrom(38, 0x7fe949f4e0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175193.838638 recvfrom(62, 0x76a3349020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5501  1784175195.830845 openat(AT_FDCWD, "/data/misc/profiles/cur/0/cc.kafuu.bilidownload/primary.prof", O_RDWR|O_NOFOLLOW|O_CLOEXEC) = 84
+5501  1784175195.832372 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/cc.kafuu.bilidownload/primary.prof", {st_mode=S_IFREG|0600, st_size=24257, ...}, 0) = 0
+5481  1784175212.148610 recvfrom(62, "\2\0\0\0\0\0\0\0\231\n\0\0\0\0\0\0\200!\263\240\205\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+5481  1784175212.149041 sendto(62, "\3\0\0\0\0\0\0\0\231\n\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+5481  1784175212.149269 recvfrom(62, "\2\0\0\0\0\0\0\0\233\n\0\0\0\0\0\0\200!\263\240\205\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+5481  1784175212.149633 sendto(62, "\3\0\0\0\0\0\0\0\233\n\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+5481  1784175212.149921 recvfrom(62, 0x76a3349020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175212.152033 recvfrom(38, 0x7fe949d9b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+5481  1784175212.153294 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\3z\16\241\205\2\0\0\241\202\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+5481  1784175212.153425 recvfrom(38, 0x7fe949f4e0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)

@@ -1,0 +1,79 @@
+{
+  "active_categories": [
+    "file_io",
+    "ipc_intents",
+    "storage"
+  ],
+  "app_id": "ca.farrelltonsolar.classic",
+  "batch": "original",
+  "end_timestamp": "2026-07-15T11:45:50.907000Z",
+  "end_timestamp_ms": 1784115950907,
+  "event_counts": {
+    "mapped": 138,
+    "mapped_rate": 0.2845360824742268,
+    "total": 485
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "2d767cdb301f_llm_s2__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "Context.bindService",
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 5,
+  "reference_tier_pass": true,
+  "session_id": "2d767cdb301f_llm_s2",
+  "session_index_within_app": 2,
+  "source_frida_path": "datasets/v2/sessions/2d767cdb301f_llm_s2__ca.farrelltonsolar.classic/ca.farrelltonsolar.classic_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/2d767cdb301f_llm_s2__ca.farrelltonsolar.classic/ca.farrelltonsolar.classic_dynamic_metadata.json",
+  "start_timestamp": "2026-07-15T11:38:01.203000Z",
+  "start_timestamp_ms": 1784115481203,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 485,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 40,
+    "n_with_timestamp": 485,
+    "unparseable_line_numbers_sample": [
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 469.704
+}

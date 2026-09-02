@@ -1,0 +1,76 @@
+{
+  "active_categories": [
+    "camera",
+    "storage"
+  ],
+  "app_id": "ch.abertschi.waterme.water_me",
+  "batch": "original",
+  "end_timestamp": "2026-07-16T06:26:16.464000Z",
+  "end_timestamp_ms": 1784183176464,
+  "event_counts": {
+    "mapped": 12,
+    "mapped_rate": 0.02181818181818182,
+    "total": 550
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "d42d78005adb_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "CameraManager.openCamera",
+    "SharedPreferences.apply",
+    "SharedPreferences.putString"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 2,
+  "reference_tier_pass": true,
+  "session_id": "d42d78005adb_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/d42d78005adb_llm_s1__ch.abertschi.waterme.water_me/ch.abertschi.waterme.water_me_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/d42d78005adb_llm_s1__ch.abertschi.waterme.water_me/ch.abertschi.waterme.water_me_dynamic_metadata.json",
+  "start_timestamp": "2026-07-16T06:18:38.686000Z",
+  "start_timestamp_ms": 1784182718686,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 550,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 70,
+    "n_with_timestamp": 550,
+    "unparseable_line_numbers_sample": [
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 457.778
+}

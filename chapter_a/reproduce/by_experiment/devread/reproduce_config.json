@@ -1,0 +1,191 @@
+{
+  "kind": "androct_master_verify",
+  "experiment": "devread",
+  "n_rows": 18,
+  "cli_rerun": {
+    "cli_module": "abrg.devread",
+    "out_flag": "--out"
+  },
+  "rows": [
+    {
+      "detector": "HGB",
+      "method": "supervised",
+      "representation": "D3_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.961410095953275",
+      "raw_auc": "0.961410095953275",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/classifiers/trained__D3__HGB__splitA__seed42.joblib",
+      "is_headline": "True"
+    },
+    {
+      "detector": "HGB_mean_seeds_42_46",
+      "method": "supervised",
+      "representation": "D3_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.9623779724655821",
+      "raw_auc": "0.9623779724655821",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "True"
+    },
+    {
+      "detector": "HGB",
+      "method": "supervised",
+      "representation": "D0_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.7939820609094702",
+      "raw_auc": "0.7939820609094702",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB_mean_seeds_42_46",
+      "method": "supervised",
+      "representation": "D0_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.7910200250312891",
+      "raw_auc": "0.7910200250312891",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB",
+      "method": "supervised",
+      "representation": "D1_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.950584063412599",
+      "raw_auc": "0.950584063412599",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB_mean_seeds_42_46",
+      "method": "supervised",
+      "representation": "D1_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.9492574050896956",
+      "raw_auc": "0.9492574050896956",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB",
+      "method": "supervised",
+      "representation": "D2_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.9591364205256571",
+      "raw_auc": "0.9591364205256571",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB_mean_seeds_42_46",
+      "method": "supervised",
+      "representation": "D2_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.959415936587401",
+      "raw_auc": "0.959415936587401",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB",
+      "method": "supervised",
+      "representation": "D4_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.9589278264497287",
+      "raw_auc": "0.9589278264497287",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB_mean_seeds_42_46",
+      "method": "supervised",
+      "representation": "D4_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.959290780141844",
+      "raw_auc": "0.959290780141844",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB",
+      "method": "supervised",
+      "representation": "D5_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.9563621193158115",
+      "raw_auc": "0.9563621193158115",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB_mean_seeds_42_46",
+      "method": "supervised",
+      "representation": "D5_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.9586566541510221",
+      "raw_auc": "0.9586566541510221",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB",
+      "method": "supervised",
+      "representation": "RAW_full_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.976241134751773",
+      "raw_auc": "0.976241134751773",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB_mean_seeds_42_46",
+      "method": "supervised",
+      "representation": "RAW_full_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.9745807259073842",
+      "raw_auc": "0.9745807259073842",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB",
+      "method": "supervised",
+      "representation": "RAW_node_only_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.9564664163537756",
+      "raw_auc": "0.9564664163537756",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB_mean_seeds_42_46",
+      "method": "supervised",
+      "representation": "RAW_node_only_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.959194826866917",
+      "raw_auc": "0.959194826866917",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB",
+      "method": "supervised",
+      "representation": "RAW_adj_only_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.9593241551939926",
+      "raw_auc": "0.9593241551939926",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB_mean_seeds_42_46",
+      "method": "supervised",
+      "representation": "RAW_adj_only_trained_t22",
+      "split": "splitA_stratified",
+      "auc_floor": "0.959770546516479",
+      "raw_auc": "0.959770546516479",
+      "artifact_path": "abrg/output/androct_2017/devread/splitA/results_trained.json",
+      "is_headline": "False"
+    }
+  ]
+}

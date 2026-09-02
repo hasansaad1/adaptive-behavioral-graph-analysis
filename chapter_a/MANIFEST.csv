@@ -1,0 +1,23 @@
+experiment_dir,module,cli_command,has_SUMMARY,has_reproduce_md,has_reproduce_config,has_checkpoints,has_per_app_scores,n_result_rows,date_last_modified,size_on_disk,status,notes
+abrg/output/androct_2017/apigraph,apigraph,python -m abrg.apigraph,True,False,False,False,False,9,2026-08-10T17:22:04Z,5138265599,complete,A_tfidf residualized 0.8141 superseded by train-fit R2 OCPool 0.7544 (validation/check1).
+abrg/output/androct_2017/arm_a_n1,androct,python -m abrg.androct.run_gae --arm arm_a_n1,False,False,True,True,True,2,2026-08-10T12:44:38Z,1660889,superseded,run1 / eligibility-floor protocol; superseded by run2+ after eligibility floor removed
+abrg/output/androct_2017/arm_b_n8,androct,python -m abrg.androct.run_gae --arm arm_b_n8,False,False,True,True,True,2,2026-08-10T12:44:38Z,7049910,superseded,run1 / eligibility-floor protocol; superseded by run2+ after eligibility floor removed
+abrg/output/androct_2017/devread,devread,python -m abrg.devread,True,True,True,True,True,5,2026-08-12T13:26:44Z,359551352,complete,
+abrg/output/androct_2017/final_validation,final_validate,python -m abrg.final_validate,True,False,False,False,False,6,2026-08-13T14:00:49Z,9341175,complete,
+abrg/output/androct_2017/glocalkd,glocalkd,python -m abrg.glocalkd,True,False,True,False,False,1,2026-08-11T23:06:48Z,50649008,partial,Main grid complete; nested bootstrap abandoned at B=20 (B=100 infeasible on T1K).
+abrg/output/androct_2017/invgraph,invgraph,python -m abrg.invgraph,True,False,False,False,False,5,2026-08-10T20:32:16Z,11253324612,complete_but_artifact,"V2 invocation: 99.99% malware edge-drop; edge_count floor 0.7338 is an artifact of that drop, not a structural signal."
+abrg/output/androct_2017/kernels,kernels,python -m abrg.kernels,True,False,True,True,False,1,2026-08-13T06:11:31Z,465856119,complete,
+abrg/output/androct_2017/ladder,ladder,python -m abrg.ladder,True,False,True,False,False,2,2026-08-12T08:58:13Z,2985292,complete,
+abrg/output/androct_2017/ocdev,ocdev,python -m abrg.ocdev,True,True,True,True,True,8,2026-08-13T11:02:04Z,3060429516,complete,
+abrg/output/androct_2017/ocgin,ocgin,python -m abrg.ocgin,True,False,True,False,False,2,2026-08-10T15:20:23Z,3075931,complete,
+abrg/output/androct_2017/ocgtl,ocgtl,python -m abrg.ocgtl,True,True,True,True,True,1,2026-08-13T06:11:33Z,49482981,aborted,Split-A complete; Split-B aborted with no checkpoints. T22 ocgtl_K4/K6 collapsed 5/5.
+abrg/output/androct_2017/run2,androct,python -m abrg.androct.run_gae_run2 --from-cache,True,False,True,True,False,4,2026-08-10T12:44:38Z,56184990,complete,
+abrg/output/androct_2017/run3,androct,python -m abrg.androct.run_gae_run3,True,False,True,True,False,5,2026-08-10T12:44:38Z,788576,complete,
+abrg/output/androct_2017/run3_5,androct,python -m abrg.androct.run_gae_run3_5,True,False,True,False,False,4,2026-08-10T12:44:38Z,379674,complete,
+abrg/output/androct_2017/run4,androct,python -m abrg.androct.run_gae_run4,True,False,True,True,False,4,2026-08-10T12:44:38Z,963149,complete,
+abrg/output/androct_2017/run5,androct,python -m abrg.androct.run_gae_run5,True,False,True,True,False,4,2026-08-10T12:44:38Z,1000802,complete,
+abrg/output/androct_2017/run6,androct,python -m abrg.androct.run_gae_run6,True,False,True,True,False,14,2026-08-10T12:44:38Z,3799948,complete,
+abrg/output/androct_2017/run8,androct,python -m abrg.androct.run_gae_run8,True,False,True,False,False,2,2026-08-10T12:44:38Z,86096,complete,
+abrg/output/androct_2017/supgnn,supgnn,python -m abrg.supgnn,True,True,True,True,True,2,2026-08-12T19:38:10Z,548561847,complete,
+abrg/output/androct_2017/transitions,transitions,python -m abrg.transitions,True,False,False,False,False,4,2026-08-10T21:36:34Z,18568016,complete,
+abrg/output/androct_2017/validation,validate,python -m abrg.validate,True,False,False,False,False,4,2026-08-11T07:40:40Z,2711439,complete,

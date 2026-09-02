@@ -1,0 +1,36 @@
+2353  1784087233.162233 recvfrom(38, 0x7fe7aafe20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+2353  1784087233.176365 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0x|}\263E\2\0\0\343B\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+2353  1784087233.176458 recvfrom(38, 0x7fe7ab0300, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+2363  1784087234.545273 exit(0)         = ?
+2363  1784087234.545547 +++ exited with 0 +++
+2360  1784087234.545835 exit(0)         = ?
+2360  1784087234.545899 +++ exited with 0 +++
+2362  1784087234.548237 exit(0)         = ?
+2362  1784087234.548543 +++ exited with 0 +++
+2361  1784087234.548649 exit(0)         = ?
+2361  1784087234.549050 +++ exited with 0 +++
+2374  1784087234.551664 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+2374  1784087234.552090 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+2374  1784087234.552588 newfstatat(AT_FDCWD, "/data/app/biz.binarysolutions.mindfulnessmeditation-CkovakgXgZLSNKpAd8y43w==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+2374  1784087234.552929 newfstatat(AT_FDCWD, "/data/app/biz.binarysolutions.mindfulnessmeditation-CkovakgXgZLSNKpAd8y43w==/base.apk", {st_mode=S_IFREG|0644, st_size=2720533, ...}, AT_SYMLINK_NOFOLLOW) = 0
+2374  1784087234.553265 getcwd("/", 4096) = 2
+2374  1784087234.553597 newfstatat(AT_FDCWD, "/base.apk", 0x71bbbf8690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+2353  1784087235.533308 clone(child_stack=0x71bdbbbd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x71bdbbbd60, tls=0x71bdbbc020, child_tidptr=0x71bdbbbd60) = 2463
+2463  1784087235.538699 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation", F_OK) = 0
+2463  1784087235.539018 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files", F_OK) = 0
+2463  1784087235.539337 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+2463  1784087235.539675 openat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 56
+2463  1784087235.540556 getsockopt(56, SOL_SOCKET, SO_ERROR, 0x71bdbbad24, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+2463  1784087235.544046 openat(AT_FDCWD, "/data/app/biz.binarysolutions.mindfulnessmeditation-CkovakgXgZLSNKpAd8y43w==/base.apk", O_RDONLY) = 56
+2463  1784087235.544976 getsockopt(56, SOL_SOCKET, SO_ERROR, 0x71bdbba5a4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+2463  1784087235.545513 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/biz.binarysolutions.mindfulnessmeditation/primary.prof", 0x71bdbba548, 0) = -1 ENOENT (No such file or directory)
+2463  1784087235.545834 faccessat(AT_FDCWD, "/data/misc/profiles/ref/biz.binarysolutions.mindfulnessmeditation/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+2463  1784087235.546150 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/biz.binarysolutions.mindfulnessmeditation/primary.prof", {st_mode=S_IFREG|0600, st_size=6069, ...}, 0) = 0
+2463  1784087235.546409 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/biz.binarysolutions.mindfulnessmeditation/primary.prof", F_OK) = 0
+2463  1784087235.547056 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files", F_OK) = 0
+2463  1784087235.547297 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files/profileInstalled", F_OK) = 0
+2463  1784087235.547586 openat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files/profileInstalled", O_RDONLY) = 56
+2463  1784087235.549131 getsockopt(56, SOL_SOCKET, SO_ERROR, 0x71bdbb9ec4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+2463  1784087235.553517 exit(0)         = ?
+2463  1784087235.553763 +++ exited with 0 +++
+2404  1784087235.601729 faccessat(AT_FDCWD, "/proc/self/task/2463", F_OK) = -1 ENOENT (No such file or directory)

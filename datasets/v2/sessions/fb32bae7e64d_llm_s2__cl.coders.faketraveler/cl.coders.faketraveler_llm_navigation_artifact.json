@@ -1,0 +1,1108 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "cl.coders.faketraveler",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_hash": "08819e23bb9214e779d8592d732766a9756fd0902f4e901484c808bc1be94172",
+      "hint": "webView0 WebView · Apply button_applyStop Button · ⚙ button_settings Button · 12 editTextLat EditText · 15 editTextLng EditText",
+      "visit_count": 2
+    },
+    {
+      "screen_hash": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "hint": "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · address_input EditText · 12 editTextLat EditText · 15 editTextLng EditText · Leaflet View · OpenStreetMap View · View · Marker Button",
+      "visit_count": 26
+    },
+    {
+      "screen_hash": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+      "hint": "Mock movement as speed cb_MockSpeed CheckBox · 0 et_DMockLat EditText · 0 et_DMockLon EditText · OpenStreetMap et_MapProvider EditText · 0 et_MockCount EditText · 10 et_MockFrequency EditText · Requires restart - a list of textView9 TextView · Navigate up ImageButton",
+      "visit_count": 5
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 0
+    },
+    {
+      "screen_hash": "9243fa7b49733cb8926e6343528726c3ccac2797efc73732337c54bdc6a43dff",
+      "hint": "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · address_input EditText · 12 editTextLat EditText · 15 editTextLng EditText · Leaflet View · OpenStreetMap View · View · Zoom out Button",
+      "visit_count": 0
+    },
+    {
+      "screen_hash": "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+      "hint": "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · 12 editTextLat EditText · 15 editTextLng EditText · Leaflet View · OpenStreetMap View · View · Marker Button · Zoom in Button",
+      "visit_count": 3
+    },
+    {
+      "screen_hash": "daecd04d3cc8f1f1a576023fb2a19c4591ebe342d23852b39598debad4d68e28",
+      "hint": "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · address_input EditText · 12 editTextLat EditText · 15 editTextLng EditText · Leaflet View · OpenStreetMap View · View · Zoom in Button",
+      "visit_count": 0
+    },
+    {
+      "screen_hash": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+      "hint": "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · 12 editTextLat EditText · 15 editTextLng EditText",
+      "visit_count": 5
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cl.coders.faketraveler:id/button_settings",
+        "target_content_desc": "",
+        "x": 927,
+        "y": 331,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cl.coders.faketraveler:id/button_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 2,
+      "from": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+      "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 146,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Navigate up"
+    },
+    {
+      "step": 3,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "daecd04d3cc8f1f1a576023fb2a19c4591ebe342d23852b39598debad4d68e28",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1110,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_xy:540,1110",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1110}"
+    },
+    {
+      "step": 4,
+      "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+      "to": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cl.coders.faketraveler:id/button_applyStop",
+        "target_content_desc": "",
+        "x": 670,
+        "y": 331,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cl.coders.faketraveler:id/button_applyStop",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:cl.coders.faketraveler:id/button_applyStop|"
+    },
+    {
+      "step": 5,
+      "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+      "to": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cl.coders.faketraveler:id/button_settings",
+        "target_content_desc": "",
+        "x": 927,
+        "y": 331,
+        "reason": "bfs_tab_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cl.coders.faketraveler:id/button_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 6,
+      "from": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+      "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 146,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Navigate up"
+    },
+    {
+      "step": 7,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 70,
+        "y": 636,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_xy:70,636",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 70, \"y\": 636}"
+    },
+    {
+      "step": 8,
+      "from": "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+      "to": "9243fa7b49733cb8926e6343528726c3ccac2797efc73732337c54bdc6a43dff",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1110,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_xy:540,1110",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1110}"
+    },
+    {
+      "step": 9,
+      "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+      "to": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cl.coders.faketraveler:id/button_applyStop",
+        "target_content_desc": "",
+        "x": 670,
+        "y": 331,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cl.coders.faketraveler:id/button_applyStop",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:cl.coders.faketraveler:id/button_applyStop|"
+    },
+    {
+      "step": 10,
+      "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+      "to": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cl.coders.faketraveler:id/button_applyStop",
+        "target_content_desc": "",
+        "x": 670,
+        "y": 331,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cl.coders.faketraveler:id/button_applyStop",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:cl.coders.faketraveler:id/button_applyStop|"
+    },
+    {
+      "step": 11,
+      "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+      "to": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "cl.coders.faketraveler:id/button_settings",
+        "target_content_desc": "",
+        "x": 927,
+        "y": 331,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:cl.coders.faketraveler:id/button_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 12,
+      "from": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+      "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "x": 73,
+        "y": 146,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Navigate up",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Navigate up"
+    },
+    {
+      "step": 13,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 70,
+        "y": 718,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_xy:70,718",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 70, \"y\": 718}"
+    },
+    {
+      "step": 14,
+      "from": "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+      "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 70,
+        "y": 636,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_xy:70,636",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 70, \"y\": 636}"
+    },
+    {
+      "step": 15,
+      "from": "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 16,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "OpenStreetMap",
+        "x": 780,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:OpenStreetMap",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|OpenStreetMap"
+    },
+    {
+      "step": 17,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 18,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 19,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 20,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 21,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 22,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 23,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 24,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 25,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 26,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 27,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 28,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 29,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 30,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 31,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 32,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    },
+    {
+      "step": 33,
+      "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "x": 546,
+        "y": 1773,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_desc:Leaflet",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|Leaflet"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "cl.coders.faketraveler:id/button_settings",
+        "target_content_desc": "",
+        "visible_on": [
+          "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+          "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+          "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c"
+        ],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "last_to": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+      },
+      "tab:|Leaflet": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "visible_on": [
+          "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+          "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c"
+        ],
+        "attempts": 18,
+        "successes": 18,
+        "last_from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:|OpenStreetMap": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "OpenStreetMap",
+        "visible_on": [
+          "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+          "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:|Leaflet": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "visible_on": [
+          "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+          "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|OpenStreetMap": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "OpenStreetMap",
+        "visible_on": [
+          "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+          "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cl.coders.faketraveler:id/cb_MockSpeed|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/cb_MockSpeed",
+        "target_content_desc": "",
+        "visible_on": [
+          "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cl.coders.faketraveler:id/et_DMockLat|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/et_DMockLat",
+        "target_content_desc": "",
+        "visible_on": [
+          "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cl.coders.faketraveler:id/et_DMockLon|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/et_DMockLon",
+        "target_content_desc": "",
+        "visible_on": [
+          "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cl.coders.faketraveler:id/et_MapProvider|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/et_MapProvider",
+        "target_content_desc": "",
+        "visible_on": [
+          "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cl.coders.faketraveler:id/textView9|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/textView9",
+        "target_content_desc": "",
+        "visible_on": [
+          "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:cl.coders.faketraveler:id/cb_MockSpeed|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/cb_MockSpeed",
+        "target_content_desc": "",
+        "visible_on": [
+          "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:cl.coders.faketraveler:id/textView9|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/textView9",
+        "target_content_desc": "",
+        "visible_on": [
+          "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|Navigate up": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+        "last_to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1110}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+        "last_to": "9243fa7b49733cb8926e6343528726c3ccac2797efc73732337c54bdc6a43dff"
+      },
+      "tab:cl.coders.faketraveler:id/button_applyStop|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/button_applyStop",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "last_to": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 70, \"y\": 636}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+        "last_to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70"
+      },
+      "expand:cl.coders.faketraveler:id/button_applyStop|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/button_applyStop",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "last_to": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 70, \"y\": 718}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "last_to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70"
+      }
+    },
+    "edges": [
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+        "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "daecd04d3cc8f1f1a576023fb2a19c4591ebe342d23852b39598debad4d68e28",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1110}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "to": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "target_key": "tab:cl.coders.faketraveler:id/button_applyStop|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "to": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+        "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 70, \"y\": 636}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+        "to": "9243fa7b49733cb8926e6343528726c3ccac2797efc73732337c54bdc6a43dff",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1110}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "to": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "target_key": "expand:cl.coders.faketraveler:id/button_applyStop|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "to": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "target_key": "expand:cl.coders.faketraveler:id/button_applyStop|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "to": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+        "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 70, \"y\": 718}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+        "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 70, \"y\": 636}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|OpenStreetMap",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  }
+}

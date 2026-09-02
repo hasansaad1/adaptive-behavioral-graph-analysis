@@ -1,0 +1,78 @@
+{
+  "active_categories": [
+    "file_io",
+    "storage"
+  ],
+  "app_id": "app.fedilab.nitterizemelite",
+  "batch": "original",
+  "end_timestamp": "2026-07-13T04:14:35.299000Z",
+  "end_timestamp_ms": 1783916075299,
+  "event_counts": {
+    "mapped": 199,
+    "mapped_rate": 0.02192354302082186,
+    "total": 9077
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "30ae40611f5f_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 2,
+  "reference_tier_pass": true,
+  "session_id": "30ae40611f5f_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/30ae40611f5f_llm_s1__app.fedilab.nitterizemelite/app.fedilab.nitterizemelite_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/30ae40611f5f_llm_s1__app.fedilab.nitterizemelite/app.fedilab.nitterizemelite_dynamic_metadata.json",
+  "start_timestamp": "2026-07-13T04:06:51.045000Z",
+  "start_timestamp_ms": 1783915611045,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 9077,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 30,
+    "n_with_timestamp": 9077,
+    "unparseable_line_numbers_sample": [
+      4342,
+      4343,
+      4344,
+      4345,
+      4346,
+      4347,
+      4348,
+      4349,
+      4350,
+      4351,
+      8034,
+      8035,
+      8036,
+      8037,
+      8038,
+      8039,
+      8040,
+      8041,
+      8042,
+      8043
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 464.254
+}

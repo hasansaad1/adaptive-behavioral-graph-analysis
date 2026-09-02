@@ -1,0 +1,20 @@
+\begin{table}[ht]
+\centering
+\caption{Supervision ladder: rung 1 / rung 2 / random-group control / rung 3 one-class reference.
+Carried control is pooled OOF (matched to rung~2); mean-of-floors withheld.}
+\label{tab:t4-ladder}
+\begin{tabular}{lrrrrrr}
+\toprule
+row & raw & floor & CI low & CI high & CI type & superseded \\
+\midrule
+rung1\_HGB\_full & 0.976241 & 0.976241 & 0.9642 & 0.9859 & score\_bootstrap & False \\
+rung2\_mean\_auc\_floor\_superseded & 0.849185 & 0.849185 & 0.8347 & 0.8619 & per\_fold\_std & True \\
+rung2\_pooled\_oof & 0.848861 & 0.848861 & 0.8347 & 0.8619 & score\_bootstrap & False \\
+rung2\_mean\_raw & 0.837365 & 0.849185 &  &  & per\_fold\_std & False \\
+random\_group\_pooled\_oof & 0.971309 & 0.971309 & 0.9659 & 0.9766 & score\_bootstrap & False \\
+random\_group\_mean\_floor\_withheld & 0.986421 & 0.986421 &  &  & per\_fold\_std & True \\
+rung3\_OCPool\_raw & 0.776500 & 0.776500 & 0.7273 & 0.8215 & score\_bootstrap & False \\
+rung3\_OCPool\_R2 & 0.754376 & 0.754376 & 0.7019 & 0.8013 & score\_bootstrap & False \\
+\bottomrule
+\end{tabular}
+\end{table}

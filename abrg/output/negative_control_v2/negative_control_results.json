@@ -1,0 +1,113 @@
+{
+  "timestamp_utc": "2026-07-29T09:21:55.587292+00:00",
+  "dataset": "v2",
+  "seed": 42,
+  "test_apps": [
+    "anonvpn.anon_next.android",
+    "app.ladefuchs.android",
+    "app.michaelwuensch.bitbanana",
+    "app.organicmaps",
+    "bluepie.ad_silence",
+    "bus.chio.wishmaster",
+    "ca.rmen.nounours",
+    "ch.joshuah.bibleverseapp"
+  ],
+  "test_snapshots": 125,
+  "observed_directed_pairs": 82,
+  "impossible_directed_pairs": 380,
+  "note": "Eval uses deterministic recon_loss (all directed non-edges as negatives). GAE encode still ignores edge_weight; weight_randomization is a null probe under the current encoder. Corruptions are never pooled.",
+  "models": {
+    "normalized_v021": {
+      "label": "normalized_v021",
+      "normalize": true,
+      "gae_uses_edge_weight": false,
+      "benign_baseline_median": 0.6523178815841675,
+      "benign_baseline_iqr": 0.08427530527114868,
+      "benign_n": 125,
+      "cells": {
+        "edge_shuffle": {
+          "n": 48,
+          "benign_median": 0.6716740727424622,
+          "corrupted_median": 0.7480687201023102,
+          "median_delta": 0.0,
+          "iqr_delta": 0.4133412092924118,
+          "auc": 0.6438802083333334,
+          "win_rate": 0.4583333333333333,
+          "wins": 22,
+          "wilcoxon_p_greater": 2.0829954515152272e-05,
+          "skipped_unchanged": 77
+        },
+        "impossible_edge": {
+          "n": 125,
+          "benign_median": 0.6523178815841675,
+          "corrupted_median": 0.815718948841095,
+          "median_delta": 0.22822606563568115,
+          "iqr_delta": 0.033101409673690796,
+          "auc": 0.9384640000000001,
+          "win_rate": 1.0,
+          "wins": 125,
+          "wilcoxon_p_greater": 1.4212724287019675e-22,
+          "skipped_unchanged": 0
+        },
+        "weight_randomization": {
+          "n": 51,
+          "benign_median": 0.6734110713005066,
+          "corrupted_median": 0.6734110713005066,
+          "median_delta": 0.0,
+          "iqr_delta": 0.0,
+          "auc": 0.5,
+          "win_rate": 0.0,
+          "wins": 0,
+          "wilcoxon_p_greater": NaN,
+          "skipped_unchanged": 74
+        }
+      }
+    },
+    "raw_pre_v021": {
+      "label": "raw_pre_v021",
+      "normalize": false,
+      "gae_uses_edge_weight": false,
+      "benign_baseline_median": 0.6530270576477051,
+      "benign_baseline_iqr": 0.08413764834403992,
+      "benign_n": 125,
+      "cells": {
+        "edge_shuffle": {
+          "n": 48,
+          "benign_median": 0.6715793311595917,
+          "corrupted_median": 0.7483131587505341,
+          "median_delta": 0.0,
+          "iqr_delta": 0.4162614792585373,
+          "auc": 0.64453125,
+          "win_rate": 0.4583333333333333,
+          "wins": 22,
+          "wilcoxon_p_greater": 2.646246506600697e-05,
+          "skipped_unchanged": 77
+        },
+        "impossible_edge": {
+          "n": 125,
+          "benign_median": 0.6530270576477051,
+          "corrupted_median": 0.835398256778717,
+          "median_delta": 0.22841787338256836,
+          "iqr_delta": 0.08332517743110657,
+          "auc": 0.9442560000000001,
+          "win_rate": 1.0,
+          "wins": 125,
+          "wilcoxon_p_greater": 1.4636885520369907e-22,
+          "skipped_unchanged": 0
+        },
+        "weight_randomization": {
+          "n": 108,
+          "benign_median": 0.6042463183403015,
+          "corrupted_median": 0.6042463183403015,
+          "median_delta": 0.0,
+          "iqr_delta": 0.0,
+          "auc": 0.4999999999999999,
+          "win_rate": 0.0,
+          "wins": 0,
+          "wilcoxon_p_greater": NaN,
+          "skipped_unchanged": 17
+        }
+      }
+    }
+  }
+}

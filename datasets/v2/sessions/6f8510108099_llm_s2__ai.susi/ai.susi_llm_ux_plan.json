@@ -1,0 +1,635 @@
+{
+  "goals": [
+    "Input search query",
+    "Tap Search",
+    "Tap searchChat",
+    "Tap fabsetting",
+    "Tap Navigate",
+    "Input text in Ask SUSI something…",
+    "Tap btnSpeak",
+    "Tap What is the time now?",
+    "Tap voiceCommand",
+    "Tap ImageView"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Input search query",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Open the observed search affordance before typing into a query field."
+    },
+    {
+      "index": 1,
+      "goal": "Tap Search",
+      "nav_token": "search",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Open the observed search affordance before typing into a query field."
+    },
+    {
+      "index": 2,
+      "goal": "Tap searchChat",
+      "nav_token": "search",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Open the observed search affordance before typing into a query field."
+    },
+    {
+      "index": 3,
+      "goal": "Tap fabsetting",
+      "nav_token": "search",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Open the observed search affordance before typing into a query field."
+    },
+    {
+      "index": 4,
+      "goal": "Tap Navigate",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Input text in Ask SUSI something…",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Tap btnSpeak",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Tap What is the time now?",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 8,
+      "goal": "Tap voiceCommand",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 9,
+      "goal": "Tap ImageView",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac": "Ask SUSI something… askSusiMessage EditText · fabsetting ImageButton · searchChat ImageButton · btnSpeak ImageView",
+    "6138b92cc770506b620dca7bc63336c3039d24604ad088cfce90bacfcafccbc9": "Ask SUSI something… askSusiMessage EditText · fabsetting ImageButton · searchChat ImageButton · btnSpeak ImageView",
+    "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66": "Ask SUSI something… askSusiMessage EditText · What is the time now? voiceCommand TextView · Which is the largest country voiceCommand TextView · LinearLayout · LinearLayout",
+    "0608dd1fd861d2dc1fcae71e8aecfac7f606ff5dfc527b9d4945c63872d23d80": "Ask SUSI something… askSusiMessage EditText · fabsetting ImageButton",
+    "0cbdfc152ab7c33bec9695cb7fd6cbffbc19c491c7ea9c25d959e1fa2946af9b": "Ask SUSI something… askSusiMessage EditText · fabsetting ImageButton",
+    "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2": "Search action_search TextView · Navigate up ImageButton · More options ImageView",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": ""
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:ai.susi:id/askSusiMessage|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ai.susi:id/askSusiMessage",
+        "target_content_desc": "",
+        "visible_on": [
+          "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+          "6138b92cc770506b620dca7bc63336c3039d24604ad088cfce90bacfcafccbc9",
+          "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+          "0608dd1fd861d2dc1fcae71e8aecfac7f606ff5dfc527b9d4945c63872d23d80",
+          "0cbdfc152ab7c33bec9695cb7fd6cbffbc19c491c7ea9c25d959e1fa2946af9b"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "0608dd1fd861d2dc1fcae71e8aecfac7f606ff5dfc527b9d4945c63872d23d80",
+        "last_to": "0cbdfc152ab7c33bec9695cb7fd6cbffbc19c491c7ea9c25d959e1fa2946af9b"
+      },
+      "nav:ai.susi:id/btnSpeak|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ai.susi:id/btnSpeak",
+        "target_content_desc": "",
+        "visible_on": [
+          "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+          "6138b92cc770506b620dca7bc63336c3039d24604ad088cfce90bacfcafccbc9"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "last_to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66"
+      },
+      "tab:ai.susi:id/voiceCommand|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ai.susi:id/voiceCommand",
+        "target_content_desc": "",
+        "visible_on": [
+          "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "last_to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66"
+      },
+      "nav:ai.susi:id/voiceCommand|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ai.susi:id/voiceCommand",
+        "target_content_desc": "",
+        "visible_on": [
+          "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:ai.susi:id/fabsetting|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ai.susi:id/fabsetting",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "0cbdfc152ab7c33bec9695cb7fd6cbffbc19c491c7ea9c25d959e1fa2946af9b",
+        "last_to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2"
+      },
+      "tab:|More options": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 13,
+        "successes": 13,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2"
+      },
+      "expand:|More options": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [],
+        "attempts": 12,
+        "successes": 12,
+        "last_from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:|Navigate up": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 6,
+        "successes": 6,
+        "last_from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "last_to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac"
+      },
+      "expand:ai.susi:id/fabsetting|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "ai.susi:id/fabsetting",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 5,
+        "successes": 5,
+        "last_from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "last_to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2"
+      }
+    },
+    "edges": [
+      {
+        "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "to": "6138b92cc770506b620dca7bc63336c3039d24604ad088cfce90bacfcafccbc9",
+        "target_key": "tab:ai.susi:id/askSusiMessage|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "6138b92cc770506b620dca7bc63336c3039d24604ad088cfce90bacfcafccbc9",
+        "to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "target_key": "nav:ai.susi:id/btnSpeak|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "target_key": "tab:ai.susi:id/voiceCommand|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "0608dd1fd861d2dc1fcae71e8aecfac7f606ff5dfc527b9d4945c63872d23d80",
+        "to": "0cbdfc152ab7c33bec9695cb7fd6cbffbc19c491c7ea9c25d959e1fa2946af9b",
+        "target_key": "tab:ai.susi:id/askSusiMessage|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "0cbdfc152ab7c33bec9695cb7fd6cbffbc19c491c7ea9c25d959e1fa2946af9b",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "tab:ai.susi:id/fabsetting|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "target_key": "nav:ai.susi:id/btnSpeak|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "to": "aa679b072cd8cb380a554b99716506d0c5f8b01f2f912a787ab16d0bf2adef66",
+        "target_key": "tab:ai.susi:id/voiceCommand|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0608dd1fd861d2dc1fcae71e8aecfac7f606ff5dfc527b9d4945c63872d23d80",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:ai.susi:id/fabsetting|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:ai.susi:id/fabsetting|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:ai.susi:id/fabsetting|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:ai.susi:id/fabsetting|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:ai.susi:id/fabsetting|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "948ff69da5f5fdbf0bbcb33c9dd405f969d331ba445d78e94924326d48a489d2",
+        "to": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+    "root_screen_signature": "231eea0cd6c42f627cd643b2dbc92c3262bf0fddc8bbb33a68b8dcf27f90270b",
+    "root_screen_hint": "Ask SUSI something… askSusiMessage EditText · fabsetting ImageButton · searchChat ImageButton · btnSpeak ImageView",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ai.susi",
+          "screen_hash": "863f8d4d2923ad8fb1382c40878ccce7f387ecb28864a7e0d0fb07b6b804acac",
+          "interactive_count": 4,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "231eea0cd6c42f627cd643b2dbc92c3262bf0fddc8bbb33a68b8dcf27f90270b",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical user opens the app, navigates to the chat tab, and then starts typing a message in the EditText field. They may also use the fabsetting ImageButton to access additional features or switch between different modes (e.g., voice command). Occasionally, they might initiate a search action by clicking on the search action_search TextView, which leads to navigating up and displaying more options.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

@@ -1,0 +1,17 @@
+20426 1784153593.909893 exit(0)         = ?
+20426 1784153593.910417 +++ exited with 0 +++
+20425 1784153593.910721 exit(0)         = ?
+20425 1784153593.911319 +++ exited with 0 +++
+20424 1784153593.911633 exit(0)         = ?
+20424 1784153593.912244 +++ exited with 0 +++
+20423 1784153593.912252 exit(0)         = ?
+20423 1784153593.912640 +++ exited with 0 +++
+20436 1784153593.915966 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+20436 1784153593.916647 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+20436 1784153593.917159 newfstatat(AT_FDCWD, "/data/app/ca.momi.lift-39ddjJ-qAIiMifEmf7eoMw==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+20436 1784153593.917521 newfstatat(AT_FDCWD, "/data/app/ca.momi.lift-39ddjJ-qAIiMifEmf7eoMw==/base.apk", {st_mode=S_IFREG|0644, st_size=2396101, ...}, AT_SYMLINK_NOFOLLOW) = 0
+20436 1784153593.917843 getcwd("/", 4096) = 2
+20436 1784153593.918143 newfstatat(AT_FDCWD, "/base.apk", 0x75973f1690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+20449 1784153606.282999 exit(0)         = ?
+20449 1784153606.283438 +++ exited with 0 +++
+20447 1784153606.332711 faccessat(AT_FDCWD, "/proc/self/task/20449", F_OK) = -1 ENOENT (No such file or directory)

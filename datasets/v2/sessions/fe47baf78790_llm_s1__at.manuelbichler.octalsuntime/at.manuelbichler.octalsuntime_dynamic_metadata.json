@@ -1,0 +1,164 @@
+{
+  "package_name": "at.manuelbichler.octalsuntime",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/at.manuelbichler.octalsuntime_6.apk",
+  "apk_sha256": "fe47baf787900a84028e78100aa37699597ae7e555c5c17a2979df42ced7137b",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1784056941673,
+  "elapsed_sec": 451.109,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 846342809,
+  "session_mode": "identical",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "8584",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "at.manuelbichler.octalsuntime_frida.jsonl",
+  "frida_lines": 615,
+  "strace_log_path": "at.manuelbichler.octalsuntime_strace.log",
+  "strace_size_bytes": 28951,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 846342809,
+  "arm": "llm",
+  "session_id": "fe47baf78790_llm_s1",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "good",
+  "llm_actions_count": 50,
+  "llm_action_log_path": "at.manuelbichler.octalsuntime_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Tap Add location",
+    "Tap CANCEL",
+    "Tap Manage locations",
+    "Input text in Name of place",
+    "Tap ImageView",
+    "Press Back to return to the main app list",
+    "Wait for UI to settle"
+  ],
+  "llm_ux_plan_path": "at.manuelbichler.octalsuntime_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "at.manuelbichler.octalsuntime_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical users open the app to view and manage their saved locations. They tap the 'Add location' button to input a new location, which triggers an auto-complete_location_picker. After selecting a location, they can view details by tapping on it. Users then navigate between different tabs (e.g., 'Manage locations') using horizontal swipes or vertical swipes for other sections.",
+  "llm_primary_ux_fallback_reason": "post_nav_realism_blend:goal_index>=4",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "eb0fb8973ce59a78993f9272e88e57c04918a7bd59b133443cd9e18c344c40c3",
+    "root_screen_signature": "07c10541c9cf863942fe04b16645752d30a36e952771055b0cbbfeee6bef4d93",
+    "root_screen_hint": "Manage locations manage_locations Button",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "eb0fb8973ce59a78993f9272e88e57c04918a7bd59b133443cd9e18c344c40c3",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "at.manuelbichler.octalsuntime",
+          "screen_hash": "eb0fb8973ce59a78993f9272e88e57c04918a7bd59b133443cd9e18c344c40c3",
+          "interactive_count": 1,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "07c10541c9cf863942fe04b16645752d30a36e952771055b0cbbfeee6bef4d93",
+          "root_landmark_score": 1
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/fe47baf78790_at.manuelbichler.octalsuntime/dynamic/llm/session_1/at.manuelbichler.octalsuntime_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "at.manuelbichler.octalsuntime",
+    "app_name": "at.manuelbichler.octalsuntime",
+    "category": "Unknown",
+    "purpose": "No description available",
+    "ux_type": "hybrid",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/at.manuelbichler.octalsuntime"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 0,
+    "dialogs_tapped_after_warmup": 0,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 16,
+        "screen_hash": "f947468cfc7003bc"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 13,
+        "screen_hash": "8e1e73648a05e4b2"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/fe47baf78790_at.manuelbichler.octalsuntime/dynamic/llm/session_1/at.manuelbichler.octalsuntime_verified_start.xml",
+    "pre_setup_wall_sec": 5.197,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 6,
+  "frida_reattach_successes": 6,
+  "frida_valid_events": 93,
+  "frida_meaningful_events": 48,
+  "frida_meaningful_categories": 2
+}

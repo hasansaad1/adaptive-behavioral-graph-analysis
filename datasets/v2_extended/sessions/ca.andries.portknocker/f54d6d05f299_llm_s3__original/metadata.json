@@ -1,0 +1,73 @@
+{
+  "active_categories": [
+    "storage"
+  ],
+  "app_id": "ca.andries.portknocker",
+  "batch": "original",
+  "end_timestamp": "2026-07-15T08:23:40.764000Z",
+  "end_timestamp_ms": 1784103820764,
+  "event_counts": {
+    "mapped": 4,
+    "mapped_rate": 0.0103359173126615,
+    "total": 387
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "f54d6d05f299_llm_s3__original",
+  "failure_reason": null,
+  "gae_eligible": false,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 1,
+  "n_edges": 0,
+  "reference_tier_pass": true,
+  "session_id": "f54d6d05f299_llm_s3",
+  "session_index_within_app": 3,
+  "source_frida_path": "datasets/v2/sessions/f54d6d05f299_llm_s3__ca.andries.portknocker/ca.andries.portknocker_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/f54d6d05f299_llm_s3__ca.andries.portknocker/ca.andries.portknocker_dynamic_metadata.json",
+  "start_timestamp": "2026-07-15T08:16:02.578000Z",
+  "start_timestamp_ms": 1784103362578,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 387,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 20,
+    "n_with_timestamp": 387,
+    "unparseable_line_numbers_sample": [
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 458.186
+}

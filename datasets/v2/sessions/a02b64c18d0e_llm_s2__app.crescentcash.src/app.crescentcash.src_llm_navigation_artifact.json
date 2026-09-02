@@ -1,0 +1,1010 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "app.crescentcash.src",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_hash": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "hint": "Restore verifyUserBtn Button · Cash Account handle2 EditText · Recovery seed recoverySeed EditText",
+      "visit_count": 11
+    },
+    {
+      "screen_hash": "73123bc6fb9cec658a288ae7f35ecc88a21f4c15d6cac4adbef5bc65fae60eba",
+      "hint": "Create New Wallet createWalletBtn Button · Restore Wallet restoreWalletBtn Button",
+      "visit_count": 8
+    },
+    {
+      "screen_hash": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "hint": "Create registerUserBtn Button · Cash Account handle EditText",
+      "visit_count": 36
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "73123bc6fb9cec658a288ae7f35ecc88a21f4c15d6cac4adbef5bc65fae60eba",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/createWalletBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1073,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/createWalletBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/createWalletBtn|"
+    },
+    {
+      "step": 2,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/handle",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 777,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/handle",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/handle|"
+    },
+    {
+      "step": 3,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 4,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 5,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 6,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 7,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 8,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 9,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 10,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 11,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 12,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 13,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 14,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 15,
+      "from": "73123bc6fb9cec658a288ae7f35ecc88a21f4c15d6cac4adbef5bc65fae60eba",
+      "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/restoreWalletBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1243,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/restoreWalletBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/restoreWalletBtn|"
+    },
+    {
+      "step": 16,
+      "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/recoverySeed",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 862,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/recoverySeed",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/recoverySeed|"
+    },
+    {
+      "step": 17,
+      "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/verifyUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1098,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/verifyUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/verifyUserBtn|"
+    },
+    {
+      "step": 18,
+      "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/verifyUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1098,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/verifyUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/verifyUserBtn|"
+    },
+    {
+      "step": 19,
+      "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/verifyUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1098,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/verifyUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/verifyUserBtn|"
+    },
+    {
+      "step": 20,
+      "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/verifyUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1098,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/verifyUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/verifyUserBtn|"
+    },
+    {
+      "step": 21,
+      "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/verifyUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1098,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/verifyUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/verifyUserBtn|"
+    },
+    {
+      "step": 22,
+      "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/verifyUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1098,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/verifyUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/verifyUserBtn|"
+    },
+    {
+      "step": 23,
+      "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/verifyUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1098,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/verifyUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/verifyUserBtn|"
+    },
+    {
+      "step": 24,
+      "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/verifyUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1098,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/verifyUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/verifyUserBtn|"
+    },
+    {
+      "step": 25,
+      "from": "73123bc6fb9cec658a288ae7f35ecc88a21f4c15d6cac4adbef5bc65fae60eba",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/createWalletBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1073,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/createWalletBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/createWalletBtn|"
+    },
+    {
+      "step": 26,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 27,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 28,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 29,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 30,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 31,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 32,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 33,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    },
+    {
+      "step": 34,
+      "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1013,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.crescentcash.src:id/registerUserBtn",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.crescentcash.src:id/registerUserBtn|"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:app.crescentcash.src:id/createWalletBtn|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.crescentcash.src:id/createWalletBtn",
+        "target_content_desc": "",
+        "visible_on": [
+          "73123bc6fb9cec658a288ae7f35ecc88a21f4c15d6cac4adbef5bc65fae60eba"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "73123bc6fb9cec658a288ae7f35ecc88a21f4c15d6cac4adbef5bc65fae60eba",
+        "last_to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8"
+      },
+      "tab:app.crescentcash.src:id/restoreWalletBtn|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.crescentcash.src:id/restoreWalletBtn",
+        "target_content_desc": "",
+        "visible_on": [
+          "73123bc6fb9cec658a288ae7f35ecc88a21f4c15d6cac4adbef5bc65fae60eba"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "73123bc6fb9cec658a288ae7f35ecc88a21f4c15d6cac4adbef5bc65fae60eba",
+        "last_to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc"
+      },
+      "nav:app.crescentcash.src:id/createWalletBtn|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.crescentcash.src:id/createWalletBtn",
+        "target_content_desc": "",
+        "visible_on": [
+          "73123bc6fb9cec658a288ae7f35ecc88a21f4c15d6cac4adbef5bc65fae60eba"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.crescentcash.src:id/restoreWalletBtn|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.crescentcash.src:id/restoreWalletBtn",
+        "target_content_desc": "",
+        "visible_on": [
+          "73123bc6fb9cec658a288ae7f35ecc88a21f4c15d6cac4adbef5bc65fae60eba"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:app.crescentcash.src:id/handle|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.crescentcash.src:id/handle",
+        "target_content_desc": "",
+        "visible_on": [
+          "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "last_to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8"
+      },
+      "tab:app.crescentcash.src:id/registerUserBtn|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "visible_on": [
+          "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8"
+        ],
+        "attempts": 21,
+        "successes": 21,
+        "last_from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "last_to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8"
+      },
+      "nav:app.crescentcash.src:id/registerUserBtn|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.crescentcash.src:id/registerUserBtn",
+        "target_content_desc": "",
+        "visible_on": [
+          "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:app.crescentcash.src:id/recoverySeed|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.crescentcash.src:id/recoverySeed",
+        "target_content_desc": "",
+        "visible_on": [
+          "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "last_to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc"
+      },
+      "tab:app.crescentcash.src:id/verifyUserBtn|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.crescentcash.src:id/verifyUserBtn",
+        "target_content_desc": "",
+        "visible_on": [
+          "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc"
+        ],
+        "attempts": 8,
+        "successes": 8,
+        "last_from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "last_to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc"
+      },
+      "nav:app.crescentcash.src:id/verifyUserBtn|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.crescentcash.src:id/verifyUserBtn",
+        "target_content_desc": "",
+        "visible_on": [
+          "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "73123bc6fb9cec658a288ae7f35ecc88a21f4c15d6cac4adbef5bc65fae60eba",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/createWalletBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/handle|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "73123bc6fb9cec658a288ae7f35ecc88a21f4c15d6cac4adbef5bc65fae60eba",
+        "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "target_key": "tab:app.crescentcash.src:id/restoreWalletBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "target_key": "tab:app.crescentcash.src:id/recoverySeed|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "target_key": "tab:app.crescentcash.src:id/verifyUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "target_key": "tab:app.crescentcash.src:id/verifyUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "target_key": "tab:app.crescentcash.src:id/verifyUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "target_key": "tab:app.crescentcash.src:id/verifyUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "target_key": "tab:app.crescentcash.src:id/verifyUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "target_key": "tab:app.crescentcash.src:id/verifyUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "target_key": "tab:app.crescentcash.src:id/verifyUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "to": "60b345de520b0dfa9ab8376bdce4748accaf719e5dad3bb25168174f096292dc",
+        "target_key": "tab:app.crescentcash.src:id/verifyUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "73123bc6fb9cec658a288ae7f35ecc88a21f4c15d6cac4adbef5bc65fae60eba",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/createWalletBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "to": "fa80cc4b12b616eaf5cfb9000ebf7888995742b50c0a1ede71addf3be01b1ea8",
+        "target_key": "tab:app.crescentcash.src:id/registerUserBtn|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  }
+}

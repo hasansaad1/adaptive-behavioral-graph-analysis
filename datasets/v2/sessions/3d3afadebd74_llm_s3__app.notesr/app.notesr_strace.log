@@ -1,0 +1,205 @@
+4390  1783930594.773023 exit(0)         = ?
+4390  1783930594.773189 +++ exited with 0 +++
+4392  1783930594.775621 exit(0)         = ?
+4392  1783930594.775947 +++ exited with 0 +++
+4391  1783930594.776391 exit(0)         = ?
+4391  1783930594.776870 +++ exited with 0 +++
+4389  1783930594.776880 exit(0)         = ?
+4389  1783930594.777313 +++ exited with 0 +++
+4402  1783930594.780553 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4402  1783930594.780960 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4402  1783930594.781332 newfstatat(AT_FDCWD, "/data/app/app.notesr-LafExRfA6g1V5RmOM0okmA==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4402  1783930594.781718 newfstatat(AT_FDCWD, "/data/app/app.notesr-LafExRfA6g1V5RmOM0okmA==/base.apk", {st_mode=S_IFREG|0644, st_size=37094421, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4402  1783930594.782257 getcwd("/", 4096) = 2
+4402  1783930594.782625 newfstatat(AT_FDCWD, "/base.apk", 0x70758d5690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+4382  1783930595.363847 clone(child_stack=0x70719dbd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x70719dbd60, tls=0x70719dc020, child_tidptr=0x70719dbd60) = 4459
+4459  1783930595.370643 faccessat(AT_FDCWD, "/data/user/0/app.notesr/files", F_OK) = 0
+4459  1783930595.370915 faccessat(AT_FDCWD, "/data/user/0/app.notesr/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+4459  1783930595.371168 openat(AT_FDCWD, "/data/user/0/app.notesr/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 66
+4459  1783930595.371962 getsockopt(66, SOL_SOCKET, SO_ERROR, 0x70719da254, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+4459  1783930595.373744 openat(AT_FDCWD, "/data/app/app.notesr-LafExRfA6g1V5RmOM0okmA==/base.apk", O_RDONLY) = 66
+4459  1783930595.374190 getsockopt(66, SOL_SOCKET, SO_ERROR, 0x70719d9c74, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+4459  1783930595.374624 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/app.notesr/primary.prof", 0x70719d9c18, 0) = -1 ENOENT (No such file or directory)
+4459  1783930595.374882 faccessat(AT_FDCWD, "/data/misc/profiles/ref/app.notesr/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+4459  1783930595.375132 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/app.notesr/primary.prof", {st_mode=S_IFREG|0600, st_size=7126, ...}, 0) = 0
+4459  1783930595.375385 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/app.notesr/primary.prof", F_OK) = 0
+4459  1783930595.375953 faccessat(AT_FDCWD, "/data/user/0/app.notesr/files", F_OK) = 0
+4459  1783930595.376183 faccessat(AT_FDCWD, "/data/user/0/app.notesr/files/profileInstalled", F_OK) = 0
+4459  1783930595.376428 openat(AT_FDCWD, "/data/user/0/app.notesr/files/profileInstalled", O_RDONLY) = 66
+4459  1783930595.377759 getsockopt(66, SOL_SOCKET, SO_ERROR, 0x70719d9594, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+4459  1783930595.380730 exit(0)         = ?
+4459  1783930595.380916 +++ exited with 0 +++
+4418  1783930595.432362 faccessat(AT_FDCWD, "/proc/self/task/4459", F_OK) = -1 ENOENT (No such file or directory)
+4420  1783930607.596708 exit(0)         = ?
+4420  1783930607.597201 +++ exited with 0 +++
+4418  1783930607.650662 faccessat(AT_FDCWD, "/proc/self/task/4420", F_OK) = -1 ENOENT (No such file or directory)
+4382  1783930611.437968 recvfrom(47, "\2\0\0\0\0\0\0\0}\t\0\0\0\0\0\0\0o\350\337\223\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+4382  1783930611.439386 recvfrom(39, 0x7fd67a8ad0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4421  1783930611.454200 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0L\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.461369 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0M\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4382  1783930611.463355 sendto(47, "\3\0\0\0\0\0\0\0}\t\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+4382  1783930611.463737 recvfrom(47, 0x7105d93420, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930611.464298 recvfrom(47, "\2\0\0\0\0\0\0\0\177\t\0\0\0\0\0\0\0o\350\337\223\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+4382  1783930611.464493 sendto(47, "\3\0\0\0\0\0\0\0\177\t\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+4382  1783930611.464762 recvfrom(47, 0x7105d93420, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930611.464987 recvfrom(39, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\345\232\340\340\223\2\0\0\355\225\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+4382  1783930611.465139 recvfrom(39, 0x7fd67ab450, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930611.465399 recvfrom(47, 0x7105d93420, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930611.466048 recvfrom(39, 0x7fd67ab3b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930611.469345 recvfrom(39, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\3565\337\341\223\2\0\0\356\225\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+4382  1783930611.469556 recvfrom(39, 0x7fd67ab450, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930611.470022 socket(AF_UNIX, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 66
+4382  1783930611.470274 setsockopt(66, SOL_SOCKET, SO_SNDBUF, [1048576], 4) = 0
+4382  1783930611.470501 connect(66, {sa_family=AF_UNIX, sun_path="/dev/socket/statsdw"}, 110) = 0
+4421  1783930611.490503 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0N\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.499376 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0O\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4382  1783930611.501668 recvfrom(47, 0x7105d93420, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930611.502486 recvfrom(39, 0x7fd67ab3b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930611.516197 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+4382  1783930611.516500 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+4382  1783930611.516715 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+4382  1783930611.516866 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+4382  1783930611.517012 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+4382  1783930611.517157 newfstatat(AT_FDCWD, "/data/app/app.notesr-LafExRfA6g1V5RmOM0okmA==/base.apk", {st_mode=S_IFREG|0644, st_size=37094421, ...}, 0) = 0
+4382  1783930611.518461 clone( <unfinished ...>
+4403  1783930611.519517 clone( <unfinished ...>
+4382  1783930611.519529 <... clone resumed> child_stack=0x70719dbd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x70719dbd60, tls=0x70719dc020, child_tidptr=0x70719dbd60) = 4476
+4403  1783930611.522574 <... clone resumed> child_stack=0x70718a2d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x70718a2d60, tls=0x70718a3020, child_tidptr=0x70718a2d60) = 4477
+4477  1783930611.523188 exit(0)         = ?
+4477  1783930611.523211 +++ exited with 0 +++
+4382  1783930611.523420 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+4382  1783930611.523766 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+4382  1783930611.524011 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+4382  1783930611.524265 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+4382  1783930611.524508 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+4382  1783930611.524737 newfstatat(AT_FDCWD, "/data/app/app.notesr-LafExRfA6g1V5RmOM0okmA==/base.apk", {st_mode=S_IFREG|0644, st_size=37094421, ...}, 0) = 0
+4476  1783930611.525354 exit(0)         = ?
+4476  1783930611.525488 +++ exited with 0 +++
+4382  1783930611.526159 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
+4382  1783930611.529652 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+4382  1783930611.529801 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+4382  1783930611.529945 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+4382  1783930611.530092 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+4382  1783930611.530232 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+4382  1783930611.530371 newfstatat(AT_FDCWD, "/data/app/app.notesr-LafExRfA6g1V5RmOM0okmA==/base.apk", {st_mode=S_IFREG|0644, st_size=37094421, ...}, 0) = 0
+4421  1783930611.543494 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\24\1\0\0P\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=452}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 452
+4421  1783930611.553502 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\24\1\0\0Q\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=452}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 452
+4382  1783930611.565798 recvfrom(39, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\26\6\333\344\223\2\0\0\361\225\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+4382  1783930611.565963 recvfrom(39, 0x7fd67ab450, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930611.566841 recvfrom(70, 0x70704dc420, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930611.566996 recvfrom(39, 0x7fd67ab3b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4421  1783930611.575430 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0R\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.582702 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0S\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.593627 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0T\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.600876 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0U\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.608802 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0V\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.616314 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0W\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.623323 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0X\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.631342 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0Y\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.637700 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0Z\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.644766 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0[\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.650365 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\\\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.658083 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0]\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.664375 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0^\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.670152 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0_\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.678607 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0`\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.684736 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0a\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.691213 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0b\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.699725 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0c\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.706732 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0d\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.712758 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0e\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.721279 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0f\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.728029 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0g\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.736426 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0h\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.744062 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0i\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.750239 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0j\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.757664 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0k\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.763833 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0l\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.770242 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0m\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.778023 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0n\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.784405 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0o\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.790914 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0p\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.798809 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0q\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.806957 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0r\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.813473 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0s\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.821462 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0t\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.827639 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0u\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.837746 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0v\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.845733 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0w\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.851032 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0x\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.860653 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0y\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.868254 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0z\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.875540 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0{\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.883633 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0|\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.890067 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0}\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.898660 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0~\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.906530 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\177\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.912891 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\200\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.918913 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\201\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.924651 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\202\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.932028 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\203\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.939836 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\204\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.946132 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\205\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.953085 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\206\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.960955 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\207\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.967581 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\210\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.974582 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\211\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.982340 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\212\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930611.988874 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\213\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930611.996970 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\214\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930612.003623 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\215\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930612.011041 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\216\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930612.018387 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\217\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930612.026616 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\220\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930612.034815 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\221\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930612.041687 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\222\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930612.047574 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\223\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930612.055979 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\224\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930612.063562 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\225\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930612.069182 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\226\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930612.077066 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\227\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930612.084372 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0\230\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4421  1783930612.091327 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\231\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930612.097364 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\232\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930612.103926 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\233\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930612.112282 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\234\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930612.118544 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\235\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930612.124903 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\236\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930612.131511 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\237\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930612.139775 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\240\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4421  1783930612.147137 sendmsg(67, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\0\1\0\0\241\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=432}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 432
+4382  1783930612.189535 recvfrom(39, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\24v\326\347\223\2\0\0\364\225\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+4382  1783930612.189722 recvfrom(39, 0x7fd67ab450, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.200108 recvfrom(70, 0x70704dc420, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.200345 recvfrom(39, 0x7fd67ab3b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.204928 recvfrom(39, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\364w\233\r\224\2\0\0\32\226\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+4382  1783930612.205088 recvfrom(39, 0x7fd67ab450, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.207126 recvfrom(70, 0x70704dc420, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.207356 recvfrom(39, 0x7fd67ab3b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.219694 recvfrom(39, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\36\310\231\16\224\2\0\0\33\226\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+4382  1783930612.219958 recvfrom(39, 0x7fd67ab450, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.222889 recvfrom(39, 0x7fd67ab3b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.238950 recvfrom(39, "nysv\0\0\0\0\0\0\0\0\0\0\0\0v\221\227\17\224\2\0\0\34\226\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+4382  1783930612.239224 recvfrom(39, 0x7fd67ab450, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.239680 recvfrom(39, 0x7fd67ab3b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.253038 recvfrom(39, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\240\341\225\20\224\2\0\0\35\226\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+4382  1783930612.253230 recvfrom(39, 0x7fd67ab450, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.253938 recvfrom(39, 0x7fd67ab3b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.269404 recvfrom(39, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\2078\224\21\224\2\0\0\36\226\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+4382  1783930612.269757 recvfrom(39, 0x7fd67ab450, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.270192 recvfrom(39, 0x7fd67ab3b0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.293781 recvfrom(39, "nysv\0\0\0\0\0\0\0\0\0\0\0\0Y\352\220\22\224\2\0\0\37\226\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+4382  1783930612.294106 recvfrom(39, 0x7fd67ab450, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4399  1783930612.608574 clone( <unfinished ...>
+4382  1783930612.608596 recvfrom(39, 0x7fd67ab4a0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4399  1783930612.610127 <... clone resumed> child_stack=0x70719dbd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x70719dbd60, tls=0x70719dc020, child_tidptr=0x70719dbd60) = 4502
+4502  1783930612.612639 openat(AT_FDCWD, "/proc/4502/timerslack_ns", O_WRONLY|O_CREAT|O_TRUNC|O_NOFOLLOW|O_CLOEXEC, 0666) = 52
+4382  1783930612.620840 recvfrom(39, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\22\360o&\224\2\0\0002\226\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+4382  1783930612.621218 recvfrom(39, 0x7fd67ab450, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.621713 recvfrom(47, 0x7105d93420, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.633760 recvfrom(39, 0x7fd67ab1d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.636238 recvfrom(39, "nysv\0\0\0\0\0\0\0\0\0\0\0\0(`n'\224\2\0\0003\226\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+4382  1783930612.636644 recvfrom(39, 0x7fd67ab450, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4382  1783930612.637115 recvfrom(47, 0x7105d93420, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4402  1783930634.798616 openat(AT_FDCWD, "/data/misc/profiles/cur/0/app.notesr/primary.prof", O_RDWR|O_NOFOLLOW|O_CLOEXEC) = 52
+4402  1783930634.799967 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/app.notesr/primary.prof", {st_mode=S_IFREG|0600, st_size=7126, ...}, 0) = 0

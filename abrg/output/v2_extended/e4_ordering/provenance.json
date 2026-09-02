@@ -1,0 +1,71 @@
+{
+  "export_index_edges": {
+    "n": 342,
+    "min": 0.0,
+    "p25": 1.0,
+    "median": 2.0,
+    "p75": 6.0,
+    "max": 25.0,
+    "iqr": 5.0,
+    "mean": 4.046783625730995
+  },
+  "recomputed_seq_edges": {
+    "n": 342,
+    "min": 0.0,
+    "p25": 2.0,
+    "median": 5.0,
+    "p75": 10.0,
+    "max": 28.0,
+    "iqr": 8.0,
+    "mean": 5.973684210526316
+  },
+  "recomputed_update_graph_edges": {
+    "n": 342,
+    "min": 0.0,
+    "p25": 1.0,
+    "median": 2.0,
+    "p75": 6.0,
+    "max": 25.0,
+    "iqr": 5.0,
+    "mean": 4.046783625730995
+  },
+  "export_vs_seq_mismatch_sessions": 194,
+  "norm_ab_v2": {
+    "total_snapshots": 731,
+    "gae_eligible_snapshots": 565,
+    "edge_dist_trainable": {
+      "min": 0,
+      "median": 2.0,
+      "max": 25,
+      "mean": 4.56
+    },
+    "edge_dist_gae": {
+      "min": 1,
+      "median": 3,
+      "max": 25,
+      "mean": 5.11
+    },
+    "gae_csv_n": 565,
+    "gae_csv_edge_sum": 2888.0,
+    "gae_csv_edge_mean": 5.111504424778761
+  },
+  "archaeology_579_728": {
+    "cited": "579 edge instances across ~728 snapshots (August handoff)",
+    "reproduced": false,
+    "note": "Not found in any persisted artifact. Closest: norm_ab_v2 total_snapshots=731, gae_eligible_snapshots=565, GAE edge sum=2888.0 (mean 5.11 edges/snap on 60s windows). The thesis B5 bucket label 72831 refers to mapped-event counts in a retention curve, not edge instances.",
+    "correct_figure_whole_session_run2": {
+      "n_sessions": 342,
+      "edge_median": 5.0,
+      "edge_mean": 5.973684210526316,
+      "edge_sum": 2043.0
+    }
+  },
+  "verdict": {
+    "e4_builder": "abrg.chapter_b.graphs_seq.graph_from_events \u2192 update_graph_sequence",
+    "e4_why": "Chapter B Run 2 unit-aligned comparison used update_graph_sequence (k-burst=5, w_cum, zero static, whole session). Export index used build_session_graph/update_graph with \u03b4 time filter \u2192 fewer edges (median 2 vs 5). E4 must match Run 2 for comparability with Chapter B.",
+    "reconciled": true,
+    "export_stage": "build_session_graph (update_graph, \u03b4-filtered pairs) \u2192 len(edges)",
+    "run2_stage": "graph_from_events (update_graph_sequence, k-burst only) \u2192 topology iter_edges",
+    "norm_ab_v2_stage": "60s timed snapshots on original v2 (168 sessions), not v2_extended whole-session"
+  }
+}

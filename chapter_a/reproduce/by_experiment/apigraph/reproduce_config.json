@@ -1,0 +1,61 @@
+{
+  "kind": "androct_master_verify",
+  "experiment": "apigraph",
+  "n_rows": 5,
+  "cli_rerun": {
+    "cli_module": "abrg.apigraph",
+    "out_flag": "--output-dir"
+  },
+  "rows": [
+    {
+      "detector": "in_vocab_event_count",
+      "method": "trivial_floor",
+      "representation": "API_1000",
+      "split": "splitA_GAE",
+      "auc_floor": "0.6476866916979558",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/apigraph/floors/K1000_floors.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "total_event_count",
+      "method": "trivial_floor",
+      "representation": "API_1000",
+      "split": "splitA_GAE",
+      "auc_floor": "0.6912202753441802",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/apigraph/floors/K1000_floors.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "active_nodes",
+      "method": "trivial_floor",
+      "representation": "API_1000",
+      "split": "splitA_GAE",
+      "auc_floor": "0.605517313308302",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/apigraph/floors/K1000_floors.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "edge_count",
+      "method": "trivial_floor",
+      "representation": "API_1000",
+      "split": "splitA_GAE",
+      "auc_floor": "0.5126095118898624",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/apigraph/floors/K1000_floors.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "graph_density",
+      "method": "trivial_floor",
+      "representation": "API_1000",
+      "split": "splitA_GAE",
+      "auc_floor": "0.5126095118898624",
+      "raw_auc": "",
+      "artifact_path": "abrg/output/androct_2017/apigraph/floors/K1000_floors.json",
+      "is_headline": "False"
+    }
+  ]
+}

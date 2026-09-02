@@ -1,0 +1,235 @@
+{
+  "package_name": "ca.rmen.android.frenchcalendar",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/ca.rmen.android.frenchcalendar_1182.apk",
+  "apk_sha256": "5e76f97d04251f44d8e68e9c46eacbc94883c61ab271f85d31158db6e3aa9ce9",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1784157667018,
+  "elapsed_sec": 474.268,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 262672050,
+  "session_mode": "identical",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "29793",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "ca.rmen.android.frenchcalendar_frida.jsonl",
+  "frida_lines": 640,
+  "strace_log_path": "ca.rmen.android.frenchcalendar_strace.log",
+  "strace_size_bytes": 1267,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 262672050,
+  "arm": "llm",
+  "session_id": "5e76f97d0425_llm_s2",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "good",
+  "llm_actions_count": 57,
+  "llm_action_log_path": "ca.rmen.android.frenchcalendar_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Tap action settings button",
+    "Open calendar view",
+    "Tap Settings",
+    "Tap Navigate",
+    "Tap Reset the French",
+    "Tap Reset the Gregorian",
+    "Input text in 11",
+    "Input text in 2026",
+    "Input text in 23 Tridi"
+  ],
+  "llm_ux_plan_path": "ca.rmen.android.frenchcalendar_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "ca.rmen.android.frenchcalendar_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical users navigate through the calendar by swiping vertically between months (e.g., Primidi, Sextidi, etc.) and then horizontally within each month to view specific dates. They may also use the 'Navigate up' button to return to the previous month or year. Opening the 'Settings' tab first allows users to customize their calendar preferences. The primary interaction is a vertical swipe between y-coordinates.",
+  "llm_primary_ux_fallback_reason": "post_nav_realism_blend:goal_index>=4",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+    "root_screen_signature": "370c267206ea3873298e042eacf07b8596c77142a5802002b2265d642c1c5405",
+    "root_screen_hint": "Help btn_help ImageView \u00b7 16 numberpicker_input EditText \u00b7 2026 numberpicker_input EditText \u00b7 234 numberpicker_input EditText \u00b7 28 Octidi numberpicker_input EditText \u00b7 Jul numberpicker_input EditText \u00b7 Messidor numberpicker_input EditText \u00b7 spinner_method Spinner \u00b7 SETTINGS action_settings TextView \u00b7 Reset the French calendar ImageButton",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ca.rmen.android.frenchcalendar",
+          "screen_hash": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "interactive_count": 23,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "370c267206ea3873298e042eacf07b8596c77142a5802002b2265d642c1c5405",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/5e76f97d0425_ca.rmen.android.frenchcalendar/dynamic/llm/session_2/ca.rmen.android.frenchcalendar_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "ca.rmen.android.frenchcalendar",
+    "app_name": "ca.rmen.android.frenchcalendar",
+    "category": "Productivity",
+    "purpose": "No description available",
+    "ux_type": "user-interactive",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/ca.rmen.android.frenchcalendar"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 2,
+    "dialogs_tapped_after_warmup": 3,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          361,
+          868
+        ],
+        "node_count": 49,
+        "screen_hash": "5fbeffbf0c91c4cb"
+      },
+      {
+        "round": 2,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          361,
+          718
+        ],
+        "node_count": 49,
+        "screen_hash": "fb9bb9d502d0f7c2"
+      },
+      {
+        "round": 3,
+        "action": "back",
+        "reason": "transition_guard_stuck_repeat",
+        "screen_hash": "fb9bb9d502d0f7c2",
+        "repeat_hash_streak": 1
+      },
+      {
+        "round": 4,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 24,
+        "screen_hash": "256142fa4e6015c1"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          540,
+          1766
+        ],
+        "node_count": 51,
+        "screen_hash": "334f66b3059e2b92"
+      },
+      {
+        "round": 2,
+        "action": "back",
+        "reason": "transition_guard_stuck_repeat",
+        "screen_hash": "334f66b3059e2b92",
+        "repeat_hash_streak": 1
+      },
+      {
+        "round": 3,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          361,
+          868
+        ],
+        "node_count": 49,
+        "screen_hash": "5fbeffbf0c91c4cb"
+      },
+      {
+        "round": 4,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          361,
+          718
+        ],
+        "node_count": 49,
+        "screen_hash": "fb9bb9d502d0f7c2"
+      },
+      {
+        "round": 5,
+        "action": "back",
+        "reason": "transition_guard_stuck_repeat",
+        "screen_hash": "fb9bb9d502d0f7c2",
+        "repeat_hash_streak": 1
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/5e76f97d0425_ca.rmen.android.frenchcalendar/dynamic/llm/session_2/ca.rmen.android.frenchcalendar_verified_start.xml",
+    "pre_setup_wall_sec": 19.439,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 5,
+  "frida_reattach_successes": 5,
+  "frida_valid_events": 194,
+  "frida_meaningful_events": 104,
+  "frida_meaningful_categories": 2
+}

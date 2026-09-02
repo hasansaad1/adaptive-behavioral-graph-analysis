@@ -1,0 +1,16 @@
+ABRG normalization A/B — same corpus / split / seed
+============================================================
+Dataset: v2 | window=35.0s | seed=42
+edge_weight_in_encoder=True
+Train: 567 snaps / 32 apps
+Test:  161 snaps / 8 apps
+
+                 train_med   test_med   ratio   loss_final
+normalized_v021     0.5617    0.6836  1.217      0.7611
+raw_pre_v021        0.5755    0.6958  1.209      0.6989
+
+Δ test median (norm − raw):  -0.0122
+Δ train median (norm − raw): -0.0138
+
+Encoder feeds edge_weight into GCNConv; recon_loss stays adjacency BCE.
+Saved: abrg/output/exp_near_origin/wd1e5_weighted/comparison.json

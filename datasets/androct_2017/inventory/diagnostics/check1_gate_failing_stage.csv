@@ -1,0 +1,4 @@
+label,category,fail_stage,class_name,method_name,input_line
+benign,dynamic_code_loading,allowlist_filter,dalvik.system.DexClassLoader,<init>,"<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>"
+malware,dynamic_code_loading,categorize_callee,dalvik.system.BaseDexClassLoader,findClass,"<androidx.pluginmgr.env.e: java.lang.Class loadClass(java.lang.String,boolean)> -> <dalvik.system.BaseDexClassLoader: java.lang.Class findClass(java.lang.String)>"
+benign,sms,categorize_callee,com.venmo.service.VenmoSmsManager,getDefault,<com.venmo.ApplicationState: void onCreate()> -> <com.venmo.service.VenmoSmsManager: com.venmo.service.VenmoSmsManager getDefault()>

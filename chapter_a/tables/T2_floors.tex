@@ -1,0 +1,27 @@
+\begin{table}[ht]
+\centering
+\caption{Trivial floors across T22, API-1000, and invocation representations.}
+\label{tab:t2-floors}
+\begin{tabular}{lrrrrrr}
+\toprule
+rep & metric & raw & floor & direction & CI low & CI high \\
+\midrule
+n_mapped & mapped_event_count & 0.7025 & 0.7025 & malware\_higher\_score & 0.6434 & 0.7545 \\
+T22 & mapped_event_count &  & 0.7025 & malware\_higher\_score & 0.6434 & 0.7545 \\
+T22 & total_event_count &  & 0.6912 & malware\_higher\_score & 0.6294 & 0.7477 \\
+T22 & distinct_active_categories &  & 0.5165 & benign\_higher\_score & 0.5007 & 0.5699 \\
+T22 & active_nodes &  & 0.5164 & benign\_higher\_score & 0.5007 & 0.5704 \\
+T22 & edge_count &  & 0.5267 & malware\_higher\_score & 0.5013 & 0.5781 \\
+T22 & graph_density &  & 0.5267 & malware\_higher\_score & 0.5013 & 0.5781 \\
+API_1000 & in_vocab_event_count &  & 0.6477 & malware\_higher\_score & 0.5800 & 0.7099 \\
+API_1000 & total_event_count &  & 0.6912 & malware\_higher\_score & 0.6294 & 0.7478 \\
+API_1000 & active_nodes &  & 0.6055 & benign\_higher\_score & 0.5567 & 0.6573 \\
+API_1000 & edge_count &  & 0.5126 & benign\_higher\_score & 0.5008 & 0.5655 \\
+API_1000 & graph_density &  & 0.5126 & benign\_higher\_score & 0.5008 & 0.5655 \\
+invocation_V2 & edge_count &  & 0.7338 & benign\_higher\_score & 0.6839 & 0.7863 \\
+invocation_V2 & graph_density &  & 0.7338 & benign\_higher\_score & 0.6839 & 0.7863 \\
+invocation_V2 & active_nodes &  & 0.5659 & benign\_higher\_score & 0.5179 & 0.6192 \\
+invocation_V2 & in_vocab_events &  & 0.6589 & malware\_higher\_score & 0.5891 & 0.7221 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,69 @@
+{
+  "active_categories": [
+    "file_io",
+    "ipc_intents",
+    "webview"
+  ],
+  "analysis_status": "flag:webview_dominant",
+  "analyze_exit_status": 0,
+  "app_id": "app.udderance",
+  "batch": "extend",
+  "end_timestamp": "2026-08-15T00:27:55.196000Z",
+  "end_timestamp_ms": 1786753675196,
+  "event_counts": {
+    "mapped": 171,
+    "mapped_rate": 0.12638580931263857,
+    "total": 1353
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "2074fc55fb78_llm_s8__extend",
+  "failure_reason": "analyze_status:flag:webview_dominant",
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "Context.bindService",
+    "WebView.loadUrl"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 1,
+  "reference_tier_pass": false,
+  "session_id": "2074fc55fb78_llm_s8",
+  "session_index_within_app": 8,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/2074fc55fb78_app.udderance/dynamic/llm/session_8/app.udderance_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/2074fc55fb78_app.udderance/dynamic/llm/session_8/app.udderance_dynamic_metadata.json",
+  "start_timestamp": "2026-08-15T00:20:17.639000Z",
+  "start_timestamp_ms": 1786753217639,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1353,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 10,
+    "n_with_timestamp": 1353,
+    "unparseable_line_numbers_sample": [
+      1223,
+      1224,
+      1225,
+      1226,
+      1227,
+      1228,
+      1229,
+      1230,
+      1231,
+      1232
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 457.663
+}

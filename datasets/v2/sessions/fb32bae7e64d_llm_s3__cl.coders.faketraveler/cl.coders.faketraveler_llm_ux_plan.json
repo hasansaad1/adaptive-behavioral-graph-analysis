@@ -1,0 +1,670 @@
+{
+  "goals": [
+    "Tap button settings",
+    "Tap Navigate up",
+    "Tap button applyStop",
+    "Tap Settings",
+    "Tap Apply",
+    "Tap Marker",
+    "Tap Navigate",
+    "Tap Zoom",
+    "Input text in address input"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap button settings",
+      "nav_token": "settings",
+      "target_keys": [
+        "tab:settings"
+      ],
+      "observed_screen_hashes": [
+        "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+        "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+      ],
+      "observed_screen_hints": [
+        "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · address_input EditText · 12 editTextLat EditText · 15 editTextLng EditText · Leaflet View · OpenStreetMap View · View · Marker Button",
+        "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · 12 editTextLat EditText · 15 editTextLng EditText",
+        "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · 12 editTextLat EditText · 15 editTextLng EditText · Leaflet View · OpenStreetMap View · View · Marker Button · Zoom in Button"
+      ],
+      "route_hint": "Use visible settings navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 1,
+      "goal": "Tap Navigate up",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|Navigate up"
+      ],
+      "observed_screen_hashes": [
+        "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70"
+      ],
+      "observed_screen_hints": [
+        "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · address_input EditText · 12 editTextLat EditText · 15 editTextLng EditText · Leaflet View · OpenStreetMap View · View · Marker Button"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap button applyStop",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Settings",
+      "nav_token": "settings",
+      "target_keys": [
+        "tab:settings"
+      ],
+      "observed_screen_hashes": [
+        "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+        "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+      ],
+      "observed_screen_hints": [
+        "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · address_input EditText · 12 editTextLat EditText · 15 editTextLng EditText · Leaflet View · OpenStreetMap View · View · Marker Button",
+        "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · 12 editTextLat EditText · 15 editTextLng EditText",
+        "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · 12 editTextLat EditText · 15 editTextLng EditText · Leaflet View · OpenStreetMap View · View · Marker Button · Zoom in Button"
+      ],
+      "route_hint": "Use visible settings navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 4,
+      "goal": "Tap Apply",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Tap Marker",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Tap Navigate",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Tap Zoom",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 8,
+      "goal": "Input text in address input",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70": "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · address_input EditText · 12 editTextLat EditText · 15 editTextLng EditText · Leaflet View · OpenStreetMap View · View · Marker Button",
+    "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75": "Mock movement as speed cb_MockSpeed CheckBox · 0 et_DMockLat EditText · 0 et_DMockLon EditText · OpenStreetMap et_MapProvider EditText · 0 et_MockCount EditText · 10 et_MockFrequency EditText · Requires restart - a list of textView9 TextView · Navigate up ImageButton",
+    "daecd04d3cc8f1f1a576023fb2a19c4591ebe342d23852b39598debad4d68e28": "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · address_input EditText · 12 editTextLat EditText · 15 editTextLng EditText · Leaflet View · OpenStreetMap View · View · Zoom in Button",
+    "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7": "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · 12 editTextLat EditText · 15 editTextLng EditText",
+    "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c": "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · 12 editTextLat EditText · 15 editTextLng EditText · Leaflet View · OpenStreetMap View · View · Marker Button · Zoom in Button",
+    "9243fa7b49733cb8926e6343528726c3ccac2797efc73732337c54bdc6a43dff": "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · address_input EditText · 12 editTextLat EditText · 15 editTextLng EditText · Leaflet View · OpenStreetMap View · View · Zoom out Button",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": ""
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "cl.coders.faketraveler:id/button_settings",
+        "target_content_desc": "",
+        "visible_on": [
+          "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+          "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+          "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c"
+        ],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "last_to": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+      },
+      "tab:|Leaflet": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "visible_on": [
+          "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+          "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c"
+        ],
+        "attempts": 18,
+        "successes": 18,
+        "last_from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:|OpenStreetMap": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "OpenStreetMap",
+        "visible_on": [
+          "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+          "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:|Leaflet": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Leaflet",
+        "visible_on": [
+          "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+          "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|OpenStreetMap": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "OpenStreetMap",
+        "visible_on": [
+          "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+          "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cl.coders.faketraveler:id/cb_MockSpeed|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/cb_MockSpeed",
+        "target_content_desc": "",
+        "visible_on": [
+          "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cl.coders.faketraveler:id/et_DMockLat|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/et_DMockLat",
+        "target_content_desc": "",
+        "visible_on": [
+          "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cl.coders.faketraveler:id/et_DMockLon|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/et_DMockLon",
+        "target_content_desc": "",
+        "visible_on": [
+          "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cl.coders.faketraveler:id/et_MapProvider|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/et_MapProvider",
+        "target_content_desc": "",
+        "visible_on": [
+          "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cl.coders.faketraveler:id/textView9|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/textView9",
+        "target_content_desc": "",
+        "visible_on": [
+          "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:cl.coders.faketraveler:id/cb_MockSpeed|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/cb_MockSpeed",
+        "target_content_desc": "",
+        "visible_on": [
+          "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:cl.coders.faketraveler:id/textView9|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/textView9",
+        "target_content_desc": "",
+        "visible_on": [
+          "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|Navigate up": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+        "last_to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1110}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+        "last_to": "9243fa7b49733cb8926e6343528726c3ccac2797efc73732337c54bdc6a43dff"
+      },
+      "tab:cl.coders.faketraveler:id/button_applyStop|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/button_applyStop",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "last_to": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 70, \"y\": 636}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+        "last_to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70"
+      },
+      "expand:cl.coders.faketraveler:id/button_applyStop|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "cl.coders.faketraveler:id/button_applyStop",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "last_to": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 70, \"y\": 718}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "last_to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70"
+      }
+    },
+    "edges": [
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+        "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "daecd04d3cc8f1f1a576023fb2a19c4591ebe342d23852b39598debad4d68e28",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1110}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "to": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "target_key": "tab:cl.coders.faketraveler:id/button_applyStop|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "to": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+        "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 70, \"y\": 636}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+        "to": "9243fa7b49733cb8926e6343528726c3ccac2797efc73732337c54bdc6a43dff",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1110}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "to": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "target_key": "expand:cl.coders.faketraveler:id/button_applyStop|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "to": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "target_key": "expand:cl.coders.faketraveler:id/button_applyStop|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "f15653c1e9e18120f55a3c540369fcd1dd65f98169263d41e4897fd3740616b7",
+        "to": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4978a9698e84ed13635607017125defa672532142114ff18ccafd5cc5d1afd75",
+        "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 70, \"y\": 718}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+        "to": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 70, \"y\": 636}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b59c13b04f15725c49cedc2434ad49440f9f738f0ac097e2dfd59b06dbc2c90c",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|OpenStreetMap",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Leaflet",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+    "root_screen_signature": "5ac2b39d1cbd5e5395edd1e874b8b5513a44fb54eb35c94f581208fa7f95252c",
+    "root_screen_hint": "Marker Zoom in Zoom out Leaf map View · Apply button_applyStop Button · ⚙ button_settings Button · address_input EditText · 12 editTextLat EditText · 15 editTextLng EditText · Leaflet View · OpenStreetMap View · View · Marker Button",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "cl.coders.faketraveler",
+          "screen_hash": "1178cddcbeeb548f6370184ff4356c1862f5dc4a1f641781552edf78eee09c70",
+          "interactive_count": 13,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "5ac2b39d1cbd5e5395edd1e874b8b5513a44fb54eb35c94f581208fa7f95252c",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical user opens the app, navigates to the map view, zooms in on a location, and then applies a marker with address input. They may also use the settings button to adjust map provider or navigate up to return to the main screen.",
+    "reason": "post_nav_realism_blend:post_nav_sec>=147"
+  }
+}

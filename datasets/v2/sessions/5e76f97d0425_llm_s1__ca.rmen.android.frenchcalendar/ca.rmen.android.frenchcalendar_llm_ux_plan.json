@@ -1,0 +1,1120 @@
+{
+  "goals": [
+    "Tap action settings",
+    "Tap Navigate up",
+    "Tap numberpicker input",
+    "Tap Reset the Gregorian calendar"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap action settings",
+      "nav_token": "settings",
+      "target_keys": [
+        "tab:settings",
+        "nav:settings"
+      ],
+      "observed_screen_hashes": [
+        "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+        "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+        "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31",
+        "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3"
+      ],
+      "observed_screen_hints": [
+        "Help btn_help ImageView · 16 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 28 Octidi numberpicker_input EditText · Jul numberpicker_input EditText · Messidor numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+        "Help btn_help ImageView · 15 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 27 Septidi numberpicker_input EditText · Jul numberpicker_input EditText · Messidor numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+        "Help btn_help ImageView · 14 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 26 Sextidi numberpicker_input EditText · Jul numberpicker_input EditText · Messidor numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton"
+      ],
+      "route_hint": "Use visible settings navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 1,
+      "goal": "Tap Navigate up",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|Navigate up"
+      ],
+      "observed_screen_hashes": [
+        "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a"
+      ],
+      "observed_screen_hints": [
+        "Help btn_help ImageView · 07 numberpicker_input EditText · 19 Nonidi numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · Jun numberpicker_input EditText · Prairial numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap numberpicker input",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Reset the Gregorian calendar",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|Reset the Gregorian calendar",
+        "nav:|Reset the Gregorian calendar"
+      ],
+      "observed_screen_hashes": [
+        "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+        "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+        "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31",
+        "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3"
+      ],
+      "observed_screen_hints": [
+        "Help btn_help ImageView · 16 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 28 Octidi numberpicker_input EditText · Jul numberpicker_input EditText · Messidor numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+        "Help btn_help ImageView · 15 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 27 Septidi numberpicker_input EditText · Jul numberpicker_input EditText · Messidor numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+        "Help btn_help ImageView · 14 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 26 Sextidi numberpicker_input EditText · Jul numberpicker_input EditText · Messidor numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5": "Help btn_help ImageView · 16 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 28 Octidi numberpicker_input EditText · Jul numberpicker_input EditText · Messidor numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e": "Navigate up ImageButton · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout",
+    "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465": "Help btn_help ImageView · 15 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 27 Septidi numberpicker_input EditText · Jul numberpicker_input EditText · Messidor numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a": "Help btn_help ImageView · 14 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 26 Sextidi numberpicker_input EditText · Jul numberpicker_input EditText · Messidor numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31": "14 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 26 Sextidi numberpicker_input EditText · Jul numberpicker_input EditText · Messidor numberpicker_input EditText · SETTINGS action_settings TextView · Reset the French calendar ImageButton · Reset the Gregorian calendar ImageButton · 13 Button",
+    "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3": "Help btn_help ImageView · 14 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 26 Sextidi numberpicker_input EditText · Jun numberpicker_input EditText · Prairial numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87": "Help btn_help ImageView · 14 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 25 Quintidi numberpicker_input EditText · Floréal numberpicker_input EditText · May numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769": "Help btn_help ImageView · 13 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 25 Quintidi numberpicker_input EditText · Jun numberpicker_input EditText · Prairial numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "45885bfd6f26831f7cef9502339ca96c90aa1771004f52a937fb5d771b5a4f3d": "Help btn_help ImageView · 14 numberpicker_input EditText · 2025 numberpicker_input EditText · 233 numberpicker_input EditText · 26 Sextidi numberpicker_input EditText · Jun numberpicker_input EditText · Prairial numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a": "Help btn_help ImageView · 16 numberpicker_input EditText · 2027 numberpicker_input EditText · 235 numberpicker_input EditText · 28 Octidi numberpicker_input EditText · Jul numberpicker_input EditText · Messidor numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29": "Help btn_help ImageView · 17 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 29 Nonidi numberpicker_input EditText · Jul numberpicker_input EditText · Messidor numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "8ba40ec451154a818f5fa1e03ee8c86017e623c6763d988e8f7f1021c4850dfc": "Navigate up ImageButton",
+    "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406": "Help btn_help ImageView · 16 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 28 Octidi numberpicker_input EditText · Jun numberpicker_input EditText · Prairial numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1": "Help btn_help ImageView · 15 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 27 Septidi numberpicker_input EditText · Jun numberpicker_input EditText · Prairial numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54": "Help btn_help ImageView · 12 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 24 Quartidi numberpicker_input EditText · Jun numberpicker_input EditText · Prairial numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45": "Help btn_help ImageView · 11 numberpicker_input EditText · 2026 numberpicker_input EditText · 23 Tridi numberpicker_input EditText · 234 numberpicker_input EditText · Jun numberpicker_input EditText · Prairial numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7": "Help btn_help ImageView · 10 numberpicker_input EditText · 2026 numberpicker_input EditText · 22 Duodi numberpicker_input EditText · 234 numberpicker_input EditText · Jun numberpicker_input EditText · Prairial numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e": "Help btn_help ImageView · 09 numberpicker_input EditText · 2026 numberpicker_input EditText · 21 Primidi numberpicker_input EditText · 234 numberpicker_input EditText · Jun numberpicker_input EditText · Prairial numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e": "Help btn_help ImageView · 08 numberpicker_input EditText · 20 Décadi numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · Jun numberpicker_input EditText · Prairial numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a": "Help btn_help ImageView · 07 numberpicker_input EditText · 19 Nonidi numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · Jun numberpicker_input EditText · Prairial numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9": "Help btn_help ImageView · 06 numberpicker_input EditText · 18 Octidi numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · Jun numberpicker_input EditText · Prairial numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54": "Help btn_help ImageView · 05 numberpicker_input EditText · 17 Septidi numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · Jun numberpicker_input EditText · Prairial numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 382, \"y\": 1218}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+        "last_to": "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 382, \"y\": 1518}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+        "last_to": "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1218}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+        "last_to": "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1518}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+        "last_to": "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 802, \"y\": 1218}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+        "last_to": "45885bfd6f26831f7cef9502339ca96c90aa1771004f52a937fb5d771b5a4f3d"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 802, \"y\": 1518}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "last_to": "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a"
+      },
+      "tab:android:id/numberpicker_input|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/numberpicker_input",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+        "last_to": "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31"
+      },
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "ca.rmen.android.frenchcalendar:id/action_settings",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 9,
+        "successes": 9,
+        "last_from": "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54",
+        "last_to": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e"
+      },
+      "tab:|Reset the Gregorian calendar": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Reset the Gregorian calendar",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+        "last_to": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5"
+      },
+      "nav:settings": {
+        "kind": "nav",
+        "semantic_token": "settings",
+        "target_resource_id": "ca.rmen.android.frenchcalendar:id/action_settings",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 382, \"y\": 1218}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 382, \"y\": 1518}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1218}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1518}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 802, \"y\": 1218}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 802, \"y\": 1518}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Reset the Gregorian calendar": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Reset the Gregorian calendar",
+        "visible_on": [
+          "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+          "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+          "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31",
+          "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+          "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+          "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+          "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+          "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+          "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+          "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+          "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+          "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+          "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+          "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+          "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+          "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+          "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+          "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|Navigate up": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 8,
+        "successes": 8,
+        "last_from": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e",
+        "last_to": "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 14,
+        "successes": 14,
+        "last_from": "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+        "last_to": "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 382, \"y\": 993}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31",
+        "last_to": "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 993}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 802, \"y\": 993}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 382, \"y\": 993}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 993}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 802, \"y\": 993}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 868}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "last_to": "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 609, \"y\": 568}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "last_to": "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406"
+      }
+    },
+    "edges": [
+      {
+        "from": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "to": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e",
+        "to": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "to": "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "9065db6ad7c6c1bca428c80513138bb85c11e879bc28fbbf20c01553f3f8f465",
+        "to": "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "f00f95cf37a0243bf52d5dbe9d8d93f3eefc6beb5bbafdbe480ae4a6a1ab363a",
+        "to": "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31",
+        "target_key": "tab:android:id/numberpicker_input|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "39e0b54826edbbbac08f06b0f7419ecd294fe772f2aec3a38712425d4dcb1c31",
+        "to": "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 382, \"y\": 993}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+        "to": "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 382, \"y\": 1218}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "cb367671b954fdb490dcdeb9c1917c03afeee1a3799256def6130d22507d4d87",
+        "to": "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 382, \"y\": 1518}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+        "to": "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1218}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+        "to": "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1518}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+        "to": "45885bfd6f26831f7cef9502339ca96c90aa1771004f52a937fb5d771b5a4f3d",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 802, \"y\": 1218}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "to": "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 802, \"y\": 1518}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "bf5ff6f638b058aefaede2deb67415e9177df2ce8b06a777fe7b0c8d307f909a",
+        "to": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "target_key": "tab:|Reset the Gregorian calendar",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "to": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e",
+        "to": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "to": "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 868}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c7e6a8eefc3645419d809339b1558ef78d025da72227a8b64c221cbeb8d32a29",
+        "to": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "to": "8ba40ec451154a818f5fa1e03ee8c86017e623c6763d988e8f7f1021c4850dfc",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8ba40ec451154a818f5fa1e03ee8c86017e623c6763d988e8f7f1021c4850dfc",
+        "to": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+        "to": "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 609, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "c762cddb1f2275b6a0feb2960c96dc92c08cb599787f1089ab2fbe29203bc406",
+        "to": "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+        "to": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e",
+        "to": "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "af4da71458ca17c42f0e4c072f0d5d763e9bf3d509d9f32dc8b83a01a66c81c1",
+        "to": "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "3881ef34cb05bddeb6e4e02fc813e270585275d05a74e0fa815445d3e6a3b6e3",
+        "to": "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+        "to": "8ba40ec451154a818f5fa1e03ee8c86017e623c6763d988e8f7f1021c4850dfc",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8ba40ec451154a818f5fa1e03ee8c86017e623c6763d988e8f7f1021c4850dfc",
+        "to": "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8ee77242a92e832142207222d2b7dcbdfce510bc08cf144e255bb7ccaef6b769",
+        "to": "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "a9721de3a129daa43bc95ba76fa47f0e9e6238237bdfc7ce019c22f6e0e71b54",
+        "to": "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+        "to": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e",
+        "to": "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "1b0ee7cfa3573607e3a5949ad7d8ab359e8aeb058cae593eb9ad6901cbaaaf45",
+        "to": "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "a19f862e302d4e169bd15cfc30bd8ec8e3a171bad72932a6e22d8b22e4cac5d7",
+        "to": "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+        "to": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e",
+        "to": "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "f3d473fd374fffb37454b4f011dd323a3aeb37acbbdc0eaf7a2bf9fd6f9b158e",
+        "to": "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "d4893ee2ec1889e9e674ca42a226ad806af06f09ed0a77bd8249dec2a7845f5e",
+        "to": "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+        "to": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e",
+        "to": "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "6398f6cf235c31554066c5219bb15b09d26c8a9f015a4b24196909193f4c777a",
+        "to": "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "52ebfbce6f3f42e635b63b1b44c9e971eebe5e81799c9aeeacacca0cfe1684e9",
+        "to": "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 361, \"y\": 568}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8d75c1523300410f9ef25181f1a0456cec92dff4544c33b42d5b3532b8e90c54",
+        "to": "a3134de3e8fae50188b4b30c960ecb73a566ad79e9930f611cb7ff9477a80b3e",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+    "root_screen_signature": "370c267206ea3873298e042eacf07b8596c77142a5802002b2265d642c1c5405",
+    "root_screen_hint": "Help btn_help ImageView · 16 numberpicker_input EditText · 2026 numberpicker_input EditText · 234 numberpicker_input EditText · 28 Octidi numberpicker_input EditText · Jul numberpicker_input EditText · Messidor numberpicker_input EditText · spinner_method Spinner · SETTINGS action_settings TextView · Reset the French calendar ImageButton",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ca.rmen.android.frenchcalendar",
+          "screen_hash": "889581266860085d96d8db58c8f71b8fac8ab4d7d55637276a622b28b34145a5",
+          "interactive_count": 23,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "370c267206ea3873298e042eacf07b8596c77142a5802002b2265d642c1c5405",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical user opens the app and navigates to the calendar view. They then select a date using the number picker input fields, which are arranged in a horizontal row with 7 fields for each month (Sextidi, Jun, Prairial, etc.). The selected date is then displayed on the map view, where they can navigate up to return to the main screen or pan/zoom the map. The user may also access settings by tapping the help button and selecting 'SETTINGS' from the options menu.",
+    "reason": "ux_goals_complete"
+  }
+}

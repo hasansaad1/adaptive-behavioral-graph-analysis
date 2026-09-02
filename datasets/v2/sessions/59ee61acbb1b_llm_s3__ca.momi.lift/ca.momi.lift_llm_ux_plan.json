@@ -1,0 +1,606 @@
+{
+  "goals": [
+    "Tap Deny on system permission dialog if shown",
+    "Tap Next month",
+    "Tap Allow",
+    "Tap Deny",
+    "Tap DONE",
+    "Tap Navigate",
+    "Tap Previous month",
+    "Tap edDate",
+    "Input text in 45.0",
+    "Input text in 65.0"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap Deny on system permission dialog if shown",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap Next month",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Allow",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Deny",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap DONE",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Tap Navigate",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Tap Previous month",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Tap edDate",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 8,
+      "goal": "Input text in 45.0",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 9,
+      "goal": "Input text in 65.0",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "0b3b61c6b4bad4d109e9abbc7a92895403026f3545e8a2390dabfc8c58a48eb1": "Next month next ImageButton · Previous month prev ImageButton · RECORD WORKOUT FOR SELETECTE edDate Button · More options ImageView",
+    "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc": "Navigate up ImageButton · DONE SET Button · DONE SET Button · DONE SET Button · DONE WORKOUT Button · 45.0 EditText · 45.0 EditText · 65.0 EditText",
+    "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7": "Navigate up ImageButton · DONE SET Button · DONE SET Button · DONE SET Button · DONE WORKOUT Button · 45.0 EditText · 45.0 EditText · 65.0 EditText · FrameLayout",
+    "791801fb39d15bc3a8f4fd91304c0cd918cac13a678293d1c2fc82d96cac9cb4": "Allow permission_allow_button Button · Deny permission_deny_button Button",
+    "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c": "Navigate up ImageButton · DONE SET Button · DONE SET Button · 45.0 EditText · 45.0 EditText · 65.0 EditText",
+    "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98": "Navigate up ImageButton · DONE SET Button · DONE SET Button · 45.0 EditText · 45.0 EditText · 65.0 EditText · FrameLayout",
+    "28c4e148c5486a869410b3fa831ec4cf9eb1cc0ba6cf9e93c1f1bfa300e9f467": "Navigate up ImageButton · DONE SET Button · DONE SET Button · 45.0 EditText · 45.0 EditText · 65.0 EditText · FrameLayout",
+    "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6": "Navigate up ImageButton · DONE SET Button · DONE SET Button · DONE SET Button · DONE WORKOUT Button · 45.0 EditText · 45.0 EditText · 65.0 EditText · FrameLayout"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:ca.momi.lift:id/edDate|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.momi.lift:id/edDate",
+        "target_content_desc": "",
+        "visible_on": [
+          "0b3b61c6b4bad4d109e9abbc7a92895403026f3545e8a2390dabfc8c58a48eb1"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "0b3b61c6b4bad4d109e9abbc7a92895403026f3545e8a2390dabfc8c58a48eb1",
+        "last_to": "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc"
+      },
+      "nav:ca.momi.lift:id/edDate|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ca.momi.lift:id/edDate",
+        "target_content_desc": "",
+        "visible_on": [
+          "0b3b61c6b4bad4d109e9abbc7a92895403026f3545e8a2390dabfc8c58a48eb1"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc",
+          "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+          "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6"
+        ],
+        "attempts": 24,
+        "successes": 24,
+        "last_from": "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc",
+        "last_to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 317, \"y\": 1129}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc",
+        "last_to": "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1503}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc",
+          "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+          "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+        "last_to": "791801fb39d15bc3a8f4fd91304c0cd918cac13a678293d1c2fc82d96cac9cb4"
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc",
+          "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+          "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1503}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc",
+          "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+          "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 856}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c",
+          "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98"
+        ],
+        "attempts": 9,
+        "successes": 9,
+        "last_from": "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98",
+        "last_to": "28c4e148c5486a869410b3fa831ec4cf9eb1cc0ba6cf9e93c1f1bfa300e9f467"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 317, \"y\": 994}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c",
+          "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98",
+        "last_to": "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c"
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 856}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c",
+          "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "0b3b61c6b4bad4d109e9abbc7a92895403026f3545e8a2390dabfc8c58a48eb1",
+        "to": "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc",
+        "target_key": "tab:ca.momi.lift:id/edDate|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc",
+        "to": "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+        "to": "791801fb39d15bc3a8f4fd91304c0cd918cac13a678293d1c2fc82d96cac9cb4",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1503}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc",
+        "to": "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 317, \"y\": 1129}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c",
+        "to": "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 856}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98",
+        "to": "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 317, \"y\": 994}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c",
+        "to": "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 856}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98",
+        "to": "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 856}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c",
+        "to": "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 856}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98",
+        "to": "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 856}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c",
+        "to": "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 856}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98",
+        "to": "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 856}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "172c4654dec3d6b0f11aa560888efc334162d8d76dae5729a46efa4ef5e2e53c",
+        "to": "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 856}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e5d1332d6fb4b8eb36e4a509fcb4af982c5483d863369d4cdd819ff5d5524a98",
+        "to": "28c4e148c5486a869410b3fa831ec4cf9eb1cc0ba6cf9e93c1f1bfa300e9f467",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 856}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "0b3b61c6b4bad4d109e9abbc7a92895403026f3545e8a2390dabfc8c58a48eb1",
+        "to": "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc",
+        "target_key": "tab:ca.momi.lift:id/edDate|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc",
+        "to": "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+        "to": "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+        "to": "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+        "to": "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9c7f96e0d621a815f67b3669997c0a3cf24c80d2671508c55863a44746f17ae7",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "bde2200c17c4be99ccfcbea51b9b2979ac4a38fef3da30a69f30e25865be2dcc",
+        "to": "6abc7bcd0bad77cece8b7554ee78c1dd32749ac201daa82a166451c6326daaf6",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 124, \"y\": 1377}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "0b3b61c6b4bad4d109e9abbc7a92895403026f3545e8a2390dabfc8c58a48eb1",
+    "root_screen_signature": "5ec41fc2e516ab75adacfe4b6db4e2bb3b5d3ef1872b21f494fd5f924e5aad8e",
+    "root_screen_hint": "Next month next ImageButton · Previous month prev ImageButton · RECORD WORKOUT FOR SELETECTE edDate Button · More options ImageView",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "0b3b61c6b4bad4d109e9abbc7a92895403026f3545e8a2390dabfc8c58a48eb1",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ca.momi.lift",
+          "screen_hash": "0b3b61c6b4bad4d109e9abbc7a92895403026f3545e8a2390dabfc8c58a48eb1",
+          "interactive_count": 4,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "5ec41fc2e516ab75adacfe4b6db4e2bb3b5d3ef1872b21f494fd5f924e5aad8e",
+          "root_landmark_score": 1
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app to record a workout, navigating up to view the date and selecting the 'Record Workout' tab first. They then tap the 'Record Workout' button to start tracking their exercise. After completing the workout, they tap the 'Done Set' button to save the data. The user then navigates back up to view the main screen, where they can view their recorded workouts and select another one to record.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

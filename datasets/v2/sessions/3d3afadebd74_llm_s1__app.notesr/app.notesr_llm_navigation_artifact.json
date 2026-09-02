@@ -1,0 +1,2664 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "app.notesr",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_hash": "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+      "hint": "OK authButton Button · CAPS capsButton Button · !#% changeKeyboardLayoutButton Button · ⌫ pinBackspaceButton Button · 0 Button · 1 Button · 2 Button · 3 Button · 4 Button · 5 Button",
+      "visit_count": 2
+    },
+    {
+      "screen_hash": "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+      "hint": "OK authButton Button · CAPS capsButton Button · !#% changeKeyboardLayoutButton Button · ⌫ pinBackspaceButton Button · 0 Button · 1 Button · 2 Button · 3 Button · 4 Button · 5 Button",
+      "visit_count": 5
+    },
+    {
+      "screen_hash": "df9a034e534d857b8aab72094a8c44663c57458b260d5d2d2864c09e4fbc1cf7",
+      "hint": "GET STARTED getStartedButton Button",
+      "visit_count": 9
+    },
+    {
+      "screen_hash": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "hint": "OK authButton Button · CAPS capsButton Button · ABC changeKeyboardLayoutButton Button · ⌫ pinBackspaceButton Button · ! Button · # Button · $ Button · % Button · & Button · ' Button",
+      "visit_count": 57
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "df9a034e534d857b8aab72094a8c44663c57458b260d5d2d2864c09e4fbc1cf7",
+      "to": "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.notesr:id/getStartedButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1686,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.notesr:id/getStartedButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.notesr:id/getStartedButton|"
+    },
+    {
+      "step": 2,
+      "from": "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+      "to": "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.notesr:id/authButton",
+        "target_content_desc": "",
+        "x": 933,
+        "y": 1715,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.notesr:id/authButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.notesr:id/authButton|"
+    },
+    {
+      "step": 3,
+      "from": "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+      "to": "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.notesr:id/capsButton",
+        "target_content_desc": "",
+        "x": 147,
+        "y": 1715,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.notesr:id/capsButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.notesr:id/capsButton|"
+    },
+    {
+      "step": 4,
+      "from": "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.notesr:id/changeKeyboardLayoutButton",
+        "target_content_desc": "",
+        "x": 409,
+        "y": 1715,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.notesr:id/changeKeyboardLayoutButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.notesr:id/changeKeyboardLayoutButton|"
+    },
+    {
+      "step": 5,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 1016,
+        "y": 1310,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:1016,1310",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1016, \"y\": 1310}"
+    },
+    {
+      "step": 6,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 1016,
+        "y": 1436,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:1016,1436",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1016, \"y\": 1436}"
+    },
+    {
+      "step": 7,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 1016,
+        "y": 1562,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:1016,1562",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1016, \"y\": 1562}"
+    },
+    {
+      "step": 8,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 168,
+        "y": 1310,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:168,1310",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 168, \"y\": 1310}"
+    },
+    {
+      "step": 9,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 168,
+        "y": 1436,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:168,1436",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 168, \"y\": 1436}"
+    },
+    {
+      "step": 10,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 168,
+        "y": 1562,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:168,1562",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 168, \"y\": 1562}"
+    },
+    {
+      "step": 11,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 274,
+        "y": 1310,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:274,1310",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 274, \"y\": 1310}"
+    },
+    {
+      "step": 12,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 274,
+        "y": 1436,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:274,1436",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 274, \"y\": 1436}"
+    },
+    {
+      "step": 13,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 274,
+        "y": 1562,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:274,1562",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 274, \"y\": 1562}"
+    },
+    {
+      "step": 14,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 380,
+        "y": 1310,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:380,1310",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 380, \"y\": 1310}"
+    },
+    {
+      "step": 15,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 380,
+        "y": 1436,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:380,1436",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 380, \"y\": 1436}"
+    },
+    {
+      "step": 16,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 380,
+        "y": 1562,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:380,1562",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 380, \"y\": 1562}"
+    },
+    {
+      "step": 17,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 486,
+        "y": 1310,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:486,1310",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 486, \"y\": 1310}"
+    },
+    {
+      "step": 18,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 486,
+        "y": 1436,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:486,1436",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 486, \"y\": 1436}"
+    },
+    {
+      "step": 19,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 486,
+        "y": 1562,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:486,1562",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 486, \"y\": 1562}"
+    },
+    {
+      "step": 20,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 592,
+        "y": 1310,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:592,1310",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1310}"
+    },
+    {
+      "step": 21,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 592,
+        "y": 1436,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:592,1436",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1436}"
+    },
+    {
+      "step": 22,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 592,
+        "y": 1562,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:592,1562",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1562}"
+    },
+    {
+      "step": 23,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 63,
+        "y": 1310,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:63,1310",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 63, \"y\": 1310}"
+    },
+    {
+      "step": 24,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 63,
+        "y": 1436,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:63,1436",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 63, \"y\": 1436}"
+    },
+    {
+      "step": 25,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 63,
+        "y": 1562,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:63,1562",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 63, \"y\": 1562}"
+    },
+    {
+      "step": 26,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 698,
+        "y": 1310,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:698,1310",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 698, \"y\": 1310}"
+    },
+    {
+      "step": 27,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 698,
+        "y": 1436,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:698,1436",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 698, \"y\": 1436}"
+    },
+    {
+      "step": 28,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 698,
+        "y": 1562,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:698,1562",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 698, \"y\": 1562}"
+    },
+    {
+      "step": 29,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 804,
+        "y": 1310,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:804,1310",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 804, \"y\": 1310}"
+    },
+    {
+      "step": 30,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 804,
+        "y": 1436,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:804,1436",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 804, \"y\": 1436}"
+    },
+    {
+      "step": 31,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 804,
+        "y": 1562,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:804,1562",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 804, \"y\": 1562}"
+    },
+    {
+      "step": 32,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 910,
+        "y": 1310,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:910,1310",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 910, \"y\": 1310}"
+    },
+    {
+      "step": 33,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 910,
+        "y": 1436,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:910,1436",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 910, \"y\": 1436}"
+    },
+    {
+      "step": 34,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 910,
+        "y": 1562,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:910,1562",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 910, \"y\": 1562}"
+    },
+    {
+      "step": 35,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.notesr:id/authButton",
+        "target_content_desc": "",
+        "x": 933,
+        "y": 1715,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.notesr:id/authButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.notesr:id/authButton|"
+    },
+    {
+      "step": 36,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.notesr:id/authButton",
+        "target_content_desc": "",
+        "x": 933,
+        "y": 1715,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.notesr:id/authButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.notesr:id/authButton|"
+    },
+    {
+      "step": 37,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.notesr:id/authButton",
+        "target_content_desc": "",
+        "x": 933,
+        "y": 1715,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.notesr:id/authButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.notesr:id/authButton|"
+    },
+    {
+      "step": 38,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.notesr:id/authButton",
+        "target_content_desc": "",
+        "x": 933,
+        "y": 1715,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.notesr:id/authButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.notesr:id/authButton|"
+    },
+    {
+      "step": 39,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.notesr:id/authButton",
+        "target_content_desc": "",
+        "x": 933,
+        "y": 1715,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.notesr:id/authButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.notesr:id/authButton|"
+    },
+    {
+      "step": 40,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.notesr:id/authButton",
+        "target_content_desc": "",
+        "x": 933,
+        "y": 1715,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.notesr:id/authButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.notesr:id/authButton|"
+    },
+    {
+      "step": 41,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.notesr:id/authButton",
+        "target_content_desc": "",
+        "x": 933,
+        "y": 1715,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.notesr:id/authButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.notesr:id/authButton|"
+    },
+    {
+      "step": 42,
+      "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.notesr:id/authButton",
+        "target_content_desc": "",
+        "x": 933,
+        "y": 1715,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.notesr:id/authButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.notesr:id/authButton|"
+    },
+    {
+      "step": 43,
+      "from": "df9a034e534d857b8aab72094a8c44663c57458b260d5d2d2864c09e4fbc1cf7",
+      "to": "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.notesr:id/getStartedButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1686,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.notesr:id/getStartedButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.notesr:id/getStartedButton|"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:app.notesr:id/getStartedButton|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.notesr:id/getStartedButton",
+        "target_content_desc": "",
+        "visible_on": [
+          "df9a034e534d857b8aab72094a8c44663c57458b260d5d2d2864c09e4fbc1cf7"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "df9a034e534d857b8aab72094a8c44663c57458b260d5d2d2864c09e4fbc1cf7",
+        "last_to": "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517"
+      },
+      "nav:app.notesr:id/getStartedButton|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.notesr:id/getStartedButton",
+        "target_content_desc": "",
+        "visible_on": [
+          "df9a034e534d857b8aab72094a8c44663c57458b260d5d2d2864c09e4fbc1cf7"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1010, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1016, \"y\": 1184}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1016, \"y\": 1310}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 168, \"y\": 1184}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 168, \"y\": 1310}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 186, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 237, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 274, \"y\": 1184}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 274, \"y\": 1310}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 303, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 380, \"y\": 1184}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 380, \"y\": 1310}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 388, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 420, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 486, \"y\": 1184}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 486, \"y\": 1310}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 538, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 539, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1184}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1310}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 63, \"y\": 1184}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 63, \"y\": 1310}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 656, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 69, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 690, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 698, \"y\": 1184}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 698, \"y\": 1310}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 774, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 804, \"y\": 1184}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 804, \"y\": 1310}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 841, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 86, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 892, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 910, \"y\": 1184}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 910, \"y\": 1310}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 993, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:app.notesr:id/authButton|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.notesr:id/authButton",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 9,
+        "successes": 9,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:app.notesr:id/capsButton|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.notesr:id/capsButton",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+        "last_to": "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+      },
+      "tab:app.notesr:id/changeKeyboardLayoutButton|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.notesr:id/changeKeyboardLayoutButton",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:app.notesr:id/pinBackspaceButton|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.notesr:id/pinBackspaceButton",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1010, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1016, \"y\": 1310}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 168, \"y\": 1310}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 186, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 237, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 274, \"y\": 1310}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 303, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 380, \"y\": 1310}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 388, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 420, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 486, \"y\": 1310}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 538, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 539, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1310}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 63, \"y\": 1310}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 656, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 69, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 690, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 698, \"y\": 1310}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 774, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 804, \"y\": 1310}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 841, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 86, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 892, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 910, \"y\": 1310}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 993, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.notesr:id/authButton|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.notesr:id/authButton",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.notesr:id/capsButton|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.notesr:id/capsButton",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.notesr:id/changeKeyboardLayoutButton|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.notesr:id/changeKeyboardLayoutButton",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.notesr:id/pinBackspaceButton|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.notesr:id/pinBackspaceButton",
+        "target_content_desc": "",
+        "visible_on": [
+          "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+          "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1016, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1016, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 168, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 168, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 274, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 274, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 380, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 380, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 486, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 486, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 63, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 63, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 698, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 698, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 804, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 804, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 910, \"y\": 1436}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 910, \"y\": 1562}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "last_to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1016, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1016, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 168, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 168, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 274, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 274, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 380, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 380, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 486, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 486, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 63, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 63, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 698, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 698, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 804, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 804, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 910, \"y\": 1436}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 910, \"y\": 1562}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "df9a034e534d857b8aab72094a8c44663c57458b260d5d2d2864c09e4fbc1cf7",
+        "to": "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+        "target_key": "tab:app.notesr:id/getStartedButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+        "to": "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+        "target_key": "tab:app.notesr:id/authButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+        "to": "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+        "target_key": "tab:app.notesr:id/capsButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "2f366259d16aba3670fe61ae2d50a59f7c4b949024c6bac9ff72af2f5165cf39",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:app.notesr:id/changeKeyboardLayoutButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1016, \"y\": 1310}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1016, \"y\": 1436}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1016, \"y\": 1562}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 168, \"y\": 1310}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 168, \"y\": 1436}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 168, \"y\": 1562}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 274, \"y\": 1310}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 274, \"y\": 1436}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 274, \"y\": 1562}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 380, \"y\": 1310}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 380, \"y\": 1436}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 380, \"y\": 1562}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 486, \"y\": 1310}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 486, \"y\": 1436}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 486, \"y\": 1562}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1310}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1436}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 592, \"y\": 1562}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 63, \"y\": 1310}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 63, \"y\": 1436}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 63, \"y\": 1562}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 698, \"y\": 1310}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 698, \"y\": 1436}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 698, \"y\": 1562}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 804, \"y\": 1310}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 804, \"y\": 1436}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 804, \"y\": 1562}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 910, \"y\": 1310}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 910, \"y\": 1436}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 910, \"y\": 1562}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:app.notesr:id/authButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:app.notesr:id/authButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:app.notesr:id/authButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:app.notesr:id/authButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:app.notesr:id/authButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:app.notesr:id/authButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:app.notesr:id/authButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "to": "f6f6ba4ca83ce410d86e2b9a4f42415acf7571009733a8c329999b2c296868e3",
+        "target_key": "tab:app.notesr:id/authButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "df9a034e534d857b8aab72094a8c44663c57458b260d5d2d2864c09e4fbc1cf7",
+        "to": "a6a7fad0940ac19e1015ce023e3becae5966378a93131035b14fa7e5d19e3517",
+        "target_key": "tab:app.notesr:id/getStartedButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  }
+}

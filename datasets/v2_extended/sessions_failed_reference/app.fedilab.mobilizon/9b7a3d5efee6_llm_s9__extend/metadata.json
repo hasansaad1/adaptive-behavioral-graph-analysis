@@ -1,0 +1,64 @@
+{
+  "active_categories": [
+    "file_io",
+    "network",
+    "storage",
+    "webview"
+  ],
+  "analysis_status": "partial:ux_quality_gate",
+  "analyze_exit_status": 0,
+  "app_id": "app.fedilab.mobilizon",
+  "batch": "extend",
+  "end_timestamp": "2026-08-15T04:29:25.542000Z",
+  "end_timestamp_ms": 1786768165542,
+  "event_counts": {
+    "mapped": 18,
+    "mapped_rate": 0.0016131923283742606,
+    "total": 11158
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "9b7a3d5efee6_llm_s9__extend",
+  "failure_reason": "analyze_status:partial:ux_quality_gate,sim_not_success",
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "SharedPreferences.getString",
+    "WebView.loadUrl",
+    "okhttp3.RealCall.execute",
+    "retrofit2.OkHttpCall.execute"
+  ],
+  "n_active_nodes": 4,
+  "n_edges": 8,
+  "reference_tier_pass": false,
+  "session_id": "9b7a3d5efee6_llm_s9",
+  "session_index_within_app": 9,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/9b7a3d5efee6_app.fedilab.mobilizon/dynamic/llm/session_9/app.fedilab.mobilizon_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/9b7a3d5efee6_app.fedilab.mobilizon/dynamic/llm/session_9/app.fedilab.mobilizon_dynamic_metadata.json",
+  "start_timestamp": "2026-08-15T04:21:48.813000Z",
+  "start_timestamp_ms": 1786767708813,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 11158,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 2,
+    "n_with_timestamp": 11158,
+    "unparseable_line_numbers_sample": [
+      10256,
+      10257
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 456.815
+}

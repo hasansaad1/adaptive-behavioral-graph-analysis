@@ -1,0 +1,13 @@
+stage,class,n_files,n_header_only,n_effective,n_events,n_mapped,mapped_rate,categories_firing,median_trace_length,median_active_categories,artifact_path,artifact_scored_at_utc
+population,all,3998,31,3967,253833419,7791682,0.030696044794637542,,,,datasets/androct_2017/inventory/inventory_summary.json,2026-08-07T10:47:33.537403+00:00
+population,benign,2256,25,2231,155553398,4514569,0.029022631829617763,21,6878.0,6.0,datasets/androct_2017/inventory/inventory_summary.json,2026-08-07T10:47:33.537403+00:00
+population,malware,1742,6,1736,98280021,3277113,0.033344650994732696,18,31437.5,6.0,datasets/androct_2017/inventory/inventory_summary.json,2026-08-07T10:47:33.537403+00:00
+fetch,benign,764,,763,,,,,,,abrg/output/androct_2017/run2/POSTMORTEM.json#eligibility,2026-08-08T14:39:23.789777+00:00
+fetch,malware,1742,,1742,,,,,,,abrg/output/androct_2017/run2/POSTMORTEM.json#eligibility,2026-08-08T14:39:23.789777+00:00
+fetch,all,2506,,2505,,,,,,,abrg/output/androct_2017/run2/POSTMORTEM.json#eligibility,2026-08-08T14:39:23.789777+00:00
+graph_eligible,benign,,,703,,,,,,,abrg/output/androct_2017/run2/corpus_cache/meta.json,
+graph_eligible,malware,,,1700,,,,,,,abrg/output/androct_2017/run2/corpus_cache/meta.json,
+graph_eligible,all,,,2403,,,,,,,abrg/output/androct_2017/run2/corpus_cache/meta.json,
+split,train_benign,,,562,,,,,,,abrg/output/androct_2017/run2/corpus_cache/meta.json#split,
+split,test_benign,,,141,,,,,,,abrg/output/androct_2017/run2/corpus_cache/meta.json#split,
+split,test_malware,,,1700,,,,,,,abrg/output/androct_2017/run2/corpus_cache/meta.json#split,

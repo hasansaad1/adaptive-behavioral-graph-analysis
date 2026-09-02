@@ -1,0 +1,77 @@
+{
+  "active_categories": [
+    "file_io",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "at.linuxtage.Eventfahrplan",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T01:18:11.838000Z",
+  "end_timestamp_ms": 1786670291838,
+  "event_counts": {
+    "mapped": 49,
+    "mapped_rate": 0.03337874659400545,
+    "total": 1468
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "84bca8b5903c_llm_s4__extend",
+  "failure_reason": null,
+  "gae_eligible": false,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "SharedPreferences.getInt"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 0,
+  "reference_tier_pass": true,
+  "session_id": "84bca8b5903c_llm_s4",
+  "session_index_within_app": 4,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/84bca8b5903c_at.linuxtage.Eventfahrplan/dynamic/llm/session_4/at.linuxtage.Eventfahrplan_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/84bca8b5903c_at.linuxtage.Eventfahrplan/dynamic/llm/session_4/at.linuxtage.Eventfahrplan_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T01:10:02.181000Z",
+  "start_timestamp_ms": 1786669802181,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1468,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 40,
+    "n_with_timestamp": 1468,
+    "unparseable_line_numbers_sample": [
+      1133,
+      1134,
+      1135,
+      1136,
+      1137,
+      1138,
+      1139,
+      1140,
+      1141,
+      1142,
+      1233,
+      1234,
+      1235,
+      1236,
+      1237,
+      1238,
+      1239,
+      1240,
+      1241,
+      1242
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 489.778
+}

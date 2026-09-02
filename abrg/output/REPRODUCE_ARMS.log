@@ -1,0 +1,229 @@
+=== abrg/output/androct_2017/arm_a_n1 10:45:17 ===
+[androct-gae] single-pass load (eligibility + events) …
+[androct-gae] stream benign …
+  … benign scanned=200 eligible=58
+  … benign scanned=400 eligible=135
+  … benign scanned=600 eligible=191
+  … benign scanned=800 eligible=250
+  … benign scanned=1000 eligible=330
+  … benign scanned=1200 eligible=417
+  … benign scanned=1400 eligible=514
+  … benign scanned=1600 eligible=620
+  … benign scanned=1800 eligible=716
+  … benign scanned=2000 eligible=806
+  … benign scanned=2200 eligible=900
+[androct-gae] stream malware …
+  … malware scanned=200 eligible=149
+  … malware scanned=400 eligible=299
+  … malware scanned=600 eligible=445
+  … malware scanned=800 eligible=591
+  … malware scanned=1000 eligible=734
+  … malware scanned=1200 eligible=881
+  … malware scanned=1400 eligible=1031
+  … malware scanned=1600 eligible=1168
+{
+  "min_mapped": 320,
+  "per_class": {
+    "benign": {
+      "n_excluded": 1320,
+      "n_eligible": 936,
+      "excluded_mapped_dist": {
+        "n": 1320,
+        "median": 41.0,
+        "p25": 10.0,
+        "p75": 121.0,
+        "iqr": 111.0
+      }
+    },
+    "malware": {
+      "n_excluded": 471,
+      "n_eligible": 1271,
+      "excluded_mapped_dist": {
+        "n": 471,
+        "median": 186.0,
+        "p25": 106.0,
+        "p75": 251.5,
+        "iqr": 145.5
+      }
+    }
+  }
+}
+[androct-gae] eligible loaded: benign=936 malware=1271
+[androct-gae] split train=749 test_benign=187 test_malware=1271
+[androct-gae] build snapshots arm_a_n1 N=1
+[VERIFY feature diff] L2=11.932302474975586 differ=True
+  … arm_a_n1 train apps 100/749
+  … arm_a_n1 train apps 200/749
+  … arm_a_n1 train apps 300/749
+  … arm_a_n1 train apps 400/749
+  … arm_a_n1 train apps 500/749
+  … arm_a_n1 train apps 600/749
+  … arm_a_n1 train apps 700/749
+  … arm_a_n1 apps 100/187
+  … arm_a_n1 apps 100/1271
+  … arm_a_n1 apps 200/1271
+  … arm_a_n1 apps 300/1271
+  … arm_a_n1 apps 400/1271
+  … arm_a_n1 apps 500/1271
+  … arm_a_n1 apps 600/1271
+  … arm_a_n1 apps 700/1271
+  … arm_a_n1 apps 800/1271
+  … arm_a_n1 apps 900/1271
+  … arm_a_n1 apps 1000/1271
+  … arm_a_n1 apps 1100/1271
+  … arm_a_n1 apps 1200/1271
+[androct-gae] train arm_a_n1: 745 graphs, hidden=64 epochs=300 lr=0.01
+[VERIFY edge_weight] call#1 edge_weight.shape=(26,) dtype=torch.float32 numel=26 min=0.0018867924809455872 max=0.828125 sample=[0.6188679337501526, 0.15293118357658386, 0.4324553906917572, 0.44999998807907104, 0.550000011920929]
+[VERIFY GCNConv.conv1] call#1 edge_weight.shape=(26,) sample=[0.6188679337501526, 0.15293118357658386, 0.4324553906917572, 0.44999998807907104, 0.550000011920929]
+[VERIFY edge_weight] call#2 edge_weight.shape=(24,) dtype=torch.float32 numel=24 min=0.0070588234812021255 max=0.8181818127632141 sample=[0.4444444477558136, 0.5555555820465088, 0.03294117748737335, 0.0070588234812021255, 0.8181818127632141]
+[VERIFY GCNConv.conv1] call#2 edge_weight.shape=(24,) sample=[0.4444444477558136, 0.5555555820465088, 0.03294117748737335, 0.0070588234812021255, 0.8181818127632141]
+[VERIFY edge_weight] call#3 edge_weight.shape=(24,) dtype=torch.float32 numel=24 min=0.029411764815449715 max=1.0 sample=[0.5174825191497803, 0.26878613233566284, 0.12716762721538544, 0.19075144827365875, 0.029411764815449715]
+[VERIFY GCNConv.conv1] call#3 edge_weight.shape=(24,) sample=[0.5174825191497803, 0.26878613233566284, 0.12716762721538544, 0.19075144827365875, 0.029411764815449715]
+[androct-gae] done single arm arm_a_n1 → abrg/output/androct_2017/arm_a_n1/nb_repro
+Running: .venv/bin/python -m abrg.androct.run_gae --arm arm_a_n1 --output-dir abrg/output/androct_2017/arm_a_n1/nb_repro
+{
+  "run_dir": "abrg/output/androct_2017/arm_a_n1",
+  "reports": [
+    {
+      "ok": true,
+      "expected": {
+        "auc_floor": 0.5157259801809565,
+        "direction": "benign_higher_score",
+        "inverted": true
+      },
+      "actual": {
+        "auc_floor": 0.5157259801809565,
+        "direction": "benign_higher_score",
+        "inverted": true
+      },
+      "diffs": {
+        "\u0394auc_floor": 0.0
+      },
+      "direction_match": true,
+      "kind": "androct_auc",
+      "mode": "cli",
+      "repro_dir": "abrg/output/androct_2017/arm_a_n1/nb_repro"
+    }
+  ]
+}
+VALIDATE: OK
+exit=0
+=== abrg/output/androct_2017/arm_b_n8 11:42:33 ===
+[androct-gae] single-pass load (eligibility + events) …
+[androct-gae] stream benign …
+  … benign scanned=200 eligible=58
+  … benign scanned=400 eligible=135
+  … benign scanned=600 eligible=191
+  … benign scanned=800 eligible=250
+  … benign scanned=1000 eligible=330
+  … benign scanned=1200 eligible=417
+  … benign scanned=1400 eligible=514
+  … benign scanned=1600 eligible=620
+  … benign scanned=1800 eligible=716
+  … benign scanned=2000 eligible=806
+  … benign scanned=2200 eligible=900
+[androct-gae] stream malware …
+  … malware scanned=200 eligible=149
+  … malware scanned=400 eligible=299
+  … malware scanned=600 eligible=445
+  … malware scanned=800 eligible=591
+  … malware scanned=1000 eligible=734
+  … malware scanned=1200 eligible=881
+  … malware scanned=1400 eligible=1031
+  … malware scanned=1600 eligible=1168
+{
+  "min_mapped": 320,
+  "per_class": {
+    "benign": {
+      "n_excluded": 1320,
+      "n_eligible": 936,
+      "excluded_mapped_dist": {
+        "n": 1320,
+        "median": 41.0,
+        "p25": 10.0,
+        "p75": 121.0,
+        "iqr": 111.0
+      }
+    },
+    "malware": {
+      "n_excluded": 471,
+      "n_eligible": 1271,
+      "excluded_mapped_dist": {
+        "n": 471,
+        "median": 186.0,
+        "p25": 106.0,
+        "p75": 251.5,
+        "iqr": 145.5
+      }
+    }
+  }
+}
+[androct-gae] eligible loaded: benign=936 malware=1271
+[androct-gae] split train=749 test_benign=187 test_malware=1271
+[androct-gae] build snapshots arm_b_n8 N=8
+[VERIFY feature diff] L2=7.137281894683838 differ=True
+  … arm_b_n8 train apps 100/749
+  … arm_b_n8 train apps 200/749
+  … arm_b_n8 train apps 300/749
+  … arm_b_n8 train apps 400/749
+  … arm_b_n8 train apps 500/749
+  … arm_b_n8 train apps 600/749
+  … arm_b_n8 train apps 700/749
+  … arm_b_n8 apps 100/187
+  … arm_b_n8 apps 100/1271
+  … arm_b_n8 apps 200/1271
+  … arm_b_n8 apps 300/1271
+  … arm_b_n8 apps 400/1271
+  … arm_b_n8 apps 500/1271
+  … arm_b_n8 apps 600/1271
+  … arm_b_n8 apps 700/1271
+  … arm_b_n8 apps 800/1271
+  … arm_b_n8 apps 900/1271
+  … arm_b_n8 apps 1000/1271
+  … arm_b_n8 apps 1100/1271
+  … arm_b_n8 apps 1200/1271
+[androct-gae] train arm_b_n8: 5695 graphs, hidden=64 epochs=300 lr=0.01
+[VERIFY edge_weight] call#1 edge_weight.shape=(19,) dtype=torch.float32 numel=19 min=0.025641025975346565 max=1.0 sample=[0.504273533821106, 0.12195122241973877, 0.39024388790130615, 0.4000000059604645, 0.6000000238418579]
+[VERIFY GCNConv.conv1] call#1 edge_weight.shape=(19,) sample=[0.504273533821106, 0.12195122241973877, 0.39024388790130615, 0.4000000059604645, 0.6000000238418579]
+[VERIFY edge_weight] call#2 edge_weight.shape=(23,) dtype=torch.float32 numel=23 min=0.02500000037252903 max=0.7250000238418579 sample=[0.4000000059604645, 0.4000000059604645, 0.20000000298023224, 0.7250000238418579, 0.15000000596046448]
+[VERIFY GCNConv.conv1] call#2 edge_weight.shape=(23,) sample=[0.4000000059604645, 0.4000000059604645, 0.20000000298023224, 0.7250000238418579, 0.15000000596046448]
+[VERIFY edge_weight] call#3 edge_weight.shape=(10,) dtype=torch.float32 numel=10 min=0.05454545468091965 max=0.8363636136054993 sample=[0.3513513505458832, 0.8363636136054993, 0.05454545468091965, 0.21621622145175934, 0.6666666865348816]
+[VERIFY GCNConv.conv1] call#3 edge_weight.shape=(10,) sample=[0.3513513505458832, 0.8363636136054993, 0.05454545468091965, 0.21621622145175934, 0.6666666865348816]
+[androct-gae] done single arm arm_b_n8 → abrg/output/androct_2017/arm_b_n8/nb_repro
+Running: .venv/bin/python -m abrg.androct.run_gae --arm arm_b_n8 --output-dir abrg/output/androct_2017/arm_b_n8/nb_repro
+{
+  "run_dir": "abrg/output/androct_2017/arm_b_n8",
+  "reports": [
+    {
+      "ok": true,
+      "expected": {
+        "auc_floor": 0.5168368941717143,
+        "direction": "benign_higher_score",
+        "inverted": true
+      },
+      "actual": {
+        "auc_floor": 0.5168368941717143,
+        "direction": "benign_higher_score",
+        "inverted": true
+      },
+      "diffs": {
+        "\u0394auc_floor": 0.0
+      },
+      "direction_match": true,
+      "kind": "androct_auc",
+      "mode": "cli",
+      "repro_dir": "abrg/output/androct_2017/arm_b_n8/nb_repro"
+    }
+  ]
+}
+VALIDATE: OK
+exit=0
+Backfilled 51 runs
+Status: abrg/output/REPRODUCE_STATUS.md
+Index: notebooks/REPRODUCE_INDEX.ipynb
+abrg/output/REPRODUCE_VALIDATION_AUDIT.md
+ok=50 fail=1 pending=0
+
+Failed runs:
+  exp_window_sec/w120_weighted: Δtrain_med=-0.0905, Δtest_med=-0.0275, Δratio=+0.1230
+ARMS_DONE 12:44:38

@@ -1,0 +1,284 @@
+{
+  "package_name": "cityfreqs.com.pilfershushjammer",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/cityfreqs.com.pilfershushjammer_43.apk",
+  "apk_sha256": "c7c04de887f3605cbf677389d7eea949acc245f59396396b8d8fe4359eaf041d",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1784442927910,
+  "elapsed_sec": 470.966,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 993034582,
+  "session_mode": "identical",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "10805",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "cityfreqs.com.pilfershushjammer_frida.jsonl",
+  "frida_lines": 435,
+  "strace_log_path": "cityfreqs.com.pilfershushjammer_strace.log",
+  "strace_size_bytes": 60224,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 993034582,
+  "arm": "llm",
+  "session_id": "c7c04de887f3_llm_s1",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "good",
+  "llm_actions_count": 76,
+  "llm_action_log_path": "cityfreqs.com.pilfershushjammer_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Tap Settings",
+    "Tap OFF",
+    "Tap Active run_active_button",
+    "Tap Home",
+    "Tap Inspector",
+    "Tap OFF active_type_switch",
+    "Tap OFF buffer_type_switch",
+    "Tap ON mic_source_switch",
+    "Tap ON run_active_button"
+  ],
+  "llm_ux_plan_path": "cityfreqs.com.pilfershushjammer_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "cityfreqs.com.pilfershushjammer_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical users open the app to view a list of active jammers, then tap on an individual jammer to view its details. They may also use the 'ON' and 'OFF' buttons to toggle the status of a jammer. The user can then navigate through the different tabs (e.g. 'Home', 'Settings') using horizontal swipes.",
+  "llm_primary_ux_fallback_reason": "post_nav_realism_blend:post_nav_sec>=147",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "10e79a5338bc3170cb160cd4e38950aa3b5b749e6661eec322da9894b533e503",
+    "root_screen_signature": "eae80407e09a8f06d8114e34b86b9718edeb7b6bd289f82f0820b8be0e760dee",
+    "root_screen_hint": "PilferShush Jammer attempts  home_text TextView \u00b7 Active run_active_button ToggleButton \u00b7 Passive run_passive_button ToggleButton \u00b7 More options ImageView \u00b7 Inspector LinearLayout \u00b7 Settings LinearLayout",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_pragmatic_landmarks:7",
+      "screen_hash": "b7bba4d4f76f0a4080efa263c4c33fa5c1de05674ee0ce9064cad2de0a617cde",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "cityfreqs.com.pilfershushjammer",
+          "screen_hash": "7ba45c883e938d4e7200d6ceedeb7122d4231418a627317114e2b6d74265bd64",
+          "interactive_count": 6,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "829f28ef319c2f707aa9b8d5605f14fca35f870d48ea3970a1a284a592c3cc4c",
+          "root_landmark_score": 7
+        },
+        {
+          "attempt": 2,
+          "strategy": "start_root_activity_clear_task",
+          "clear_task": true,
+          "foreground_package": "cityfreqs.com.pilfershushjammer",
+          "screen_hash": "7ba45c883e938d4e7200d6ceedeb7122d4231418a627317114e2b6d74265bd64",
+          "interactive_count": 6,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "829f28ef319c2f707aa9b8d5605f14fca35f870d48ea3970a1a284a592c3cc4c",
+          "root_landmark_score": 7
+        },
+        {
+          "attempt": 3,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.google.android.apps.nexuslauncher",
+          "screen_hash": "b92e9d726ec1f6c51f639079b9cf61557138b2c9b49c88280f9d4d728ba8f4af",
+          "interactive_count": 6,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "848a1949024d0f20d9c05eeec335eec7be60aa59554438b1040adaeaf7009b66",
+          "root_landmark_score": 7
+        },
+        {
+          "attempt": 4,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.google.android.apps.nexuslauncher",
+          "screen_hash": "e47eb579480dc76952eae465f94bebadb2d0128a5dad9ac6a0e7a37cb5715f51",
+          "interactive_count": 6,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "1d7d48a2388960b8980f83dae54e877f2adb554f030e15d2b749b45faa47518c",
+          "root_landmark_score": 7
+        },
+        {
+          "attempt": 5,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.google.android.apps.nexuslauncher",
+          "screen_hash": "73346d8677550fb3e9d8716b1440270158a5cee9449f5468a3d699676b7e796a",
+          "interactive_count": 6,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "a65bd0610eee7ac8597945f90c3a3242e2b955fa4b695825c6f8f8254e8d4822",
+          "root_landmark_score": 7
+        }
+      ],
+      "match_kind": "pragmatic_landmarks"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/c7c04de887f3_cityfreqs.com.pilfershushjammer/dynamic/llm/session_1/cityfreqs.com.pilfershushjammer_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "cityfreqs.com.pilfershushjammer",
+    "app_name": "cityfreqs.com.pilfershushjammer",
+    "category": "Unknown",
+    "purpose": "No description available",
+    "ux_type": "hybrid",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/cityfreqs.com.pilfershushjammer"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 3,
+    "dialogs_tapped_after_warmup": 1,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "permission_allow",
+        "target": [
+          540,
+          1023
+        ],
+        "node_count": 13,
+        "screen_hash": "05b69689bf043e46"
+      },
+      {
+        "round": 2,
+        "action": "tap",
+        "reason": "allowish",
+        "target": [
+          894,
+          1005
+        ],
+        "node_count": 12,
+        "screen_hash": "dd11b4092eb18635"
+      },
+      {
+        "round": 3,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          540,
+          1091
+        ],
+        "node_count": 28,
+        "screen_hash": "85819f397c599e38"
+      },
+      {
+        "round": 4,
+        "action": "back",
+        "reason": "transition_guard_stuck_repeat",
+        "screen_hash": "85819f397c599e38",
+        "repeat_hash_streak": 1
+      },
+      {
+        "round": 5,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 24,
+        "screen_hash": "85c4e8175526ef84"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          540,
+          1134
+        ],
+        "node_count": 28,
+        "screen_hash": "9139f4252c5e83b5"
+      },
+      {
+        "round": 2,
+        "action": "back",
+        "reason": "transition_guard_stuck_repeat",
+        "screen_hash": "9139f4252c5e83b5",
+        "repeat_hash_streak": 1
+      },
+      {
+        "round": 3,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 24,
+        "screen_hash": "85c4e8175526ef84"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/c7c04de887f3_cityfreqs.com.pilfershushjammer/dynamic/llm/session_1/cityfreqs.com.pilfershushjammer_verified_start.xml",
+    "pre_setup_wall_sec": 16.944,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 3,
+  "frida_reattach_successes": 3,
+  "frida_valid_events": 141,
+  "frida_meaningful_events": 29,
+  "frida_meaningful_categories": 5
+}

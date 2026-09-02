@@ -1,0 +1,171 @@
+{
+  "description": "Chapter A number reproduction index. Primary gate: artifact reload. Secondary: GAE harness / module CLI.",
+  "entries": [
+    {
+      "experiment": "_ALL_",
+      "notebook": "chapter_a/reproduce/00_all_numbers.ipynb",
+      "n_master_rows": 104,
+      "mode": "artifact_verify"
+    },
+    {
+      "experiment": "apigraph",
+      "notebook": "chapter_a/reproduce/by_experiment/apigraph/reproduce_numbers.ipynb",
+      "n_master_rows": 5,
+      "mode": "artifact_verify",
+      "cli_rerun": {
+        "cli_module": "abrg.apigraph",
+        "out_flag": "--output-dir"
+      }
+    },
+    {
+      "experiment": "devread",
+      "notebook": "chapter_a/reproduce/by_experiment/devread/reproduce_numbers.ipynb",
+      "n_master_rows": 18,
+      "mode": "artifact_verify",
+      "cli_rerun": {
+        "cli_module": "abrg.devread",
+        "out_flag": "--out"
+      }
+    },
+    {
+      "experiment": "final_validate",
+      "notebook": "chapter_a/reproduce/by_experiment/final_validate/reproduce_numbers.ipynb",
+      "n_master_rows": 2,
+      "mode": "artifact_verify",
+      "cli_rerun": {
+        "cli_module": "abrg.final_validate",
+        "out_flag": "--out"
+      }
+    },
+    {
+      "experiment": "glocalkd",
+      "notebook": "chapter_a/reproduce/by_experiment/glocalkd/reproduce_numbers.ipynb",
+      "n_master_rows": 2,
+      "mode": "artifact_verify",
+      "cli_rerun": {
+        "cli_module": "abrg.glocalkd",
+        "out_flag": "--out"
+      }
+    },
+    {
+      "experiment": "invgraph",
+      "notebook": "chapter_a/reproduce/by_experiment/invgraph/reproduce_numbers.ipynb",
+      "n_master_rows": 6,
+      "mode": "artifact_verify",
+      "cli_rerun": {
+        "cli_module": "abrg.invgraph",
+        "out_flag": "--output-dir"
+      }
+    },
+    {
+      "experiment": "kernels",
+      "notebook": "chapter_a/reproduce/by_experiment/kernels/reproduce_numbers.ipynb",
+      "n_master_rows": 3,
+      "mode": "artifact_verify",
+      "cli_rerun": {
+        "cli_module": "abrg.kernels",
+        "out_flag": "--out"
+      }
+    },
+    {
+      "experiment": "ladder",
+      "notebook": "chapter_a/reproduce/by_experiment/ladder/reproduce_numbers.ipynb",
+      "n_master_rows": 7,
+      "mode": "artifact_verify",
+      "cli_rerun": {
+        "cli_module": "abrg.ladder",
+        "out_flag": "--out"
+      }
+    },
+    {
+      "experiment": "ocdev",
+      "notebook": "chapter_a/reproduce/by_experiment/ocdev/reproduce_numbers.ipynb",
+      "n_master_rows": 14,
+      "mode": "artifact_verify",
+      "cli_rerun": {
+        "cli_module": "abrg.ocdev",
+        "out_flag": "--out"
+      }
+    },
+    {
+      "experiment": "ocdev_validate",
+      "notebook": "chapter_a/reproduce/by_experiment/ocdev_validate/reproduce_numbers.ipynb",
+      "n_master_rows": 4,
+      "mode": "artifact_verify",
+      "cli_rerun": null
+    },
+    {
+      "experiment": "ocgin",
+      "notebook": "chapter_a/reproduce/by_experiment/ocgin/reproduce_numbers.ipynb",
+      "n_master_rows": 2,
+      "mode": "artifact_verify",
+      "cli_rerun": {
+        "cli_module": "abrg.ocgin",
+        "out_flag": null,
+        "note": "hardcoded output root"
+      }
+    },
+    {
+      "experiment": "ocgtl",
+      "notebook": "chapter_a/reproduce/by_experiment/ocgtl/reproduce_numbers.ipynb",
+      "n_master_rows": 2,
+      "mode": "artifact_verify",
+      "cli_rerun": {
+        "cli_module": "abrg.ocgtl",
+        "out_flag": "--out"
+      }
+    },
+    {
+      "experiment": "run3",
+      "notebook": "chapter_a/reproduce/by_experiment/run3/reproduce_numbers.ipynb",
+      "n_master_rows": 7,
+      "mode": "artifact_verify",
+      "cli_rerun": {
+        "cli_module": "abrg.androct.run_gae_run3",
+        "harness": "androct_auc"
+      }
+    },
+    {
+      "experiment": "run8",
+      "notebook": "chapter_a/reproduce/by_experiment/run8/reproduce_numbers.ipynb",
+      "n_master_rows": 2,
+      "mode": "artifact_verify",
+      "cli_rerun": {
+        "cli_module": "abrg.androct.run_gae_run8",
+        "harness": "androct_auc"
+      }
+    },
+    {
+      "experiment": "supgnn",
+      "notebook": "chapter_a/reproduce/by_experiment/supgnn/reproduce_numbers.ipynb",
+      "n_master_rows": 27,
+      "mode": "artifact_verify",
+      "cli_rerun": {
+        "cli_module": "abrg.supgnn",
+        "out_flag": "--out"
+      }
+    },
+    {
+      "experiment": "validation",
+      "notebook": "chapter_a/reproduce/by_experiment/validation/reproduce_numbers.ipynb",
+      "n_master_rows": 3,
+      "mode": "artifact_verify",
+      "cli_rerun": {
+        "cli_module": "abrg.validate",
+        "out_flag": "--out"
+      }
+    },
+    {
+      "experiment": "_EXTRA_",
+      "notebook": "chapter_a/reproduce/01_extra_numbers.ipynb",
+      "n_master_rows": 25,
+      "mode": "artifact_verify"
+    }
+  ],
+  "how_to": {
+    "verify_all": ".venv/bin/python -m abrg.reproduce_chapter_a_numbers verify",
+    "emit": ".venv/bin/python -m abrg.reproduce_chapter_a_numbers emit",
+    "notebook": "jupyter nbconvert --to notebook --execute chapter_a/reproduce/00_all_numbers.ipynb",
+    "gae_cli_rerun": ".venv/bin/python -m abrg.batch_validate_reproduce"
+  }
+}

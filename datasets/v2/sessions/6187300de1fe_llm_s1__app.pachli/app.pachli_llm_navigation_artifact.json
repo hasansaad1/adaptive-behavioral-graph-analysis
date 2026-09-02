@@ -1,0 +1,1121 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "app.pachli",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_hash": "8855bc597d62f8b60a1494b483177911382d74d9cf22b38ecdcaf56dcfe71f18",
+      "hint": "Close button1 Button · The address or domain of any message TextView",
+      "visit_count": 6
+    },
+    {
+      "screen_hash": "9bbf2dd78b7137f471ed27a38868ae777729ec77e80ce097e484cd8c41fb3df4",
+      "hint": "LOGIN WITH PACHLI loginButton Button · Which instance? domainEditText EditText · What's an instance? whatsAnInstanceTextView TextView · More options ImageView",
+      "visit_count": 9
+    },
+    {
+      "screen_hash": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "hint": "LOGIN WITH PACHLI loginButton Button · Which instance? domainEditText EditText · What's an instance? whatsAnInstanceTextView TextView · More options ImageView",
+      "visit_count": 14
+    },
+    {
+      "screen_hash": "b485ac3d308d69be0f93ef0ebcbae2f588402a690e08d31a2e470faf8cdd8a63",
+      "hint": "LOGIN WITH PACHLI loginButton Button · Which instance? domainEditText EditText · What's an instance? whatsAnInstanceTextView TextView · More options ImageView",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "hint": "LOGIN WITH PACHLI loginButton Button · Which instance? domainEditText EditText · What's an instance? whatsAnInstanceTextView TextView · More options ImageView",
+      "visit_count": 35
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "9bbf2dd78b7137f471ed27a38868ae777729ec77e80ce097e484cd8c41fb3df4",
+      "to": "b485ac3d308d69be0f93ef0ebcbae2f588402a690e08d31a2e470faf8cdd8a63",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/domainEditText",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1042,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/domainEditText",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/domainEditText|"
+    },
+    {
+      "step": 2,
+      "from": "b485ac3d308d69be0f93ef0ebcbae2f588402a690e08d31a2e470faf8cdd8a63",
+      "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 873,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 3,
+      "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "to": "8855bc597d62f8b60a1494b483177911382d74d9cf22b38ecdcaf56dcfe71f18",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/whatsAnInstanceTextView",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 972,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/whatsAnInstanceTextView",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/whatsAnInstanceTextView|"
+    },
+    {
+      "step": 4,
+      "from": "8855bc597d62f8b60a1494b483177911382d74d9cf22b38ecdcaf56dcfe71f18",
+      "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 1274,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 5,
+      "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 873,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 6,
+      "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 873,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 7,
+      "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 873,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 8,
+      "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 873,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 9,
+      "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 873,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 10,
+      "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 873,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 11,
+      "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 873,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 12,
+      "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 873,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 13,
+      "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 873,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 14,
+      "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 873,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 15,
+      "from": "9bbf2dd78b7137f471ed27a38868ae777729ec77e80ce097e484cd8c41fb3df4",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1243,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 16,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 17,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 18,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 19,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 20,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 21,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 22,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 23,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 24,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 25,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 26,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 27,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 28,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 29,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 30,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 31,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 32,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 33,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 34,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 35,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 36,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 37,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 38,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    },
+    {
+      "step": 39,
+      "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1244,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.pachli:id/loginButton",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.pachli:id/loginButton|"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:app.pachli:id/domainEditText|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.pachli:id/domainEditText",
+        "target_content_desc": "",
+        "visible_on": [
+          "9bbf2dd78b7137f471ed27a38868ae777729ec77e80ce097e484cd8c41fb3df4",
+          "b485ac3d308d69be0f93ef0ebcbae2f588402a690e08d31a2e470faf8cdd8a63",
+          "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+          "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "9bbf2dd78b7137f471ed27a38868ae777729ec77e80ce097e484cd8c41fb3df4",
+        "last_to": "b485ac3d308d69be0f93ef0ebcbae2f588402a690e08d31a2e470faf8cdd8a63"
+      },
+      "tab:app.pachli:id/loginButton|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "visible_on": [
+          "9bbf2dd78b7137f471ed27a38868ae777729ec77e80ce097e484cd8c41fb3df4",
+          "b485ac3d308d69be0f93ef0ebcbae2f588402a690e08d31a2e470faf8cdd8a63",
+          "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+          "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9"
+        ],
+        "attempts": 36,
+        "successes": 36,
+        "last_from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "last_to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9"
+      },
+      "tab:app.pachli:id/whatsAnInstanceTextView|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.pachli:id/whatsAnInstanceTextView",
+        "target_content_desc": "",
+        "visible_on": [
+          "9bbf2dd78b7137f471ed27a38868ae777729ec77e80ce097e484cd8c41fb3df4",
+          "b485ac3d308d69be0f93ef0ebcbae2f588402a690e08d31a2e470faf8cdd8a63",
+          "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+          "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "last_to": "8855bc597d62f8b60a1494b483177911382d74d9cf22b38ecdcaf56dcfe71f18"
+      },
+      "nav:app.pachli:id/loginButton|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.pachli:id/loginButton",
+        "target_content_desc": "",
+        "visible_on": [
+          "9bbf2dd78b7137f471ed27a38868ae777729ec77e80ce097e484cd8c41fb3df4",
+          "b485ac3d308d69be0f93ef0ebcbae2f588402a690e08d31a2e470faf8cdd8a63",
+          "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+          "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.pachli:id/whatsAnInstanceTextView|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.pachli:id/whatsAnInstanceTextView",
+        "target_content_desc": "",
+        "visible_on": [
+          "9bbf2dd78b7137f471ed27a38868ae777729ec77e80ce097e484cd8c41fb3df4",
+          "b485ac3d308d69be0f93ef0ebcbae2f588402a690e08d31a2e470faf8cdd8a63",
+          "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+          "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "8855bc597d62f8b60a1494b483177911382d74d9cf22b38ecdcaf56dcfe71f18"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8855bc597d62f8b60a1494b483177911382d74d9cf22b38ecdcaf56dcfe71f18",
+        "last_to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63"
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "8855bc597d62f8b60a1494b483177911382d74d9cf22b38ecdcaf56dcfe71f18"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "9bbf2dd78b7137f471ed27a38868ae777729ec77e80ce097e484cd8c41fb3df4",
+        "to": "b485ac3d308d69be0f93ef0ebcbae2f588402a690e08d31a2e470faf8cdd8a63",
+        "target_key": "tab:app.pachli:id/domainEditText|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "b485ac3d308d69be0f93ef0ebcbae2f588402a690e08d31a2e470faf8cdd8a63",
+        "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "to": "8855bc597d62f8b60a1494b483177911382d74d9cf22b38ecdcaf56dcfe71f18",
+        "target_key": "tab:app.pachli:id/whatsAnInstanceTextView|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8855bc597d62f8b60a1494b483177911382d74d9cf22b38ecdcaf56dcfe71f18",
+        "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "to": "a72568340bff4535f194a70235e536cb449691a8b3040bb4b78dfdf4c917cd63",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9bbf2dd78b7137f471ed27a38868ae777729ec77e80ce097e484cd8c41fb3df4",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "to": "e1b88da8a93e9046a38127529218e7e4f43e88869e5a17c9cc5c8fc3f98a59d9",
+        "target_key": "tab:app.pachli:id/loginButton|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  }
+}

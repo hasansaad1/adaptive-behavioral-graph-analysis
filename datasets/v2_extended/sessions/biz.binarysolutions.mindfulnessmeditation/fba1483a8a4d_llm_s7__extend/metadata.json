@@ -1,0 +1,79 @@
+{
+  "active_categories": [
+    "file_io",
+    "network",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "biz.binarysolutions.mindfulnessmeditation",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T20:16:22.683000Z",
+  "end_timestamp_ms": 1786738582683,
+  "event_counts": {
+    "mapped": 10,
+    "mapped_rate": 0.020366598778004074,
+    "total": 491
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "fba1483a8a4d_llm_s7__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "SharedPreferences.getInt",
+    "URL.openConnection"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 3,
+  "reference_tier_pass": true,
+  "session_id": "fba1483a8a4d_llm_s7",
+  "session_index_within_app": 7,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/fba1483a8a4d_biz.binarysolutions.mindfulnessmeditation/dynamic/llm/session_7/biz.binarysolutions.mindfulnessmeditation_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/fba1483a8a4d_biz.binarysolutions.mindfulnessmeditation/dynamic/llm/session_7/biz.binarysolutions.mindfulnessmeditation_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T20:08:40.702000Z",
+  "start_timestamp_ms": 1786738120702,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 491,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 60,
+    "n_with_timestamp": 491,
+    "unparseable_line_numbers_sample": [
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 462.067
+}

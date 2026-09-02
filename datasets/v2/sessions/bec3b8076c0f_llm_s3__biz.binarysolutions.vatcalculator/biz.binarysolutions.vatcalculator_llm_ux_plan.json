@@ -1,0 +1,406 @@
+{
+  "goals": [
+    "Tap buttonShowSupport",
+    "Tap button1",
+    "Tap Continue",
+    "Tap Show dropdown menu",
+    "Tap Show support",
+    "Input text in Base",
+    "Input text in Tax",
+    "Input text in Total",
+    "Input text in Albania"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap buttonShowSupport",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap button1",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Continue",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Show dropdown menu",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap Show support",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Input text in Base",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Input text in Tax",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Input text in Total",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 8,
+      "goal": "Input text in Albania",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f": "Show dropdown menu text_input_end_icon ImageButton · Show support buttonShowSupport Button · Base editTextBase EditText · Tax editTextTax EditText · Total editTextTotal EditText · Albania spinnerCountry EditText · 6% spinnerRate Spinner",
+    "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7": "Continue button1 Button",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": ""
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "visible_on": [
+          "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f"
+        ],
+        "attempts": 14,
+        "successes": 14,
+        "last_from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "last_to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7"
+      },
+      "nav:biz.binarysolutions.vatcalculator:id/buttonShowSupport|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.vatcalculator:id/buttonShowSupport",
+        "target_content_desc": "",
+        "visible_on": [
+          "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7"
+        ],
+        "attempts": 12,
+        "successes": 12,
+        "last_from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+        "to": "3b2c2b7231771a5a95e487c99342c9e8f60813a62b4486d293be93afb520d0b7",
+        "target_key": "tab:biz.binarysolutions.vatcalculator:id/buttonShowSupport|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+    "root_screen_signature": "0e331617ac3017ae762678b88f340f7c7d9b8e051c80cee5c89e7aec59088159",
+    "root_screen_hint": "Show dropdown menu text_input_end_icon ImageButton · Show support buttonShowSupport Button · Base editTextBase EditText · Tax editTextTax EditText · Total editTextTotal EditText · Albania spinnerCountry EditText · 6% spinnerRate Spinner",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "biz.binarysolutions.vatcalculator",
+          "screen_hash": "93094f0c3a2fb7df7586b245e687a013edb5cd3951738c1e77942af6b3bc7c3f",
+          "interactive_count": 7,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "0e331617ac3017ae762678b88f340f7c7d9b8e051c80cee5c89e7aec59088159",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app to calculate VAT, entering tax rates and amounts in the Tax EditText. They then select their country from the Albania spinnerCountry EditText. After inputting values, they tap the Continue button1 Button to proceed with the calculation. The result is displayed on a screen with a total amount, where users can also view support information by tapping ShowSupport Button · Base editTextBase EditText · Tax editTextTax EditText · Total editTextTotal EditText · 6% spinnerRate Spinner.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

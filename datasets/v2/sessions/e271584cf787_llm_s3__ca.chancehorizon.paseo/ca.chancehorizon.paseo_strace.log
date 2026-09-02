@@ -1,0 +1,39 @@
+4218  1784105198.710851 exit(0)         = ?
+4218  1784105198.711023 +++ exited with 0 +++
+4220  1784105198.713379 exit(0)         = ?
+4220  1784105198.713772 +++ exited with 0 +++
+4221  1784105198.713859 exit(0 <unfinished ...>
+4219  1784105198.713876 exit(0 <unfinished ...>
+4221  1784105198.713972 <... exit resumed>) = ?
+4219  1784105198.713986 <... exit resumed>) = ?
+4221  1784105198.714101 +++ exited with 0 +++
+4219  1784105198.714108 +++ exited with 0 +++
+4230  1784105198.715652 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4230  1784105198.715896 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4230  1784105198.716127 newfstatat(AT_FDCWD, "/data/app/ca.chancehorizon.paseo-DmDbSQysD1StbDP1bEdK2A==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4230  1784105198.716348 newfstatat(AT_FDCWD, "/data/app/ca.chancehorizon.paseo-DmDbSQysD1StbDP1bEdK2A==/base.apk", {st_mode=S_IFREG|0644, st_size=6459255, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4230  1784105198.716569 getcwd("/", 4096) = 2
+4230  1784105198.716780 newfstatat(AT_FDCWD, "/base.apk", 0x711592b690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+4211  1784105199.334162 clone(child_stack=0x711299bd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x711299bd60, tls=0x711299c020, child_tidptr=0x711299bd60) = 4292
+4292  1784105199.342618 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo", F_OK) = 0
+4292  1784105199.343020 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files", F_OK) = 0
+4292  1784105199.343409 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+4292  1784105199.343725 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 67
+4292  1784105199.344643 getsockopt(67, SOL_SOCKET, SO_ERROR, 0x711299a254, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+4292  1784105199.347111 openat(AT_FDCWD, "/data/app/ca.chancehorizon.paseo-DmDbSQysD1StbDP1bEdK2A==/base.apk", O_RDONLY) = 67
+4292  1784105199.347738 getsockopt(67, SOL_SOCKET, SO_ERROR, 0x7112999c74, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+4292  1784105199.348336 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/ca.chancehorizon.paseo/primary.prof", 0x7112999c18, 0) = -1 ENOENT (No such file or directory)
+4292  1784105199.348672 faccessat(AT_FDCWD, "/data/misc/profiles/ref/ca.chancehorizon.paseo/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+4292  1784105199.348972 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/ca.chancehorizon.paseo/primary.prof", {st_mode=S_IFREG|0600, st_size=8573, ...}, 0) = 0
+4292  1784105199.349245 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/ca.chancehorizon.paseo/primary.prof", F_OK) = 0
+4292  1784105199.349963 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files", F_OK) = 0
+4292  1784105199.350223 faccessat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files/profileInstalled", F_OK) = 0
+4292  1784105199.350508 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files/profileInstalled", O_RDONLY) = 67
+4292  1784105199.352087 getsockopt(67, SOL_SOCKET, SO_ERROR, 0x7112999594, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+4254  1784105199.356866 sendmsg(68, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\4\1\0\0L\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=436}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 436
+4292  1784105199.358368 unlinkat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files/profileInstalled", 0) = 0
+4292  1784105199.358574 openat(AT_FDCWD, "/data/user/0/ca.chancehorizon.paseo/files/profileInstalled", O_WRONLY|O_CREAT|O_TRUNC, 0600) = 67
+4292  1784105199.360928 getsockopt(67, SOL_SOCKET, SO_ERROR, 0x7112999af4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+4292  1784105199.363745 exit(0)         = ?
+4292  1784105199.363940 +++ exited with 0 +++
+4251  1784105199.413259 faccessat(AT_FDCWD, "/proc/self/task/4292", F_OK) = -1 ENOENT (No such file or directory)

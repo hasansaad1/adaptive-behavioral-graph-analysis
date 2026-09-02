@@ -1,0 +1,908 @@
+{
+  "check": 1,
+  "probes": {
+    "benign": {
+      "SmsManager": {
+        "raw_line_count": 8,
+        "n_apps": 2,
+        "examples": [
+          "<com.anprosit.android.dagger.AndroidModule$$ModuleAdapter: void getBindings(dagger.internal.BindingsGroup,com.anprosit.android.dagger.AndroidModule)> -> <com.anprosit.android.dagger.AndroidModule$$ModuleAdapter$ProvideSmsManagerProvidesAdapter: void <init>(com.anprosit.android.dagger.AndroidModule)>",
+          "<com.anprosit.android.dagger.AndroidModule$$ModuleAdapter: void getBindings(dagger.internal.BindingsGroup,com.anprosit.android.dagger.AndroidModule)> -> <com.anprosit.android.dagger.AndroidModule$$ModuleAdapter$ProvideSmsManagerProvidesAdapter: void <init>(com.anprosit.android.dagger.AndroidModule)>",
+          "<com.anprosit.android.dagger.AndroidModule$$ModuleAdapter: void getBindings(dagger.internal.BindingsGroup,com.anprosit.android.dagger.AndroidModule)> -> <com.anprosit.android.dagger.AndroidModule$$ModuleAdapter$ProvideSmsManagerProvidesAdapter: void <init>(com.anprosit.android.dagger.AndroidModule)>",
+          "<com.anprosit.android.dagger.AndroidModule$$ModuleAdapter: void getBindings(dagger.internal.BindingsGroup,com.anprosit.android.dagger.AndroidModule)> -> <com.anprosit.android.dagger.AndroidModule$$ModuleAdapter$ProvideSmsManagerProvidesAdapter: void <init>(com.anprosit.android.dagger.AndroidModule)>",
+          "<com.anprosit.android.dagger.AndroidModule$$ModuleAdapter: void getBindings(dagger.internal.BindingsGroup,com.anprosit.android.dagger.AndroidModule)> -> <com.anprosit.android.dagger.AndroidModule$$ModuleAdapter$ProvideSmsManagerProvidesAdapter: void <init>(com.anprosit.android.dagger.AndroidModule)>"
+        ]
+      },
+      "android.telephony": {
+        "raw_line_count": 9150,
+        "n_apps": 415,
+        "examples": [
+          "<org.interlaken.common.net.d: byte c(android.content.Context)> -> <android.telephony.TelephonyManager: int getNetworkType()>",
+          "<org.interlaken.common.b.m: java.lang.String c(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimOperator()>",
+          "<org.interlaken.common.net.d: byte c(android.content.Context)> -> <android.telephony.TelephonyManager: int getNetworkType()>",
+          "<org.interlaken.common.b.m: java.lang.String c(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimOperator()>",
+          "<org.interlaken.common.net.d: byte c(android.content.Context)> -> <android.telephony.TelephonyManager: int getNetworkType()>"
+        ]
+      },
+      "sendTextMessage": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      },
+      "sendMultipartTextMessage": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      },
+      "SmsMessage": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      },
+      "DexClassLoader": {
+        "raw_line_count": 93,
+        "n_apps": 4,
+        "examples": [
+          "<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>",
+          "<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <com.appodeal.ads.utils.i: java.lang.Object a(dalvik.system.BaseDexClassLoader)>",
+          "<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <com.appodeal.ads.utils.i: java.lang.Object a(dalvik.system.BaseDexClassLoader)>",
+          "<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <com.appodeal.ads.utils.i: void a(dalvik.system.BaseDexClassLoader,java.lang.Object)>",
+          "<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>"
+        ]
+      },
+      "PathClassLoader": {
+        "raw_line_count": 4,
+        "n_apps": 1,
+        "examples": [
+          "<amazon.android.dexload.SupplementalDexLoader: void updateICSClassLoader(android.content.Context,boolean,java.util.List)> -> <amazon.android.dexload.SupplementalDexLoader: dalvik.system.PathClassLoader getClassLoader(android.content.Context)>",
+          "<amazon.android.dexload.SupplementalDexLoader: void updateICSClassLoader(android.content.Context,boolean,java.util.List)> -> <amazon.android.dexload.SupplementalDexLoader: dalvik.system.PathClassLoader getClassLoader(android.content.Context)>",
+          "<amazon.android.dexload.SupplementalDexLoader: void updateICSClassLoader(android.content.Context,boolean,java.util.List)> -> <amazon.android.dexload.SupplementalDexLoader: dalvik.system.PathClassLoader getClassLoader(android.content.Context)>",
+          "<amazon.android.dexload.SupplementalDexLoader: void updateICSClassLoader(android.content.Context,boolean,java.util.List)> -> <amazon.android.dexload.SupplementalDexLoader: dalvik.system.PathClassLoader getClassLoader(android.content.Context)>"
+        ]
+      },
+      "BaseDexClassLoader": {
+        "raw_line_count": 66,
+        "n_apps": 2,
+        "examples": [
+          "<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <com.appodeal.ads.utils.i: java.lang.Object a(dalvik.system.BaseDexClassLoader)>",
+          "<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <com.appodeal.ads.utils.i: java.lang.Object a(dalvik.system.BaseDexClassLoader)>",
+          "<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <com.appodeal.ads.utils.i: void a(dalvik.system.BaseDexClassLoader,java.lang.Object)>",
+          "<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <com.appodeal.ads.utils.i: java.lang.Object a(dalvik.system.BaseDexClassLoader)>",
+          "<com.appodeal.ads.utils.i: void c(android.content.Context,java.lang.String)> -> <com.appodeal.ads.utils.i: java.lang.Object a(dalvik.system.BaseDexClassLoader)>"
+        ]
+      },
+      "InMemoryDexClassLoader": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      },
+      "System.load": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      },
+      "System.loadLibrary": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      },
+      "Runtime.exec": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      }
+    },
+    "malware": {
+      "SmsManager": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      },
+      "android.telephony": {
+        "raw_line_count": 11233,
+        "n_apps": 328,
+        "examples": [
+          "<com.seattleclouds.util.ao: void <init>(com.seattleclouds.util.an)> -> <android.telephony.PhoneStateListener: void <init>()>",
+          "<com.seattleclouds.util.ao: void <init>(com.seattleclouds.util.an)> -> <android.telephony.PhoneStateListener: void <init>()>",
+          "<com.seattleclouds.util.ao: void <init>(com.seattleclouds.util.an)> -> <android.telephony.PhoneStateListener: void <init>()>",
+          "<com.seattleclouds.util.ao: void <init>(com.seattleclouds.util.an)> -> <android.telephony.PhoneStateListener: void <init>()>",
+          "<com.google.android.gms.internal.zzhi$zza: void zza(android.content.Context,android.content.pm.PackageManager)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>"
+        ]
+      },
+      "sendTextMessage": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      },
+      "sendMultipartTextMessage": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      },
+      "SmsMessage": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      },
+      "DexClassLoader": {
+        "raw_line_count": 80,
+        "n_apps": 11,
+        "examples": [
+          "<com.qq.e.comm.managers.plugin.PM: void a()> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>",
+          "<ongmanibeimeihong.plugin.a: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>",
+          "<com.qq.e.comm.managers.plugin.PM: void a()> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>",
+          "<com.qq.e.comm.managers.plugin.PM: void a()> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>",
+          "<com.qq.e.comm.managers.plugin.PM: void a()> -> <dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>"
+        ]
+      },
+      "PathClassLoader": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      },
+      "BaseDexClassLoader": {
+        "raw_line_count": 15,
+        "n_apps": 1,
+        "examples": [
+          "<androidx.pluginmgr.env.e: java.lang.Class loadClass(java.lang.String,boolean)> -> <dalvik.system.BaseDexClassLoader: java.lang.Class findClass(java.lang.String)>",
+          "<androidx.pluginmgr.env.e: java.lang.Class loadClass(java.lang.String,boolean)> -> <dalvik.system.BaseDexClassLoader: java.lang.Class findClass(java.lang.String)>",
+          "<androidx.pluginmgr.env.e: java.lang.Class loadClass(java.lang.String,boolean)> -> <dalvik.system.BaseDexClassLoader: java.lang.Class findClass(java.lang.String)>",
+          "<androidx.pluginmgr.env.e: java.lang.Class loadClass(java.lang.String,boolean)> -> <dalvik.system.BaseDexClassLoader: java.lang.Class findClass(java.lang.String)>",
+          "<androidx.pluginmgr.env.e: java.lang.Class loadClass(java.lang.String,boolean)> -> <dalvik.system.BaseDexClassLoader: java.lang.Class findClass(java.lang.String)>"
+        ]
+      },
+      "InMemoryDexClassLoader": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      },
+      "System.load": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      },
+      "System.loadLibrary": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      },
+      "Runtime.exec": {
+        "raw_line_count": 0,
+        "n_apps": 0,
+        "examples": []
+      }
+    }
+  },
+  "pipeline": {
+    "benign": {
+      "matched_probe_lines_processed": 9321,
+      "stage_counts": {
+        "allowlist": 8560,
+        "caller_callee_split": 8560,
+        "signature_decomp": 8560,
+        "reached_categorize_callee": 8560,
+        "categorize_callee_nonempty_graph": 6977,
+        "final_mapped": 6977,
+        "fail_allowlist": 761,
+        "fail_categorize_callee_empty": 1583
+      },
+      "post_mapper_sms": 0,
+      "post_mapper_dynamic_code_loading": 0,
+      "fail_examples": {
+        "allowlist_filter": [
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getPhoneType()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperatorName()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getSimState()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimOperatorName()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getPhoneType()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperatorName()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getSimState()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimOperatorName()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getPhoneType()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkCountryIso()>"
+        ],
+        "categorize_callee": [
+          "{\"class\": \"android.telephony.PhoneStateListener\", \"method\": \"onCallStateChanged\", \"raw_set\": [], \"line\": \"<etv: void onCallStateChanged(int,java.lang.String)> -> <android.telephony.PhoneStateListener: void onCallStateChanged(int,java.lang.String)>\"}",
+          "{\"class\": \"android.telephony.PhoneStateListener\", \"method\": \"onCallStateChanged\", \"raw_set\": [], \"line\": \"<etv: void onCallStateChanged(int,java.lang.String)> -> <android.telephony.PhoneStateListener: void onCallStateChanged(int,java.lang.String)>\"}",
+          "{\"class\": \"android.telephony.PhoneStateListener\", \"method\": \"onCallStateChanged\", \"raw_set\": [], \"line\": \"<etv: void onCallStateChanged(int,java.lang.String)> -> <android.telephony.PhoneStateListener: void onCallStateChanged(int,java.lang.String)>\"}",
+          "{\"class\": \"android.telephony.PhoneStateListener\", \"method\": \"onCallStateChanged\", \"raw_set\": [], \"line\": \"<etv: void onCallStateChanged(int,java.lang.String)> -> <android.telephony.PhoneStateListener: void onCallStateChanged(int,java.lang.String)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"android.telephony.CellInfo\", \"method\": \"isRegistered\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfo: boolean isRegistered()>\"}",
+          "{\"class\": \"android.telephony.CellInfoGsm\", \"method\": \"getCellSignalStrength\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfoGsm: android.telephony.CellSignalStrengthGsm getCellSignalStrength()>\"}",
+          "{\"class\": \"com.startapp.android.publish.i.b\", \"method\": \"a\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.model.GetAdRequest: void fillCellDetails(android.content.Context,android.telephony.TelephonyManager)> -> <com.startapp.android.publish.i.b: java.util.List a(android.content.Context,android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.startapp.android.publish.model.GetAdRequest\", \"method\": \"fillCellDetails\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.model.GetAdRequest: void fillAdPreferences(android.content.Context,com.startapp.android.publish.model.AdPreferences,com.startapp.android.publish.model.AdPreferences$Placement,java.lang.String)> -> <com.startapp.android.publish.model.GetAdRequest: void fillCellDetails(an\"}",
+          "{\"class\": \"android.telephony.CellInfo\", \"method\": \"isRegistered\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfo: boolean isRegistered()>\"}",
+          "{\"class\": \"android.telephony.CellInfoGsm\", \"method\": \"getCellSignalStrength\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfoGsm: android.telephony.CellSignalStrengthGsm getCellSignalStrength()>\"}",
+          "{\"class\": \"android.telephony.CellInfo\", \"method\": \"isRegistered\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfo: boolean isRegistered()>\"}",
+          "{\"class\": \"android.telephony.CellInfoGsm\", \"method\": \"getCellSignalStrength\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfoGsm: android.telephony.CellSignalStrengthGsm getCellSignalStrength()>\"}",
+          "{\"class\": \"android.telephony.CellInfo\", \"method\": \"isRegistered\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfo: boolean isRegistered()>\"}",
+          "{\"class\": \"android.telephony.CellInfoGsm\", \"method\": \"getCellSignalStrength\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfoGsm: android.telephony.CellSignalStrengthGsm getCellSignalStrength()>\"}",
+          "{\"class\": \"android.telephony.CellInfo\", \"method\": \"isRegistered\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfo: boolean isRegistered()>\"}",
+          "{\"class\": \"android.telephony.CellInfoGsm\", \"method\": \"getCellSignalStrength\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfoGsm: android.telephony.CellSignalStrengthGsm getCellSignalStrength()>\"}",
+          "{\"class\": \"com.startapp.android.publish.i.b\", \"method\": \"a\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.model.GetAdRequest: void fillCellDetails(android.content.Context,android.telephony.TelephonyManager)> -> <com.startapp.android.publish.i.b: java.util.List a(android.content.Context,android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.startapp.android.publish.model.GetAdRequest\", \"method\": \"fillCellDetails\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.model.GetAdRequest: void fillAdPreferences(android.content.Context,com.startapp.android.publish.model.AdPreferences,com.startapp.android.publish.model.AdPreferences$Placement,java.lang.String)> -> <com.startapp.android.publish.model.GetAdRequest: void fillCellDetails(an\"}",
+          "{\"class\": \"android.telephony.CellInfo\", \"method\": \"isRegistered\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfo: boolean isRegistered()>\"}",
+          "{\"class\": \"android.telephony.CellInfoGsm\", \"method\": \"getCellSignalStrength\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfoGsm: android.telephony.CellSignalStrengthGsm getCellSignalStrength()>\"}",
+          "{\"class\": \"android.telephony.CellInfo\", \"method\": \"isRegistered\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfo: boolean isRegistered()>\"}"
+        ]
+      },
+      "sample_pipeline_rows_n": 5000,
+      "raw_sms_related_line_count": 8,
+      "raw_dcl_related_line_count": 163
+    },
+    "malware": {
+      "matched_probe_lines_processed": 11328,
+      "stage_counts": {
+        "fail_allowlist": 1419,
+        "allowlist": 9909,
+        "caller_callee_split": 9909,
+        "signature_decomp": 9909,
+        "reached_categorize_callee": 9909,
+        "categorize_callee_nonempty_graph": 9722,
+        "final_mapped": 9722,
+        "fail_categorize_callee_empty": 187
+      },
+      "post_mapper_sms": 0,
+      "post_mapper_dynamic_code_loading": 0,
+      "fail_examples": {
+        "allowlist_filter": [
+          "<com.seattleclouds.util.ao: void <init>(com.seattleclouds.util.an)> -> <android.telephony.PhoneStateListener: void <init>()>",
+          "<com.seattleclouds.util.ao: void <init>(com.seattleclouds.util.an)> -> <android.telephony.PhoneStateListener: void <init>()>",
+          "<com.seattleclouds.util.ao: void <init>(com.seattleclouds.util.an)> -> <android.telephony.PhoneStateListener: void <init>()>",
+          "<com.seattleclouds.util.ao: void <init>(com.seattleclouds.util.an)> -> <android.telephony.PhoneStateListener: void <init>()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getPhoneType()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperatorName()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getSimState()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimOperatorName()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getPhoneType()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperatorName()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getSimState()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimOperatorName()>"
+        ],
+        "categorize_callee": [
+          "{\"class\": \"android.telephony.PhoneStateListener\", \"method\": \"onCallStateChanged\", \"raw_set\": [], \"line\": \"<com.seattleclouds.util.ao: void onCallStateChanged(int,java.lang.String)> -> <android.telephony.PhoneStateListener: void onCallStateChanged(int,java.lang.String)>\"}",
+          "{\"class\": \"android.telephony.PhoneStateListener\", \"method\": \"onCallStateChanged\", \"raw_set\": [], \"line\": \"<com.seattleclouds.util.ao: void onCallStateChanged(int,java.lang.String)> -> <android.telephony.PhoneStateListener: void onCallStateChanged(int,java.lang.String)>\"}",
+          "{\"class\": \"android.telephony.PhoneStateListener\", \"method\": \"onCallStateChanged\", \"raw_set\": [], \"line\": \"<com.seattleclouds.util.ao: void onCallStateChanged(int,java.lang.String)> -> <android.telephony.PhoneStateListener: void onCallStateChanged(int,java.lang.String)>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"from\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: android.telephony.SubscriptionManager 'from'(android.content.Context)>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"getActiveSubscriptionInfoList\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"getActiveSubscriptionInfoList\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionInfo\", \"method\": \"getMnc\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionInfo: int getMnc()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"addOnSubscriptionsChangedListener\", \"raw_set\": [], \"line\": \"<c.REK: void \\u02ca(android.content.Context)> -> <android.telephony.SubscriptionManager: void addOnSubscriptionsChangedListener(android.telephony.SubscriptionManager$OnSubscriptionsChangedListener)>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager$OnSubscriptionsChangedListener\", \"method\": \"onSubscriptionsChanged\", \"raw_set\": [], \"line\": \"<c.REp: void onSubscriptionsChanged()> -> <android.telephony.SubscriptionManager$OnSubscriptionsChangedListener: void onSubscriptionsChanged()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"from\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: android.telephony.SubscriptionManager 'from'(android.content.Context)>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"getActiveSubscriptionInfoList\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"getActiveSubscriptionInfoList\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionInfo\", \"method\": \"getMcc\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionInfo: int getMcc()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionInfo\", \"method\": \"getCarrierName\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionInfo: java.lang.CharSequence getCarrierName()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionInfo\", \"method\": \"getCarrierName\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionInfo: java.lang.CharSequence getCarrierName()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"from\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: android.telephony.SubscriptionManager 'from'(android.content.Context)>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"getActiveSubscriptionInfoList\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"getActiveSubscriptionInfoList\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionInfo\", \"method\": \"getMnc\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionInfo: int getMnc()>\"}",
+          "{\"class\": \"cn.bmob.v3.b.This\", \"method\": \"V\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject Code(android.telephony.TelephonyManager)> -> <cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getLac\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getLac()>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getCid\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getCid()>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getPsc\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getPsc()>\"}",
+          "{\"class\": \"cn.bmob.v3.b.This\", \"method\": \"V\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject Code(android.telephony.TelephonyManager)> -> <cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getPsc\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getPsc()>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getLac\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getLac()>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getCid\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getCid()>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getPsc\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getPsc()>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getLac\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getLac()>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getCid\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getCid()>\"}"
+        ]
+      },
+      "sample_pipeline_rows_n": 5000,
+      "raw_sms_related_line_count": 0,
+      "raw_dcl_related_line_count": 95
+    }
+  },
+  "generalization": {
+    "benign": {
+      "n_sampled_allowlisted_callees": 2000,
+      "n_seen_allowlisted_calls": 136454450,
+      "decomp_success": 2000,
+      "decomp_fail": {},
+      "decomp_fail_rate": 0.0,
+      "empty_category_set_among_decomp_ok": 1930,
+      "empty_category_rate_among_decomp_ok": 0.965,
+      "top50_empty_category_class_prefixes": [
+        [
+          "java.lang",
+          440
+        ],
+        [
+          "com.crashlytics",
+          243
+        ],
+        [
+          "android.support",
+          236
+        ],
+        [
+          "com.google",
+          172
+        ],
+        [
+          "android.view",
+          107
+        ],
+        [
+          "org.w3c",
+          96
+        ],
+        [
+          "java.util",
+          82
+        ],
+        [
+          "com.facebook",
+          54
+        ],
+        [
+          "android.content",
+          43
+        ],
+        [
+          "com.a",
+          39
+        ],
+        [
+          "java.io",
+          35
+        ],
+        [
+          "android.graphics",
+          31
+        ],
+        [
+          "org.apache",
+          30
+        ],
+        [
+          "org.xmlpull",
+          24
+        ],
+        [
+          "android.text",
+          20
+        ],
+        [
+          "com.b",
+          17
+        ],
+        [
+          "com.startapp",
+          17
+        ],
+        [
+          "android.util",
+          16
+        ],
+        [
+          "org.json",
+          15
+        ],
+        [
+          "com.squareup",
+          13
+        ],
+        [
+          "android.widget",
+          11
+        ],
+        [
+          "com.c",
+          11
+        ],
+        [
+          "java.nio",
+          10
+        ],
+        [
+          "a.a",
+          10
+        ],
+        [
+          "android.os",
+          10
+        ],
+        [
+          "com.fasterxml",
+          9
+        ],
+        [
+          "com.bumptech",
+          9
+        ],
+        [
+          "org.jsoup",
+          6
+        ],
+        [
+          "com.cmcm",
+          6
+        ],
+        [
+          "android.app",
+          5
+        ],
+        [
+          "dagger.internal",
+          4
+        ],
+        [
+          "com.handmark",
+          4
+        ],
+        [
+          "com.topringtones2017",
+          3
+        ],
+        [
+          "com.urbandroid",
+          3
+        ],
+        [
+          "android.database",
+          3
+        ],
+        [
+          "com.mcpeskins",
+          3
+        ],
+        [
+          "com.nineoldandroids",
+          3
+        ],
+        [
+          "com.mineworld",
+          2
+        ],
+        [
+          "com.masabi",
+          2
+        ],
+        [
+          "thai.mal",
+          2
+        ],
+        [
+          "com.example",
+          2
+        ],
+        [
+          "com.trentapps",
+          2
+        ],
+        [
+          "com.alibaba",
+          2
+        ],
+        [
+          "com.activeandroid",
+          2
+        ],
+        [
+          "com.pixlr",
+          2
+        ],
+        [
+          "epic.mychart",
+          2
+        ],
+        [
+          "com.seattleclouds",
+          2
+        ],
+        [
+          "nl.siegmann",
+          2
+        ],
+        [
+          "ch.boye",
+          2
+        ],
+        [
+          "kr",
+          2
+        ]
+      ]
+    },
+    "malware": {
+      "n_sampled_allowlisted_callees": 2000,
+      "n_seen_allowlisted_calls": 70705721,
+      "decomp_success": 2000,
+      "decomp_fail": {},
+      "decomp_fail_rate": 0.0,
+      "empty_category_set_among_decomp_ok": 1918,
+      "empty_category_rate_among_decomp_ok": 0.959,
+      "top50_empty_category_class_prefixes": [
+        [
+          "java.lang",
+          392
+        ],
+        [
+          "android.support",
+          290
+        ],
+        [
+          "com.google",
+          188
+        ],
+        [
+          "android.view",
+          169
+        ],
+        [
+          "com.facebook",
+          106
+        ],
+        [
+          "java.util",
+          100
+        ],
+        [
+          "java.nio",
+          72
+        ],
+        [
+          "android.content",
+          61
+        ],
+        [
+          "gnu.bytecode",
+          58
+        ],
+        [
+          "gnu.mapping",
+          53
+        ],
+        [
+          "nl.siegmann",
+          38
+        ],
+        [
+          "com.seattleclouds",
+          36
+        ],
+        [
+          "org.xml",
+          29
+        ],
+        [
+          "android.app",
+          25
+        ],
+        [
+          "com.inca",
+          25
+        ],
+        [
+          "org.fmod",
+          24
+        ],
+        [
+          "org.mapsforge",
+          18
+        ],
+        [
+          "android.os",
+          15
+        ],
+        [
+          "com.crashlytics",
+          14
+        ],
+        [
+          "java.io",
+          13
+        ],
+        [
+          "com.lody",
+          12
+        ],
+        [
+          "android.util",
+          12
+        ],
+        [
+          "com.appmk",
+          10
+        ],
+        [
+          "android.media",
+          9
+        ],
+        [
+          "android.webkit",
+          9
+        ],
+        [
+          "gnu.kawa",
+          9
+        ],
+        [
+          "org.json",
+          9
+        ],
+        [
+          "org.apache",
+          8
+        ],
+        [
+          "com.ipphonecamera",
+          8
+        ],
+        [
+          "com.alibaba",
+          8
+        ],
+        [
+          "android.widget",
+          7
+        ],
+        [
+          "java.math",
+          7
+        ],
+        [
+          "org.xmlpull",
+          6
+        ],
+        [
+          "com.seniorphone",
+          5
+        ],
+        [
+          "com.craft",
+          4
+        ],
+        [
+          "aimoxiu.theme",
+          4
+        ],
+        [
+          "a.a",
+          4
+        ],
+        [
+          "com.startapp",
+          4
+        ],
+        [
+          "com.hitwe",
+          4
+        ],
+        [
+          "android.net",
+          4
+        ],
+        [
+          "android.graphics",
+          3
+        ],
+        [
+          "ru.wmr",
+          3
+        ],
+        [
+          "android.text",
+          3
+        ],
+        [
+          "io.fabric",
+          2
+        ],
+        [
+          "com.taobao",
+          2
+        ],
+        [
+          "com.knightli",
+          2
+        ],
+        [
+          "com.qihoo",
+          2
+        ],
+        [
+          "com.tencent",
+          2
+        ],
+        [
+          "u.aly",
+          2
+        ],
+        [
+          "com.baidu",
+          2
+        ]
+      ]
+    }
+  },
+  "gate": {
+    "benign": {
+      "sms": {
+        "raw_related": 8,
+        "post_mapper": 0,
+        "gate_trip": true
+      },
+      "dynamic_code_loading": {
+        "raw_related": 163,
+        "post_mapper": 0,
+        "gate_trip": true
+      },
+      "android.telephony_raw": 9150,
+      "System.loadLibrary_raw": 0,
+      "Runtime.exec_raw": 0,
+      "fail_stage_counts": {
+        "allowlist": 8560,
+        "signature_decomp": 8560,
+        "categorize_callee_nonempty_graph": 6977,
+        "fail_allowlist": 761,
+        "fail_categorize_callee_empty": 1583
+      },
+      "fail_examples": {
+        "allowlist_filter": [
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getPhoneType()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperatorName()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getSimState()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimOperatorName()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getPhoneType()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperatorName()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getSimState()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimOperatorName()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getPhoneType()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkCountryIso()>"
+        ],
+        "categorize_callee": [
+          "{\"class\": \"android.telephony.PhoneStateListener\", \"method\": \"onCallStateChanged\", \"raw_set\": [], \"line\": \"<etv: void onCallStateChanged(int,java.lang.String)> -> <android.telephony.PhoneStateListener: void onCallStateChanged(int,java.lang.String)>\"}",
+          "{\"class\": \"android.telephony.PhoneStateListener\", \"method\": \"onCallStateChanged\", \"raw_set\": [], \"line\": \"<etv: void onCallStateChanged(int,java.lang.String)> -> <android.telephony.PhoneStateListener: void onCallStateChanged(int,java.lang.String)>\"}",
+          "{\"class\": \"android.telephony.PhoneStateListener\", \"method\": \"onCallStateChanged\", \"raw_set\": [], \"line\": \"<etv: void onCallStateChanged(int,java.lang.String)> -> <android.telephony.PhoneStateListener: void onCallStateChanged(int,java.lang.String)>\"}",
+          "{\"class\": \"android.telephony.PhoneStateListener\", \"method\": \"onCallStateChanged\", \"raw_set\": [], \"line\": \"<etv: void onCallStateChanged(int,java.lang.String)> -> <android.telephony.PhoneStateListener: void onCallStateChanged(int,java.lang.String)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.yy.iheima.aw\", \"method\": \"z\", \"raw_set\": [], \"line\": \"<com.yy.iheima.aw: void z(android.content.Context)> -> <com.yy.iheima.aw: java.lang.Object z(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"android.telephony.CellInfo\", \"method\": \"isRegistered\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfo: boolean isRegistered()>\"}",
+          "{\"class\": \"android.telephony.CellInfoGsm\", \"method\": \"getCellSignalStrength\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfoGsm: android.telephony.CellSignalStrengthGsm getCellSignalStrength()>\"}",
+          "{\"class\": \"com.startapp.android.publish.i.b\", \"method\": \"a\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.model.GetAdRequest: void fillCellDetails(android.content.Context,android.telephony.TelephonyManager)> -> <com.startapp.android.publish.i.b: java.util.List a(android.content.Context,android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.startapp.android.publish.model.GetAdRequest\", \"method\": \"fillCellDetails\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.model.GetAdRequest: void fillAdPreferences(android.content.Context,com.startapp.android.publish.model.AdPreferences,com.startapp.android.publish.model.AdPreferences$Placement,java.lang.String)> -> <com.startapp.android.publish.model.GetAdRequest: void fillCellDetails(an\"}",
+          "{\"class\": \"android.telephony.CellInfo\", \"method\": \"isRegistered\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfo: boolean isRegistered()>\"}",
+          "{\"class\": \"android.telephony.CellInfoGsm\", \"method\": \"getCellSignalStrength\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfoGsm: android.telephony.CellSignalStrengthGsm getCellSignalStrength()>\"}",
+          "{\"class\": \"android.telephony.CellInfo\", \"method\": \"isRegistered\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfo: boolean isRegistered()>\"}",
+          "{\"class\": \"android.telephony.CellInfoGsm\", \"method\": \"getCellSignalStrength\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfoGsm: android.telephony.CellSignalStrengthGsm getCellSignalStrength()>\"}",
+          "{\"class\": \"android.telephony.CellInfo\", \"method\": \"isRegistered\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfo: boolean isRegistered()>\"}",
+          "{\"class\": \"android.telephony.CellInfoGsm\", \"method\": \"getCellSignalStrength\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfoGsm: android.telephony.CellSignalStrengthGsm getCellSignalStrength()>\"}",
+          "{\"class\": \"android.telephony.CellInfo\", \"method\": \"isRegistered\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfo: boolean isRegistered()>\"}",
+          "{\"class\": \"android.telephony.CellInfoGsm\", \"method\": \"getCellSignalStrength\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfoGsm: android.telephony.CellSignalStrengthGsm getCellSignalStrength()>\"}",
+          "{\"class\": \"com.startapp.android.publish.i.b\", \"method\": \"a\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.model.GetAdRequest: void fillCellDetails(android.content.Context,android.telephony.TelephonyManager)> -> <com.startapp.android.publish.i.b: java.util.List a(android.content.Context,android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"com.startapp.android.publish.model.GetAdRequest\", \"method\": \"fillCellDetails\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.model.GetAdRequest: void fillAdPreferences(android.content.Context,com.startapp.android.publish.model.AdPreferences,com.startapp.android.publish.model.AdPreferences$Placement,java.lang.String)> -> <com.startapp.android.publish.model.GetAdRequest: void fillCellDetails(an\"}",
+          "{\"class\": \"android.telephony.CellInfo\", \"method\": \"isRegistered\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfo: boolean isRegistered()>\"}",
+          "{\"class\": \"android.telephony.CellInfoGsm\", \"method\": \"getCellSignalStrength\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfoGsm: android.telephony.CellSignalStrengthGsm getCellSignalStrength()>\"}",
+          "{\"class\": \"android.telephony.CellInfo\", \"method\": \"isRegistered\", \"raw_set\": [], \"line\": \"<com.startapp.android.publish.i.b: java.lang.String c(android.content.Context,android.telephony.TelephonyManager)> -> <android.telephony.CellInfo: boolean isRegistered()>\"}"
+        ]
+      }
+    },
+    "malware": {
+      "sms": {
+        "raw_related": 0,
+        "post_mapper": 0,
+        "gate_trip": false
+      },
+      "dynamic_code_loading": {
+        "raw_related": 95,
+        "post_mapper": 0,
+        "gate_trip": true
+      },
+      "android.telephony_raw": 11233,
+      "System.loadLibrary_raw": 0,
+      "Runtime.exec_raw": 0,
+      "fail_stage_counts": {
+        "fail_allowlist": 1419,
+        "allowlist": 9909,
+        "signature_decomp": 9909,
+        "categorize_callee_nonempty_graph": 9722,
+        "fail_categorize_callee_empty": 187
+      },
+      "fail_examples": {
+        "allowlist_filter": [
+          "<com.seattleclouds.util.ao: void <init>(com.seattleclouds.util.an)> -> <android.telephony.PhoneStateListener: void <init>()>",
+          "<com.seattleclouds.util.ao: void <init>(com.seattleclouds.util.an)> -> <android.telephony.PhoneStateListener: void <init>()>",
+          "<com.seattleclouds.util.ao: void <init>(com.seattleclouds.util.an)> -> <android.telephony.PhoneStateListener: void <init>()>",
+          "<com.seattleclouds.util.ao: void <init>(com.seattleclouds.util.an)> -> <android.telephony.PhoneStateListener: void <init>()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getPhoneType()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperatorName()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getSimState()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimOperatorName()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getPhoneType()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimCountryIso()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getNetworkOperatorName()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: int getSimState()>",
+          "<com.mopub.common.ClientMetadata: void <init>(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getSimOperatorName()>"
+        ],
+        "categorize_callee": [
+          "{\"class\": \"android.telephony.PhoneStateListener\", \"method\": \"onCallStateChanged\", \"raw_set\": [], \"line\": \"<com.seattleclouds.util.ao: void onCallStateChanged(int,java.lang.String)> -> <android.telephony.PhoneStateListener: void onCallStateChanged(int,java.lang.String)>\"}",
+          "{\"class\": \"android.telephony.PhoneStateListener\", \"method\": \"onCallStateChanged\", \"raw_set\": [], \"line\": \"<com.seattleclouds.util.ao: void onCallStateChanged(int,java.lang.String)> -> <android.telephony.PhoneStateListener: void onCallStateChanged(int,java.lang.String)>\"}",
+          "{\"class\": \"android.telephony.PhoneStateListener\", \"method\": \"onCallStateChanged\", \"raw_set\": [], \"line\": \"<com.seattleclouds.util.ao: void onCallStateChanged(int,java.lang.String)> -> <android.telephony.PhoneStateListener: void onCallStateChanged(int,java.lang.String)>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"from\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: android.telephony.SubscriptionManager 'from'(android.content.Context)>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"getActiveSubscriptionInfoList\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"getActiveSubscriptionInfoList\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionInfo\", \"method\": \"getMnc\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionInfo: int getMnc()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"addOnSubscriptionsChangedListener\", \"raw_set\": [], \"line\": \"<c.REK: void \\u02ca(android.content.Context)> -> <android.telephony.SubscriptionManager: void addOnSubscriptionsChangedListener(android.telephony.SubscriptionManager$OnSubscriptionsChangedListener)>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager$OnSubscriptionsChangedListener\", \"method\": \"onSubscriptionsChanged\", \"raw_set\": [], \"line\": \"<c.REp: void onSubscriptionsChanged()> -> <android.telephony.SubscriptionManager$OnSubscriptionsChangedListener: void onSubscriptionsChanged()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"from\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: android.telephony.SubscriptionManager 'from'(android.content.Context)>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"getActiveSubscriptionInfoList\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"getActiveSubscriptionInfoList\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionInfo\", \"method\": \"getMcc\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionInfo: int getMcc()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionInfo\", \"method\": \"getCarrierName\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionInfo: java.lang.CharSequence getCarrierName()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionInfo\", \"method\": \"getCarrierName\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionInfo: java.lang.CharSequence getCarrierName()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"from\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: android.telephony.SubscriptionManager 'from'(android.content.Context)>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"getActiveSubscriptionInfoList\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionManager\", \"method\": \"getActiveSubscriptionInfoList\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()>\"}",
+          "{\"class\": \"android.telephony.SubscriptionInfo\", \"method\": \"getMnc\", \"raw_set\": [], \"line\": \"<c.REK: java.lang.String \\u02ca(android.content.Context,int)> -> <android.telephony.SubscriptionInfo: int getMnc()>\"}",
+          "{\"class\": \"cn.bmob.v3.b.This\", \"method\": \"V\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject Code(android.telephony.TelephonyManager)> -> <cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getLac\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getLac()>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getCid\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getCid()>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getPsc\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getPsc()>\"}",
+          "{\"class\": \"cn.bmob.v3.b.This\", \"method\": \"V\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject Code(android.telephony.TelephonyManager)> -> <cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getPsc\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getPsc()>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getLac\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getLac()>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getCid\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getCid()>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getPsc\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getPsc()>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getLac\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getLac()>\"}",
+          "{\"class\": \"android.telephony.gsm.GsmCellLocation\", \"method\": \"getCid\", \"raw_set\": [], \"line\": \"<cn.bmob.v3.b.This: org.json.JSONObject V(android.telephony.TelephonyManager)> -> <android.telephony.gsm.GsmCellLocation: int getCid()>\"}"
+        ]
+      }
+    }
+  }
+}

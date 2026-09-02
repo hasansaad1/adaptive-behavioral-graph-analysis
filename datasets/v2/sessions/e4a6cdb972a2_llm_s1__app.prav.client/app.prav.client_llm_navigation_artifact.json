@@ -1,0 +1,1012 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "app.prav.client",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_hash": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "hint": "Next next Button · United States country EditText · 1 country_code EditText · phone number number EditText · More options ImageView",
+      "visit_count": 26
+    },
+    {
+      "screen_hash": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "hint": "OK button1 Button",
+      "visit_count": 21
+    },
+    {
+      "screen_hash": "9e5432117ccacd0df3bb66fb77fdcf90f309210b5c7de99fe9f99efe4fc49a2d",
+      "hint": "Search action_search Button · Navigate up ImageButton · RelativeLayout · RelativeLayout · RelativeLayout · RelativeLayout · RelativeLayout · RelativeLayout · RelativeLayout · RelativeLayout",
+      "visit_count": 3
+    },
+    {
+      "screen_hash": "c45584e13820d27182dfa359b3bd372e30da73f6b055037cfea8b33d1f8c6d9d",
+      "hint": "Search action_search Button · Navigate up ImageButton · RelativeLayout · RelativeLayout · RelativeLayout · RelativeLayout · RelativeLayout · RelativeLayout · RelativeLayout · RelativeLayout",
+      "visit_count": 1
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 2,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 3,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 4,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 5,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 6,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 7,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 8,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 9,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 10,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 11,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 12,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 13,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 14,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 15,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 16,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 17,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 18,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 19,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 20,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 21,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 22,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 23,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 24,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 25,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 26,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 27,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 28,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 29,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 30,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 31,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 32,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 33,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 34,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 35,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    },
+    {
+      "step": 36,
+      "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 894,
+        "y": 991,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 37,
+      "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+      "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "x": 922,
+        "y": 1064,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:app.prav.client:id/next",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:app.prav.client:id/next|"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:app.prav.client:id/next|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "visible_on": [
+          "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec"
+        ],
+        "attempts": 20,
+        "successes": 20,
+        "last_from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "last_to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12"
+      },
+      "nav:app.prav.client:id/next|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.prav.client:id/next",
+        "target_content_desc": "",
+        "visible_on": [
+          "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12"
+        ],
+        "attempts": 17,
+        "successes": 17,
+        "last_from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "last_to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec"
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "to": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "096023297ed66b07ae524ccb78e0a659a8c24e820ec1afdad368f252445569ec",
+        "to": "4acf418cfb7ecf8fee2430e3699c8ab41ec1667cd59f15314c91af73970d2e12",
+        "target_key": "tab:app.prav.client:id/next|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  }
+}

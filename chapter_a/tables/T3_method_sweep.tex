@@ -1,0 +1,18 @@
+\begin{table}[ht]
+\centering
+\caption{Seven method families, trained vs untrained, against the mapped-event size floor.}
+\label{tab:t3-sweep}
+\begin{tabular}{lrrrrrr}
+\toprule
+family & trained & untrained & CI low & CI high & CI type & clears floor \\
+\midrule
+GAE reconstruction & 0.6387 & 0.6288 &  &  & per\_fold\_std & False \\
+GAE embedding distance & 0.6691 & 0.7591 &  &  & none & False \\
+OCGIN & 0.5660 & 0.6538 &  &  & per\_fold\_std & False \\
+GLocalKD & 0.5594 & 0.6650 &  &  & per\_fold\_std & False \\
+OCGTL & 0.5503 & 0.5614 &  &  & per\_fold\_std & False \\
+graph kernels & 0.6726 & --- &  &  & none & False \\
+pooling / one-class & 0.7765 & --- & 0.7273 & 0.8215 & score\_bootstrap & True \\
+\bottomrule
+\end{tabular}
+\end{table}

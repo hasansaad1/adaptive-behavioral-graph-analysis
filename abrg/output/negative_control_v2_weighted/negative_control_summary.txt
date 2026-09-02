@@ -1,0 +1,16 @@
+Negative control — benign test corruptions (not pooled)
+Dataset=v2 seed=42 test_snaps=125 apps=8 edge_weight_in_encoder=True
+
+model              corruption                   n     medδ     IQRδ    AUC            win       W_p
+----------------------------------------------------------------------------------------------------
+normalized_v021    BENIGN_BASELINE            125   0.6528   0.0876      —              —         —
+normalized_v021    edge_shuffle                48  +0.0000   0.4039  0.640    22/48 (46%)  1.45e-05
+normalized_v021    impossible_edge            125  +0.2283   0.1309  0.945 125/125 (100%)  1.41e-22
+normalized_v021    weight_randomization        51  +0.0000   0.0008  0.487     5/51 (10%)     0.998
+
+raw_pre_v021       BENIGN_BASELINE            125   0.6472   0.0818      —              —         —
+raw_pre_v021       edge_shuffle                48  +0.0000   0.4036  0.634    21/48 (44%)  2.71e-05
+raw_pre_v021       impossible_edge            125  +0.3281   0.4242  0.966 125/125 (100%)  1.48e-22
+raw_pre_v021       weight_randomization       108  +0.0000   0.0000  0.508   38/108 (35%)    0.0749
+
+Eval uses deterministic recon_loss (all directed non-edges as negatives). edge_weight_in_encoder=True. Per-cell AUC uses n_eligible benign vs n_eligible corrupted (same support). Corruptions are never pooled.

@@ -1,0 +1,81 @@
+{
+  "kind": "androct_master_verify",
+  "experiment": "ladder",
+  "n_rows": 7,
+  "cli_rerun": {
+    "cli_module": "abrg.ladder",
+    "out_flag": "--out"
+  },
+  "rows": [
+    {
+      "detector": "HGB",
+      "method": "supervised",
+      "representation": "T22_full",
+      "split": "splitA_stratified",
+      "auc_floor": "0.976241134751773",
+      "raw_auc": "0.976241134751773",
+      "artifact_path": "abrg/output/androct_2017/ladder/rung1/rung1.json",
+      "is_headline": "True"
+    },
+    {
+      "detector": "HGB_mean_auc_floor",
+      "method": "supervised_group_holdout",
+      "representation": "T22_full",
+      "split": "splitB_ward30",
+      "auc_floor": "0.8491852043853224",
+      "raw_auc": "0.8491852043853224",
+      "artifact_path": "abrg/output/androct_2017/ladder/rung2/behavioral_group_holdout.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB_weighted_mean_auc_floor",
+      "method": "supervised_group_holdout",
+      "representation": "T22_full",
+      "split": "splitB_ward30",
+      "auc_floor": "0.860595279982225",
+      "raw_auc": "0.860595279982225",
+      "artifact_path": "abrg/output/androct_2017/ladder/rung2/behavioral_group_holdout.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB_pooled_oof_raw",
+      "method": "supervised_group_holdout",
+      "representation": "T22_full",
+      "split": "splitB_ward30",
+      "auc_floor": "0.8488607982199972",
+      "raw_auc": "0.8488607982199972",
+      "artifact_path": "abrg/output/androct_2017/ladder/rung2/behavioral_group_holdout.json",
+      "is_headline": "True"
+    },
+    {
+      "detector": "HGB_mean_raw_auc",
+      "method": "supervised_group_holdout",
+      "representation": "T22_full",
+      "split": "splitB_ward30",
+      "auc_floor": "0.8491852043853224",
+      "raw_auc": "0.8373648734160551",
+      "artifact_path": "abrg/output/androct_2017/ladder/rung2/behavioral_group_holdout.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "HGB_pooled_oof_raw",
+      "method": "supervised_random_group_holdout",
+      "representation": "T22_full",
+      "split": "random_group_matched_sizes",
+      "auc_floor": "0.971309275483243",
+      "raw_auc": "0.971309275483243",
+      "artifact_path": "abrg/output/androct_2017/ladder/control/random_group_holdout.json",
+      "is_headline": "True"
+    },
+    {
+      "detector": "HGB_mean_auc_floor",
+      "method": "supervised_random_group_holdout",
+      "representation": "T22_full",
+      "split": "random_group_matched_sizes",
+      "auc_floor": "0.9864212197666841",
+      "raw_auc": "0.9864212197666841",
+      "artifact_path": "abrg/output/androct_2017/ladder/control/random_group_holdout.json",
+      "is_headline": "False"
+    }
+  ]
+}

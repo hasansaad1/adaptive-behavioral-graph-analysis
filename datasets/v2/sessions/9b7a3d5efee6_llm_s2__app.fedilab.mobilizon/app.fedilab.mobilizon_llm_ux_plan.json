@@ -1,0 +1,667 @@
+{
+  "goals": [
+    "Tap Explore",
+    "Tap More options",
+    "Tap Open the menu",
+    "Tap Search"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap Explore",
+      "nav_token": "explore",
+      "target_keys": [
+        "tab:explore",
+        "nav:explore"
+      ],
+      "observed_screen_hashes": [
+        "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f",
+        "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185"
+      ],
+      "observed_screen_hints": [
+        "Search action_search TextView · nav_explore LinearLayoutCompat · nav_login LinearLayoutCompat · nav_my_event LinearLayoutCompat · nav_my_group LinearLayoutCompat · nav_register LinearLayoutCompat · Close the menu ImageButton · More options ImageView",
+        "Search action_search TextView · Open the menu ImageButton · More options ImageView"
+      ],
+      "route_hint": "Use visible explore navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 1,
+      "goal": "Tap More options",
+      "nav_token": "",
+      "target_keys": [
+        "expand:|More options",
+        "tab:|More options"
+      ],
+      "observed_screen_hashes": [
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "observed_screen_hints": [
+        ""
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Open the menu",
+      "nav_token": "",
+      "target_keys": [
+        "expand:|Open the menu"
+      ],
+      "observed_screen_hashes": [
+        "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f"
+      ],
+      "observed_screen_hints": [
+        "Search action_search TextView · nav_explore LinearLayoutCompat · nav_login LinearLayoutCompat · nav_my_event LinearLayoutCompat · nav_my_group LinearLayoutCompat · nav_register LinearLayoutCompat · Close the menu ImageButton · More options ImageView"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Search",
+      "nav_token": "search",
+      "target_keys": [
+        "tab:app.fedilab.mobilizon:id/action_search|Search"
+      ],
+      "observed_screen_hashes": [
+        "8b1807bda3e5bcba63ec67062e367e6f13db12dd392c84d88a1e000eda61e382"
+      ],
+      "observed_screen_hints": [
+        "Search… search_src_text EditText · Skip to main content View · Collapse ImageButton · More options ImageView · View"
+      ],
+      "route_hint": "Open the observed search affordance before typing into a query field."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "7dd579925d1bd25e5b8a9633dd9e46ac25189937c5adf2be7f6a5bc976843a66": "Search action_search TextView · Back to homepage, current pa View · Skip to main content View · Open the menu ImageButton · More options ImageView · View · Open main menu Button",
+    "17f555c53923d67120a73ca63e9c43396f8f4783901bf8fa354a7e5dc4083eaf": "Search action_search TextView · Skip to main content View · Open the menu ImageButton · More options ImageView · View",
+    "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185": "Search action_search TextView · Open the menu ImageButton · More options ImageView",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": "",
+    "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f": "Search action_search TextView · nav_explore LinearLayoutCompat · nav_login LinearLayoutCompat · nav_my_event LinearLayoutCompat · nav_my_group LinearLayoutCompat · nav_register LinearLayoutCompat · Close the menu ImageButton · More options ImageView",
+    "8b1807bda3e5bcba63ec67062e367e6f13db12dd392c84d88a1e000eda61e382": "Search… search_src_text EditText · Skip to main content View · Collapse ImageButton · More options ImageView · View",
+    "b25940da7a2c01cfb287e274ffd77864c182b8cb12390590427b538d944247e4": "Search… search_src_text EditText · Collapse ImageButton · More options ImageView"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1009, \"y\": 288}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "7dd579925d1bd25e5b8a9633dd9e46ac25189937c5adf2be7f6a5bc976843a66",
+        "last_to": "17f555c53923d67120a73ca63e9c43396f8f4783901bf8fa354a7e5dc4083eaf"
+      },
+      "expand:|More options": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [],
+        "attempts": 12,
+        "successes": 12,
+        "last_from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 17,
+        "successes": 17,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185"
+      },
+      "expand:|Open the menu": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Open the menu",
+        "visible_on": [],
+        "attempts": 6,
+        "successes": 6,
+        "last_from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "last_to": "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f"
+      },
+      "tab:explore": {
+        "kind": "tab",
+        "semantic_token": "explore",
+        "target_resource_id": "app.fedilab.mobilizon:id/nav_explore",
+        "target_content_desc": "",
+        "visible_on": [
+          "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f"
+        ],
+        "attempts": 5,
+        "successes": 5,
+        "last_from": "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f",
+        "last_to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185"
+      },
+      "nav:explore": {
+        "kind": "nav",
+        "semantic_token": "explore",
+        "target_resource_id": "app.fedilab.mobilizon:id/nav_explore",
+        "target_content_desc": "",
+        "visible_on": [
+          "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.fedilab.mobilizon:id/nav_login|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.mobilizon:id/nav_login",
+        "target_content_desc": "",
+        "visible_on": [
+          "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.fedilab.mobilizon:id/nav_my_event|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.mobilizon:id/nav_my_event",
+        "target_content_desc": "",
+        "visible_on": [
+          "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.fedilab.mobilizon:id/nav_my_group|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.mobilizon:id/nav_my_group",
+        "target_content_desc": "",
+        "visible_on": [
+          "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:app.fedilab.mobilizon:id/nav_register|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.mobilizon:id/nav_register",
+        "target_content_desc": "",
+        "visible_on": [
+          "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:app.fedilab.mobilizon:id/action_search|Search": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "app.fedilab.mobilizon:id/action_search",
+        "target_content_desc": "Search",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "last_to": "8b1807bda3e5bcba63ec67062e367e6f13db12dd392c84d88a1e000eda61e382"
+      },
+      "tab:|Collapse": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Collapse",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "b25940da7a2c01cfb287e274ffd77864c182b8cb12390590427b538d944247e4",
+        "last_to": "17f555c53923d67120a73ca63e9c43396f8f4783901bf8fa354a7e5dc4083eaf"
+      },
+      "tab:|More options": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [],
+        "attempts": 5,
+        "successes": 5,
+        "last_from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    "edges": [
+      {
+        "from": "7dd579925d1bd25e5b8a9633dd9e46ac25189937c5adf2be7f6a5bc976843a66",
+        "to": "17f555c53923d67120a73ca63e9c43396f8f4783901bf8fa354a7e5dc4083eaf",
+        "target_key": "expand:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1009, \"y\": 288}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f",
+        "target_key": "expand:|Open the menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f",
+        "to": "17f555c53923d67120a73ca63e9c43396f8f4783901bf8fa354a7e5dc4083eaf",
+        "target_key": "tab:explore",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "8b1807bda3e5bcba63ec67062e367e6f13db12dd392c84d88a1e000eda61e382",
+        "target_key": "tab:app.fedilab.mobilizon:id/action_search|Search",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b25940da7a2c01cfb287e274ffd77864c182b8cb12390590427b538d944247e4",
+        "to": "17f555c53923d67120a73ca63e9c43396f8f4783901bf8fa354a7e5dc4083eaf",
+        "target_key": "tab:|Collapse",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f",
+        "target_key": "expand:|Open the menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "tab:explore",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f",
+        "target_key": "expand:|Open the menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "tab:explore",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f",
+        "target_key": "expand:|Open the menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "tab:explore",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f",
+        "target_key": "expand:|Open the menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "tab:explore",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "fa7126dff908bde942b1d44a7ee5840fc4fcfc04710475d9e47203a67f487185",
+        "to": "835b94d025d5c37584a1dea7c5aae055ae20dfbe5416510d4e247e63fd62b03f",
+        "target_key": "expand:|Open the menu",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "52ebdddc4c2cb78a1dff7363296cbab83ef6577608984a7fe3c409be7280f670",
+    "root_screen_signature": "6088e841ef3d36fc7052538a391eedc962a880ae9db5fb41e756751d8d947cdb",
+    "root_screen_hint": "Search action_search TextView · Back to homepage, current pa View · Pontevedra View · Skip to main content View · Thu 25 JUN 2026 Mon 20 JUL 2 View · comics View · exposicións View · Open the menu ImageButton · More options ImageView · View",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "52ebdddc4c2cb78a1dff7363296cbab83ef6577608984a7fe3c409be7280f670",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "app.fedilab.mobilizon",
+          "screen_hash": "52ebdddc4c2cb78a1dff7363296cbab83ef6577608984a7fe3c409be7280f670",
+          "interactive_count": 11,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "6088e841ef3d36fc7052538a391eedc962a880ae9db5fb41e756751d8d947cdb",
+          "root_landmark_score": 5
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users primarily use the app to browse and view comics, with most sessions involving vertical scrolling through a list of comics. They often start by opening the 'Search' tab first to find specific comics, then navigate to the desired comic using horizontal swipes between tabs. The user may also occasionally tap on individual comics to view their details.",
+    "reason": "ux_goals_complete"
+  }
+}

@@ -1,0 +1,632 @@
+{
+  "goals": [
+    "Tap action",
+    "Tap input cancel",
+    "Tap input address",
+    "Tap input check"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap action",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap input cancel",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap input address",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap input check",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2": "CHECK ADDRESS action Button · More options ImageView",
+    "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c": "CANCEL input_cancel Button · CHECK input_check Button · Address input_address EditText · input_qr_code ImageView · ImageButton",
+    "a74fa9998f31951cbd5e6e52822873d599a193c61eabfcf6575ca38362f49c63": "CANCEL input_cancel Button · CHECK input_check Button · Address input_address EditText · input_qr_code ImageView · ImageButton",
+    "737e7b22387234156577a41d3f8ab1036e99697b24e94d7587929104a15cee84": "OK button1 Button"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:ademar.bitac:id/action|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ademar.bitac:id/action",
+        "target_content_desc": "",
+        "visible_on": [
+          "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2"
+        ],
+        "attempts": 24,
+        "successes": 24,
+        "last_from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "last_to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c"
+      },
+      "nav:ademar.bitac:id/action|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ademar.bitac:id/action",
+        "target_content_desc": "",
+        "visible_on": [
+          "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:ademar.bitac:id/input_address|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ademar.bitac:id/input_address",
+        "target_content_desc": "",
+        "visible_on": [
+          "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+          "a74fa9998f31951cbd5e6e52822873d599a193c61eabfcf6575ca38362f49c63"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "last_to": "a74fa9998f31951cbd5e6e52822873d599a193c61eabfcf6575ca38362f49c63"
+      },
+      "tab:ademar.bitac:id/input_cancel|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ademar.bitac:id/input_cancel",
+        "target_content_desc": "",
+        "visible_on": [
+          "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+          "a74fa9998f31951cbd5e6e52822873d599a193c61eabfcf6575ca38362f49c63"
+        ],
+        "attempts": 23,
+        "successes": 23,
+        "last_from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "last_to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2"
+      },
+      "tab:ademar.bitac:id/input_check|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ademar.bitac:id/input_check",
+        "target_content_desc": "",
+        "visible_on": [
+          "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+          "a74fa9998f31951cbd5e6e52822873d599a193c61eabfcf6575ca38362f49c63"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "last_to": "737e7b22387234156577a41d3f8ab1036e99697b24e94d7587929104a15cee84"
+      },
+      "nav:ademar.bitac:id/input_cancel|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ademar.bitac:id/input_cancel",
+        "target_content_desc": "",
+        "visible_on": [
+          "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+          "a74fa9998f31951cbd5e6e52822873d599a193c61eabfcf6575ca38362f49c63"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:ademar.bitac:id/input_check|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ademar.bitac:id/input_check",
+        "target_content_desc": "",
+        "visible_on": [
+          "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+          "a74fa9998f31951cbd5e6e52822873d599a193c61eabfcf6575ca38362f49c63"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:ademar.bitac:id/input_qr_code|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ademar.bitac:id/input_qr_code",
+        "target_content_desc": "",
+        "visible_on": [
+          "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "737e7b22387234156577a41d3f8ab1036e99697b24e94d7587929104a15cee84"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "737e7b22387234156577a41d3f8ab1036e99697b24e94d7587929104a15cee84",
+        "last_to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c"
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "737e7b22387234156577a41d3f8ab1036e99697b24e94d7587929104a15cee84"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "a74fa9998f31951cbd5e6e52822873d599a193c61eabfcf6575ca38362f49c63",
+        "target_key": "tab:ademar.bitac:id/input_address|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "a74fa9998f31951cbd5e6e52822873d599a193c61eabfcf6575ca38362f49c63",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "737e7b22387234156577a41d3f8ab1036e99697b24e94d7587929104a15cee84",
+        "target_key": "tab:ademar.bitac:id/input_check|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "737e7b22387234156577a41d3f8ab1036e99697b24e94d7587929104a15cee84",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "to": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "target_key": "tab:ademar.bitac:id/input_cancel|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+        "to": "d42df8eb2513859a4f79643780edf7bf6355fc63d228c4bf95064b9d2c016f2c",
+        "target_key": "tab:ademar.bitac:id/action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+    "root_screen_signature": "e254ee27ed50fdc832d812c65d1b258bd182d6b5f6dcfc130c6696415fdb9f9c",
+    "root_screen_hint": "CHECK ADDRESS action Button · More options ImageView",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ademar.bitac",
+          "screen_hash": "61f4a62ce44cd1ecea37e2e35e6d551d396a76ae4c59cf15b4be46b383afeda2",
+          "interactive_count": 2,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "e254ee27ed50fdc832d812c65d1b258bd182d6b5f6dcfc130c6696415fdb9f9c",
+          "root_landmark_score": 1
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app to check addresses, then enter a new address by tapping the 'CHECK ADDRESS' action button. They swipe down from the top of the screen to reveal additional options, including 'OK', 'CANCEL', and input fields for address and QR code. After entering an address, they tap 'CHECK' to submit their input. The user then taps 'CANCEL' to dismiss the input fields.",
+    "reason": "ux_goals_complete"
+  }
+}

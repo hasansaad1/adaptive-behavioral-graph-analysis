@@ -1,0 +1,75 @@
+{
+  "active_categories": [
+    "file_io",
+    "ipc_intents"
+  ],
+  "app_id": "at.tomtasche.reader",
+  "batch": "original",
+  "end_timestamp": "2026-07-15T10:56:44.588000Z",
+  "end_timestamp_ms": 1784113004588,
+  "event_counts": {
+    "mapped": 3,
+    "mapped_rate": 0.006944444444444444,
+    "total": 432
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "407b766fceb3_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": false,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "Context.bindService",
+    "File.delete"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 0,
+  "reference_tier_pass": true,
+  "session_id": "407b766fceb3_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/407b766fceb3_llm_s1__at.tomtasche.reader/at.tomtasche.reader_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/407b766fceb3_llm_s1__at.tomtasche.reader/at.tomtasche.reader_dynamic_metadata.json",
+  "start_timestamp": "2026-07-15T10:48:58.539000Z",
+  "start_timestamp_ms": 1784112538539,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 432,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 50,
+    "n_with_timestamp": 432,
+    "unparseable_line_numbers_sample": [
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 466.049
+}

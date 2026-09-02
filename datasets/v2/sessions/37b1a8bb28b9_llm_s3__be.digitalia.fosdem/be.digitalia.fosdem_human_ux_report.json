@@ -1,0 +1,54 @@
+{
+  "criteria_version": "human_ux_v3",
+  "note": "human_ux_overall_pass requires clean mechanics, meaningful goal progress, low guard intervention, valid planner action structure, and either full session success or pragmatic recovery.",
+  "checks": [
+    {
+      "id": "no_input_excessive_repeat",
+      "passed": true,
+      "detail": "max_consecutive_identical_input=0 (fail if >4)"
+    },
+    {
+      "id": "min_screen_diversity",
+      "passed": true,
+      "detail": "unique_hashes=9 actions=45"
+    },
+    {
+      "id": "goal_plan_advances_legacy",
+      "passed": true,
+      "detail": "final_goal_index=4 of 6"
+    },
+    {
+      "id": "meaningful_goal_progress",
+      "passed": true,
+      "detail": "final_goal_index=4 of 6 (required>=2)"
+    },
+    {
+      "id": "direct_action_ratio",
+      "passed": true,
+      "detail": "successful_direct_actions=9 scored_events=13 ratio=0.69 (required>=0.35)"
+    },
+    {
+      "id": "guard_intervention_rate",
+      "passed": true,
+      "detail": "guard_or_contract_issues=0 scored_events=13 ratio=0.00 (allowed<=0.25)"
+    },
+    {
+      "id": "planner_action_contract",
+      "passed": true,
+      "detail": "unparseable_action_steps=0"
+    },
+    {
+      "id": "ux_simulation_outcome",
+      "passed": true,
+      "detail": "status=success strict_success=True pragmatic_recovery=False"
+    }
+  ],
+  "execution_kind_counts": {
+    "direct": 13
+  },
+  "human_ux_mechanistic_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_overall_pass": true
+}

@@ -1,0 +1,413 @@
+{
+  "goals": [
+    "Tap editText2",
+    "Tap switch1",
+    "Tap Deny on system permission dialog if shown",
+    "Tap Allow",
+    "Tap Deny",
+    "Input text in 8088",
+    "Tap Switch",
+    "Press Back to return to the main app list",
+    "Wait for UI to settle"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap editText2",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap switch1",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Deny on system permission dialog if shown",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Allow",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap Deny",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Input text in 8088",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Tap Switch",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Press Back to return to the main app list",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 8,
+      "goal": "Wait for UI to settle",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d": "8088 editText2 EditText · Web Thing Service OFF switch1 Switch",
+    "791801fb39d15bc3a8f4fd91304c0cd918cac13a678293d1c2fc82d96cac9cb4": "Allow permission_allow_button Button · Deny permission_deny_button Button",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": ""
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:be.humanoids.webthingify:id/editText2|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "be.humanoids.webthingify:id/editText2",
+        "target_content_desc": "",
+        "visible_on": [
+          "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d"
+        ],
+        "attempts": 24,
+        "successes": 24,
+        "last_from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "last_to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d"
+      },
+      "tab:be.humanoids.webthingify:id/switch1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "be.humanoids.webthingify:id/switch1",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:be.humanoids.webthingify:id/switch1|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "be.humanoids.webthingify:id/switch1",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    "edges": [
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "791801fb39d15bc3a8f4fd91304c0cd918cac13a678293d1c2fc82d96cac9cb4",
+        "target_key": "tab:be.humanoids.webthingify:id/switch1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:be.humanoids.webthingify:id/switch1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:be.humanoids.webthingify:id/switch1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:be.humanoids.webthingify:id/switch1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:be.humanoids.webthingify:id/switch1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "to": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+        "target_key": "tab:be.humanoids.webthingify:id/editText2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+    "root_screen_signature": "41406304c76fcd1251e31b9964681b64088394f194aad1175e779cb6f43150f0",
+    "root_screen_hint": "8088 editText2 EditText · Web Thing Service OFF switch1 Switch",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "be.humanoids.webthingify",
+          "screen_hash": "45cb6f12f15d02602d7968a3813bf2d567a526b0e218ed8211162f4facf5e84d",
+          "interactive_count": 2,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "41406304c76fcd1251e31b9964681b64088394f194aad1175e779cb6f43150f0",
+          "root_landmark_score": 0
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app by tapping on a notification or opening it from their home screen. They then navigate to the main content area, which is usually a list of items (e.g. web services). The user scrolls through this list using a vertical swipe gesture, and taps on an item to view its details. If needed, they may also tap on a tab or button to switch between different views of the same data.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

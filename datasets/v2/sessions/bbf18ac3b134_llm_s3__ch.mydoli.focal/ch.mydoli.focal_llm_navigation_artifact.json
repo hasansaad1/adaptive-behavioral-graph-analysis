@@ -1,0 +1,1341 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "ch.mydoli.focal",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_hash": "40221ad98d13c61071392183e92052d7a2499eb7e79a0ffa5b7d8858b2d3836d",
+      "hint": "Cancel feed_cancel Button · Save feed_save Button · Description text_description EditText · Title text_title EditText · image_day ImageView · Navigate up ImageButton",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+      "hint": "Calendar navigation_calendar FrameLayout · Favorites navigation_favorites FrameLayout · Feed navigation_feed FrameLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout",
+      "visit_count": 5
+    },
+    {
+      "screen_hash": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411",
+      "hint": "Search option_menu_search TextView · List view sub_menu_list TextView · Show roots ImageButton · More options ImageView · LinearLayout · LinearLayout",
+      "visit_count": 3
+    },
+    {
+      "screen_hash": "7d654f53b27df0b977ae0c3133cce59a9b88673e1758091f61412695193e06b8",
+      "hint": "Pick date calendar_pick Button · Today calendar_today Button · Favorites navigation_favorites FrameLayout · Feed navigation_feed FrameLayout · Settings navigation_settings FrameLayout · Go to next next ImageButton · Go to previous previous ImageButton · CANCEL button_cancel Button · OK button_ok Button · 19 numberpicker_input EditText",
+      "visit_count": 1
+    },
+    {
+      "screen_hash": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "hint": "Pick date calendar_pick Button · Today calendar_today Button · Favorites navigation_favorites FrameLayout · Feed navigation_feed FrameLayout · Settings navigation_settings FrameLayout · Go to next next ImageButton · Go to previous previous ImageButton · imageView ImageView · 1 1 CheckedTextView · 10 10 CheckedTextView",
+      "visit_count": 33
+    },
+    {
+      "screen_hash": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+      "hint": "Edit feed_edit Button · Description text_description EditText · Title text_title EditText · image_day ImageView · Navigate up ImageButton",
+      "visit_count": 4
+    },
+    {
+      "screen_hash": "a998b1ae107e1c84f058a73d92cc27dfb503856f14b3a19319405b26f7dbdd56",
+      "hint": "Calendar navigation_calendar FrameLayout · Feed navigation_feed FrameLayout · Settings navigation_settings FrameLayout",
+      "visit_count": 2
+    },
+    {
+      "screen_hash": "c546ed7bc9092c53c63704925fec848c4999fb1e6f79550dfd5a87299e485bbe",
+      "hint": "Today's entry new_entry_pick Button · Calendar navigation_calendar FrameLayout · Favorites navigation_favorites FrameLayout · Settings navigation_settings FrameLayout",
+      "visit_count": 2
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 945,
+        "y": 1720,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 2,
+      "from": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+      "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_calendar",
+        "target_content_desc": "Calendar",
+        "x": 135,
+        "y": 1720,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/navigation_calendar",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ch.mydoli.focal:id/navigation_calendar|Calendar"
+    },
+    {
+      "step": 3,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "1",
+        "x": 540,
+        "y": 595,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|1"
+    },
+    {
+      "step": 4,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "10",
+        "x": 848,
+        "y": 749,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:10",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|10"
+    },
+    {
+      "step": 5,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "11",
+        "x": 1002,
+        "y": 749,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:11",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|11"
+    },
+    {
+      "step": 6,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "a998b1ae107e1c84f058a73d92cc27dfb503856f14b3a19319405b26f7dbdd56",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_favorites",
+        "target_content_desc": "Favorites",
+        "x": 675,
+        "y": 1720,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/navigation_favorites",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ch.mydoli.focal:id/navigation_favorites|Favorites"
+    },
+    {
+      "step": 7,
+      "from": "a998b1ae107e1c84f058a73d92cc27dfb503856f14b3a19319405b26f7dbdd56",
+      "to": "c546ed7bc9092c53c63704925fec848c4999fb1e6f79550dfd5a87299e485bbe",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_feed",
+        "target_content_desc": "Feed",
+        "x": 405,
+        "y": 1720,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/navigation_feed",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ch.mydoli.focal:id/navigation_feed|Feed"
+    },
+    {
+      "step": 8,
+      "from": "c546ed7bc9092c53c63704925fec848c4999fb1e6f79550dfd5a87299e485bbe",
+      "to": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/new_entry_pick",
+        "target_content_desc": "Today's entry",
+        "x": 1016,
+        "y": 136,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/new_entry_pick",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ch.mydoli.focal:id/new_entry_pick|Today's entry"
+    },
+    {
+      "step": 9,
+      "from": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+      "to": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/image_day",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1254,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/image_day",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ch.mydoli.focal:id/image_day|"
+    },
+    {
+      "step": 10,
+      "from": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411",
+      "to": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+      "action": {
+        "action_type": "back",
+        "reason": "dialog_policy_recover_to_target"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "recovery:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 11,
+      "from": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+      "to": "40221ad98d13c61071392183e92052d7a2499eb7e79a0ffa5b7d8858b2d3836d",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/feed_edit",
+        "target_content_desc": "Edit",
+        "x": 1016,
+        "y": 136,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/feed_edit",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ch.mydoli.focal:id/feed_edit|Edit"
+    },
+    {
+      "step": 12,
+      "from": "40221ad98d13c61071392183e92052d7a2499eb7e79a0ffa5b7d8858b2d3836d",
+      "to": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/image_day",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1254,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/image_day",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:ch.mydoli.focal:id/image_day|"
+    },
+    {
+      "step": 13,
+      "from": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411",
+      "to": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+      "action": {
+        "action_type": "back",
+        "reason": "dialog_policy_recover_to_target"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "recovery:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 14,
+      "from": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+      "to": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/image_day",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1254,
+        "reason": "bfs_expand_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/image_day",
+      "execution_kind": "exploration",
+      "nav_target_key": "expand:ch.mydoli.focal:id/image_day|"
+    },
+    {
+      "step": 15,
+      "from": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411",
+      "to": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+      "action": {
+        "action_type": "back",
+        "reason": "dialog_policy_recover_to_target"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "recovery:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 16,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "26",
+        "x": 78,
+        "y": 1211,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:26",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|26"
+    },
+    {
+      "step": 17,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "27",
+        "x": 232,
+        "y": 1211,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:27",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|27"
+    },
+    {
+      "step": 18,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "28",
+        "x": 386,
+        "y": 1211,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:28",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|28"
+    },
+    {
+      "step": 19,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "29",
+        "x": 540,
+        "y": 1211,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:29",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|29"
+    },
+    {
+      "step": 20,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "30",
+        "x": 694,
+        "y": 1211,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:30",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|30"
+    },
+    {
+      "step": 21,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "31",
+        "x": 848,
+        "y": 1211,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_desc:31",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|31"
+    },
+    {
+      "step": 22,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 945,
+        "y": 1720,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 23,
+      "from": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+      "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_calendar",
+        "target_content_desc": "Calendar",
+        "x": 135,
+        "y": 1720,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/navigation_calendar",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ch.mydoli.focal:id/navigation_calendar|Calendar"
+    },
+    {
+      "step": 24,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "12",
+        "x": 78,
+        "y": 903,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:12",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|12"
+    },
+    {
+      "step": 25,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "13",
+        "x": 232,
+        "y": 903,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:13",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|13"
+    },
+    {
+      "step": 26,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "14",
+        "x": 386,
+        "y": 903,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:14",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|14"
+    },
+    {
+      "step": 27,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 945,
+        "y": 1720,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 28,
+      "from": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+      "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_calendar",
+        "target_content_desc": "Calendar",
+        "x": 135,
+        "y": 1720,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/navigation_calendar",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ch.mydoli.focal:id/navigation_calendar|Calendar"
+    },
+    {
+      "step": 29,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "15",
+        "x": 540,
+        "y": 903,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:15",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|15"
+    },
+    {
+      "step": 30,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "16",
+        "x": 694,
+        "y": 903,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:16",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|16"
+    },
+    {
+      "step": 31,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "17",
+        "x": 848,
+        "y": 903,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:17",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|17"
+    },
+    {
+      "step": 32,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "x": 945,
+        "y": 1720,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/navigation_settings",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:settings"
+    },
+    {
+      "step": 33,
+      "from": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+      "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_calendar",
+        "target_content_desc": "Calendar",
+        "x": 135,
+        "y": 1720,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ch.mydoli.focal:id/navigation_calendar",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ch.mydoli.focal:id/navigation_calendar|Calendar"
+    },
+    {
+      "step": 34,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "18",
+        "x": 1002,
+        "y": 903,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:18",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|18"
+    },
+    {
+      "step": 35,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "19",
+        "x": 78,
+        "y": 1057,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:19",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|19"
+    },
+    {
+      "step": 36,
+      "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "2",
+        "x": 694,
+        "y": 595,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_desc:2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:|2"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:|26": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "26",
+        "visible_on": [
+          "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|27": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "27",
+        "visible_on": [
+          "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|28": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "28",
+        "visible_on": [
+          "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|29": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "29",
+        "visible_on": [
+          "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|30": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "30",
+        "visible_on": [
+          "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|31": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "31",
+        "visible_on": [
+          "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:ch.mydoli.focal:id/navigation_favorites|Favorites": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_favorites",
+        "target_content_desc": "Favorites",
+        "visible_on": [
+          "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+          "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+          "c546ed7bc9092c53c63704925fec848c4999fb1e6f79550dfd5a87299e485bbe"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "a998b1ae107e1c84f058a73d92cc27dfb503856f14b3a19319405b26f7dbdd56"
+      },
+      "tab:ch.mydoli.focal:id/navigation_feed|Feed": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_feed",
+        "target_content_desc": "Feed",
+        "visible_on": [
+          "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+          "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+          "a998b1ae107e1c84f058a73d92cc27dfb503856f14b3a19319405b26f7dbdd56"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "a998b1ae107e1c84f058a73d92cc27dfb503856f14b3a19319405b26f7dbdd56",
+        "last_to": "c546ed7bc9092c53c63704925fec848c4999fb1e6f79550dfd5a87299e485bbe"
+      },
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "visible_on": [
+          "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+          "a998b1ae107e1c84f058a73d92cc27dfb503856f14b3a19319405b26f7dbdd56",
+          "c546ed7bc9092c53c63704925fec848c4999fb1e6f79550dfd5a87299e485bbe"
+        ],
+        "attempts": 4,
+        "successes": 4,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a"
+      },
+      "nav:settings": {
+        "kind": "nav",
+        "semantic_token": "settings",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_settings",
+        "target_content_desc": "Settings",
+        "visible_on": [
+          "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+          "a998b1ae107e1c84f058a73d92cc27dfb503856f14b3a19319405b26f7dbdd56",
+          "c546ed7bc9092c53c63704925fec848c4999fb1e6f79550dfd5a87299e485bbe"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:ch.mydoli.focal:id/imageView|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ch.mydoli.focal:id/imageView",
+        "target_content_desc": "",
+        "visible_on": [
+          "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:ch.mydoli.focal:id/navigation_favorites|Favorites": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_favorites",
+        "target_content_desc": "Favorites",
+        "visible_on": [
+          "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+          "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+          "c546ed7bc9092c53c63704925fec848c4999fb1e6f79550dfd5a87299e485bbe"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:ch.mydoli.focal:id/navigation_feed|Feed": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_feed",
+        "target_content_desc": "Feed",
+        "visible_on": [
+          "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+          "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+          "a998b1ae107e1c84f058a73d92cc27dfb503856f14b3a19319405b26f7dbdd56"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:ch.mydoli.focal:id/navigation_calendar|Calendar": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_calendar",
+        "target_content_desc": "Calendar",
+        "visible_on": [
+          "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+          "a998b1ae107e1c84f058a73d92cc27dfb503856f14b3a19319405b26f7dbdd56",
+          "c546ed7bc9092c53c63704925fec848c4999fb1e6f79550dfd5a87299e485bbe"
+        ],
+        "attempts": 4,
+        "successes": 4,
+        "last_from": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+        "last_to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a"
+      },
+      "nav:ch.mydoli.focal:id/navigation_calendar|Calendar": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ch.mydoli.focal:id/navigation_calendar",
+        "target_content_desc": "Calendar",
+        "visible_on": [
+          "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+          "a998b1ae107e1c84f058a73d92cc27dfb503856f14b3a19319405b26f7dbdd56",
+          "c546ed7bc9092c53c63704925fec848c4999fb1e6f79550dfd5a87299e485bbe"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|1": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "1",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|10": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "10",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|11": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "11",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:ch.mydoli.focal:id/new_entry_pick|Today's entry": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ch.mydoli.focal:id/new_entry_pick",
+        "target_content_desc": "Today's entry",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "c546ed7bc9092c53c63704925fec848c4999fb1e6f79550dfd5a87299e485bbe",
+        "last_to": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29"
+      },
+      "tab:ch.mydoli.focal:id/image_day|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ch.mydoli.focal:id/image_day",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+        "last_to": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411"
+      },
+      "recovery:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "recovery",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411",
+        "last_to": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29"
+      },
+      "tab:ch.mydoli.focal:id/feed_edit|Edit": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ch.mydoli.focal:id/feed_edit",
+        "target_content_desc": "Edit",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+        "last_to": "40221ad98d13c61071392183e92052d7a2499eb7e79a0ffa5b7d8858b2d3836d"
+      },
+      "expand:ch.mydoli.focal:id/image_day|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "ch.mydoli.focal:id/image_day",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+        "last_to": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411"
+      },
+      "tab:|12": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "12",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|13": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "13",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|14": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "14",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|15": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "15",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|16": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "16",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|17": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "17",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|18": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "18",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|19": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "19",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      },
+      "tab:|2": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "2",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "last_to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e"
+      }
+    },
+    "edges": [
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+        "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+        "target_key": "tab:ch.mydoli.focal:id/navigation_calendar|Calendar",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|1",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|10",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|11",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "a998b1ae107e1c84f058a73d92cc27dfb503856f14b3a19319405b26f7dbdd56",
+        "target_key": "tab:ch.mydoli.focal:id/navigation_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "a998b1ae107e1c84f058a73d92cc27dfb503856f14b3a19319405b26f7dbdd56",
+        "to": "c546ed7bc9092c53c63704925fec848c4999fb1e6f79550dfd5a87299e485bbe",
+        "target_key": "tab:ch.mydoli.focal:id/navigation_feed|Feed",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "c546ed7bc9092c53c63704925fec848c4999fb1e6f79550dfd5a87299e485bbe",
+        "to": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+        "target_key": "tab:ch.mydoli.focal:id/new_entry_pick|Today's entry",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+        "to": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411",
+        "target_key": "tab:ch.mydoli.focal:id/image_day|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411",
+        "to": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+        "target_key": "recovery:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "dialog_policy_recover_to_target"
+      },
+      {
+        "from": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+        "to": "40221ad98d13c61071392183e92052d7a2499eb7e79a0ffa5b7d8858b2d3836d",
+        "target_key": "tab:ch.mydoli.focal:id/feed_edit|Edit",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "40221ad98d13c61071392183e92052d7a2499eb7e79a0ffa5b7d8858b2d3836d",
+        "to": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411",
+        "target_key": "expand:ch.mydoli.focal:id/image_day|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411",
+        "to": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+        "target_key": "recovery:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "dialog_policy_recover_to_target"
+      },
+      {
+        "from": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+        "to": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411",
+        "target_key": "expand:ch.mydoli.focal:id/image_day|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "5a505a10f9af9342c73fe75d1adcfd15fc0ec8711f1641cab9e0ed67964ca411",
+        "to": "9a191c38194cc8e0896014220b682ecf66614161faca3d4253899ccf5d285d29",
+        "target_key": "recovery:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "dialog_policy_recover_to_target"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|26",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|27",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|28",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|29",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|30",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|31",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+        "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+        "target_key": "tab:ch.mydoli.focal:id/navigation_calendar|Calendar",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|12",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|13",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|14",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+        "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+        "target_key": "tab:ch.mydoli.focal:id/navigation_calendar|Calendar",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|15",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|16",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|17",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+        "to": "47481291113290692feb57b0d8620ef65f6ce448144025df2a493b1ef9e7fe6a",
+        "target_key": "tab:ch.mydoli.focal:id/navigation_calendar|Calendar",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|18",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|19",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "to": "8a400e455d1ec2797da918617ac8125faeecb020241b87913f42216b85043e8e",
+        "target_key": "tab:|2",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      }
+    ]
+  }
+}

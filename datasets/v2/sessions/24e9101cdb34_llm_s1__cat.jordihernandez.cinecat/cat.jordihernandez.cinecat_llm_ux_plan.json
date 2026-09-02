@@ -1,0 +1,603 @@
+{
+  "goals": [
+    "Tap CICLES",
+    "Tap CineCat",
+    "Tap CINEMES",
+    "Tap D'acord",
+    "Tap More",
+    "Tap PEL·LÍCULES",
+    "Press Back to return to the main app list",
+    "Wait for UI to settle"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap CICLES",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap CineCat",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap CINEMES",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap D'acord",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap More",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Tap PEL·LÍCULES",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Press Back to return to the main app list",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Wait for UI to settle",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b": "CineCat btnAbout Button · CICLES btnCicles Button · CINEMES btnCinemes Button · PEL·LÍCULES btnPelicules Button · More options ImageButton",
+    "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1": "D'acord button1 Button · RelativeLayout"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:cat.jordihernandez.cinecat:id/btnAbout|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cat.jordihernandez.cinecat:id/btnAbout",
+        "target_content_desc": "",
+        "visible_on": [
+          "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b"
+        ],
+        "attempts": 26,
+        "successes": 26,
+        "last_from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "last_to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1"
+      },
+      "nav:cat.jordihernandez.cinecat:id/btnAbout|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "cat.jordihernandez.cinecat:id/btnAbout",
+        "target_content_desc": "",
+        "visible_on": [
+          "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1"
+        ],
+        "attempts": 26,
+        "successes": 26,
+        "last_from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "last_to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b"
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "to": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "target_key": "tab:cat.jordihernandez.cinecat:id/btnAbout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "9ed6a454987081e2a5d9b3558e4fd15091b17fdab79855156416cc1523857ac1",
+        "to": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+    "root_screen_signature": "06070c6ddfcb76560ae531f62cf306584f9e48376bc4b1273eca9bb163dc88d6",
+    "root_screen_hint": "CineCat btnAbout Button · CICLES btnCicles Button · CINEMES btnCinemes Button · PEL·LÍCULES btnPelicules Button · More options ImageButton",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "cat.jordihernandez.cinecat",
+          "screen_hash": "b6f360e0a8efa3ad16e3a413aa721e12e536b48d6de748568beccfebc8f28d3b",
+          "interactive_count": 5,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "06070c6ddfcb76560ae531f62cf306584f9e48376bc4b1273eca9bb163dc88d6",
+          "root_landmark_score": 1
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical user opens the app, navigates to the 'CineCat' tab, and then uses a vertical swipe between y-coordinates to browse through a list of movies. Occasionally, they tap on a movie title to view more information. The 'More options' button is rarely tapped, but when opened, it provides additional details about the selected movie. Opening the 'About' or 'Pelicules' tabs is not common, as the primary focus remains on browsing the main list of movies.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

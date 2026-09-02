@@ -1,0 +1,213 @@
+{
+  "package_name": "be.mygod.vpnhotspot_foss",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/be.mygod.vpnhotspot_foss_1035.apk",
+  "apk_sha256": "a72518537ed05ea4c77f228a1487ccc885402fd0c175302bda2b549332371cd7",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1784080342164,
+  "elapsed_sec": 462.653,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 1695139213,
+  "session_mode": "identical",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "27815",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "be.mygod.vpnhotspot_foss_frida.jsonl",
+  "frida_lines": 2231,
+  "strace_log_path": "be.mygod.vpnhotspot_foss_strace.log",
+  "strace_size_bytes": 11163051,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 1695139213,
+  "arm": "llm",
+  "session_id": "a72518537ed0_llm_s2",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "good",
+  "llm_actions_count": 58,
+  "llm_action_log_path": "be.mygod.vpnhotspot_foss_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Tap Settings",
+    "Tap Clients",
+    "Tap Wi\u2011Fi configuration",
+    "Tap Tethering"
+  ],
+  "llm_ux_plan_path": "be.mygod.vpnhotspot_foss_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "be.mygod.vpnhotspot_foss_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical users open the app to check their Wi-Fi connection status, then navigate to the Wi-Fi configuration section. They tap on the Wi-Fi switch to toggle it on/off. Occasionally, they access tethering settings. The primary gesture is a vertical swipe between the Wi-Fi and tethering sections.",
+  "llm_primary_ux_fallback_reason": "ux_goals_complete",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+    "root_screen_signature": "9c3adce5331d18cc2227a93c05ab5f9a782637ea52bd0bb277d1309e18c421b7",
+    "root_screen_hint": "Wi\u2011Fi configuration configuration Button \u00b7 Clients navigation_clients FrameLayout \u00b7 Settings navigation_settings FrameLayout \u00b7 LinearLayout \u00b7 LinearLayout \u00b7 LinearLayout \u00b7 LinearLayout \u00b7 LinearLayout \u00b7 LinearLayout \u00b7 OFF Switch",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "be.mygod.vpnhotspot_foss",
+          "screen_hash": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+          "interactive_count": 2,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "325b3c3fa858b5a332ad6a1b6aafd5943938374d9a51694747dc908ada2b5a41",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 2,
+          "strategy": "start_root_activity_clear_task",
+          "clear_task": true,
+          "foreground_package": "be.mygod.vpnhotspot_foss",
+          "screen_hash": "c8e98616a1a7f63b3c1f1aa8a77e8b4ddea3b7dd77ee0569295d842de1f9c1af",
+          "interactive_count": 2,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "325b3c3fa858b5a332ad6a1b6aafd5943938374d9a51694747dc908ada2b5a41",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 3,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.android.settings",
+          "screen_hash": "7c1c96c8741dd749ec33f7757fbd9b70242e83f646ad85521c793c3a753fc227",
+          "interactive_count": 10,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "9c3adce5331d18cc2227a93c05ab5f9a782637ea52bd0bb277d1309e18c421b7",
+          "root_landmark_score": 3
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/a72518537ed0_be.mygod.vpnhotspot_foss/dynamic/llm/session_2/be.mygod.vpnhotspot_foss_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "be.mygod.vpnhotspot_foss",
+    "app_name": "be.mygod.vpnhotspot_foss",
+    "category": "Security",
+    "purpose": "No description available",
+    "ux_type": "hybrid",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/be.mygod.vpnhotspot_foss"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 1,
+    "dialogs_tapped_after_warmup": 1,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          592,
+          800
+        ],
+        "node_count": 63,
+        "screen_hash": "13ce04dd4ed6fb70"
+      },
+      {
+        "round": 2,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 39,
+        "screen_hash": "d6072f8edb108a05"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          592,
+          800
+        ],
+        "node_count": 66,
+        "screen_hash": "1d484bdf425253ea"
+      },
+      {
+        "round": 2,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 39,
+        "screen_hash": "d6072f8edb108a05"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/a72518537ed0_be.mygod.vpnhotspot_foss/dynamic/llm/session_2/be.mygod.vpnhotspot_foss_verified_start.xml",
+    "pre_setup_wall_sec": 8.574,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "started",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 0,
+  "frida_reattach_successes": 0,
+  "frida_valid_events": 2165,
+  "frida_meaningful_events": 1691,
+  "frida_meaningful_categories": 4
+}

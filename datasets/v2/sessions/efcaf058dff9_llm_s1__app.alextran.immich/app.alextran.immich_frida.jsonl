@@ -1,0 +1,542 @@
+{"type":"event","timestamp":1783900000653,"api":"hook_loaded","category":"lifecycle","args":{"stage":"java_perform","version":"3"}}
+{"type":"status","timestamp":1783900000732,"status":"hook_ok","name":"SmsManager.sendTextMessage","message":null}
+{"type":"status","timestamp":1783900000733,"status":"hook_ok","name":"SmsManager.sendMultipartTextMessage","message":null}
+{"type":"status","timestamp":1783900000733,"status":"hook_ok","name":"URL.openConnection","message":null}
+{"type":"status","timestamp":1783900000734,"status":"hook_ok","name":"HttpURLConnection.connect","message":null}
+{"type":"status","timestamp":1783900000734,"status":"hook_fail","name":"OkHttp3","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900000735,"status":"hook_ok","name":"FileOutputStream.<init>","message":null}
+{"type":"status","timestamp":1783900000736,"status":"hook_ok","name":"FileInputStream.<init>","message":null}
+{"type":"status","timestamp":1783900000736,"status":"hook_ok","name":"File.delete","message":null}
+{"type":"status","timestamp":1783900000737,"status":"hook_ok","name":"Cipher.getInstance","message":null}
+{"type":"status","timestamp":1783900000738,"status":"hook_ok","name":"SecretKeySpec.<init>","message":null}
+{"type":"status","timestamp":1783900000739,"status":"hook_ok","name":"Method.invoke","message":null}
+{"type":"status","timestamp":1783900000741,"status":"hook_ok","name":"Runtime.exec","message":null}
+{"type":"status","timestamp":1783900000742,"status":"hook_ok","name":"ProcessBuilder.start","message":null}
+{"type":"status","timestamp":1783900000748,"status":"hook_ok","name":"ContentResolver.query","message":null}
+{"type":"status","timestamp":1783900000749,"status":"hook_ok","name":"ContentResolver.query_legacy","message":null}
+{"type":"status","timestamp":1783900000749,"status":"hook_ok","name":"ContentResolver.insert","message":null}
+{"type":"status","timestamp":1783900000750,"status":"hook_ok","name":"ContentResolver.update","message":null}
+{"type":"status","timestamp":1783900000750,"status":"hook_ok","name":"ContentResolver.delete","message":null}
+{"type":"status","timestamp":1783900000751,"status":"hook_ok","name":"ClipboardManager.setPrimaryClip","message":null}
+{"type":"status","timestamp":1783900000752,"status":"hook_ok","name":"Camera.open","message":null}
+{"type":"status","timestamp":1783900000752,"status":"hook_ok","name":"CameraManager.openCamera","message":null}
+{"type":"status","timestamp":1783900000756,"status":"hook_ok","name":"PackageManager.getInstalledPackages","message":null}
+{"type":"status","timestamp":1783900000756,"status":"hook_ok","name":"PackageManager.getInstalledApplications","message":null}
+{"type":"status","timestamp":1783900000771,"status":"hook_ok","name":"LocationManager.requestLocationUpdates","message":null}
+{"type":"status","timestamp":1783900000774,"status":"hook_ok","name":"TelephonyManager.getDeviceId","message":null}
+{"type":"status","timestamp":1783900000775,"status":"hook_ok","name":"TelephonyManager.getSubscriberId","message":null}
+{"type":"status","timestamp":1783900000776,"status":"hook_ok","name":"TelephonyManager.getSimSerialNumber","message":null}
+{"type":"status","timestamp":1783900000776,"status":"hook_ok","name":"TelephonyManager.getCallState","message":null}
+{"type":"status","timestamp":1783900000776,"status":"hook_ok","name":"TelephonyManager.getCallState_subId","message":null}
+{"type":"status","timestamp":1783900000777,"status":"hook_ok","name":"DexClassLoader.<init>","message":null}
+{"type":"status","timestamp":1783900000778,"status":"hook_ok","name":"PathClassLoader.<init>","message":null}
+{"type":"status","timestamp":1783900000781,"status":"hook_ok","name":"System.loadLibrary","message":null}
+{"type":"status","timestamp":1783900000781,"status":"hook_ok","name":"Runtime.loadLibrary","message":null}
+{"type":"status","timestamp":1783900000782,"status":"hook_ok","name":"Runtime.load","message":null}
+{"type":"status","timestamp":1783900000784,"status":"hook_ok","name":"Cipher.doFinal","message":null}
+{"type":"status","timestamp":1783900000784,"status":"hook_ok","name":"MessageDigest.getInstance","message":null}
+{"type":"status","timestamp":1783900000785,"status":"hook_ok","name":"MessageDigest.digest","message":null}
+{"type":"status","timestamp":1783900000785,"status":"hook_fail","name":"okhttp3.RealCall.enqueue","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900000786,"status":"hook_ok","name":"AccountManager.getAccounts","message":null}
+{"type":"status","timestamp":1783900000786,"status":"hook_ok","name":"AccountManager.getAccountsByType","message":null}
+{"type":"status","timestamp":1783900000787,"status":"hook_ok","name":"AudioRecord.<init>","message":null}
+{"type":"status","timestamp":1783900000788,"status":"hook_ok","name":"MediaRecorder.setAudioSource","message":null}
+{"type":"status","timestamp":1783900000788,"status":"hook_ok","name":"SharedPreferencesImpl.getString","message":null}
+{"type":"status","timestamp":1783900000789,"status":"hook_ok","name":"SharedPreferencesImpl.getInt","message":null}
+{"type":"status","timestamp":1783900000790,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.putString","message":null}
+{"type":"status","timestamp":1783900000791,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.apply","message":null}
+{"type":"status","timestamp":1783900000794,"status":"hook_ok","name":"SQLiteDatabase.rawQuery","message":null}
+{"type":"status","timestamp":1783900000800,"status":"hook_ok","name":"SQLiteDatabase.execSQL","message":null}
+{"type":"status","timestamp":1783900000801,"status":"hook_ok","name":"SQLiteDatabase.insert","message":null}
+{"type":"status","timestamp":1783900000818,"status":"hook_ok","name":"MediaPlayer.setDataSource","message":null}
+{"type":"status","timestamp":1783900000818,"status":"hook_ok","name":"MediaPlayer.setDataSource_uri","message":null}
+{"type":"status","timestamp":1783900000819,"status":"hook_ok","name":"MediaPlayer.start","message":null}
+{"type":"status","timestamp":1783900000819,"status":"hook_ok","name":"MediaPlayer.prepare","message":null}
+{"type":"status","timestamp":1783900000820,"status":"hook_ok","name":"ContextWrapper.startActivity","message":null}
+{"type":"status","timestamp":1783900000827,"status":"hook_ok","name":"ContextWrapper.sendBroadcast","message":null}
+{"type":"status","timestamp":1783900000827,"status":"hook_ok","name":"ContextWrapper.sendBroadcast_permission","message":null}
+{"type":"status","timestamp":1783900000828,"status":"hook_ok","name":"ContextWrapper.startService","message":null}
+{"type":"status","timestamp":1783900000829,"status":"hook_ok","name":"ContextWrapper.bindService","message":null}
+{"type":"status","timestamp":1783900000830,"status":"hook_ok","name":"WebView.loadUrl","message":null}
+{"type":"status","timestamp":1783900000831,"status":"hook_ok","name":"NotificationManager.notify","message":null}
+{"type":"status","timestamp":1783900000831,"status":"hook_ok","name":"NotificationManager.notify_tag","message":null}
+{"type":"status","timestamp":1783900000832,"status":"hook_ok","name":"NotificationManager.notifyAsUser","message":null}
+{"type":"status","timestamp":1783900000832,"status":"hook_ok","name":"Socket.connect","message":null}
+{"type":"status","timestamp":1783900000833,"status":"hook_ok","name":"AssetManager.open","message":null}
+{"type":"status","timestamp":1783900000833,"status":"hook_fail","name":"retrofit2.OkHttpCall.execute","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"retrofit2.OkHttpCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900000833,"status":"hook_fail","name":"volley.RequestQueue.add","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"com.android.volley.RequestQueue\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"event","timestamp":1783900026309,"api":"System.loadLibrary","category":"native_code","args":{"library":"dartjni"}}
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to spawn: unable to pick a payload base
+Failed to spawn: unable to pick a payload base
+{"type":"event","timestamp":1783900075822,"api":"hook_loaded","category":"lifecycle","args":{"stage":"java_perform","version":"3"}}
+{"type":"status","timestamp":1783900075903,"status":"hook_ok","name":"SmsManager.sendTextMessage","message":null}
+{"type":"status","timestamp":1783900075904,"status":"hook_ok","name":"SmsManager.sendMultipartTextMessage","message":null}
+{"type":"status","timestamp":1783900075905,"status":"hook_ok","name":"URL.openConnection","message":null}
+{"type":"status","timestamp":1783900075905,"status":"hook_ok","name":"HttpURLConnection.connect","message":null}
+{"type":"status","timestamp":1783900075906,"status":"hook_fail","name":"OkHttp3","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900075913,"status":"hook_ok","name":"FileOutputStream.<init>","message":null}
+{"type":"status","timestamp":1783900075913,"status":"hook_ok","name":"FileInputStream.<init>","message":null}
+{"type":"status","timestamp":1783900075914,"status":"hook_ok","name":"File.delete","message":null}
+{"type":"status","timestamp":1783900075914,"status":"hook_ok","name":"Cipher.getInstance","message":null}
+{"type":"status","timestamp":1783900075915,"status":"hook_ok","name":"SecretKeySpec.<init>","message":null}
+{"type":"status","timestamp":1783900075915,"status":"hook_ok","name":"Method.invoke","message":null}
+{"type":"status","timestamp":1783900075916,"status":"hook_ok","name":"Runtime.exec","message":null}
+{"type":"status","timestamp":1783900075917,"status":"hook_ok","name":"ProcessBuilder.start","message":null}
+{"type":"status","timestamp":1783900075918,"status":"hook_ok","name":"ContentResolver.query","message":null}
+{"type":"status","timestamp":1783900075918,"status":"hook_ok","name":"ContentResolver.query_legacy","message":null}
+{"type":"status","timestamp":1783900075918,"status":"hook_ok","name":"ContentResolver.insert","message":null}
+{"type":"status","timestamp":1783900075919,"status":"hook_ok","name":"ContentResolver.update","message":null}
+{"type":"status","timestamp":1783900075919,"status":"hook_ok","name":"ContentResolver.delete","message":null}
+{"type":"status","timestamp":1783900075919,"status":"hook_ok","name":"ClipboardManager.setPrimaryClip","message":null}
+{"type":"status","timestamp":1783900075920,"status":"hook_ok","name":"Camera.open","message":null}
+{"type":"status","timestamp":1783900075921,"status":"hook_ok","name":"CameraManager.openCamera","message":null}
+{"type":"status","timestamp":1783900075922,"status":"hook_ok","name":"PackageManager.getInstalledPackages","message":null}
+{"type":"status","timestamp":1783900075922,"status":"hook_ok","name":"PackageManager.getInstalledApplications","message":null}
+{"type":"status","timestamp":1783900075931,"status":"hook_ok","name":"LocationManager.requestLocationUpdates","message":null}
+{"type":"status","timestamp":1783900075933,"status":"hook_ok","name":"TelephonyManager.getDeviceId","message":null}
+{"type":"status","timestamp":1783900075933,"status":"hook_ok","name":"TelephonyManager.getSubscriberId","message":null}
+{"type":"status","timestamp":1783900075935,"status":"hook_ok","name":"TelephonyManager.getSimSerialNumber","message":null}
+{"type":"status","timestamp":1783900075935,"status":"hook_ok","name":"TelephonyManager.getCallState","message":null}
+{"type":"status","timestamp":1783900075935,"status":"hook_ok","name":"TelephonyManager.getCallState_subId","message":null}
+{"type":"status","timestamp":1783900075936,"status":"hook_ok","name":"DexClassLoader.<init>","message":null}
+{"type":"status","timestamp":1783900075936,"status":"hook_ok","name":"PathClassLoader.<init>","message":null}
+{"type":"status","timestamp":1783900075937,"status":"hook_ok","name":"System.loadLibrary","message":null}
+{"type":"status","timestamp":1783900075937,"status":"hook_ok","name":"Runtime.loadLibrary","message":null}
+{"type":"status","timestamp":1783900075937,"status":"hook_ok","name":"Runtime.load","message":null}
+{"type":"status","timestamp":1783900075938,"status":"hook_ok","name":"Cipher.doFinal","message":null}
+{"type":"status","timestamp":1783900075939,"status":"hook_ok","name":"MessageDigest.getInstance","message":null}
+{"type":"status","timestamp":1783900075940,"status":"hook_ok","name":"MessageDigest.digest","message":null}
+{"type":"status","timestamp":1783900075945,"status":"hook_fail","name":"okhttp3.RealCall.enqueue","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900075946,"status":"hook_ok","name":"AccountManager.getAccounts","message":null}
+{"type":"status","timestamp":1783900075947,"status":"hook_ok","name":"AccountManager.getAccountsByType","message":null}
+{"type":"status","timestamp":1783900075948,"status":"hook_ok","name":"AudioRecord.<init>","message":null}
+{"type":"status","timestamp":1783900075948,"status":"hook_ok","name":"MediaRecorder.setAudioSource","message":null}
+{"type":"status","timestamp":1783900075949,"status":"hook_ok","name":"SharedPreferencesImpl.getString","message":null}
+{"type":"status","timestamp":1783900075949,"status":"hook_ok","name":"SharedPreferencesImpl.getInt","message":null}
+{"type":"status","timestamp":1783900075949,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.putString","message":null}
+{"type":"status","timestamp":1783900075949,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.apply","message":null}
+{"type":"status","timestamp":1783900075950,"status":"hook_ok","name":"SQLiteDatabase.rawQuery","message":null}
+{"type":"status","timestamp":1783900075951,"status":"hook_ok","name":"SQLiteDatabase.execSQL","message":null}
+{"type":"status","timestamp":1783900075951,"status":"hook_ok","name":"SQLiteDatabase.insert","message":null}
+{"type":"status","timestamp":1783900076048,"status":"hook_ok","name":"MediaPlayer.setDataSource","message":null}
+{"type":"status","timestamp":1783900076077,"status":"hook_ok","name":"MediaPlayer.setDataSource_uri","message":null}
+{"type":"status","timestamp":1783900076100,"status":"hook_ok","name":"MediaPlayer.start","message":null}
+{"type":"status","timestamp":1783900076100,"status":"hook_ok","name":"MediaPlayer.prepare","message":null}
+{"type":"status","timestamp":1783900076101,"status":"hook_ok","name":"ContextWrapper.startActivity","message":null}
+{"type":"status","timestamp":1783900076103,"status":"hook_ok","name":"ContextWrapper.sendBroadcast","message":null}
+{"type":"status","timestamp":1783900076103,"status":"hook_ok","name":"ContextWrapper.sendBroadcast_permission","message":null}
+{"type":"status","timestamp":1783900076104,"status":"hook_ok","name":"ContextWrapper.startService","message":null}
+{"type":"status","timestamp":1783900076104,"status":"hook_ok","name":"ContextWrapper.bindService","message":null}
+{"type":"status","timestamp":1783900076114,"status":"hook_ok","name":"WebView.loadUrl","message":null}
+{"type":"status","timestamp":1783900076117,"status":"hook_ok","name":"NotificationManager.notify","message":null}
+{"type":"status","timestamp":1783900076117,"status":"hook_ok","name":"NotificationManager.notify_tag","message":null}
+{"type":"status","timestamp":1783900076118,"status":"hook_ok","name":"NotificationManager.notifyAsUser","message":null}
+{"type":"status","timestamp":1783900076119,"status":"hook_ok","name":"Socket.connect","message":null}
+{"type":"status","timestamp":1783900076120,"status":"hook_ok","name":"AssetManager.open","message":null}
+{"type":"status","timestamp":1783900076120,"status":"hook_fail","name":"retrofit2.OkHttpCall.execute","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"retrofit2.OkHttpCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900076120,"status":"hook_fail","name":"volley.RequestQueue.add","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"com.android.volley.RequestQueue\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"event","timestamp":1783900076818,"api":"Context.sendBroadcast","category":"ipc_intents","args":{"action":"android.appwidget.action.APPWIDGET_UPDATE","target":"app.alextran.immich/app.alextran.immich.widget.RandomReceiver"}}
+{"type":"event","timestamp":1783900076820,"api":"Context.sendBroadcast","category":"ipc_intents","args":{"action":"android.appwidget.action.APPWIDGET_UPDATE","target":"app.alextran.immich/app.alextran.immich.widget.MemoryReceiver"}}
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to spawn: unable to pick a payload base
+Failed to spawn: unable to pick a payload base
+{"type":"event","timestamp":1783900136240,"api":"hook_loaded","category":"lifecycle","args":{"stage":"java_perform","version":"3"}}
+{"type":"status","timestamp":1783900136311,"status":"hook_ok","name":"SmsManager.sendTextMessage","message":null}
+{"type":"status","timestamp":1783900136311,"status":"hook_ok","name":"SmsManager.sendMultipartTextMessage","message":null}
+{"type":"status","timestamp":1783900136312,"status":"hook_ok","name":"URL.openConnection","message":null}
+{"type":"status","timestamp":1783900136313,"status":"hook_ok","name":"HttpURLConnection.connect","message":null}
+{"type":"status","timestamp":1783900136313,"status":"hook_fail","name":"OkHttp3","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900136314,"status":"hook_ok","name":"FileOutputStream.<init>","message":null}
+{"type":"status","timestamp":1783900136316,"status":"hook_ok","name":"FileInputStream.<init>","message":null}
+{"type":"status","timestamp":1783900136316,"status":"hook_ok","name":"File.delete","message":null}
+{"type":"status","timestamp":1783900136318,"status":"hook_ok","name":"Cipher.getInstance","message":null}
+{"type":"status","timestamp":1783900136318,"status":"hook_ok","name":"SecretKeySpec.<init>","message":null}
+{"type":"status","timestamp":1783900136319,"status":"hook_ok","name":"Method.invoke","message":null}
+{"type":"status","timestamp":1783900136320,"status":"hook_ok","name":"Runtime.exec","message":null}
+{"type":"status","timestamp":1783900136321,"status":"hook_ok","name":"ProcessBuilder.start","message":null}
+{"type":"status","timestamp":1783900136324,"status":"hook_ok","name":"ContentResolver.query","message":null}
+{"type":"status","timestamp":1783900136324,"status":"hook_ok","name":"ContentResolver.query_legacy","message":null}
+{"type":"status","timestamp":1783900136325,"status":"hook_ok","name":"ContentResolver.insert","message":null}
+{"type":"status","timestamp":1783900136329,"status":"hook_ok","name":"ContentResolver.update","message":null}
+{"type":"status","timestamp":1783900136330,"status":"hook_ok","name":"ContentResolver.delete","message":null}
+{"type":"status","timestamp":1783900136330,"status":"hook_ok","name":"ClipboardManager.setPrimaryClip","message":null}
+{"type":"status","timestamp":1783900136331,"status":"hook_ok","name":"Camera.open","message":null}
+{"type":"status","timestamp":1783900136331,"status":"hook_ok","name":"CameraManager.openCamera","message":null}
+{"type":"status","timestamp":1783900136333,"status":"hook_ok","name":"PackageManager.getInstalledPackages","message":null}
+{"type":"status","timestamp":1783900136334,"status":"hook_ok","name":"PackageManager.getInstalledApplications","message":null}
+{"type":"status","timestamp":1783900136336,"status":"hook_ok","name":"LocationManager.requestLocationUpdates","message":null}
+{"type":"status","timestamp":1783900136337,"status":"hook_ok","name":"TelephonyManager.getDeviceId","message":null}
+{"type":"status","timestamp":1783900136337,"status":"hook_ok","name":"TelephonyManager.getSubscriberId","message":null}
+{"type":"status","timestamp":1783900136337,"status":"hook_ok","name":"TelephonyManager.getSimSerialNumber","message":null}
+{"type":"status","timestamp":1783900136338,"status":"hook_ok","name":"TelephonyManager.getCallState","message":null}
+{"type":"status","timestamp":1783900136338,"status":"hook_ok","name":"TelephonyManager.getCallState_subId","message":null}
+{"type":"status","timestamp":1783900136339,"status":"hook_ok","name":"DexClassLoader.<init>","message":null}
+{"type":"status","timestamp":1783900136342,"status":"hook_ok","name":"PathClassLoader.<init>","message":null}
+{"type":"status","timestamp":1783900136342,"status":"hook_ok","name":"System.loadLibrary","message":null}
+{"type":"status","timestamp":1783900136342,"status":"hook_ok","name":"Runtime.loadLibrary","message":null}
+{"type":"status","timestamp":1783900136343,"status":"hook_ok","name":"Runtime.load","message":null}
+{"type":"status","timestamp":1783900136347,"status":"hook_ok","name":"Cipher.doFinal","message":null}
+{"type":"status","timestamp":1783900136348,"status":"hook_ok","name":"MessageDigest.getInstance","message":null}
+{"type":"status","timestamp":1783900136349,"status":"hook_ok","name":"MessageDigest.digest","message":null}
+{"type":"status","timestamp":1783900136349,"status":"hook_fail","name":"okhttp3.RealCall.enqueue","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900136350,"status":"hook_ok","name":"AccountManager.getAccounts","message":null}
+{"type":"status","timestamp":1783900136350,"status":"hook_ok","name":"AccountManager.getAccountsByType","message":null}
+{"type":"status","timestamp":1783900136351,"status":"hook_ok","name":"AudioRecord.<init>","message":null}
+{"type":"status","timestamp":1783900136351,"status":"hook_ok","name":"MediaRecorder.setAudioSource","message":null}
+{"type":"status","timestamp":1783900136352,"status":"hook_ok","name":"SharedPreferencesImpl.getString","message":null}
+{"type":"status","timestamp":1783900136353,"status":"hook_ok","name":"SharedPreferencesImpl.getInt","message":null}
+{"type":"status","timestamp":1783900136354,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.putString","message":null}
+{"type":"status","timestamp":1783900136354,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.apply","message":null}
+{"type":"status","timestamp":1783900136355,"status":"hook_ok","name":"SQLiteDatabase.rawQuery","message":null}
+{"type":"status","timestamp":1783900136355,"status":"hook_ok","name":"SQLiteDatabase.execSQL","message":null}
+{"type":"status","timestamp":1783900136357,"status":"hook_ok","name":"SQLiteDatabase.insert","message":null}
+{"type":"status","timestamp":1783900136363,"status":"hook_ok","name":"MediaPlayer.setDataSource","message":null}
+{"type":"status","timestamp":1783900136364,"status":"hook_ok","name":"MediaPlayer.setDataSource_uri","message":null}
+{"type":"status","timestamp":1783900136364,"status":"hook_ok","name":"MediaPlayer.start","message":null}
+{"type":"status","timestamp":1783900136364,"status":"hook_ok","name":"MediaPlayer.prepare","message":null}
+{"type":"status","timestamp":1783900136365,"status":"hook_ok","name":"ContextWrapper.startActivity","message":null}
+{"type":"status","timestamp":1783900136367,"status":"hook_ok","name":"ContextWrapper.sendBroadcast","message":null}
+{"type":"status","timestamp":1783900136367,"status":"hook_ok","name":"ContextWrapper.sendBroadcast_permission","message":null}
+{"type":"status","timestamp":1783900136368,"status":"hook_ok","name":"ContextWrapper.startService","message":null}
+{"type":"status","timestamp":1783900136368,"status":"hook_ok","name":"ContextWrapper.bindService","message":null}
+{"type":"status","timestamp":1783900136369,"status":"hook_ok","name":"WebView.loadUrl","message":null}
+{"type":"status","timestamp":1783900136370,"status":"hook_ok","name":"NotificationManager.notify","message":null}
+{"type":"status","timestamp":1783900136370,"status":"hook_ok","name":"NotificationManager.notify_tag","message":null}
+{"type":"status","timestamp":1783900136370,"status":"hook_ok","name":"NotificationManager.notifyAsUser","message":null}
+{"type":"status","timestamp":1783900136371,"status":"hook_ok","name":"Socket.connect","message":null}
+{"type":"status","timestamp":1783900136371,"status":"hook_ok","name":"AssetManager.open","message":null}
+{"type":"status","timestamp":1783900136372,"status":"hook_fail","name":"retrofit2.OkHttpCall.execute","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"retrofit2.OkHttpCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900136372,"status":"hook_fail","name":"volley.RequestQueue.add","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"com.android.volley.RequestQueue\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"event","timestamp":1783900137102,"api":"Context.sendBroadcast","category":"ipc_intents","args":{"action":"android.appwidget.action.APPWIDGET_UPDATE","target":"app.alextran.immich/app.alextran.immich.widget.RandomReceiver"}}
+{"type":"event","timestamp":1783900137116,"api":"Context.sendBroadcast","category":"ipc_intents","args":{"action":"android.appwidget.action.APPWIDGET_UPDATE","target":"app.alextran.immich/app.alextran.immich.widget.MemoryReceiver"}}
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to spawn: unable to pick a payload base
+Failed to spawn: unable to pick a payload base
+{"type":"event","timestamp":1783900205882,"api":"hook_loaded","category":"lifecycle","args":{"stage":"java_perform","version":"3"}}
+{"type":"status","timestamp":1783900205940,"status":"hook_ok","name":"SmsManager.sendTextMessage","message":null}
+{"type":"status","timestamp":1783900205940,"status":"hook_ok","name":"SmsManager.sendMultipartTextMessage","message":null}
+{"type":"status","timestamp":1783900205941,"status":"hook_ok","name":"URL.openConnection","message":null}
+{"type":"status","timestamp":1783900205941,"status":"hook_ok","name":"HttpURLConnection.connect","message":null}
+{"type":"status","timestamp":1783900205941,"status":"hook_fail","name":"OkHttp3","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900205942,"status":"hook_ok","name":"FileOutputStream.<init>","message":null}
+{"type":"status","timestamp":1783900205943,"status":"hook_ok","name":"FileInputStream.<init>","message":null}
+{"type":"status","timestamp":1783900205943,"status":"hook_ok","name":"File.delete","message":null}
+{"type":"status","timestamp":1783900205944,"status":"hook_ok","name":"Cipher.getInstance","message":null}
+{"type":"status","timestamp":1783900205945,"status":"hook_ok","name":"SecretKeySpec.<init>","message":null}
+{"type":"status","timestamp":1783900205946,"status":"hook_ok","name":"Method.invoke","message":null}
+{"type":"status","timestamp":1783900205947,"status":"hook_ok","name":"Runtime.exec","message":null}
+{"type":"status","timestamp":1783900205947,"status":"hook_ok","name":"ProcessBuilder.start","message":null}
+{"type":"status","timestamp":1783900205948,"status":"hook_ok","name":"ContentResolver.query","message":null}
+{"type":"status","timestamp":1783900205950,"status":"hook_ok","name":"ContentResolver.query_legacy","message":null}
+{"type":"status","timestamp":1783900205950,"status":"hook_ok","name":"ContentResolver.insert","message":null}
+{"type":"status","timestamp":1783900205950,"status":"hook_ok","name":"ContentResolver.update","message":null}
+{"type":"status","timestamp":1783900205952,"status":"hook_ok","name":"ContentResolver.delete","message":null}
+{"type":"status","timestamp":1783900205952,"status":"hook_ok","name":"ClipboardManager.setPrimaryClip","message":null}
+{"type":"status","timestamp":1783900205953,"status":"hook_ok","name":"Camera.open","message":null}
+{"type":"status","timestamp":1783900205954,"status":"hook_ok","name":"CameraManager.openCamera","message":null}
+{"type":"status","timestamp":1783900205954,"status":"hook_ok","name":"PackageManager.getInstalledPackages","message":null}
+{"type":"status","timestamp":1783900205954,"status":"hook_ok","name":"PackageManager.getInstalledApplications","message":null}
+{"type":"status","timestamp":1783900205955,"status":"hook_ok","name":"LocationManager.requestLocationUpdates","message":null}
+{"type":"status","timestamp":1783900205957,"status":"hook_ok","name":"TelephonyManager.getDeviceId","message":null}
+{"type":"status","timestamp":1783900205957,"status":"hook_ok","name":"TelephonyManager.getSubscriberId","message":null}
+{"type":"status","timestamp":1783900205957,"status":"hook_ok","name":"TelephonyManager.getSimSerialNumber","message":null}
+{"type":"status","timestamp":1783900205957,"status":"hook_ok","name":"TelephonyManager.getCallState","message":null}
+{"type":"status","timestamp":1783900205957,"status":"hook_ok","name":"TelephonyManager.getCallState_subId","message":null}
+{"type":"status","timestamp":1783900205958,"status":"hook_ok","name":"DexClassLoader.<init>","message":null}
+{"type":"status","timestamp":1783900205959,"status":"hook_ok","name":"PathClassLoader.<init>","message":null}
+{"type":"status","timestamp":1783900205959,"status":"hook_ok","name":"System.loadLibrary","message":null}
+{"type":"status","timestamp":1783900205959,"status":"hook_ok","name":"Runtime.loadLibrary","message":null}
+{"type":"status","timestamp":1783900205960,"status":"hook_ok","name":"Runtime.load","message":null}
+{"type":"status","timestamp":1783900205961,"status":"hook_ok","name":"Cipher.doFinal","message":null}
+{"type":"status","timestamp":1783900205962,"status":"hook_ok","name":"MessageDigest.getInstance","message":null}
+{"type":"status","timestamp":1783900205963,"status":"hook_ok","name":"MessageDigest.digest","message":null}
+{"type":"status","timestamp":1783900205963,"status":"hook_fail","name":"okhttp3.RealCall.enqueue","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900205964,"status":"hook_ok","name":"AccountManager.getAccounts","message":null}
+{"type":"status","timestamp":1783900205964,"status":"hook_ok","name":"AccountManager.getAccountsByType","message":null}
+{"type":"status","timestamp":1783900205964,"status":"hook_ok","name":"AudioRecord.<init>","message":null}
+{"type":"status","timestamp":1783900205965,"status":"hook_ok","name":"MediaRecorder.setAudioSource","message":null}
+{"type":"status","timestamp":1783900205965,"status":"hook_ok","name":"SharedPreferencesImpl.getString","message":null}
+{"type":"status","timestamp":1783900205965,"status":"hook_ok","name":"SharedPreferencesImpl.getInt","message":null}
+{"type":"status","timestamp":1783900205966,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.putString","message":null}
+{"type":"status","timestamp":1783900205966,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.apply","message":null}
+{"type":"status","timestamp":1783900205966,"status":"hook_ok","name":"SQLiteDatabase.rawQuery","message":null}
+{"type":"status","timestamp":1783900205967,"status":"hook_ok","name":"SQLiteDatabase.execSQL","message":null}
+{"type":"status","timestamp":1783900205967,"status":"hook_ok","name":"SQLiteDatabase.insert","message":null}
+{"type":"status","timestamp":1783900205969,"status":"hook_ok","name":"MediaPlayer.setDataSource","message":null}
+{"type":"status","timestamp":1783900205969,"status":"hook_ok","name":"MediaPlayer.setDataSource_uri","message":null}
+{"type":"status","timestamp":1783900205969,"status":"hook_ok","name":"MediaPlayer.start","message":null}
+{"type":"status","timestamp":1783900205970,"status":"hook_ok","name":"MediaPlayer.prepare","message":null}
+{"type":"status","timestamp":1783900205970,"status":"hook_ok","name":"ContextWrapper.startActivity","message":null}
+{"type":"status","timestamp":1783900205970,"status":"hook_ok","name":"ContextWrapper.sendBroadcast","message":null}
+{"type":"status","timestamp":1783900205971,"status":"hook_ok","name":"ContextWrapper.sendBroadcast_permission","message":null}
+{"type":"status","timestamp":1783900205971,"status":"hook_ok","name":"ContextWrapper.startService","message":null}
+{"type":"status","timestamp":1783900205971,"status":"hook_ok","name":"ContextWrapper.bindService","message":null}
+{"type":"status","timestamp":1783900205972,"status":"hook_ok","name":"WebView.loadUrl","message":null}
+{"type":"status","timestamp":1783900205973,"status":"hook_ok","name":"NotificationManager.notify","message":null}
+{"type":"status","timestamp":1783900205973,"status":"hook_ok","name":"NotificationManager.notify_tag","message":null}
+{"type":"status","timestamp":1783900205973,"status":"hook_ok","name":"NotificationManager.notifyAsUser","message":null}
+{"type":"status","timestamp":1783900205973,"status":"hook_ok","name":"Socket.connect","message":null}
+{"type":"status","timestamp":1783900205974,"status":"hook_ok","name":"AssetManager.open","message":null}
+{"type":"status","timestamp":1783900205974,"status":"hook_fail","name":"retrofit2.OkHttpCall.execute","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"retrofit2.OkHttpCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900205974,"status":"hook_fail","name":"volley.RequestQueue.add","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"com.android.volley.RequestQueue\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"event","timestamp":1783900206850,"api":"Context.sendBroadcast","category":"ipc_intents","args":{"action":"android.appwidget.action.APPWIDGET_UPDATE","target":"app.alextran.immich/app.alextran.immich.widget.RandomReceiver"}}
+{"type":"event","timestamp":1783900206862,"api":"Context.sendBroadcast","category":"ipc_intents","args":{"action":"android.appwidget.action.APPWIDGET_UPDATE","target":"app.alextran.immich/app.alextran.immich.widget.MemoryReceiver"}}
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to spawn: unable to pick a payload base
+Failed to spawn: unable to pick a payload base
+{"type":"event","timestamp":1783900267548,"api":"hook_loaded","category":"lifecycle","args":{"stage":"java_perform","version":"3"}}
+{"type":"status","timestamp":1783900267611,"status":"hook_ok","name":"SmsManager.sendTextMessage","message":null}
+{"type":"status","timestamp":1783900267614,"status":"hook_ok","name":"SmsManager.sendMultipartTextMessage","message":null}
+{"type":"status","timestamp":1783900267614,"status":"hook_ok","name":"URL.openConnection","message":null}
+{"type":"status","timestamp":1783900267615,"status":"hook_ok","name":"HttpURLConnection.connect","message":null}
+{"type":"status","timestamp":1783900267615,"status":"hook_fail","name":"OkHttp3","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900267616,"status":"hook_ok","name":"FileOutputStream.<init>","message":null}
+{"type":"status","timestamp":1783900267617,"status":"hook_ok","name":"FileInputStream.<init>","message":null}
+{"type":"status","timestamp":1783900267617,"status":"hook_ok","name":"File.delete","message":null}
+{"type":"status","timestamp":1783900267618,"status":"hook_ok","name":"Cipher.getInstance","message":null}
+{"type":"status","timestamp":1783900267619,"status":"hook_ok","name":"SecretKeySpec.<init>","message":null}
+{"type":"status","timestamp":1783900267619,"status":"hook_ok","name":"Method.invoke","message":null}
+{"type":"status","timestamp":1783900267620,"status":"hook_ok","name":"Runtime.exec","message":null}
+{"type":"status","timestamp":1783900267620,"status":"hook_ok","name":"ProcessBuilder.start","message":null}
+{"type":"status","timestamp":1783900267622,"status":"hook_ok","name":"ContentResolver.query","message":null}
+{"type":"status","timestamp":1783900267622,"status":"hook_ok","name":"ContentResolver.query_legacy","message":null}
+{"type":"status","timestamp":1783900267622,"status":"hook_ok","name":"ContentResolver.insert","message":null}
+{"type":"status","timestamp":1783900267623,"status":"hook_ok","name":"ContentResolver.update","message":null}
+{"type":"status","timestamp":1783900267623,"status":"hook_ok","name":"ContentResolver.delete","message":null}
+{"type":"status","timestamp":1783900267629,"status":"hook_ok","name":"ClipboardManager.setPrimaryClip","message":null}
+{"type":"status","timestamp":1783900267630,"status":"hook_ok","name":"Camera.open","message":null}
+{"type":"status","timestamp":1783900267631,"status":"hook_ok","name":"CameraManager.openCamera","message":null}
+{"type":"status","timestamp":1783900267632,"status":"hook_ok","name":"PackageManager.getInstalledPackages","message":null}
+{"type":"status","timestamp":1783900267632,"status":"hook_ok","name":"PackageManager.getInstalledApplications","message":null}
+{"type":"status","timestamp":1783900267635,"status":"hook_ok","name":"LocationManager.requestLocationUpdates","message":null}
+{"type":"status","timestamp":1783900267636,"status":"hook_ok","name":"TelephonyManager.getDeviceId","message":null}
+{"type":"status","timestamp":1783900267637,"status":"hook_ok","name":"TelephonyManager.getSubscriberId","message":null}
+{"type":"status","timestamp":1783900267637,"status":"hook_ok","name":"TelephonyManager.getSimSerialNumber","message":null}
+{"type":"status","timestamp":1783900267637,"status":"hook_ok","name":"TelephonyManager.getCallState","message":null}
+{"type":"status","timestamp":1783900267638,"status":"hook_ok","name":"TelephonyManager.getCallState_subId","message":null}
+{"type":"status","timestamp":1783900267638,"status":"hook_ok","name":"DexClassLoader.<init>","message":null}
+{"type":"status","timestamp":1783900267639,"status":"hook_ok","name":"PathClassLoader.<init>","message":null}
+{"type":"status","timestamp":1783900267640,"status":"hook_ok","name":"System.loadLibrary","message":null}
+{"type":"status","timestamp":1783900267640,"status":"hook_ok","name":"Runtime.loadLibrary","message":null}
+{"type":"status","timestamp":1783900267640,"status":"hook_ok","name":"Runtime.load","message":null}
+{"type":"status","timestamp":1783900267646,"status":"hook_ok","name":"Cipher.doFinal","message":null}
+{"type":"status","timestamp":1783900267646,"status":"hook_ok","name":"MessageDigest.getInstance","message":null}
+{"type":"status","timestamp":1783900267647,"status":"hook_ok","name":"MessageDigest.digest","message":null}
+{"type":"status","timestamp":1783900267647,"status":"hook_fail","name":"okhttp3.RealCall.enqueue","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900267647,"status":"hook_ok","name":"AccountManager.getAccounts","message":null}
+{"type":"status","timestamp":1783900267648,"status":"hook_ok","name":"AccountManager.getAccountsByType","message":null}
+{"type":"status","timestamp":1783900267648,"status":"hook_ok","name":"AudioRecord.<init>","message":null}
+{"type":"status","timestamp":1783900267649,"status":"hook_ok","name":"MediaRecorder.setAudioSource","message":null}
+{"type":"status","timestamp":1783900267649,"status":"hook_ok","name":"SharedPreferencesImpl.getString","message":null}
+{"type":"status","timestamp":1783900267649,"status":"hook_ok","name":"SharedPreferencesImpl.getInt","message":null}
+{"type":"status","timestamp":1783900267650,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.putString","message":null}
+{"type":"status","timestamp":1783900267651,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.apply","message":null}
+{"type":"status","timestamp":1783900267652,"status":"hook_ok","name":"SQLiteDatabase.rawQuery","message":null}
+{"type":"status","timestamp":1783900267652,"status":"hook_ok","name":"SQLiteDatabase.execSQL","message":null}
+{"type":"status","timestamp":1783900267653,"status":"hook_ok","name":"SQLiteDatabase.insert","message":null}
+{"type":"status","timestamp":1783900267654,"status":"hook_ok","name":"MediaPlayer.setDataSource","message":null}
+{"type":"status","timestamp":1783900267654,"status":"hook_ok","name":"MediaPlayer.setDataSource_uri","message":null}
+{"type":"status","timestamp":1783900267655,"status":"hook_ok","name":"MediaPlayer.start","message":null}
+{"type":"status","timestamp":1783900267655,"status":"hook_ok","name":"MediaPlayer.prepare","message":null}
+{"type":"status","timestamp":1783900267655,"status":"hook_ok","name":"ContextWrapper.startActivity","message":null}
+{"type":"status","timestamp":1783900267656,"status":"hook_ok","name":"ContextWrapper.sendBroadcast","message":null}
+{"type":"status","timestamp":1783900267657,"status":"hook_ok","name":"ContextWrapper.sendBroadcast_permission","message":null}
+{"type":"status","timestamp":1783900267657,"status":"hook_ok","name":"ContextWrapper.startService","message":null}
+{"type":"status","timestamp":1783900267663,"status":"hook_ok","name":"ContextWrapper.bindService","message":null}
+{"type":"status","timestamp":1783900267663,"status":"hook_ok","name":"WebView.loadUrl","message":null}
+{"type":"status","timestamp":1783900267664,"status":"hook_ok","name":"NotificationManager.notify","message":null}
+{"type":"status","timestamp":1783900267664,"status":"hook_ok","name":"NotificationManager.notify_tag","message":null}
+{"type":"status","timestamp":1783900267664,"status":"hook_ok","name":"NotificationManager.notifyAsUser","message":null}
+{"type":"status","timestamp":1783900267665,"status":"hook_ok","name":"Socket.connect","message":null}
+{"type":"status","timestamp":1783900267666,"status":"hook_ok","name":"AssetManager.open","message":null}
+{"type":"status","timestamp":1783900267666,"status":"hook_fail","name":"retrofit2.OkHttpCall.execute","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"retrofit2.OkHttpCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900267666,"status":"hook_fail","name":"volley.RequestQueue.add","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"com.android.volley.RequestQueue\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"event","timestamp":1783900268570,"api":"Context.sendBroadcast","category":"ipc_intents","args":{"action":"android.appwidget.action.APPWIDGET_UPDATE","target":"app.alextran.immich/app.alextran.immich.widget.RandomReceiver"}}
+{"type":"event","timestamp":1783900268592,"api":"Context.sendBroadcast","category":"ipc_intents","args":{"action":"android.appwidget.action.APPWIDGET_UPDATE","target":"app.alextran.immich/app.alextran.immich.widget.MemoryReceiver"}}
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to spawn: unable to pick a payload base
+Failed to spawn: unable to pick a payload base
+{"type":"event","timestamp":1783900330584,"api":"hook_loaded","category":"lifecycle","args":{"stage":"java_perform","version":"3"}}
+{"type":"status","timestamp":1783900330643,"status":"hook_ok","name":"SmsManager.sendTextMessage","message":null}
+{"type":"status","timestamp":1783900330644,"status":"hook_ok","name":"SmsManager.sendMultipartTextMessage","message":null}
+{"type":"status","timestamp":1783900330644,"status":"hook_ok","name":"URL.openConnection","message":null}
+{"type":"status","timestamp":1783900330644,"status":"hook_ok","name":"HttpURLConnection.connect","message":null}
+{"type":"status","timestamp":1783900330645,"status":"hook_fail","name":"OkHttp3","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900330645,"status":"hook_ok","name":"FileOutputStream.<init>","message":null}
+{"type":"status","timestamp":1783900330645,"status":"hook_ok","name":"FileInputStream.<init>","message":null}
+{"type":"status","timestamp":1783900330646,"status":"hook_ok","name":"File.delete","message":null}
+{"type":"status","timestamp":1783900330646,"status":"hook_ok","name":"Cipher.getInstance","message":null}
+{"type":"status","timestamp":1783900330647,"status":"hook_ok","name":"SecretKeySpec.<init>","message":null}
+{"type":"status","timestamp":1783900330648,"status":"hook_ok","name":"Method.invoke","message":null}
+{"type":"status","timestamp":1783900330649,"status":"hook_ok","name":"Runtime.exec","message":null}
+{"type":"status","timestamp":1783900330649,"status":"hook_ok","name":"ProcessBuilder.start","message":null}
+{"type":"status","timestamp":1783900330650,"status":"hook_ok","name":"ContentResolver.query","message":null}
+{"type":"status","timestamp":1783900330651,"status":"hook_ok","name":"ContentResolver.query_legacy","message":null}
+{"type":"status","timestamp":1783900330652,"status":"hook_ok","name":"ContentResolver.insert","message":null}
+{"type":"status","timestamp":1783900330653,"status":"hook_ok","name":"ContentResolver.update","message":null}
+{"type":"status","timestamp":1783900330653,"status":"hook_ok","name":"ContentResolver.delete","message":null}
+{"type":"status","timestamp":1783900330653,"status":"hook_ok","name":"ClipboardManager.setPrimaryClip","message":null}
+{"type":"status","timestamp":1783900330654,"status":"hook_ok","name":"Camera.open","message":null}
+{"type":"status","timestamp":1783900330654,"status":"hook_ok","name":"CameraManager.openCamera","message":null}
+{"type":"status","timestamp":1783900330656,"status":"hook_ok","name":"PackageManager.getInstalledPackages","message":null}
+{"type":"status","timestamp":1783900330656,"status":"hook_ok","name":"PackageManager.getInstalledApplications","message":null}
+{"type":"status","timestamp":1783900330658,"status":"hook_ok","name":"LocationManager.requestLocationUpdates","message":null}
+{"type":"status","timestamp":1783900330659,"status":"hook_ok","name":"TelephonyManager.getDeviceId","message":null}
+{"type":"status","timestamp":1783900330659,"status":"hook_ok","name":"TelephonyManager.getSubscriberId","message":null}
+{"type":"status","timestamp":1783900330659,"status":"hook_ok","name":"TelephonyManager.getSimSerialNumber","message":null}
+{"type":"status","timestamp":1783900330659,"status":"hook_ok","name":"TelephonyManager.getCallState","message":null}
+{"type":"status","timestamp":1783900330660,"status":"hook_ok","name":"TelephonyManager.getCallState_subId","message":null}
+{"type":"status","timestamp":1783900330660,"status":"hook_ok","name":"DexClassLoader.<init>","message":null}
+{"type":"status","timestamp":1783900330660,"status":"hook_ok","name":"PathClassLoader.<init>","message":null}
+{"type":"status","timestamp":1783900330661,"status":"hook_ok","name":"System.loadLibrary","message":null}
+{"type":"status","timestamp":1783900330661,"status":"hook_ok","name":"Runtime.loadLibrary","message":null}
+{"type":"status","timestamp":1783900330661,"status":"hook_ok","name":"Runtime.load","message":null}
+{"type":"status","timestamp":1783900330662,"status":"hook_ok","name":"Cipher.doFinal","message":null}
+{"type":"status","timestamp":1783900330663,"status":"hook_ok","name":"MessageDigest.getInstance","message":null}
+{"type":"status","timestamp":1783900330664,"status":"hook_ok","name":"MessageDigest.digest","message":null}
+{"type":"status","timestamp":1783900330664,"status":"hook_fail","name":"okhttp3.RealCall.enqueue","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900330665,"status":"hook_ok","name":"AccountManager.getAccounts","message":null}
+{"type":"status","timestamp":1783900330665,"status":"hook_ok","name":"AccountManager.getAccountsByType","message":null}
+{"type":"status","timestamp":1783900330666,"status":"hook_ok","name":"AudioRecord.<init>","message":null}
+{"type":"status","timestamp":1783900330666,"status":"hook_ok","name":"MediaRecorder.setAudioSource","message":null}
+{"type":"status","timestamp":1783900330667,"status":"hook_ok","name":"SharedPreferencesImpl.getString","message":null}
+{"type":"status","timestamp":1783900330667,"status":"hook_ok","name":"SharedPreferencesImpl.getInt","message":null}
+{"type":"status","timestamp":1783900330667,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.putString","message":null}
+{"type":"status","timestamp":1783900330668,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.apply","message":null}
+{"type":"status","timestamp":1783900330668,"status":"hook_ok","name":"SQLiteDatabase.rawQuery","message":null}
+{"type":"status","timestamp":1783900330668,"status":"hook_ok","name":"SQLiteDatabase.execSQL","message":null}
+{"type":"status","timestamp":1783900330669,"status":"hook_ok","name":"SQLiteDatabase.insert","message":null}
+{"type":"status","timestamp":1783900330670,"status":"hook_ok","name":"MediaPlayer.setDataSource","message":null}
+{"type":"status","timestamp":1783900330670,"status":"hook_ok","name":"MediaPlayer.setDataSource_uri","message":null}
+{"type":"status","timestamp":1783900330671,"status":"hook_ok","name":"MediaPlayer.start","message":null}
+{"type":"status","timestamp":1783900330671,"status":"hook_ok","name":"MediaPlayer.prepare","message":null}
+{"type":"status","timestamp":1783900330671,"status":"hook_ok","name":"ContextWrapper.startActivity","message":null}
+{"type":"status","timestamp":1783900330672,"status":"hook_ok","name":"ContextWrapper.sendBroadcast","message":null}
+{"type":"status","timestamp":1783900330672,"status":"hook_ok","name":"ContextWrapper.sendBroadcast_permission","message":null}
+{"type":"status","timestamp":1783900330672,"status":"hook_ok","name":"ContextWrapper.startService","message":null}
+{"type":"status","timestamp":1783900330673,"status":"hook_ok","name":"ContextWrapper.bindService","message":null}
+{"type":"status","timestamp":1783900330674,"status":"hook_ok","name":"WebView.loadUrl","message":null}
+{"type":"status","timestamp":1783900330674,"status":"hook_ok","name":"NotificationManager.notify","message":null}
+{"type":"status","timestamp":1783900330674,"status":"hook_ok","name":"NotificationManager.notify_tag","message":null}
+{"type":"status","timestamp":1783900330675,"status":"hook_ok","name":"NotificationManager.notifyAsUser","message":null}
+{"type":"status","timestamp":1783900330678,"status":"hook_ok","name":"Socket.connect","message":null}
+{"type":"status","timestamp":1783900330678,"status":"hook_ok","name":"AssetManager.open","message":null}
+{"type":"status","timestamp":1783900330678,"status":"hook_fail","name":"retrofit2.OkHttpCall.execute","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"retrofit2.OkHttpCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900330679,"status":"hook_fail","name":"volley.RequestQueue.add","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"com.android.volley.RequestQueue\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"event","timestamp":1783900331521,"api":"Context.sendBroadcast","category":"ipc_intents","args":{"action":"android.appwidget.action.APPWIDGET_UPDATE","target":"app.alextran.immich/app.alextran.immich.widget.RandomReceiver"}}
+{"type":"event","timestamp":1783900331537,"api":"Context.sendBroadcast","category":"ipc_intents","args":{"action":"android.appwidget.action.APPWIDGET_UPDATE","target":"app.alextran.immich/app.alextran.immich.widget.MemoryReceiver"}}
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to attach: process not found
+Failed to spawn: unable to pick a payload base
+Failed to spawn: unable to pick a payload base
+{"type":"event","timestamp":1783900406829,"api":"hook_loaded","category":"lifecycle","args":{"stage":"java_perform","version":"3"}}
+{"type":"status","timestamp":1783900406916,"status":"hook_ok","name":"SmsManager.sendTextMessage","message":null}
+{"type":"status","timestamp":1783900406916,"status":"hook_ok","name":"SmsManager.sendMultipartTextMessage","message":null}
+{"type":"status","timestamp":1783900406917,"status":"hook_ok","name":"URL.openConnection","message":null}
+{"type":"status","timestamp":1783900406919,"status":"hook_ok","name":"HttpURLConnection.connect","message":null}
+{"type":"status","timestamp":1783900406919,"status":"hook_fail","name":"OkHttp3","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900406920,"status":"hook_ok","name":"FileOutputStream.<init>","message":null}
+{"type":"status","timestamp":1783900406922,"status":"hook_ok","name":"FileInputStream.<init>","message":null}
+{"type":"status","timestamp":1783900406924,"status":"hook_ok","name":"File.delete","message":null}
+{"type":"status","timestamp":1783900406925,"status":"hook_ok","name":"Cipher.getInstance","message":null}
+{"type":"status","timestamp":1783900406926,"status":"hook_ok","name":"SecretKeySpec.<init>","message":null}
+{"type":"status","timestamp":1783900406926,"status":"hook_ok","name":"Method.invoke","message":null}
+{"type":"status","timestamp":1783900406931,"status":"hook_ok","name":"Runtime.exec","message":null}
+{"type":"status","timestamp":1783900406932,"status":"hook_ok","name":"ProcessBuilder.start","message":null}
+{"type":"status","timestamp":1783900406933,"status":"hook_ok","name":"ContentResolver.query","message":null}
+{"type":"status","timestamp":1783900406934,"status":"hook_ok","name":"ContentResolver.query_legacy","message":null}
+{"type":"status","timestamp":1783900406934,"status":"hook_ok","name":"ContentResolver.insert","message":null}
+{"type":"status","timestamp":1783900406935,"status":"hook_ok","name":"ContentResolver.update","message":null}
+{"type":"status","timestamp":1783900406936,"status":"hook_ok","name":"ContentResolver.delete","message":null}
+{"type":"status","timestamp":1783900406937,"status":"hook_ok","name":"ClipboardManager.setPrimaryClip","message":null}
+{"type":"status","timestamp":1783900406939,"status":"hook_ok","name":"Camera.open","message":null}
+{"type":"status","timestamp":1783900406940,"status":"hook_ok","name":"CameraManager.openCamera","message":null}
+{"type":"status","timestamp":1783900406941,"status":"hook_ok","name":"PackageManager.getInstalledPackages","message":null}
+{"type":"status","timestamp":1783900406941,"status":"hook_ok","name":"PackageManager.getInstalledApplications","message":null}
+{"type":"status","timestamp":1783900406942,"status":"hook_ok","name":"LocationManager.requestLocationUpdates","message":null}
+{"type":"status","timestamp":1783900406947,"status":"hook_ok","name":"TelephonyManager.getDeviceId","message":null}
+{"type":"status","timestamp":1783900406947,"status":"hook_ok","name":"TelephonyManager.getSubscriberId","message":null}
+{"type":"status","timestamp":1783900406948,"status":"hook_ok","name":"TelephonyManager.getSimSerialNumber","message":null}
+{"type":"status","timestamp":1783900406948,"status":"hook_ok","name":"TelephonyManager.getCallState","message":null}
+{"type":"status","timestamp":1783900406948,"status":"hook_ok","name":"TelephonyManager.getCallState_subId","message":null}
+{"type":"status","timestamp":1783900406949,"status":"hook_ok","name":"DexClassLoader.<init>","message":null}
+{"type":"status","timestamp":1783900406950,"status":"hook_ok","name":"PathClassLoader.<init>","message":null}
+{"type":"status","timestamp":1783900406953,"status":"hook_ok","name":"System.loadLibrary","message":null}
+{"type":"status","timestamp":1783900406953,"status":"hook_ok","name":"Runtime.loadLibrary","message":null}
+{"type":"status","timestamp":1783900406954,"status":"hook_ok","name":"Runtime.load","message":null}
+{"type":"status","timestamp":1783900406955,"status":"hook_ok","name":"Cipher.doFinal","message":null}
+{"type":"status","timestamp":1783900406956,"status":"hook_ok","name":"MessageDigest.getInstance","message":null}
+{"type":"status","timestamp":1783900406957,"status":"hook_ok","name":"MessageDigest.digest","message":null}
+{"type":"status","timestamp":1783900406957,"status":"hook_fail","name":"okhttp3.RealCall.enqueue","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"okhttp3.RealCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900406958,"status":"hook_ok","name":"AccountManager.getAccounts","message":null}
+{"type":"status","timestamp":1783900406961,"status":"hook_ok","name":"AccountManager.getAccountsByType","message":null}
+{"type":"status","timestamp":1783900406962,"status":"hook_ok","name":"AudioRecord.<init>","message":null}
+{"type":"status","timestamp":1783900406962,"status":"hook_ok","name":"MediaRecorder.setAudioSource","message":null}
+{"type":"status","timestamp":1783900406963,"status":"hook_ok","name":"SharedPreferencesImpl.getString","message":null}
+{"type":"status","timestamp":1783900406963,"status":"hook_ok","name":"SharedPreferencesImpl.getInt","message":null}
+{"type":"status","timestamp":1783900406963,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.putString","message":null}
+{"type":"status","timestamp":1783900406964,"status":"hook_ok","name":"SharedPreferencesImpl.EditorImpl.apply","message":null}
+{"type":"status","timestamp":1783900406964,"status":"hook_ok","name":"SQLiteDatabase.rawQuery","message":null}
+{"type":"status","timestamp":1783900406965,"status":"hook_ok","name":"SQLiteDatabase.execSQL","message":null}
+{"type":"status","timestamp":1783900406966,"status":"hook_ok","name":"SQLiteDatabase.insert","message":null}
+{"type":"status","timestamp":1783900406968,"status":"hook_ok","name":"MediaPlayer.setDataSource","message":null}
+{"type":"status","timestamp":1783900406969,"status":"hook_ok","name":"MediaPlayer.setDataSource_uri","message":null}
+{"type":"status","timestamp":1783900406969,"status":"hook_ok","name":"MediaPlayer.start","message":null}
+{"type":"status","timestamp":1783900406970,"status":"hook_ok","name":"MediaPlayer.prepare","message":null}
+{"type":"status","timestamp":1783900406970,"status":"hook_ok","name":"ContextWrapper.startActivity","message":null}
+{"type":"status","timestamp":1783900406971,"status":"hook_ok","name":"ContextWrapper.sendBroadcast","message":null}
+{"type":"status","timestamp":1783900406971,"status":"hook_ok","name":"ContextWrapper.sendBroadcast_permission","message":null}
+{"type":"status","timestamp":1783900406972,"status":"hook_ok","name":"ContextWrapper.startService","message":null}
+{"type":"status","timestamp":1783900406972,"status":"hook_ok","name":"ContextWrapper.bindService","message":null}
+{"type":"status","timestamp":1783900406974,"status":"hook_ok","name":"WebView.loadUrl","message":null}
+{"type":"status","timestamp":1783900406974,"status":"hook_ok","name":"NotificationManager.notify","message":null}
+{"type":"status","timestamp":1783900406975,"status":"hook_ok","name":"NotificationManager.notify_tag","message":null}
+{"type":"status","timestamp":1783900406975,"status":"hook_ok","name":"NotificationManager.notifyAsUser","message":null}
+{"type":"status","timestamp":1783900406979,"status":"hook_ok","name":"Socket.connect","message":null}
+{"type":"status","timestamp":1783900406980,"status":"hook_ok","name":"AssetManager.open","message":null}
+{"type":"status","timestamp":1783900406981,"status":"hook_fail","name":"retrofit2.OkHttpCall.execute","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"retrofit2.OkHttpCall\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"status","timestamp":1783900406981,"status":"hook_fail","name":"volley.RequestQueue.add","message":"Error: java.lang.ClassNotFoundException: Didn't find class \"com.android.volley.RequestQueue\" on path: DexPathList[[zip file \"/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk\"],nativeLibraryDirectories=[/data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/lib/arm64, /data/app/app.alextran.immich-7SjyUSSFLIZ4EawHN4VsKw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64]]"}
+{"type":"event","timestamp":1783900407827,"api":"Context.sendBroadcast","category":"ipc_intents","args":{"action":"android.appwidget.action.APPWIDGET_UPDATE","target":"app.alextran.immich/app.alextran.immich.widget.RandomReceiver"}}
+{"type":"event","timestamp":1783900407840,"api":"Context.sendBroadcast","category":"ipc_intents","args":{"action":"android.appwidget.action.APPWIDGET_UPDATE","target":"app.alextran.immich/app.alextran.immich.widget.MemoryReceiver"}}

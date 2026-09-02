@@ -1,0 +1,83 @@
+{
+  "active_categories": [
+    "crypto",
+    "file_io",
+    "native_code",
+    "network"
+  ],
+  "analysis_status": "partial:ux_quality_gate",
+  "analyze_exit_status": 0,
+  "app_id": "app.ladefuchs.android",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T10:08:37.192000Z",
+  "end_timestamp_ms": 1786702117192,
+  "event_counts": {
+    "mapped": 125,
+    "mapped_rate": 0.08815232722143865,
+    "total": 1418
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "0f0dc4577a45_llm_s6__extend",
+  "failure_reason": "analyze_status:partial:ux_quality_gate,sim_not_success",
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "File.delete",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "System.loadLibrary",
+    "URL.openConnection"
+  ],
+  "n_active_nodes": 4,
+  "n_edges": 7,
+  "reference_tier_pass": false,
+  "session_id": "0f0dc4577a45_llm_s6",
+  "session_index_within_app": 6,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/0f0dc4577a45_app.ladefuchs.android/dynamic/llm/session_6/app.ladefuchs.android_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/0f0dc4577a45_app.ladefuchs.android/dynamic/llm/session_6/app.ladefuchs.android_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T10:00:46.109000Z",
+  "start_timestamp_ms": 1786701646109,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1418,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 40,
+    "n_with_timestamp": 1418,
+    "unparseable_line_numbers_sample": [
+      1138,
+      1139,
+      1140,
+      1141,
+      1142,
+      1143,
+      1144,
+      1145,
+      1146,
+      1147,
+      1219,
+      1220,
+      1221,
+      1222,
+      1223,
+      1224,
+      1225,
+      1226,
+      1227,
+      1228
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 471.231
+}

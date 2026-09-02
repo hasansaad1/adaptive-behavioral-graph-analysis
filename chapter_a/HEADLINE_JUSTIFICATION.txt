@@ -1,0 +1,20 @@
+is_headline=True rows and justification (no new numbers):
+
+1. ocdev_validate / centroid_euclidean_nested_form — D1 full-sample point 0.80042553 with nested percentile CI; thesis-carried interval.
+2. validation / OCPool_mean_raw — pooling incumbent; not residualized; operating-point curve.
+3. validation / OCPool_mean_R2 — train-fit residual correction replacing eval-fit 0.8141.
+4. ocdev_validate / S1_norm_nested_bootstrap_mean — replaces full-sample point 0.8226.
+5. devread / D3 HGB seed 42 — ROC and TPR@FPR artifact (do not conflate with seed-mean).
+6. devread / D3 HGB_mean_seeds_42_46 — reported seed-mean AUC.
+7. ladder / HGB rung1 full — supervised random-split ceiling.
+8. run3 / mapped_event_count — size floor used as the trivial bar.
+9. ladder / HGB_pooled_oof_raw — rung-2 generalization number; replaces per-fold floor mean 0.8492.
+10. ladder / random-group HGB_mean_auc_floor — matched-size control.
+11. final_validate / D1 centroid benign-group holdout pooled OOF — one-class holdout check.
+
+is_superseded=True:
+- S1_norm point 0.8226 → nested bootstrap mean 0.7867
+- HGB_mean_auc_floor 0.8492 → pooled OOF 0.848861
+- HGB_weighted_mean_auc_floor 0.8606 (not the carried generalization number)
+- OCPool R1 eval-fit 0.8141 → R2 0.7544
+- D4 mahalanobis Split-B weighted 0.8083 → pooled OOF 0.5178

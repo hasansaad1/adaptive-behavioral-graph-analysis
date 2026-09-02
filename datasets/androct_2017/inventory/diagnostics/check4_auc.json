@@ -1,0 +1,143 @@
+{
+  "total_event_count": {
+    "metric": "n_events",
+    "n_benign": 2225,
+    "n_malware": 1734,
+    "U": 1278939.0,
+    "p_value": 3.5569158116274936e-74,
+    "AUC": 0.33149022199758954,
+    "AUC_definition": "U_benign_vs_malware / (n_benign * n_malware) = P(X_benign > X_malware) + 0.5 P(eq)",
+    "benign_dist": {
+      "n": 2225,
+      "min": 1.0,
+      "p10": 330.40000000000003,
+      "p25": 807.0,
+      "p50": 4328.0,
+      "p75": 31909.0,
+      "p90": 137915.00000000023,
+      "max": 1664929.0,
+      "mean": 61341.19370786517,
+      "mean_over_median": 14.17310390662319
+    },
+    "malware_dist": {
+      "n": 1734,
+      "min": 24.0,
+      "p10": 2158.0,
+      "p25": 9729.25,
+      "p50": 17277.0,
+      "p75": 55122.5,
+      "p90": 92090.2,
+      "max": 1606665.0,
+      "mean": 40791.797001153405,
+      "mean_over_median": 2.361046304402003
+    },
+    "higher_at_median": "malware",
+    "higher_at_mean": "benign"
+  },
+  "mapped_event_count": {
+    "metric": "n_mapped",
+    "n_benign": 2225,
+    "n_malware": 1734,
+    "U": 1195782.0,
+    "p_value": 7.387779811548874e-94,
+    "AUC": 0.30993662765833363,
+    "AUC_definition": "U_benign_vs_malware / (n_benign * n_malware) = P(X_benign > X_malware) + 0.5 P(eq)",
+    "benign_dist": {
+      "n": 2225,
+      "min": 0.0,
+      "p10": 3.0,
+      "p25": 21.0,
+      "p50": 131.0,
+      "p75": 662.0,
+      "p90": 2253.0,
+      "max": 270350.0,
+      "mean": 1799.6777528089888,
+      "mean_over_median": 13.737998113045716
+    },
+    "malware_dist": {
+      "n": 1734,
+      "min": 0.0,
+      "p10": 98.30000000000001,
+      "p25": 205.0,
+      "p50": 562.0,
+      "p75": 1449.0,
+      "p90": 2921.7000000000016,
+      "max": 454292.0,
+      "mean": 1421.8985005767013,
+      "mean_over_median": 2.530068506364237
+    },
+    "higher_at_median": "malware",
+    "higher_at_mean": "benign"
+  },
+  "distinct_active_categories": {
+    "metric": "n_active",
+    "n_benign": 2225,
+    "n_malware": 1734,
+    "U": 1875118.0,
+    "p_value": 0.12820816029652105,
+    "AUC": 0.48601479983930124,
+    "AUC_definition": "U_benign_vs_malware / (n_benign * n_malware) = P(X_benign > X_malware) + 0.5 P(eq)",
+    "benign_dist": {
+      "n": 2225,
+      "min": 0.0,
+      "p10": 1.0,
+      "p25": 2.0,
+      "p50": 5.0,
+      "p75": 7.0,
+      "p90": 9.0,
+      "max": 13.0,
+      "mean": 4.9892134831460675,
+      "mean_over_median": 0.9978426966292135
+    },
+    "malware_dist": {
+      "n": 1734,
+      "min": 0.0,
+      "p10": 2.0,
+      "p25": 3.0,
+      "p50": 6.0,
+      "p75": 7.0,
+      "p90": 8.0,
+      "max": 13.0,
+      "mean": 5.115916955017301,
+      "mean_over_median": 0.8526528258362168
+    },
+    "higher_at_median": "malware",
+    "higher_at_mean": "malware"
+  },
+  "allowlist_drop_rate": {
+    "metric": "drop_rate",
+    "n_benign": 2256,
+    "n_malware": 1742,
+    "U": 1728241.0,
+    "p_value": 6.086979022445215e-11,
+    "AUC": 0.43976135077476775,
+    "AUC_definition": "U_benign_vs_malware / (n_benign * n_malware) = P(X_benign > X_malware) + 0.5 P(eq)",
+    "benign_dist": {
+      "n": 2256,
+      "min": 0.00010367276379097572,
+      "p10": 0.06541902566673327,
+      "p25": 0.118479489687011,
+      "p50": 0.22619462775751611,
+      "p75": 0.38468575669174476,
+      "p90": 0.5330527589934163,
+      "max": 1.0,
+      "mean": 0.27005564779824914,
+      "mean_over_median": 1.1939083190240605
+    },
+    "malware_dist": {
+      "n": 1742,
+      "min": 0.0001191087939724144,
+      "p10": 0.05666939230814273,
+      "p25": 0.07864730137110104,
+      "p50": 0.3236469556029252,
+      "p75": 0.49517922007970616,
+      "p90": 0.6003608080320859,
+      "max": 1.0,
+      "mean": 0.31886135443505303,
+      "mean_over_median": 0.9852135140311855
+    },
+    "higher_at_median": "malware",
+    "higher_at_mean": "malware"
+  },
+  "floor_note": "These AUCs are the floor any ABRG result must clear."
+}

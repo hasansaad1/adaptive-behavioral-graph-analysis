@@ -1,0 +1,78 @@
+{
+  "active_categories": [
+    "file_io",
+    "ipc_intents"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "ch.hgdev.toposuite",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T21:59:04.397000Z",
+  "end_timestamp_ms": 1786744744397,
+  "event_counts": {
+    "mapped": 224,
+    "mapped_rate": 0.09113100081366965,
+    "total": 2458
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "05e3f19e2717_llm_s6__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "Context.startActivity",
+    "File.delete"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 1,
+  "reference_tier_pass": true,
+  "session_id": "05e3f19e2717_llm_s6",
+  "session_index_within_app": 6,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/05e3f19e2717_ch.hgdev.toposuite/dynamic/llm/session_6/ch.hgdev.toposuite_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/05e3f19e2717_ch.hgdev.toposuite/dynamic/llm/session_6/ch.hgdev.toposuite_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T21:51:19.905000Z",
+  "start_timestamp_ms": 1786744279905,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 2458,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 40,
+    "n_with_timestamp": 2458,
+    "unparseable_line_numbers_sample": [
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      733,
+      734,
+      735,
+      736,
+      737,
+      738,
+      739,
+      740,
+      741,
+      742
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 464.595
+}

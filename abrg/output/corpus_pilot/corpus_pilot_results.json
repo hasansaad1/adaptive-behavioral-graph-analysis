@@ -1,0 +1,2934 @@
+{
+  "pilot": "abrg_v0.2_corpus",
+  "timestamp_utc": "2026-06-30T23:23:17.497436+00:00",
+  "pinned": {
+    "window": "whole_session",
+    "static": "zero_stub",
+    "autoencoder": "GAE",
+    "weights": "raw_w_cum"
+  },
+  "build": {
+    "total_sessions": 129,
+    "build_errors": 0,
+    "trainable_graphs": 72,
+    "excluded_degenerate": 57,
+    "gae_eligible_graphs": 57,
+    "trainable_zero_edge": 15,
+    "active_nodes_distribution": {
+      "min": 2,
+      "median": 2.0,
+      "max": 6,
+      "mean": 2.82
+    },
+    "edge_count_distribution_trainable": {
+      "min": 0,
+      "median": 2.0,
+      "max": 17,
+      "mean": 3.9
+    },
+    "excluded_breakdown": {
+      "zero_active": 20,
+      "one_active": 37
+    },
+    "faithfulness_trainable": {
+      "FAITHFUL": 69,
+      "PARTIAL": 3
+    }
+  },
+  "split": {
+    "method": "random_80_20_graph_level",
+    "seed": 42,
+    "test_ratio": 0.2,
+    "rationale": "one session per app; 80/20 \u2248 hold out 20% of apps",
+    "train_graphs": 46,
+    "test_graphs": 11,
+    "train_apps": [
+      "ac.mdiq.podcini.X",
+      "agrigolo.chubbyclick",
+      "ai.susi",
+      "amirz.rootless.nexuslauncher",
+      "app.fedilab.castlab",
+      "app.fedilab.mobilizon",
+      "app.michaelwuensch.bitbanana",
+      "app.tice.TICE.production",
+      "app.tujice.jergasColombia",
+      "app.varlorg.unote",
+      "aq.metallists.loudbang",
+      "askanimus.arbeitszeiterfassung2",
+      "at.jclehner.rxdroid",
+      "at.linuxtage.Eventfahrplan",
+      "au.com.wallaceit.reddinator",
+      "au.id.micolous.farebot",
+      "be.digitalia.fosdem",
+      "be.mygod.vpnhotspot_foss",
+      "biz.binarysolutions.mindfulnessmeditation",
+      "bluepie.ad_silence",
+      "bus.chio.wishmaster",
+      "ca.chancehorizon.paseo",
+      "ca.farrelltonsolar.classic",
+      "ca.littlesvr.everyonestimetable",
+      "ca.ramzan.virtuosity",
+      "ca.rmen.android.scrumchatter",
+      "ca.rmen.nounours",
+      "ca.voiditswarranty.roadtripradar",
+      "cash.p.terminal",
+      "cat.mvmike.minimalcalendarwidget",
+      "cc.echonet.coolmicapp",
+      "cc.kafuu.bilidownload",
+      "ch.hgdev.toposuite",
+      "ch.joshuah.bibleverseapp",
+      "ch.mydoli.focal",
+      "ch.protonvpn.android",
+      "ch.rmy.android.statusbar_tacho",
+      "cityfreqs.com.pilfershushjammer",
+      "co.ec.cnsyn.codecatcher",
+      "code.name.monkey.retromusic",
+      "com.GTP.eveminer",
+      "com.aaronjwood.portauthority",
+      "com.abhijitvalluri.android.fitnotifications",
+      "com.absinthe.libchecker",
+      "com.activitymanager",
+      "com.aefyr.sai.fdroid"
+    ],
+    "test_apps": [
+      "ac.robinson.mediaphone",
+      "app.fedilab.nitterizemelite",
+      "app.wispar.wispar",
+      "at.bitfire.davdroid",
+      "ca.cmetcalfe.locationshare",
+      "cat.jordihernandez.cinecat",
+      "cf.playhi.freezeyou",
+      "ch.bailu.aat",
+      "ch.logixisland.anuto",
+      "co.electriccoin.zcash.foss",
+      "com.addismaptransit.app"
+    ]
+  },
+  "training": {
+    "epochs": 300,
+    "hidden_dim": 16,
+    "lr": 0.01,
+    "loss_curve": [
+      0.9077483907989834,
+      0.8028843454692675,
+      0.9984366116316422,
+      0.6639183364484621,
+      0.6486794968014178,
+      0.5641220997533073,
+      0.825085147243479,
+      0.7162057504705761,
+      0.9428621226030848,
+      0.6906275626109994,
+      0.7045337737578413,
+      0.6311984334302985,
+      0.51322209737871,
+      0.7137805082146889,
+      0.6459516111568994,
+      0.7177524301020995,
+      0.7228859358507654,
+      0.7314232775698537,
+      0.6288055408260097,
+      0.7069526016712189,
+      0.5314231782382273,
+      0.6125475973214792,
+      0.7611994014081099,
+      0.5676228747419689,
+      0.5481920721738235,
+      0.6061425673087006,
+      0.6185152077156565,
+      0.6053149049048838,
+      0.48853811681139,
+      0.6463744374720947,
+      0.7508471363588519,
+      0.7381287045452906,
+      0.9416415047725541,
+      0.7322742814279121,
+      0.579181340077649,
+      0.5758237352027841,
+      0.6409356367328892,
+      0.6903676952680816,
+      0.6680835674203042,
+      0.5059402701647385,
+      0.5443679370471964,
+      0.9331926592453585,
+      0.6135445634793976,
+      0.853241136216599,
+      0.7196414944533582,
+      0.6780703498921155,
+      0.5671538652285285,
+      0.5785655574468167,
+      0.6505735092189001,
+      0.5918268632629643,
+      0.5741290249254393,
+      0.6848361345524292,
+      0.6219019650117211,
+      0.5190626779652163,
+      0.7117219865322113,
+      0.7673422130553619,
+      0.5707033084624488,
+      1.0496036053999611,
+      0.609724803544257,
+      0.7952791290438693,
+      0.6856256208848208,
+      0.5444785050476639,
+      0.5821523954686911,
+      0.8422337170239821,
+      1.021334897564805,
+      0.5750898032084756,
+      0.5998331567515498,
+      0.6558202913273936,
+      0.6118943483933158,
+      0.5753793032376764,
+      0.6555366921736846,
+      0.5069536497087582,
+      0.6743963146987169,
+      0.663068128020867,
+      0.7668029918618824,
+      0.8376356053590628,
+      0.6310764464509228,
+      0.6020266673120837,
+      0.5703971583558165,
+      0.6060686516373054,
+      0.8311043862739335,
+      0.6299214433149799,
+      1.3155835260353659,
+      0.5475989035938097,
+      0.5432583875954151,
+      0.7939252839423716,
+      0.5265533211451997,
+      0.5986681006980966,
+      0.6181426163754583,
+      0.5350142800130213,
+      0.5535926664875739,
+      0.5177814079620673,
+      0.6375425329998784,
+      1.238686646051381,
+      0.7886885287969009,
+      0.5338410604846381,
+      0.5074896311005274,
+      0.6483031342858854,
+      0.5839874679627626,
+      0.5236492370801067,
+      0.8451578739635728,
+      0.5718075140561585,
+      0.8847124272897022,
+      0.8114729941200652,
+      0.5275989744979459,
+      0.8772224195139564,
+      0.5980634618064731,
+      0.9068724966567495,
+      0.6284372690336212,
+      0.7451698022866723,
+      0.7620015528619938,
+      0.663619608334873,
+      0.8104452545673627,
+      0.58179018298245,
+      0.5554910523316484,
+      0.6272102876398055,
+      0.5374981714463185,
+      0.6773477837281383,
+      0.732202140537202,
+      0.6476358398946999,
+      0.6695358394717914,
+      0.5598731382810713,
+      0.5155949863407802,
+      0.6115231764219378,
+      0.6415756792032524,
+      0.6104545418339987,
+      0.5732767491236977,
+      1.3624144505263995,
+      0.4987434401460316,
+      0.887817428225864,
+      0.6653956468229729,
+      0.6194603945250097,
+      0.6490152426387953,
+      0.6849366697361288,
+      0.5131847488805563,
+      0.5193424348760034,
+      0.6616315465921023,
+      0.558483503434969,
+      0.6314813136778751,
+      0.6691161444127631,
+      0.5611902326345444,
+      1.1055653188554773,
+      1.0377825828997984,
+      0.6181238134918006,
+      0.5947636346454206,
+      0.5375302090593006,
+      0.6470670887957448,
+      0.5798734364950139,
+      0.7214891926749892,
+      0.6496999858443335,
+      0.4842748256481212,
+      0.5373188354398893,
+      0.829187040095744,
+      0.6888282461010892,
+      1.1059249235967519,
+      0.6060955417544945,
+      0.8889360077395712,
+      0.5500449570249064,
+      0.698127819792084,
+      0.7731157681378333,
+      0.5884474988864816,
+      0.5653164341397907,
+      0.4954797276498183,
+      0.6773353964197905,
+      0.9063365654311264,
+      0.6965938118278838,
+      0.7714708525201549,
+      0.624373822108559,
+      0.727575553500134,
+      0.8852807812635666,
+      0.6743861443322736,
+      0.7002657917802759,
+      0.5222696493538419,
+      0.8047260726275651,
+      0.5067089744342925,
+      0.6911265992599988,
+      0.803441049936025,
+      0.593303377861562,
+      0.5152244890145401,
+      0.4954327937858856,
+      0.5284188072470463,
+      0.9162908335742743,
+      0.8920063207978788,
+      0.6573253151272302,
+      0.5415826556475266,
+      0.7378749358265296,
+      0.6703702013777653,
+      0.5866513589559041,
+      0.5311844452567871,
+      0.7140077605227302,
+      0.5092269734045065,
+      0.6920968561950324,
+      0.5541053738292565,
+      0.6013207377305543,
+      0.8750089852317456,
+      0.6455932347022969,
+      0.7652865526691565,
+      0.5222460671316382,
+      0.741993350179299,
+      0.7009788946058072,
+      0.5514082276950711,
+      0.6001973275257193,
+      0.562262553022685,
+      0.4750759131072656,
+      0.5234073730914489,
+      0.558649537679943,
+      0.6632972411487413,
+      0.7337943379825447,
+      0.6103954852923102,
+      0.5424739398953059,
+      0.9108766216605031,
+      0.5364163412672022,
+      1.0248321391966204,
+      0.6550654482764556,
+      0.7492781745945452,
+      0.887037365009766,
+      0.9435629569317984,
+      0.6377207477293585,
+      0.5220971615256175,
+      0.7925012710949649,
+      0.6035500019788742,
+      0.5309563269047826,
+      0.5491630184014471,
+      0.5023931245445076,
+      0.5337950690932896,
+      0.5499017261292624,
+      0.5985236961658095,
+      0.726081986496549,
+      0.5140879610965227,
+      0.6388176899889241,
+      0.7239000216270696,
+      0.7859715304353496,
+      0.8322469472237255,
+      0.6075269901920484,
+      0.7659533548614254,
+      0.8715371314604295,
+      0.7431311004835627,
+      0.6711146708415903,
+      0.6493469532642453,
+      0.4900632137847812,
+      0.7172505444680649,
+      0.6632931494842405,
+      0.4744622273289639,
+      1.0022590416281119,
+      0.6265118475902177,
+      0.5044339792144931,
+      0.7479426232369173,
+      0.79770794769992,
+      0.8579788062600963,
+      0.6760142350603533,
+      0.5032135348605073,
+      0.6310555900498833,
+      0.699468521646652,
+      0.5400238190271446,
+      0.5036384604318696,
+      0.8414752898008927,
+      0.6782899474979469,
+      0.5145300432391788,
+      0.4909758120775223,
+      0.488915015773787,
+      0.5739807869535782,
+      0.6679468980949858,
+      0.5320547304961466,
+      0.6192447242760271,
+      0.7089840727655784,
+      0.6673312372870935,
+      0.7133867419932199,
+      0.5292336493730545,
+      0.7231847676246063,
+      0.7906856556301531,
+      0.6211189994148364,
+      0.7105634170526648,
+      0.5068226498695604,
+      0.8103696991157726,
+      0.8986696132013331,
+      0.6177722889444103,
+      0.4988692923541986,
+      0.5606174877156382,
+      0.7909668586824251,
+      0.5342684969629931,
+      0.9180373389195151,
+      1.1336965066856586,
+      0.7127733434671941,
+      0.5406766948607306,
+      0.5786264118210254,
+      0.6588877125292406,
+      0.5906335086278294,
+      0.5747702450908432,
+      0.7193060297033061,
+      0.7601817530458388,
+      0.49633541965981154,
+      0.6900889982023964,
+      0.5634265750378963,
+      0.7925682390591449,
+      0.6605379160349141,
+      0.5848229691198437,
+      0.6721073719470397,
+      0.9589779861676304,
+      0.5475737050823544,
+      0.7311283124183082
+    ],
+    "final_epoch_mean_loss": 0.7311283124183082,
+    "converged_heuristic": true,
+    "train_error_distribution": {
+      "count": 46,
+      "min": 1.7345102605759166e-05,
+      "median": 0.5201711058616638,
+      "max": 0.6935614943504333,
+      "mean": 0.49483040240719
+    }
+  },
+  "test": {
+    "error_distribution": {
+      "count": 11,
+      "min": 0.3467807471752167,
+      "median": 0.6935614943504333,
+      "max": 2.580009698867798,
+      "mean": 0.7300790629603646
+    },
+    "train_vs_test_median_ratio": 1.3333333715288707,
+    "generalization_verdict": "GAE does NOT clearly generalize \u2014 held-out test error exceeds training range; see distributions before using as detection baseline."
+  },
+  "baseline": {
+    "count": 57,
+    "min": -0.0,
+    "median": 0.5779679417610168,
+    "max": 4.924213409423828,
+    "mean": 0.6946309997389714
+  },
+  "per_graph": [
+    {
+      "session_id": "05e3f19e2717_llm_s1",
+      "package": "ch.hgdev.toposuite",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 74,
+      "distinct_categories": [
+        "file_io",
+        "navigation"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "navigation"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.3467807471752167
+    },
+    {
+      "session_id": "0bdafb823df0_llm_s1",
+      "package": "askanimus.arbeitszeiterfassung2",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 1510,
+      "distinct_categories": [
+        "database",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 6,
+      "active_nodes": [
+        "database",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.46237432956695557
+    },
+    {
+      "session_id": "0d50d7d9c132_llm_s1",
+      "package": "ch.protonvpn.android",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 7206,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 11,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.25220417976379395
+    },
+    {
+      "session_id": "0e7da7b17b63_llm_s1",
+      "package": "ca.rmen.nounours",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 874,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "1266fdc2dbbf_llm_s1",
+      "package": "cc.echonet.coolmicapp",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2868,
+      "distinct_categories": [
+        "clipboard",
+        "crypto",
+        "file_io",
+        "notifications",
+        "storage"
+      ],
+      "n_active_nodes": 5,
+      "n_edges": 7,
+      "active_nodes": [
+        "clipboard",
+        "crypto",
+        "file_io",
+        "notifications",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.4954010844230652
+    },
+    {
+      "session_id": "13a5b49070c9_llm_s1",
+      "package": "agrigolo.chubbyclick",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 1501,
+      "distinct_categories": [
+        "file_io",
+        "notifications",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 5,
+      "active_nodes": [
+        "file_io",
+        "notifications",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.41613689064979553
+    },
+    {
+      "session_id": "166d4cb9b0f7_llm_s1",
+      "package": "co.ec.cnsyn.codecatcher",
+      "faithfulness": "PARTIAL",
+      "events_kept": 694,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "18aff8885c8c_llm_s1",
+      "package": "ch.joshuah.bibleverseapp",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 97,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "22f89723dffa_llm_s1",
+      "package": "ca.littlesvr.everyonestimetable",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 135,
+      "distinct_categories": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.34720438718795776
+    },
+    {
+      "session_id": "24e9101cdb34_llm_s1",
+      "package": "cat.jordihernandez.cinecat",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 149,
+      "distinct_categories": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 4,
+      "active_nodes": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.5201711058616638
+    },
+    {
+      "session_id": "2d767cdb301f_llm_s1",
+      "package": "ca.farrelltonsolar.classic",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 67,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "30ae40611f5f_llm_s1",
+      "package": "app.fedilab.nitterizemelite",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 500,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.3467807471752167
+    },
+    {
+      "session_id": "321daeb8a717_llm_s1",
+      "package": "com.activitymanager",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 68,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 2,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.34706977009773254
+    },
+    {
+      "session_id": "36bdbc1733f0_llm_s1",
+      "package": "app.michaelwuensch.bitbanana",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2137,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 9,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.46237432956695557
+    },
+    {
+      "session_id": "37b1a8bb28b9_llm_s1",
+      "package": "be.digitalia.fosdem",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 98,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 8,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 4.924213409423828
+    },
+    {
+      "session_id": "39f811f07c23_llm_s1",
+      "package": "bus.chio.wishmaster",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 52,
+      "distinct_categories": [
+        "database",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 1,
+      "active_nodes": [
+        "database",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "3b57a70201d6_llm_s1",
+      "package": "ch.logixisland.anuto",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 9,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 1,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "3b7d66351a6d_llm_s1",
+      "package": "cat.mvmike.minimalcalendarwidget",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 817,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "416791a88e5a_llm_s1",
+      "package": "com.aaronjwood.portauthority",
+      "faithfulness": "PARTIAL",
+      "events_kept": 10,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 1,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "497e019dc8a1_llm_s1",
+      "package": "ac.robinson.mediaphone",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 3065,
+      "distinct_categories": [
+        "content_access",
+        "database",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 9,
+      "active_nodes": [
+        "content_access",
+        "database",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.616499125957489
+    },
+    {
+      "session_id": "4d62aecc9873_llm_s1",
+      "package": "com.addismaptransit.app",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 207,
+      "distinct_categories": [
+        "crypto",
+        "database"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "crypto",
+        "database"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": -0.0
+    },
+    {
+      "session_id": "5139dd6b3c57_llm_s1",
+      "package": "au.id.micolous.farebot",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 263,
+      "distinct_categories": [
+        "content_access",
+        "database",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 5,
+      "active_nodes": [
+        "content_access",
+        "database",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.5548492074012756
+    },
+    {
+      "session_id": "5719f3b34f71_llm_s1",
+      "package": "app.fedilab.castlab",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 174,
+      "distinct_categories": [
+        "content_access",
+        "crypto",
+        "file_io"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 5,
+      "active_nodes": [
+        "content_access",
+        "crypto",
+        "file_io"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "635f2031ec56_llm_s1",
+      "package": "at.bitfire.davdroid",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 269,
+      "distinct_categories": [
+        "accounts",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 2,
+      "active_nodes": [
+        "accounts",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "648d8ddb49f4_llm_s1",
+      "package": "app.tice.TICE.production",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 1865,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "navigation",
+        "network",
+        "storage",
+        "webview"
+      ],
+      "n_active_nodes": 6,
+      "n_edges": 17,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "navigation",
+        "network",
+        "storage",
+        "webview"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.4079773426055908
+    },
+    {
+      "session_id": "64de55f0293d_llm_s1",
+      "package": "cc.kafuu.bilidownload",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 9,
+      "distinct_categories": [
+        "crypto",
+        "database",
+        "file_io"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 1,
+      "active_nodes": [
+        "crypto",
+        "database",
+        "file_io"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "653f472925cc_llm_s1",
+      "package": "ca.ramzan.virtuosity",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 491,
+      "distinct_categories": [
+        "database",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "database",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "66398ab95c74_llm_s1",
+      "package": "app.varlorg.unote",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 1803,
+      "distinct_categories": [
+        "database",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "database",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "68c61bf76203_llm_s1",
+      "package": "com.GTP.eveminer",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 10867,
+      "distinct_categories": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 5,
+      "active_nodes": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.2774246037006378
+    },
+    {
+      "session_id": "6c59c1411181_llm_s1",
+      "package": "com.abhijitvalluri.android.fitnotifications",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 100,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "package_manager",
+        "process",
+        "storage"
+      ],
+      "n_active_nodes": 5,
+      "n_edges": 6,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "package_manager",
+        "process",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.46237432956695557
+    },
+    {
+      "session_id": "6f8510108099_llm_s1",
+      "package": "ai.susi",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 706,
+      "distinct_categories": [
+        "audio",
+        "crypto",
+        "location",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 5,
+      "n_edges": 17,
+      "active_nodes": [
+        "audio",
+        "crypto",
+        "location",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.3263818621635437
+    },
+    {
+      "session_id": "714e56ae2182_llm_s1",
+      "package": "aq.metallists.loudbang",
+      "faithfulness": "PARTIAL",
+      "events_kept": 22,
+      "distinct_categories": [
+        "database",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 4,
+      "active_nodes": [
+        "database",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.5201724767684937
+    },
+    {
+      "session_id": "7603ad0544fe_llm_s1",
+      "package": "ca.rmen.android.scrumchatter",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 154,
+      "distinct_categories": [
+        "content_access",
+        "database",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 6,
+      "active_nodes": [
+        "content_access",
+        "database",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.5779679417610168
+    },
+    {
+      "session_id": "7624058ce668_llm_s1",
+      "package": "app.wispar.wispar",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 28,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 2,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "7fa44d560dc4_llm_s1",
+      "package": "amirz.rootless.nexuslauncher",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 430,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "84bca8b5903c_llm_s1",
+      "package": "at.linuxtage.Eventfahrplan",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 50,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 6,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "86b80fef253c_llm_s1",
+      "package": "cf.playhi.freezeyou",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 300,
+      "distinct_categories": [
+        "content_access",
+        "database",
+        "package_manager",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 5,
+      "active_nodes": [
+        "content_access",
+        "database",
+        "package_manager",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "885b48bee226_llm_s1",
+      "package": "ca.voiditswarranty.roadtripradar",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 594,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 8,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.43347591161727905
+    },
+    {
+      "session_id": "9b7a3d5efee6_llm_s1",
+      "package": "app.fedilab.mobilizon",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 139,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage",
+        "webview"
+      ],
+      "n_active_nodes": 5,
+      "n_edges": 14,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "network",
+        "storage",
+        "webview"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.44623297452926636
+    },
+    {
+      "session_id": "a72518537ed0_llm_s1",
+      "package": "be.mygod.vpnhotspot_foss",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 1925,
+      "distinct_categories": [
+        "file_io",
+        "process",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 6,
+      "active_nodes": [
+        "file_io",
+        "process",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "ac1ff15c10bf_llm_s1",
+      "package": "com.absinthe.libchecker",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 305,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "b170c24c85b2_llm_s1",
+      "package": "ac.mdiq.podcini.X",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 178,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "network"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 5,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "network"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "bbf18ac3b134_llm_s1",
+      "package": "ch.mydoli.focal",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 45,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "c134927f92ec_llm_s1",
+      "package": "bluepie.ad_silence",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 11,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "c1898e1fcef7_llm_s1",
+      "package": "code.name.monkey.retromusic",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 732,
+      "distinct_categories": [
+        "content_access",
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 9,
+      "active_nodes": [
+        "content_access",
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.46237432956695557
+    },
+    {
+      "session_id": "c3751de467a1_llm_s1",
+      "package": "au.com.wallaceit.reddinator",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 256,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "storage",
+        "webview"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 9,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "storage",
+        "webview"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.616499125957489
+    },
+    {
+      "session_id": "c7c04de887f3_llm_s1",
+      "package": "cityfreqs.com.pilfershushjammer",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 12,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 1,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.024937914684414864
+    },
+    {
+      "session_id": "cb96838c9a64_llm_s1",
+      "package": "com.aefyr.sai.fdroid",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 120,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.3468320965766907
+    },
+    {
+      "session_id": "dcb9f7d62d6a_llm_s1",
+      "package": "cash.p.terminal",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 140,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.6935614943504333
+    },
+    {
+      "session_id": "e271584cf787_llm_s1",
+      "package": "ca.chancehorizon.paseo",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 287,
+      "distinct_categories": [
+        "database",
+        "file_io",
+        "notifications",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 12,
+      "active_nodes": [
+        "database",
+        "file_io",
+        "notifications",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.46237432956695557
+    },
+    {
+      "session_id": "e8b32f0b1998_llm_s1",
+      "package": "at.jclehner.rxdroid",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 607,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 4,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.5201711654663086
+    },
+    {
+      "session_id": "e9bb6243834c_llm_s1",
+      "package": "ca.cmetcalfe.locationshare",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 82,
+      "distinct_categories": [
+        "location",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 1,
+      "active_nodes": [
+        "location",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.04295963793992996
+    },
+    {
+      "session_id": "ec04a971d6b5_llm_s1",
+      "package": "co.electriccoin.zcash.foss",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 359,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 2,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 0.3467807471752167
+    },
+    {
+      "session_id": "ee1abcd9f921_llm_s1",
+      "package": "ch.rmy.android.statusbar_tacho",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 179,
+      "distinct_categories": [
+        "file_io",
+        "location",
+        "notifications",
+        "storage"
+      ],
+      "n_active_nodes": 4,
+      "n_edges": 9,
+      "active_nodes": [
+        "file_io",
+        "location",
+        "notifications",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 4.145891189575195
+    },
+    {
+      "session_id": "ef6177e39b1d_llm_s1",
+      "package": "app.tujice.jergasColombia",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 29,
+      "distinct_categories": [
+        "file_io",
+        "storage",
+        "webview"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 4,
+      "active_nodes": [
+        "file_io",
+        "storage",
+        "webview"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.17341218888759613
+    },
+    {
+      "session_id": "f10bae02e75b_llm_s1",
+      "package": "ch.bailu.aat",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 825,
+      "distinct_categories": [
+        "crypto",
+        "file_io",
+        "navigation",
+        "network",
+        "process",
+        "storage"
+      ],
+      "n_active_nodes": 6,
+      "n_edges": 15,
+      "active_nodes": [
+        "crypto",
+        "file_io",
+        "navigation",
+        "network",
+        "process",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "test",
+      "reconstruction_error": 2.718722105026245
+    },
+    {
+      "session_id": "fba1483a8a4d_llm_s1",
+      "package": "biz.binarysolutions.mindfulnessmeditation",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 10,
+      "distinct_categories": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "n_active_nodes": 3,
+      "n_edges": 3,
+      "active_nodes": [
+        "file_io",
+        "network",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": true,
+      "build_error": null,
+      "split": "train",
+      "reconstruction_error": 0.237031027674675
+    }
+  ],
+  "excluded_sessions": [
+    {
+      "session_id": "053ae15640c3_llm_s1",
+      "package": "app.traced_it",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "07be4a7f425f_llm_s1",
+      "package": "aws.apps.usbDeviceEnumerator",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "0956c3bdf636_llm_s1",
+      "package": "cn.a10miaomiao.bilidown",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "0aa2f66ad4bc_llm_s1",
+      "package": "at.krixec.rosary",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "0c41a145063b_llm_s1",
+      "package": "com.adgad.kboard",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 6,
+      "distinct_categories": [
+        "storage"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "storage"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "0d358c85c2da_llm_s1",
+      "package": "com.abast.homebot",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 44,
+      "distinct_categories": [
+        "storage"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "storage"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "12a4c95ef388_llm_s1",
+      "package": "br.odb.knights",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 576,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "12d9ef307c03_llm_s1",
+      "package": "ca.ramzan.delist",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 8,
+      "distinct_categories": [
+        "storage"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "storage"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "17238a578a93_llm_s1",
+      "package": "app.panoramax",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 5,
+      "distinct_categories": [
+        "crypto",
+        "file_io"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "crypto",
+        "file_io"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "1cbb519ce0ed_llm_s1",
+      "package": "co.adityarajput.alarmetrics",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 27,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "264fd458f128_llm_s1",
+      "package": "at.h4x.amsprung",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "28f526f1e2e2_llm_s1",
+      "package": "ch.nilsgrob.android.bluemoon",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "2968ea2f99e8_llm_s1",
+      "package": "atm.nasaimages",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 121,
+      "distinct_categories": [
+        "network"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "network"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "2a139aedc941_llm_s1",
+      "package": "com.acktarius.concealauthenticator",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 12,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "2aaffda626ec_llm_s1",
+      "package": "agersant.polaris",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 1,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "2c4327c4ee6d_llm_s1",
+      "package": "click.dummer.yidkey",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "2ebf055b2de5_llm_s1",
+      "package": "app.simple.peri",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 77,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "2f4839ccdb6e_llm_s1",
+      "package": "anonvpn.anon_next.android",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "33f4266b15fd_llm_s1",
+      "package": "buet.rafi.dictionary",
+      "faithfulness": "PARTIAL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "39f747d20cbb_llm_s1",
+      "package": "com.aa.mynotes",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2,
+      "distinct_categories": [
+        "content_access"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "content_access"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "3a908b177d9c_llm_s1",
+      "package": "be.bhasher.mobileinpact",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "3d3afadebd74_llm_s1",
+      "package": "app.notesr",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "3eae0c6f3334_llm_s1",
+      "package": "ch.bubendorf.locusaddon.gsakdatabase",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 375,
+      "distinct_categories": [
+        "storage"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "storage"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "3f8f31a5b92b_llm_s1",
+      "package": "ademar.bitac",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 126,
+      "distinct_categories": [
+        "storage"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "storage"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "4377e1b3efef_llm_s1",
+      "package": "com.adeeteya.digital_calculator",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 1,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "43ed539af99b_llm_s1",
+      "package": "app.zimly.backup",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "44d550be3d49_llm_s1",
+      "package": "com.abcdjdj.rootverifier",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 324,
+      "distinct_categories": [
+        "process"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "process"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "49b8977f3d04_llm_s1",
+      "package": "be.ppareit.swiftp_free",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 14,
+      "distinct_categories": [
+        "storage"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "storage"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "56ba09e3fd7c_llm_s1",
+      "package": "app.hypostats",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "5930f0759e7f_llm_s1",
+      "package": "app.pwhs.universalinstaller",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 27,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "59ee61acbb1b_llm_s1",
+      "package": "ca.momi.lift",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 6,
+      "distinct_categories": [
+        "storage"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "storage"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "5bf09d291fba_llm_s1",
+      "package": "app.umerfarooq.websocketcam",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "681ca602bd5c_llm_s1",
+      "package": "be.chvp.nanoledger",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "6f2aeef67134_llm_s1",
+      "package": "ch.thgoebel.spartathlonapp",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 112,
+      "distinct_categories": [
+        "database",
+        "file_io"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "database",
+        "file_io"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "7127a0045a88_llm_s1",
+      "package": "app.crossword.yourealwaysbe.forkyz",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "771b41532831_llm_s1",
+      "package": "co.adityarajput.fileflow",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 27,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "7da2d823d945_llm_s1",
+      "package": "com.MarcosDiez.shareviahttp",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "88495a6fa050_llm_s1",
+      "package": "android.jonas.fakestandby",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "8968b066b32f_llm_s1",
+      "package": "co.adityarajput.notifilter",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 27,
+      "distinct_categories": [
+        "file_io",
+        "package_manager"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io",
+        "package_manager"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "8a82a04a34ce_llm_s1",
+      "package": "ch.tiim.markdown_widget",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "8d76ad598108_llm_s1",
+      "package": "app.podiumpodcasts.podium",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 3,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "91d832e67662_llm_s1",
+      "package": "app.reading.stoic.stoicreading2",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "9347877bc340_llm_s1",
+      "package": "agrigolo.opendrummer",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "9d19a4392a17_llm_s1",
+      "package": "app.smarzaro.foss4g2024.schedule",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 290,
+      "distinct_categories": [
+        "storage"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "storage"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "a02b64c18d0e_llm_s1",
+      "package": "app.crescentcash.src",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 6,
+      "distinct_categories": [
+        "storage"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "storage"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "a133cb2cd7ff_llm_s1",
+      "package": "ch.threema.app.libre",
+      "faithfulness": "PARTIAL",
+      "events_kept": 6,
+      "distinct_categories": [
+        "storage"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "storage"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "a1ede260d0a6_llm_s1",
+      "package": "ch.rmy.android.http_shortcuts",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 177,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "a4b6351831d0_llm_s1",
+      "package": "com.a4a.g8invoicing",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 19,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "a79d40377e87_llm_s1",
+      "package": "biz.binarysolutions.stress",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 4,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "a89627096da5_llm_s1",
+      "package": "co.appreactor.news",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 4,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "aab20cbdc017_llm_s1",
+      "package": "com.LAPARCELA.nihonoari",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "b0da3329a6ec_llm_s1",
+      "package": "cf.theonewiththebraid.guerrilla_mail",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "b69426426d6a_llm_s1",
+      "package": "cn.super12138.todo",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "b77ab89fd70e_llm_s1",
+      "package": "InfinityLoop1309.NewPipeEnhanced",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 391,
+      "distinct_categories": [
+        "storage"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "storage"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "bd60f30ea529_llm_s1",
+      "package": "com.adguard.android.contentblocker",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2,
+      "distinct_categories": [
+        "database"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "database"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "c2420ddfd46b_llm_s1",
+      "package": "com.adeeteya.font_gallery",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 1,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "d517cbc65c67_llm_s1",
+      "package": "cloud.valetudo.companion",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "e4a6cdb972a2_llm_s1",
+      "package": "app.prav.client",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 63,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "e706d9fa5abc_llm_s1",
+      "package": "audio.omgsoundboard",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 27,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "e780cb76161a_llm_s1",
+      "package": "ca.fuwafuwa.kaku",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 3,
+      "distinct_categories": [
+        "media"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "media"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "ec28bb80618b_llm_s1",
+      "package": "ch.seto.kanjirecog",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "ece8ad15a259_llm_s1",
+      "package": "com.acszo.redomi.repo",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "ef0f40be1b94_llm_s1",
+      "package": "btools.routingapp",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 92,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "ef32499a74ab_llm_s1",
+      "package": "ch.famoser.mensa",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "ef6196059026_llm_s1",
+      "package": "chat.simplex.app",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 711,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "f50b1a642361_llm_s1",
+      "package": "app.myzel394.alibi",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "f67ef52502fa_llm_s1",
+      "package": "a2dp.Vol",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 0,
+      "distinct_categories": [],
+      "n_active_nodes": 0,
+      "n_edges": 0,
+      "active_nodes": [],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "f7271ed23a7d_llm_s1",
+      "package": "com.adeeteya.markdown_editor",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 1,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "f7415d4c5521_llm_s1",
+      "package": "cat.naval.florae",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 13,
+      "distinct_categories": [
+        "file_io",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "f99b827f9bd9_llm_s1",
+      "package": "cat.naval.atalaya",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 2,
+      "distinct_categories": [
+        "file_io"
+      ],
+      "n_active_nodes": 1,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io"
+      ],
+      "trainable": false,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "fcf6e2200df2_llm_s1",
+      "package": "cc.polysfaer.stochapop",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 7,
+      "distinct_categories": [
+        "file_io",
+        "notifications"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "file_io",
+        "notifications"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    },
+    {
+      "session_id": "fe47baf78790_llm_s1",
+      "package": "at.manuelbichler.octalsuntime",
+      "faithfulness": "FAITHFUL",
+      "events_kept": 68,
+      "distinct_categories": [
+        "database",
+        "storage"
+      ],
+      "n_active_nodes": 2,
+      "n_edges": 0,
+      "active_nodes": [
+        "database",
+        "storage"
+      ],
+      "trainable": true,
+      "gae_eligible": false,
+      "build_error": null
+    }
+  ]
+}

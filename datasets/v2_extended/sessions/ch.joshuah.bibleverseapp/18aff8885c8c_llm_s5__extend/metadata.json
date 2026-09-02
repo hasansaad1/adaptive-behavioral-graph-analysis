@@ -1,0 +1,80 @@
+{
+  "active_categories": [
+    "file_io",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "ch.joshuah.bibleverseapp",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T08:42:57.854000Z",
+  "end_timestamp_ms": 1786696977854,
+  "event_counts": {
+    "mapped": 75,
+    "mapped_rate": 0.23219814241486067,
+    "total": 323
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "18aff8885c8c_llm_s5__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 2,
+  "reference_tier_pass": true,
+  "session_id": "18aff8885c8c_llm_s5",
+  "session_index_within_app": 5,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/18aff8885c8c_ch.joshuah.bibleverseapp/dynamic/llm/session_5/ch.joshuah.bibleverseapp_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/18aff8885c8c_ch.joshuah.bibleverseapp/dynamic/llm/session_5/ch.joshuah.bibleverseapp_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T08:35:31.074000Z",
+  "start_timestamp_ms": 1786696531074,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 323,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 20,
+    "n_with_timestamp": 323,
+    "unparseable_line_numbers_sample": [
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 446.881
+}

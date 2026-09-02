@@ -1,0 +1,1371 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "ac.robinson.mediaphone",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_hash": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "hint": "DELETE button1 Button · CANCEL button2 Button",
+      "visit_count": 16
+    },
+    {
+      "screen_hash": "6c32d5f668a0344e08c2d5c4a73cfda70910cf5a4bbc001cdc7130932a15dd71",
+      "hint": "Add a new narrative add_narrative_button ImageButton · More options ImageView",
+      "visit_count": 6
+    },
+    {
+      "screen_hash": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "hint": "Delete button_delete_text Button · Done menu_finished_editing Button · Add text to this frame text_view EditText · Navigate up ImageButton · More options ImageView",
+      "visit_count": 17
+    },
+    {
+      "screen_hash": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "hint": "Add text button_add_text Button · Delete button_delete_frame Button · Add sounds button_record_audio_1 Button · Add a picture button_take_picture_video Button · Done menu_finished_editing Button · Navigate up ImageButton · More options ImageView",
+      "visit_count": 20
+    },
+    {
+      "screen_hash": "a8d69b8a38701066c55449d23e5d4abb7b4ae2dd7bd42303e148ce004d745370",
+      "hint": "Add a new narrative add_narrative_button ImageButton · More options ImageView",
+      "visit_count": 1
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "a8d69b8a38701066c55449d23e5d4abb7b4ae2dd7bd42303e148ce004d745370",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/add_narrative_button",
+        "target_content_desc": "Add a new narrative",
+        "x": 964,
+        "y": 1678,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/add_narrative_button",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/add_narrative_button|Add a new narrative"
+    },
+    {
+      "step": 2,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 3,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    },
+    {
+      "step": 4,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 5,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_frame",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 1714,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_frame",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_frame|Delete"
+    },
+    {
+      "step": 6,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "x": 686,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button2|"
+    },
+    {
+      "step": 7,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 8,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    },
+    {
+      "step": 9,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 10,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 11,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    },
+    {
+      "step": 12,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 13,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 14,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    },
+    {
+      "step": 15,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 16,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 17,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    },
+    {
+      "step": 18,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 19,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 20,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    },
+    {
+      "step": 21,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 22,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 23,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    },
+    {
+      "step": 24,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 25,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 26,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    },
+    {
+      "step": 27,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 28,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 29,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    },
+    {
+      "step": 30,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 31,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 32,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    },
+    {
+      "step": 33,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 34,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 35,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    },
+    {
+      "step": 36,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 37,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 38,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    },
+    {
+      "step": 39,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 40,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 41,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    },
+    {
+      "step": 42,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 43,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 44,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    },
+    {
+      "step": 45,
+      "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "x": 882,
+        "y": 1061,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:android:id/button1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:android:id/button1|"
+    },
+    {
+      "step": 46,
+      "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+      "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "x": 540,
+        "y": 1450,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_add_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text"
+    },
+    {
+      "step": 47,
+      "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+      "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "x": 540,
+        "y": 974,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ac.robinson.mediaphone:id/button_delete_text",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:ac.robinson.mediaphone:id/add_narrative_button|Add a new narrative": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ac.robinson.mediaphone:id/add_narrative_button",
+        "target_content_desc": "Add a new narrative",
+        "visible_on": [
+          "a8d69b8a38701066c55449d23e5d4abb7b4ae2dd7bd42303e148ce004d745370"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "a8d69b8a38701066c55449d23e5d4abb7b4ae2dd7bd42303e148ce004d745370",
+        "last_to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0"
+      },
+      "nav:ac.robinson.mediaphone:id/add_narrative_button|Add a new narrative": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ac.robinson.mediaphone:id/add_narrative_button",
+        "target_content_desc": "Add a new narrative",
+        "visible_on": [
+          "a8d69b8a38701066c55449d23e5d4abb7b4ae2dd7bd42303e148ce004d745370"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:ac.robinson.mediaphone:id/button_add_text|Add text": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "visible_on": [
+          "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0"
+        ],
+        "attempts": 15,
+        "successes": 15,
+        "last_from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "last_to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0"
+      },
+      "tab:ac.robinson.mediaphone:id/button_delete_frame|Delete": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_frame",
+        "target_content_desc": "Delete",
+        "visible_on": [
+          "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "last_to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85"
+      },
+      "nav:ac.robinson.mediaphone:id/button_add_text|Add text": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_add_text",
+        "target_content_desc": "Add text",
+        "visible_on": [
+          "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:ac.robinson.mediaphone:id/button_delete_frame|Delete": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_frame",
+        "target_content_desc": "Delete",
+        "visible_on": [
+          "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:ac.robinson.mediaphone:id/button_delete_text|Delete": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "visible_on": [
+          "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0"
+        ],
+        "attempts": 15,
+        "successes": 15,
+        "last_from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "last_to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85"
+      },
+      "nav:ac.robinson.mediaphone:id/button_delete_text|Delete": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ac.robinson.mediaphone:id/button_delete_text",
+        "target_content_desc": "Delete",
+        "visible_on": [
+          "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85"
+        ],
+        "attempts": 14,
+        "successes": 14,
+        "last_from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "last_to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0"
+      },
+      "tab:android:id/button2|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "last_to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0"
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:android:id/button2|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "a8d69b8a38701066c55449d23e5d4abb7b4ae2dd7bd42303e148ce004d745370",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/add_narrative_button|Add a new narrative",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_frame|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "to": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "98f948e31223447ea240bf23c5b9a37a8e8765c4c62d48f174b9b6e5377a32c0",
+        "to": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_add_text|Add text",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8450c119bb5ba0228bfd9d332e686999e1e28570afc438bd11b7971cae4510c0",
+        "to": "25e7e912394cfba61ccde6d8cc50d91775d8f59462b3ed8ca4ac4efe730fce85",
+        "target_key": "tab:ac.robinson.mediaphone:id/button_delete_text|Delete",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  }
+}

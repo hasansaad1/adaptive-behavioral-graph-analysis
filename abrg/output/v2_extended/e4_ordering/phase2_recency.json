@@ -1,0 +1,758 @@
+{
+  "multi_day_prerequisite": {
+    "n_apps": 26,
+    "multi_day": 26,
+    "single_day": 0,
+    "all_multi_day": true,
+    "per_app": {
+      "ac.robinson.mediaphone": {
+        "n_calendar_days": 4,
+        "multi_day": true
+      },
+      "ai.susi": {
+        "n_calendar_days": 4,
+        "multi_day": true
+      },
+      "app.fedilab.nitterizeme": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "app.fedilab.nitterizemelite": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "app.michaelwuensch.bitbanana": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "app.prav.client": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "app.tujice.jergasColombia": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "at.linuxtage.Eventfahrplan": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "au.com.wallaceit.reddinator": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "barilyuk.batterytemperature": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "be.digitalia.fosdem": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "be.mygod.vpnhotspot_foss": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "biz.binarysolutions.vatcalculator": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "bluepie.ad_silence": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "bus.chio.wishmaster": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "ca.chancehorizon.paseo": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "ca.farrelltonsolar.classic": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "ca.rmen.android.frenchcalendar": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "ca.rmen.android.scrumchatter": {
+        "n_calendar_days": 4,
+        "multi_day": true
+      },
+      "ca.rmen.nounours": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "cat.jordihernandez.cinecat": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "cf.playhi.freezeyou": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "ch.joshuah.bibleverseapp": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "ch.mydoli.focal": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "cityfreqs.com.pilfershushjammer": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      },
+      "cl.coders.faketraveler": {
+        "n_calendar_days": 3,
+        "multi_day": true
+      }
+    },
+    "prerequisite_note": "All 26 eligible apps span multiple calendar days \u2014 recency weighting has temporal separation to act on."
+  },
+  "decay_values": {
+    "fast": {
+      "half_life_s": 3600.0,
+      "lambda_per_s": 0.0001925408834888737
+    },
+    "medium": {
+      "half_life_s": 17509.528,
+      "lambda_per_s": 3.958685697067022e-05
+    },
+    "slow": {
+      "half_life_s": 86400.0,
+      "lambda_per_s": 8.022536812036404e-06
+    }
+  },
+  "by_decay": {
+    "fast": {
+      "half_life_s": 3600.0,
+      "lambda_per_s": 0.0001925408834888737,
+      "pooled_w_cum": {
+        "n": 26,
+        "min": 0.0,
+        "p25": 0.007540575479102167,
+        "median": 0.0484530993594062,
+        "p75": 0.4388816064977248,
+        "max": 2.7486492846495882,
+        "iqr": 0.43134103101862264,
+        "mean": 0.32869458080749325
+      },
+      "pooled_w_rec": {
+        "n": 26,
+        "min": 0.0,
+        "p25": 0.0075563486074776386,
+        "median": 0.04119194456889505,
+        "p75": 0.15908888395571255,
+        "max": 2.7587318561400758,
+        "iqr": 0.1515325353482349,
+        "mean": 0.2439445417147992
+      },
+      "delta_rec_minus_cum": {
+        "n": 26,
+        "min": -1.031739777825508,
+        "p25": -0.02707123749075866,
+        "median": 0.0,
+        "p75": 0.0047188516550447784,
+        "max": 0.4818138962405729,
+        "iqr": 0.03179008914580344,
+        "mean": -0.08475003909269395
+      },
+      "wilcoxon_w_rec_vs_w_cum": {
+        "n": 26,
+        "statistic_W": 120.0,
+        "p": 0.39136593830755195,
+        "rank_biserial_r": 0.3162393162393162,
+        "cohen_d_paired": -0.2950945130281764,
+        "median_diff": 0.0,
+        "iqr_diff": 0.03179008914580344,
+        "mean_diff": -0.08475003909269395,
+        "rank_biserial_r_reported": 0.3162393162393162,
+        "n_zero_diffs_dropped": 2,
+        "n_effective": 24,
+        "rank_biserial_r_corrected": 0.19999999999999996,
+        "rank_biserial_note": "Corrected r uses n_effective after dropping exact-zero paired diffs; verdict unchanged."
+      },
+      "n_apps_w_rec_wins_lower_deviation": 12,
+      "per_app": {
+        "ac.robinson.mediaphone": {
+          "mean_l2_w_cum": 0.04754698376072494,
+          "mean_l2_w_rec": 0.08244750453462829,
+          "delta_rec_minus_cum": 0.03490052077390335,
+          "rec_lower_is_better": false
+        },
+        "ai.susi": {
+          "mean_l2_w_cum": 2.7486492846495882,
+          "mean_l2_w_rec": 2.7587318561400758,
+          "delta_rec_minus_cum": 0.010082571490487524,
+          "rec_lower_is_better": false
+        },
+        "app.fedilab.nitterizeme": {
+          "mean_l2_w_cum": 0.006391160401048757,
+          "mean_l2_w_rec": 0.011166450927154507,
+          "delta_rec_minus_cum": 0.004775290526105751,
+          "rec_lower_is_better": false
+        },
+        "app.fedilab.nitterizemelite": {
+          "mean_l2_w_cum": 0.00523359742621195,
+          "mean_l2_w_rec": 0.009974762922450538,
+          "delta_rec_minus_cum": 0.004741165496238588,
+          "rec_lower_is_better": false
+        },
+        "app.michaelwuensch.bitbanana": {
+          "mean_l2_w_cum": 1.2620932546677504,
+          "mean_l2_w_rec": 0.23035347684224233,
+          "delta_rec_minus_cum": -1.031739777825508,
+          "rec_lower_is_better": true
+        },
+        "app.prav.client": {
+          "mean_l2_w_cum": 0.0,
+          "mean_l2_w_rec": 1.415395103974501e-16,
+          "delta_rec_minus_cum": 1.415395103974501e-16,
+          "rec_lower_is_better": false
+        },
+        "app.tujice.jergasColombia": {
+          "mean_l2_w_cum": 0.049359214958087455,
+          "mean_l2_w_rec": 0.038753919487418874,
+          "delta_rec_minus_cum": -0.010605295470668581,
+          "rec_lower_is_better": true
+        },
+        "at.linuxtage.Eventfahrplan": {
+          "mean_l2_w_cum": 0.7206150164958653,
+          "mean_l2_w_rec": 0.26273367549398496,
+          "delta_rec_minus_cum": -0.4578813410018804,
+          "rec_lower_is_better": true
+        },
+        "au.com.wallaceit.reddinator": {
+          "mean_l2_w_cum": 0.9262268253301695,
+          "mean_l2_w_rec": 0.15956923163635509,
+          "delta_rec_minus_cum": -0.7666575936938145,
+          "rec_lower_is_better": true
+        },
+        "barilyuk.batterytemperature": {
+          "mean_l2_w_cum": 0.06087315680057283,
+          "mean_l2_w_rec": 0.053767695674092904,
+          "delta_rec_minus_cum": -0.007105461126479924,
+          "rec_lower_is_better": true
+        },
+        "be.digitalia.fosdem": {
+          "mean_l2_w_cum": 0.47142183446151265,
+          "mean_l2_w_rec": 0.10206545530898675,
+          "delta_rec_minus_cum": -0.3693563791525259,
+          "rec_lower_is_better": true
+        },
+        "be.mygod.vpnhotspot_foss": {
+          "mean_l2_w_cum": 0.15299593078232157,
+          "mean_l2_w_rec": 0.15764784091378492,
+          "delta_rec_minus_cum": 0.004651910131463349,
+          "rec_lower_is_better": false
+        },
+        "biz.binarysolutions.vatcalculator": {
+          "mean_l2_w_cum": 0.0,
+          "mean_l2_w_rec": 0.0,
+          "delta_rec_minus_cum": 0.0,
+          "rec_lower_is_better": false
+        },
+        "bluepie.ad_silence": {
+          "mean_l2_w_cum": 0.033275611248927014,
+          "mean_l2_w_rec": 0.0027729676040772117,
+          "delta_rec_minus_cum": -0.0305026436448498,
+          "rec_lower_is_better": true
+        },
+        "bus.chio.wishmaster": {
+          "mean_l2_w_cum": 0.0,
+          "mean_l2_w_rec": 9.61481343191782e-17,
+          "delta_rec_minus_cum": 9.61481343191782e-17,
+          "rec_lower_is_better": false
+        },
+        "ca.chancehorizon.paseo": {
+          "mean_l2_w_cum": 0.6173014599351584,
+          "mean_l2_w_rec": 0.6675134544337744,
+          "delta_rec_minus_cum": 0.05021199449861602,
+          "rec_lower_is_better": false
+        },
+        "ca.farrelltonsolar.classic": {
+          "mean_l2_w_cum": 0.03442989106031222,
+          "mean_l2_w_rec": 0.0026110195100200644,
+          "delta_rec_minus_cum": -0.03181887155029215,
+          "rec_lower_is_better": true
+        },
+        "ca.rmen.android.frenchcalendar": {
+          "mean_l2_w_cum": 0.005203031082849928,
+          "mean_l2_w_rec": 0.0067502105024866725,
+          "delta_rec_minus_cum": 0.0015471794196367447,
+          "rec_lower_is_better": false
+        },
+        "ca.rmen.android.scrumchatter": {
+          "mean_l2_w_cum": 0.060406988678856466,
+          "mean_l2_w_rec": 0.043629969650371234,
+          "delta_rec_minus_cum": -0.016777019028485232,
+          "rec_lower_is_better": true
+        },
+        "ca.rmen.nounours": {
+          "mean_l2_w_cum": 0.03543787804255848,
+          "mean_l2_w_rec": 0.06845402723171384,
+          "delta_rec_minus_cum": 0.03301614918915537,
+          "rec_lower_is_better": false
+        },
+        "cat.jordihernandez.cinecat": {
+          "mean_l2_w_cum": 0.11750685015345975,
+          "mean_l2_w_rec": 0.013002146849153868,
+          "delta_rec_minus_cum": -0.10450470330430589,
+          "rec_lower_is_better": true
+        },
+        "cf.playhi.freezeyou": {
+          "mean_l2_w_cum": 0.3412609226063613,
+          "mean_l2_w_rec": 0.8230748188469342,
+          "delta_rec_minus_cum": 0.4818138962405729,
+          "rec_lower_is_better": false
+        },
+        "ch.joshuah.bibleverseapp": {
+          "mean_l2_w_cum": 0.010988820713262397,
+          "mean_l2_w_rec": 0.010988820713495006,
+          "delta_rec_minus_cum": 2.3260907089373006e-13,
+          "rec_lower_is_better": false
+        },
+        "ch.mydoli.focal": {
+          "mean_l2_w_cum": 0.005851918694186764,
+          "mean_l2_w_rec": 0.005851918694166234,
+          "delta_rec_minus_cum": -2.0529584976447524e-14,
+          "rec_lower_is_better": true
+        },
+        "cityfreqs.com.pilfershushjammer": {
+          "mean_l2_w_cum": 0.8160230581918808,
+          "mean_l2_w_rec": 0.8160230581918808,
+          "delta_rec_minus_cum": 0.0,
+          "rec_lower_is_better": false
+        },
+        "cl.coders.faketraveler": {
+          "mean_l2_w_cum": 0.016966410853155273,
+          "mean_l2_w_rec": 0.014673802475530663,
+          "delta_rec_minus_cum": -0.00229260837762461,
+          "rec_lower_is_better": true
+        }
+      }
+    },
+    "medium": {
+      "half_life_s": 17509.528,
+      "lambda_per_s": 3.958685697067022e-05,
+      "pooled_w_cum": {
+        "n": 26,
+        "min": 0.0,
+        "p25": 0.007540575479102167,
+        "median": 0.0484530993594062,
+        "p75": 0.4388816064977248,
+        "max": 2.7486492846495882,
+        "iqr": 0.43134103101862264,
+        "mean": 0.32869458080749325
+      },
+      "pooled_w_rec": {
+        "n": 26,
+        "min": 0.0,
+        "p25": 0.00629609219956795,
+        "median": 0.05030466271781398,
+        "p75": 0.6801457062284886,
+        "max": 2.775349782179749,
+        "iqr": 0.6738496140289206,
+        "mean": 0.3597245858779269
+      },
+      "delta_rec_minus_cum": {
+        "n": 26,
+        "min": -0.5790702128332497,
+        "p25": -1.50862395492668e-14,
+        "median": 1.4543782523934214e-05,
+        "p75": 0.02156961554877647,
+        "max": 0.4657543524193024,
+        "iqr": 0.021569615548791554,
+        "mean": 0.031030005070433703
+      },
+      "wilcoxon_w_rec_vs_w_cum": {
+        "n": 26,
+        "statistic_W": 102.0,
+        "p": 0.10355284372800361,
+        "rank_biserial_r": 0.41880341880341876,
+        "cohen_d_paired": 0.17213472727529586,
+        "median_diff": 1.4543782523934214e-05,
+        "iqr_diff": 0.021569615548791554,
+        "mean_diff": 0.031030005070433703,
+        "rank_biserial_r_reported": 0.41880341880341876,
+        "n_zero_diffs_dropped": 1,
+        "n_effective": 25,
+        "rank_biserial_r_corrected": 0.37230769230769234,
+        "rank_biserial_note": "Corrected r uses n_effective after dropping exact-zero paired diffs; verdict unchanged."
+      },
+      "n_apps_w_rec_wins_lower_deviation": 7,
+      "per_app": {
+        "ac.robinson.mediaphone": {
+          "mean_l2_w_cum": 0.04754698376072494,
+          "mean_l2_w_rec": 0.05210650688598686,
+          "delta_rec_minus_cum": 0.004559523125261915,
+          "rec_lower_is_better": false
+        },
+        "ai.susi": {
+          "mean_l2_w_cum": 2.7486492846495882,
+          "mean_l2_w_rec": 2.775349782179749,
+          "delta_rec_minus_cum": 0.026700497530160572,
+          "rec_lower_is_better": false
+        },
+        "app.fedilab.nitterizeme": {
+          "mean_l2_w_cum": 0.006391160401048757,
+          "mean_l2_w_rec": 0.00912092170928148,
+          "delta_rec_minus_cum": 0.002729761308232723,
+          "rec_lower_is_better": false
+        },
+        "app.fedilab.nitterizemelite": {
+          "mean_l2_w_cum": 0.00523359742621195,
+          "mean_l2_w_rec": 0.007628612715771857,
+          "delta_rec_minus_cum": 0.0023950152895599068,
+          "rec_lower_is_better": false
+        },
+        "app.michaelwuensch.bitbanana": {
+          "mean_l2_w_cum": 1.2620932546677504,
+          "mean_l2_w_rec": 0.6830230418345007,
+          "delta_rec_minus_cum": -0.5790702128332497,
+          "rec_lower_is_better": true
+        },
+        "app.prav.client": {
+          "mean_l2_w_cum": 0.0,
+          "mean_l2_w_rec": 2.7755575615628914e-17,
+          "delta_rec_minus_cum": 2.7755575615628914e-17,
+          "rec_lower_is_better": false
+        },
+        "app.tujice.jergasColombia": {
+          "mean_l2_w_cum": 0.049359214958087455,
+          "mean_l2_w_rec": 0.0534489786411439,
+          "delta_rec_minus_cum": 0.004089763683056448,
+          "rec_lower_is_better": false
+        },
+        "at.linuxtage.Eventfahrplan": {
+          "mean_l2_w_cum": 0.7206150164958653,
+          "mean_l2_w_rec": 0.8822751121142596,
+          "delta_rec_minus_cum": 0.16166009561839423,
+          "rec_lower_is_better": false
+        },
+        "au.com.wallaceit.reddinator": {
+          "mean_l2_w_cum": 0.9262268253301695,
+          "mean_l2_w_rec": 1.2999025139507538,
+          "delta_rec_minus_cum": 0.3736756886205843,
+          "rec_lower_is_better": false
+        },
+        "barilyuk.batterytemperature": {
+          "mean_l2_w_cum": 0.06087315680057283,
+          "mean_l2_w_rec": 0.04996176307751318,
+          "delta_rec_minus_cum": -0.010911393723059645,
+          "rec_lower_is_better": true
+        },
+        "be.digitalia.fosdem": {
+          "mean_l2_w_cum": 0.47142183446151265,
+          "mean_l2_w_rec": 0.8068440367876194,
+          "delta_rec_minus_cum": 0.33542220232610676,
+          "rec_lower_is_better": false
+        },
+        "be.mygod.vpnhotspot_foss": {
+          "mean_l2_w_cum": 0.15299593078232157,
+          "mean_l2_w_rec": 0.15272425265759976,
+          "delta_rec_minus_cum": -0.00027167812472181363,
+          "rec_lower_is_better": true
+        },
+        "biz.binarysolutions.vatcalculator": {
+          "mean_l2_w_cum": 0.0,
+          "mean_l2_w_rec": 0.0,
+          "delta_rec_minus_cum": 0.0,
+          "rec_lower_is_better": false
+        },
+        "bluepie.ad_silence": {
+          "mean_l2_w_cum": 0.033275611248927014,
+          "mean_l2_w_rec": 0.0027729676040774472,
+          "delta_rec_minus_cum": -0.030502643644849566,
+          "rec_lower_is_better": true
+        },
+        "bus.chio.wishmaster": {
+          "mean_l2_w_cum": 0.0,
+          "mean_l2_w_rec": 1.701604943189654e-16,
+          "delta_rec_minus_cum": 1.701604943189654e-16,
+          "rec_lower_is_better": false
+        },
+        "ca.chancehorizon.paseo": {
+          "mean_l2_w_cum": 0.6173014599351584,
+          "mean_l2_w_rec": 0.6715136994104522,
+          "delta_rec_minus_cum": 0.054212239475293855,
+          "rec_lower_is_better": false
+        },
+        "ca.farrelltonsolar.classic": {
+          "mean_l2_w_cum": 0.03442989106031222,
+          "mean_l2_w_rec": 0.0026112993922183542,
+          "delta_rec_minus_cum": -0.031818591668093865,
+          "rec_lower_is_better": true
+        },
+        "ca.rmen.android.frenchcalendar": {
+          "mean_l2_w_cum": 0.005203031082849928,
+          "mean_l2_w_rec": 0.005203031082875161,
+          "delta_rec_minus_cum": 2.5233287681558636e-14,
+          "rec_lower_is_better": false
+        },
+        "ca.rmen.android.scrumchatter": {
+          "mean_l2_w_cum": 0.060406988678856466,
+          "mean_l2_w_rec": 0.05064756235811478,
+          "delta_rec_minus_cum": -0.009759426320741685,
+          "rec_lower_is_better": true
+        },
+        "ca.rmen.nounours": {
+          "mean_l2_w_cum": 0.03543787804255848,
+          "mean_l2_w_rec": 0.041614847647182644,
+          "delta_rec_minus_cum": 0.006176969604624168,
+          "rec_lower_is_better": false
+        },
+        "cat.jordihernandez.cinecat": {
+          "mean_l2_w_cum": 0.11750685015345975,
+          "mean_l2_w_rec": 0.1492157317338216,
+          "delta_rec_minus_cum": 0.03170888158036185,
+          "rec_lower_is_better": false
+        },
+        "cf.playhi.freezeyou": {
+          "mean_l2_w_cum": 0.3412609226063613,
+          "mean_l2_w_rec": 0.8070152750256637,
+          "delta_rec_minus_cum": 0.4657543524193024,
+          "rec_lower_is_better": false
+        },
+        "ch.joshuah.bibleverseapp": {
+          "mean_l2_w_cum": 0.010988820713262397,
+          "mean_l2_w_rec": 0.010988820713494966,
+          "delta_rec_minus_cum": 2.325691722537826e-13,
+          "rec_lower_is_better": false
+        },
+        "ch.mydoli.focal": {
+          "mean_l2_w_cum": 0.005851918694186764,
+          "mean_l2_w_rec": 0.005851918694166649,
+          "delta_rec_minus_cum": -2.0114986065689067e-14,
+          "rec_lower_is_better": true
+        },
+        "cityfreqs.com.pilfershushjammer": {
+          "mean_l2_w_cum": 0.8160230581918808,
+          "mean_l2_w_rec": 0.8160230581918809,
+          "delta_rec_minus_cum": 1.1102230246251565e-16,
+          "rec_lower_is_better": false
+        },
+        "cl.coders.faketraveler": {
+          "mean_l2_w_cum": 0.016966410853155273,
+          "mean_l2_w_rec": 0.016995498417970573,
+          "delta_rec_minus_cum": 2.9087564815299255e-05,
+          "rec_lower_is_better": false
+        }
+      }
+    },
+    "slow": {
+      "half_life_s": 86400.0,
+      "lambda_per_s": 8.022536812036404e-06,
+      "pooled_w_cum": {
+        "n": 26,
+        "min": 0.0,
+        "p25": 0.007540575479102167,
+        "median": 0.0484530993594062,
+        "p75": 0.4388816064977248,
+        "max": 2.7486492846495882,
+        "iqr": 0.43134103101862264,
+        "mean": 0.32869458080749325
+      },
+      "pooled_w_rec": {
+        "n": 26,
+        "min": 2.255941018298854e-16,
+        "p25": 0.0060154337307686675,
+        "median": 0.047834276310955104,
+        "p75": 0.6985688853617953,
+        "max": 2.7808855971502586,
+        "iqr": 0.6925534516310267,
+        "mean": 0.4038390676398513
+      },
+      "delta_rec_minus_cum": {
+        "n": 26,
+        "min": -0.30912407988868273,
+        "p25": -0.003220428663123628,
+        "median": 4.745792382347375e-15,
+        "p75": 0.02891172261502146,
+        "max": 0.817112737413505,
+        "iqr": 0.03213215127814509,
+        "mean": 0.0751444868323581
+      },
+      "wilcoxon_w_rec_vs_w_cum": {
+        "n": 26,
+        "statistic_W": 116.0,
+        "p": 0.21087195144032855,
+        "rank_biserial_r": 0.3390313390313391,
+        "cohen_d_paired": 0.3380818378693785,
+        "median_diff": 4.745792382347375e-15,
+        "iqr_diff": 0.03213215127814509,
+        "mean_diff": 0.0751444868323581,
+        "rank_biserial_r_reported": 0.3390313390313391,
+        "n_zero_diffs_dropped": 1,
+        "n_effective": 25,
+        "rank_biserial_r_corrected": 0.2861538461538462,
+        "rank_biserial_note": "Corrected r uses n_effective after dropping exact-zero paired diffs; verdict unchanged."
+      },
+      "n_apps_w_rec_wins_lower_deviation": 9,
+      "per_app": {
+        "ac.robinson.mediaphone": {
+          "mean_l2_w_cum": 0.04754698376072494,
+          "mean_l2_w_rec": 0.04714059767664861,
+          "delta_rec_minus_cum": -0.00040638608407633087,
+          "rec_lower_is_better": true
+        },
+        "ai.susi": {
+          "mean_l2_w_cum": 2.7486492846495882,
+          "mean_l2_w_rec": 2.7808855971502586,
+          "delta_rec_minus_cum": 0.03223631250067038,
+          "rec_lower_is_better": false
+        },
+        "app.fedilab.nitterizeme": {
+          "mean_l2_w_cum": 0.006391160401048757,
+          "mean_l2_w_rec": 0.008845082836130861,
+          "delta_rec_minus_cum": 0.0024539224350821048,
+          "rec_lower_is_better": false
+        },
+        "app.fedilab.nitterizemelite": {
+          "mean_l2_w_cum": 0.00523359742621195,
+          "mean_l2_w_rec": 0.006505978840571804,
+          "delta_rec_minus_cum": 0.001272381414359854,
+          "rec_lower_is_better": false
+        },
+        "app.michaelwuensch.bitbanana": {
+          "mean_l2_w_cum": 1.2620932546677504,
+          "mean_l2_w_rec": 0.9529691747790676,
+          "delta_rec_minus_cum": -0.30912407988868273,
+          "rec_lower_is_better": true
+        },
+        "app.prav.client": {
+          "mean_l2_w_cum": 0.0,
+          "mean_l2_w_rec": 2.397857527795155e-16,
+          "delta_rec_minus_cum": 2.397857527795155e-16,
+          "rec_lower_is_better": false
+        },
+        "app.tujice.jergasColombia": {
+          "mean_l2_w_cum": 0.049359214958087455,
+          "mean_l2_w_rec": 0.06829716791616215,
+          "delta_rec_minus_cum": 0.018937952958074697,
+          "rec_lower_is_better": false
+        },
+        "at.linuxtage.Eventfahrplan": {
+          "mean_l2_w_cum": 0.7206150164958653,
+          "mean_l2_w_rec": 1.227333239829441,
+          "delta_rec_minus_cum": 0.5067182233335756,
+          "rec_lower_is_better": false
+        },
+        "au.com.wallaceit.reddinator": {
+          "mean_l2_w_cum": 0.9262268253301695,
+          "mean_l2_w_rec": 1.7433395627436745,
+          "delta_rec_minus_cum": 0.817112737413505,
+          "rec_lower_is_better": false
+        },
+        "barilyuk.batterytemperature": {
+          "mean_l2_w_cum": 0.06087315680057283,
+          "mean_l2_w_rec": 0.05137318661980121,
+          "delta_rec_minus_cum": -0.009499970180771616,
+          "rec_lower_is_better": true
+        },
+        "be.digitalia.fosdem": {
+          "mean_l2_w_cum": 0.47142183446151265,
+          "mean_l2_w_rec": 0.9322689624603444,
+          "delta_rec_minus_cum": 0.46084712799883176,
+          "rec_lower_is_better": false
+        },
+        "be.mygod.vpnhotspot_foss": {
+          "mean_l2_w_cum": 0.15299593078232157,
+          "mean_l2_w_rec": 0.14883748792618218,
+          "delta_rec_minus_cum": -0.004158442856139394,
+          "rec_lower_is_better": true
+        },
+        "biz.binarysolutions.vatcalculator": {
+          "mean_l2_w_cum": 0.0,
+          "mean_l2_w_rec": 3.903580479824319e-16,
+          "delta_rec_minus_cum": 3.903580479824319e-16,
+          "rec_lower_is_better": false
+        },
+        "bluepie.ad_silence": {
+          "mean_l2_w_cum": 0.033275611248927014,
+          "mean_l2_w_rec": 0.0027729676579876707,
+          "delta_rec_minus_cum": -0.030502643590939342,
+          "rec_lower_is_better": true
+        },
+        "bus.chio.wishmaster": {
+          "mean_l2_w_cum": 0.0,
+          "mean_l2_w_rec": 2.255941018298854e-16,
+          "delta_rec_minus_cum": 2.255941018298854e-16,
+          "rec_lower_is_better": false
+        },
+        "ca.chancehorizon.paseo": {
+          "mean_l2_w_cum": 0.6173014599351584,
+          "mean_l2_w_rec": 0.6724355252882872,
+          "delta_rec_minus_cum": 0.055134065353128814,
+          "rec_lower_is_better": false
+        },
+        "ca.farrelltonsolar.classic": {
+          "mean_l2_w_cum": 0.03442989106031222,
+          "mean_l2_w_rec": 0.0030029400532141457,
+          "delta_rec_minus_cum": -0.031426951007098074,
+          "rec_lower_is_better": true
+        },
+        "ca.rmen.android.frenchcalendar": {
+          "mean_l2_w_cum": 0.005203031082849928,
+          "mean_l2_w_rec": 0.005203031082859029,
+          "delta_rec_minus_cum": 9.101226716712318e-15,
+          "rec_lower_is_better": false
+        },
+        "ca.rmen.android.scrumchatter": {
+          "mean_l2_w_cum": 0.060406988678856466,
+          "mean_l2_w_rec": 0.0485279549452616,
+          "delta_rec_minus_cum": -0.011879033733594863,
+          "rec_lower_is_better": true
+        },
+        "ca.rmen.nounours": {
+          "mean_l2_w_cum": 0.03543787804255848,
+          "mean_l2_w_rec": 0.028952983779990546,
+          "delta_rec_minus_cum": -0.006484894262567931,
+          "rec_lower_is_better": true
+        },
+        "cat.jordihernandez.cinecat": {
+          "mean_l2_w_cum": 0.11750685015345975,
+          "mean_l2_w_rec": 0.21172720882432083,
+          "delta_rec_minus_cum": 0.09422035867086108,
+          "rec_lower_is_better": false
+        },
+        "cf.playhi.freezeyou": {
+          "mean_l2_w_cum": 0.3412609226063613,
+          "mean_l2_w_rec": 0.707280005386298,
+          "delta_rec_minus_cum": 0.36601908277993667,
+          "rec_lower_is_better": false
+        },
+        "ch.joshuah.bibleverseapp": {
+          "mean_l2_w_cum": 0.010988820713262397,
+          "mean_l2_w_rec": 0.01098882071349493,
+          "delta_rec_minus_cum": 2.325327430607871e-13,
+          "rec_lower_is_better": false
+        },
+        "ch.mydoli.focal": {
+          "mean_l2_w_cum": 0.005851918694186764,
+          "mean_l2_w_rec": 0.005851918694167622,
+          "delta_rec_minus_cum": -1.9141806195666078e-14,
+          "rec_lower_is_better": true
+        },
+        "cityfreqs.com.pilfershushjammer": {
+          "mean_l2_w_cum": 0.8160230581918808,
+          "mean_l2_w_rec": 0.8160230581918808,
+          "delta_rec_minus_cum": 0.0,
+          "rec_lower_is_better": false
+        },
+        "cl.coders.faketraveler": {
+          "mean_l2_w_cum": 0.016966410853155273,
+          "mean_l2_w_rec": 0.019253305240086727,
+          "delta_rec_minus_cum": 0.0022868943869314533,
+          "rec_lower_is_better": false
+        }
+      }
+    }
+  },
+  "best_decay_by_median_w_rec": "fast",
+  "w_rec_beats_w_cum": false,
+  "verdict_note": "W_REC does not beat W_CUM at any fixed decay \u2014 recency channel specified, implemented, and measured as not helping on this corpus."
+}

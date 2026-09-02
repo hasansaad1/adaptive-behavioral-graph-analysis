@@ -1,0 +1,20 @@
+8399  1783933784.710743 exit(0)         = ?
+8399  1783933784.710867 +++ exited with 0 +++
+8400  1783933784.713787 exit(0 <unfinished ...>
+8401  1783933784.713981 exit(0 <unfinished ...>
+8400  1783933784.714009 <... exit resumed>) = ?
+8401  1783933784.714140 <... exit resumed>) = ?
+8400  1783933784.714218 +++ exited with 0 +++
+8398  1783933784.714224 exit(0 <unfinished ...>
+8401  1783933784.714279 +++ exited with 0 +++
+8398  1783933784.714382 <... exit resumed>) = ?
+8398  1783933784.714584 +++ exited with 0 +++
+8411  1783933784.717081 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+8411  1783933784.717471 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+8411  1783933784.717860 newfstatat(AT_FDCWD, "/data/app/app.pachli-NJYE-fleURlc84q6Dj1bUw==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+8411  1783933784.718245 newfstatat(AT_FDCWD, "/data/app/app.pachli-NJYE-fleURlc84q6Dj1bUw==/base.apk", {st_mode=S_IFREG|0644, st_size=31916344, ...}, AT_SYMLINK_NOFOLLOW) = 0
+8411  1783933784.718679 getcwd("/", 4096) = 2
+8411  1783933784.719051 newfstatat(AT_FDCWD, "/base.apk", 0x75d872f690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+8445  1783933797.521132 exit(0)         = ?
+8445  1783933797.521595 +++ exited with 0 +++
+8443  1783933797.569476 faccessat(AT_FDCWD, "/proc/self/task/8445", F_OK) = -1 ENOENT (No such file or directory)

@@ -1,0 +1,81 @@
+{
+  "active_categories": [
+    "file_io",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "ca.rmen.nounours",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T21:19:28.653000Z",
+  "end_timestamp_ms": 1786742368653,
+  "event_counts": {
+    "mapped": 503,
+    "mapped_rate": 0.6311166875784191,
+    "total": 797
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "0e7da7b17b63_llm_s7__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 2,
+  "reference_tier_pass": true,
+  "session_id": "0e7da7b17b63_llm_s7",
+  "session_index_within_app": 7,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/0e7da7b17b63_ca.rmen.nounours/dynamic/llm/session_7/ca.rmen.nounours_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/0e7da7b17b63_ca.rmen.nounours/dynamic/llm/session_7/ca.rmen.nounours_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T21:11:45.808000Z",
+  "start_timestamp_ms": 1786741905808,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 797,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 20,
+    "n_with_timestamp": 797,
+    "unparseable_line_numbers_sample": [
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      695,
+      696,
+      697,
+      698,
+      699,
+      700,
+      701,
+      702,
+      703,
+      704
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 462.945
+}

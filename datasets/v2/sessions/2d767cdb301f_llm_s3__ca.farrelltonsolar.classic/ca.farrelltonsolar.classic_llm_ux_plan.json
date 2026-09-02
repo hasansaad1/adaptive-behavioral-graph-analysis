@@ -1,0 +1,648 @@
+{
+  "goals": [
+    "Tap Settings",
+    "Tap SettingsHelp",
+    "Tap APPLY",
+    "Tap CANCEL",
+    "Tap Close navigation",
+    "Tap Open navigation",
+    "Tap Add",
+    "Tap ENERGY",
+    "Tap help",
+    "Tap LIVE"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap Settings",
+      "nav_token": "settings",
+      "target_keys": [
+        "tab:settings"
+      ],
+      "observed_screen_hashes": [
+        "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2",
+        "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "observed_screen_hints": [
+        "help action_help TextView · Settings action_settings TextView · Share action_share TextView · Open navigation drawer ImageButton · ENERGY TextView · LIVE CHART TextView · POWER TextView · STATE OF CHARGE TextView · TEMPERATURE TextView",
+        "APPLY Apply Button · CANCEL Cancel Button · SettingsHelp ImageButton · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout",
+        ""
+      ],
+      "route_hint": "Use visible settings navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 1,
+      "goal": "Tap SettingsHelp",
+      "nav_token": "settings",
+      "target_keys": [
+        "tab:settings"
+      ],
+      "observed_screen_hashes": [
+        "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2",
+        "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "observed_screen_hints": [
+        "help action_help TextView · Settings action_settings TextView · Share action_share TextView · Open navigation drawer ImageButton · ENERGY TextView · LIVE CHART TextView · POWER TextView · STATE OF CHARGE TextView · TEMPERATURE TextView",
+        "APPLY Apply Button · CANCEL Cancel Button · SettingsHelp ImageButton · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout",
+        ""
+      ],
+      "route_hint": "Use visible settings navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 2,
+      "goal": "Tap APPLY",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap CANCEL",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap Close navigation",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Tap Open navigation",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Tap Add",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Tap ENERGY",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 8,
+      "goal": "Tap help",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 9,
+      "goal": "Tap LIVE",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2": "Add action_add TextView · help action_help TextView · Close navigation drawer ImageButton · ENERGY TextView · LIVE CHART TextView · POWER TextView · STATE OF CHARGE TextView · TEMPERATURE TextView",
+    "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2": "help action_help TextView · Settings action_settings TextView · Share action_share TextView · Open navigation drawer ImageButton · ENERGY TextView · LIVE CHART TextView · POWER TextView · STATE OF CHARGE TextView · TEMPERATURE TextView",
+    "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76": "APPLY Apply Button · CANCEL Cancel Button · SettingsHelp ImageButton · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": ""
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1037, \"y\": 273}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+        "last_to": "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 289, \"y\": 273}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 564, \"y\": 273}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 867, \"y\": 273}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 94, \"y\": 273}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1037, \"y\": 273}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 289, \"y\": 273}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 564, \"y\": 273}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 867, \"y\": 273}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 94, \"y\": 273}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Close navigation drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Close navigation drawer",
+        "visible_on": [
+          "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/action_settings",
+        "target_content_desc": "Settings",
+        "visible_on": [
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2",
+          "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76"
+        ],
+        "attempts": 27,
+        "successes": 27,
+        "last_from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "nav:|Open navigation drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Open navigation drawer",
+        "visible_on": [
+          "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:ca.farrelltonsolar.classic:id/Apply|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/Apply",
+        "target_content_desc": "",
+        "visible_on": [
+          "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:ca.farrelltonsolar.classic:id/Cancel|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/Cancel",
+        "target_content_desc": "",
+        "visible_on": [
+          "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:ca.farrelltonsolar.classic:id/Apply|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/Apply",
+        "target_content_desc": "",
+        "visible_on": [
+          "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:ca.farrelltonsolar.classic:id/Cancel|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ca.farrelltonsolar.classic:id/Cancel",
+        "target_content_desc": "",
+        "visible_on": [
+          "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+        "to": "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 1037, \"y\": 273}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "ce1987b381309dce2ecfa55d0f59c0d2432fba0679bcef91ac1dc70a1e309be2",
+        "to": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7ce93e14f982fa9bbb7b9a59710ba487a5b7369874fe9b941b3c3d6328247b76",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+    "root_screen_signature": "f090b1228d050710f4611d6b5f4506db30d455eb7a84d3fcfda3417d289d82e7",
+    "root_screen_hint": "Add action_add TextView · help action_help TextView · Close navigation drawer ImageButton · ENERGY TextView · LIVE CHART TextView · POWER TextView · STATE OF CHARGE TextView · TEMPERATURE TextView",
+    "root_screen_source": "initial_observation",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ca.farrelltonsolar.classic",
+          "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "interactive_count": 0,
+          "valid": false,
+          "reason": "empty_hierarchy",
+          "match_kind": "invalid",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "",
+          "root_landmark_score": 0
+        },
+        {
+          "attempt": 2,
+          "strategy": "start_root_activity_clear_task",
+          "clear_task": true,
+          "foreground_package": "ca.farrelltonsolar.classic",
+          "screen_hash": "935076a8db55f05f3d8f5580bda2328c9c530b6560838dd0758656f17663d2f2",
+          "interactive_count": 8,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "f090b1228d050710f4611d6b5f4506db30d455eb7a84d3fcfda3417d289d82e7",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app to view their current energy usage and temperature, then swipe left to view detailed information about their vehicle's state of charge, power consumption, and other metrics. They may also tap on the 'Energy' tab first to quickly access this data. The user will likely use a combination of vertical and horizontal swipes to navigate between different sections, such as viewing live chart data or accessing settings.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

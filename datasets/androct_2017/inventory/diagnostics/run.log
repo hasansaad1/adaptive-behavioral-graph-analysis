@@ -1,0 +1,48 @@
+[diagnostics] Check 1 …
+[check1] raw probe benign …
+  … benign check1 files=200
+  … benign check1 files=400
+  … benign check1 files=600
+  … benign check1 files=800
+  … benign check1 files=1000
+  … benign check1 files=1200
+  … benign check1 files=1400
+  … benign check1 files=1600
+  … benign check1 files=1800
+  … benign check1 files=2000
+  … benign check1 files=2200
+[check1] generalization sample benign n=2000
+[check1] raw probe malware …
+  … malware check1 files=200
+  … malware check1 files=400
+  … malware check1 files=600
+  … malware check1 files=800
+  … malware check1 files=1000
+  … malware check1 files=1200
+  … malware check1 files=1400
+  … malware check1 files=1600
+[check1] generalization sample malware n=2000
+[diagnostics] Check 1 written; gate reported in DIAGNOSTICS.md
+[diagnostics] Checks 2–4 …
+[check2-4] pass benign …
+  … benign c2-4 files=200
+  … benign c2-4 files=400
+  … benign c2-4 files=600
+  … benign c2-4 files=800
+  … benign c2-4 files=1000
+  … benign c2-4 files=1200
+  … benign c2-4 files=1400
+  … benign c2-4 files=1600
+  … benign c2-4 files=1800
+  … benign c2-4 files=2000
+  … benign c2-4 files=2200
+[check2-4] pass malware …
+  … malware c2-4 files=200
+  … malware c2-4 files=400
+  … malware c2-4 files=600
+  … malware c2-4 files=800
+  … malware c2-4 files=1000
+  … malware c2-4 files=1200
+  … malware c2-4 files=1400
+  … malware c2-4 files=1600
+[diagnostics] done → datasets/androct_2017/inventory/diagnostics/DIAGNOSTICS.md

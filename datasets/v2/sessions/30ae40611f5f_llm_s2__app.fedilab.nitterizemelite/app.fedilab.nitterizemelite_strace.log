@@ -1,0 +1,18 @@
+24121 1783916524.851966 clone(child_stack=0x7d1f174d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7d1f174d60, tls=0x7d1f175020, child_tidptr=0x7d1f174d60) = 24173
+24173 1783916524.857972 openat(AT_FDCWD, "/proc/24173/timerslack_ns", O_WRONLY|O_CREAT|O_TRUNC|O_NOFOLLOW|O_CLOEXEC, 0666) = 67
+24114 1783916527.168537 exit(0)         = ?
+24114 1783916527.168601 +++ exited with 0 +++
+24111 1783916527.168604 exit(0)         = ?
+24111 1783916527.168794 +++ exited with 0 +++
+24113 1783916527.171143 exit(0 <unfinished ...>
+24112 1783916527.171166 exit(0 <unfinished ...>
+24113 1783916527.171350 <... exit resumed>) = ?
+24112 1783916527.171368 <... exit resumed>) = ?
+24113 1783916527.171546 +++ exited with 0 +++
+24112 1783916527.171552 +++ exited with 0 +++
+24123 1783916527.171629 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24123 1783916527.171661 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24123 1783916527.171676 newfstatat(AT_FDCWD, "/data/app/app.fedilab.nitterizemelite-Q-1gCYJ5CXEMyihgyWFVUg==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24123 1783916527.171688 newfstatat(AT_FDCWD, "/data/app/app.fedilab.nitterizemelite-Q-1gCYJ5CXEMyihgyWFVUg==/base.apk", {st_mode=S_IFREG|0644, st_size=3714928, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24123 1783916527.171700 getcwd("/", 4096) = 2
+24123 1783916527.171710 newfstatat(AT_FDCWD, "/base.apk", 0x7d81ff8690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)

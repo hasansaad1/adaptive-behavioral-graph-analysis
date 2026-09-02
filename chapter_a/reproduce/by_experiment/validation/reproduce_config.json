@@ -1,0 +1,41 @@
+{
+  "kind": "androct_master_verify",
+  "experiment": "validation",
+  "n_rows": 3,
+  "cli_rerun": {
+    "cli_module": "abrg.validate",
+    "out_flag": "--out"
+  },
+  "rows": [
+    {
+      "detector": "OCPool_mean_raw",
+      "method": "benign_only",
+      "representation": "T1K_B_docfreq_K1000_pool_mean",
+      "split": "splitA_GAE",
+      "auc_floor": "0.776499791405924",
+      "raw_auc": "0.776499791405924",
+      "artifact_path": "abrg/output/androct_2017/validation/check1_residualization/check1_summary.json",
+      "is_headline": "True"
+    },
+    {
+      "detector": "OCPool_mean_R2",
+      "method": "benign_only",
+      "representation": "T1K_B_docfreq_K1000_pool_mean",
+      "split": "splitA_GAE",
+      "auc_floor": "0.7543763037129746",
+      "raw_auc": "0.7543763037129746",
+      "artifact_path": "abrg/output/androct_2017/validation/check1_residualization/check1_summary.json",
+      "is_headline": "True"
+    },
+    {
+      "detector": "OCPool_mean_R1_ols_fit_eval",
+      "method": "benign_only",
+      "representation": "T1K_B_docfreq_K1000_pool_mean",
+      "split": "splitA_GAE",
+      "auc_floor": "0.814084272006675",
+      "raw_auc": "0.814084272006675",
+      "artifact_path": "abrg/output/androct_2017/validation/check1_residualization/check1_summary.json",
+      "is_headline": "False"
+    }
+  ]
+}

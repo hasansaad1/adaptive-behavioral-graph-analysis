@@ -1,0 +1,73 @@
+{
+  "active_categories": [
+    "storage"
+  ],
+  "app_id": "app.pachli",
+  "batch": "original",
+  "end_timestamp": "2026-07-13T09:10:02.034000Z",
+  "end_timestamp_ms": 1783933802034,
+  "event_counts": {
+    "mapped": 12,
+    "mapped_rate": 0.016713091922005572,
+    "total": 718
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "6187300de1fe_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": false,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 1,
+  "n_edges": 0,
+  "reference_tier_pass": true,
+  "session_id": "6187300de1fe_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/6187300de1fe_llm_s1__app.pachli/app.pachli_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/6187300de1fe_llm_s1__app.pachli/app.pachli_dynamic_metadata.json",
+  "start_timestamp": "2026-07-13T09:02:14.471000Z",
+  "start_timestamp_ms": 1783933334471,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 718,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 40,
+    "n_with_timestamp": 718,
+    "unparseable_line_numbers_sample": [
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      524,
+      525,
+      526,
+      527,
+      528,
+      529,
+      530,
+      531,
+      532,
+      533
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 467.563
+}

@@ -1,0 +1,721 @@
+{
+  "benign": {
+    "dropped_sample_n": 500,
+    "dropped_sample_seen": 19074512,
+    "bucket_counts": {
+      "well_formed_call_should_have_been_allowed": 498,
+      "other": 2
+    },
+    "bucket_examples": {
+      "well_formed_call_should_have_been_allowed": [
+        "<org.apache.cordova.PluginResult: void <init>(org.apache.cordova.PluginResult$Status,java.lang.String)> -> <java.lang.Enum: int ordinal()>",
+        "<com.contextlogic.wish.api.service.compound.AuthenticationService: void <init>()> -> <com.contextlogic.wish.api.service.standalone.GetUserStatusService: void <init>()>",
+        "<com.facebook.GraphRequestBatch: void <init>(java.util.Collection)> -> <java.util.ArrayList: void <init>(java.util.Collection)>",
+        "<com.google.android.gms.measurement.internal.zzl$zza: void <init>(java.lang.String,com.google.android.gms.internal.zzlz,java.lang.Object)> -> <java.lang.Object: void <init>()>",
+        "<com.crashlytics.android.core.ByteString: com.crashlytics.android.core.ByteString copyFromUtf8(java.lang.String)> -> <com.crashlytics.android.core.ByteString: void <init>(byte[])>",
+        "<android.support.v7.widget.q: void <init>(android.content.Context,android.util.AttributeSet,int)> -> <android.widget.ImageView: void <init>(android.content.Context,android.util.AttributeSet,int)>",
+        "<com.google.android.gms.ads.internal.request.zza: void <init>()> -> <java.lang.Object: void <init>()>",
+        "<com.domobile.frame.a.a: java.lang.String a(java.lang.Object[])> -> <java.lang.StringBuffer: void <init>()>",
+        "<com.google.android.gms.measurement.internal.zzab: com.google.android.gms.measurement.internal.zzal zzj(com.google.android.gms.measurement.internal.zzx)> -> <com.google.android.gms.measurement.internal.zzal: void <init>(com.google.android.gms.measurement.internal.zzx)>",
+        "<com.google.android.gms.ads.identifier.AdvertisingIdClient: void <init>(android.content.Context,long,boolean)> -> <java.lang.Object: void <init>()>"
+      ],
+      "other": [
+        "<com.google.android.gms.ads.internal.request.AdRequestInfoParcel: void <init>(int,android.os.Bundle,com.google.android.gms.ads.internal.client.AdRequestParcel,com.google.android.gms.ads.internal.client.AdSizeParcel,java.lang.String,android.content.pm.ApplicationInfo,android.content.pm.PackageInfo,java.lang.String,java.lang.String,java.lang.String,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,android.os.Bundle,int,java.util.List,android.os.Bundle,boolean,android.os.Messenger,i",
+        "<com.google.android.gms.ads.internal.request.AdRequestInfoParcel: void <init>(int,android.os.Bundle,com.google.android.gms.ads.internal.client.AdRequestParcel,com.google.android.gms.ads.internal.client.AdSizeParcel,java.lang.String,android.content.pm.ApplicationInfo,android.content.pm.PackageInfo,java.lang.String,java.lang.String,java.lang.String,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,android.os.Bundle,int,java.util.List,android.os.Bundle,boolean,android.os.Messenger,i"
+      ]
+    },
+    "top40_dropped_line_prefixes": [
+      [
+        "<com.crashlytics.android.core.ByteString",
+        1291260
+      ],
+      [
+        "<com.google.android.gms.measurement.inte",
+        557893
+      ],
+      [
+        "<com.crashlytics.android.core.SessionPro",
+        281770
+      ],
+      [
+        "<com.google.android.gms.ads.internal.cli",
+        277977
+      ],
+      [
+        "<android.support.v7.widget.AppCompatText",
+        240118
+      ],
+      [
+        "<com.b.a.o: com.b.a.i a(org.w3c.dom.Node",
+        232840
+      ],
+      [
+        "<com.google.android.gms.analytics.intern",
+        207110
+      ],
+      [
+        "<com.google.gson.stream.JsonReader: java",
+        167474
+      ],
+      [
+        "<com.b.a.k: void <init>(java.lang.String",
+        165274
+      ],
+      [
+        "<android.support.v7.widget.TintTypedArra",
+        161172
+      ],
+      [
+        "<android.support.v7.widget.Toolbar: void",
+        144281
+      ],
+      [
+        "<com.google.android.gms.common.internal.",
+        136740
+      ],
+      [
+        "<android.support.v7.widget.AppCompatImag",
+        132149
+      ],
+      [
+        "<com.handmark.data.ScCode: void <init>(o",
+        130118
+      ],
+      [
+        "<thai.mal.dictionary.WordRec: void <init",
+        125941
+      ],
+      [
+        "<com.startapp.android.publish.b.a.e.c: b",
+        123067
+      ],
+      [
+        "<com.google.android.gms.common.api.Statu",
+        102872
+      ],
+      [
+        "<com.pixlr.utilities.Path: void <init>(c",
+        102434
+      ],
+      [
+        "<com.startapp.android.publish.g.a.e.c: b",
+        100968
+      ],
+      [
+        "<com.neatplug.u3d.plugins.common.d: void",
+        100203
+      ],
+      [
+        "<com.google.android.gms.internal.zzfx: v",
+        96494
+      ],
+      [
+        "<com.google.android.gms.ads.internal.uti",
+        86595
+      ],
+      [
+        "<android.support.graphics.drawable.PathP",
+        76926
+      ],
+      [
+        "<android.support.v7.graphics.ColorCutQua",
+        68946
+      ],
+      [
+        "<com.pixlr.model.c: void <init>(com.pixl",
+        67415
+      ],
+      [
+        "<thai.mal.dictionary.Menu: void loadreco",
+        63739
+      ],
+      [
+        "<com.usnaviguide.radarnow.model.RadarSta",
+        62507
+      ],
+      [
+        "<org.osmdroid.util.GeoPoint: void <init>",
+        62260
+      ],
+      [
+        "<com.startapp.android.publish.h.a.e.c: b",
+        62064
+      ],
+      [
+        "<android.support.v7.widget.AppCompatButt",
+        60183
+      ],
+      [
+        "<com.google.android.gms.internal.zzdc: v",
+        58461
+      ],
+      [
+        "<com.fasterxml.jackson.databind.introspe",
+        58391
+      ],
+      [
+        "<b.b: void <init>(org.w3c.dom.Element)> ",
+        58304
+      ],
+      [
+        "<com.google.gson.Gson: void <init>(com.g",
+        58074
+      ],
+      [
+        "<android.support.v7.widget.AppCompatBack",
+        54933
+      ],
+      [
+        "<com.crashlytics.android.ByteString: voi",
+        54584
+      ],
+      [
+        "<com.crashlytics.android.ByteString: com",
+        54074
+      ],
+      [
+        "<com.google.android.gms.ads.AdSize: void",
+        53399
+      ],
+      [
+        "<br: void <init>(byte[])> -> <java.lang.",
+        52457
+      ],
+      [
+        "<com.google.android.gms.internal.zzbt: v",
+        52448
+      ]
+    ],
+    "per_app_drop_rate_dist": {
+      "n": 2256,
+      "min": 0.00010367276379097572,
+      "p10": 0.06541902566673327,
+      "p25": 0.118479489687011,
+      "p50": 0.22619462775751611,
+      "p75": 0.38468575669174476,
+      "p90": 0.5330527589934163,
+      "max": 1.0,
+      "mean": 0.27005564779824914,
+      "mean_over_median": 1.1939083190240605
+    },
+    "top20_highest_drop_rate_apps": [
+      {
+        "path": "benign2017/com.iabuzz.Puzzle4KidsTools.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 146,
+        "n_nonblank": 146,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/com.mapquest.android.ace.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 98,
+        "n_nonblank": 98,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/com.bbt.myfi.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 58,
+        "n_nonblank": 58,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/com.meetingplay.con17.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 57,
+        "n_nonblank": 57,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/8DC59AF71C86765549C3A23B8A172FFFB43E1B6226F9C1AF6BD5DD8831F5F08E.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 50,
+        "n_nonblank": 50,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/com.iart.chromecastapps.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 32,
+        "n_nonblank": 32,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/no.mobitroll.kahoot.android.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/mbinc12.mb32b.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/com.peacock.flashlight.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/com.mxtech.ffmpeg.v7_vfpv3d16.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/com.mxtech.ffmpeg.v7_neon.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/com.mxtech.ffmpeg.v6_vfp.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/com.microsoft.rdc.android.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/com.innovapps.maquillajeparahombres.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/com.google.android.apps.pdfviewer.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/com.creepycat.fireblue.fire_blue.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/com.cam001.selfie.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/com.aws.android.tsunami.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/FDC5401D6FCB3389B9AE1EA0517E59107ABF7B04D7103101A3248089F76FEF6F.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      },
+      {
+        "path": "benign2017/F8030D5721B9DEE4392E5DAF25187E6CE39CE1E74985ED1936D0CC29B1C31D43.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      }
+    ],
+    "gate_well_formed_should_allowed_nonempty": true,
+    "well_formed_init_examples": [
+      "<org.apache.cordova.PluginResult: void <init>(org.apache.cordova.PluginResult$Status,java.lang.String)> -> <java.lang.Enum: int ordinal()>",
+      "<com.contextlogic.wish.api.service.compound.AuthenticationService: void <init>()> -> <com.contextlogic.wish.api.service.standalone.GetUserStatusService: void <init>()>",
+      "<com.facebook.GraphRequestBatch: void <init>(java.util.Collection)> -> <java.util.ArrayList: void <init>(java.util.Collection)>",
+      "<com.google.android.gms.measurement.internal.zzl$zza: void <init>(java.lang.String,com.google.android.gms.internal.zzlz,java.lang.Object)> -> <java.lang.Object: void <init>()>",
+      "<com.crashlytics.android.core.ByteString: com.crashlytics.android.core.ByteString copyFromUtf8(java.lang.String)> -> <com.crashlytics.android.core.ByteString: void <init>(byte[])>",
+      "<android.support.v7.widget.q: void <init>(android.content.Context,android.util.AttributeSet,int)> -> <android.widget.ImageView: void <init>(android.content.Context,android.util.AttributeSet,int)>",
+      "<com.google.android.gms.ads.internal.request.zza: void <init>()> -> <java.lang.Object: void <init>()>",
+      "<com.domobile.frame.a.a: java.lang.String a(java.lang.Object[])> -> <java.lang.StringBuffer: void <init>()>",
+      "<com.google.android.gms.measurement.internal.zzab: com.google.android.gms.measurement.internal.zzal zzj(com.google.android.gms.measurement.internal.zzx)> -> <com.google.android.gms.measurement.internal.zzal: void <init>(com.google.android.gms.measurement.internal.zzx)>",
+      "<com.google.android.gms.ads.identifier.AdvertisingIdClient: void <init>(android.content.Context,long,boolean)> -> <java.lang.Object: void <init>()>",
+      "<com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,int,boolean,boolean)> -> <com.google.android.gms.ads.internal.util.client.VersionInfoParcel: void <init>(int,java.lang.String,int,int,boolean)>",
+      "<com.b.a.h: void <init>(boolean)> -> <com.b.a.i: void <init>()>",
+      "<com.google.android.gms.ads.internal.client.zze: void <init>()> -> <com.google.android.gms.dynamic.zzg: void <init>(java.lang.String)>",
+      "<com.pixlr.utilities.Path: void <init>(com.pixlr.utilities.Path,java.lang.String[],java.lang.String)> -> <java.lang.Object: void <init>()>",
+      "<com.crashlytics.android.core.ByteString: com.crashlytics.android.core.ByteString copyFromUtf8(java.lang.String)> -> <com.crashlytics.android.core.ByteString: void <init>(byte[])>"
+    ]
+  },
+  "malware": {
+    "dropped_sample_n": 500,
+    "dropped_sample_seen": 27551904,
+    "bucket_counts": {
+      "well_formed_call_should_have_been_allowed": 499,
+      "malformed_or_truncated_call_line": 1
+    },
+    "bucket_examples": {
+      "well_formed_call_should_have_been_allowed": [
+        "<gnu.lists.PairWithPosition: gnu.lists.PairWithPosition make(java.lang.Object,java.lang.Object,java.lang.String,int)> -> <gnu.lists.PairWithPosition: void <init>(java.lang.Object,java.lang.Object)>",
+        "<com.google.android.gms.ads.e: void <clinit>()> -> <com.google.android.gms.ads.e: void <init>(int,int,java.lang.String)>",
+        "<com.google.android.gms.internal.de: void <clinit>()> -> <com.google.android.gms.internal.cn: com.google.android.gms.internal.cn a(java.lang.String,java.lang.Boolean)>",
+        "<com.google.android.gms.common.g: void <clinit>()> -> <java.lang.Object: void <init>()>",
+        "<gnu.expr.ModuleMethod: void <init>(gnu.expr.ModuleBody,int,java.lang.Object,int)> -> <gnu.mapping.MethodProc: void <init>()>",
+        "<gnu.mapping.SymbolRef: void <init>(gnu.mapping.Symbol,gnu.mapping.Namespace)> -> <java.lang.ref.WeakReference: void <init>(java.lang.Object)>",
+        "<com.google.android.gms.ads.internal.client.zzad: void <init>(com.google.android.gms.ads.internal.client.zzad$zza,com.google.android.gms.ads.search.SearchAdRequest)> -> <java.util.Collections: java.util.Set unmodifiableSet(java.util.Set)>",
+        "<gnu.mapping.SymbolRef: void <init>(gnu.mapping.Symbol,gnu.mapping.Namespace)> -> <java.lang.ref.WeakReference: void <init>(java.lang.Object)>",
+        "<com.google.android.gms.internal.de: void <clinit>()> -> <java.lang.Boolean: java.lang.Boolean valueOf(boolean)>",
+        "<gnu.math.IntNum: void <init>(int)> -> <gnu.math.RatNum: void <init>()>"
+      ],
+      "malformed_or_truncated_call_line": [
+        "<com.google.android.gms.internal.zzjd: com.google.android.gms.internal.zzjd a(android.content.Context,com.google.android.gms.ads.internal.client.AdSizeParcel,boolean,boolean,com.google.android.gms.internal.ae,com.google.android.gms.ads.internal.util.client.VersionInfoParcel,com.google.android.gms.internal.dl,com.google.android.gms.ads.internal.i)> -> <com.google.android.gms.internal.zzjd: void <init>(com.google.android.gms.internal.ri,com.google.android.gms.ads.internal.client.AdSizeParcel,boole"
+      ]
+    },
+    "top40_dropped_line_prefixes": [
+      [
+        "<gnu.math.IntNum: void <init>(int)> -> <",
+        2954016
+      ],
+      [
+        "<gnu.math.IntNum: void <clinit>()> -> <g",
+        2913819
+      ],
+      [
+        "<mirror.RefMethod: void <init>(java.lang",
+        772214
+      ],
+      [
+        "<gnu.mapping.Symbol: void <init>(gnu.map",
+        664755
+      ],
+      [
+        "<gnu.mapping.Namespace: gnu.mapping.Symb",
+        651591
+      ],
+      [
+        "<com.google.android.gms.ads.internal.cli",
+        645712
+      ],
+      [
+        "<gnu.mapping.SimpleSymbol: void <init>(j",
+        643282
+      ],
+      [
+        "<gnu.expr.ModuleMethod: void <init>(gnu.",
+        474095
+      ],
+      [
+        "<mirror.RefStaticMethod: void <init>(jav",
+        458215
+      ],
+      [
+        "<com.google.appinventor.components.runti",
+        385519
+      ],
+      [
+        "<gnu.mapping.SymbolRef: void <init>(gnu.",
+        325973
+      ],
+      [
+        "<gnu.lists.FString: void <init>(java.lan",
+        264640
+      ],
+      [
+        "<com.google.android.gms.internal.de: voi",
+        259000
+      ],
+      [
+        "<com.google.android.gms.analytics.intern",
+        205639
+      ],
+      [
+        "<gnu.lists.LList: void <init>()> -> <gnu",
+        194757
+      ],
+      [
+        "<gnu.lists.Pair: void <init>()> -> <gnu.",
+        189778
+      ],
+      [
+        "<gnu.lists.ImmutablePair: void <init>(ja",
+        189391
+      ],
+      [
+        "<gnu.lists.PairWithPosition: void <init>",
+        189066
+      ],
+      [
+        "<gnu.lists.PairWithPosition: gnu.lists.P",
+        188841
+      ],
+      [
+        "<com.google.android.gms.internal.ce: voi",
+        178420
+      ],
+      [
+        "<com.google.android.gms.internal.nc: byt",
+        176406
+      ],
+      [
+        "<com.seattleclouds.b.d: int[] a(java.lan",
+        160609
+      ],
+      [
+        "<com.google.android.gms.internal.cp: voi",
+        158440
+      ],
+      [
+        "<com.google.android.gms.ads.internal.uti",
+        150784
+      ],
+      [
+        "<com.google.android.gms.internal.e: void",
+        141591
+      ],
+      [
+        "<com.google.android.gms.internal.af: voi",
+        140219
+      ],
+      [
+        "<com.google.android.gms.internal.zzba: v",
+        130155
+      ],
+      [
+        "<com.google.android.gms.internal.ak: voi",
+        117635
+      ],
+      [
+        "<com.google.android.gms.ads.e: void <ini",
+        117408
+      ],
+      [
+        "<com.google.android.gms.ads.e: void <cli",
+        117379
+      ],
+      [
+        "<com.google.android.gms.internal.dz: voi",
+        107137
+      ],
+      [
+        "<gnu.bytecode.Method: void <init>(gnu.by",
+        105626
+      ],
+      [
+        "<gnu.bytecode.ClassType: gnu.bytecode.Me",
+        105387
+      ],
+      [
+        "<com.google.android.gms.common.g: void <",
+        102523
+      ],
+      [
+        "<com.google.android.gms.internal.cg: voi",
+        97229
+      ],
+      [
+        "<com.google.android.gms.internal.v: void",
+        97226
+      ],
+      [
+        "<com.google.android.gms.measurement.inte",
+        94496
+      ],
+      [
+        "<com.google.android.gms.internal.zzhy: v",
+        92773
+      ],
+      [
+        "<com.google.android.gms.internal.zzjd: v",
+        90092
+      ],
+      [
+        "<gnu.bytecode.PrimType: void <init>(java",
+        87439
+      ]
+    ],
+    "per_app_drop_rate_dist": {
+      "n": 1742,
+      "min": 0.0001191087939724144,
+      "p10": 0.05666939230814273,
+      "p25": 0.07864730137110104,
+      "p50": 0.3236469556029252,
+      "p75": 0.49517922007970616,
+      "p90": 0.6003608080320859,
+      "max": 1.0,
+      "mean": 0.31886135443505303,
+      "mean_over_median": 0.9852135140311855
+    },
+    "top20_highest_drop_rate_apps": [
+      {
+        "path": "malware-2017/04D66C98B6A115BD61A65BD20DB1D10F4A871AD65FC173949757C8A74D2BF8D8.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 633,
+        "n_nonblank": 633,
+        "n_events": 0
+      },
+      {
+        "path": "malware-2017/01C2890377C08AAD5C4804DC6D0DD966AE0F4ED642B403081171E9AF18933E70.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 563,
+        "n_nonblank": 563,
+        "n_events": 0
+      },
+      {
+        "path": "malware-2017/0642C54F15B535F25AC1ECFE1C5087FE70422B3A313D434B22E2112AF4B1FD65.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 3,
+        "n_nonblank": 3,
+        "n_events": 0
+      },
+      {
+        "path": "malware-2017/0588C18955C329F9830D30F06FD6950D5B60EF5680DE37CB454A62A01C1B3915.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 3,
+        "n_nonblank": 3,
+        "n_events": 0
+      },
+      {
+        "path": "malware-2017/02497C0ACA93D6039D1D9EDB33FED58BB2DF9ABDE52438CCFD89E9ACA3A7D43F.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 3,
+        "n_nonblank": 3,
+        "n_events": 0
+      },
+      {
+        "path": "malware-2017/0247EBF3FB4092E54FEE3B5CABBC359779B4D5905E47902502C91C4ABC3DC9ED.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 3,
+        "n_nonblank": 3,
+        "n_events": 0
+      },
+      {
+        "path": "malware-2017/002086D558A084FBFBC9B67129728FC495B9ADC85D99E4AC20461E1F5E4E9248.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 3,
+        "n_nonblank": 3,
+        "n_events": 0
+      },
+      {
+        "path": "malware-2017/0024330D6A5193B78A9CB3597C17E61B30F39D5E5CC7EFF1C80A5B60C5904BB0.apk.logcat",
+        "drop_rate": 1.0,
+        "n_dropped": 2,
+        "n_nonblank": 2,
+        "n_events": 0
+      },
+      {
+        "path": "malware-2017/02FFE06E88212FF20111FE2F85215BABDC7BEB3A3AB62480BF1090C0F789F128.apk.logcat",
+        "drop_rate": 0.8775192288968942,
+        "n_dropped": 9013,
+        "n_nonblank": 10271,
+        "n_events": 1258
+      },
+      {
+        "path": "malware-2017/0050A6BB8C45DDCF6999325753F731ACF479941181C3B4E2101A699156A20CBC.apk.logcat",
+        "drop_rate": 0.751029018316526,
+        "n_dropped": 29194,
+        "n_nonblank": 38872,
+        "n_events": 9678
+      },
+      {
+        "path": "malware-2017/00F3EFD6BA2F529CC5C86E67195D0DB4EF7AC2A8B709BEA3A1DC8A42A9FFD376.apk.logcat",
+        "drop_rate": 0.7480865064113141,
+        "n_dropped": 294681,
+        "n_nonblank": 393913,
+        "n_events": 98595
+      },
+      {
+        "path": "malware-2017/0459FAAD8BA5CF69EECD619A6E29F4B95AC78B706D6E7BBF7A1EF20DA4DE84A5.apk.logcat",
+        "drop_rate": 0.7388255915863278,
+        "n_dropped": 6744,
+        "n_nonblank": 9128,
+        "n_events": 2384
+      },
+      {
+        "path": "malware-2017/00F111163D88D14779961EB507F28512BB89646F07C4651AD7A81FFC49444DF1.apk.logcat",
+        "drop_rate": 0.717391304347826,
+        "n_dropped": 198,
+        "n_nonblank": 276,
+        "n_events": 78
+      },
+      {
+        "path": "malware-2017/058F72D1972EFD1ACF3846CDAC259FBF8F640B40E8D94EF83E664B0B6FBF347D.apk.logcat",
+        "drop_rate": 0.7128774912001077,
+        "n_dropped": 169513,
+        "n_nonblank": 237787,
+        "n_events": 68274
+      },
+      {
+        "path": "malware-2017/03DBF650ADF07B808E9EA9E097E30301196BBF78560C197C6FE0F9406B484FA5.apk.logcat",
+        "drop_rate": 0.7108137209660053,
+        "n_dropped": 13863,
+        "n_nonblank": 19503,
+        "n_events": 5640
+      },
+      {
+        "path": "malware-2017/0297DD21E4D0A5CF6B4838CAC025231F119C2294FF4A68C9F67339042786B32C.apk.logcat",
+        "drop_rate": 0.6961502125649504,
+        "n_dropped": 5895,
+        "n_nonblank": 8468,
+        "n_events": 2573
+      },
+      {
+        "path": "malware-2017/013B4E3D4001C0D0A52785957DC7F233913C91E4BE31601388CF4871638EBECD.apk.logcat",
+        "drop_rate": 0.6899147844791925,
+        "n_dropped": 8339,
+        "n_nonblank": 12087,
+        "n_events": 3748
+      },
+      {
+        "path": "malware-2017/04BEBDE1D11DE945F4043AAACB818CF54EDB0FDEB83062E84FD29FAD3E3E498E.apk.logcat",
+        "drop_rate": 0.689725142962553,
+        "n_dropped": 7478,
+        "n_nonblank": 10842,
+        "n_events": 3364
+      },
+      {
+        "path": "malware-2017/0145F24B707BF4607F16A7B15A7619EDCFAC51BF5490843A449E05CA0F355503.apk.logcat",
+        "drop_rate": 0.6890702851690872,
+        "n_dropped": 6500,
+        "n_nonblank": 9433,
+        "n_events": 2933
+      },
+      {
+        "path": "malware-2017/02DDC76A6424F9591F218D69BEFF99A8C879DD596B16C8529EF41708E61C343D.apk.logcat",
+        "drop_rate": 0.6887829912023461,
+        "n_dropped": 7516,
+        "n_nonblank": 10912,
+        "n_events": 3396
+      }
+    ],
+    "gate_well_formed_should_allowed_nonempty": true,
+    "well_formed_init_examples": [
+      "<gnu.lists.PairWithPosition: gnu.lists.PairWithPosition make(java.lang.Object,java.lang.Object,java.lang.String,int)> -> <gnu.lists.PairWithPosition: void <init>(java.lang.Object,java.lang.Object)>",
+      "<com.google.android.gms.ads.e: void <clinit>()> -> <com.google.android.gms.ads.e: void <init>(int,int,java.lang.String)>",
+      "<com.google.android.gms.internal.de: void <clinit>()> -> <com.google.android.gms.internal.cn: com.google.android.gms.internal.cn a(java.lang.String,java.lang.Boolean)>",
+      "<com.google.android.gms.common.g: void <clinit>()> -> <java.lang.Object: void <init>()>",
+      "<gnu.expr.ModuleMethod: void <init>(gnu.expr.ModuleBody,int,java.lang.Object,int)> -> <gnu.mapping.MethodProc: void <init>()>",
+      "<gnu.mapping.SymbolRef: void <init>(gnu.mapping.Symbol,gnu.mapping.Namespace)> -> <java.lang.ref.WeakReference: void <init>(java.lang.Object)>",
+      "<com.google.android.gms.ads.internal.client.zzad: void <init>(com.google.android.gms.ads.internal.client.zzad$zza,com.google.android.gms.ads.search.SearchAdRequest)> -> <java.util.Collections: java.util.Set unmodifiableSet(java.util.Set)>",
+      "<gnu.mapping.SymbolRef: void <init>(gnu.mapping.Symbol,gnu.mapping.Namespace)> -> <java.lang.ref.WeakReference: void <init>(java.lang.Object)>",
+      "<com.google.android.gms.internal.de: void <clinit>()> -> <java.lang.Boolean: java.lang.Boolean valueOf(boolean)>",
+      "<gnu.math.IntNum: void <init>(int)> -> <gnu.math.RatNum: void <init>()>",
+      "<mirror.RefMethod: void <init>(java.lang.Class,java.lang.reflect.Field)> -> <java.lang.reflect.Field: java.lang.String getName()>",
+      "<gnu.math.IntNum: void <init>(int)> -> <gnu.math.RatNum: void <init>()>",
+      "<com.startapp.android.publish.b.a.d.a: void <init>(com.startapp.android.publish.b.a.d.c)> -> <java.lang.Object: void <init>()>",
+      "<gnu.mapping.Namespace: gnu.mapping.Symbol lookup(java.lang.String,int,boolean)> -> <gnu.mapping.SimpleSymbol: void <init>(java.lang.String)>",
+      "<com.iflytek.cloud.thirdparty.aN: void <init>(com.iflytek.cloud.thirdparty.aU)> -> <java.lang.String: int length()>"
+    ]
+  }
+}

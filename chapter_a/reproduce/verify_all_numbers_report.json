@@ -1,0 +1,89 @@
+{
+  "master": {
+    "n": 104,
+    "verified": 104,
+    "failed": 0,
+    "untraceable": 0,
+    "failed_rows": [],
+    "untraceable_rows": []
+  },
+  "extra": {
+    "n": 25,
+    "verified": 25,
+    "failed": 0,
+    "failed_rows": []
+  },
+  "cli_rerun_registry": {
+    "apigraph": {
+      "cli_module": "abrg.apigraph",
+      "out_flag": "--output-dir"
+    },
+    "ladder": {
+      "cli_module": "abrg.ladder",
+      "out_flag": "--out"
+    },
+    "ocdev": {
+      "cli_module": "abrg.ocdev",
+      "out_flag": "--out"
+    },
+    "devread": {
+      "cli_module": "abrg.devread",
+      "out_flag": "--out"
+    },
+    "ocgin": {
+      "cli_module": "abrg.ocgin",
+      "out_flag": null,
+      "note": "hardcoded output root"
+    },
+    "ocgtl": {
+      "cli_module": "abrg.ocgtl",
+      "out_flag": "--out"
+    },
+    "glocalkd": {
+      "cli_module": "abrg.glocalkd",
+      "out_flag": "--out"
+    },
+    "kernels": {
+      "cli_module": "abrg.kernels",
+      "out_flag": "--out"
+    },
+    "supgnn": {
+      "cli_module": "abrg.supgnn",
+      "out_flag": "--out"
+    },
+    "transitions": {
+      "cli_module": "abrg.transitions",
+      "out_flag": "--output-dir"
+    },
+    "invgraph": {
+      "cli_module": "abrg.invgraph",
+      "out_flag": "--output-dir"
+    },
+    "selfref": {
+      "cli_module": "abrg.androct.run_e0_selfref",
+      "out_flag": "--output-dir"
+    },
+    "selfref_e2": {
+      "cli_module": "abrg.androct.run_e2_variance_aware",
+      "out_flag": "--output-dir"
+    },
+    "final_validate": {
+      "cli_module": "abrg.final_validate",
+      "out_flag": "--out"
+    },
+    "validation": {
+      "cli_module": "abrg.validate",
+      "out_flag": "--out"
+    },
+    "run3": {
+      "cli_module": "abrg.androct.run_gae_run3",
+      "harness": "androct_auc"
+    },
+    "run8": {
+      "cli_module": "abrg.androct.run_gae_run8",
+      "harness": "androct_auc"
+    }
+  },
+  "gae_harness_hint": "python -m abrg.batch_validate_reproduce  # GAE-family androct_auc notebooks",
+  "ok": true
+}

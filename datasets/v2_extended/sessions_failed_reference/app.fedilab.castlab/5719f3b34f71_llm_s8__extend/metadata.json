@@ -1,0 +1,63 @@
+{
+  "active_categories": [
+    "content_access",
+    "file_io",
+    "ipc_intents"
+  ],
+  "analysis_status": "partial:bad_handoff",
+  "analyze_exit_status": 0,
+  "app_id": "app.fedilab.castlab",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T23:12:39.983000Z",
+  "end_timestamp_ms": 1786749159983,
+  "event_counts": {
+    "mapped": 47,
+    "mapped_rate": 0.007446134347275032,
+    "total": 6312
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "5719f3b34f71_llm_s8__extend",
+  "failure_reason": "analyze_status:partial:bad_handoff,sim_not_success",
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "ContentResolver.query",
+    "Context.sendBroadcast",
+    "File.delete",
+    "FileInputStream.<init>"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 2,
+  "reference_tier_pass": false,
+  "session_id": "5719f3b34f71_llm_s8",
+  "session_index_within_app": 8,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/5719f3b34f71_app.fedilab.castlab/dynamic/llm/session_8/app.fedilab.castlab_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/5719f3b34f71_app.fedilab.castlab/dynamic/llm/session_8/app.fedilab.castlab_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T23:08:36.839000Z",
+  "start_timestamp_ms": 1786748916839,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 6312,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 2,
+    "n_with_timestamp": 6312,
+    "unparseable_line_numbers_sample": [
+      2552,
+      4499
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 243.271
+}

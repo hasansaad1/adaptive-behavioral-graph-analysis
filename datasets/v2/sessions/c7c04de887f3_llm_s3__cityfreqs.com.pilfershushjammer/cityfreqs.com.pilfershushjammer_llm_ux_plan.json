@@ -1,0 +1,893 @@
+{
+  "goals": [
+    "Tap Settings",
+    "Tap OFF",
+    "Tap Active run_active_button",
+    "Tap Home",
+    "Tap Inspector",
+    "Tap OFF active_type_switch",
+    "Tap OFF buffer_type_switch",
+    "Tap ON mic_source_switch",
+    "Tap ON run_active_button"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap Settings",
+      "nav_token": "settings",
+      "target_keys": [
+        "tab:settings"
+      ],
+      "observed_screen_hashes": [
+        "10e79a5338bc3170cb160cd4e38950aa3b5b749e6661eec322da9894b533e503",
+        "90770afbdb38fc47cbf94492a42760f85e68f1bbee37a305dccd2ad0f03d0bb2",
+        "4a969d54d0969dff4a72424beeaf3e9fc14e864e7c7e35e6ad581c8ba7155635",
+        "a085c6db0a9a49c9d6111f0240448b72b19ca503eb846f1832a48ad5919f5624",
+        "76218980e1c72a40fc26a11b5d83760f1717392607fefa104685cc6d6e352a3b"
+      ],
+      "observed_screen_hints": [
+        "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+        "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+        "PilferShush Jammer attempts  home_text TextView · ON run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout"
+      ],
+      "route_hint": "Use visible settings navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 1,
+      "goal": "Tap OFF",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Active run_active_button",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Home",
+      "nav_token": "home",
+      "target_keys": [
+        "tab:home"
+      ],
+      "observed_screen_hashes": [
+        "10e79a5338bc3170cb160cd4e38950aa3b5b749e6661eec322da9894b533e503",
+        "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194",
+        "90770afbdb38fc47cbf94492a42760f85e68f1bbee37a305dccd2ad0f03d0bb2",
+        "4a969d54d0969dff4a72424beeaf3e9fc14e864e7c7e35e6ad581c8ba7155635",
+        "a085c6db0a9a49c9d6111f0240448b72b19ca503eb846f1832a48ad5919f5624"
+      ],
+      "observed_screen_hints": [
+        "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+        "OFF active_type_switch Switch · OFF buffer_type_switch Switch · ON mic_source_switch Switch · Voice Assistant Jammer assist_jammer_text TextView · Set carrier frequency carrier_input_text TextView · Set drift speed drift_input_text TextView · Set drift limit limit_input_text TextView · More options ImageView · Home LinearLayout · Inspector LinearLayout",
+        "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout"
+      ],
+      "route_hint": "Use visible home navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 4,
+      "goal": "Tap Inspector",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Tap OFF active_type_switch",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Tap OFF buffer_type_switch",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 7,
+      "goal": "Tap ON mic_source_switch",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 8,
+      "goal": "Tap ON run_active_button",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "10e79a5338bc3170cb160cd4e38950aa3b5b749e6661eec322da9894b533e503": "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194": "OFF active_type_switch Switch · OFF buffer_type_switch Switch · ON mic_source_switch Switch · Voice Assistant Jammer assist_jammer_text TextView · Set carrier frequency carrier_input_text TextView · Set drift speed drift_input_text TextView · Set drift limit limit_input_text TextView · More options ImageView · Home LinearLayout · Inspector LinearLayout",
+    "98a32e6d5fa9173116f606d29cae5a643800fbe2bba4351ac58f967aa2698c94": "ON button1 Button · OFF button2 Button",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": "",
+    "90770afbdb38fc47cbf94492a42760f85e68f1bbee37a305dccd2ad0f03d0bb2": "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "4a969d54d0969dff4a72424beeaf3e9fc14e864e7c7e35e6ad581c8ba7155635": "PilferShush Jammer attempts  home_text TextView · ON run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "a085c6db0a9a49c9d6111f0240448b72b19ca503eb846f1832a48ad5919f5624": "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "76218980e1c72a40fc26a11b5d83760f1717392607fefa104685cc6d6e352a3b": "PilferShush Jammer attempts  home_text TextView · ON run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "6df96d74f334f5889a1bfe70feca8d802c43a8026750227edd6dee70abd02b78": "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "2a3604bdb4ba283a5566b560662d8130b8083d44a6412d06ba05756971c8f265": "PilferShush Jammer attempts  home_text TextView · ON run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "90bba79aefecf56f2be1708335338a3d4dad7a1a73dc1470006d61377fb65234": "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "85953d244e8f340fba810be8af697520581f838f0ee28d3bfd5d2dfa303349fe": "PilferShush Jammer attempts  home_text TextView · ON run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "7fda0900bd7ac74b71676461523b8f308549c338d00bf27e82eee4552d470ff5": "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "a04b356581789ebc556ebe583cd31f2492f92935d825c3269447d00ebd697cc6": "PilferShush Jammer attempts  home_text TextView · ON run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "5909cdaae8967e91a3b91c0ddff65691a7f3241b8815373b47d1e750746cfe84": "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "e7a6ae536e78b83e3336053116e73d9efc5e0c86bffd1c74352126080fe1b8d0": "PilferShush Jammer attempts  home_text TextView · ON run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "3463f76bb585559efa771b4cbc18e38a77855ea3f6f7282644cdff54e64a4267": "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "3be4ceadc96c3ddf7b0a2d4f78c231fb44574bb4aca5fdff5593326b8ccd9302": "PilferShush Jammer attempts  home_text TextView · ON run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "70975b9aec9cebf1a0375e8f22b0778eb22c9add5fe80fcc8a0bf14549d007ab": "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "8c704871d740708b3d12a85dadeb3f631587a6816336ccde77fda525a3d7ec1c": "PilferShush Jammer attempts  home_text TextView · ON run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "8af9c583630becd072e0110cec921d3fda995c2657d02f861d32129890490db5": "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "ccbd040d4347baba3ccb05d457c4e9e124b2b9222d737adc7d24cde965b51aeb": "PilferShush Jammer attempts  home_text TextView · ON run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "b75771e365e8b11880d438baedd2caae80ec2b81f40dc794e54709473704f974": "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "e0c6e540503ea45f669fba64837e3c847bb006d9f2d019600a2a5f61fffdb7b7": "PilferShush Jammer attempts  home_text TextView · ON run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "95df2cfe67b57219f475fbacbba99fcbe34728434c165974cbefe75ffa377944": "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "b955e9dd4d01fc0db32d69ddaf46a0ae5e0f41c269253d242c9e6d88dd1c8049": "PilferShush Jammer attempts  home_text TextView · ON run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "54df59ebd8e0919ab5ade2522afa1ed4048b168295e63fd9fa4d9f37c81dc95e": "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "8b5baa39e1fa8e306cfc81020e3fc65a72e171f3ab7c7448e50e2b370594e326": "PilferShush Jammer attempts  home_text TextView · ON run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:home": {
+        "kind": "tab",
+        "semantic_token": "home",
+        "target_resource_id": "cityfreqs.com.pilfershushjammer:id/home_text",
+        "target_content_desc": "",
+        "visible_on": [
+          "10e79a5338bc3170cb160cd4e38950aa3b5b749e6661eec322da9894b533e503",
+          "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194",
+          "90770afbdb38fc47cbf94492a42760f85e68f1bbee37a305dccd2ad0f03d0bb2",
+          "4a969d54d0969dff4a72424beeaf3e9fc14e864e7c7e35e6ad581c8ba7155635",
+          "a085c6db0a9a49c9d6111f0240448b72b19ca503eb846f1832a48ad5919f5624",
+          "76218980e1c72a40fc26a11b5d83760f1717392607fefa104685cc6d6e352a3b",
+          "6df96d74f334f5889a1bfe70feca8d802c43a8026750227edd6dee70abd02b78",
+          "2a3604bdb4ba283a5566b560662d8130b8083d44a6412d06ba05756971c8f265",
+          "90bba79aefecf56f2be1708335338a3d4dad7a1a73dc1470006d61377fb65234",
+          "85953d244e8f340fba810be8af697520581f838f0ee28d3bfd5d2dfa303349fe",
+          "7fda0900bd7ac74b71676461523b8f308549c338d00bf27e82eee4552d470ff5",
+          "a04b356581789ebc556ebe583cd31f2492f92935d825c3269447d00ebd697cc6",
+          "5909cdaae8967e91a3b91c0ddff65691a7f3241b8815373b47d1e750746cfe84",
+          "e7a6ae536e78b83e3336053116e73d9efc5e0c86bffd1c74352126080fe1b8d0",
+          "3463f76bb585559efa771b4cbc18e38a77855ea3f6f7282644cdff54e64a4267",
+          "3be4ceadc96c3ddf7b0a2d4f78c231fb44574bb4aca5fdff5593326b8ccd9302",
+          "70975b9aec9cebf1a0375e8f22b0778eb22c9add5fe80fcc8a0bf14549d007ab",
+          "8c704871d740708b3d12a85dadeb3f631587a6816336ccde77fda525a3d7ec1c",
+          "8af9c583630becd072e0110cec921d3fda995c2657d02f861d32129890490db5",
+          "ccbd040d4347baba3ccb05d457c4e9e124b2b9222d737adc7d24cde965b51aeb",
+          "b75771e365e8b11880d438baedd2caae80ec2b81f40dc794e54709473704f974",
+          "e0c6e540503ea45f669fba64837e3c847bb006d9f2d019600a2a5f61fffdb7b7",
+          "95df2cfe67b57219f475fbacbba99fcbe34728434c165974cbefe75ffa377944",
+          "b955e9dd4d01fc0db32d69ddaf46a0ae5e0f41c269253d242c9e6d88dd1c8049",
+          "54df59ebd8e0919ab5ade2522afa1ed4048b168295e63fd9fa4d9f37c81dc95e"
+        ],
+        "attempts": 24,
+        "successes": 24,
+        "last_from": "54df59ebd8e0919ab5ade2522afa1ed4048b168295e63fd9fa4d9f37c81dc95e",
+        "last_to": "54df59ebd8e0919ab5ade2522afa1ed4048b168295e63fd9fa4d9f37c81dc95e"
+      },
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "",
+        "target_content_desc": "Settings",
+        "visible_on": [
+          "10e79a5338bc3170cb160cd4e38950aa3b5b749e6661eec322da9894b533e503",
+          "90770afbdb38fc47cbf94492a42760f85e68f1bbee37a305dccd2ad0f03d0bb2",
+          "4a969d54d0969dff4a72424beeaf3e9fc14e864e7c7e35e6ad581c8ba7155635",
+          "a085c6db0a9a49c9d6111f0240448b72b19ca503eb846f1832a48ad5919f5624",
+          "76218980e1c72a40fc26a11b5d83760f1717392607fefa104685cc6d6e352a3b",
+          "6df96d74f334f5889a1bfe70feca8d802c43a8026750227edd6dee70abd02b78",
+          "2a3604bdb4ba283a5566b560662d8130b8083d44a6412d06ba05756971c8f265",
+          "90bba79aefecf56f2be1708335338a3d4dad7a1a73dc1470006d61377fb65234",
+          "85953d244e8f340fba810be8af697520581f838f0ee28d3bfd5d2dfa303349fe",
+          "7fda0900bd7ac74b71676461523b8f308549c338d00bf27e82eee4552d470ff5",
+          "a04b356581789ebc556ebe583cd31f2492f92935d825c3269447d00ebd697cc6",
+          "5909cdaae8967e91a3b91c0ddff65691a7f3241b8815373b47d1e750746cfe84",
+          "e7a6ae536e78b83e3336053116e73d9efc5e0c86bffd1c74352126080fe1b8d0",
+          "3463f76bb585559efa771b4cbc18e38a77855ea3f6f7282644cdff54e64a4267",
+          "3be4ceadc96c3ddf7b0a2d4f78c231fb44574bb4aca5fdff5593326b8ccd9302",
+          "70975b9aec9cebf1a0375e8f22b0778eb22c9add5fe80fcc8a0bf14549d007ab",
+          "8c704871d740708b3d12a85dadeb3f631587a6816336ccde77fda525a3d7ec1c",
+          "8af9c583630becd072e0110cec921d3fda995c2657d02f861d32129890490db5",
+          "ccbd040d4347baba3ccb05d457c4e9e124b2b9222d737adc7d24cde965b51aeb",
+          "b75771e365e8b11880d438baedd2caae80ec2b81f40dc794e54709473704f974",
+          "e0c6e540503ea45f669fba64837e3c847bb006d9f2d019600a2a5f61fffdb7b7",
+          "95df2cfe67b57219f475fbacbba99fcbe34728434c165974cbefe75ffa377944",
+          "b955e9dd4d01fc0db32d69ddaf46a0ae5e0f41c269253d242c9e6d88dd1c8049",
+          "54df59ebd8e0919ab5ade2522afa1ed4048b168295e63fd9fa4d9f37c81dc95e"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "10e79a5338bc3170cb160cd4e38950aa3b5b749e6661eec322da9894b533e503",
+        "last_to": "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194"
+      },
+      "tab:cityfreqs.com.pilfershushjammer:id/active_type_switch|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cityfreqs.com.pilfershushjammer:id/active_type_switch",
+        "target_content_desc": "",
+        "visible_on": [
+          "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cityfreqs.com.pilfershushjammer:id/carrier_input_text|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cityfreqs.com.pilfershushjammer:id/carrier_input_text",
+        "target_content_desc": "",
+        "visible_on": [
+          "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cityfreqs.com.pilfershushjammer:id/drift_input_text|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cityfreqs.com.pilfershushjammer:id/drift_input_text",
+        "target_content_desc": "",
+        "visible_on": [
+          "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cityfreqs.com.pilfershushjammer:id/limit_input_text|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cityfreqs.com.pilfershushjammer:id/limit_input_text",
+        "target_content_desc": "",
+        "visible_on": [
+          "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:cityfreqs.com.pilfershushjammer:id/active_type_switch|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "cityfreqs.com.pilfershushjammer:id/active_type_switch",
+        "target_content_desc": "",
+        "visible_on": [
+          "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:cityfreqs.com.pilfershushjammer:id/carrier_input_text|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "cityfreqs.com.pilfershushjammer:id/carrier_input_text",
+        "target_content_desc": "",
+        "visible_on": [
+          "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:cityfreqs.com.pilfershushjammer:id/limit_input_text|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "cityfreqs.com.pilfershushjammer:id/limit_input_text",
+        "target_content_desc": "",
+        "visible_on": [
+          "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cityfreqs.com.pilfershushjammer:id/assist_jammer_text|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cityfreqs.com.pilfershushjammer:id/assist_jammer_text",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194",
+        "last_to": "98a32e6d5fa9173116f606d29cae5a643800fbe2bba4351ac58f967aa2698c94"
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "98a32e6d5fa9173116f606d29cae5a643800fbe2bba4351ac58f967aa2698c94"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "98a32e6d5fa9173116f606d29cae5a643800fbe2bba4351ac58f967aa2698c94",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:android:id/button2|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "98a32e6d5fa9173116f606d29cae5a643800fbe2bba4351ac58f967aa2698c94"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "98a32e6d5fa9173116f606d29cae5a643800fbe2bba4351ac58f967aa2698c94"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:android:id/button2|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button2",
+        "target_content_desc": "",
+        "visible_on": [
+          "98a32e6d5fa9173116f606d29cae5a643800fbe2bba4351ac58f967aa2698c94"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "cityfreqs.com.pilfershushjammer:id/run_active_button",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 23,
+        "successes": 23,
+        "last_from": "54df59ebd8e0919ab5ade2522afa1ed4048b168295e63fd9fa4d9f37c81dc95e",
+        "last_to": "8b5baa39e1fa8e306cfc81020e3fc65a72e171f3ab7c7448e50e2b370594e326"
+      }
+    },
+    "edges": [
+      {
+        "from": "10e79a5338bc3170cb160cd4e38950aa3b5b749e6661eec322da9894b533e503",
+        "to": "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194",
+        "to": "98a32e6d5fa9173116f606d29cae5a643800fbe2bba4351ac58f967aa2698c94",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/assist_jammer_text|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "98a32e6d5fa9173116f606d29cae5a643800fbe2bba4351ac58f967aa2698c94",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "5d640a5448cb5cb0ed5b6f1ba85ce7946c8443198ac467d9f3cd35ae72e6c194",
+        "to": "90770afbdb38fc47cbf94492a42760f85e68f1bbee37a305dccd2ad0f03d0bb2",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "90770afbdb38fc47cbf94492a42760f85e68f1bbee37a305dccd2ad0f03d0bb2",
+        "to": "90770afbdb38fc47cbf94492a42760f85e68f1bbee37a305dccd2ad0f03d0bb2",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "90770afbdb38fc47cbf94492a42760f85e68f1bbee37a305dccd2ad0f03d0bb2",
+        "to": "4a969d54d0969dff4a72424beeaf3e9fc14e864e7c7e35e6ad581c8ba7155635",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4a969d54d0969dff4a72424beeaf3e9fc14e864e7c7e35e6ad581c8ba7155635",
+        "to": "4a969d54d0969dff4a72424beeaf3e9fc14e864e7c7e35e6ad581c8ba7155635",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4a969d54d0969dff4a72424beeaf3e9fc14e864e7c7e35e6ad581c8ba7155635",
+        "to": "a085c6db0a9a49c9d6111f0240448b72b19ca503eb846f1832a48ad5919f5624",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "a085c6db0a9a49c9d6111f0240448b72b19ca503eb846f1832a48ad5919f5624",
+        "to": "a085c6db0a9a49c9d6111f0240448b72b19ca503eb846f1832a48ad5919f5624",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "a085c6db0a9a49c9d6111f0240448b72b19ca503eb846f1832a48ad5919f5624",
+        "to": "76218980e1c72a40fc26a11b5d83760f1717392607fefa104685cc6d6e352a3b",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "76218980e1c72a40fc26a11b5d83760f1717392607fefa104685cc6d6e352a3b",
+        "to": "76218980e1c72a40fc26a11b5d83760f1717392607fefa104685cc6d6e352a3b",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "76218980e1c72a40fc26a11b5d83760f1717392607fefa104685cc6d6e352a3b",
+        "to": "6df96d74f334f5889a1bfe70feca8d802c43a8026750227edd6dee70abd02b78",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "6df96d74f334f5889a1bfe70feca8d802c43a8026750227edd6dee70abd02b78",
+        "to": "6df96d74f334f5889a1bfe70feca8d802c43a8026750227edd6dee70abd02b78",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "6df96d74f334f5889a1bfe70feca8d802c43a8026750227edd6dee70abd02b78",
+        "to": "2a3604bdb4ba283a5566b560662d8130b8083d44a6412d06ba05756971c8f265",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "2a3604bdb4ba283a5566b560662d8130b8083d44a6412d06ba05756971c8f265",
+        "to": "2a3604bdb4ba283a5566b560662d8130b8083d44a6412d06ba05756971c8f265",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "2a3604bdb4ba283a5566b560662d8130b8083d44a6412d06ba05756971c8f265",
+        "to": "90bba79aefecf56f2be1708335338a3d4dad7a1a73dc1470006d61377fb65234",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "90bba79aefecf56f2be1708335338a3d4dad7a1a73dc1470006d61377fb65234",
+        "to": "90bba79aefecf56f2be1708335338a3d4dad7a1a73dc1470006d61377fb65234",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "90bba79aefecf56f2be1708335338a3d4dad7a1a73dc1470006d61377fb65234",
+        "to": "85953d244e8f340fba810be8af697520581f838f0ee28d3bfd5d2dfa303349fe",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "85953d244e8f340fba810be8af697520581f838f0ee28d3bfd5d2dfa303349fe",
+        "to": "85953d244e8f340fba810be8af697520581f838f0ee28d3bfd5d2dfa303349fe",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "85953d244e8f340fba810be8af697520581f838f0ee28d3bfd5d2dfa303349fe",
+        "to": "7fda0900bd7ac74b71676461523b8f308549c338d00bf27e82eee4552d470ff5",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7fda0900bd7ac74b71676461523b8f308549c338d00bf27e82eee4552d470ff5",
+        "to": "7fda0900bd7ac74b71676461523b8f308549c338d00bf27e82eee4552d470ff5",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "7fda0900bd7ac74b71676461523b8f308549c338d00bf27e82eee4552d470ff5",
+        "to": "a04b356581789ebc556ebe583cd31f2492f92935d825c3269447d00ebd697cc6",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "a04b356581789ebc556ebe583cd31f2492f92935d825c3269447d00ebd697cc6",
+        "to": "a04b356581789ebc556ebe583cd31f2492f92935d825c3269447d00ebd697cc6",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "a04b356581789ebc556ebe583cd31f2492f92935d825c3269447d00ebd697cc6",
+        "to": "5909cdaae8967e91a3b91c0ddff65691a7f3241b8815373b47d1e750746cfe84",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "5909cdaae8967e91a3b91c0ddff65691a7f3241b8815373b47d1e750746cfe84",
+        "to": "5909cdaae8967e91a3b91c0ddff65691a7f3241b8815373b47d1e750746cfe84",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "5909cdaae8967e91a3b91c0ddff65691a7f3241b8815373b47d1e750746cfe84",
+        "to": "e7a6ae536e78b83e3336053116e73d9efc5e0c86bffd1c74352126080fe1b8d0",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e7a6ae536e78b83e3336053116e73d9efc5e0c86bffd1c74352126080fe1b8d0",
+        "to": "e7a6ae536e78b83e3336053116e73d9efc5e0c86bffd1c74352126080fe1b8d0",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e7a6ae536e78b83e3336053116e73d9efc5e0c86bffd1c74352126080fe1b8d0",
+        "to": "3463f76bb585559efa771b4cbc18e38a77855ea3f6f7282644cdff54e64a4267",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "3463f76bb585559efa771b4cbc18e38a77855ea3f6f7282644cdff54e64a4267",
+        "to": "3463f76bb585559efa771b4cbc18e38a77855ea3f6f7282644cdff54e64a4267",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "3463f76bb585559efa771b4cbc18e38a77855ea3f6f7282644cdff54e64a4267",
+        "to": "3be4ceadc96c3ddf7b0a2d4f78c231fb44574bb4aca5fdff5593326b8ccd9302",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "3be4ceadc96c3ddf7b0a2d4f78c231fb44574bb4aca5fdff5593326b8ccd9302",
+        "to": "3be4ceadc96c3ddf7b0a2d4f78c231fb44574bb4aca5fdff5593326b8ccd9302",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "3be4ceadc96c3ddf7b0a2d4f78c231fb44574bb4aca5fdff5593326b8ccd9302",
+        "to": "70975b9aec9cebf1a0375e8f22b0778eb22c9add5fe80fcc8a0bf14549d007ab",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "70975b9aec9cebf1a0375e8f22b0778eb22c9add5fe80fcc8a0bf14549d007ab",
+        "to": "70975b9aec9cebf1a0375e8f22b0778eb22c9add5fe80fcc8a0bf14549d007ab",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "70975b9aec9cebf1a0375e8f22b0778eb22c9add5fe80fcc8a0bf14549d007ab",
+        "to": "8c704871d740708b3d12a85dadeb3f631587a6816336ccde77fda525a3d7ec1c",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8c704871d740708b3d12a85dadeb3f631587a6816336ccde77fda525a3d7ec1c",
+        "to": "8c704871d740708b3d12a85dadeb3f631587a6816336ccde77fda525a3d7ec1c",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8c704871d740708b3d12a85dadeb3f631587a6816336ccde77fda525a3d7ec1c",
+        "to": "8af9c583630becd072e0110cec921d3fda995c2657d02f861d32129890490db5",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8af9c583630becd072e0110cec921d3fda995c2657d02f861d32129890490db5",
+        "to": "8af9c583630becd072e0110cec921d3fda995c2657d02f861d32129890490db5",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8af9c583630becd072e0110cec921d3fda995c2657d02f861d32129890490db5",
+        "to": "ccbd040d4347baba3ccb05d457c4e9e124b2b9222d737adc7d24cde965b51aeb",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "ccbd040d4347baba3ccb05d457c4e9e124b2b9222d737adc7d24cde965b51aeb",
+        "to": "ccbd040d4347baba3ccb05d457c4e9e124b2b9222d737adc7d24cde965b51aeb",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "ccbd040d4347baba3ccb05d457c4e9e124b2b9222d737adc7d24cde965b51aeb",
+        "to": "b75771e365e8b11880d438baedd2caae80ec2b81f40dc794e54709473704f974",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b75771e365e8b11880d438baedd2caae80ec2b81f40dc794e54709473704f974",
+        "to": "b75771e365e8b11880d438baedd2caae80ec2b81f40dc794e54709473704f974",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b75771e365e8b11880d438baedd2caae80ec2b81f40dc794e54709473704f974",
+        "to": "e0c6e540503ea45f669fba64837e3c847bb006d9f2d019600a2a5f61fffdb7b7",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e0c6e540503ea45f669fba64837e3c847bb006d9f2d019600a2a5f61fffdb7b7",
+        "to": "e0c6e540503ea45f669fba64837e3c847bb006d9f2d019600a2a5f61fffdb7b7",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "e0c6e540503ea45f669fba64837e3c847bb006d9f2d019600a2a5f61fffdb7b7",
+        "to": "95df2cfe67b57219f475fbacbba99fcbe34728434c165974cbefe75ffa377944",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "95df2cfe67b57219f475fbacbba99fcbe34728434c165974cbefe75ffa377944",
+        "to": "95df2cfe67b57219f475fbacbba99fcbe34728434c165974cbefe75ffa377944",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "95df2cfe67b57219f475fbacbba99fcbe34728434c165974cbefe75ffa377944",
+        "to": "b955e9dd4d01fc0db32d69ddaf46a0ae5e0f41c269253d242c9e6d88dd1c8049",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b955e9dd4d01fc0db32d69ddaf46a0ae5e0f41c269253d242c9e6d88dd1c8049",
+        "to": "b955e9dd4d01fc0db32d69ddaf46a0ae5e0f41c269253d242c9e6d88dd1c8049",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b955e9dd4d01fc0db32d69ddaf46a0ae5e0f41c269253d242c9e6d88dd1c8049",
+        "to": "54df59ebd8e0919ab5ade2522afa1ed4048b168295e63fd9fa4d9f37c81dc95e",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "54df59ebd8e0919ab5ade2522afa1ed4048b168295e63fd9fa4d9f37c81dc95e",
+        "to": "54df59ebd8e0919ab5ade2522afa1ed4048b168295e63fd9fa4d9f37c81dc95e",
+        "target_key": "tab:home",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "54df59ebd8e0919ab5ade2522afa1ed4048b168295e63fd9fa4d9f37c81dc95e",
+        "to": "8b5baa39e1fa8e306cfc81020e3fc65a72e171f3ab7c7448e50e2b370594e326",
+        "target_key": "tab:cityfreqs.com.pilfershushjammer:id/run_active_button|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "10e79a5338bc3170cb160cd4e38950aa3b5b749e6661eec322da9894b533e503",
+    "root_screen_signature": "eae80407e09a8f06d8114e34b86b9718edeb7b6bd289f82f0820b8be0e760dee",
+    "root_screen_hint": "PilferShush Jammer attempts  home_text TextView · Active run_active_button ToggleButton · Passive run_passive_button ToggleButton · More options ImageView · Inspector LinearLayout · Settings LinearLayout",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_pragmatic_landmarks:7",
+      "screen_hash": "b7bba4d4f76f0a4080efa263c4c33fa5c1de05674ee0ce9064cad2de0a617cde",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "cityfreqs.com.pilfershushjammer",
+          "screen_hash": "7ba45c883e938d4e7200d6ceedeb7122d4231418a627317114e2b6d74265bd64",
+          "interactive_count": 6,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "829f28ef319c2f707aa9b8d5605f14fca35f870d48ea3970a1a284a592c3cc4c",
+          "root_landmark_score": 7
+        },
+        {
+          "attempt": 2,
+          "strategy": "start_root_activity_clear_task",
+          "clear_task": true,
+          "foreground_package": "cityfreqs.com.pilfershushjammer",
+          "screen_hash": "7ba45c883e938d4e7200d6ceedeb7122d4231418a627317114e2b6d74265bd64",
+          "interactive_count": 6,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "829f28ef319c2f707aa9b8d5605f14fca35f870d48ea3970a1a284a592c3cc4c",
+          "root_landmark_score": 7
+        },
+        {
+          "attempt": 3,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.google.android.apps.nexuslauncher",
+          "screen_hash": "b92e9d726ec1f6c51f639079b9cf61557138b2c9b49c88280f9d4d728ba8f4af",
+          "interactive_count": 6,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "848a1949024d0f20d9c05eeec335eec7be60aa59554438b1040adaeaf7009b66",
+          "root_landmark_score": 7
+        },
+        {
+          "attempt": 4,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.google.android.apps.nexuslauncher",
+          "screen_hash": "e47eb579480dc76952eae465f94bebadb2d0128a5dad9ac6a0e7a37cb5715f51",
+          "interactive_count": 6,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "1d7d48a2388960b8980f83dae54e877f2adb554f030e15d2b749b45faa47518c",
+          "root_landmark_score": 7
+        },
+        {
+          "attempt": 5,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.google.android.apps.nexuslauncher",
+          "screen_hash": "73346d8677550fb3e9d8716b1440270158a5cee9449f5468a3d699676b7e796a",
+          "interactive_count": 6,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "a65bd0610eee7ac8597945f90c3a3242e2b955fa4b695825c6f8f8254e8d4822",
+          "root_landmark_score": 7
+        }
+      ],
+      "match_kind": "pragmatic_landmarks"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app to view a list of active jammers, then tap on an individual jammer to view its details. They may also use the 'ON' and 'OFF' buttons to toggle the status of a jammer. The user can then navigate through the different tabs (e.g. 'Home', 'Settings') using horizontal swipes.",
+    "reason": "post_nav_realism_blend:post_nav_sec>=147"
+  }
+}

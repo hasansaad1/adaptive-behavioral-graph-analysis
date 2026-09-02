@@ -1,0 +1,79 @@
+{
+  "active_categories": [
+    "file_io",
+    "ipc_intents",
+    "storage"
+  ],
+  "app_id": "app.prav.client",
+  "batch": "original",
+  "end_timestamp": "2026-07-13T10:38:16.444000Z",
+  "end_timestamp_ms": 1783939096444,
+  "event_counts": {
+    "mapped": 254,
+    "mapped_rate": 0.3163138231631382,
+    "total": 803
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "e4a6cdb972a2_llm_s2__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "Context.bindService",
+    "Context.startService",
+    "File.delete",
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 2,
+  "reference_tier_pass": true,
+  "session_id": "e4a6cdb972a2_llm_s2",
+  "session_index_within_app": 2,
+  "source_frida_path": "datasets/v2/sessions/e4a6cdb972a2_llm_s2__app.prav.client/app.prav.client_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/e4a6cdb972a2_llm_s2__app.prav.client/app.prav.client_dynamic_metadata.json",
+  "start_timestamp": "2026-07-13T10:30:34.808000Z",
+  "start_timestamp_ms": 1783938634808,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 803,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 70,
+    "n_with_timestamp": 803,
+    "unparseable_line_numbers_sample": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 461.636
+}

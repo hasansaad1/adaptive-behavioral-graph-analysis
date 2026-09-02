@@ -1,0 +1,86 @@
+{
+  "active_categories": [
+    "file_io",
+    "ipc_intents",
+    "storage",
+    "webview"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "cl.coders.faketraveler",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T04:14:28.134000Z",
+  "end_timestamp_ms": 1786680868134,
+  "event_counts": {
+    "mapped": 654,
+    "mapped_rate": 0.33833419555095706,
+    "total": 1933
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "fb32bae7e64d_llm_s4__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "Context.bindService",
+    "Context.startActivity",
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString",
+    "WebView.loadUrl"
+  ],
+  "n_active_nodes": 4,
+  "n_edges": 10,
+  "reference_tier_pass": true,
+  "session_id": "fb32bae7e64d_llm_s4",
+  "session_index_within_app": 4,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/fb32bae7e64d_cl.coders.faketraveler/dynamic/llm/session_4/cl.coders.faketraveler_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/fb32bae7e64d_cl.coders.faketraveler/dynamic/llm/session_4/cl.coders.faketraveler_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T04:06:57.349000Z",
+  "start_timestamp_ms": 1786680417349,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1933,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 20,
+    "n_with_timestamp": 1933,
+    "unparseable_line_numbers_sample": [
+      1629,
+      1630,
+      1631,
+      1632,
+      1633,
+      1634,
+      1635,
+      1636,
+      1637,
+      1638,
+      1740,
+      1741,
+      1742,
+      1743,
+      1744,
+      1745,
+      1746,
+      1747,
+      1748,
+      1749
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 450.886
+}

@@ -1,0 +1,31 @@
+{
+  "label": "raw_pre_v021",
+  "normalize": false,
+  "use_edge_weight": true,
+  "act_v": "log1p",
+  "edge_weight_tensor": "raw_w_cum",
+  "edge_weight_channel": "w_cum",
+  "edge_weight_in_encoder": true,
+  "train_wall_sec": 61.85,
+  "loss_first": 0.9449672585441953,
+  "loss_final": 3.6527666693177268,
+  "final_epoch_mean_loss": 3.6527666693177268,
+  "converged_heuristic": false,
+  "train_error": {
+    "count": 567,
+    "min": -0.0,
+    "median": 3.655301809310913,
+    "max": 14.437167167663574,
+    "mean": 3.5282635380123555
+  },
+  "test_error": {
+    "count": 161,
+    "min": -0.0,
+    "median": 3.509089708328247,
+    "max": 14.437167167663574,
+    "mean": 3.5353821989912424
+  },
+  "train_vs_test_median_ratio": 0.9599999921729502,
+  "train_ln2_failures": 0,
+  "test_ln2_failures": 0
+}

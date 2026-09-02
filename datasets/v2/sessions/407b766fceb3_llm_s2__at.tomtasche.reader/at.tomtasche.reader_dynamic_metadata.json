@@ -1,0 +1,201 @@
+{
+  "package_name": "at.tomtasche.reader",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/at.tomtasche.reader_199.apk",
+  "apk_sha256": "407b766fceb39dda9651da508772494a70a9ed97a76ea1cfab9d76bdbb699261",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1784113005221,
+  "elapsed_sec": 465.65,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 1840477443,
+  "session_mode": "identical",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "31320",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "at.tomtasche.reader_frida.jsonl",
+  "frida_lines": 482,
+  "strace_log_path": "at.tomtasche.reader_strace.log",
+  "strace_size_bytes": 26197,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 1840477443,
+  "arm": "llm",
+  "session_id": "407b766fceb3_llm_s2",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "weak:low_meaningful_events",
+  "llm_actions_count": 56,
+  "llm_action_log_path": "at.tomtasche.reader_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Tap landing catch all",
+    "Tap landing open fab",
+    "Tap Open document",
+    "Tap landing_intro_open",
+    "Tap OFF landing_catch_all",
+    "Tap ON landing_catch_all",
+    "Press Back to return to the main app list",
+    "Wait for UI to settle"
+  ],
+  "llm_ux_plan_path": "at.tomtasche.reader_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "at.tomtasche.reader_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical users open the app by tapping on a document menu_open Button, then swipe horizontally to select a tab (ON or OFF), and finally tap on an article to read. The user may also use vertical swipes between y coordinates to navigate through articles. Opening the right tab first is recommended for optimal UX.",
+  "llm_primary_ux_fallback_reason": "post_nav_realism_blend:goal_index>=4",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+    "root_screen_signature": "929bf122ce5ec4bb8047b55b10fc9721db1e7aaf6ab99358d0bb72de5b5a7dd7",
+    "root_screen_hint": "Open document menu_open Button \u00b7 landing_open_fab ImageButton \u00b7 landing_intro_open ImageView \u00b7 ON landing_catch_all Switch",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "at.tomtasche.reader",
+          "screen_hash": "9b60a0049c141b3399224d71283d7614d6de1b0427e090a6ead2bd67a10e353e",
+          "interactive_count": 4,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "929bf122ce5ec4bb8047b55b10fc9721db1e7aaf6ab99358d0bb72de5b5a7dd7",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/407b766fceb3_at.tomtasche.reader/dynamic/llm/session_2/at.tomtasche.reader_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "at.tomtasche.reader",
+    "app_name": "at.tomtasche.reader",
+    "category": "Unknown",
+    "purpose": "No description available",
+    "ux_type": "hybrid",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/at.tomtasche.reader"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 1,
+    "dialogs_tapped_after_warmup": 1,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          646,
+          1115
+        ],
+        "node_count": 28,
+        "screen_hash": "84890eebad706672"
+      },
+      {
+        "round": 2,
+        "action": "back",
+        "reason": "transition_guard_stuck_repeat",
+        "screen_hash": "84890eebad706672",
+        "repeat_hash_streak": 1
+      },
+      {
+        "round": 3,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 24,
+        "screen_hash": "e131a73ee24397a5"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          646,
+          1115
+        ],
+        "node_count": 28,
+        "screen_hash": "84890eebad706672"
+      },
+      {
+        "round": 2,
+        "action": "back",
+        "reason": "transition_guard_stuck_repeat",
+        "screen_hash": "84890eebad706672",
+        "repeat_hash_streak": 1
+      },
+      {
+        "round": 3,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 24,
+        "screen_hash": "e131a73ee24397a5"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/407b766fceb3_at.tomtasche.reader/dynamic/llm/session_2/at.tomtasche.reader_verified_start.xml",
+    "pre_setup_wall_sec": 12.208,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 5,
+  "frida_reattach_successes": 5,
+  "frida_valid_events": 36,
+  "frida_meaningful_events": 3,
+  "frida_meaningful_categories": 2
+}

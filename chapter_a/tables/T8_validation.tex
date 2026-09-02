@@ -1,0 +1,22 @@
+\begin{table}[ht]
+\centering
+\caption{Checks each headline number survived (bias, nested CI, volume, holdout, shuffle).}
+\label{tab:t8-val}
+\begin{tabular}{lrrrrrr}
+\toprule
+detector & AUC floor & bias & nested CI & volume & holdout & shuffle \\
+\midrule
+centroid\_euclidean\_nested\_form & 0.8004 & -0.0028 & True & ipc\_intents &  &  \\
+OCPool\_mean\_raw & 0.7765 &  &  &  &  &  \\
+OCPool\_mean\_R2 & 0.7544 &  &  &  &  &  \\
+S1\_norm\_nested\_bootstrap\_mean & 0.7867 & -0.0359 & False &  &  & check4\_s1norm \\
+HGB & 0.9614 &  &  &  &  &  \\
+HGB\_mean\_seeds\_42\_46 & 0.9624 &  &  &  &  &  \\
+HGB & 0.9762 &  &  &  &  &  \\
+mapped\_event\_count & 0.7025 &  &  &  &  &  \\
+HGB\_pooled\_oof\_raw & 0.8489 &  &  &  &  &  \\
+HGB\_mean\_auc\_floor & 0.9864 &  &  &  &  &  \\
+centroid\_euclidean & 0.7889 &  &  &  & pooled\_oof &  \\
+\bottomrule
+\end{tabular}
+\end{table}

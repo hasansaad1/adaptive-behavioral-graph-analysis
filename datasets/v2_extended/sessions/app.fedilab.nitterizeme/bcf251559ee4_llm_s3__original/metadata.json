@@ -1,0 +1,78 @@
+{
+  "active_categories": [
+    "file_io",
+    "storage"
+  ],
+  "app_id": "app.fedilab.nitterizeme",
+  "batch": "original",
+  "end_timestamp": "2026-07-13T04:06:47.003000Z",
+  "end_timestamp_ms": 1783915607003,
+  "event_counts": {
+    "mapped": 168,
+    "mapped_rate": 0.021222839818089943,
+    "total": 7916
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "bcf251559ee4_llm_s3__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 2,
+  "reference_tier_pass": true,
+  "session_id": "bcf251559ee4_llm_s3",
+  "session_index_within_app": 3,
+  "source_frida_path": "datasets/v2/sessions/bcf251559ee4_llm_s3__app.fedilab.nitterizeme/app.fedilab.nitterizeme_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/bcf251559ee4_llm_s3__app.fedilab.nitterizeme/app.fedilab.nitterizeme_dynamic_metadata.json",
+  "start_timestamp": "2026-07-13T03:59:08.214000Z",
+  "start_timestamp_ms": 1783915148214,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 7916,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 20,
+    "n_with_timestamp": 7916,
+    "unparseable_line_numbers_sample": [
+      4342,
+      4343,
+      4344,
+      4345,
+      4346,
+      4347,
+      4348,
+      4349,
+      4350,
+      4351,
+      6978,
+      6979,
+      6980,
+      6981,
+      6982,
+      6983,
+      6984,
+      6985,
+      6986,
+      6987
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 458.789
+}

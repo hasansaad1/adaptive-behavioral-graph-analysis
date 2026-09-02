@@ -1,0 +1,76 @@
+{
+  "active_categories": [
+    "file_io",
+    "storage"
+  ],
+  "app_id": "biz.binarysolutions.vatcalculator",
+  "batch": "original",
+  "end_timestamp": "2026-07-15T04:52:24.537000Z",
+  "end_timestamp_ms": 1784091144537,
+  "event_counts": {
+    "mapped": 10,
+    "mapped_rate": 0.020080321285140562,
+    "total": 498
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "bec3b8076c0f_llm_s3__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "File.delete",
+    "SharedPreferences.getInt"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 1,
+  "reference_tier_pass": true,
+  "session_id": "bec3b8076c0f_llm_s3",
+  "session_index_within_app": 3,
+  "source_frida_path": "datasets/v2/sessions/bec3b8076c0f_llm_s3__biz.binarysolutions.vatcalculator/biz.binarysolutions.vatcalculator_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/bec3b8076c0f_llm_s3__biz.binarysolutions.vatcalculator/biz.binarysolutions.vatcalculator_dynamic_metadata.json",
+  "start_timestamp": "2026-07-15T04:44:42.519000Z",
+  "start_timestamp_ms": 1784090682519,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 498,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 60,
+    "n_with_timestamp": 498,
+    "unparseable_line_numbers_sample": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 462.018
+}

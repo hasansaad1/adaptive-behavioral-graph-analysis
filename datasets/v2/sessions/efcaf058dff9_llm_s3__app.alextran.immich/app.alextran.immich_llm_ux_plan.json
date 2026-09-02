@@ -1,0 +1,816 @@
+{
+  "goals": [
+    "Tap Settings",
+    "Tap Networking\nManage the server endpoint settings",
+    "Tap Back",
+    "Tap Missing crucial offline login info - Logging out completely\nat 02:02:54.842 in SplashScreenPage"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap Settings",
+      "nav_token": "settings",
+      "target_keys": [
+        "tab:settings",
+        "nav:settings"
+      ],
+      "observed_screen_hashes": [
+        "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+        "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b",
+        "eb0d64ecdf98f62be150f2a20af4a5b76bc968c25eb85c536f8e19571ee2b7d2"
+      ],
+      "observed_screen_hints": [
+        "Logs View · Next Button · Settings Button · EditText · ImageView",
+        "Advanced\nAdvanced user's set Button · Asset Viewer\nManage your gal Button · Back Button · Backup\nManage upload setting Button · Free Up Space\nFree up device Button · Language\nChange the app's la Button · Networking\nManage the server Button · Notifications\nAdjust your no Button · Preferences\nManage the app's Button",
+        "Back Button · Auto play videos\nAutomatical Switch · Load original image\nEnable t Switch · Load preview image\nEnable to Switch · Tap to Navigate\nIf enabled,  Switch"
+      ],
+      "route_hint": "Use visible settings navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 1,
+      "goal": "Tap Networking\nManage the server endpoint settings",
+      "nav_token": "settings",
+      "target_keys": [
+        "tab:settings",
+        "nav:settings"
+      ],
+      "observed_screen_hashes": [
+        "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+        "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b",
+        "eb0d64ecdf98f62be150f2a20af4a5b76bc968c25eb85c536f8e19571ee2b7d2"
+      ],
+      "observed_screen_hints": [
+        "Logs View · Next Button · Settings Button · EditText · ImageView",
+        "Advanced\nAdvanced user's set Button · Asset Viewer\nManage your gal Button · Back Button · Backup\nManage upload setting Button · Free Up Space\nFree up device Button · Language\nChange the app's la Button · Networking\nManage the server Button · Notifications\nAdjust your no Button · Preferences\nManage the app's Button",
+        "Back Button · Auto play videos\nAutomatical Switch · Load original image\nEnable t Switch · Load preview image\nEnable to Switch · Tap to Navigate\nIf enabled,  Switch"
+      ],
+      "route_hint": "Use visible settings navigation target before executing this goal if not already there."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Back",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|Back",
+        "expand:|Back"
+      ],
+      "observed_screen_hashes": [
+        "97855794928421332740ce417c541834834e3f7963e475271c712cfd78814f1b",
+        "7010ad87c4b87464be2e551535bcd1e69eeb05994c30e88b8a773e1e8af3a13a"
+      ],
+      "observed_screen_hints": [
+        "Clear logs Button · Error while checking server  Button · Missing crucial offline logi Button · Share logs Button · Button",
+        "Clear logs Button · Missing crucial offline logi Button · Share logs Button · Button"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Missing crucial offline login info - Logging out completely\nat 02:02:54.842 in SplashScreenPage",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|Missing crucial offline login info - Logging out completely\nat 02:02:54.842 in SplashScreenPage",
+        "nav:|Missing crucial offline login info - Logging out completely\nat 02:02:54.842 in SplashScreenPage"
+      ],
+      "observed_screen_hashes": [
+        "7010ad87c4b87464be2e551535bcd1e69eeb05994c30e88b8a773e1e8af3a13a",
+        "6bc6c8df9a0590888574a82c08c10abde7348818d042d59b820b21b62e2035cc",
+        "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30"
+      ],
+      "observed_screen_hints": [
+        "Clear logs Button · Missing crucial offline logi Button · Share logs Button · Button",
+        "Clear logs Button · Missing crucial offline logi Button · Missing crucial offline logi Button · Share logs Button · Button",
+        "Back Button · Missing crucial offline logi View · SplashScreenPage View · Button"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d": "Logs View · Next Button · Settings Button · EditText · ImageView",
+    "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b": "Advanced\nAdvanced user's set Button · Asset Viewer\nManage your gal Button · Back Button · Backup\nManage upload setting Button · Free Up Space\nFree up device Button · Language\nChange the app's la Button · Networking\nManage the server Button · Notifications\nAdjust your no Button · Preferences\nManage the app's Button",
+    "b32a985e82a43a36a46f976d63bb6072414b5565c2825c3a890bc9905cc2fc94": "Back Button · Custom proxy headers [EXPERI Button · Import Button · 57%, INFO SeekBar · Prefer remote images\nSome de Switch · Read-only mode\nEnables the r Switch · Troubleshooting\nEnable addit Switch",
+    "eb0d64ecdf98f62be150f2a20af4a5b76bc968c25eb85c536f8e19571ee2b7d2": "Back Button · Auto play videos\nAutomatical Switch · Load original image\nEnable t Switch · Load preview image\nEnable to Switch · Tap to Navigate\nIf enabled,  Switch",
+    "97855794928421332740ce417c541834834e3f7963e475271c712cfd78814f1b": "Clear logs Button · Error while checking server  Button · Missing crucial offline logi Button · Share logs Button · Button",
+    "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30": "Back Button · Missing crucial offline logi View · SplashScreenPage View · Button",
+    "690b81bbdcd30c776a846692e2114c55fec57a4c68e57beccdcaa9e11ed5e1a6": "Clear logs Button · Share logs Button · Button",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": "",
+    "7010ad87c4b87464be2e551535bcd1e69eeb05994c30e88b8a773e1e8af3a13a": "Clear logs Button · Missing crucial offline logi Button · Share logs Button · Button",
+    "6bc6c8df9a0590888574a82c08c10abde7348818d042d59b820b21b62e2035cc": "Clear logs Button · Missing crucial offline logi Button · Missing crucial offline logi Button · Share logs Button · Button"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:|Logs": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Logs",
+        "visible_on": [
+          "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d"
+        ],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+        "last_to": "6bc6c8df9a0590888574a82c08c10abde7348818d042d59b820b21b62e2035cc"
+      },
+      "tab:settings": {
+        "kind": "tab",
+        "semantic_token": "settings",
+        "target_resource_id": "",
+        "target_content_desc": "Settings",
+        "visible_on": [
+          "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+          "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b"
+        ],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b",
+        "last_to": "eb0d64ecdf98f62be150f2a20af4a5b76bc968c25eb85c536f8e19571ee2b7d2"
+      },
+      "nav:|Logs": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Logs",
+        "visible_on": [
+          "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|Notifications\nAdjust your notification preferences": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Notifications\nAdjust your notification preferences",
+        "visible_on": [
+          "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|Preferences\nManage the app's preferences": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Preferences\nManage the app's preferences",
+        "visible_on": [
+          "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:settings": {
+        "kind": "nav",
+        "semantic_token": "settings",
+        "target_resource_id": "",
+        "target_content_desc": "Networking\nManage the server endpoint settings",
+        "visible_on": [
+          "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Notifications\nAdjust your notification preferences": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Notifications\nAdjust your notification preferences",
+        "visible_on": [
+          "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Preferences\nManage the app's preferences": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Preferences\nManage the app's preferences",
+        "visible_on": [
+          "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|Import": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Import",
+        "visible_on": [
+          "b32a985e82a43a36a46f976d63bb6072414b5565c2825c3a890bc9905cc2fc94"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|Read-only mode\nEnables the read-only mode where the photos can be only viewed, things like selecting multiple images, sharing, casting, delete are all disabled. Enable/Disable read-only via user avatar from the main screen": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Read-only mode\nEnables the read-only mode where the photos can be only viewed, things like selecting multiple images, sharing, casting, delete are all disabled. Enable/Disable read-only via user avatar from the main screen",
+        "visible_on": [
+          "b32a985e82a43a36a46f976d63bb6072414b5565c2825c3a890bc9905cc2fc94"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Import": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Import",
+        "visible_on": [
+          "b32a985e82a43a36a46f976d63bb6072414b5565c2825c3a890bc9905cc2fc94"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Read-only mode\nEnables the read-only mode where the photos can be only viewed, things like selecting multiple images, sharing, casting, delete are all disabled. Enable/Disable read-only via user avatar from the main screen": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Read-only mode\nEnables the read-only mode where the photos can be only viewed, things like selecting multiple images, sharing, casting, delete are all disabled. Enable/Disable read-only via user avatar from the main screen",
+        "visible_on": [
+          "b32a985e82a43a36a46f976d63bb6072414b5565c2825c3a890bc9905cc2fc94"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|57%, INFO": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "57%, INFO",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "b32a985e82a43a36a46f976d63bb6072414b5565c2825c3a890bc9905cc2fc94",
+        "last_to": "b32a985e82a43a36a46f976d63bb6072414b5565c2825c3a890bc9905cc2fc94"
+      },
+      "tab:|Back": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Back",
+        "visible_on": [],
+        "attempts": 4,
+        "successes": 4,
+        "last_from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "last_to": "97855794928421332740ce417c541834834e3f7963e475271c712cfd78814f1b"
+      },
+      "tab:|Auto play videos\nAutomatically start playing videos when they are opened": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Auto play videos\nAutomatically start playing videos when they are opened",
+        "visible_on": [
+          "eb0d64ecdf98f62be150f2a20af4a5b76bc968c25eb85c536f8e19571ee2b7d2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|Tap to Navigate\nIf enabled, you can navigate to the previous/next image by tapping the leftmost/rightmost quarter of the screen.": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Tap to Navigate\nIf enabled, you can navigate to the previous/next image by tapping the leftmost/rightmost quarter of the screen.",
+        "visible_on": [
+          "eb0d64ecdf98f62be150f2a20af4a5b76bc968c25eb85c536f8e19571ee2b7d2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Auto play videos\nAutomatically start playing videos when they are opened": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Auto play videos\nAutomatically start playing videos when they are opened",
+        "visible_on": [
+          "eb0d64ecdf98f62be150f2a20af4a5b76bc968c25eb85c536f8e19571ee2b7d2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Tap to Navigate\nIf enabled, you can navigate to the previous/next image by tapping the leftmost/rightmost quarter of the screen.": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Tap to Navigate\nIf enabled, you can navigate to the previous/next image by tapping the leftmost/rightmost quarter of the screen.",
+        "visible_on": [
+          "eb0d64ecdf98f62be150f2a20af4a5b76bc968c25eb85c536f8e19571ee2b7d2"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:|Next": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Next",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+        "last_to": "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d"
+      },
+      "tab:|Missing crucial offline login info - Logging out completely\nat 02:01:22.477 in SplashScreenPage": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Missing crucial offline login info - Logging out completely\nat 02:01:22.477 in SplashScreenPage",
+        "visible_on": [
+          "97855794928421332740ce417c541834834e3f7963e475271c712cfd78814f1b"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "97855794928421332740ce417c541834834e3f7963e475271c712cfd78814f1b",
+        "last_to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30"
+      },
+      "nav:|Missing crucial offline login info - Logging out completely\nat 02:01:22.477 in SplashScreenPage": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Missing crucial offline login info - Logging out completely\nat 02:01:22.477 in SplashScreenPage",
+        "visible_on": [
+          "97855794928421332740ce417c541834834e3f7963e475271c712cfd78814f1b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 606}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30"
+        ],
+        "attempts": 13,
+        "successes": 13,
+        "last_from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "last_to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30"
+      },
+      "tab:|Clear logs": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Clear logs",
+        "visible_on": [
+          "690b81bbdcd30c776a846692e2114c55fec57a4c68e57beccdcaa9e11ed5e1a6"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "690b81bbdcd30c776a846692e2114c55fec57a4c68e57beccdcaa9e11ed5e1a6",
+        "last_to": "690b81bbdcd30c776a846692e2114c55fec57a4c68e57beccdcaa9e11ed5e1a6"
+      },
+      "tab:|Share logs": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Share logs",
+        "visible_on": [
+          "690b81bbdcd30c776a846692e2114c55fec57a4c68e57beccdcaa9e11ed5e1a6"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "690b81bbdcd30c776a846692e2114c55fec57a4c68e57beccdcaa9e11ed5e1a6",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:|Missing crucial offline login info - Logging out completely\nat 02:02:54.842 in SplashScreenPage": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Missing crucial offline login info - Logging out completely\nat 02:02:54.842 in SplashScreenPage",
+        "visible_on": [
+          "7010ad87c4b87464be2e551535bcd1e69eeb05994c30e88b8a773e1e8af3a13a",
+          "6bc6c8df9a0590888574a82c08c10abde7348818d042d59b820b21b62e2035cc"
+        ],
+        "attempts": 4,
+        "successes": 4,
+        "last_from": "6bc6c8df9a0590888574a82c08c10abde7348818d042d59b820b21b62e2035cc",
+        "last_to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30"
+      },
+      "nav:|Missing crucial offline login info - Logging out completely\nat 02:02:54.842 in SplashScreenPage": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Missing crucial offline login info - Logging out completely\nat 02:02:54.842 in SplashScreenPage",
+        "visible_on": [
+          "7010ad87c4b87464be2e551535bcd1e69eeb05994c30e88b8a773e1e8af3a13a",
+          "6bc6c8df9a0590888574a82c08c10abde7348818d042d59b820b21b62e2035cc"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:|Back": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Back",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "last_to": "7010ad87c4b87464be2e551535bcd1e69eeb05994c30e88b8a773e1e8af3a13a"
+      }
+    },
+    "edges": [
+      {
+        "from": "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+        "to": "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b",
+        "to": "b32a985e82a43a36a46f976d63bb6072414b5565c2825c3a890bc9905cc2fc94",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b32a985e82a43a36a46f976d63bb6072414b5565c2825c3a890bc9905cc2fc94",
+        "to": "b32a985e82a43a36a46f976d63bb6072414b5565c2825c3a890bc9905cc2fc94",
+        "target_key": "tab:|57%, INFO",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b32a985e82a43a36a46f976d63bb6072414b5565c2825c3a890bc9905cc2fc94",
+        "to": "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b",
+        "target_key": "tab:|Back",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b",
+        "to": "eb0d64ecdf98f62be150f2a20af4a5b76bc968c25eb85c536f8e19571ee2b7d2",
+        "target_key": "tab:settings",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "eb0d64ecdf98f62be150f2a20af4a5b76bc968c25eb85c536f8e19571ee2b7d2",
+        "to": "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b",
+        "target_key": "tab:|Back",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4e900b155a8d5c7f041c54da22fe5c265e6a934cc78a2b05e2315357b0404b7b",
+        "to": "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+        "target_key": "tab:|Back",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+        "to": "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+        "target_key": "tab:|Next",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+        "to": "97855794928421332740ce417c541834834e3f7963e475271c712cfd78814f1b",
+        "target_key": "tab:|Logs",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "97855794928421332740ce417c541834834e3f7963e475271c712cfd78814f1b",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:|Missing crucial offline login info - Logging out completely\nat 02:01:22.477 in SplashScreenPage",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 606}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 606}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "97855794928421332740ce417c541834834e3f7963e475271c712cfd78814f1b",
+        "target_key": "tab:|Back",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "97855794928421332740ce417c541834834e3f7963e475271c712cfd78814f1b",
+        "to": "690b81bbdcd30c776a846692e2114c55fec57a4c68e57beccdcaa9e11ed5e1a6",
+        "target_key": "tab:|Clear logs",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "690b81bbdcd30c776a846692e2114c55fec57a4c68e57beccdcaa9e11ed5e1a6",
+        "to": "690b81bbdcd30c776a846692e2114c55fec57a4c68e57beccdcaa9e11ed5e1a6",
+        "target_key": "tab:|Clear logs",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "690b81bbdcd30c776a846692e2114c55fec57a4c68e57beccdcaa9e11ed5e1a6",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|Share logs",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+        "to": "7010ad87c4b87464be2e551535bcd1e69eeb05994c30e88b8a773e1e8af3a13a",
+        "target_key": "tab:|Logs",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "7010ad87c4b87464be2e551535bcd1e69eeb05994c30e88b8a773e1e8af3a13a",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:|Missing crucial offline login info - Logging out completely\nat 02:02:54.842 in SplashScreenPage",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "7010ad87c4b87464be2e551535bcd1e69eeb05994c30e88b8a773e1e8af3a13a",
+        "target_key": "expand:|Back",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "7010ad87c4b87464be2e551535bcd1e69eeb05994c30e88b8a773e1e8af3a13a",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:|Missing crucial offline login info - Logging out completely\nat 02:02:54.842 in SplashScreenPage",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "7010ad87c4b87464be2e551535bcd1e69eeb05994c30e88b8a773e1e8af3a13a",
+        "target_key": "expand:|Back",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "7010ad87c4b87464be2e551535bcd1e69eeb05994c30e88b8a773e1e8af3a13a",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:|Missing crucial offline login info - Logging out completely\nat 02:02:54.842 in SplashScreenPage",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 606}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 606}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 606}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 606}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 606}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 606}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 606}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+        "to": "6bc6c8df9a0590888574a82c08c10abde7348818d042d59b820b21b62e2035cc",
+        "target_key": "tab:|Logs",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "6bc6c8df9a0590888574a82c08c10abde7348818d042d59b820b21b62e2035cc",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:|Missing crucial offline login info - Logging out completely\nat 02:02:54.842 in SplashScreenPage",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 606}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 606}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 606}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "to": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 606}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+    "root_screen_signature": "eecb1095cac66227591b67830aadf55d9781b9e06b8f9f0b267bab90ea621d05",
+    "root_screen_hint": "Logs View · Next Button · Settings Button · EditText · ImageView",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "app.alextran.immich",
+          "screen_hash": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+          "interactive_count": 4,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "af403d1791d84b3ef177c45a72bd15a7f0e71ab07157f8e0e6927105380ca36d",
+          "root_landmark_score": 1
+        },
+        {
+          "attempt": 2,
+          "strategy": "start_root_activity_clear_task",
+          "clear_task": true,
+          "foreground_package": "app.alextran.immich",
+          "screen_hash": "17d961e68022a9ba3fffa78b6ccd1c5276ecdddd90b16d4d601355a86f3b9e30",
+          "interactive_count": 4,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "af403d1791d84b3ef177c45a72bd15a7f0e71ab07157f8e0e6927105380ca36d",
+          "root_landmark_score": 1
+        },
+        {
+          "attempt": 3,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "app.alextran.immich",
+          "screen_hash": "6bc6c8df9a0590888574a82c08c10abde7348818d042d59b820b21b62e2035cc",
+          "interactive_count": 5,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "cf905865726d4a6bab69e7c133d70bef52e56b780259b4cce76f59d6e80b834e",
+          "root_landmark_score": 1
+        },
+        {
+          "attempt": 4,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "app.alextran.immich",
+          "screen_hash": "3c137ccffa1a277f79fe310e5e1ea0052e028dde42b706580e9d19fc018a010d",
+          "interactive_count": 5,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "eecb1095cac66227591b67830aadf55d9781b9e06b8f9f0b267bab90ea621d05",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app by navigating to the Logs View tab, where they can view and manage logs. They then use the Back Button to switch between tabs, such as Automatic URL switching or Advanced settings. Occasionally, they may also access the Manage your gal Button or Free up device Button to perform specific actions. The primary gesture is vertical swipe between y coordinates, with horizontal swipe used for tabs/carousel navigation.",
+    "reason": "ux_goals_complete"
+  }
+}

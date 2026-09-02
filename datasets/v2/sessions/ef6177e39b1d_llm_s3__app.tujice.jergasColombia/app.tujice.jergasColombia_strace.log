@@ -1,0 +1,341 @@
+4137  1783954305.852774 exit(0)         = ?
+4137  1783954305.853173 +++ exited with 0 +++
+4116  1783954307.806530 exit(0)         = ?
+4116  1783954307.806617 +++ exited with 0 +++
+4118  1783954307.809855 exit(0)         = ?
+4119  1783954307.810207 exit(0 <unfinished ...>
+4118  1783954307.810253 +++ exited with 0 +++
+4119  1783954307.810341 <... exit resumed>) = ?
+4119  1783954307.810617 +++ exited with 0 +++
+4117  1783954307.810624 exit(0)         = ?
+4117  1783954307.811063 +++ exited with 0 +++
+4132  1783954307.813244 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4132  1783954307.813914 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4132  1783954307.814319 newfstatat(AT_FDCWD, "/data/app/app.tujice.jergasColombia-8lU7zW70fMqYnJh-8NfREg==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4132  1783954307.814621 newfstatat(AT_FDCWD, "/data/app/app.tujice.jergasColombia-8lU7zW70fMqYnJh-8NfREg==/base.apk", {st_mode=S_IFREG|0644, st_size=4581244, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4132  1783954307.814929 getcwd("/", 4096) = 2
+4132  1783954307.815215 newfstatat(AT_FDCWD, "/base.apk", 0x7622774690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+4112  1783954317.374084 recvfrom(48, "\2\0\0\0\0\0\0\0w\25\0\0\0\0\0\0\0\246\303y~\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+4112  1783954317.374384 sendto(48, "\3\0\0\0\0\0\0\0w\25\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+4112  1783954317.374416 recvfrom(48, 0x76b2b60820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4112  1783954317.374634 recvfrom(48, "\2\0\0\0\0\0\0\0y\25\0\0\0\0\0\0\0\246\303y~\2\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+4112  1783954317.374703 sendto(48, "\3\0\0\0\0\0\0\0y\25\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+4112  1783954317.374720 recvfrom(48, 0x76b2b60820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4112  1783954317.374751 socket(AF_UNIX, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 67
+4112  1783954317.374782 setsockopt(67, SOL_SOCKET, SO_SNDBUF, [1048576], 4) = 0
+4112  1783954317.374794 connect(67, {sa_family=AF_UNIX, sun_path="/dev/socket/statsdw"}, 110) = 0
+4112  1783954317.385767 recvfrom(46, 0x7fffc71380, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4112  1783954317.396663 recvfrom(46, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\211\177 {~\2\0\0O\201\2\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+4112  1783954317.396753 recvfrom(46, 0x7fffc72100, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4112  1783954317.396775 recvfrom(48, 0x76b2b60820, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+4112  1783954317.402930 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+4112  1783954317.402974 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+4112  1783954317.403005 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+4112  1783954317.403019 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+4112  1783954317.403046 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+4112  1783954317.403056 newfstatat(AT_FDCWD, "/data/app/app.tujice.jergasColombia-8lU7zW70fMqYnJh-8NfREg==/base.apk", {st_mode=S_IFREG|0644, st_size=4581244, ...}, 0) = 0
+4112  1783954317.403147 clone(child_stack=0x761f7cbd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x761f7cbd60, tls=0x761f7cc020, child_tidptr=0x761f7cbd60) = 4206
+4112  1783954317.404400 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+4112  1783954317.404411 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+4112  1783954317.404461 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+4112  1783954317.404479 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+4112  1783954317.404487 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+4112  1783954317.404494 newfstatat(AT_FDCWD, "/data/app/app.tujice.jergasColombia-8lU7zW70fMqYnJh-8NfREg==/base.apk", {st_mode=S_IFREG|0644, st_size=4581244, ...}, 0) = 0
+4112  1783954317.405742 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
+4206  1783954317.406400 exit(0)         = ?
+4206  1783954317.406620 +++ exited with 0 +++
+4112  1783954317.407691 newfstatat(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=45992421, ...}, 0) = 0
+4112  1783954317.407715 newfstatat(AT_FDCWD, "/product/overlay/GoogleConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=25070, ...}, 0) = 0
+4112  1783954317.407738 newfstatat(AT_FDCWD, "/product/overlay/GoogleWebViewOverlay.apk", {st_mode=S_IFREG|0644, st_size=16815, ...}, 0) = 0
+4112  1783954317.407746 newfstatat(AT_FDCWD, "/product/overlay/PixelConfigOverlayCommon.apk", {st_mode=S_IFREG|0644, st_size=52833, ...}, 0) = 0
+4112  1783954317.407754 newfstatat(AT_FDCWD, "/product/overlay/EmulatorConfigOverlay.apk", {st_mode=S_IFREG|0644, st_size=16734, ...}, 0) = 0
+4112  1783954317.407773 newfstatat(AT_FDCWD, "/data/app/app.tujice.jergasColombia-8lU7zW70fMqYnJh-8NfREg==/base.apk", {st_mode=S_IFREG|0644, st_size=4581244, ...}, 0) = 0
+4149  1783954317.422237 sendmsg(68, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\24\1\0\0L\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=452}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 452
+4112  1783954317.422545 openat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", O_RDONLY|O_CLOEXEC) = 70
+4112  1783954317.422703 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", {st_mode=S_IFREG|0644, st_size=63049250, ...}, 0) = 0
+4112  1783954317.422974 openat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", O_RDONLY|O_CLOEXEC) = 71
+4112  1783954317.423031 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", {st_mode=S_IFREG|0644, st_size=94562500, ...}, 0) = 0
+4112  1783954317.423371 openat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", O_RDONLY|O_CLOEXEC) = 72
+4112  1783954317.423492 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", {st_mode=S_IFREG|0644, st_size=63049250, ...}, 0) = 0
+4112  1783954317.423661 openat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", O_RDONLY|O_CLOEXEC) = 73
+4112  1783954317.423706 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", {st_mode=S_IFREG|0644, st_size=94562500, ...}, 0) = 0
+4112  1783954317.423957 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", {st_mode=S_IFREG|0644, st_size=94562500, ...}, 0) = 0
+4112  1783954317.423968 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", {st_mode=S_IFREG|0644, st_size=94562500, ...}, 0) = 0
+4112  1783954317.423987 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+4112  1783954317.423997 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+4112  1783954317.424006 newfstatat(AT_FDCWD, "/data/dalvik-cache/arm64", {st_mode=S_IFDIR|0711, st_size=4096, ...}, 0) = 0
+4112  1783954317.424024 faccessat(AT_FDCWD, "/system/product/app/TrichromeLibrary64", W_OK) = -1 EACCES (Permission denied)
+4112  1783954317.424044 newfstatat(AT_FDCWD, "/data/dalvik-cache/arm64/system@product@app@TrichromeLibrary64@TrichromeLibrary64.apk@classes.vdex", 0x7fffc6f168, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.424062 newfstatat(AT_FDCWD, "/data/dalvik-cache/arm64/system@product@app@TrichromeLibrary64@TrichromeLibrary64.apk@classes.vdex", 0x7fffc6f218, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.424074 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/oat/arm64/TrichromeLibrary64.vdex", {st_mode=S_IFREG|0644, st_size=47, ...}, 0) = 0
+4112  1783954317.424092 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/oat/arm64/TrichromeLibrary64.odex", {st_mode=S_IFREG|0644, st_size=17328, ...}, 0) = 0
+4112  1783954317.424129 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.424140 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.424146 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.424156 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.424166 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/oat", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.424177 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/oat/arm64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.424186 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/oat/arm64/TrichromeLibrary64.odex", {st_mode=S_IFREG|0644, st_size=17328, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.424261 openat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/oat/arm64/TrichromeLibrary64.odex", O_RDONLY|O_CLOEXEC) = 74
+4112  1783954317.424292 readlinkat(AT_FDCWD, "/proc/self/fd/74", "/system/product/app/TrichromeLib"..., 4096) = 72
+4112  1783954317.424343 openat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/oat/arm64/TrichromeLibrary64.odex", O_RDONLY|O_CLOEXEC) = 75
+4112  1783954317.424375 readlinkat(AT_FDCWD, "/proc/self/fd/75", "/system/product/app/TrichromeLib"..., 4096) = 72
+4112  1783954317.424841 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/oat/arm64/TrichromeLibrary64.vdex", {st_mode=S_IFREG|0644, st_size=47, ...}, 0) = 0
+4112  1783954317.424857 openat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/oat/arm64/TrichromeLibrary64.vdex", O_RDONLY) = 74
+4112  1783954317.424887 openat(AT_FDCWD, "/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", O_RDONLY) = 74
+4112  1783954317.425017 newfstatat(AT_FDCWD, "/product", {st_mode=S_IFLNK|0644, st_size=15, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.425024 readlinkat(AT_FDCWD, "/product", "/system/product", 4095) = 15
+4112  1783954317.425033 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.425040 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.425046 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.425051 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.425056 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", {st_mode=S_IFREG|0644, st_size=94562500, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.425065 openat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", O_RDONLY) = 74
+4112  1783954317.425195 newfstatat(AT_FDCWD, "/system/framework/arm64/boot.art", {st_mode=S_IFREG|0644, st_size=2670592, ...}, 0) = 0
+4112  1783954317.425216 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+4112  1783954317.425229 newfstatat(AT_FDCWD, "/data/dalvik-cache/arm64", {st_mode=S_IFDIR|0711, st_size=4096, ...}, 0) = 0
+4112  1783954317.425250 newfstatat(AT_FDCWD, "/data/dalvik-cache/arm64/system@framework@boot.art", 0x7fffc6f008, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.425262 openat(AT_FDCWD, "/system/framework/arm64/boot.art", O_RDONLY) = 74
+4112  1783954317.425366 openat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/oat/arm64/TrichromeLibrary64.art", O_RDONLY) = -1 ENOENT (No such file or directory)
+4112  1783954317.425396 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/oat/arm64/TrichromeLibrary64.art", 0x7fffc6f378, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.425410 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.425421 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.425427 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.425434 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.425477 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", {st_mode=S_IFREG|0644, st_size=94562500, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.425499 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", {st_mode=S_IFREG|0644, st_size=94562500, ...}, 0) = 0
+4112  1783954317.425516 newfstatat(AT_FDCWD, "/system/lib64", {st_mode=S_IFDIR|0755, st_size=16384, ...}, 0) = 0
+4112  1783954317.425530 newfstatat(AT_FDCWD, "/system/product/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.425545 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/lib/arm64", 0x7fffc6f748, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.425893 newfstatat(AT_FDCWD, "/system/lib64", {st_mode=S_IFDIR|0755, st_size=16384, ...}, 0) = 0
+4112  1783954317.425912 newfstatat(AT_FDCWD, "/system/product/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.425931 newfstatat(AT_FDCWD, "/system/lib64", {st_mode=S_IFDIR|0755, st_size=16384, ...}, 0) = 0
+4112  1783954317.425951 newfstatat(AT_FDCWD, "/system/product/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.425978 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", {st_mode=S_IFREG|0644, st_size=94562500, ...}, 0) = 0
+4133  1783954317.426221 clone( <unfinished ...>
+4112  1783954317.426257 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426274 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426280 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426286 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64",  <unfinished ...>
+4133  1783954317.426289 <... clone resumed> child_stack=0x761ee47d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x761ee47d60, tls=0x761ee48020, child_tidptr=0x761ee47d60) = 4207
+4112  1783954317.426301 <... newfstatat resumed> {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426305 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/lib", 0x7fffc6b5a0, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+4112  1783954317.426311 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/lib/arm64", 0x7fffc6e720, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.426317 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426323 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426337 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426343 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426352 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk!", 0x7fffc6b5a0, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+4112  1783954317.426359 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426364 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426370 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426375 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426380 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", {st_mode=S_IFREG|0644, st_size=63049250, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426387 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426392 newfstatat(AT_FDCWD, "/system/lib64", {st_mode=S_IFDIR|0755, st_size=16384, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426397 newfstatat(AT_FDCWD, "/system/lib64", {st_mode=S_IFDIR|0755, st_size=16384, ...}, 0) = 0
+4112  1783954317.426404 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426411 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426417 newfstatat(AT_FDCWD, "/system/product/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426422 newfstatat(AT_FDCWD, "/system/product/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.426427 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426432 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426437 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426443 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426448 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk!", 0x7fffc6b5a0, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+4112  1783954317.426456 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426461 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426466 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426472 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426477 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", {st_mode=S_IFREG|0644, st_size=94562500, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426484 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426489 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+4112  1783954317.426494 newfstatat(AT_FDCWD, "/mnt", {st_mode=S_IFDIR|0755, st_size=280, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426500 newfstatat(AT_FDCWD, "/mnt/expand", {st_mode=S_IFDIR|0771, st_size=40, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426513 newfstatat(AT_FDCWD, "/mnt/expand", {st_mode=S_IFDIR|0771, st_size=40, ...}, 0) = 0
+4112  1783954317.426524 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426537 newfstatat(AT_FDCWD, "/data/user", {st_mode=S_IFDIR|0711, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426550 newfstatat(AT_FDCWD, "/data/user/0", {st_mode=S_IFLNK|0777, st_size=10, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426556 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10
+4112  1783954317.426562 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426567 newfstatat(AT_FDCWD, "/data/data", {st_mode=S_IFDIR|0771, st_size=8192, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426572 newfstatat(AT_FDCWD, "/data/data/com.google.android.webview", {st_mode=S_IFDIR|0700, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426586 newfstatat(AT_FDCWD, "/data/data/com.google.android.webview", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0
+4112  1783954317.426593 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426600 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426607 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426613 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426619 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.426624 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426630 newfstatat(AT_FDCWD, "/system/lib64", {st_mode=S_IFDIR|0755, st_size=16384, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426635 newfstatat(AT_FDCWD, "/system/lib64", {st_mode=S_IFDIR|0755, st_size=16384, ...}, 0) = 0
+4112  1783954317.426641 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426646 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426651 newfstatat(AT_FDCWD, "/system/product/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.426656 newfstatat(AT_FDCWD, "/system/product/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.427022 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", {st_mode=S_IFREG|0644, st_size=63049250, ...}, 0) = 0
+4112  1783954317.427041 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", {st_mode=S_IFREG|0644, st_size=63049250, ...}, 0) = 0
+4112  1783954317.427055 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+4112  1783954317.427061 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+4112  1783954317.427066 newfstatat(AT_FDCWD, "/data/dalvik-cache/arm64", {st_mode=S_IFDIR|0711, st_size=4096, ...}, 0) = 0
+4112  1783954317.427074 faccessat(AT_FDCWD, "/system/product/app/WebViewGoogle64", W_OK) = -1 EACCES (Permission denied)
+4112  1783954317.427081 newfstatat(AT_FDCWD, "/data/dalvik-cache/arm64/system@product@app@WebViewGoogle64@WebViewGoogle64.apk@classes.vdex", 0x7fffc6f2d8, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.427088 newfstatat(AT_FDCWD, "/data/dalvik-cache/arm64/system@product@app@WebViewGoogle64@WebViewGoogle64.apk@classes.vdex", 0x7fffc6f388, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.427094 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/oat/arm64/WebViewGoogle64.vdex", {st_mode=S_IFREG|0644, st_size=3744768, ...}, 0) = 0
+4112  1783954317.427117 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/oat/arm64/WebViewGoogle64.odex", {st_mode=S_IFREG|0644, st_size=199752, ...}, 0) = 0
+4112  1783954317.427134 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.427150 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.427158 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.427163 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.427243 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/oat", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.427252 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/oat/arm64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.427259 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/oat/arm64/WebViewGoogle64.odex", {st_mode=S_IFREG|0644, st_size=199752, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.427306 openat(AT_FDCWD, "/system/product/app/WebViewGoogle64/oat/arm64/WebViewGoogle64.odex", O_RDONLY|O_CLOEXEC) = 74
+4112  1783954317.427332 readlinkat(AT_FDCWD, "/proc/self/fd/74", "/system/product/app/WebViewGoogl"..., 4096) = 66
+4112  1783954317.427358 openat(AT_FDCWD, "/system/product/app/WebViewGoogle64/oat/arm64/WebViewGoogle64.odex", O_RDONLY|O_CLOEXEC) = 75
+4112  1783954317.427390 readlinkat(AT_FDCWD, "/proc/self/fd/75", "/system/product/app/WebViewGoogl"..., 4096) = 66
+4112  1783954317.427766 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/oat/arm64/WebViewGoogle64.vdex", {st_mode=S_IFREG|0644, st_size=3744768, ...}, 0) = 0
+4112  1783954317.427785 openat(AT_FDCWD, "/system/product/app/WebViewGoogle64/oat/arm64/WebViewGoogle64.vdex", O_RDONLY) = 74
+4112  1783954317.427815 newfstatat(AT_FDCWD, "/product", {st_mode=S_IFLNK|0644, st_size=15, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.427822 readlinkat(AT_FDCWD, "/product", "/system/product", 4095) = 15
+4112  1783954317.427835 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.427841 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.427847 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.427861 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.427867 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", {st_mode=S_IFREG|0644, st_size=63049250, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.427875 openat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", O_RDONLY) = 74
+4112  1783954317.428061 newfstatat(AT_FDCWD, "/system/framework/arm64/boot.art", {st_mode=S_IFREG|0644, st_size=2670592, ...}, 0) = 0
+4112  1783954317.428069 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+4112  1783954317.428086 newfstatat(AT_FDCWD, "/data/dalvik-cache/arm64", {st_mode=S_IFDIR|0711, st_size=4096, ...}, 0) = 0
+4112  1783954317.428094 newfstatat(AT_FDCWD, "/data/dalvik-cache/arm64/system@framework@boot.art", 0x7fffc6f178, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.428110 openat(AT_FDCWD, "/system/framework/arm64/boot.art", O_RDONLY) = 74
+4112  1783954317.428150 openat(AT_FDCWD, "/system/product/app/WebViewGoogle64/oat/arm64/WebViewGoogle64.art", O_RDONLY <unfinished ...>
+4207  1783954317.428157 exit(0 <unfinished ...>
+4112  1783954317.428166 <... openat resumed> ) = -1 ENOENT (No such file or directory)
+4112  1783954317.428170 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/oat/arm64/WebViewGoogle64.art", 0x7fffc6f4e8, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.428180 newfstatat(AT_FDCWD, "/system",  <unfinished ...>
+4207  1783954317.428184 <... exit resumed>) = ?
+4112  1783954317.428195 <... newfstatat resumed> {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428200 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428206 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4207  1783954317.428217 +++ exited with 0 +++
+4112  1783954317.428218 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428224 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", {st_mode=S_IFREG|0644, st_size=63049250, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428240 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", {st_mode=S_IFREG|0644, st_size=63049250, ...}, 0) = 0
+4112  1783954317.428261 newfstatat(AT_FDCWD, "/system/lib64", {st_mode=S_IFDIR|0755, st_size=16384, ...}, 0) = 0
+4112  1783954317.428275 newfstatat(AT_FDCWD, "/system/product/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.428289 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/lib/arm64", 0x7fffc6f8b8, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.428323 newfstatat(AT_FDCWD, "/system/lib64", {st_mode=S_IFDIR|0755, st_size=16384, ...}, 0) = 0
+4112  1783954317.428343 newfstatat(AT_FDCWD, "/system/product/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.428354 newfstatat(AT_FDCWD, "/system/lib64", {st_mode=S_IFDIR|0755, st_size=16384, ...}, 0) = 0
+4112  1783954317.428360 newfstatat(AT_FDCWD, "/system/product/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.428367 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", {st_mode=S_IFREG|0644, st_size=63049250, ...}, 0) = 0
+4112  1783954317.428486 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428493 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428498 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428504 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428509 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/lib", 0x7fffc6b710, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+4112  1783954317.428514 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/lib/arm64", 0x7fffc6e890, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.428523 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428528 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428533 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428538 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428543 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk!", 0x7fffc6b710, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+4112  1783954317.428549 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428554 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428559 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428564 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428569 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", {st_mode=S_IFREG|0644, st_size=63049250, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428575 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428581 newfstatat(AT_FDCWD, "/system/lib64", {st_mode=S_IFDIR|0755, st_size=16384, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428586 newfstatat(AT_FDCWD, "/system/lib64", {st_mode=S_IFDIR|0755, st_size=16384, ...}, 0) = 0
+4112  1783954317.428591 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428596 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428601 newfstatat(AT_FDCWD, "/system/product/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428607 newfstatat(AT_FDCWD, "/system/product/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.428612 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428617 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428622 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428627 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428632 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk!", 0x7fffc6b710, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+4112  1783954317.428638 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428643 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428648 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428653 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428658 newfstatat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", {st_mode=S_IFREG|0644, st_size=94562500, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428664 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428688 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, 0) = 0
+4112  1783954317.428693 newfstatat(AT_FDCWD, "/mnt", {st_mode=S_IFDIR|0755, st_size=280, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428698 newfstatat(AT_FDCWD, "/mnt/expand", {st_mode=S_IFDIR|0771, st_size=40, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428703 newfstatat(AT_FDCWD, "/mnt/expand", {st_mode=S_IFDIR|0771, st_size=40, ...}, 0) = 0
+4112  1783954317.428708 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428713 newfstatat(AT_FDCWD, "/data/user", {st_mode=S_IFDIR|0711, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428718 newfstatat(AT_FDCWD, "/data/user/0", {st_mode=S_IFLNK|0777, st_size=10, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428723 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10
+4112  1783954317.428729 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428733 newfstatat(AT_FDCWD, "/data/data", {st_mode=S_IFDIR|0771, st_size=8192, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428738 newfstatat(AT_FDCWD, "/data/data/com.google.android.webview", {st_mode=S_IFDIR|0700, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428744 newfstatat(AT_FDCWD, "/data/data/com.google.android.webview", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0
+4112  1783954317.428749 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428754 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428759 newfstatat(AT_FDCWD, "/system/product/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428765 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428770 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.428776 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428781 newfstatat(AT_FDCWD, "/system/lib64", {st_mode=S_IFDIR|0755, st_size=16384, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428786 newfstatat(AT_FDCWD, "/system/lib64", {st_mode=S_IFDIR|0755, st_size=16384, ...}, 0) = 0
+4112  1783954317.428791 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428795 newfstatat(AT_FDCWD, "/system/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428800 newfstatat(AT_FDCWD, "/system/product/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4112  1783954317.428806 newfstatat(AT_FDCWD, "/system/product/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.428998 newfstatat(AT_FDCWD, "/system/product/app/WebViewGoogle64/lib/arm64", 0x7fffc6fb28, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.429013 newfstatat(AT_FDCWD, "/system/lib64:/system/product/lib64", 0x7fffc6fb28, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.429031 newfstatat(AT_FDCWD, "/apex/com.android.runtime/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.429040 newfstatat(AT_FDCWD, "/vendor/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.429055 newfstatat(AT_FDCWD, "/odm/lib64", 0x7fffc6fb28, 0) = -1 ENOENT (No such file or directory)
+4112  1783954317.429092 openat(AT_FDCWD, "/data/misc/shared_relro/libwebviewchromium64.relro", O_RDONLY) = 74
+4112  1783954317.429290 openat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", O_RDONLY|O_CLOEXEC) = 75
+4112  1783954317.429299 openat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk", O_RDONLY|O_CLOEXEC) = 76
+4112  1783954317.429431 openat(AT_FDCWD, "/system/product/app/WebViewGoogle64/WebViewGoogle64.apk!/lib/arm64-v8a/libmonochrome_64.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4112  1783954317.429438 openat(AT_FDCWD, "/system/lib64/libmonochrome_64.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4112  1783954317.429445 openat(AT_FDCWD, "/system/product/lib64/libmonochrome_64.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4112  1783954317.429451 openat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", O_RDONLY|O_CLOEXEC) = 75
+4112  1783954317.429457 openat(AT_FDCWD, "/system/product/app/TrichromeLibrary64/TrichromeLibrary64.apk", O_RDONLY|O_CLOEXEC) = 77
+4112  1783954317.429513 readlinkat(AT_FDCWD, "/proc/self/fd/75", "/system/product/app/TrichromeLib"..., 4096) = 61
+4112  1783954317.437253 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, 0) = 0
+4112  1783954317.437273 newfstatat(AT_FDCWD, "/apex/com.android.runtime", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.437281 newfstatat(AT_FDCWD, "/apex/com.android.runtime", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.437288 newfstatat(AT_FDCWD, "/apex/com.android.conscrypt", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.437295 newfstatat(AT_FDCWD, "/apex/com.android.conscrypt", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+4112  1783954317.437300 newfstatat(AT_FDCWD, "/system", {st_mode=S_IFDIR|0755, st_size=3488, ...}, 0) = 0
+4112  1783954317.437932 openat(AT_FDCWD, "/sys/devices/system/cpu", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 74
+4149  1783954317.438882 sendmsg(68, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1$\1\0\0M\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=468}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 468
+4112  1783954317.439569 clone(child_stack=0x761ee47d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x761ee47d60, tls=0x761ee48020, child_tidptr=0x761ee47d60) = 4208
+4112  1783954317.439700 openat(AT_FDCWD, "/data/local/tmp/webview-command-line", O_RDONLY) = -1 ENOENT (No such file or directory)
+4112  1783954317.440826 clone(child_stack=0x761e962d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x761e962d60, tls=0x761e963020, child_tidptr=0x761e962d60) = 4209
+4112  1783954317.441220 openat(AT_FDCWD, "/apex/com.android.runtime/lib64/libmonochrome_64.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4112  1783954317.441240 openat(AT_FDCWD, "/system/lib64/libmonochrome_64.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4112  1783954317.441267 openat(AT_FDCWD, "/system/product/lib64/libmonochrome_64.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4149  1783954317.441378 sendmsg(68, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\374\0\0\0N\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=428}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 428
+4149  1783954317.442079 sendmsg(68, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\344\0\0\0O\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=404}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 404
+4209  1783954317.451622 faccessat(AT_FDCWD, "/dev/stune/background/tasks", W_OK) = -1 EACCES (Permission denied)
+4209  1783954317.453285 openat(AT_FDCWD, "/proc/4209/timerslack_ns", O_WRONLY|O_CREAT|O_TRUNC|O_NOFOLLOW|O_CLOEXEC, 0666) = 74
+4209  1783954317.454645 openat(AT_FDCWD, "/proc/4209/timerslack_ns", O_WRONLY|O_CREAT|O_TRUNC|O_NOFOLLOW|O_CLOEXEC, 0666) = 74
+4209  1783954317.456343 faccessat(AT_FDCWD, "/data/user/0/app.tujice.jergasColombia", F_OK) = 0
+4209  1783954317.456522 faccessat(AT_FDCWD, "/data/user/0/app.tujice.jergasColombia/app_webview", F_OK) = 0
+4209  1783954317.456972 fchmodat(AT_FDCWD, "/data/user/0/app.tujice.jergasColombia/app_webview", 0700) = 0
+4208  1783954317.457282 exit(0 <unfinished ...>
+4209  1783954317.457524 faccessat(AT_FDCWD, "/data/user/0/app.tujice.jergasColombia", F_OK <unfinished ...>
+4208  1783954317.457543 <... exit resumed>) = ?
+4209  1783954317.457984 <... faccessat resumed> ) = 0
+4209  1783954317.458130 faccessat(AT_FDCWD, "/data/user/0/app.tujice.jergasColombia/app_textures", F_OK <unfinished ...>
+4208  1783954317.458143 +++ exited with 0 +++
+4209  1783954317.458183 <... faccessat resumed> ) = 0
+4209  1783954317.458682 faccessat(AT_FDCWD, "/data/user/0/app.tujice.jergasColombia/cache", F_OK) = 0
+4209  1783954317.459418 faccessat(AT_FDCWD, "/data/user/0/app.tujice.jergasColombia/cache", F_OK) = 0
+4209  1783954317.459680 mkdirat(AT_FDCWD, "/data/user/0/app.tujice.jergasColombia/cache/WebView", 0777) = -1 EEXIST (File exists)
+4209  1783954317.459834 fchmodat(AT_FDCWD, "/data/user/0/app.tujice.jergasColombia/cache/WebView", 02700) = 0
+4146  1783954317.505273 faccessat(AT_FDCWD, "/proc/self/task/4208", F_OK) = -1 ENOENT (No such file or directory)
+4148  1783954320.120080 exit(0)         = ?
+4148  1783954320.120474 +++ exited with 0 +++
+4146  1783954320.169812 faccessat(AT_FDCWD, "/proc/self/task/4148", F_OK) = -1 ENOENT (No such file or directory)

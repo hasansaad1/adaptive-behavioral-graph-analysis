@@ -1,0 +1,596 @@
+{
+  "goals": [
+    "Tap action about",
+    "Tap button1",
+    "Tap Open navigation drawer",
+    "Tap ABOUT",
+    "Tap Open navigation",
+    "Press Back to return to the main app list",
+    "Wait for UI to settle"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap action about",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap button1",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Open navigation drawer",
+      "nav_token": "",
+      "target_keys": [
+        "nav:|Open navigation drawer"
+      ],
+      "observed_screen_hashes": [
+        "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689"
+      ],
+      "observed_screen_hints": [
+        "ABOUT action_about Button · Open navigation drawer ImageButton",
+        "ABOUT action_about Button · Open navigation drawer ImageButton · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap ABOUT",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap Open navigation",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Press Back to return to the main app list",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 6,
+      "goal": "Wait for UI to settle",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42": "ABOUT action_about Button · Open navigation drawer ImageButton",
+    "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689": "ABOUT action_about Button · Open navigation drawer ImageButton · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout · LinearLayout",
+    "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84": "OK button1 Button"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "nav:|Open navigation drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Open navigation drawer",
+        "visible_on": [
+          "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+          "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689"
+        ],
+        "attempts": 9,
+        "successes": 9,
+        "last_from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "last_to": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689"
+      },
+      "tab:agrigolo.opendrummer:id/action_about|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "agrigolo.opendrummer:id/action_about",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "last_to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84"
+      },
+      "tab:android:id/button1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84"
+        ],
+        "attempts": 16,
+        "successes": 16,
+        "last_from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "last_to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42"
+      },
+      "nav:android:id/button1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "android:id/button1",
+        "target_content_desc": "",
+        "visible_on": [
+          "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "expand:agrigolo.opendrummer:id/action_about|": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "agrigolo.opendrummer:id/action_about",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 23,
+        "successes": 23,
+        "last_from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "last_to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84"
+      }
+    },
+    "edges": [
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "target_key": "nav:|Open navigation drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "to": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "target_key": "nav:|Open navigation drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "tab:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "target_key": "nav:|Open navigation drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "target_key": "nav:|Open navigation drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "target_key": "nav:|Open navigation drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "target_key": "nav:|Open navigation drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "target_key": "nav:|Open navigation drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "target_key": "nav:|Open navigation drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "target_key": "nav:|Open navigation drawer",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_cycle_after_exhaust"
+      },
+      {
+        "from": "8c2512a2a2ab79e6410436a158fcc38514a2dbfcf105a221745a0d9d94955689",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "to": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "target_key": "tab:android:id/button1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+        "to": "ee21625f63ed267aacb22ff9232dc1fbdc8a288e8527ccbddf5a29030ea57c84",
+        "target_key": "expand:agrigolo.opendrummer:id/action_about|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+    "root_screen_signature": "4596f3c5351f2366e82fac87896cae06c26fbeaf17d7c43ffa071f8e44e15882",
+    "root_screen_hint": "ABOUT action_about Button · Open navigation drawer ImageButton",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "agrigolo.opendrummer",
+          "screen_hash": "ad9ab731c9092c7f814b5d8af8cb7396b85ea4ceeedbfef105aa220fea645f42",
+          "interactive_count": 2,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "4596f3c5351f2366e82fac87896cae06c26fbeaf17d7c43ffa071f8e44e15882",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users open the app by tapping on the navigation drawer, then swipe down to reveal the main content area. They then tap on the 'OK' button to confirm their action. The primary gesture is a vertical swipe between y-coordinates, with occasional horizontal swipes for tabs or carousels. Opening the right tab first is not necessary in this app.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

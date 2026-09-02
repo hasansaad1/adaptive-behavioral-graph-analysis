@@ -1,0 +1,554 @@
+{
+  "goals": [
+    "Tap linearLayoutKarma",
+    "Tap Journal",
+    "Tap linearLayoutStreak",
+    "Tap Meditations"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap linearLayoutKarma",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 1,
+      "goal": "Tap Journal",
+      "nav_token": "",
+      "target_keys": [
+        "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_journal|Journal",
+        "nav:biz.binarysolutions.mindfulnessmeditation:id/navigation_journal|Journal"
+      ],
+      "observed_screen_hashes": [
+        "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "6cf8623800fef7ebda834339e8a894310d46c3904e6a1db374039ee6ed21167d",
+        "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+        "0ede665a5ee9c7b7e65d6dc51a91f5429c880112bbffbc6264d5c9ef82d47e51",
+        "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697"
+      ],
+      "observed_screen_hints": [
+        "Journal navigation_journal FrameLayout · More navigation_more FrameLayout · Support navigation_support FrameLayout · linearLayoutKarma LinearLayout · linearLayoutStreak LinearLayout · On Device LinearLayout",
+        "Journal navigation_journal FrameLayout · More navigation_more FrameLayout · Support navigation_support FrameLayout · linearLayoutKarma LinearLayout · linearLayoutStreak LinearLayout · Downloadable LinearLayout",
+        "Journal navigation_journal FrameLayout · Meditations navigation_meditations FrameLayout · Support navigation_support FrameLayout · linearLayoutKarma LinearLayout · linearLayoutStreak LinearLayout · LinearLayout · LinearLayout"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap linearLayoutStreak",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap Meditations",
+      "nav_token": "",
+      "target_keys": [
+        "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_meditations|Meditations",
+        "nav:biz.binarysolutions.mindfulnessmeditation:id/navigation_meditations|Meditations"
+      ],
+      "observed_screen_hashes": [
+        "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+        "0ede665a5ee9c7b7e65d6dc51a91f5429c880112bbffbc6264d5c9ef82d47e51",
+        "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69"
+      ],
+      "observed_screen_hints": [
+        "Meditations navigation_meditations FrameLayout · More navigation_more FrameLayout · Support navigation_support FrameLayout · linearLayoutKarma LinearLayout · linearLayoutStreak LinearLayout",
+        "Journal navigation_journal FrameLayout · Meditations navigation_meditations FrameLayout · Support navigation_support FrameLayout · linearLayoutKarma LinearLayout · linearLayoutStreak LinearLayout · LinearLayout · LinearLayout",
+        "Journal navigation_journal FrameLayout · Meditations navigation_meditations FrameLayout · More navigation_more FrameLayout · linearLayoutKarma LinearLayout · linearLayoutStreak LinearLayout · This app is free, open-sourc textViewDonate TextView"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69": "Journal navigation_journal FrameLayout · More navigation_more FrameLayout · Support navigation_support FrameLayout · linearLayoutKarma LinearLayout · linearLayoutStreak LinearLayout · On Device LinearLayout",
+    "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697": "Meditations navigation_meditations FrameLayout · More navigation_more FrameLayout · Support navigation_support FrameLayout · linearLayoutKarma LinearLayout · linearLayoutStreak LinearLayout",
+    "6cf8623800fef7ebda834339e8a894310d46c3904e6a1db374039ee6ed21167d": "Journal navigation_journal FrameLayout · More navigation_more FrameLayout · Support navigation_support FrameLayout · linearLayoutKarma LinearLayout · linearLayoutStreak LinearLayout · Downloadable LinearLayout",
+    "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf": "Journal navigation_journal FrameLayout · Meditations navigation_meditations FrameLayout · Support navigation_support FrameLayout · linearLayoutKarma LinearLayout · linearLayoutStreak LinearLayout · LinearLayout · LinearLayout",
+    "0ede665a5ee9c7b7e65d6dc51a91f5429c880112bbffbc6264d5c9ef82d47e51": "Journal navigation_journal FrameLayout · Meditations navigation_meditations FrameLayout · More navigation_more FrameLayout · linearLayoutKarma LinearLayout · linearLayoutStreak LinearLayout · This app is free, open-sourc textViewDonate TextView"
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_journal|Journal": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.mindfulnessmeditation:id/navigation_journal",
+        "target_content_desc": "Journal",
+        "visible_on": [
+          "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+          "6cf8623800fef7ebda834339e8a894310d46c3904e6a1db374039ee6ed21167d",
+          "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+          "0ede665a5ee9c7b7e65d6dc51a91f5429c880112bbffbc6264d5c9ef82d47e51"
+        ],
+        "attempts": 4,
+        "successes": 4,
+        "last_from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "last_to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697"
+      },
+      "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_more|More": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.mindfulnessmeditation:id/navigation_more",
+        "target_content_desc": "More",
+        "visible_on": [
+          "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+          "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+          "6cf8623800fef7ebda834339e8a894310d46c3904e6a1db374039ee6ed21167d",
+          "0ede665a5ee9c7b7e65d6dc51a91f5429c880112bbffbc6264d5c9ef82d47e51"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "6cf8623800fef7ebda834339e8a894310d46c3904e6a1db374039ee6ed21167d",
+        "last_to": "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf"
+      },
+      "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_support|Support": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.mindfulnessmeditation:id/navigation_support",
+        "target_content_desc": "Support",
+        "visible_on": [
+          "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+          "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+          "6cf8623800fef7ebda834339e8a894310d46c3904e6a1db374039ee6ed21167d",
+          "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+        "last_to": "0ede665a5ee9c7b7e65d6dc51a91f5429c880112bbffbc6264d5c9ef82d47e51"
+      },
+      "nav:biz.binarysolutions.mindfulnessmeditation:id/navigation_journal|Journal": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.mindfulnessmeditation:id/navigation_journal",
+        "target_content_desc": "Journal",
+        "visible_on": [
+          "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+          "6cf8623800fef7ebda834339e8a894310d46c3904e6a1db374039ee6ed21167d",
+          "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+          "0ede665a5ee9c7b7e65d6dc51a91f5429c880112bbffbc6264d5c9ef82d47e51"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:biz.binarysolutions.mindfulnessmeditation:id/navigation_more|More": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.mindfulnessmeditation:id/navigation_more",
+        "target_content_desc": "More",
+        "visible_on": [
+          "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+          "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+          "6cf8623800fef7ebda834339e8a894310d46c3904e6a1db374039ee6ed21167d",
+          "0ede665a5ee9c7b7e65d6dc51a91f5429c880112bbffbc6264d5c9ef82d47e51"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:biz.binarysolutions.mindfulnessmeditation:id/navigation_support|Support": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.mindfulnessmeditation:id/navigation_support",
+        "target_content_desc": "Support",
+        "visible_on": [
+          "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+          "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+          "6cf8623800fef7ebda834339e8a894310d46c3904e6a1db374039ee6ed21167d",
+          "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_meditations|Meditations": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.mindfulnessmeditation:id/navigation_meditations",
+        "target_content_desc": "Meditations",
+        "visible_on": [
+          "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+          "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+          "0ede665a5ee9c7b7e65d6dc51a91f5429c880112bbffbc6264d5c9ef82d47e51"
+        ],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "last_to": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69"
+      },
+      "nav:biz.binarysolutions.mindfulnessmeditation:id/navigation_meditations|Meditations": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.mindfulnessmeditation:id/navigation_meditations",
+        "target_content_desc": "Meditations",
+        "visible_on": [
+          "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+          "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+          "0ede665a5ee9c7b7e65d6dc51a91f5429c880112bbffbc6264d5c9ef82d47e51"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 21,
+        "successes": 21,
+        "last_from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "last_to": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69"
+      },
+      "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutStreak|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.mindfulnessmeditation:id/linearLayoutStreak",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 3,
+        "successes": 3,
+        "last_from": "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+        "last_to": "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf"
+      },
+      "tab:|On Device": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "On Device",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "last_to": "6cf8623800fef7ebda834339e8a894310d46c3904e6a1db374039ee6ed21167d"
+      }
+    },
+    "edges": [
+      {
+        "from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_journal|Journal",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutStreak|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "to": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_meditations|Meditations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "to": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "to": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutStreak|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "to": "6cf8623800fef7ebda834339e8a894310d46c3904e6a1db374039ee6ed21167d",
+        "target_key": "tab:|On Device",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "6cf8623800fef7ebda834339e8a894310d46c3904e6a1db374039ee6ed21167d",
+        "to": "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_more|More",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+        "to": "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+        "to": "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutStreak|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+        "to": "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "654b61527023acee27de7979a9565eff5281374994a9d412ed339fd0ab3a73cf",
+        "to": "0ede665a5ee9c7b7e65d6dc51a91f5429c880112bbffbc6264d5c9ef82d47e51",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_support|Support",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "0ede665a5ee9c7b7e65d6dc51a91f5429c880112bbffbc6264d5c9ef82d47e51",
+        "to": "0ede665a5ee9c7b7e65d6dc51a91f5429c880112bbffbc6264d5c9ef82d47e51",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "to": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "to": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_journal|Journal",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "to": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_meditations|Meditations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "to": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "to": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "to": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_journal|Journal",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "to": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_journal|Journal",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "to": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "16699e3703e764aeca46efeff8b8082b28e31ffb1a52df99c8f529564ac19697",
+        "to": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/navigation_meditations|Meditations",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "to": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+        "target_key": "tab:biz.binarysolutions.mindfulnessmeditation:id/linearLayoutKarma|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+    "root_screen_signature": "7d121b91ce8595f80794dd9026094a7c24c0528d7f8cc9e31bdbcb906d0544d5",
+    "root_screen_hint": "Journal navigation_journal FrameLayout · More navigation_more FrameLayout · Support navigation_support FrameLayout · linearLayoutKarma LinearLayout · linearLayoutStreak LinearLayout · On Device LinearLayout",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "biz.binarysolutions.mindfulnessmeditation",
+          "screen_hash": "b90c45588fae7b6446807fb2f7bdc93ea5f6ade404843ecd45b8aaf6927dbb69",
+          "interactive_count": 6,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "7d121b91ce8595f80794dd9026094a7c24c0528d7f8cc9e31bdbcb906d0544d5",
+          "root_landmark_score": 1
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users spend most of their time in the Journal navigation_journal FrameLayout, where they scroll through entries vertically (vertical swipe between y coordinates) to view and interact with their meditation journal. Occasionally, they may navigate to Meditations navigation_meditations or More navigation_more to access additional features or settings. The user typically starts by opening the Journal tab first.",
+    "reason": "ux_goals_complete"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "benign": {
+    "dropped_sample_n": 500,
+    "dropped_sample_seen": 5853,
+    "bucket_counts": {
+      "logcat_system_output": 384,
+      "other": 113,
+      "malformed_or_truncated_call_line": 3
+    },
+    "bucket_examples": {
+      "logcat_system_output": [
+        "--------- beginning of /dev/log/system",
+        "--------- beginning of /dev/log/main",
+        "--------- beginning of /dev/log/system",
+        "--------- beginning of /dev/log/system",
+        "--------- beginning of /dev/log/main",
+        "--------- beginning of /dev/log/main",
+        "--------- beginning of /dev/log/main",
+        "--------- beginning of /dev/log/system",
+        "--------- beginning of /dev/log/system",
+        "--------- beginning of /dev/log/system"
+      ],
+      "other": [
+        "-------- Environment --------",
+        "\tat android.os.Looper.loop(Looper.java:136)",
+        "<script>",
+        "var clicked = false;",
+        "var stp_contentLoaded_enabled = false; ",
+        "var saClickUrl = 'http://click.startappservice.com/tracking/adClick?d=IAAAAAAgAAA6X1tPSEVHUVxeWlZBRkZWSldVTVNcWV5DSkRaWF1fRVNMXUVCQ0RcQUBRWVVGTUdCSl5fVldJRkNVQ0FWRVNUXF5DQEhBWldXW1BaRUVcQldQQ01WX1NHSUNGUVhNWlFER0VQR0JYQ0ZUTVJLRBMbBEEeBwQAAB0MAhgEXgIKAQ4GHB0EDB0PHxALFldTRUlRXkdQTVFKRDk6OjsvJylaQEVcID0iOC8xKzsmWkNGVCYgKjUpLDs3NyYtMSlGXVRPHwUYBR8PDAAmHhsXGxoGLxIJDwAZJhgVBwsxCAkQEB8%2BGxoAAAA6ARUXCxwVEExdUlgtMjYtNyBCREZYPi4%2FNSAbABwdBAsrFhMvFwMiAB1GWlRPKzUzJCAqLilaR0xcQlpRRUVWTVZCRDE6LT0hIiFaRkZcJR",
+        "<title>StartApp</title>",
+        "\tComponent=null",
+        "\tat bwl.a(ProGuard)",
+        "\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)"
+      ],
+      "malformed_or_truncated_call_line": [
+        "<!-- [templateName: fullpage_moving_black_hand_click] -->",
+        "<!-- [templateName: fullpage_moving_black_hand_click] -->",
+        "<!-- [templateName: fullpage_moving_black_hand_click] -->"
+      ]
+    },
+    "gate_well_formed_should_allowed_nonempty": false
+  },
+  "malware": {
+    "dropped_sample_n": 500,
+    "dropped_sample_seen": 4882,
+    "bucket_counts": {
+      "logcat_system_output": 498,
+      "other": 2
+    },
+    "bucket_examples": {
+      "logcat_system_output": [
+        "--------- beginning of main",
+        "--------- beginning of main",
+        "--------- beginning of crash",
+        "--------- beginning of crash",
+        "--------- beginning of system",
+        "--------- beginning of system",
+        "--------- beginning of main",
+        "--------- beginning of system",
+        "--------- beginning of crash",
+        "--------- beginning of crash"
+      ],
+      "other": [
+        "\tAction=com.google.android.gms.ads.identifier.service.START",
+        "\tPackageName=com.google.android.gms"
+      ]
+    },
+    "gate_well_formed_should_allowed_nonempty": false
+  }
+}

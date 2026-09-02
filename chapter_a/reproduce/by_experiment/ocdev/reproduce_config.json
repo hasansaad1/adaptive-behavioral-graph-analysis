@@ -1,0 +1,151 @@
+{
+  "kind": "androct_master_verify",
+  "experiment": "ocdev",
+  "n_rows": 14,
+  "cli_rerun": {
+    "cli_module": "abrg.ocdev",
+    "out_flag": "--out"
+  },
+  "rows": [
+    {
+      "detector": "centroid_euclidean",
+      "method": "benign_only",
+      "representation": "D1_trained_t22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.8004255319148936",
+      "raw_auc": "0.8004255319148936",
+      "artifact_path": "abrg/output/androct_2017/ocdev/partA_profiles/splitA_trained/trained__D1__none__centroid_euclidean__splitA__foldNA.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "S1_norm",
+      "method": "benign_only",
+      "representation": "T1K_B_docfreq",
+      "split": "splitA_GAE",
+      "auc_floor": "0.8226011681268252",
+      "raw_auc": "0.8226011681268252",
+      "artifact_path": "abrg/output/androct_2017/ocdev/partB_support/scores__T1K_B_docfreq.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "centroid_euclidean",
+      "method": "benign_only",
+      "representation": "D0_trained_t22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.7616687526074258",
+      "raw_auc": "0.7616687526074258",
+      "artifact_path": "abrg/output/androct_2017/ocdev/partA_profiles/splitA_trained/trained__D0__none__centroid_euclidean__splitA__foldNA.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "centroid_euclidean",
+      "method": "benign_only",
+      "representation": "D2_trained_t22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.5512682519816438",
+      "raw_auc": "0.5512682519816438",
+      "artifact_path": "abrg/output/androct_2017/ocdev/partA_profiles/splitA_trained/trained__D2__none__centroid_euclidean__splitA__foldNA.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "centroid_euclidean",
+      "method": "benign_only",
+      "representation": "D3_trained_t22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.5894993742177722",
+      "raw_auc": "0.5894993742177722",
+      "artifact_path": "abrg/output/androct_2017/ocdev/partA_profiles/splitA_trained/trained__D3__none__centroid_euclidean__splitA__foldNA.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "centroid_euclidean",
+      "method": "benign_only",
+      "representation": "D4_trained_t22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.7445974134334584",
+      "raw_auc": "0.7445974134334584",
+      "artifact_path": "abrg/output/androct_2017/ocdev/partA_profiles/splitA_trained/trained__D4__none__centroid_euclidean__splitA__foldNA.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "centroid_euclidean",
+      "method": "benign_only",
+      "representation": "D5_trained_t22",
+      "split": "splitA_GAE",
+      "auc_floor": "0.7022069253233207",
+      "raw_auc": "0.7022069253233207",
+      "artifact_path": "abrg/output/androct_2017/ocdev/partA_profiles/splitA_trained/trained__D5__none__centroid_euclidean__splitA__foldNA.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "centroid_euclidean_pooled_oof",
+      "method": "benign_only",
+      "representation": "D0_trained_t22",
+      "split": "splitB_ward30",
+      "auc_floor": "0.7616687526074258",
+      "raw_auc": "0.7616687526074258",
+      "artifact_path": "abrg/output/androct_2017/ocdev/partA_profiles/partA_summary.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "centroid_euclidean_pooled_oof",
+      "method": "benign_only",
+      "representation": "D1_trained_t22",
+      "split": "splitB_ward30",
+      "auc_floor": "0.5088902795160618",
+      "raw_auc": "0.5088902795160618",
+      "artifact_path": "abrg/output/androct_2017/ocdev/partA_profiles/partA_summary.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "centroid_euclidean_pooled_oof",
+      "method": "benign_only",
+      "representation": "D2_trained_t22",
+      "split": "splitB_ward30",
+      "auc_floor": "0.5721068001668752",
+      "raw_auc": "0.5721068001668752",
+      "artifact_path": "abrg/output/androct_2017/ocdev/partA_profiles/partA_summary.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "centroid_euclidean_pooled_oof",
+      "method": "benign_only",
+      "representation": "D3_trained_t22",
+      "split": "splitB_ward30",
+      "auc_floor": "0.5394910304547351",
+      "raw_auc": "0.5394910304547351",
+      "artifact_path": "abrg/output/androct_2017/ocdev/partA_profiles/partA_summary.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "centroid_euclidean_pooled_oof",
+      "method": "benign_only",
+      "representation": "D4_trained_t22",
+      "split": "splitB_ward30",
+      "auc_floor": "0.5178431372549019",
+      "raw_auc": "0.5178431372549019",
+      "artifact_path": "abrg/output/androct_2017/ocdev/partA_profiles/partA_summary.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "centroid_euclidean_pooled_oof",
+      "method": "benign_only",
+      "representation": "D5_trained_t22",
+      "split": "splitB_ward30",
+      "auc_floor": "0.5677722152690863",
+      "raw_auc": "0.5677722152690863",
+      "artifact_path": "abrg/output/androct_2017/ocdev/partA_profiles/partA_summary.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "centroid_euclidean",
+      "method": "raw_input_control",
+      "representation": "RAW_full",
+      "split": "splitA_GAE",
+      "auc_floor": "0.7768919482686691",
+      "raw_auc": "0.7768919482686691",
+      "artifact_path": "abrg/output/androct_2017/ocdev/controls/raw_tensor/raw__RAW_full__none__centroid_euclidean__splitA__foldNA.json",
+      "is_headline": "False"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "active_categories": [
+    "crypto",
+    "database",
+    "file_io"
+  ],
+  "app_id": "cc.kafuu.bilidownload",
+  "batch": "original",
+  "end_timestamp": "2026-07-16T04:13:33.265000Z",
+  "end_timestamp_ms": 1784175213265,
+  "event_counts": {
+    "mapped": 8,
+    "mapped_rate": 0.019559902200488997,
+    "total": 409
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "64de55f0293d_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "SQLiteDatabase.execSQL"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 1,
+  "reference_tier_pass": true,
+  "session_id": "64de55f0293d_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/64de55f0293d_llm_s1__cc.kafuu.bilidownload/cc.kafuu.bilidownload_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/64de55f0293d_llm_s1__cc.kafuu.bilidownload/cc.kafuu.bilidownload_dynamic_metadata.json",
+  "start_timestamp": "2026-07-16T04:06:06.410000Z",
+  "start_timestamp_ms": 1784174766410,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 409,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 30,
+    "n_with_timestamp": 409,
+    "unparseable_line_numbers_sample": [
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 446.855
+}

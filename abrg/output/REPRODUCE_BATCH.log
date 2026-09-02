@@ -1,0 +1,364 @@
+=== run2 10:14:48 ===
+[run2] split train=562 test_benign=141 test_malware=1700
+[run2] train n_graphs=519 hidden=64 epochs=300
+[VERIFY edge_weight] call#1 edge_weight.shape=(9,) dtype=torch.float32 numel=9 min=0.03846153989434242 max=0.7307692170143127 sample=[0.4878048896789551, 0.4390243887901306, 0.7307692170143127, 0.23076923191547394, 0.7200000286102295]
+[VERIFY GCNConv] edge_weight.shape=(9,) sample=[0.4878048896789551, 0.4390243887901306, 0.7307692170143127, 0.23076923191547394, 0.7200000286102295]
+[VERIFY edge_weight] call#2 edge_weight.shape=(2,) dtype=torch.float32 numel=2 min=1.0 max=1.0 sample=[1.0, 1.0]
+[VERIFY GCNConv] edge_weight.shape=(2,) sample=[1.0, 1.0]
+[VERIFY edge_weight] call#3 edge_weight.shape=(11,) dtype=torch.float32 numel=11 min=0.11191336065530777 max=1.0 sample=[0.3333333432674408, 0.2666666805744171, 0.4000000059604645, 0.27659574151039124, 0.7234042286872864]
+[VERIFY GCNConv] edge_weight.shape=(11,) sample=[0.3333333432674408, 0.2666666805744171, 0.4000000059604645, 0.27659574151039124, 0.7234042286872864]
+# AndroCT 2017 Run 2 — SUMMARY
+- UTC: 2026-08-10T10:16:03.964132+00:00
+- static: Androguard mandatory; flagged_zero={'benign': 0, 'malware': 0, 'total': 0}
+- pins: hidden=64 epochs=300 lr=0.01 seed=42
+- edge_weight GCNConv is_none=False
+- feat_diff_L2 mean=8.876310372856127
+
+## Population / split
+- eligible: 2403 (train=562 test_benign=141 test_malware=1700)
+
+## Arm AUC (per-app, N=1)
+- auc=0.461945 auc_floor=0.538055 direction=benign_higher_score
+- bootstrap 95% CI auc=[0.413602, 0.512761]
+- bootstrap 95% CI auc_floor=[0.502868, 0.586398]
+
+## Floors (auc_floor + CI)
+- mapped_event_count: floor=0.702514 raw=0.702514 dir=malware_higher_score CI_floor=[0.643375, 0.754525]
+- total_event_count: floor=0.691162 raw=0.691162 dir=malware_higher_score CI_floor=[0.629366, 0.747718]
+- distinct_active_categories: floor=0.516544 raw=0.483456 dir=benign_higher_score CI_floor=[0.500722, 0.569890]
+- active_nodes: floor=0.516408 raw=0.483592 dir=benign_higher_score CI_floor=[0.500685, 0.570374]
+- edge_count: floor=0.526692 raw=0.526692 dir=malware_higher_score CI_floor=[0.501341, 0.578085]
+- graph_density: floor=0.526692 raw=0.526692 dir=malware_higher_score CI_floor=[0.501341, 0.578085]
+- highest_floor=0.702514
+- **Arm AUC_floor=0.538055 is below highest floor 0.702514. Not a result.**
+
+## Leak Spearman ρ (score vs …)
+- mapped_event_count: nan
+- total_event_count: nan
+- active_nodes: nan
+- edge_count: nan
+- graph_density: nan
+- static_feature_norm: nan
+- largest |ρ|: mapped_event_count = nan
+
+## Recon error medians
+- train_benign=0.671576 IQR=0.164225
+- test_benign=0.679565 IQR=0.168869
+- test_malware=0.658929 IQR=0.186144
+- ratio test_ben/train=1.011896
+- higher median error: **test_benign**
+[run2] done → abrg/output/androct_2017/run2/nb_repro
+Running: .venv/bin/python -m abrg.androct.run_gae_run2 --from-cache --output-dir abrg/output/androct_2017/run2/nb_repro
+{
+  "run_dir": "abrg/output/androct_2017/run2",
+  "reports": [
+    {
+      "ok": true,
+      "expected": {
+        "auc_floor": 0.5380552058982198,
+        "direction": "benign_higher_score",
+        "inverted": true
+      },
+      "actual": {
+        "auc_floor": 0.5380552058982198,
+        "direction": "benign_higher_score",
+        "inverted": true
+      },
+      "diffs": {
+        "\u0394auc_floor": 0.0
+      },
+      "direction_match": true,
+      "kind": "androct_auc",
+      "mode": "cli",
+      "repro_dir": "abrg/output/androct_2017/run2/nb_repro"
+    }
+  ]
+}
+VALIDATE: OK
+exit=0
+=== run4 10:16:04 ===
+[run4] load corpus cache (same as Run 3) …
+[corpus] loading cache abrg/output/androct_2017/run2/corpus_cache
+[run4] alpha=0.8 train …
+[VERIFY edge_weight] call#1 edge_weight.shape=(2,) dtype=torch.float32 numel=2 min=1.0 max=1.0 sample=[1.0, 1.0]
+[VERIFY edge_weight] call#2 edge_weight.shape=(11,) dtype=torch.float32 numel=11 min=0.11191336065530777 max=1.0 sample=[0.3333333432674408, 0.2666666805744171, 0.4000000059604645, 0.27659574151039124, 0.7234042286872864]
+[VERIFY edge_weight] call#3 edge_weight.shape=(43,) dtype=torch.float32 numel=43 min=0.014925372786819935 max=0.7334755063056946 sample=[0.5809379816055298, 0.05597579479217529, 0.014925372786819935, 0.7334755063056946, 0.1304347813129425]
+  alpha=0.8 auc_floor=0.5984 inverted=True below_floor=True
+[run4] alpha=0.5 train …
+[VERIFY edge_weight] call#1 edge_weight.shape=(2,) dtype=torch.float32 numel=2 min=1.0 max=1.0 sample=[1.0, 1.0]
+[VERIFY edge_weight] call#2 edge_weight.shape=(11,) dtype=torch.float32 numel=11 min=0.11191336065530777 max=1.0 sample=[0.3333333432674408, 0.2666666805744171, 0.4000000059604645, 0.27659574151039124, 0.7234042286872864]
+[VERIFY edge_weight] call#3 edge_weight.shape=(43,) dtype=torch.float32 numel=43 min=0.014925372786819935 max=0.7334755063056946 sample=[0.5809379816055298, 0.05597579479217529, 0.014925372786819935, 0.7334755063056946, 0.1304347813129425]
+  alpha=0.5 auc_floor=0.6241 inverted=True below_floor=True
+[run4] alpha=0.2 train …
+[VERIFY edge_weight] call#1 edge_weight.shape=(2,) dtype=torch.float32 numel=2 min=1.0 max=1.0 sample=[1.0, 1.0]
+[VERIFY edge_weight] call#2 edge_weight.shape=(11,) dtype=torch.float32 numel=11 min=0.11191336065530777 max=1.0 sample=[0.3333333432674408, 0.2666666805744171, 0.4000000059604645, 0.27659574151039124, 0.7234042286872864]
+[VERIFY edge_weight] call#3 edge_weight.shape=(43,) dtype=torch.float32 numel=43 min=0.014925372786819935 max=0.7334755063056946 sample=[0.5809379816055298, 0.05597579479217529, 0.014925372786819935, 0.7334755063056946, 0.1304347813129425]
+  alpha=0.2 auc_floor=0.6379 inverted=True below_floor=True
+# AndroCT 2017 Run 4 — SUMMARY (dual reconstruction)
+- UTC: 2026-08-10T10:16:16.021416+00:00
+- axis: α·structure + (1−α)·feature_MSE; structure = Run-3 full-adjacency weighted BCE
+- pins: hidden=64 epochs=300 lr=0.01 seed=42 N=1 (same split as Run 3)
+- eligible: 2403 train=562 test_benign=141 test_malware=1700
+
+## Size floors (same population)
+- mapped_event_count: floor=0.702514 dir=malware_higher_score CI_floor=[0.643375, 0.754525]
+- total_event_count: floor=0.691162 dir=malware_higher_score CI_floor=[0.629366, 0.747718]
+- distinct_active_categories: floor=0.516544 dir=benign_higher_score CI_floor=[0.500722, 0.569890]
+- active_nodes: floor=0.516408 dir=benign_higher_score CI_floor=[0.500685, 0.570374]
+- edge_count: floor=0.526692 dir=malware_higher_score CI_floor=[0.501341, 0.578085]
+- graph_density: floor=0.526692 dir=malware_higher_score CI_floor=[0.501341, 0.578085]
+- highest_floor=0.702514
+
+## alpha=0.8
+- auc=0.401648 auc_floor=0.598352 direction=benign_higher_score
+- bootstrap 95% CI auc=[0.358857, 0.443878]
+- bootstrap 95% CI auc_floor=[0.556122, 0.641143]
+- arm_below_highest_floor=True (highest_floor=0.702514)
+- higher median error: **test_benign** (inverted=True)
+- densest partition: test_malware
+- Spearman ρ:
+  - mapped_event_count: -0.189105
+  - total_event_count: 0.031427
+  - active_nodes: 0.270019
+  - edge_count: 0.232962
+  - graph_density: 0.232962
+  - static_feature_norm: 0.552191
+- largest |ρ|: static_feature_norm = 0.552191
+- density train_benign: active med=5.000 IQR=4.000; edges med=14.000 IQR=26.000
+- density test_benign: active med=6.000 IQR=5.000; edges med=16.000 IQR=26.000
+- density test_malware: active med=6.000 IQR=4.000; edges med=22.000 IQR=24.000
+- recon medians train=0.598135 test_ben=0.608108 test_mal=0.578211
+
+## alpha=0.5
+- auc=0.375895 auc_floor=0.624105 direction=benign_higher_score
+- bootstrap 95% CI auc=[0.336940, 0.413389]
+- bootstrap 95% CI auc_floor=[0.586611, 0.663060]
+- arm_below_highest_floor=True (highest_floor=0.702514)
+- higher median error: **test_benign** (inverted=True)
+- densest partition: test_malware
+- Spearman ρ:
+  - mapped_event_count: -0.143169
+  - total_event_count: 0.046637
+  - active_nodes: 0.317818
+  - edge_count: 0.288611
+  - graph_density: 0.288611
+  - static_feature_norm: 0.583591
+- largest |ρ|: static_feature_norm = 0.583591
+- density train_benign: active med=5.000 IQR=4.000; edges med=14.000 IQR=26.000
+- density test_benign: active med=6.000 IQR=5.000; edges med=16.000 IQR=26.000
+- density test_malware: active med=6.000 IQR=4.000; edges med=22.000 IQR=24.000
+- recon medians train=0.397683 test_ben=0.403978 test_mal=0.367173
+
+## alpha=0.2
+- auc=0.362061 auc_floor=0.637939 direction=benign_higher_score
+- bootstrap 95% CI auc=[0.324464, 0.399364]
+- bootstrap 95% CI auc_floor=[0.600636, 0.675536]
+- arm_below_highest_floor=True (highest_floor=0.702514)
+- higher median error: **test_benign** (inverted=True)
+- densest partition: test_malware
+- Spearman ρ:
+  - mapped_event_count: -0.088038
+  - total_event_count: 0.060516
+  - active_nodes: 0.383975
+  - edge_count: 0.363286
+  - graph_density: 0.363286
+  - static_feature_norm: 0.603121
+- largest |ρ|: static_feature_norm = 0.603121
+- density train_benign: active med=5.000 IQR=4.000; edges med=14.000 IQR=26.000
+- density test_benign: active med=6.000 IQR=5.000; edges med=16.000 IQR=26.000
+- density test_malware: active med=6.000 IQR=4.000; edges med=22.000 IQR=24.000
+- recon medians train=0.200680 test_ben=0.214767 test_mal=0.154585
+
+## Best alpha (by AUC_floor)
+- **alpha=0.2** auc_floor=0.637939
+
+[run4] done → abrg/output/androct_2017/run4/nb_repro best_alpha=0.2
+Running: .venv/bin/python -m abrg.androct.run_gae_run4 --output-dir abrg/output/androct_2017/run4/nb_repro
+{
+  "run_dir": "abrg/output/androct_2017/run4",
+  "reports": [
+    {
+      "ok": true,
+      "expected": {
+        "auc_floor": 0.637939090529829,
+        "direction": "benign_higher_score",
+        "inverted": true,
+        "best_alpha": 0.2
+      },
+      "actual": {
+        "auc_floor": 0.637939090529829,
+        "direction": "benign_higher_score",
+        "inverted": true,
+        "best_alpha": 0.2
+      },
+      "diffs": {
+        "\u0394auc_floor": 0.0
+      },
+      "direction_match": true,
+      "kind": "androct_auc",
+      "mode": "cli",
+      "repro_dir": "abrg/output/androct_2017/run4/nb_repro"
+    }
+  ]
+}
+VALIDATE: OK
+exit=0
+=== run5 10:19:12 ===
+[run5] bottleneck sweep at alpha=0.2 hiddens=[2, 4, 8, 16, 64]
+[corpus] loading cache abrg/output/androct_2017/run2/corpus_cache
+[run5] hidden=2 …
+[VERIFY edge_weight] call#1 edge_weight.shape=(2,) dtype=torch.float32 numel=2 min=1.0 max=1.0 sample=[1.0, 1.0]
+[VERIFY edge_weight] call#2 edge_weight.shape=(11,) dtype=torch.float32 numel=11 min=0.11191336065530777 max=1.0 sample=[0.3333333432674408, 0.2666666805744171, 0.4000000059604645, 0.27659574151039124, 0.7234042286872864]
+[VERIFY edge_weight] call#3 edge_weight.shape=(43,) dtype=torch.float32 numel=43 min=0.014925372786819935 max=0.7334755063056946 sample=[0.5809379816055298, 0.05597579479217529, 0.014925372786819935, 0.7334755063056946, 0.1304347813129425]
+  h=2 auc_floor=0.5676 inverted=True below=True
+[run5] hidden=4 …
+[VERIFY edge_weight] call#1 edge_weight.shape=(2,) dtype=torch.float32 numel=2 min=1.0 max=1.0 sample=[1.0, 1.0]
+[VERIFY edge_weight] call#2 edge_weight.shape=(11,) dtype=torch.float32 numel=11 min=0.11191336065530777 max=1.0 sample=[0.3333333432674408, 0.2666666805744171, 0.4000000059604645, 0.27659574151039124, 0.7234042286872864]
+[VERIFY edge_weight] call#3 edge_weight.shape=(43,) dtype=torch.float32 numel=43 min=0.014925372786819935 max=0.7334755063056946 sample=[0.5809379816055298, 0.05597579479217529, 0.014925372786819935, 0.7334755063056946, 0.1304347813129425]
+  h=4 auc_floor=0.6293 inverted=True below=True
+[run5] hidden=8 …
+[VERIFY edge_weight] call#1 edge_weight.shape=(2,) dtype=torch.float32 numel=2 min=1.0 max=1.0 sample=[1.0, 1.0]
+[VERIFY edge_weight] call#2 edge_weight.shape=(11,) dtype=torch.float32 numel=11 min=0.11191336065530777 max=1.0 sample=[0.3333333432674408, 0.2666666805744171, 0.4000000059604645, 0.27659574151039124, 0.7234042286872864]
+[VERIFY edge_weight] call#3 edge_weight.shape=(43,) dtype=torch.float32 numel=43 min=0.014925372786819935 max=0.7334755063056946 sample=[0.5809379816055298, 0.05597579479217529, 0.014925372786819935, 0.7334755063056946, 0.1304347813129425]
+  h=8 auc_floor=0.6379 inverted=True below=True
+[run5] hidden=16 …
+[VERIFY edge_weight] call#1 edge_weight.shape=(2,) dtype=torch.float32 numel=2 min=1.0 max=1.0 sample=[1.0, 1.0]
+[VERIFY edge_weight] call#2 edge_weight.shape=(11,) dtype=torch.float32 numel=11 min=0.11191336065530777 max=1.0 sample=[0.3333333432674408, 0.2666666805744171, 0.4000000059604645, 0.27659574151039124, 0.7234042286872864]
+[VERIFY edge_weight] call#3 edge_weight.shape=(43,) dtype=torch.float32 numel=43 min=0.014925372786819935 max=0.7334755063056946 sample=[0.5809379816055298, 0.05597579479217529, 0.014925372786819935, 0.7334755063056946, 0.1304347813129425]
+  h=16 auc_floor=0.6265 inverted=True below=True
+[run5] hidden=64 …
+[VERIFY edge_weight] call#1 edge_weight.shape=(2,) dtype=torch.float32 numel=2 min=1.0 max=1.0 sample=[1.0, 1.0]
+[VERIFY edge_weight] call#2 edge_weight.shape=(11,) dtype=torch.float32 numel=11 min=0.11191336065530777 max=1.0 sample=[0.3333333432674408, 0.2666666805744171, 0.4000000059604645, 0.27659574151039124, 0.7234042286872864]
+[VERIFY edge_weight] call#3 edge_weight.shape=(43,) dtype=torch.float32 numel=43 min=0.014925372786819935 max=0.7334755063056946 sample=[0.5809379816055298, 0.05597579479217529, 0.014925372786819935, 0.7334755063056946, 0.1304347813129425]
+  h=64 auc_floor=0.6379 inverted=True below=True
+# AndroCT 2017 Run 5 — SUMMARY (bottleneck sweep)
+- UTC: 2026-08-10T10:19:23.829521+00:00
+- axis: hidden ∈ [2, 4, 8, 16, 64] at Run-4 best alpha=0.2
+- pins: epochs=300 lr=0.01 seed=42 dual-recon
+- highest size floor=0.702514
+
+## hidden=2
+- auc=0.432370 auc_floor=0.567630 direction=benign_higher_score
+- CI_floor=[0.520125, 0.614899]
+- below_floor=True inverted=True
+- higher_err=test_benign
+- largest |ρ|=static_feature_norm=0.562798
+
+## hidden=4
+- auc=0.370680 auc_floor=0.629320 direction=benign_higher_score
+- CI_floor=[0.593875, 0.666184]
+- below_floor=True inverted=True
+- higher_err=test_benign
+- largest |ρ|=static_feature_norm=0.555629
+
+## hidden=8
+- auc=0.362107 auc_floor=0.637893 direction=benign_higher_score
+- CI_floor=[0.600792, 0.675487]
+- below_floor=True inverted=True
+- higher_err=test_benign
+- largest |ρ|=static_feature_norm=0.577447
+
+## hidden=16
+- auc=0.373542 auc_floor=0.626458 direction=benign_higher_score
+- CI_floor=[0.586230, 0.665192]
+- below_floor=True inverted=True
+- higher_err=test_benign
+- largest |ρ|=static_feature_norm=0.568059
+
+## hidden=64
+- auc=0.362061 auc_floor=0.637939 direction=benign_higher_score
+- CI_floor=[0.600636, 0.675536]
+- below_floor=True inverted=True
+- higher_err=test_benign
+- largest |ρ|=static_feature_norm=0.603121
+
+[run5] done → abrg/output/androct_2017/run5/nb_repro
+Running: .venv/bin/python -m abrg.androct.run_gae_run5 --output-dir abrg/output/androct_2017/run5/nb_repro
+{
+  "run_dir": "abrg/output/androct_2017/run5",
+  "reports": [
+    {
+      "ok": true,
+      "expected": {
+        "auc_floor": 0.637939090529829,
+        "direction": "benign_higher_score",
+        "inverted": true,
+        "best_hidden": "64"
+      },
+      "actual": {
+        "auc_floor": 0.637939090529829,
+        "direction": "benign_higher_score",
+        "inverted": true,
+        "best_hidden": "64"
+      },
+      "diffs": {
+        "\u0394auc_floor": 0.0
+      },
+      "direction_match": true,
+      "kind": "androct_auc",
+      "mode": "cli",
+      "repro_dir": "abrg/output/androct_2017/run5/nb_repro"
+    }
+  ]
+}
+VALIDATE: OK
+exit=0
+=== whiten_h8_a02 10:23:47 ===
+[run] split train=562 test_b=141 test_m=1700
+[whiten] fit on 12364 node-rows × 10 feats
+[VERIFY edge_weight] call#1 edge_weight.shape=(2,) dtype=torch.float32 numel=2 min=1.0 max=1.0 sample=[1.0, 1.0]
+[VERIFY edge_weight] call#2 edge_weight.shape=(11,) dtype=torch.float32 numel=11 min=0.11191336065530777 max=1.0 sample=[0.3333333432674408, 0.2666666805744171, 0.4000000059604645, 0.27659574151039124, 0.7234042286872864]
+[VERIFY edge_weight] call#3 edge_weight.shape=(43,) dtype=torch.float32 numel=43 min=0.014925372786819935 max=0.7334755063056946 sample=[0.5809379816055298, 0.05597579479217529, 0.014925372786819935, 0.7334755063056946, 0.1304347813129425]
+# Whitened dual-recon (h=8, α=0.2, N=1)
+- UTC: 2026-08-10T10:24:49.603464+00:00
+- whiten: center+LedoitWolf on train-benign node rows (n=12364 × F=10)
+- auc=0.440008 auc_floor=0.559992 CI_floor=[0.527004, 0.594753] dir=benign_higher_score
+- below_floor=True highest_floor=0.702514
+- higher_err=test_benign inverted=True
+- recon medians train=0.172065 test_ben=0.175283 test_mal=0.161535
+
+## Spearman ρ
+- mapped_event_count: -0.151012
+- total_event_count: 0.062106
+- active_nodes: 0.260164
+- edge_count: 0.246116
+- graph_density: 0.246116
+- static_feature_norm: 0.464886
+
+## Floors
+- mapped_event_count: floor=0.702514 dir=malware_higher_score CI=[0.643375, 0.754525]
+- total_event_count: floor=0.691162 dir=malware_higher_score CI=[0.629366, 0.747718]
+- distinct_active_categories: floor=0.516544 dir=benign_higher_score CI=[0.500722, 0.569890]
+- active_nodes: floor=0.516408 dir=benign_higher_score CI=[0.500685, 0.570374]
+- edge_count: floor=0.526692 dir=malware_higher_score CI=[0.501341, 0.578085]
+- graph_density: floor=0.526692 dir=malware_higher_score CI=[0.501341, 0.578085]
+[run] done → abrg/output/androct_2017/run6
+Running: .venv/bin/python -m abrg.androct.run6_ipc_whiten --task whiten --output-dir abrg/output/androct_2017/run6/whiten_h8_a02/nb_repro
+{
+  "run_dir": "abrg/output/androct_2017/run6/whiten_h8_a02",
+  "reports": [
+    {
+      "ok": true,
+      "expected": {
+        "auc_floor": 0.5599916562369629,
+        "direction": "benign_higher_score",
+        "inverted": true
+      },
+      "actual": {
+        "auc_floor": 0.5599916562369629,
+        "direction": "benign_higher_score",
+        "inverted": true
+      },
+      "diffs": {
+        "\u0394auc_floor": 0.0
+      },
+      "direction_match": true,
+      "kind": "androct_auc",
+      "mode": "cli",
+      "repro_dir": "abrg/output/androct_2017/run6/whiten_h8_a02/nb_repro"
+    }
+  ]
+}
+VALIDATE: OK
+exit=0
+BATCH_DONE 10:24:50

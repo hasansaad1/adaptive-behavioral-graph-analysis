@@ -1,0 +1,74 @@
+{
+  "active_categories": [
+    "storage"
+  ],
+  "app_id": "ca.ramzan.delist",
+  "batch": "original",
+  "end_timestamp": "2026-07-15T22:34:58.620000Z",
+  "end_timestamp_ms": 1784154898620,
+  "event_counts": {
+    "mapped": 8,
+    "mapped_rate": 0.011904761904761904,
+    "total": 672
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "12d9ef307c03_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": false,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 1,
+  "n_edges": 0,
+  "reference_tier_pass": true,
+  "session_id": "12d9ef307c03_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/12d9ef307c03_llm_s1__ca.ramzan.delist/ca.ramzan.delist_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/12d9ef307c03_llm_s1__ca.ramzan.delist/ca.ramzan.delist_dynamic_metadata.json",
+  "start_timestamp": "2026-07-15T22:27:24.185000Z",
+  "start_timestamp_ms": 1784154444185,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 672,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 70,
+    "n_with_timestamp": 672,
+    "unparseable_line_numbers_sample": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 454.435
+}

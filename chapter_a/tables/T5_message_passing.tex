@@ -1,0 +1,41 @@
+\begin{table}[ht]
+\centering
+\caption{M1/M2/M3 across poolings and splits, plus WL structure-only and edges-removed.}
+\label{tab:t5-mp}
+\begin{tabular}{lrrrrr}
+\toprule
+rep & mode & split & detector & AUC floor & CI type \\
+\midrule
+T1K & graph\_kernel & splitA\_GAE & WL\_h3\_ocsvm\_precomputed & 0.6726 & none \\
+T1K & graph\_kernel\_ablation & splitA\_GAE & WL\_structure\_only\_features\_constant & 0.6268 & none \\
+T1K & graph\_kernel\_ablation & splitA\_GAE & WL\_edges\_removed & 0.5000 & none \\
+T22\_mean & M1\_full & splitA\_stratified & GIN\_mean\_seeds & 0.8838 & per\_fold\_std \\
+T22\_mean & M2\_no\_edges & splitA\_stratified & GIN\_mean\_seeds & 0.9000 & per\_fold\_std \\
+T22\_mean & M3\_const\_feats & splitA\_stratified & GIN\_mean\_seeds & 0.5903 & per\_fold\_std \\
+T22\_add & M1\_full & splitA\_stratified & GIN\_mean\_seeds & 0.8690 & per\_fold\_std \\
+T22\_add & M2\_no\_edges & splitA\_stratified & GIN\_mean\_seeds & 0.8975 & per\_fold\_std \\
+T22\_add & M3\_const\_feats & splitA\_stratified & GIN\_mean\_seeds & 0.5789 & per\_fold\_std \\
+T22\_max & M1\_full & splitA\_stratified & GIN\_mean\_seeds & 0.8765 & per\_fold\_std \\
+T22\_max & M2\_no\_edges & splitA\_stratified & GIN\_mean\_seeds & 0.8886 & per\_fold\_std \\
+T22\_max & M3\_const\_feats & splitA\_stratified & GIN\_mean\_seeds & 0.6788 & per\_fold\_std \\
+T22\_mean & M1\_full & splitB\_ward30 & GIN\_weighted\_mean\_auc\_floor & 0.7904 & per\_fold\_std \\
+T22\_mean & M1\_full & splitB\_ward30 & GIN\_pooled\_oof & 0.7617 & none \\
+T22\_mean & M2\_no\_edges & splitB\_ward30 & GIN\_weighted\_mean\_auc\_floor & 0.8054 & per\_fold\_std \\
+T22\_mean & M2\_no\_edges & splitB\_ward30 & GIN\_pooled\_oof & 0.7843 & none \\
+T22\_mean & M3\_const\_feats & splitB\_ward30 & GIN\_weighted\_mean\_auc\_floor & 0.7433 & per\_fold\_std \\
+T22\_mean & M3\_const\_feats & splitB\_ward30 & GIN\_pooled\_oof & 0.6048 & none \\
+T22\_add & M1\_full & splitB\_ward30 & GIN\_weighted\_mean\_auc\_floor & 0.7774 & per\_fold\_std \\
+T22\_add & M1\_full & splitB\_ward30 & GIN\_pooled\_oof & 0.6772 & none \\
+T22\_add & M2\_no\_edges & splitB\_ward30 & GIN\_weighted\_mean\_auc\_floor & 0.7808 & per\_fold\_std \\
+T22\_add & M2\_no\_edges & splitB\_ward30 & GIN\_pooled\_oof & 0.8028 & none \\
+T22\_add & M3\_const\_feats & splitB\_ward30 & GIN\_weighted\_mean\_auc\_floor & 0.7712 & per\_fold\_std \\
+T22\_add & M3\_const\_feats & splitB\_ward30 & GIN\_pooled\_oof & 0.5863 & none \\
+T22\_max & M1\_full & splitB\_ward30 & GIN\_weighted\_mean\_auc\_floor & 0.7718 & per\_fold\_std \\
+T22\_max & M1\_full & splitB\_ward30 & GIN\_pooled\_oof & 0.7413 & none \\
+T22\_max & M2\_no\_edges & splitB\_ward30 & GIN\_weighted\_mean\_auc\_floor & 0.7578 & per\_fold\_std \\
+T22\_max & M2\_no\_edges & splitB\_ward30 & GIN\_pooled\_oof & 0.7784 & none \\
+T22\_max & M3\_const\_feats & splitB\_ward30 & GIN\_weighted\_mean\_auc\_floor & 0.6349 & per\_fold\_std \\
+T22\_max & M3\_const\_feats & splitB\_ward30 & GIN\_pooled\_oof & 0.5015 & none \\
+\bottomrule
+\end{tabular}
+\end{table}

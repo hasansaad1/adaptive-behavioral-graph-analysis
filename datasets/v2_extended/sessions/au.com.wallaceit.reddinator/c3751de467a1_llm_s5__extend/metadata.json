@@ -1,0 +1,87 @@
+{
+  "active_categories": [
+    "crypto",
+    "file_io",
+    "native_code",
+    "network",
+    "storage",
+    "webview"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "au.com.wallaceit.reddinator",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T06:26:07.581000Z",
+  "end_timestamp_ms": 1786688767581,
+  "event_counts": {
+    "mapped": 113,
+    "mapped_rate": 0.05443159922928709,
+    "total": 2076
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "c3751de467a1_llm_s5__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "FileInputStream.<init>",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "SharedPreferences.getString",
+    "Socket.connect",
+    "System.loadLibrary",
+    "URL.openConnection",
+    "WebView.loadUrl"
+  ],
+  "n_active_nodes": 6,
+  "n_edges": 12,
+  "reference_tier_pass": true,
+  "session_id": "c3751de467a1_llm_s5",
+  "session_index_within_app": 5,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/c3751de467a1_au.com.wallaceit.reddinator/dynamic/llm/session_5/au.com.wallaceit.reddinator_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/c3751de467a1_au.com.wallaceit.reddinator/dynamic/llm/session_5/au.com.wallaceit.reddinator_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T06:18:23.426000Z",
+  "start_timestamp_ms": 1786688303426,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 2076,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 214,
+    "n_with_timestamp": 2076,
+    "unparseable_line_numbers_sample": [
+      1730,
+      1731,
+      1732,
+      1733,
+      1734,
+      1735,
+      1736,
+      1737,
+      1738,
+      1739,
+      1810,
+      1812,
+      1813,
+      1814,
+      1815,
+      1816,
+      1817,
+      1818,
+      1819,
+      1820
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 464.242
+}

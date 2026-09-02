@@ -1,0 +1,87 @@
+{
+  "active_categories": [
+    "content_access",
+    "database",
+    "file_io",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "ac.robinson.mediaphone",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T04:25:49.231000Z",
+  "end_timestamp_ms": 1786681549231,
+  "event_counts": {
+    "mapped": 1046,
+    "mapped_rate": 0.6533416614615865,
+    "total": 1601
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "497e019dc8a1_llm_s5__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "ContentResolver.delete",
+    "ContentResolver.insert",
+    "ContentResolver.query",
+    "ContentResolver.update",
+    "File.delete",
+    "SQLiteDatabase.insert",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString"
+  ],
+  "n_active_nodes": 4,
+  "n_edges": 9,
+  "reference_tier_pass": true,
+  "session_id": "497e019dc8a1_llm_s5",
+  "session_index_within_app": 5,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/497e019dc8a1_ac.robinson.mediaphone/dynamic/llm/session_5/ac.robinson.mediaphone_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/497e019dc8a1_ac.robinson.mediaphone/dynamic/llm/session_5/ac.robinson.mediaphone_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T04:18:23.427000Z",
+  "start_timestamp_ms": 1786681103427,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1601,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 52,
+    "n_with_timestamp": 1601,
+    "unparseable_line_numbers_sample": [
+      1064,
+      1065,
+      1066,
+      1067,
+      1068,
+      1069,
+      1070,
+      1071,
+      1072,
+      1073,
+      1217,
+      1219,
+      1220,
+      1221,
+      1222,
+      1223,
+      1224,
+      1225,
+      1226,
+      1227
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 445.904
+}

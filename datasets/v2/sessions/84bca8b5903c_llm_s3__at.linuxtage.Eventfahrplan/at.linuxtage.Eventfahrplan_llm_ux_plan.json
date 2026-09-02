@@ -1,0 +1,557 @@
+{
+  "goals": [
+    "Tap Search",
+    "Tap Favorites",
+    "Tap Navigate up",
+    "Tap More options",
+    "Tap snackbar action",
+    "Input search query"
+  ],
+  "goal_routes": [
+    {
+      "index": 0,
+      "goal": "Tap Search",
+      "nav_token": "search",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Open the observed search affordance before typing into a query field."
+    },
+    {
+      "index": 1,
+      "goal": "Tap Favorites",
+      "nav_token": "",
+      "target_keys": [
+        "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites"
+      ],
+      "observed_screen_hashes": [
+        "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269"
+      ],
+      "observed_screen_hints": [
+        "Favorites menu_item_favorites Button · Search menu_item_search Button · More options ImageView · Spinner",
+        "Navigate up ImageButton"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 2,
+      "goal": "Tap Navigate up",
+      "nav_token": "",
+      "target_keys": [
+        "expand:|Navigate up",
+        "tab:|Navigate up"
+      ],
+      "observed_screen_hashes": [
+        "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6"
+      ],
+      "observed_screen_hints": [
+        "Favorites menu_item_favorites Button · Search menu_item_search Button · More options ImageView · Spinner"
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 3,
+      "goal": "Tap More options",
+      "nav_token": "",
+      "target_keys": [
+        "tab:|More options"
+      ],
+      "observed_screen_hashes": [
+        "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "observed_screen_hints": [
+        "Favorites menu_item_favorites Button · Search menu_item_search Button · More options ImageView · Spinner",
+        ""
+      ],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 4,
+      "goal": "Tap snackbar action",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Use the current screen if feasible; otherwise navigate via observed app controls."
+    },
+    {
+      "index": 5,
+      "goal": "Input search query",
+      "nav_token": "",
+      "target_keys": [],
+      "observed_screen_hashes": [],
+      "observed_screen_hints": [],
+      "route_hint": "Open the observed search affordance before typing into a query field."
+    }
+  ],
+  "pipeline": "nav_first_post_explore",
+  "explore_ratio": 0.35,
+  "explore_until_sec": 147.0,
+  "screen_digest": {
+    "0f80b3c9501505232ab029f0df0ed83dc88222c119fe0378a7fa75bc835dfcbc": "Favorites menu_item_favorites Button · Search menu_item_search Button · ROTATE YOUR DEVICE! snackbar_action Button · More options ImageView · Spinner",
+    "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6": "Favorites menu_item_favorites Button · Search menu_item_search Button · More options ImageView · Spinner",
+    "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269": "Navigate up ImageButton",
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": ""
+  },
+  "semantic_graph_summary": {
+    "targets": {
+      "tab:at.linuxtage.Eventfahrplan:id/snackbar_action|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/snackbar_action",
+        "target_content_desc": "",
+        "visible_on": [
+          "0f80b3c9501505232ab029f0df0ed83dc88222c119fe0378a7fa75bc835dfcbc"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "0f80b3c9501505232ab029f0df0ed83dc88222c119fe0378a7fa75bc835dfcbc",
+        "last_to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6"
+      },
+      "nav:at.linuxtage.Eventfahrplan:id/snackbar_action|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/snackbar_action",
+        "target_content_desc": "",
+        "visible_on": [
+          "0f80b3c9501505232ab029f0df0ed83dc88222c119fe0378a7fa75bc835dfcbc"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "at.linuxtage.Eventfahrplan:id/menu_item_favorites",
+        "target_content_desc": "Favorites",
+        "visible_on": [
+          "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6"
+        ],
+        "attempts": 15,
+        "successes": 15,
+        "last_from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "last_to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269"
+      },
+      "tab:|More options": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "More options",
+        "visible_on": [
+          "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:|Navigate up": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 12,
+        "successes": 12,
+        "last_from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "last_to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6"
+      },
+      "tab:|Navigate up": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Navigate up",
+        "visible_on": [],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "last_to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6"
+      }
+    },
+    "edges": [
+      {
+        "from": "0f80b3c9501505232ab029f0df0ed83dc88222c119fe0378a7fa75bc835dfcbc",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/snackbar_action|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "tab:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:|More options",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_tab_frontier"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "to": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "target_key": "tab:at.linuxtage.Eventfahrplan:id/menu_item_favorites|Favorites",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      },
+      {
+        "from": "8a201ab1b1a3ef3629044d1d111542fc7f1e1822935747d0d7bc15ca959d4269",
+        "to": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+        "target_key": "expand:|Navigate up",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_frontier"
+      }
+    ]
+  },
+  "root_handoff": {
+    "enabled": true,
+    "force_stop": false,
+    "root_screen_hash": "0f80b3c9501505232ab029f0df0ed83dc88222c119fe0378a7fa75bc835dfcbc",
+    "root_screen_signature": "dba193d468600df91af19fa2760dba4c069a1c516f661339841ef858fbccae5e",
+    "root_screen_hint": "Favorites menu_item_favorites Button · Search menu_item_search Button · ROTATE YOUR DEVICE! snackbar_action Button · More options ImageView · Spinner",
+    "root_screen_source": "launcher_root_start",
+    "root_recovery_actions": [],
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_pragmatic_landmarks:4",
+      "screen_hash": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "at.linuxtage.Eventfahrplan",
+          "screen_hash": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+          "interactive_count": 4,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "21377c87d9abc89d86842c4ec81588edf2a285346b63c6bb6bbfb20fea787261",
+          "root_landmark_score": 4
+        },
+        {
+          "attempt": 2,
+          "strategy": "start_root_activity_clear_task",
+          "clear_task": true,
+          "foreground_package": "at.linuxtage.Eventfahrplan",
+          "screen_hash": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+          "interactive_count": 4,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "21377c87d9abc89d86842c4ec81588edf2a285346b63c6bb6bbfb20fea787261",
+          "root_landmark_score": 4
+        },
+        {
+          "attempt": 3,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.google.android.apps.nexuslauncher",
+          "screen_hash": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+          "interactive_count": 4,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "21377c87d9abc89d86842c4ec81588edf2a285346b63c6bb6bbfb20fea787261",
+          "root_landmark_score": 4
+        },
+        {
+          "attempt": 4,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.google.android.apps.nexuslauncher",
+          "screen_hash": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+          "interactive_count": 4,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "21377c87d9abc89d86842c4ec81588edf2a285346b63c6bb6bbfb20fea787261",
+          "root_landmark_score": 4
+        },
+        {
+          "attempt": 5,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.google.android.apps.nexuslauncher",
+          "screen_hash": "2d42de4111d00d00adf7b7534f6d1dca999dc1ab8fecf2f741444dc5ae0275a6",
+          "interactive_count": 4,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "21377c87d9abc89d86842c4ec81588edf2a285346b63c6bb6bbfb20fea787261",
+          "root_landmark_score": 4
+        }
+      ],
+      "match_kind": "pragmatic_landmarks"
+    }
+  },
+  "primary_ux_fallback": {
+    "spec": "Typical users navigate to the app by opening the Favorites menu, then swipe vertically between different sections. They usually start with the 'View' tab and use it as a starting point for their session. The user may also tap on the 'Favorites' button to return to this section. Occasionally, they might open the Search or More options menu, but these actions are less frequent.",
+    "reason": "post_nav_realism_blend:goal_index>=4"
+  }
+}

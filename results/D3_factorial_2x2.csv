@@ -1,0 +1,5 @@
+cell,representation,readout,auc,auc_floor,direction,clears_floor,instantiation
+A,RAW,SCALAR,0.7926741760534001,0.7926741760534001,malware_higher_score,True,Minimal: s_i = ||X_raw_i||_2 (704-d flattened input); benign-only score |s_i - mean_train_benign(s)|. No exact persisted artifact.
+B,RAW,PER-NODE,0.7768919482686691,0.7768919482686691,malware_higher_score,True,RAW_full 704-d centroid Euclidean (ocdev raw_tensor control)
+C,DEV,SCALAR,0.7616687526074258,0.7616687526074258,malware_higher_score,True,D0 profile (1-d GAE recon error); centroid = |D0 - mu_train|
+D,DEV,PER-NODE,0.8004255319148936,0.8004255319148936,malware_higher_score,True,D1 profile (22-d); centroid L2 vs train-benign mean

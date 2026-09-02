@@ -1,0 +1,204 @@
+24323 1784424994.586445 exit(0)         = ?
+24323 1784424994.586547 +++ exited with 0 +++
+24322 1784424994.586681 exit(0)         = ?
+24322 1784424994.586717 +++ exited with 0 +++
+24321 1784424994.586871 exit(0)         = ?
+24321 1784424994.586921 +++ exited with 0 +++
+24320 1784424994.590312 exit(0)         = ?
+24320 1784424994.590946 +++ exited with 0 +++
+24333 1784424994.595831 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24333 1784424994.596357 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24333 1784424994.596813 newfstatat(AT_FDCWD, "/data/app/ch.mydoli.focal-PzKWotq6TLkCOEDN89yKDQ==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24333 1784424994.597271 newfstatat(AT_FDCWD, "/data/app/ch.mydoli.focal-PzKWotq6TLkCOEDN89yKDQ==/base.apk", {st_mode=S_IFREG|0644, st_size=7435945, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24333 1784424994.597751 getcwd("/", 4096) = 2
+24333 1784424994.598181 newfstatat(AT_FDCWD, "/base.apk", 0x76d2a4b690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+24313 1784424995.503934 clone(child_stack=0x76cfbdbd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x76cfbdbd60, tls=0x76cfbdc020, child_tidptr=0x76cfbdbd60) = 24388
+24388 1784424995.516044 faccessat(AT_FDCWD, "/data/user/0/ch.mydoli.focal", F_OK) = 0
+24388 1784424995.516477 faccessat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/files", F_OK) = 0
+24388 1784424995.516877 faccessat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+24388 1784424995.517250 openat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 67
+24388 1784424995.518373 getsockopt(67, SOL_SOCKET, SO_ERROR, 0x76cfbda254, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+24388 1784424995.521142 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/ch.mydoli.focal/primary.prof", 0x76cfbd9c28, 0) = -1 ENOENT (No such file or directory)
+24388 1784424995.521519 faccessat(AT_FDCWD, "/data/misc/profiles/ref/ch.mydoli.focal/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+24388 1784424995.521850 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/ch.mydoli.focal/primary.prof", {st_mode=S_IFREG|0600, st_size=19139, ...}, 0) = 0
+24388 1784424995.522158 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/ch.mydoli.focal/primary.prof", F_OK) = 0
+24388 1784424995.523034 faccessat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/files", F_OK) = 0
+24388 1784424995.523326 faccessat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/files/profileInstalled", F_OK) = 0
+24388 1784424995.523716 openat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/files/profileInstalled", O_RDONLY) = 67
+24388 1784424995.525266 getsockopt(67, SOL_SOCKET, SO_ERROR, 0x76cfbd95a4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+24388 1784424995.529654 exit(0)         = ?
+24388 1784424995.530109 +++ exited with 0 +++
+24346 1784424995.579973 faccessat(AT_FDCWD, "/proc/self/task/24388", F_OK) = -1 ENOENT (No such file or directory)
+24313 1784425001.890152 recvfrom(47, "\2\0\0\0\0\0\0\0\37\6\0\0\0\0\0\0@\234zun\1\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+24313 1784425001.890494 recvfrom(38, 0x7ff018ff10, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425001.891066 sendto(47, "\3\0\0\0\0\0\0\0\37\6\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+24313 1784425001.891325 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425001.892029 recvfrom(47, "\2\0\0\0\0\0\0\0!\6\0\0\0\0\0\0@\234zun\1\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+24313 1784425001.892215 sendto(47, "\3\0\0\0\0\0\0\0!\6\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+24313 1784425001.892444 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425001.902092 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\330$?vn\1\0\0\261l\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425001.902259 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425001.902541 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425001.904983 socket(AF_UNIX, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 67
+24313 1784425001.905368 setsockopt(67, SOL_SOCKET, SO_SNDBUF, [1048576], 4) = 0
+24313 1784425001.905616 connect(67, {sa_family=AF_UNIX, sun_path="/dev/socket/statsdw"}, 110) = 0
+24313 1784425001.915074 recvfrom(38, 0x7ff0190e80, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24349 1784425001.928456 sendmsg(68, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="l\1\1\1\350\0\0\0L\0\0\0\235\0\0\0\1\1o\0;\0\0\0/re/frid"..., iov_len=408}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 408
+24313 1784425001.930878 faccessat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases", F_OK) = 0
+24313 1784425001.931206 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", {st_mode=S_IFREG|0660, st_size=20480, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24313 1784425001.931379 openat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 70
+24313 1784425001.931843 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", {st_mode=S_IFREG|0660, st_size=20480, ...}, 0) = 0
+24313 1784425001.932744 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425001.932892 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff0190af8, 0) = -1 ENOENT (No such file or directory)
+24313 1784425001.933916 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425001.934200 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff01918d8, 0) = -1 ENOENT (No such file or directory)
+24313 1784425001.935038 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425001.935317 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff01918c8, 0) = -1 ENOENT (No such file or directory)
+24313 1784425001.935912 fchmodat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", 0660) = 0
+24313 1784425001.936701 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425001.937040 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff0191a58, 0) = -1 ENOENT (No such file or directory)
+24313 1784425001.939560 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425001.939854 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff0191a28, 0) = -1 ENOENT (No such file or directory)
+24313 1784425001.940884 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", {st_mode=S_IFREG|0660, st_size=20480, ...}, 0) = 0
+24313 1784425001.942253 clone(child_stack=0x76cfbbbd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x76cfbbbd60, tls=0x76cfbbc020, child_tidptr=0x76cfbbbd60) = 24404
+24313 1784425001.947628 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0h\306=wn\1\0\0\262l\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24404 1784425001.947905 clone( <unfinished ...>
+24313 1784425001.947918 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24404 1784425001.948170 <... clone resumed> child_stack=0x76cea82d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x76cea82d60, tls=0x76cea83020, child_tidptr=0x76cea82d60) = 24405
+24313 1784425001.948191 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425001.949591 faccessat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases", F_OK) = 0
+24313 1784425001.949795 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", {st_mode=S_IFREG|0660, st_size=20480, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24313 1784425001.950036 openat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 70
+24313 1784425001.950811 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", {st_mode=S_IFREG|0660, st_size=20480, ...}, 0) = 0
+24313 1784425001.952154 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425001.952291 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff0190b58, 0) = -1 ENOENT (No such file or directory)
+24313 1784425001.953782 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425001.954190 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff0191938, 0) = -1 ENOENT (No such file or directory)
+24313 1784425001.955515 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425001.955924 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff0191928, 0) = -1 ENOENT (No such file or directory)
+24313 1784425001.956826 fchmodat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", 0660) = 0
+24313 1784425001.957664 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425001.957953 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff0191ab8, 0) = -1 ENOENT (No such file or directory)
+24313 1784425001.960545 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425001.960835 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff0191a88, 0) = -1 ENOENT (No such file or directory)
+24313 1784425001.961851 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", {st_mode=S_IFREG|0660, st_size=20480, ...}, 0) = 0
+24313 1784425001.975307 recvfrom(38, 0x7ff0190f70, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425001.985236 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0^\3347{n\1\0\0\266l\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425001.985582 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425001.986132 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24334 1784425001.992754 clone(child_stack=0x76cdd49d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x76cdd49d60, tls=0x76cdd4a020, child_tidptr=0x76cdd49d60) = 24406
+24334 1784425001.994229 clone(child_stack=0x76687e3d40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x76687e3d60, tls=0x76687e4020, child_tidptr=0x76687e3d60) = 24407
+24313 1784425003.552725 recvfrom(38, 0x7ff0192730, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.572046 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\4\340\225\331n\1\0\0\24m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.572926 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.574146 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.576336 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.586840 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\243u\224\332n\1\0\0\25m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.587307 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.587898 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.588986 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.610329 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\304\312\222\333n\1\0\0\26m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.611013 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.613319 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.614318 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.629406 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0~'\221\334n\1\0\0\27m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.629769 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.631600 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.632351 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.642178 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\365\243\217\335n\1\0\0\30m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.642416 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.643870 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.644436 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.658428 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\366\20\216\336n\1\0\0\31m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.658685 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.660020 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.660590 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.674859 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0D\226\214\337n\1\0\0\32m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.675171 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.676326 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.676843 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.690740 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\r\362\212\340n\1\0\0\33m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.691067 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.692197 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.692700 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.707842 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0007B\211\341n\1\0\0\34m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.708189 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.709394 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.709832 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.726041 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\240f\207\342n\1\0\0\35m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.726328 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.727528 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.727975 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.739120 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\211*\206\343n\1\0\0\36m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.739392 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.740754 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.741231 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.758164 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\215\37\204\344n\1\0\0\37m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.758583 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.759811 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.760268 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.773614 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\214\214\202\345n\1\0\0 m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.774179 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.775689 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.776333 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.791085 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\302(\201\346n\1\0\0!m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.791305 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.792476 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.792908 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.807780 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\367\303\177\347n\1\0\0\"m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.808045 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.809126 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.809628 recvfrom(38, 0x7ff01916d0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.824105 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\235\325}\350n\1\0\0#m\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425003.824507 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425003.825880 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24405 1784425004.956488 exit(0)         = ?
+24405 1784425004.956611 +++ exited with 0 +++
+24346 1784425005.007690 faccessat(AT_FDCWD, "/proc/self/task/24405", F_OK) = -1 ENOENT (No such file or directory)
+24348 1784425007.453926 exit(0)         = ?
+24348 1784425007.454560 +++ exited with 0 +++
+24346 1784425007.498406 faccessat(AT_FDCWD, "/proc/self/task/24348", F_OK) = -1 ENOENT (No such file or directory)
+24313 1784425013.771582 recvfrom(47, "\2\0\0\0\0\0\0\0%\6\0\0\0\0\0\0\300\212\2639q\1\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+24313 1784425013.771995 sendto(47, "\3\0\0\0\0\0\0\0%\6\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+24313 1784425013.772222 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425013.772859 recvfrom(47, "\2\0\0\0\0\0\0\0'\6\0\0\0\0\0\0\300\212\2639q\1\0\0\1\0\0\0\2\20\0\0"..., 2272, MSG_DONTWAIT, NULL, NULL) = 232
+24313 1784425013.773156 recvfrom(38, 0x7ff018f810, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425013.773997 sendto(47, "\3\0\0\0\0\0\0\0'\6\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+24313 1784425013.774232 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425013.785320 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\nu\214:q\1\0\0wo\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425013.785480 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425013.785770 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425013.785922 recvfrom(38, 0x7ff0192980, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425013.792399 faccessat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases", F_OK) = 0
+24313 1784425013.792914 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", {st_mode=S_IFREG|0660, st_size=20480, ...}, AT_SYMLINK_NOFOLLOW) = 0
+24313 1784425013.793199 openat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 70
+24313 1784425013.794194 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", {st_mode=S_IFREG|0660, st_size=20480, ...}, 0) = 0
+24313 1784425013.795853 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425013.796068 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff01903e8, 0) = -1 ENOENT (No such file or directory)
+24334 1784425013.796777 recvfrom(42, 0x76d282deb0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24334 1784425013.797633 recvfrom(42,  <unfinished ...>
+24313 1784425013.797734 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal",  <unfinished ...>
+24334 1784425013.797747 <... recvfrom resumed> 0x76d282deb0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425013.797870 <... newfstatat resumed> {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425013.798106 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff01911c8, 0) = -1 ENOENT (No such file or directory)
+24313 1784425013.798952 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425013.799236 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff01911b8, 0) = -1 ENOENT (No such file or directory)
+24313 1784425013.799860 fchmodat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", 0660) = 0
+24313 1784425013.800447 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425013.800725 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff0191348, 0) = -1 ENOENT (No such file or directory)
+24334 1784425013.801730 recvfrom(42, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\310\31\213;q\1\0\0xo\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24334 1784425013.802326 recvfrom(42, 0x76d282dc80, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425013.807374 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-journal", {st_mode=S_IFREG|0660, st_size=0, ...}, 0) = 0
+24313 1784425013.807957 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite-wal", 0x7ff0191318, 0) = -1 ENOENT (No such file or directory)
+24313 1784425013.809488 newfstatat(AT_FDCWD, "/data/user/0/ch.mydoli.focal/databases/feed.sqlite", {st_mode=S_IFREG|0660, st_size=20480, ...}, 0) = 0
+24313 1784425013.814751 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\310\31\213;q\1\0\0xo\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425013.814998 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425013.816141 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425013.818032 recvfrom(38, 0x7ff0190c90, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24334 1784425013.822927 recvfrom(42, "nysv\0\0\0\0\0\0\0\0\0\0\0\08\275\211<q\1\0\0yo\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24334 1784425013.823158 recvfrom(42, 0x76d282deb0, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425013.835293 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0$\\\210=q\1\0\0zo\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24313 1784425013.835764 recvfrom(38, 0x7ff0192a20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24313 1784425013.837229 recvfrom(47, 0x76cd66c020, 2272, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+24334 1784425013.842903 recvfrom(42, "nysv\0\0\0\0\0\0\0\0\0\0\0\0$\\\210=q\1\0\0zo\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+24334 1784425013.843169 recvfrom(42, 0x76d282dc80, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)

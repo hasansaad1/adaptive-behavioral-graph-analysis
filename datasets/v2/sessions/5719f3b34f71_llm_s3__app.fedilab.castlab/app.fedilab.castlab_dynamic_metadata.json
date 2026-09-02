@@ -1,0 +1,232 @@
+{
+  "package_name": "app.fedilab.castlab",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/app.fedilab.castlab_11.apk",
+  "apk_sha256": "5719f3b34f716ad710821f6916fe3327da00f909b4368a60577a7b6348a0e785",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1783910926923,
+  "elapsed_sec": 454.567,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 1538210628,
+  "session_mode": "varied",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "27621",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "app.fedilab.castlab_frida.jsonl",
+  "frida_lines": 6320,
+  "strace_log_path": "app.fedilab.castlab_strace.log",
+  "strace_size_bytes": 1103956,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 562335973,
+  "arm": "llm",
+  "session_id": "5719f3b34f71_llm_s3",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "good",
+  "llm_actions_count": 46,
+  "llm_action_log_path": "app.fedilab.castlab_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Tap Donate via Liberapay",
+    "Tap No device connected",
+    "Tap 05pd1760.jpg, 1280 x 851, 6/16/2026, 3:13:26 AM",
+    "Tap icon-button"
+  ],
+  "llm_ux_plan_path": "app.fedilab.castlab_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "app.fedilab.castlab_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical users primarily use the app to browse and view images, with a focus on vertically swiping through media content. They may also occasionally access the 'About' menu to view information about the app or its features. The primary gesture is vertical swipe between y coordinates, with occasional horizontal swipes for tab navigation. Opening the 'All media' tab first provides access to the majority of the app's content.",
+  "llm_primary_ux_fallback_reason": "ux_goals_complete",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "fecc462f11078dfb8bfbb215ec86fec819066aa2d5b14b93e6230c4896f4ec50",
+    "root_screen_signature": "a321afadb5ab82ccae49089df3a47fe168889330ba2d4672b512790e05c966f0",
+    "root_screen_hint": "About menu-item View \u00b7 Change theme menu-item View \u00b7 Customize Theme menu-item View \u00b7 Open file menu-item View \u00b7 Playlists menu-item View \u00b7 Video Extractor menu-item View \u00b7 Contextual menu icon-button Button \u00b7 icon-button Button \u00b7 NASAImages, 4 media ViewGroup \u00b7 Screenshots, 1 media ViewGroup",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_explore_settled:4:2",
+      "screen_hash": "eec7f7c109adb2eea4b6039c8fd142b2de9d9c9d93852f5e112c124a19282157",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "app.fedilab.castlab",
+          "screen_hash": "3a1a0d79d1ccf8df202b5376a719b9abe64eab91da7674c815bad47aaf0661b8",
+          "interactive_count": 8,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "fe3f780a7ada01894c3b8a7f234ebd9b29abd71cf69dc8f1d8a7efcdd73e71b2",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 2,
+          "strategy": "start_root_activity_clear_task",
+          "clear_task": true,
+          "foreground_package": "app.fedilab.castlab",
+          "screen_hash": "3a1a0d79d1ccf8df202b5376a719b9abe64eab91da7674c815bad47aaf0661b8",
+          "interactive_count": 8,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "fe3f780a7ada01894c3b8a7f234ebd9b29abd71cf69dc8f1d8a7efcdd73e71b2",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 3,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "app.fedilab.castlab",
+          "screen_hash": "eec7f7c109adb2eea4b6039c8fd142b2de9d9c9d93852f5e112c124a19282157",
+          "interactive_count": 8,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "7aefdc57e9dd7978e13e0c23637712bdfd5475b0a4c717416b25ca87f87ecad9",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 4,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.android.chrome",
+          "screen_hash": "eec7f7c109adb2eea4b6039c8fd142b2de9d9c9d93852f5e112c124a19282157",
+          "interactive_count": 8,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "7aefdc57e9dd7978e13e0c23637712bdfd5475b0a4c717416b25ca87f87ecad9",
+          "root_landmark_score": 2
+        },
+        {
+          "attempt": 5,
+          "strategy": "back_toward_root",
+          "clear_task": false,
+          "foreground_package": "com.android.chrome",
+          "screen_hash": "eec7f7c109adb2eea4b6039c8fd142b2de9d9c9d93852f5e112c124a19282157",
+          "interactive_count": 8,
+          "valid": false,
+          "reason": "not_original_root_home",
+          "match_kind": "valid_non_root",
+          "root_hash_match": false,
+          "root_signature_match": false,
+          "screen_root_signature": "7aefdc57e9dd7978e13e0c23637712bdfd5475b0a4c717416b25ca87f87ecad9",
+          "root_landmark_score": 2
+        }
+      ],
+      "match_kind": "explore_settled"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/5719f3b34f71_app.fedilab.castlab/dynamic/llm/session_3/app.fedilab.castlab_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "app.fedilab.castlab",
+    "app_name": "app.fedilab.castlab",
+    "category": "Unknown",
+    "purpose": "No description available",
+    "ux_type": "hybrid",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/app.fedilab.castlab"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 1,
+    "dialogs_tapped_after_warmup": 0,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "permission_allow",
+        "target": [
+          540,
+          1023
+        ],
+        "node_count": 13,
+        "screen_hash": "56082d65b7110b76"
+      },
+      {
+        "round": 2,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 61,
+        "screen_hash": "c3bcf84537aa322a"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 90,
+        "screen_hash": "7cfeb49953eee016"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/5719f3b34f71_app.fedilab.castlab/dynamic/llm/session_3/app.fedilab.castlab_verified_start.xml",
+    "pre_setup_wall_sec": 6.227,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 3,
+  "frida_reattach_successes": 3,
+  "frida_valid_events": 6034,
+  "frida_meaningful_events": 79,
+  "frida_meaningful_categories": 4
+}

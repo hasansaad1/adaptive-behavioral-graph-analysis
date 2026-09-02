@@ -1,0 +1,74 @@
+{
+  "active_categories": [
+    "crypto",
+    "file_io",
+    "network",
+    "storage",
+    "webview"
+  ],
+  "app_id": "app.fedilab.mobilizon",
+  "batch": "original",
+  "end_timestamp": "2026-07-13T03:35:39.780000Z",
+  "end_timestamp_ms": 1783913739780,
+  "event_counts": {
+    "mapped": 127,
+    "mapped_rate": 0.012053910402429764,
+    "total": 10536
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "9b7a3d5efee6_llm_s2__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "SharedPreferences.getString",
+    "Socket.connect",
+    "WebView.loadUrl",
+    "okhttp3.RealCall.execute",
+    "retrofit2.OkHttpCall.execute"
+  ],
+  "n_active_nodes": 5,
+  "n_edges": 14,
+  "reference_tier_pass": true,
+  "session_id": "9b7a3d5efee6_llm_s2",
+  "session_index_within_app": 2,
+  "source_frida_path": "datasets/v2/sessions/9b7a3d5efee6_llm_s2__app.fedilab.mobilizon/app.fedilab.mobilizon_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/9b7a3d5efee6_llm_s2__app.fedilab.mobilizon/app.fedilab.mobilizon_dynamic_metadata.json",
+  "start_timestamp": "2026-07-13T03:27:51.709000Z",
+  "start_timestamp_ms": 1783913271709,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 10536,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 10,
+    "n_with_timestamp": 10536,
+    "unparseable_line_numbers_sample": [
+      9364,
+      9365,
+      9366,
+      9367,
+      9368,
+      9369,
+      9370,
+      9371,
+      9372,
+      9373
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 468.071
+}

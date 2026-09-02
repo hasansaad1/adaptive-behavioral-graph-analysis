@@ -1,0 +1,220 @@
+{
+  "package_name": "ca.andries.portknocker",
+  "apk_path": "$CONTEXTDROID_ROOT/data/apks/benign/ca.andries.portknocker_1.apk",
+  "apk_sha256": "f54d6d05f299ba2b2e7c351a411b9531ee7fd95b3af02d59cb50b74ef30ea017",
+  "duration_sec": 420,
+  "started_at_epoch_ms": 1784103362578,
+  "elapsed_sec": 458.186,
+  "frida_mode": "host",
+  "hook_script_path": "$CONTEXTDROID_ROOT/frida_scripts/hook_apis.js",
+  "hook_script_sha256": "3192c7d6f618bb455588a7db7b26b20ccb9028af22cf1d8d8f0db99c28009ffc",
+  "hook_version": "3",
+  "agent_seed": 989742978,
+  "session_mode": "varied",
+  "collection_config": "collection_v2",
+  "explore_until_sec_floor": "120",
+  "llm_explore_ratio": "0.35",
+  "app_pid": "18698",
+  "strace_enabled": true,
+  "strace_skip_reason": "",
+  "frida_log_path": "ca.andries.portknocker_frida.jsonl",
+  "frida_lines": 407,
+  "strace_log_path": "ca.andries.portknocker_strace.log",
+  "strace_size_bytes": 200235,
+  "analysis_status": "success",
+  "analysis_exit_code": 0,
+  "monkey_seed": 4910102,
+  "arm": "llm",
+  "session_id": "f54d6d05f299_llm_s3",
+  "metadata_source": "fdroid",
+  "context_confidence": "medium",
+  "planner_model": "llama3.2",
+  "llm_status": "success",
+  "llm_infra_status": "success",
+  "llm_simulation_status": "success",
+  "llm_simulation_status_detail": "human_ux_overall_pass",
+  "data_quality_status": "weak:low_meaningful_events",
+  "llm_actions_count": 54,
+  "llm_action_log_path": "ca.andries.portknocker_llm_actions.jsonl",
+  "llm_step_trace_path": "",
+  "llm_audit_log_path": "",
+  "llm_ux_goals": [
+    "Tap knockBtn",
+    "Tap portsTxt",
+    "Tap History",
+    "Tap Profiles",
+    "Tap Quick Knock"
+  ],
+  "llm_ux_plan_path": "ca.andries.portknocker_llm_ux_plan.json",
+  "llm_navigation_artifact_path": "ca.andries.portknocker_llm_navigation_artifact.json",
+  "llm_primary_ux_fallback_spec": "Typical users open the app by tapping on the 'KNOCK KNOCK!' button, then swipe down to reveal the host's information (IP or name) and ports. They then tap on the 'History' tab to view previous connections, followed by the 'Profiles' tab to manage their own profiles. Users may also occasionally tap on the 'Add' button to create a new connection.",
+  "llm_primary_ux_fallback_reason": "post_nav_realism_blend:goal_index>=4",
+  "llm_root_handoff": {
+    "done": true,
+    "force_stop": false,
+    "root_screen_hash": "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+    "root_screen_signature": "1c4d36e42c2f50f8fdf819cd1fde66c771a368443924a4c3919e5415182fe208",
+    "root_screen_hint": "KNOCK KNOCK! knockBtn Button \u00b7 Host (IP or name) hostTxt EditText \u00b7 Ports (comma-separated) portsTxt EditText \u00b7 History ActionBar$Tab \u00b7 Profiles ActionBar$Tab \u00b7 Quick Knock ActionBar$Tab",
+    "root_screen_source": "launcher_root_start",
+    "result": {
+      "ok": true,
+      "reason": "root_handoff_ok_exact",
+      "screen_hash": "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+      "attempts": [
+        {
+          "attempt": 1,
+          "strategy": "start_root_activity",
+          "clear_task": false,
+          "foreground_package": "ca.andries.portknocker",
+          "screen_hash": "e8bd7b842c06a7f78d24034a4df6542bf26c35d86cd7893ff3ea60f4a9f0171d",
+          "interactive_count": 6,
+          "valid": true,
+          "reason": "root_handoff_ok_exact",
+          "match_kind": "exact",
+          "root_hash_match": true,
+          "root_signature_match": false,
+          "screen_root_signature": "1c4d36e42c2f50f8fdf819cd1fde66c771a368443924a4c3919e5415182fe208",
+          "root_landmark_score": 3
+        }
+      ],
+      "match_kind": "exact"
+    }
+  },
+  "human_ux_report_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/f54d6d05f299_ca.andries.portknocker/dynamic/llm/session_3/ca.andries.portknocker_human_ux_report.json",
+  "human_ux_overall_pass": true,
+  "human_ux_behavior_pass": true,
+  "human_ux_mechanistic_pass": true,
+  "human_ux_session_pass": true,
+  "human_ux_pragmatic_recovery": false,
+  "human_ux_criteria_version": "human_ux_v3",
+  "webview_dominant": false,
+  "app_context": {
+    "package_name": "ca.andries.portknocker",
+    "app_name": "ca.andries.portknocker",
+    "category": "Unknown",
+    "purpose": "No description available",
+    "ux_type": "hybrid",
+    "key_user_flows": [],
+    "expected_permissions": [],
+    "behavioral_notes": "",
+    "metadata_source": "fdroid",
+    "context_confidence": "medium"
+  },
+  "context_audit": {
+    "attempted_sources": [
+      "google_play",
+      "fdroid"
+    ],
+    "selected_source": "fdroid",
+    "context_confidence": "medium",
+    "provenance": {
+      "source": "fdroid",
+      "url": "https://f-droid.org/api/v1/packages/ca.andries.portknocker"
+    },
+    "raw_excerpt": {
+      "purpose": "No description available",
+      "behavioral_notes": "",
+      "key_user_flows": []
+    }
+  },
+  "pre_setup": {
+    "permissions_attempted": 0,
+    "permissions_granted": 0,
+    "warmup_monkey_rc": 0,
+    "dialogs_tapped_before_warmup": 2,
+    "dialogs_tapped_after_warmup": 2,
+    "dialog_resolution_before_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          540,
+          935
+        ],
+        "node_count": 30,
+        "screen_hash": "0e2307ea5c3b3407"
+      },
+      {
+        "round": 2,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          540,
+          1021
+        ],
+        "node_count": 38,
+        "screen_hash": "6ddb1ffb9f5501ad"
+      },
+      {
+        "round": 3,
+        "action": "back",
+        "reason": "transition_guard_stuck_repeat",
+        "screen_hash": "6ddb1ffb9f5501ad",
+        "repeat_hash_streak": 1
+      },
+      {
+        "round": 4,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 24,
+        "screen_hash": "f2b6661c63e8492b"
+      }
+    ],
+    "dialog_resolution_after_warmup": [
+      {
+        "round": 1,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          540,
+          935
+        ],
+        "node_count": 30,
+        "screen_hash": "0e2307ea5c3b3407"
+      },
+      {
+        "round": 2,
+        "action": "tap",
+        "reason": "dismiss",
+        "target": [
+          540,
+          1021
+        ],
+        "node_count": 38,
+        "screen_hash": "6ddb1ffb9f5501ad"
+      },
+      {
+        "round": 3,
+        "action": "back",
+        "reason": "transition_guard_stuck_repeat",
+        "screen_hash": "6ddb1ffb9f5501ad",
+        "repeat_hash_streak": 1
+      },
+      {
+        "round": 4,
+        "action": "none",
+        "reason": "no_confident_target",
+        "node_count": 24,
+        "screen_hash": "f2b6661c63e8492b"
+      }
+    ],
+    "verified_start_dump_rc": 0,
+    "verified_start_pull_rc": 0,
+    "verified_start_path": "$CONTEXTDROID_ROOT/logs/bulk_llm_benign_v2/f54d6d05f299_ca.andries.portknocker/dynamic/llm/session_3/ca.andries.portknocker_verified_start.xml",
+    "pre_setup_wall_sec": 16.387,
+    "pre_setup_timed_out": false,
+    "pre_setup_budget_sec": 120.0
+  },
+  "snapshot_restored": true,
+  "pm_clear_rc": 0,
+  "fairness_protocol": true,
+  "frida_server_ready": true,
+  "frida_server_state": "already_running",
+  "frida_server_owner": "root",
+  "frida_reattach_attempts": 2,
+  "frida_reattach_successes": 2,
+  "frida_valid_events": 189,
+  "frida_meaningful_events": 4,
+  "frida_meaningful_categories": 1
+}

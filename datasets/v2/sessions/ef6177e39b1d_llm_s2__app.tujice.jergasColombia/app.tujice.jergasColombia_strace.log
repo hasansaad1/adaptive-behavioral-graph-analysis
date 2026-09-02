@@ -1,0 +1,18 @@
+31665 1783953875.400378 exit(0)         = ?
+31665 1783953875.400491 +++ exited with 0 +++
+31647 1783953877.357633 exit(0)         = ?
+31647 1783953877.357732 +++ exited with 0 +++
+31649 1783953877.361886 exit(0 <unfinished ...>
+31646 1783953877.362026 exit(0 <unfinished ...>
+31649 1783953877.362163 <... exit resumed>) = ?
+31646 1783953877.362184 <... exit resumed>) = ?
+31649 1783953877.362327 +++ exited with 0 +++
+31646 1783953877.362342 +++ exited with 0 +++
+31648 1783953877.363225 exit(0)         = ?
+31648 1783953877.363522 +++ exited with 0 +++
+31660 1783953877.363604 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+31660 1783953877.363641 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+31660 1783953877.363677 newfstatat(AT_FDCWD, "/data/app/app.tujice.jergasColombia-G0i-HpPoBUr7sUoUpfZTSw==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+31660 1783953877.363691 newfstatat(AT_FDCWD, "/data/app/app.tujice.jergasColombia-G0i-HpPoBUr7sUoUpfZTSw==/base.apk", {st_mode=S_IFREG|0644, st_size=4581244, ...}, AT_SYMLINK_NOFOLLOW) = 0
+31660 1783953877.363708 getcwd("/", 4096) = 2
+31660 1783953877.363720 newfstatat(AT_FDCWD, "/base.apk", 0x7622677690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)

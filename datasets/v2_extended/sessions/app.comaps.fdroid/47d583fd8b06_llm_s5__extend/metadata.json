@@ -1,0 +1,87 @@
+{
+  "active_categories": [
+    "crypto",
+    "file_io",
+    "native_code",
+    "network",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "app.comaps.fdroid",
+  "batch": "extend",
+  "end_timestamp": "2026-08-13T23:48:35.929000Z",
+  "end_timestamp_ms": 1786664915929,
+  "event_counts": {
+    "mapped": 157,
+    "mapped_rate": 0.11368573497465605,
+    "total": 1381
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "47d583fd8b06_llm_s5__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "Socket.connect",
+    "System.loadLibrary",
+    "URL.openConnection"
+  ],
+  "n_active_nodes": 5,
+  "n_edges": 8,
+  "reference_tier_pass": true,
+  "session_id": "47d583fd8b06_llm_s5",
+  "session_index_within_app": 5,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/47d583fd8b06_app.comaps.fdroid/dynamic/llm/session_5/app.comaps.fdroid_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/47d583fd8b06_app.comaps.fdroid/dynamic/llm/session_5/app.comaps.fdroid_dynamic_metadata.json",
+  "start_timestamp": "2026-08-13T23:40:28.689000Z",
+  "start_timestamp_ms": 1786664428689,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1381,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 111,
+    "n_with_timestamp": 1381,
+    "unparseable_line_numbers_sample": [
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      439,
+      441,
+      442,
+      443,
+      444,
+      445,
+      446,
+      447,
+      448,
+      449
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 487.363
+}

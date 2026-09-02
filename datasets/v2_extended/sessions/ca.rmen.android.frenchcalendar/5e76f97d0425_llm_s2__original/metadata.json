@@ -1,0 +1,76 @@
+{
+  "active_categories": [
+    "ipc_intents",
+    "storage"
+  ],
+  "app_id": "ca.rmen.android.frenchcalendar",
+  "batch": "original",
+  "end_timestamp": "2026-07-15T23:29:01.286000Z",
+  "end_timestamp_ms": 1784158141286,
+  "event_counts": {
+    "mapped": 104,
+    "mapped_rate": 0.17627118644067796,
+    "total": 590
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "5e76f97d0425_llm_s2__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "Context.sendBroadcast",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 1,
+  "reference_tier_pass": true,
+  "session_id": "5e76f97d0425_llm_s2",
+  "session_index_within_app": 2,
+  "source_frida_path": "datasets/v2/sessions/5e76f97d0425_llm_s2__ca.rmen.android.frenchcalendar/ca.rmen.android.frenchcalendar_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/5e76f97d0425_llm_s2__ca.rmen.android.frenchcalendar/ca.rmen.android.frenchcalendar_dynamic_metadata.json",
+  "start_timestamp": "2026-07-15T23:21:07.018000Z",
+  "start_timestamp_ms": 1784157667018,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 590,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 50,
+    "n_with_timestamp": 590,
+    "unparseable_line_numbers_sample": [
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 474.268
+}

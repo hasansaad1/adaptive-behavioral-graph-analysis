@@ -1,0 +1,1119 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "biz.binarysolutions.stress",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_hash": "006fbc2d99e4cd1a52f79f6e2e6671fe35e487102b03444a91aea5164e7fa0a2",
+      "hint": "The Perceived Stress Scale ( textViewDescription TextView · MEASURE YOUR STRESS LEVEL Button",
+      "visit_count": 15
+    },
+    {
+      "screen_hash": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "hint": "NEXT buttonNext Button · Never radio1 RadioButton · Almost never radio2 RadioButton · Sometimes radio3 RadioButton · Fairly often radio4 RadioButton · Very often radio5 RadioButton",
+      "visit_count": 15
+    },
+    {
+      "screen_hash": "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1",
+      "hint": "The questions in this scale  textViewPretestDescription TextView · START Button",
+      "visit_count": 3
+    },
+    {
+      "screen_hash": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "hint": "Never radio1 RadioButton · Almost never radio2 RadioButton · Sometimes radio3 RadioButton · Fairly often radio4 RadioButton · Very often radio5 RadioButton",
+      "visit_count": 16
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "006fbc2d99e4cd1a52f79f6e2e6671fe35e487102b03444a91aea5164e7fa0a2",
+      "to": "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1731,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_xy:540,1731",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1731}"
+    },
+    {
+      "step": 2,
+      "from": "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1731,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_xy:540,1731",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1731}"
+    },
+    {
+      "step": 3,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio1",
+        "target_content_desc": "",
+        "x": 226,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio1|"
+    },
+    {
+      "step": 4,
+      "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "x": 1469,
+        "y": 1017,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/buttonNext",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/buttonNext|"
+    },
+    {
+      "step": 5,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio2",
+        "target_content_desc": "",
+        "x": 529,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio2",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio2|"
+    },
+    {
+      "step": 6,
+      "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "x": 1469,
+        "y": 1017,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/buttonNext",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/buttonNext|"
+    },
+    {
+      "step": 7,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio3",
+        "target_content_desc": "",
+        "x": 877,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio3",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio3|"
+    },
+    {
+      "step": 8,
+      "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "x": 1469,
+        "y": 1017,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/buttonNext",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/buttonNext|"
+    },
+    {
+      "step": 9,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio4",
+        "target_content_desc": "",
+        "x": 1208,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio4",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio4|"
+    },
+    {
+      "step": 10,
+      "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "x": 1469,
+        "y": 1017,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/buttonNext",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/buttonNext|"
+    },
+    {
+      "step": 11,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio5",
+        "target_content_desc": "",
+        "x": 1531,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio5",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio5|"
+    },
+    {
+      "step": 12,
+      "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "x": 1469,
+        "y": 1017,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/buttonNext",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/buttonNext|"
+    },
+    {
+      "step": 13,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio1",
+        "target_content_desc": "",
+        "x": 226,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio1|"
+    },
+    {
+      "step": 14,
+      "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "x": 1469,
+        "y": 1017,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/buttonNext",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/buttonNext|"
+    },
+    {
+      "step": 15,
+      "from": "006fbc2d99e4cd1a52f79f6e2e6671fe35e487102b03444a91aea5164e7fa0a2",
+      "to": "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1731,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_xy:540,1731",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1731}"
+    },
+    {
+      "step": 16,
+      "from": "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1731,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_xy:540,1731",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1731}"
+    },
+    {
+      "step": 17,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio1",
+        "target_content_desc": "",
+        "x": 226,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio1|"
+    },
+    {
+      "step": 18,
+      "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "x": 1469,
+        "y": 1017,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/buttonNext",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/buttonNext|"
+    },
+    {
+      "step": 19,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio1",
+        "target_content_desc": "",
+        "x": 226,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio1|"
+    },
+    {
+      "step": 20,
+      "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "x": 1469,
+        "y": 1017,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/buttonNext",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/buttonNext|"
+    },
+    {
+      "step": 21,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio1",
+        "target_content_desc": "",
+        "x": 226,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio1|"
+    },
+    {
+      "step": 22,
+      "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "x": 1469,
+        "y": 1017,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/buttonNext",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/buttonNext|"
+    },
+    {
+      "step": 23,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio1",
+        "target_content_desc": "",
+        "x": 226,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio1|"
+    },
+    {
+      "step": 24,
+      "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "x": 1469,
+        "y": 1017,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/buttonNext",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/buttonNext|"
+    },
+    {
+      "step": 25,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio1",
+        "target_content_desc": "",
+        "x": 226,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio1|"
+    },
+    {
+      "step": 26,
+      "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "x": 1469,
+        "y": 1017,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/buttonNext",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/buttonNext|"
+    },
+    {
+      "step": 27,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio1",
+        "target_content_desc": "",
+        "x": 226,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio1|"
+    },
+    {
+      "step": 28,
+      "from": "006fbc2d99e4cd1a52f79f6e2e6671fe35e487102b03444a91aea5164e7fa0a2",
+      "to": "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1731,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_xy:540,1731",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1731}"
+    },
+    {
+      "step": 29,
+      "from": "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1731,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_xy:540,1731",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1731}"
+    },
+    {
+      "step": 30,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio1",
+        "target_content_desc": "",
+        "x": 226,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio1|"
+    },
+    {
+      "step": 31,
+      "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "x": 1469,
+        "y": 1017,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/buttonNext",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/buttonNext|"
+    },
+    {
+      "step": 32,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio1",
+        "target_content_desc": "",
+        "x": 226,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio1|"
+    },
+    {
+      "step": 33,
+      "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "x": 1469,
+        "y": 1017,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/buttonNext",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/buttonNext|"
+    },
+    {
+      "step": 34,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio1",
+        "target_content_desc": "",
+        "x": 226,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio1|"
+    },
+    {
+      "step": 35,
+      "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "x": 1469,
+        "y": 1017,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/buttonNext",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/buttonNext|"
+    },
+    {
+      "step": 36,
+      "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+      "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio1",
+        "target_content_desc": "",
+        "x": 226,
+        "y": 586,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:biz.binarysolutions.stress:id/radio1",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:biz.binarysolutions.stress:id/radio1|"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1731}": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "006fbc2d99e4cd1a52f79f6e2e6671fe35e487102b03444a91aea5164e7fa0a2",
+          "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1"
+        ],
+        "attempts": 6,
+        "successes": 6,
+        "last_from": "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1",
+        "last_to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3"
+      },
+      "nav:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1731}": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [
+          "006fbc2d99e4cd1a52f79f6e2e6671fe35e487102b03444a91aea5164e7fa0a2",
+          "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:biz.binarysolutions.stress:id/radio1|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio1",
+        "target_content_desc": "",
+        "visible_on": [
+          "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3"
+        ],
+        "attempts": 12,
+        "successes": 12,
+        "last_from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "last_to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e"
+      },
+      "tab:biz.binarysolutions.stress:id/radio2|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio2",
+        "target_content_desc": "",
+        "visible_on": [
+          "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "last_to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e"
+      },
+      "tab:biz.binarysolutions.stress:id/radio3|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio3",
+        "target_content_desc": "",
+        "visible_on": [
+          "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "last_to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e"
+      },
+      "tab:biz.binarysolutions.stress:id/radio4|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio4",
+        "target_content_desc": "",
+        "visible_on": [
+          "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "last_to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e"
+      },
+      "tab:biz.binarysolutions.stress:id/radio5|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio5",
+        "target_content_desc": "",
+        "visible_on": [
+          "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3"
+        ],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "last_to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e"
+      },
+      "nav:biz.binarysolutions.stress:id/radio1|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio1",
+        "target_content_desc": "",
+        "visible_on": [
+          "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:biz.binarysolutions.stress:id/radio2|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio2",
+        "target_content_desc": "",
+        "visible_on": [
+          "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:biz.binarysolutions.stress:id/radio3|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio3",
+        "target_content_desc": "",
+        "visible_on": [
+          "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:biz.binarysolutions.stress:id/radio4|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio4",
+        "target_content_desc": "",
+        "visible_on": [
+          "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:biz.binarysolutions.stress:id/radio5|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.stress:id/radio5",
+        "target_content_desc": "",
+        "visible_on": [
+          "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:biz.binarysolutions.stress:id/buttonNext|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "visible_on": [
+          "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e"
+        ],
+        "attempts": 14,
+        "successes": 14,
+        "last_from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "last_to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3"
+      },
+      "nav:biz.binarysolutions.stress:id/buttonNext|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "biz.binarysolutions.stress:id/buttonNext",
+        "target_content_desc": "",
+        "visible_on": [
+          "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      }
+    },
+    "edges": [
+      {
+        "from": "006fbc2d99e4cd1a52f79f6e2e6671fe35e487102b03444a91aea5164e7fa0a2",
+        "to": "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1731}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1731}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:biz.binarysolutions.stress:id/buttonNext|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio2|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:biz.binarysolutions.stress:id/buttonNext|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio3|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:biz.binarysolutions.stress:id/buttonNext|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio4|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:biz.binarysolutions.stress:id/buttonNext|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio5|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:biz.binarysolutions.stress:id/buttonNext|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:biz.binarysolutions.stress:id/buttonNext|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "006fbc2d99e4cd1a52f79f6e2e6671fe35e487102b03444a91aea5164e7fa0a2",
+        "to": "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1731}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1731}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:biz.binarysolutions.stress:id/buttonNext|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:biz.binarysolutions.stress:id/buttonNext|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:biz.binarysolutions.stress:id/buttonNext|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:biz.binarysolutions.stress:id/buttonNext|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:biz.binarysolutions.stress:id/buttonNext|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "006fbc2d99e4cd1a52f79f6e2e6671fe35e487102b03444a91aea5164e7fa0a2",
+        "to": "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1731}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "625d519720e019850b4679c04d6c3670614df31ed2049a6a37619afe44ee54e1",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:{\"action_type\": \"tap\", \"target_content_desc\": \"\", \"target_resource_id\": \"\", \"x\": 540, \"y\": 1731}",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:biz.binarysolutions.stress:id/buttonNext|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:biz.binarysolutions.stress:id/buttonNext|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "to": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "target_key": "tab:biz.binarysolutions.stress:id/buttonNext|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "ee112da8415ce542ba3bd6a74737b4e734dd8d2db46db5fd966d9f9e6cae1ac3",
+        "to": "289e680f43762ce708b20ba62321d6c02a0d0b4847c45893b55b2cd111ad7d1e",
+        "target_key": "tab:biz.binarysolutions.stress:id/radio1|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  }
+}

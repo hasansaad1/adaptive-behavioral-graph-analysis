@@ -1,0 +1,76 @@
+{
+  "active_categories": [
+    "file_io",
+    "storage"
+  ],
+  "app_id": "bluepie.ad_silence",
+  "batch": "original",
+  "end_timestamp": "2026-07-15T05:23:13.465000Z",
+  "end_timestamp_ms": 1784092993465,
+  "event_counts": {
+    "mapped": 15,
+    "mapped_rate": 0.025295109612141653,
+    "total": 593
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "c134927f92ec_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 2,
+  "n_edges": 2,
+  "reference_tier_pass": true,
+  "session_id": "c134927f92ec_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/c134927f92ec_llm_s1__bluepie.ad_silence/bluepie.ad_silence_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/c134927f92ec_llm_s1__bluepie.ad_silence/bluepie.ad_silence_dynamic_metadata.json",
+  "start_timestamp": "2026-07-15T05:15:13.654000Z",
+  "start_timestamp_ms": 1784092513654,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 593,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 50,
+    "n_with_timestamp": 593,
+    "unparseable_line_numbers_sample": [
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 479.811
+}

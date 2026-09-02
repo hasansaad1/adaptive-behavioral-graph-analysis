@@ -1,0 +1,35 @@
+30580 1784089273.992569 exit(0)         = ?
+30580 1784089273.992624 +++ exited with 0 +++
+30576 1784089273.992638 exit(0)         = ?
+30576 1784089273.992652 +++ exited with 0 +++
+30581 1784089273.993323 exit(0)         = ?
+30579 1784089273.993419 exit(0 <unfinished ...>
+30581 1784089273.993484 +++ exited with 0 +++
+30579 1784089273.993486 <... exit resumed>) = ?
+30579 1784089273.993570 +++ exited with 0 +++
+30592 1784089273.994455 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30592 1784089273.994610 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30592 1784089273.994762 newfstatat(AT_FDCWD, "/data/app/biz.binarysolutions.stress-wWCgzEhylgIjnhop0RwR6w==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30592 1784089273.994920 newfstatat(AT_FDCWD, "/data/app/biz.binarysolutions.stress-wWCgzEhylgIjnhop0RwR6w==/base.apk", {st_mode=S_IFREG|0644, st_size=956165, ...}, AT_SYMLINK_NOFOLLOW) = 0
+30592 1784089273.995081 getcwd("/", 4096) = 2
+30592 1784089273.995209 newfstatat(AT_FDCWD, "/base.apk", 0x71c08bb690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+30571 1784089274.693054 clone(child_stack=0x71bcbfbd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x71bcbfbd60, tls=0x71bcbfc020, child_tidptr=0x71bcbfbd60) = 30674
+30674 1784089274.695328 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.stress", F_OK) = 0
+30674 1784089274.695380 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.stress/files", F_OK) = 0
+30674 1784089274.695446 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.stress/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+30674 1784089274.695541 openat(AT_FDCWD, "/data/user/0/biz.binarysolutions.stress/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 66
+30674 1784089274.695640 getsockopt(66, SOL_SOCKET, SO_ERROR, 0x71bcbfad14, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+30674 1784089274.695990 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/biz.binarysolutions.stress/primary.prof", 0x71bcbfa548, 0) = -1 ENOENT (No such file or directory)
+30674 1784089274.696090 faccessat(AT_FDCWD, "/data/misc/profiles/ref/biz.binarysolutions.stress/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+30674 1784089274.696157 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/biz.binarysolutions.stress/primary.prof", {st_mode=S_IFREG|0600, st_size=2496, ...}, 0) = 0
+30674 1784089274.696198 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/biz.binarysolutions.stress/primary.prof", F_OK) = 0
+30674 1784089274.696481 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.stress/files", F_OK) = 0
+30674 1784089274.696511 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.stress/files/profileInstalled", F_OK) = 0
+30674 1784089274.696555 openat(AT_FDCWD, "/data/user/0/biz.binarysolutions.stress/files/profileInstalled", O_RDONLY) = 66
+30674 1784089274.696639 getsockopt(66, SOL_SOCKET, SO_ERROR, 0x71bcbf9ec4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+30674 1784089274.696902 exit(0)         = ?
+30674 1784089274.696985 +++ exited with 0 +++
+30609 1784089274.748108 faccessat(AT_FDCWD, "/proc/self/task/30674", F_OK) = -1 ENOENT (No such file or directory)
+30611 1784089286.779187 exit(0)         = ?
+30611 1784089286.779543 +++ exited with 0 +++
+30609 1784089286.828367 faccessat(AT_FDCWD, "/proc/self/task/30611", F_OK) = -1 ENOENT (No such file or directory)

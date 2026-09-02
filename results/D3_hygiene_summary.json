@@ -1,0 +1,1148 @@
+{
+  "task1": {
+    "cells": {
+      "A": {
+        "cell": "A",
+        "representation": "RAW",
+        "readout": "SCALAR",
+        "instantiation": "Minimal: s_i = ||X_raw_i||_2 (704-d flattened input); benign-only score |s_i - mean_train_benign(s)|. No exact persisted artifact.",
+        "auc": 0.7926741760534001,
+        "auc_floor": 0.7926741760534001,
+        "direction": "malware_higher_score",
+        "ci95_floor": [
+          0.7442425949103045,
+          0.8393125782227785
+        ],
+        "clears_floor": true
+      },
+      "B": {
+        "cell": "B",
+        "representation": "RAW",
+        "readout": "PER-NODE",
+        "instantiation": "RAW_full 704-d centroid Euclidean (ocdev raw_tensor control)",
+        "auc": 0.7768919482686691,
+        "auc_floor": 0.7768919482686691,
+        "direction": "malware_higher_score",
+        "ci95_floor": [
+          0.7259785148101794,
+          0.8256167083854818
+        ],
+        "clears_floor": true,
+        "artifact": "abrg/output/androct_2017/ocdev/controls/raw_tensor/raw__RAW_full__none__centroid_euclidean__splitA__foldNA.json"
+      },
+      "C": {
+        "cell": "C",
+        "representation": "DEV",
+        "readout": "SCALAR",
+        "instantiation": "D0 profile (1-d GAE recon error); centroid = |D0 - mu_train|",
+        "auc": 0.7616687526074258,
+        "auc_floor": 0.7616687526074258,
+        "direction": "malware_higher_score",
+        "ci95_floor": [
+          0.7167348769294952,
+          0.8069558823529412
+        ],
+        "clears_floor": true,
+        "artifact": "abrg/output/androct_2017/ocdev/partA_profiles/splitA_trained/trained__D0__none__centroid_euclidean__splitA__foldNA.json"
+      },
+      "D": {
+        "cell": "D",
+        "representation": "DEV",
+        "readout": "PER-NODE",
+        "instantiation": "D1 profile (22-d); centroid L2 vs train-benign mean",
+        "auc": 0.8004255319148936,
+        "auc_floor": 0.8004255319148936,
+        "direction": "malware_higher_score",
+        "ci95_floor": [
+          0.7527881727158947,
+          0.8471770963704632
+        ],
+        "clears_floor": true,
+        "artifact": "abrg/output/androct_2017/ocdev/partA_profiles/splitA_trained/trained__D1__none__centroid_euclidean__splitA__foldNA.json"
+      }
+    },
+    "margins": {
+      "referencing_at_scalar": -0.031005423445974234,
+      "referencing_at_per_node": 0.023533583646224487,
+      "readout_on_raw": -0.01578222778473093,
+      "readout_on_dev": 0.03875677930746779,
+      "interaction": 0.05453900709219872
+    },
+    "margin_tests": {
+      "referencing_at_scalar": {
+        "delta": -0.031005423445974234,
+        "tested": true,
+        "delong": {
+          "auc_1": 0.761668752607426,
+          "auc_2": 0.7926741760534001,
+          "auc_diff_raw": -0.031005423445974123,
+          "auc_diff_floor": 0.031005423445974123,
+          "se": 0.019391761916088466,
+          "z": -1.5988966644774205,
+          "p_two_sided": 0.10984356531780576
+        },
+        "paired_bootstrap": {
+          "B": 2000,
+          "seed": 42,
+          "mean_diff_floor": -0.03147305363726933,
+          "ci95_diff_floor": [
+            -0.06909456897431347,
+            0.0054660022549459985
+          ],
+          "contains_zero": true
+        },
+        "spearman_rho": 0.5287917984045295
+      },
+      "referencing_at_per_node": {
+        "delta": 0.023533583646224487,
+        "tested": true,
+        "delong": {
+          "auc_1": 0.8004255319148936,
+          "auc_2": 0.7768919482686693,
+          "auc_diff_raw": 0.023533583646224376,
+          "auc_diff_floor": 0.023533583646224376,
+          "se": 0.014590165503423192,
+          "z": 1.6129757843187489,
+          "p_two_sided": 0.10674976890968026
+        },
+        "paired_bootstrap": {
+          "B": 2000,
+          "seed": 42,
+          "mean_diff_floor": 0.023658307797544353,
+          "ci95_diff_floor": [
+            -0.004308852786749112,
+            0.053141113663733315
+          ],
+          "contains_zero": true
+        },
+        "spearman_rho": 0.8387752268528821
+      },
+      "readout_on_raw": {
+        "delta": -0.01578222778473093,
+        "tested": false,
+        "reason": "|delta|<=0.02"
+      },
+      "readout_on_dev": {
+        "delta": 0.03875677930746779,
+        "tested": true,
+        "delong": {
+          "auc_1": 0.8004255319148936,
+          "auc_2": 0.761668752607426,
+          "auc_diff_raw": 0.03875677930746768,
+          "auc_diff_floor": 0.03875677930746768,
+          "se": 0.016533523516879853,
+          "z": 2.3441330741084356,
+          "p_two_sided": 0.019071365491084617
+        },
+        "paired_bootstrap": {
+          "B": 2000,
+          "seed": 42,
+          "mean_diff_floor": 0.03927494813317339,
+          "ci95_diff_floor": [
+            0.007076455402250198,
+            0.0717149354491153
+          ],
+          "contains_zero": false
+        },
+        "spearman_rho": 0.6266040962085869
+      },
+      "interaction": {
+        "delta": 0.05453900709219872,
+        "tested": false,
+        "reason": "interaction (derived margin)"
+      }
+    },
+    "coord_rows": [
+      {
+        "category": "clipboard",
+        "producible": false,
+        "raw_auc": "N/A",
+        "raw_auc_floor": "N/A",
+        "raw_direction": "N/A",
+        "dev_auc": "N/A",
+        "dev_auc_floor": "N/A",
+        "dev_direction": "N/A",
+        "delta_floor": "N/A",
+        "direction_flipped": "N/A"
+      },
+      {
+        "category": "dynamic_code_loading",
+        "producible": false,
+        "raw_auc": "N/A",
+        "raw_auc_floor": "N/A",
+        "raw_direction": "N/A",
+        "dev_auc": "N/A",
+        "dev_auc_floor": "N/A",
+        "dev_direction": "N/A",
+        "delta_floor": "N/A",
+        "direction_flipped": "N/A"
+      },
+      {
+        "category": "sms",
+        "producible": false,
+        "raw_auc": "N/A",
+        "raw_auc_floor": "N/A",
+        "raw_direction": "N/A",
+        "dev_auc": "N/A",
+        "dev_auc_floor": "N/A",
+        "dev_direction": "N/A",
+        "delta_floor": "N/A",
+        "direction_flipped": "N/A"
+      },
+      {
+        "category": "telephony",
+        "producible": false,
+        "raw_auc": "N/A",
+        "raw_auc_floor": "N/A",
+        "raw_direction": "N/A",
+        "dev_auc": "N/A",
+        "dev_auc_floor": "N/A",
+        "dev_direction": "N/A",
+        "delta_floor": "N/A",
+        "direction_flipped": "N/A"
+      },
+      {
+        "category": "ipc_intents",
+        "producible": true,
+        "raw_auc": 0.43749687108886104,
+        "raw_auc_floor": 0.562503128911139,
+        "raw_direction": "benign_higher_score",
+        "dev_auc": 0.7931914893617023,
+        "dev_auc_floor": 0.7931914893617023,
+        "dev_direction": "malware_higher_score",
+        "delta_floor": 0.2306883604505633,
+        "direction_flipped": true
+      },
+      {
+        "category": "network",
+        "producible": true,
+        "raw_auc": 0.49973508552357115,
+        "raw_auc_floor": 0.5002649144764288,
+        "raw_direction": "benign_higher_score",
+        "dev_auc": 0.6326679182311223,
+        "dev_auc_floor": 0.6326679182311223,
+        "dev_direction": "malware_higher_score",
+        "delta_floor": 0.1324030037546935,
+        "direction_flipped": true
+      },
+      {
+        "category": "camera",
+        "producible": true,
+        "raw_auc": 0.5,
+        "raw_auc_floor": 0.5,
+        "raw_direction": "malware_higher_score",
+        "dev_auc": 0.620700876095119,
+        "dev_auc_floor": 0.620700876095119,
+        "dev_direction": "malware_higher_score",
+        "delta_floor": 0.12070087609511904,
+        "direction_flipped": false
+      },
+      {
+        "category": "content_access",
+        "producible": true,
+        "raw_auc": 0.4766124322069253,
+        "raw_auc_floor": 0.5233875677930747,
+        "raw_direction": "benign_higher_score",
+        "dev_auc": 0.6435857321652065,
+        "dev_auc_floor": 0.6435857321652065,
+        "dev_direction": "malware_higher_score",
+        "delta_floor": 0.12019816437213182,
+        "direction_flipped": true
+      },
+      {
+        "category": "crypto",
+        "producible": true,
+        "raw_auc": 0.501697955778056,
+        "raw_auc_floor": 0.501697955778056,
+        "raw_direction": "malware_higher_score",
+        "dev_auc": 0.39634125990821867,
+        "dev_auc_floor": 0.6036587400917813,
+        "dev_direction": "benign_higher_score",
+        "delta_floor": 0.10196078431372535,
+        "direction_flipped": true
+      },
+      {
+        "category": "media",
+        "producible": true,
+        "raw_auc": 0.47191906549853985,
+        "raw_auc_floor": 0.5280809345014601,
+        "raw_direction": "benign_higher_score",
+        "dev_auc": 0.3728306216103463,
+        "dev_auc_floor": 0.6271693783896537,
+        "dev_direction": "benign_higher_score",
+        "delta_floor": 0.0990884438881936,
+        "direction_flipped": false
+      },
+      {
+        "category": "location",
+        "producible": true,
+        "raw_auc": 0.4933833959115561,
+        "raw_auc_floor": 0.5066166040884439,
+        "raw_direction": "benign_higher_score",
+        "dev_auc": 0.43340842720066747,
+        "dev_auc_floor": 0.5665915727993325,
+        "dev_direction": "benign_higher_score",
+        "delta_floor": 0.05997496871088859,
+        "direction_flipped": false
+      },
+      {
+        "category": "audio",
+        "producible": true,
+        "raw_auc": 0.4961618690029203,
+        "raw_auc_floor": 0.5038381309970796,
+        "raw_direction": "benign_higher_score",
+        "dev_auc": 0.5630287859824781,
+        "dev_auc_floor": 0.5630287859824781,
+        "dev_direction": "malware_higher_score",
+        "delta_floor": 0.05919065498539844,
+        "direction_flipped": true
+      },
+      {
+        "category": "native_code",
+        "producible": true,
+        "raw_auc": 0.5296850229453484,
+        "raw_auc_floor": 0.5296850229453484,
+        "raw_direction": "malware_higher_score",
+        "dev_auc": 0.5663642052565707,
+        "dev_auc_floor": 0.5663642052565707,
+        "dev_direction": "malware_higher_score",
+        "delta_floor": 0.03667918231122236,
+        "direction_flipped": false
+      },
+      {
+        "category": "package_manager",
+        "producible": true,
+        "raw_auc": 0.4394409678765123,
+        "raw_auc_floor": 0.5605590321234877,
+        "raw_direction": "benign_higher_score",
+        "dev_auc": 0.5947329995828119,
+        "dev_auc_floor": 0.5947329995828119,
+        "dev_direction": "malware_higher_score",
+        "delta_floor": 0.03417396745932422,
+        "direction_flipped": true
+      },
+      {
+        "category": "accounts",
+        "producible": true,
+        "raw_auc": 0.4937776387150605,
+        "raw_auc_floor": 0.5062223612849395,
+        "raw_direction": "benign_higher_score",
+        "dev_auc": 0.46074676679182314,
+        "dev_auc_floor": 0.5392532332081769,
+        "dev_direction": "benign_higher_score",
+        "delta_floor": 0.03303087192323739,
+        "direction_flipped": false
+      },
+      {
+        "category": "notifications",
+        "producible": true,
+        "raw_auc": 0.4937421777221527,
+        "raw_auc_floor": 0.5062578222778473,
+        "raw_direction": "benign_higher_score",
+        "dev_auc": 0.5182478097622026,
+        "dev_auc_floor": 0.5182478097622026,
+        "dev_direction": "malware_higher_score",
+        "delta_floor": 0.011989987484355313,
+        "direction_flipped": true
+      },
+      {
+        "category": "storage",
+        "producible": true,
+        "raw_auc": 0.4662578222778473,
+        "raw_auc_floor": 0.5337421777221527,
+        "raw_direction": "benign_higher_score",
+        "dev_auc": 0.5389486858573216,
+        "dev_auc_floor": 0.5389486858573216,
+        "dev_direction": "malware_higher_score",
+        "delta_floor": 0.005206508135168875,
+        "direction_flipped": true
+      },
+      {
+        "category": "process",
+        "producible": true,
+        "raw_auc": 0.4504151022110972,
+        "raw_auc_floor": 0.5495848977889028,
+        "raw_direction": "benign_higher_score",
+        "dev_auc": 0.4612244472256987,
+        "dev_auc_floor": 0.5387755527743012,
+        "dev_direction": "benign_higher_score",
+        "delta_floor": -0.010809345014601623,
+        "direction_flipped": false
+      },
+      {
+        "category": "device_info",
+        "producible": true,
+        "raw_auc": 0.4587484355444305,
+        "raw_auc_floor": 0.5412515644555695,
+        "raw_direction": "benign_higher_score",
+        "dev_auc": 0.48139132248644145,
+        "dev_auc_floor": 0.5186086775135585,
+        "dev_direction": "benign_higher_score",
+        "delta_floor": -0.022642886942010998,
+        "direction_flipped": false
+      },
+      {
+        "category": "database",
+        "producible": true,
+        "raw_auc": 0.4346474760116812,
+        "raw_auc_floor": 0.5653525239883188,
+        "raw_direction": "benign_higher_score",
+        "dev_auc": 0.4904839382561535,
+        "dev_auc_floor": 0.5095160617438466,
+        "dev_direction": "benign_higher_score",
+        "delta_floor": -0.05583646224447225,
+        "direction_flipped": false
+      },
+      {
+        "category": "webview",
+        "producible": true,
+        "raw_auc": 0.6109219858156028,
+        "raw_auc_floor": 0.6109219858156028,
+        "raw_direction": "malware_higher_score",
+        "dev_auc": 0.453552357113058,
+        "dev_auc_floor": 0.546447642886942,
+        "dev_direction": "benign_higher_score",
+        "delta_floor": -0.06447434292866072,
+        "direction_flipped": true
+      },
+      {
+        "category": "file_io",
+        "producible": true,
+        "raw_auc": 0.6014038381309971,
+        "raw_auc_floor": 0.6014038381309971,
+        "raw_direction": "malware_higher_score",
+        "dev_auc": 0.4986503963287443,
+        "dev_auc_floor": 0.5013496036712557,
+        "dev_direction": "benign_higher_score",
+        "delta_floor": -0.10005423445974138,
+        "direction_flipped": true
+      }
+    ],
+    "coord_summary": {
+      "n_producible": 18,
+      "n_positive_delta": 13,
+      "n_direction_flip": 10,
+      "flip_categories": [
+        "ipc_intents",
+        "network",
+        "content_access",
+        "crypto",
+        "audio",
+        "package_manager",
+        "notifications",
+        "storage",
+        "webview",
+        "file_io"
+      ]
+    },
+    "volume_covariates": {
+      "B": {
+        "spearman": {
+          "mapped_event_count": -0.12278488676601318,
+          "total_event_count": 0.1602819680728185,
+          "edge_count": 0.06285203989667984,
+          "graph_density": 0.06285203989667984,
+          "distinct_active_categories": 0.04361113675752705,
+          "active_nodes": 0.043950247298224616,
+          "static_feature_norm": 0.2426336177667843
+        },
+        "max_abs_table_a4": 0.1602819680728185,
+        "static_feature_norm_rho": 0.2426336177667843
+      },
+      "C": {
+        "spearman": {
+          "mapped_event_count": 0.16703441019495455,
+          "total_event_count": 0.5742552651966626,
+          "edge_count": 0.4102668855899019,
+          "graph_density": 0.4102668855899019,
+          "distinct_active_categories": 0.37317711792043906,
+          "active_nodes": 0.37358369386151496,
+          "static_feature_norm": 0.3816614644311986
+        },
+        "max_abs_table_a4": 0.5742552651966626,
+        "static_feature_norm_rho": 0.3816614644311986
+      },
+      "D": {
+        "spearman": {
+          "mapped_event_count": -0.167944494574434,
+          "total_event_count": 0.2789422091422921,
+          "edge_count": 0.10388608826290684,
+          "graph_density": 0.10388608826290684,
+          "distinct_active_categories": 0.0854464534517748,
+          "active_nodes": 0.08554618905671613,
+          "static_feature_norm": 0.3301467752502824
+        },
+        "max_abs_table_a4": 0.2789422091422921,
+        "static_feature_norm_rho": 0.3301467752502824
+      }
+    },
+    "shuffled_D": {
+      "auc": 0.49506257822277844,
+      "auc_floor": 0.5049374217772216,
+      "direction": "benign_higher_score",
+      "ci95_floor": [
+        0.5008715060492281,
+        0.5626746975385897
+      ],
+      "clears_floor": false
+    }
+  },
+  "task2": {
+    "verdict": "SELF_IS_LOAD_BEARING",
+    "cross_ref_seed": 951,
+    "artifact_window_scores": "abrg/output/androct_2017/selfref/deviations/window_scores.csv",
+    "artifact_snap_cache": "abrg/output/androct_2017/selfref/windows/armb_n8_windows.pt",
+    "hgb": {
+      "PREFIX_self_node": {
+        "auc": 0.9340425531914893,
+        "auc_floor": 0.9340425531914893,
+        "direction": "malware_higher_score",
+        "ci95_floor": [
+          0.9117010846891949,
+          0.9543601376720902
+        ],
+        "clears_floor": true
+      },
+      "PREFIX_cross_node": {
+        "auc": 0.8469753858990405,
+        "auc_floor": 0.8469753858990405,
+        "direction": "malware_higher_score",
+        "ci95_floor": [
+          0.8114278264497289,
+          0.8803347934918649
+        ],
+        "clears_floor": true
+      },
+      "PREFIX_self_adj": {
+        "auc": 0.9187317480183563,
+        "auc_floor": 0.9187317480183563,
+        "direction": "malware_higher_score",
+        "ci95_floor": [
+          0.8909780454735086,
+          0.9421612953692113
+        ],
+        "clears_floor": true
+      },
+      "PREFIX_cross_adj": {
+        "auc": 0.7347517730496453,
+        "auc_floor": 0.7347517730496453,
+        "direction": "malware_higher_score",
+        "ci95_floor": [
+          0.6868736962870254,
+          0.7782535460992909
+        ],
+        "clears_floor": true
+      },
+      "SCATTERED_self_node": {
+        "auc": 0.9274301209845639,
+        "auc_floor": 0.9274301209845639,
+        "direction": "malware_higher_score",
+        "ci95_floor": [
+          0.9037719023779723,
+          0.9498753650396329
+        ],
+        "clears_floor": true
+      },
+      "SCATTERED_cross_node": {
+        "auc": 0.8488318731748019,
+        "auc_floor": 0.8488318731748019,
+        "direction": "malware_higher_score",
+        "ci95_floor": [
+          0.8123816228619106,
+          0.8820645598664998
+        ],
+        "clears_floor": true
+      },
+      "SCATTERED_self_adj": {
+        "auc": 0.9153942428035043,
+        "auc_floor": 0.9153942428035043,
+        "direction": "malware_higher_score",
+        "ci95_floor": [
+          0.8865767104714226,
+          0.9398443366708384
+        ],
+        "clears_floor": true
+      },
+      "SCATTERED_cross_adj": {
+        "auc": 0.7184605757196496,
+        "auc_floor": 0.7184605757196496,
+        "direction": "malware_higher_score",
+        "ci95_floor": [
+          0.6697058823529412,
+          0.7630871923237378
+        ],
+        "clears_floor": true
+      }
+    },
+    "one_class": {
+      "self": {
+        "PREFIX_node_SCALAR_MEAN": {
+          "auc": 0.30336462244472256,
+          "auc_floor": 0.6966353775552774,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.6582675219023779,
+            0.7340592407175636
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_node_SCALAR_MAX": {
+          "auc": 0.3002670004171882,
+          "auc_floor": 0.6997329995828119,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.6614091051314143,
+            0.7378285356695868
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_node_SCALAR_FRACTION": {
+          "auc": 0.474712140175219,
+          "auc_floor": 0.525287859824781,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5037486962870255,
+            0.5478524718397998
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_node_CENTROID_MEAN": {
+          "auc": 0.41196495619524404,
+          "auc_floor": 0.5880350438047559,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5319667292448895,
+            0.6443243116395494
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_node_CENTROID_MAX": {
+          "auc": 0.40643721318314563,
+          "auc_floor": 0.5935627868168544,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5363364622444723,
+            0.6497082290362954
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_node_CENTROID_FRACTION": {
+          "auc": 0.48056946182728405,
+          "auc_floor": 0.519430538172716,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5019518147684606,
+            0.5401372549019607
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_adj_SCALAR_MEAN": {
+          "auc": 0.4327012932832707,
+          "auc_floor": 0.5672987067167292,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5148263454317897,
+            0.61708145598665
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_adj_SCALAR_MAX": {
+          "auc": 0.435,
+          "auc_floor": 0.565,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5118988318731748,
+            0.6162185022945348
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_adj_SCALAR_FRACTION": {
+          "auc": 0.49352523988318736,
+          "auc_floor": 0.5064747601168127,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5004877972465582,
+            0.5292225177304964
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_adj_CENTROID_MEAN": {
+          "auc": 0.3937484355444305,
+          "auc_floor": 0.6062515644555695,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5610128806841885,
+            0.6532192323738006
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_adj_CENTROID_MAX": {
+          "auc": 0.39637254901960794,
+          "auc_floor": 0.603627450980392,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5556139445139758,
+            0.6514974447225699
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_adj_CENTROID_FRACTION": {
+          "auc": 0.4915018773466834,
+          "auc_floor": 0.5084981226533166,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5004336149353358,
+            0.5315432311222361
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_node_SCALAR_MEAN": {
+          "auc": 0.30403212348769293,
+          "auc_floor": 0.6959678765123071,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.6561057050479766,
+            0.7357399874843554
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_node_SCALAR_MAX": {
+          "auc": 0.30145390070921985,
+          "auc_floor": 0.6985460992907802,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.6585362432206925,
+            0.7387022841051313
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_node_SCALAR_FRACTION": {
+          "auc": 0.4743324989570296,
+          "auc_floor": 0.5256675010429703,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5035293074676679,
+            0.5515070400500626
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_node_CENTROID_MEAN": {
+          "auc": 0.4069378389653735,
+          "auc_floor": 0.5930621610346265,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5336732895285773,
+            0.6498740091781393
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_node_CENTROID_MAX": {
+          "auc": 0.40547768043387566,
+          "auc_floor": 0.5945223195661243,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5350580413016269,
+            0.6535738944513977
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_node_CENTROID_FRACTION": {
+          "auc": 0.4646787651230705,
+          "auc_floor": 0.5353212348769295,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5116716729244891,
+            0.5607682519816437
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_adj_SCALAR_MEAN": {
+          "auc": 0.4312390488110138,
+          "auc_floor": 0.5687609511889862,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5163496558197747,
+            0.6209971839799749
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_adj_SCALAR_MAX": {
+          "auc": 0.4368231122236129,
+          "auc_floor": 0.5631768877763871,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.511264445139758,
+            0.6150296203587817
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_adj_SCALAR_FRACTION": {
+          "auc": 0.5061326658322903,
+          "auc_floor": 0.5061326658322903,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.5005152273675428,
+            0.5263351585314976
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_adj_CENTROID_MEAN": {
+          "auc": 0.37890905298289523,
+          "auc_floor": 0.6210909470171048,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5784182311222361,
+            0.6629556737588653
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_adj_CENTROID_MAX": {
+          "auc": 0.3797225698790154,
+          "auc_floor": 0.6202774301209846,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5762886942010846,
+            0.6623451710471422
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_adj_CENTROID_FRACTION": {
+          "auc": 0.5000396328744264,
+          "auc_floor": 0.5000396328744264,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.5003107530246143,
+            0.5249944722569879
+          ],
+          "clears_floor": false
+        }
+      },
+      "cross": {
+        "PREFIX_node_SCALAR_MEAN": {
+          "auc": 0.49110554860241973,
+          "auc_floor": 0.5088944513975803,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5006298498122653,
+            0.5510642469753858
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_node_SCALAR_MAX": {
+          "auc": 0.5267000417188151,
+          "auc_floor": 0.5267000417188151,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.50129662077597,
+            0.5683412599082186
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_node_SCALAR_FRACTION": {
+          "auc": 0.5021214017521902,
+          "auc_floor": 0.5021214017521902,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.5004255319148936,
+            0.5256572799332498
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_node_CENTROID_MEAN": {
+          "auc": 0.6615686274509804,
+          "auc_floor": 0.6615686274509804,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.6107412390488111,
+            0.7112250730079266
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_node_CENTROID_MAX": {
+          "auc": 0.6645765540258657,
+          "auc_floor": 0.6645765540258657,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.6120019816437214,
+            0.7181176470588234
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_node_CENTROID_FRACTION": {
+          "auc": 0.4893554443053817,
+          "auc_floor": 0.5106445556946183,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5004775761368377,
+            0.5369044639132248
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_adj_SCALAR_MEAN": {
+          "auc": 0.5109637046307884,
+          "auc_floor": 0.5109637046307884,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.5008759908218606,
+            0.5653934084272006
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_adj_SCALAR_MAX": {
+          "auc": 0.5186649979140593,
+          "auc_floor": 0.5186649979140593,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.5012468189403421,
+            0.5704095744680852
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_adj_SCALAR_FRACTION": {
+          "auc": 0.5095160617438464,
+          "auc_floor": 0.5095160617438464,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.5004441489361702,
+            0.5312360241969127
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_adj_CENTROID_MEAN": {
+          "auc": 0.4308844388819357,
+          "auc_floor": 0.5691155611180643,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5187129745515228,
+            0.6192206925323321
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_adj_CENTROID_MAX": {
+          "auc": 0.44086566541510225,
+          "auc_floor": 0.5591343345848978,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.511639288694201,
+            0.6070868794326242
+          ],
+          "clears_floor": false
+        },
+        "PREFIX_adj_CENTROID_FRACTION": {
+          "auc": 0.49300375469336666,
+          "auc_floor": 0.5069962453066333,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5003878285356697,
+            0.5294166145181476
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_node_SCALAR_MEAN": {
+          "auc": 0.5150980392156863,
+          "auc_floor": 0.5150980392156863,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.5010843763037129,
+            0.5599399249061326
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_node_SCALAR_MAX": {
+          "auc": 0.5498414685022945,
+          "auc_floor": 0.5498414685022945,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.5069771589486859,
+            0.5949909261576971
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_node_SCALAR_FRACTION": {
+          "auc": 0.5011806424697539,
+          "auc_floor": 0.5011806424697539,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.5003210262828536,
+            0.52516546725073
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_node_CENTROID_MEAN": {
+          "auc": 0.6656737588652482,
+          "auc_floor": 0.6656737588652482,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.611334376303713,
+            0.7149690237797248
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_node_CENTROID_MAX": {
+          "auc": 0.6933583646224447,
+          "auc_floor": 0.6933583646224447,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.6394035252398831,
+            0.7440991864831038
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_node_CENTROID_FRACTION": {
+          "auc": 0.496846057571965,
+          "auc_floor": 0.503153942428035,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5003772945348353,
+            0.528476637463496
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_adj_SCALAR_MEAN": {
+          "auc": 0.461011681268252,
+          "auc_floor": 0.538988318731748,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5018516896120151,
+            0.5961003337505215
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_adj_SCALAR_MAX": {
+          "auc": 0.48577596996245304,
+          "auc_floor": 0.5142240300375469,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5008942949520234,
+            0.5667338861076345
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_adj_SCALAR_FRACTION": {
+          "auc": 0.5194117647058824,
+          "auc_floor": 0.5194117647058824,
+          "direction": "malware_higher_score",
+          "ci95_floor": [
+            0.5023945556946182,
+            0.5353255632040049
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_adj_CENTROID_MEAN": {
+          "auc": 0.3976554025865666,
+          "auc_floor": 0.6023445974134334,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5520284730913642,
+            0.6526202544847727
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_adj_CENTROID_MAX": {
+          "auc": 0.4116499791405924,
+          "auc_floor": 0.5883500208594076,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5368960158531497,
+            0.6361161347517731
+          ],
+          "clears_floor": false
+        },
+        "SCATTERED_adj_CENTROID_FRACTION": {
+          "auc": 0.4887234042553191,
+          "auc_floor": 0.5112765957446809,
+          "direction": "benign_higher_score",
+          "ci95_floor": [
+            0.5004255319148936,
+            0.5378854818523153
+          ],
+          "clears_floor": false
+        }
+      }
+    },
+    "e0_self_one_class_ref": {
+      "PREFIX_node_SCALAR_MEAN": 0.6966353775552774,
+      "PREFIX_node_SCALAR_MAX": 0.6997329995828119,
+      "PREFIX_node_SCALAR_FRACTION": 0.525287859824781,
+      "PREFIX_adj_SCALAR_MEAN": 0.5672987067167292,
+      "PREFIX_adj_SCALAR_MAX": 0.565,
+      "PREFIX_adj_SCALAR_FRACTION": 0.5064747601168127,
+      "PREFIX_node_CENTROID_MEAN": 0.5880350438047559,
+      "PREFIX_node_CENTROID_MAX": 0.5935627868168544,
+      "PREFIX_node_CENTROID_FRACTION": 0.519430538172716,
+      "PREFIX_adj_CENTROID_MEAN": 0.6062515644555695,
+      "PREFIX_adj_CENTROID_MAX": 0.603627450980392,
+      "PREFIX_adj_CENTROID_FRACTION": 0.5084981226533166,
+      "SCATTERED_node_SCALAR_MEAN": 0.6959678765123071,
+      "SCATTERED_node_SCALAR_MAX": 0.6985460992907802,
+      "SCATTERED_node_SCALAR_FRACTION": 0.5256675010429703,
+      "SCATTERED_adj_SCALAR_MEAN": 0.5687609511889862,
+      "SCATTERED_adj_SCALAR_MAX": 0.5631768877763871,
+      "SCATTERED_adj_SCALAR_FRACTION": 0.5061326658322903,
+      "SCATTERED_node_CENTROID_MEAN": 0.5930621610346265,
+      "SCATTERED_node_CENTROID_MAX": 0.5945223195661243,
+      "SCATTERED_node_CENTROID_FRACTION": 0.5353212348769295,
+      "SCATTERED_adj_CENTROID_MEAN": 0.6210909470171048,
+      "SCATTERED_adj_CENTROID_MAX": 0.6202774301209846,
+      "SCATTERED_adj_CENTROID_FRACTION": 0.5000396328744264
+    },
+    "delong_hgb_node": {
+      "auc_1": 0.9340425531914894,
+      "auc_2": 0.8469753858990404,
+      "auc_diff_raw": 0.08706716729244901,
+      "auc_diff_floor": 0.08706716729244901,
+      "se": 0.018564469672547088,
+      "z": 4.6899894706501035,
+      "p_two_sided": 2.7321910809878836e-06
+    },
+    "margin_hgb_node_floor": 0.08706716729244879,
+    "e0_ref_ceiling_prefix_node": [
+      0.9154,
+      0.934
+    ],
+    "thesis_sentence_if_decorative": "A6_selfref.tex Phase 4: diagnostic ceiling 0.9154--0.9340 floor AUC on self-deviation d=|X-R_i| must be reframed as an app/window-profile ceiling under supervision, not evidence that self-deviation carries class information."
+  },
+  "task3": {
+    "trained_auc_floor": 0.8004255319148936,
+    "random_init_auc_floor": 0.8118439716312057,
+    "artifact_random_init": {
+      "auc": 0.8118439716312057,
+      "auc_floor": 0.8118439716312057,
+      "direction": "malware_higher_score",
+      "ci95_floor": [
+        0.766444826866917,
+        0.8556848143512723
+      ],
+      "artifact": "abrg/output/androct_2017/ocdev/controls/random_init_splitA/random_init__D1__none__centroid_euclidean__splitA__foldNA.json"
+    },
+    "delong": {
+      "auc_1": 0.8118439716312057,
+      "auc_2": 0.8004255319148936,
+      "auc_diff_raw": 0.011418439716312068,
+      "auc_diff_floor": 0.011418439716312068,
+      "se": 0.016620415414304788,
+      "z": 0.6870128953867479,
+      "p_two_sided": 0.4920746022581016
+    },
+    "paired_bootstrap": {
+      "B": 2000,
+      "seed": 42,
+      "mean_diff_floor": 0.011390152971699291,
+      "ci95_diff_floor": [
+        -0.01995993605702804,
+        0.04398886327085556
+      ],
+      "contains_zero": true
+    },
+    "spearman_rho": 0.8373997278245824,
+    "distinguishable": false,
+    "prior_reporting": {
+      "in_thesis_chapter_a": false,
+      "grep_811844": "not found in thesis/chapter_a/*.tex",
+      "catalogue_path": "abrg/output/androct_2017/ocdev/controls/random_init_splitA/random_init__D1__none__centroid_euclidean__splitA__foldNA.json",
+      "catalogue_value": 0.8118439716312057,
+      "note": "Seven-family table (tab:a6-family-sweep) pairs Run~8 embedding 0.7591, not random-init D1 centroid. Deviation-profile trained-vs-untrained row absent."
+    },
+    "verdict": "NOT_DISTINGUISHABLE"
+  }
+}

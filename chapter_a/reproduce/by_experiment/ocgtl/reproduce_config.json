@@ -1,0 +1,31 @@
+{
+  "kind": "androct_master_verify",
+  "experiment": "ocgtl",
+  "n_rows": 2,
+  "cli_rerun": {
+    "cli_module": "abrg.ocgtl",
+    "out_flag": "--out"
+  },
+  "rows": [
+    {
+      "detector": "ocgtl_K4",
+      "method": "trained",
+      "representation": "T1K",
+      "split": "splitA_GAE",
+      "auc_floor": "0.5503362536503963",
+      "raw_auc": "0.5503362536503963",
+      "artifact_path": "abrg/output/androct_2017/ocdev/validation/check2_randominit/check2.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "ocgtl_K4",
+      "method": "untrained",
+      "representation": "T1K",
+      "split": "splitA_GAE",
+      "auc_floor": "0.5614034209428451",
+      "raw_auc": "0.5614034209428451",
+      "artifact_path": "abrg/output/androct_2017/ocdev/validation/check2_randominit/check2.json",
+      "is_headline": "False"
+    }
+  ]
+}

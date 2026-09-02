@@ -1,0 +1,753 @@
+{
+  "utc": "2026-08-21T21:13:40.246924+00:00",
+  "export_root": "datasets/v2_extended",
+  "definitions": {
+    "usable_session": "reference_tier_pass == true (analysis set under sessions/)",
+    "graph_eligible_session": "gae_eligible / n_active>=2 and n_edges>=1",
+    "graph_eligible_app": "\u22651 usable gae_eligible session"
+  },
+  "0a": {
+    "total_apps_in_index": 59,
+    "total_sessions_exported": 388,
+    "usable_sessions": 342,
+    "failed_sessions": 46,
+    "apps_with_usable_sessions": 59,
+    "graph_eligible_sessions_flag": 288,
+    "graph_eligible_apps": 40,
+    "sessions_per_app_usable": {
+      "n": 59,
+      "min": 1.0,
+      "p10": 3.0,
+      "p25": 3.0,
+      "median": 7.0,
+      "p75": 8.0,
+      "p90": 9.0,
+      "max": 9.0,
+      "iqr": 5.0,
+      "mean": 5.796610169491525
+    },
+    "sessions_per_app_histogram": {
+      "1": 2,
+      "2": 1,
+      "3": 21,
+      "5": 2,
+      "6": 2,
+      "7": 5,
+      "8": 16,
+      "9": 10
+    },
+    "sessions_per_app_full": [
+      {
+        "app_id": "InfinityLoop1309.NewPipeEnhanced",
+        "n_usable_sessions": 7
+      },
+      {
+        "app_id": "a2dp.Vol",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "ac.robinson.mediaphone",
+        "n_usable_sessions": 9
+      },
+      {
+        "app_id": "ademar.bitac",
+        "n_usable_sessions": 2
+      },
+      {
+        "app_id": "agrigolo.opendrummer",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "ai.susi",
+        "n_usable_sessions": 9
+      },
+      {
+        "app_id": "anonvpn.anon_next.android",
+        "n_usable_sessions": 7
+      },
+      {
+        "app_id": "app.alextran.immich",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "app.comaps.fdroid",
+        "n_usable_sessions": 7
+      },
+      {
+        "app_id": "app.crescentcash.src",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "app.fedilab.castlab",
+        "n_usable_sessions": 7
+      },
+      {
+        "app_id": "app.fedilab.mobilizon",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "app.fedilab.nitterizeme",
+        "n_usable_sessions": 9
+      },
+      {
+        "app_id": "app.fedilab.nitterizemelite",
+        "n_usable_sessions": 9
+      },
+      {
+        "app_id": "app.hypostats",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "app.ladefuchs.android",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "app.michaelwuensch.bitbanana",
+        "n_usable_sessions": 9
+      },
+      {
+        "app_id": "app.notesr",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "app.organicmaps",
+        "n_usable_sessions": 6
+      },
+      {
+        "app_id": "app.pachli",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "app.prav.client",
+        "n_usable_sessions": 9
+      },
+      {
+        "app_id": "app.tice.TICE.production",
+        "n_usable_sessions": 5
+      },
+      {
+        "app_id": "app.tujice.jergasColombia",
+        "n_usable_sessions": 9
+      },
+      {
+        "app_id": "app.udderance",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "at.linuxtage.Eventfahrplan",
+        "n_usable_sessions": 9
+      },
+      {
+        "app_id": "at.manuelbichler.octalsuntime",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "at.mikenet.serbianlatintocyrillic",
+        "n_usable_sessions": 5
+      },
+      {
+        "app_id": "at.tomtasche.reader",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "au.com.wallaceit.reddinator",
+        "n_usable_sessions": 9
+      },
+      {
+        "app_id": "barilyuk.batterytemperature",
+        "n_usable_sessions": 9
+      },
+      {
+        "app_id": "be.digitalia.fosdem",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "be.humanoids.webthingify",
+        "n_usable_sessions": 1
+      },
+      {
+        "app_id": "be.mygod.vpnhotspot_foss",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "biz.binarysolutions.mindfulnessmeditation",
+        "n_usable_sessions": 6
+      },
+      {
+        "app_id": "biz.binarysolutions.stress",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "biz.binarysolutions.vatcalculator",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "bluepie.ad_silence",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "br.odb.knights",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "btools.routingapp",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "buet.rafi.dictionary",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "bus.chio.wishmaster",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "ca.andries.portknocker",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "ca.chancehorizon.paseo",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "ca.farrelltonsolar.classic",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "ca.momi.lift",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "ca.ramzan.delist",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "ca.rmen.android.frenchcalendar",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "ca.rmen.android.scrumchatter",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "ca.rmen.nounours",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "cat.jordihernandez.cinecat",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "cc.kafuu.bilidownload",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "cf.playhi.freezeyou",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "ch.abertschi.waterme.water_me",
+        "n_usable_sessions": 3
+      },
+      {
+        "app_id": "ch.bubendorf.locusaddon.gsakdatabase",
+        "n_usable_sessions": 1
+      },
+      {
+        "app_id": "ch.hgdev.toposuite",
+        "n_usable_sessions": 7
+      },
+      {
+        "app_id": "ch.joshuah.bibleverseapp",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "ch.mydoli.focal",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "cityfreqs.com.pilfershushjammer",
+        "n_usable_sessions": 8
+      },
+      {
+        "app_id": "cl.coders.faketraveler",
+        "n_usable_sessions": 8
+      }
+    ]
+  },
+  "0b": {
+    "n_apps_ge_6": 33,
+    "n_apps_ge_8": 26,
+    "n_apps_ge_10": 0,
+    "n_apps_ge_15": 0,
+    "apps_ge_8": [
+      "ac.robinson.mediaphone",
+      "ai.susi",
+      "app.fedilab.nitterizeme",
+      "app.fedilab.nitterizemelite",
+      "app.michaelwuensch.bitbanana",
+      "app.prav.client",
+      "app.tujice.jergasColombia",
+      "at.linuxtage.Eventfahrplan",
+      "au.com.wallaceit.reddinator",
+      "barilyuk.batterytemperature",
+      "be.digitalia.fosdem",
+      "be.mygod.vpnhotspot_foss",
+      "biz.binarysolutions.vatcalculator",
+      "bluepie.ad_silence",
+      "bus.chio.wishmaster",
+      "ca.chancehorizon.paseo",
+      "ca.farrelltonsolar.classic",
+      "ca.rmen.android.frenchcalendar",
+      "ca.rmen.android.scrumchatter",
+      "ca.rmen.nounours",
+      "cat.jordihernandez.cinecat",
+      "cf.playhi.freezeyou",
+      "ch.joshuah.bibleverseapp",
+      "ch.mydoli.focal",
+      "cityfreqs.com.pilfershushjammer",
+      "cl.coders.faketraveler"
+    ],
+    "caption_warning": false
+  },
+  "0c": {
+    "export_time_topology": {
+      "path": "datasets/v2_extended/sessions_index.jsonl",
+      "n": 342,
+      "mapped_events": {
+        "n": 342,
+        "min": 1.0,
+        "p10": 8.0,
+        "p25": 26.75,
+        "median": 84.0,
+        "p75": 254.0,
+        "p90": 697.8000000000001,
+        "max": 1941.0,
+        "iqr": 227.25,
+        "mean": 242.00584795321637
+      },
+      "n_edges": {
+        "n": 342,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 1.0,
+        "median": 2.0,
+        "p75": 6.0,
+        "p90": 10.0,
+        "max": 25.0,
+        "iqr": 5.0,
+        "mean": 4.046783625730995
+      },
+      "n_active_nodes": {
+        "n": 342,
+        "min": 1.0,
+        "p10": 1.1000000000000014,
+        "p25": 2.0,
+        "median": 3.0,
+        "p75": 4.0,
+        "p90": 5.0,
+        "max": 7.0,
+        "iqr": 2.0,
+        "mean": 2.9415204678362574
+      },
+      "edge_sum": 1384.0,
+      "edges_per_session_mean": 4.046783625730995,
+      "frac_zero_edges": 0.15789473684210525,
+      "builder_note": "Export-time build_session_graph topology fields on sessions_index; differs from Chapter B Run2 update_graph_sequence (med edges 2 vs 5)."
+    },
+    "chapter_b_run2": {
+      "path": "abrg/output/v2_chapter_b/run2_comparison/v2_per_session.csv",
+      "n": 342,
+      "edges": {
+        "n": 342,
+        "min": 0.0,
+        "p10": 0.10000000000000142,
+        "p25": 2.0,
+        "median": 5.0,
+        "p75": 10.0,
+        "p90": 12.0,
+        "max": 28.0,
+        "iqr": 8.0,
+        "mean": 5.973684210526316
+      },
+      "note": "Chapter B persisted per-session metrics",
+      "n_active_nodes": {
+        "n": 342,
+        "min": 1.0,
+        "p10": 1.1000000000000014,
+        "p25": 2.0,
+        "median": 3.0,
+        "p75": 4.0,
+        "p90": 5.0,
+        "max": 7.0,
+        "iqr": 2.0,
+        "mean": 2.9415204678362574
+      }
+    },
+    "v2_crosscheck": {
+      "cited_579_over_728": "NOT FOUND in persisted artifacts (see W_selection.md)",
+      "norm_ab_v2_path": "abrg/output/norm_ab_v2/comparison.json",
+      "norm_ab_v2_total_snapshots": 731,
+      "norm_ab_v2_trainable_snapshots": 634,
+      "norm_ab_v2_gae_eligible_snapshots": 565,
+      "norm_ab_v2_edge_dist_trainable": {
+        "min": 0,
+        "median": 2.0,
+        "max": 25,
+        "mean": 4.56
+      },
+      "norm_ab_v2_edge_dist_gae": {
+        "min": 1,
+        "median": 3,
+        "max": 25,
+        "mean": 5.11
+      },
+      "norm_ab_v2_gae_csv_n": 565,
+      "norm_ab_v2_gae_edge_sum": 2888.0,
+      "norm_ab_v2_gae_edge_mean": 5.111504424778761,
+      "norm_ab_v2_gae_edge_median": 3.0
+    }
+  },
+  "0d": {
+    "inter_session_gap_s": {
+      "n": 283,
+      "min": 446.304,
+      "p10": 455.8904,
+      "p25": 466.45799999999997,
+      "median": 17509.528,
+      "p75": 29640.509,
+      "p90": 2513466.856,
+      "max": 2820260.552,
+      "iqr": 29174.051,
+      "mean": 339631.2625088339
+    },
+    "n_gaps": 283,
+    "apps_all_sessions_single_day": 22,
+    "apps_sessions_multi_day": 37,
+    "apps_with_usable": 59
+  },
+  "0e": {
+    "graph_category_universe": [
+      "accounts",
+      "audio",
+      "camera",
+      "clipboard",
+      "content_access",
+      "crypto",
+      "database",
+      "device_info",
+      "dynamic_code_loading",
+      "file_io",
+      "ipc_intents",
+      "location",
+      "media",
+      "native_code",
+      "network",
+      "notifications",
+      "package_manager",
+      "process",
+      "sms",
+      "storage",
+      "telephony",
+      "webview"
+    ],
+    "n_nodes": 22,
+    "categories_observed_in_mapped_stream": [
+      "audio",
+      "camera",
+      "content_access",
+      "crypto",
+      "database",
+      "file_io",
+      "ipc_intents",
+      "location",
+      "native_code",
+      "network",
+      "notifications",
+      "package_manager",
+      "process",
+      "storage",
+      "webview"
+    ],
+    "all_mapped_in_universe": true,
+    "dropped_hook_categories_seen": {
+      "lifecycle": 1652,
+      "reflection": 827700,
+      "navigation": 226
+    },
+    "unknown_outside_taxonomy": [],
+    "n_sessions_scanned": 342,
+    "sensor_note": "Same 22-node GRAPH_CATEGORY_UNIVERSE labels as AndroCT. Sensor differs: ContextDroid Frida hooks (hook_apis.js v3) emit category at capture time; AndroCT/DroidFax maps Soot callee strings post hoc via api_category_map. Event semantics (what fires a 'network' or 'ipc_intents' event) are instrumentation-specific \u2014 label set matches, generative process does not. E4 stats share the node vocabulary with E0/E2 but are NOT interchangeable as samples from the same observation process."
+  },
+  "0f": {
+    "rebuild_note": "Intra-session timing requires reading events.jsonl timestamps (not in sessions_index). Zero-edge under k=5 requires in-memory update_graph_sequence on each time-window's mapped category stream \u2014 no corpus graph rebuild; measurement-only.",
+    "session_duration_s": {
+      "n": 342,
+      "min": 445.423,
+      "p10": 449.7116,
+      "p25": 454.2885,
+      "median": 460.88199999999995,
+      "p75": 469.55125,
+      "p90": 479.80859999999996,
+      "max": 640.648,
+      "iqr": 15.262749999999983,
+      "mean": 463.2376111111111
+    },
+    "mapped_events_per_minute": {
+      "n": 342,
+      "min": 0.13197922646975366,
+      "p10": 1.0564578749812479,
+      "p25": 3.4690237469698357,
+      "median": 11.025501601093879,
+      "p75": 32.681469212484735,
+      "p90": 90.34759780371498,
+      "max": 249.67573883308856,
+      "iqr": 29.2124454655149,
+      "mean": 31.31892117536479
+    },
+    "inter_mapped_event_gap_ms": {
+      "n": 82424,
+      "min": 0.0,
+      "p10": 1.0,
+      "p25": 3.0,
+      "median": 7.0,
+      "p75": 37.0,
+      "p90": 1125.0,
+      "max": 256698.0,
+      "iqr": 34.0,
+      "mean": 1390.1391342327477
+    },
+    "idle_fraction_wall_clock": {
+      "n": 342,
+      "min": 0.1263616557734205,
+      "p10": 0.8542688633261845,
+      "p25": 0.9256225715294949,
+      "median": 0.9591836263786977,
+      "p75": 0.9826556885380415,
+      "p90": 0.9917321079524022,
+      "max": 0.9978021978021978,
+      "iqr": 0.05703311700854663,
+      "mean": 0.9039686663697974
+    },
+    "windows": {
+      "10": {
+        "windows_per_session": {
+          "n": 342,
+          "min": 45.0,
+          "p10": 45.0,
+          "p25": 46.0,
+          "median": 47.0,
+          "p75": 47.0,
+          "p90": 48.0,
+          "max": 65.0,
+          "iqr": 1.0,
+          "mean": 46.82748538011696
+        },
+        "frac_zero_mapped": {
+          "n": 342,
+          "min": 0.041666666666666664,
+          "p10": 0.44680851063829785,
+          "p25": 0.5652173913043478,
+          "median": 0.723404255319149,
+          "p75": 0.8642857142857143,
+          "p90": 0.9346376811594204,
+          "max": 0.9782608695652174,
+          "iqr": 0.29906832298136654,
+          "mean": 0.6897152463727012
+        },
+        "frac_one_mapped": {
+          "n": 342,
+          "min": 0.0,
+          "p10": 0.0,
+          "p25": 0.02040816326530612,
+          "median": 0.0425531914893617,
+          "p75": 0.08695652173913043,
+          "p90": 0.15185013876040715,
+          "max": 0.3111111111111111,
+          "iqr": 0.06654835847382432,
+          "mean": 0.061539697050685536
+        },
+        "frac_zero_edges_k5": {
+          "n": 342,
+          "min": 0.041666666666666664,
+          "p10": 0.6312210915818687,
+          "p25": 0.8486355226641998,
+          "median": 0.9347826086956522,
+          "p75": 0.9782608695652174,
+          "p90": 1.0,
+          "max": 1.0,
+          "iqr": 0.12962534690101757,
+          "mean": 0.8651740314480606
+        },
+        "median_frac_zero_mapped": 0.723404255319149,
+        "median_frac_zero_edges": 0.9347826086956522
+      },
+      "35": {
+        "windows_per_session": {
+          "n": 342,
+          "min": 13.0,
+          "p10": 13.0,
+          "p25": 13.0,
+          "median": 14.0,
+          "p75": 14.0,
+          "p90": 14.0,
+          "max": 19.0,
+          "iqr": 1.0,
+          "mean": 13.75438596491228
+        },
+        "frac_zero_mapped": {
+          "n": 342,
+          "min": 0.0,
+          "p10": 0.07692307692307693,
+          "p25": 0.2857142857142857,
+          "median": 0.46153846153846156,
+          "p75": 0.5928571428571429,
+          "p90": 0.7857142857142857,
+          "max": 0.9230769230769231,
+          "iqr": 0.30714285714285716,
+          "mean": 0.4467688564641473
+        },
+        "frac_one_mapped": {
+          "n": 342,
+          "min": 0.0,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.07142857142857142,
+          "p75": 0.15384615384615385,
+          "p90": 0.23076923076923078,
+          "max": 0.46153846153846156,
+          "iqr": 0.15384615384615385,
+          "mean": 0.09832921259514055
+        },
+        "frac_zero_edges_k5": {
+          "n": 342,
+          "min": 0.0,
+          "p10": 0.35714285714285715,
+          "p25": 0.5714285714285714,
+          "median": 0.7857142857142857,
+          "p75": 0.9230769230769231,
+          "p90": 1.0,
+          "max": 1.0,
+          "iqr": 0.35164835164835173,
+          "mean": 0.7134702478192783
+        },
+        "median_frac_zero_mapped": 0.46153846153846156,
+        "median_frac_zero_edges": 0.7857142857142857
+      },
+      "60": {
+        "windows_per_session": {
+          "n": 342,
+          "min": 8.0,
+          "p10": 8.0,
+          "p25": 8.0,
+          "median": 8.0,
+          "p75": 8.0,
+          "p90": 8.0,
+          "max": 11.0,
+          "iqr": 0.0,
+          "mean": 8.105263157894736
+        },
+        "frac_zero_mapped": {
+          "n": 342,
+          "min": 0.0,
+          "p10": 0.0,
+          "p25": 0.125,
+          "median": 0.25,
+          "p75": 0.5,
+          "p90": 0.75,
+          "max": 0.875,
+          "iqr": 0.375,
+          "mean": 0.30188950912635126
+        },
+        "frac_one_mapped": {
+          "n": 342,
+          "min": 0.0,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.125,
+          "p75": 0.25,
+          "p90": 0.375,
+          "max": 0.5,
+          "iqr": 0.25,
+          "mean": 0.12165514797093745
+        },
+        "frac_zero_edges_k5": {
+          "n": 342,
+          "min": 0.0,
+          "p10": 0.22500000000000003,
+          "p25": 0.5,
+          "median": 0.625,
+          "p75": 0.875,
+          "p90": 1.0,
+          "max": 1.0,
+          "iqr": 0.375,
+          "mean": 0.6194141709492587
+        },
+        "median_frac_zero_mapped": 0.25,
+        "median_frac_zero_edges": 0.625
+      },
+      "120": {
+        "windows_per_session": {
+          "n": 342,
+          "min": 4.0,
+          "p10": 4.0,
+          "p25": 4.0,
+          "median": 4.0,
+          "p75": 4.0,
+          "p90": 4.0,
+          "max": 6.0,
+          "iqr": 0.0,
+          "mean": 4.099415204678363
+        },
+        "frac_zero_mapped": {
+          "n": 342,
+          "min": 0.0,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 0.25,
+          "p90": 0.5,
+          "max": 0.8,
+          "iqr": 0.25,
+          "mean": 0.17305068226120857
+        },
+        "frac_one_mapped": {
+          "n": 342,
+          "min": 0.0,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 0.0,
+          "p90": 0.25,
+          "max": 0.5,
+          "iqr": 0.0,
+          "mean": 0.06647173489278753
+        },
+        "frac_zero_edges_k5": {
+          "n": 342,
+          "min": 0.0,
+          "p10": 0.0,
+          "p25": 0.25,
+          "median": 0.5,
+          "p75": 0.75,
+          "p90": 1.0,
+          "max": 1.0,
+          "iqr": 0.5,
+          "mean": 0.43328460038986355
+        },
+        "median_frac_zero_mapped": 0.0,
+        "median_frac_zero_edges": 0.5
+      }
+    },
+    "best_W_s": 120,
+    "best_median_frac_zero_mapped": 0.0
+  },
+  "viability": {
+    "SPLIT_VIABILITY": "VIABLE",
+    "SPLIT_n_ge_8": 26,
+    "RECENCY_MEANINGFUL": "MARGINAL",
+    "RECENCY_note": "median gap 4.86 h \u2014 hours-scale separation",
+    "TIME_WINDOWING": "MARGINAL",
+    "TIME_WINDOWING_note": "best empty-mapped W=120s at median empty-mapped=0.000, but median zero-edge (k=5) fraction still 0.500 \u2265 0.50 \u2014 windows often contain events without cross-category edges"
+  }
+}

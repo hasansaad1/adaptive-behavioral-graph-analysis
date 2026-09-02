@@ -1,0 +1,80 @@
+{
+  "active_categories": [
+    "file_io",
+    "network",
+    "storage"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "app.comaps.fdroid",
+  "batch": "extend",
+  "end_timestamp": "2026-08-15T04:13:54.159000Z",
+  "end_timestamp_ms": 1786767234159,
+  "event_counts": {
+    "mapped": 262,
+    "mapped_rate": 0.4418212478920742,
+    "total": 593
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "47d583fd8b06_llm_s9__extend",
+  "failure_reason": "flailing:same_element_cycle: screen hash b17834b15c17\u2026 dominates (81%) and top named target repeated 41/50 times",
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getString",
+    "URL.openConnection"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 1,
+  "reference_tier_pass": false,
+  "session_id": "47d583fd8b06_llm_s9",
+  "session_index_within_app": 9,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/47d583fd8b06_app.comaps.fdroid/dynamic/llm/session_9/app.comaps.fdroid_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/47d583fd8b06_app.comaps.fdroid/dynamic/llm/session_9/app.comaps.fdroid_dynamic_metadata.json",
+  "start_timestamp": "2026-08-15T04:06:19.707000Z",
+  "start_timestamp_ms": 1786766779707,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 593,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 30,
+    "n_with_timestamp": 593,
+    "unparseable_line_numbers_sample": [
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      448,
+      449,
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 454.564
+}

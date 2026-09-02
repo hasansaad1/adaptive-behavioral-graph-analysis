@@ -1,0 +1,75 @@
+{
+  "active_categories": [
+    "content_access",
+    "crypto",
+    "file_io",
+    "ipc_intents"
+  ],
+  "app_id": "app.fedilab.castlab",
+  "batch": "original",
+  "end_timestamp": "2026-07-13T02:41:11.518000Z",
+  "end_timestamp_ms": 1783910471518,
+  "event_counts": {
+    "mapped": 69,
+    "mapped_rate": 0.010952380952380953,
+    "total": 6300
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "5719f3b34f71_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "ContentResolver.query",
+    "Context.sendBroadcast",
+    "File.delete",
+    "FileInputStream.<init>",
+    "MessageDigest.digest",
+    "MessageDigest.getInstance"
+  ],
+  "n_active_nodes": 4,
+  "n_edges": 4,
+  "reference_tier_pass": true,
+  "session_id": "5719f3b34f71_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/5719f3b34f71_llm_s1__app.fedilab.castlab/app.fedilab.castlab_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/5719f3b34f71_llm_s1__app.fedilab.castlab/app.fedilab.castlab_dynamic_metadata.json",
+  "start_timestamp": "2026-07-13T02:33:29.384000Z",
+  "start_timestamp_ms": 1783910009384,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 6300,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 13,
+    "n_with_timestamp": 6300,
+    "unparseable_line_numbers_sample": [
+      2103,
+      2104,
+      4236,
+      5137,
+      5138,
+      5139,
+      5140,
+      5141,
+      5142,
+      5143,
+      5144,
+      5145,
+      5146
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 462.134
+}

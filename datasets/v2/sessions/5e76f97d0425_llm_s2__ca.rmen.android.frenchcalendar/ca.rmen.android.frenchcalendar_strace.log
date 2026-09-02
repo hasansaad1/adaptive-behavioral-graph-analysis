@@ -1,0 +1,16 @@
+29802 1784158133.399321 exit(0)         = ?
+29802 1784158133.399510 +++ exited with 0 +++
+29801 1784158133.399549 exit(0)         = ?
+29801 1784158133.399582 +++ exited with 0 +++
+29803 1784158133.401244 exit(0 <unfinished ...>
+29800 1784158133.401271 exit(0 <unfinished ...>
+29803 1784158133.401391 <... exit resumed>) = ?
+29800 1784158133.401409 <... exit resumed>) = ?
+29803 1784158133.401636 +++ exited with 0 +++
+29800 1784158133.401646 +++ exited with 0 +++
+29813 1784158133.404478 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+29813 1784158133.404913 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+29813 1784158133.405287 newfstatat(AT_FDCWD, "/data/app/ca.rmen.android.frenchcalendar-PaNf-8P1I5sNqPla7IIkgQ==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+29813 1784158133.405654 newfstatat(AT_FDCWD, "/data/app/ca.rmen.android.frenchcalendar-PaNf-8P1I5sNqPla7IIkgQ==/base.apk", {st_mode=S_IFREG|0644, st_size=1168009, ...}, AT_SYMLINK_NOFOLLOW) = 0
+29813 1784158133.405991 getcwd("/", 4096) = 2
+29813 1784158133.406122 newfstatat(AT_FDCWD, "/base.apk", 0x7b50181690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)

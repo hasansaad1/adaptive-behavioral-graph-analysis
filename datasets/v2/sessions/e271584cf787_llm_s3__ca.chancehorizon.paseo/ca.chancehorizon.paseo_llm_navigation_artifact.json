@@ -1,0 +1,942 @@
+{
+  "schema": "contextdroid_nav_semantic_graph_v1",
+  "package_name": "ca.chancehorizon.paseo",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_hash": "17cd28af5f434361505ae0749daf70cb5c716287f0df0ba3fb767254193312b1",
+      "hint": "touch_outside View · legendLayout ViewGroup",
+      "visit_count": 2
+    },
+    {
+      "screen_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "hint": "",
+      "visit_count": 2
+    },
+    {
+      "screen_hash": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "hint": "help icon helpIcon ImageView · dayCard FrameLayout · monthCard FrameLayout · weekCard FrameLayout · yearCard FrameLayout · legendLayout LinearLayout · Projected steps legendProjectedSteps TextView · Open navigation drawer ImageButton",
+      "visit_count": 53
+    },
+    {
+      "screen_hash": "cb4bd4c376d4ae08d10a17bdc90a639f1d19f1e1aa76966375dafc2dce9c411c",
+      "hint": "touch_outside View",
+      "visit_count": 3
+    }
+  ],
+  "transitions": [
+    {
+      "step": 1,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 2,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "17cd28af5f434361505ae0749daf70cb5c716287f0df0ba3fb767254193312b1",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendLayout",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1528,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendLayout",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:ca.chancehorizon.paseo:id/legendLayout|"
+    },
+    {
+      "step": 3,
+      "from": "17cd28af5f434361505ae0749daf70cb5c716287f0df0ba3fb767254193312b1",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendLayout",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1428,
+        "reason": "bfs_nav_frontier"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendLayout",
+      "execution_kind": "exploration",
+      "nav_target_key": "nav:ca.chancehorizon.paseo:id/legendLayout|"
+    },
+    {
+      "step": 4,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/dayCard",
+        "target_content_desc": "",
+        "x": 270,
+        "y": 534,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/dayCard",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/dayCard|"
+    },
+    {
+      "step": 5,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/monthCard",
+        "target_content_desc": "",
+        "x": 270,
+        "y": 1089,
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/monthCard",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/monthCard|"
+    },
+    {
+      "step": 6,
+      "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "action": {
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      "ok": true,
+      "outcome": "back",
+      "execution_kind": "recovery",
+      "nav_target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}"
+    },
+    {
+      "step": 7,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 8,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 9,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 10,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 11,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 12,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 13,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 14,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 15,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 16,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 17,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 18,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 19,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 20,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 21,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 22,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 23,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 24,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 25,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 26,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 27,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 28,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 29,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 30,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 31,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 32,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    },
+    {
+      "step": 33,
+      "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+      "action": {
+        "action_type": "tap",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "x": 540,
+        "y": 1610,
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      "ok": true,
+      "outcome": "tap_rid:ca.chancehorizon.paseo:id/legendProjectedSteps",
+      "execution_kind": "exploration",
+      "nav_target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|"
+    }
+  ],
+  "semantic_graph": {
+    "targets": {
+      "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "visible_on": [
+          "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b"
+        ],
+        "attempts": 28,
+        "successes": 28,
+        "last_from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "last_to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b"
+      },
+      "nav:ca.chancehorizon.paseo:id/legendLayout|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendLayout",
+        "target_content_desc": "",
+        "visible_on": [
+          "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+          "17cd28af5f434361505ae0749daf70cb5c716287f0df0ba3fb767254193312b1"
+        ],
+        "attempts": 2,
+        "successes": 2,
+        "last_from": "17cd28af5f434361505ae0749daf70cb5c716287f0df0ba3fb767254193312b1",
+        "last_to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b"
+      },
+      "nav:ca.chancehorizon.paseo:id/legendProjectedSteps|": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "ca.chancehorizon.paseo:id/legendProjectedSteps",
+        "target_content_desc": "",
+        "visible_on": [
+          "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "nav:|Open navigation drawer": {
+        "kind": "nav",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "Open navigation drawer",
+        "visible_on": [
+          "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b"
+        ],
+        "attempts": 0,
+        "successes": 0,
+        "last_from": "",
+        "last_to": ""
+      },
+      "tab:ca.chancehorizon.paseo:id/dayCard|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.chancehorizon.paseo:id/dayCard",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "tab:ca.chancehorizon.paseo:id/monthCard|": {
+        "kind": "tab",
+        "semantic_token": "",
+        "target_resource_id": "ca.chancehorizon.paseo:id/monthCard",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}": {
+        "kind": "expand",
+        "semantic_token": "",
+        "target_resource_id": "",
+        "target_content_desc": "",
+        "visible_on": [],
+        "attempts": 1,
+        "successes": 1,
+        "last_from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "last_to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    "edges": [
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_tab"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "17cd28af5f434361505ae0749daf70cb5c716287f0df0ba3fb767254193312b1",
+        "target_key": "nav:ca.chancehorizon.paseo:id/legendLayout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "17cd28af5f434361505ae0749daf70cb5c716287f0df0ba3fb767254193312b1",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "nav:ca.chancehorizon.paseo:id/legendLayout|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_nav_frontier"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:ca.chancehorizon.paseo:id/dayCard|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "tab:ca.chancehorizon.paseo:id/monthCard|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_expand_after_tab_switch"
+      },
+      {
+        "from": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "to": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "target_key": "expand:{\"action_type\": \"back\", \"target_content_desc\": null, \"target_resource_id\": null, \"x\": null, \"y\": null}",
+        "ok": true,
+        "action_type": "back",
+        "reason": "bfs_return_to_hub"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      },
+      {
+        "from": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "to": "8b6bd782eda75aff04db3f6adbc0c4125bb9b2be82c7d81f53ba32d3a2fc520b",
+        "target_key": "tab:ca.chancehorizon.paseo:id/legendProjectedSteps|",
+        "ok": true,
+        "action_type": "tap",
+        "reason": "bfs_graph_uncovered_nav"
+      }
+    ]
+  }
+}

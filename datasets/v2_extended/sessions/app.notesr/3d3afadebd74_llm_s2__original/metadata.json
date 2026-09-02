@@ -1,0 +1,73 @@
+{
+  "active_categories": [
+    "file_io"
+  ],
+  "app_id": "app.notesr",
+  "batch": "original",
+  "end_timestamp": "2026-07-13T08:09:33.745000Z",
+  "end_timestamp_ms": 1783930173745,
+  "event_counts": {
+    "mapped": 1,
+    "mapped_rate": 0.0008673026886383347,
+    "total": 1153
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "3d3afadebd74_llm_s2__original",
+  "failure_reason": null,
+  "gae_eligible": false,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "File.delete"
+  ],
+  "n_active_nodes": 1,
+  "n_edges": 0,
+  "reference_tier_pass": true,
+  "session_id": "3d3afadebd74_llm_s2",
+  "session_index_within_app": 2,
+  "source_frida_path": "datasets/v2/sessions/3d3afadebd74_llm_s2__app.notesr/app.notesr_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/3d3afadebd74_llm_s2__app.notesr/app.notesr_dynamic_metadata.json",
+  "start_timestamp": "2026-07-13T08:01:59.128000Z",
+  "start_timestamp_ms": 1783929719128,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1153,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 30,
+    "n_with_timestamp": 1153,
+    "unparseable_line_numbers_sample": [
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 454.617
+}

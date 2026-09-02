@@ -1,0 +1,36 @@
+\begin{table}[ht]
+\centering
+\caption{D0--D5 one-class and supervised detectors on both splits, plus raw-input control.}
+\label{tab:t6-dev}
+\begin{tabular}{lrrrrr}
+\toprule
+rep & method & detector & split & AUC floor & direction \\
+\midrule
+D1\_trained\_t22 & benign\_only & centroid\_euclidean & splitA\_GAE & 0.8004 & malware\_higher\_score \\
+D3\_trained\_t22 & supervised & HGB & splitA\_stratified & 0.9614 & malware\_higher\_score \\
+D3\_trained\_t22 & supervised & HGB\_mean\_seeds\_42\_46 & splitA\_stratified & 0.9624 & malware\_higher\_score \\
+D0\_trained\_t22 & benign\_only & centroid\_euclidean & splitA\_GAE & 0.7617 & malware\_higher\_score \\
+D2\_trained\_t22 & benign\_only & centroid\_euclidean & splitA\_GAE & 0.5513 & malware\_higher\_score \\
+D3\_trained\_t22 & benign\_only & centroid\_euclidean & splitA\_GAE & 0.5895 & malware\_higher\_score \\
+D4\_trained\_t22 & benign\_only & centroid\_euclidean & splitA\_GAE & 0.7446 & malware\_higher\_score \\
+D5\_trained\_t22 & benign\_only & centroid\_euclidean & splitA\_GAE & 0.7022 & malware\_higher\_score \\
+D0\_trained\_t22 & benign\_only & centroid\_euclidean\_pooled\_oof & splitB\_ward30 & 0.7617 & malware\_higher\_score \\
+D1\_trained\_t22 & benign\_only & centroid\_euclidean\_pooled\_oof & splitB\_ward30 & 0.5089 & malware\_higher\_score \\
+D2\_trained\_t22 & benign\_only & centroid\_euclidean\_pooled\_oof & splitB\_ward30 & 0.5721 & malware\_higher\_score \\
+D3\_trained\_t22 & benign\_only & centroid\_euclidean\_pooled\_oof & splitB\_ward30 & 0.5395 & malware\_higher\_score \\
+D4\_trained\_t22 & benign\_only & centroid\_euclidean\_pooled\_oof & splitB\_ward30 & 0.5178 & malware\_higher\_score \\
+D5\_trained\_t22 & benign\_only & centroid\_euclidean\_pooled\_oof & splitB\_ward30 & 0.5678 & malware\_higher\_score \\
+RAW\_full & raw\_input\_control & centroid\_euclidean & splitA\_GAE & 0.7769 & malware\_higher\_score \\
+D0\_trained\_t22 & supervised & HGB & splitA\_stratified & 0.7940 & malware\_higher\_score \\
+D0\_trained\_t22 & supervised & HGB\_mean\_seeds\_42\_46 & splitA\_stratified & 0.7910 & malware\_higher\_score \\
+D1\_trained\_t22 & supervised & HGB & splitA\_stratified & 0.9506 & malware\_higher\_score \\
+D1\_trained\_t22 & supervised & HGB\_mean\_seeds\_42\_46 & splitA\_stratified & 0.9493 & malware\_higher\_score \\
+D2\_trained\_t22 & supervised & HGB & splitA\_stratified & 0.9591 & malware\_higher\_score \\
+D2\_trained\_t22 & supervised & HGB\_mean\_seeds\_42\_46 & splitA\_stratified & 0.9594 & malware\_higher\_score \\
+D4\_trained\_t22 & supervised & HGB & splitA\_stratified & 0.9589 & malware\_higher\_score \\
+D4\_trained\_t22 & supervised & HGB\_mean\_seeds\_42\_46 & splitA\_stratified & 0.9593 & malware\_higher\_score \\
+D5\_trained\_t22 & supervised & HGB & splitA\_stratified & 0.9564 & malware\_higher\_score \\
+D5\_trained\_t22 & supervised & HGB\_mean\_seeds\_42\_46 & splitA\_stratified & 0.9587 & malware\_higher\_score \\
+\bottomrule
+\end{tabular}
+\end{table}

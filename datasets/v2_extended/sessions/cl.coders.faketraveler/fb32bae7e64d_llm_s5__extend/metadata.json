@@ -1,0 +1,76 @@
+{
+  "active_categories": [
+    "file_io",
+    "ipc_intents",
+    "storage",
+    "webview"
+  ],
+  "analysis_status": "success",
+  "analyze_exit_status": 0,
+  "app_id": "cl.coders.faketraveler",
+  "batch": "extend",
+  "end_timestamp": "2026-08-14T09:05:41.741000Z",
+  "end_timestamp_ms": 1786698341741,
+  "event_counts": {
+    "mapped": 632,
+    "mapped_rate": 0.3256053580628542,
+    "total": 1941
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "fb32bae7e64d_llm_s5__extend",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "Context.bindService",
+    "Context.startActivity",
+    "File.delete",
+    "SharedPreferences.apply",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString",
+    "SharedPreferences.putString",
+    "WebView.loadUrl"
+  ],
+  "n_active_nodes": 4,
+  "n_edges": 10,
+  "reference_tier_pass": true,
+  "session_id": "fb32bae7e64d_llm_s5",
+  "session_index_within_app": 5,
+  "source_frida_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/fb32bae7e64d_cl.coders.faketraveler/dynamic/llm/session_5/cl.coders.faketraveler_frida.jsonl",
+  "source_meta_path": "$CONTEXTDROID_ROOT/logs/v2_extend_collection/fb32bae7e64d_cl.coders.faketraveler/dynamic/llm/session_5/cl.coders.faketraveler_dynamic_metadata.json",
+  "start_timestamp": "2026-08-14T08:58:14.972000Z",
+  "start_timestamp_ms": 1786697894972,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1941,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 10,
+    "n_with_timestamp": 1941,
+    "unparseable_line_numbers_sample": [
+      1670,
+      1671,
+      1672,
+      1673,
+      1674,
+      1675,
+      1676,
+      1677,
+      1678,
+      1679
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 446.877
+}

@@ -1,0 +1,81 @@
+{
+  "active_categories": [
+    "content_access",
+    "database",
+    "storage"
+  ],
+  "app_id": "ca.rmen.android.scrumchatter",
+  "batch": "original",
+  "end_timestamp": "2026-07-15T23:56:46.948000Z",
+  "end_timestamp_ms": 1784159806948,
+  "event_counts": {
+    "mapped": 151,
+    "mapped_rate": 0.3013972055888224,
+    "total": 501
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "7603ad0544fe_llm_s1__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "ContentResolver.delete",
+    "ContentResolver.insert",
+    "ContentResolver.query",
+    "ContentResolver.update",
+    "SQLiteDatabase.insert",
+    "SharedPreferences.getInt",
+    "SharedPreferences.getString"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 6,
+  "reference_tier_pass": true,
+  "session_id": "7603ad0544fe_llm_s1",
+  "session_index_within_app": 1,
+  "source_frida_path": "datasets/v2/sessions/7603ad0544fe_llm_s1__ca.rmen.android.scrumchatter/ca.rmen.android.scrumchatter_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/7603ad0544fe_llm_s1__ca.rmen.android.scrumchatter/ca.rmen.android.scrumchatter_dynamic_metadata.json",
+  "start_timestamp": "2026-07-15T23:48:51.075000Z",
+  "start_timestamp_ms": 1784159331075,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 501,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 30,
+    "n_with_timestamp": 501,
+    "unparseable_line_numbers_sample": [
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 475.873
+}

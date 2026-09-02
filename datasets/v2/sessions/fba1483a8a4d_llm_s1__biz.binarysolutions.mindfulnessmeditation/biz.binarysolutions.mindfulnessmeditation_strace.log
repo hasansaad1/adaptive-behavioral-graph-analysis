@@ -1,0 +1,37 @@
+28503 1784086754.278134 recvfrom(38, 0x7fe7aafe20, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+28503 1784086754.294374 recvfrom(38, "nysv\0\0\0\0\0\0\0\0\0\0\0\0\221\6\3223\326\1\0\0\307\323\1\0\0\0\0\0", 3200, MSG_DONTWAIT, NULL, NULL) = 32
+28503 1784086754.297387 recvfrom(38, 0x7fe7ab0300, 3200, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+28512 1784086755.625959 exit(0)         = ?
+28512 1784086755.626058 +++ exited with 0 +++
+28513 1784086755.629842 exit(0)         = ?
+28513 1784086755.630140 +++ exited with 0 +++
+28510 1784086755.630738 exit(0)         = ?
+28511 1784086755.631050 exit(0 <unfinished ...>
+28510 1784086755.631076 +++ exited with 0 +++
+28511 1784086755.631108 <... exit resumed>) = ?
+28511 1784086755.631240 +++ exited with 0 +++
+28524 1784086755.631347 newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+28524 1784086755.631405 newfstatat(AT_FDCWD, "/data/app", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+28524 1784086755.631435 newfstatat(AT_FDCWD, "/data/app/biz.binarysolutions.mindfulnessmeditation-NhbwHeyNEEAgxUj0d8KC7g==", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+28524 1784086755.631451 newfstatat(AT_FDCWD, "/data/app/biz.binarysolutions.mindfulnessmeditation-NhbwHeyNEEAgxUj0d8KC7g==/base.apk", {st_mode=S_IFREG|0644, st_size=2720533, ...}, AT_SYMLINK_NOFOLLOW) = 0
+28524 1784086755.631521 getcwd("/", 4096) = 2
+28524 1784086755.631533 newfstatat(AT_FDCWD, "/base.apk", 0x71bbbf8690, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+28503 1784086756.541025 clone(child_stack=0x71bcbbbd40, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x71bcbbbd60, tls=0x71bcbbc020, child_tidptr=0x71bcbbbd60) = 28586
+28586 1784086756.548301 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation", F_OK) = 0
+28586 1784086756.548647 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files", F_OK) = 0
+28586 1784086756.548969 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", F_OK) = 0
+28586 1784086756.549301 openat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files/profileinstaller_profileWrittenFor_lastUpdateTime.dat", O_RDONLY) = 58
+28586 1784086756.550250 getsockopt(58, SOL_SOCKET, SO_ERROR, 0x71bcbbad24, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+28586 1784086756.552677 openat(AT_FDCWD, "/data/app/biz.binarysolutions.mindfulnessmeditation-NhbwHeyNEEAgxUj0d8KC7g==/base.apk", O_RDONLY) = 58
+28586 1784086756.553285 getsockopt(58, SOL_SOCKET, SO_ERROR, 0x71bcbba5a4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+28586 1784086756.553897 newfstatat(AT_FDCWD, "/data/misc/profiles/ref/biz.binarysolutions.mindfulnessmeditation/primary.prof", 0x71bcbba548, 0) = -1 ENOENT (No such file or directory)
+28586 1784086756.554261 faccessat(AT_FDCWD, "/data/misc/profiles/ref/biz.binarysolutions.mindfulnessmeditation/primary.prof", F_OK) = -1 ENOENT (No such file or directory)
+28586 1784086756.554594 newfstatat(AT_FDCWD, "/data/misc/profiles/cur/0/biz.binarysolutions.mindfulnessmeditation/primary.prof", {st_mode=S_IFREG|0600, st_size=6143, ...}, 0) = 0
+28586 1784086756.554865 faccessat(AT_FDCWD, "/data/misc/profiles/cur/0/biz.binarysolutions.mindfulnessmeditation/primary.prof", F_OK) = 0
+28586 1784086756.555601 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files", F_OK) = 0
+28586 1784086756.555876 faccessat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files/profileInstalled", F_OK) = 0
+28586 1784086756.556162 openat(AT_FDCWD, "/data/user/0/biz.binarysolutions.mindfulnessmeditation/files/profileInstalled", O_RDONLY) = 58
+28586 1784086756.557654 getsockopt(58, SOL_SOCKET, SO_ERROR, 0x71bcbb9ec4, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+28586 1784086756.561494 exit(0)         = ?
+28586 1784086756.561729 +++ exited with 0 +++
+28545 1784086756.611702 faccessat(AT_FDCWD, "/proc/self/task/28586", F_OK) = -1 ENOENT (No such file or directory)

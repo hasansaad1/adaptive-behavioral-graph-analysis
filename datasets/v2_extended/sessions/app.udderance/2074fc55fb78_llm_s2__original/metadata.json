@@ -1,0 +1,67 @@
+{
+  "active_categories": [
+    "file_io",
+    "ipc_intents",
+    "webview"
+  ],
+  "app_id": "app.udderance",
+  "batch": "original",
+  "end_timestamp": "2026-07-13T15:07:20.685000Z",
+  "end_timestamp_ms": 1783955240685,
+  "event_counts": {
+    "mapped": 169,
+    "mapped_rate": 0.12353801169590643,
+    "total": 1368
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "2074fc55fb78_llm_s2__original",
+  "failure_reason": null,
+  "gae_eligible": true,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "AssetManager.open",
+    "Context.bindService",
+    "WebView.loadUrl"
+  ],
+  "n_active_nodes": 3,
+  "n_edges": 1,
+  "reference_tier_pass": true,
+  "session_id": "2074fc55fb78_llm_s2",
+  "session_index_within_app": 2,
+  "source_frida_path": "datasets/v2/sessions/2074fc55fb78_llm_s2__app.udderance/app.udderance_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/2074fc55fb78_llm_s2__app.udderance/app.udderance_dynamic_metadata.json",
+  "start_timestamp": "2026-07-13T14:59:48.535000Z",
+  "start_timestamp_ms": 1783954788535,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 1368,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 10,
+    "n_with_timestamp": 1368,
+    "unparseable_line_numbers_sample": [
+      1257,
+      1258,
+      1259,
+      1260,
+      1261,
+      1262,
+      1263,
+      1264,
+      1265,
+      1266
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 452.15
+}

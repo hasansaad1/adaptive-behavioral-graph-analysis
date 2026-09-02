@@ -1,0 +1,41 @@
+{
+  "kind": "androct_master_verify",
+  "experiment": "kernels",
+  "n_rows": 3,
+  "cli_rerun": {
+    "cli_module": "abrg.kernels",
+    "out_flag": "--out"
+  },
+  "rows": [
+    {
+      "detector": "WL_h3_ocsvm_precomputed",
+      "method": "graph_kernel",
+      "representation": "T1K",
+      "split": "splitA_GAE",
+      "auc_floor": "0.6725823946599917",
+      "raw_auc": "0.6725823946599917",
+      "artifact_path": "abrg/output/androct_2017/kernels/detectors/grid_rows.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "WL_structure_only_features_constant",
+      "method": "graph_kernel_ablation",
+      "representation": "T1K",
+      "split": "splitA_GAE",
+      "auc_floor": "0.6268418856904464",
+      "raw_auc": "0.6268418856904464",
+      "artifact_path": "abrg/output/androct_2017/kernels/ablation/winner_ablation.json",
+      "is_headline": "False"
+    },
+    {
+      "detector": "WL_edges_removed",
+      "method": "graph_kernel_ablation",
+      "representation": "T1K",
+      "split": "splitA_GAE",
+      "auc_floor": "0.5",
+      "raw_auc": "0.5",
+      "artifact_path": "abrg/output/androct_2017/kernels/ablation/winner_ablation.json",
+      "is_headline": "False"
+    }
+  ]
+}

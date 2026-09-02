@@ -1,0 +1,73 @@
+{
+  "active_categories": [
+    "database"
+  ],
+  "app_id": "buet.rafi.dictionary",
+  "batch": "original",
+  "end_timestamp": "2026-07-15T07:00:23.333000Z",
+  "end_timestamp_ms": 1784098823333,
+  "event_counts": {
+    "mapped": 5,
+    "mapped_rate": 0.009242144177449169,
+    "total": 541
+  },
+  "event_schema": {
+    "fields": [
+      "type",
+      "timestamp",
+      "api",
+      "category",
+      "args"
+    ],
+    "format": "Frida JSONL (ContextDroid / ABRG)",
+    "notes": "Copied verbatim; no resample/truncate/dedupe/filter."
+  },
+  "export_dir_name": "33f4266b15fd_llm_s3__original",
+  "failure_reason": null,
+  "gae_eligible": false,
+  "graph_metrics_source": "ABRG abrg.corpus.build_session_graph + abrg.trace.load_frida_trace at export time from unchanged Frida JSONL",
+  "hooks_fired": [
+    "SQLiteDatabase.rawQuery"
+  ],
+  "n_active_nodes": 1,
+  "n_edges": 0,
+  "reference_tier_pass": true,
+  "session_id": "33f4266b15fd_llm_s3",
+  "session_index_within_app": 3,
+  "source_frida_path": "datasets/v2/sessions/33f4266b15fd_llm_s3__buet.rafi.dictionary/buet.rafi.dictionary_frida.jsonl",
+  "source_meta_path": "datasets/v2/sessions/33f4266b15fd_llm_s3__buet.rafi.dictionary/buet.rafi.dictionary_dynamic_metadata.json",
+  "start_timestamp": "2026-07-15T06:52:18.409000Z",
+  "start_timestamp_ms": 1784098338409,
+  "timestamp_check": {
+    "monotonic": true,
+    "n_events": 541,
+    "n_missing_timestamp": 0,
+    "n_non_monotonic_steps": 0,
+    "n_unparseable_lines": 70,
+    "n_with_timestamp": 541,
+    "unparseable_line_numbers_sample": [
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
+    ]
+  },
+  "timestamps_ok": false,
+  "wall_duration_s": 484.924
+}
